@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: VsbzhRvoCTWRJbLtgU9b+g
+! Checksum: bSmYK7y+0M6XhC6p/bddEw
 !----------版本_5.0---------
 !-------------通用规则-------------
 |*/js.ng/*

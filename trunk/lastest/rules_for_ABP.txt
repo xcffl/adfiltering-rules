@@ -1,12 +1,13 @@
 ﻿[Adblock Plus 1.1]
-! Checksum: utd5IjRfjs6alK1GpLOHxg
-!----------版本_5.0.1---------
+!----------版本_5.0.2Beta1+---------
+!-----最后更新：2011-11-26_21:55-----
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
 |*/999aadbak.js*
 |*/adsjs/*
 |*/adtop/*.js*
+|*/clicker.swf
 |*/adv760.js*
 |*/advall.js*
 |*/advcode/*
@@ -153,7 +154,7 @@
 |*cpc/*
 |*cpc.*
 |*cpc_*
-|*/union/*$domain=~119g.com
+|*/union/*
 |*adunion*
 |*aliunion*
 |*unionads*
@@ -177,6 +178,7 @@
 |un*js.php*
 |*ad*/.swf*
 |*js_ad_*.js
+|*/adclick.js
 |*jshow.swf*
 |*.com/ff.js*
 |*_gg.*
@@ -482,7 +484,7 @@
 |*/adv_3b2g.js
 |*/images/sitead2.gif
 |*/js/promo/*
-|acs.*
+||acs.*
 |*/GetAdContent.aspx*
 |*/aaAssembly/*
 |*/gg_a.xml*
@@ -551,8 +553,9 @@
 |*.com.cn/gg/*
 |*.net/gg/*
 |*/counts.*
-|m/count.*
-|n/count.*
+||count.*
+|*m/count.*
+|*n/*count.*
 |*/pv?peerid=*
 |*pv.*.cc*
 |*pv.*.org*
@@ -569,7 +572,6 @@
 |*/play_down.html
 |*/mmscode/bigbanner/*
 |*/mmscode/smallbanner/*
-|*/popup.js
 |*/gogo.php?uid=*
 |*/js/showads_*.js
 |*/upload/images/ad_*x*_*.gif
@@ -673,11 +675,18 @@
 !-------------广告联盟-------------
 |*.0252.com/*
 ||i.uu06.com/*
+|*.topfriv.com/popup.js
+|*.securitymattersmag.com/scripts/popup.js
+|*.allthelyrics.com/*/popup.js
+||pub.buzz-time.com.cn/*
 |*.100fenlm.cn/*
+||p.tanx.com/ex?i=mm_17230573_*
 |*.1133.cc/*
 |*.jugao.com/*
 |*.100tone.com/*
 ||js.shenduchuanmei.com:81/*
+||show.k184.com:8080*
+||s.334700.com/*
 ||code.100Goo.com/*
 ||s.tiaosa.cn/*
 |*.001union.com/*
@@ -733,6 +742,7 @@
 |*.cnxad.com/*
 |*.cnzz.com/api/*.js
 |*.counter.dudu.com/*
+||u.3393.com/*
 |*.diyad.cn/*
 |*.dudusms.*
 |*.egooad.cn/*
@@ -757,6 +767,7 @@
 |*.leomediachina.*
 |*.lt77.com*
 |*.lzjl.com/*
+|*gamebox.962.net/468.jpg
 |*.miaozhen.com/*
 |*.mr66.com/*
 |*.myiee.com/*
@@ -850,6 +861,7 @@
 |*.ssrj.net/*
 ||cpm.union.52xiyou.com/*
 |*.s2d6.com/x/?*
+|*.game3737.com/*
 |*.adkongjian.com*
 |*.wrating.com/*
 |*inter-focus.cn/*
@@ -1018,6 +1030,7 @@
 |*8es.cn/code/*
 |*.spotrails.com/*
 |*.59ad.net/*
+||media.17leyi.com/*
 ||adsresult.joywell.com.cn/*
 |*.bmgad.com/*
 ||union.yihaodian.com/*
@@ -1213,6 +1226,7 @@
 |*sogou_ad*js*
 |*sogou_ad*php*
 |*sogouad*js*
+||aty.tv.sohu.com/v?*
 |*sogouad*php*
 ||inte.sogou.com/*
 ||pb.sogou.com/*
@@ -1277,6 +1291,7 @@
 |*.tudou.com/tdap/*
 !----优酷网----
 ||html.atm.youku.com/*
+||static.atm.youku.com/*/popup.js
 ||static.atm.youku.com/*swf*
 ||fvid.atm.youku.com/*
 ||walp.atm.youku.com/*
@@ -1464,6 +1479,7 @@
 !----cnBeta----
 ||img.cnbeta.com/*336.jpg
 |*cnbeta.com/images/tw*.jpg
+||img.cnbeta.com/wps*.gif
 ||img.cnbeta.com/*300.jpg
 ||img.cnbeta.com/tx*.gif
 ||img.cnbeta.com/yodao*.gif
@@ -1894,6 +1910,8 @@
 ||book.birdsee.com/scripjs/*.js
 !----易盘----
 ||www.163pan.com/ui/a2.gif
+!----金色旋风网赚----
+||www.hackp.com/images/*
 !----中原硅谷网----
 ||gg.zzit.com.cn/js/*.js
 !----搜房房地产网----
@@ -2084,6 +2102,8 @@
 ||www.hc360.com/js/*public.js
 !----东莞网盟----
 |*dgwblm.com/amoney/*
+!----百路发股票论坛----
+||www.bai68.com/top/*
 !----大公网----
 ||cq.takungpao.com/img*/abv/*
 |*takungpao.com/images/top/*
@@ -2423,9 +2443,11 @@
 |*facebook.com/extern/login_status.php?*
 |*facebook.com/plugins/like.php?*
 |*facebook.com/widgets/*
-!----GLOBE7----
 !----Taorar----
 |*88591.com/hy/*
+http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=http://ref.so/lanx
+!----REF.SO----
+||bbs.tazhao.com/api.php?*
 !----中国网赚论坛----
 |*you85.cn/1/*
 !----西西软件园----
@@ -2530,6 +2552,8 @@
 !----站长之家cnzz.cc----
 |*cnzz.cc/cn888/*
 |*cnzz.cc/soft/js/a_*
+!----电脑上WAP网----
+||beta.pctowap.com/img/bs*.jpg
 !----华商网----
 ||www.hsw.cn/images08/jsx_0611.gif
 ||eap.hsw.cn/*
@@ -2627,7 +2651,9 @@
 ||www.gy778tv.cn/UBB/uploadfile/News/20090411/20090411103618800.gif
 |*96.44.179.162*
 !----日搜----
-|*jpseek.com/pr/*
+|*.jpseek.com/pr/*
+|*.jpwave.net/*
+|*.jpunion.com/*
 !----开心网----
 ||img.kaixin001.com.cn/js/cpm*.js
 !----极影动漫----
@@ -3135,4 +3161,6 @@
 |*.drevil.to/*
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
+!-------------待分类-------------
+
 !-------------待分类-------------

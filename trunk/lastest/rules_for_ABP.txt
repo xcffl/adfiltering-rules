@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 1.1]
 !----------版本_5.0.2Beta1+---------
-!-----最后更新：2011-11-27_12:45-----
+!-----最后更新：2011-11-30_21:57-----
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -494,7 +494,6 @@
 |*/css/webad.js
 |*/att_count.js*
 |*/pageMediaControl_*
-|*/ifengRotatorAd.js
 |*/adtest/*
 |*/PauseAd.xml
 |*/AdLinkList.php
@@ -600,7 +599,6 @@
 |*/cached/creatives/*
 |*/AdManagers/*
 |*/adsfile/*
-|*/tres/ifeng/game/astd/*
 |*/vpnad.jpg
 |*/headwww.js
 |*/ad/*.php
@@ -1563,6 +1561,7 @@
 |*.99manga.com/haodm/dmjsc/*.js
 !----卡饭----
 ||bbs.kafan.cn/static/kafan_img/*
+||bbs.kafan.cn/static/kafan_bd/*
 ||static.ikafan.com/kafan_img/*
 !----17173----
 ||images.17173.com/*/www/*/*/*-*-*.swf
@@ -1589,8 +1588,12 @@
 !----风之动漫----
 |*.fzdm.com/ggup/*
 !----凤凰网----
+|*/tres/ifeng/game/astd/*
+|*/ifengRotatorAd.js
+||img.ifeng.com/tres/recommended/*
 ||img.ifeng.com/tres/recommend/*
 ||comment.ifeng.com/count_*
+||img.ifeng.com/tres/xgyy/yk/*
 ||img.ifeng.com/tres/ifeng/*
 ||img.ifeng.com/tres/ylgm/*
 ||stadig.ifeng.com/*
@@ -1650,6 +1653,14 @@
 ||img.hexun.com/hx_news/hx_news_finalpage.js
 ||hxjs.tool.hexun.com/homeway/pagemediacontrol*.js
 ||blog.hexun.com/inc/popbox.aspx
+!----皇马球迷俱乐部论坛----
+||img.rmfans.cn/g/*
+||ww2.sinaimg.cn/large/70aeb54ejw1dne8ifzz7ig.gif
+||ww2.sinaimg.cn/large/4090c584jw1dn5uzkybzog.gif
+||ww2.sinaimg.cn/large/70aeb54ejw1dmb1du466sg.gif
+||ww2.sinaimg.cn/large/70aeb54ejw1dlx69pf2qug.gif
+||ww2.sinaimg.cn/large/4090c584jw1dn5uw3ixmhg.gif
+||ww2.sinaimg.cn/large/70aeb54ejw1dmvk0etugjg.gif
 !----互联星空----
 ||game1.zj.vnet.cn/popup_*.js
 !----火狐主页----
@@ -1790,6 +1801,8 @@
 ||mopimg.cn/app/pub/pub.*.js
 ||in.dg.mop.com/*
 ||gg.mop.com/*
+!----淮南论坛----
+||img.0554cc.com/vip/*
 !----Ziddu----
 |*ziddu.com/images/globe7.gif
 |*ziddu.com/images/140x150_egglad.gif
@@ -2085,6 +2098,9 @@
 |*.huacolor.com/soft/UploadPic/*-*/*.jpg
 !----呱呱视频社区----
 ||a.17guagua.com/*
+!----文游台----
+||bbs.wenyoutai.com/ly/*
+||u.wenyoutai.com/*
 !----域名城----
 |*.domain.cn/*/ad/*
 !----13300软件站----
@@ -2652,9 +2668,12 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 !----广友影视----
 ||www.gy778tv.cn/UBB/uploadfile/News/20090411/20090411103618800.gif
 |*96.44.179.162*
-!----日搜----
+!----日搜&日饭&日居----
+|*.jpfans.com/pr/*
 |*.jpseek.com/pr/*
 |*.jpwave.net/*
+||www.riju.com/pr/koi.gif
+||www.riju.com/img/ouen.gif
 |*.jpunion.com/*
 !----开心网----
 ||img.kaixin001.com.cn/js/cpm*.js
@@ -2989,6 +3008,7 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 |*.taobao.com/go/act/taiwan_fashion/*.php?ad_id=&amp*
 |*.taobao.com/go/act/*?ad_id=&amp;am_id=&*
 ||a.tbcdn.cn/sys/promo/*
+||p.alimama.com/*
 |*/taobao/tao.html
 |*bbs.*/taobao/images/*
 ||tj.alisoft.com/*

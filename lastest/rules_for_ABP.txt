@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 1.1]
 !----------版本_5.0.2Beta1+---------
-!-----最后更新：2011-12-01_21:19-----
+!-----最后更新：2011-12-01_21:27-----
 |*adcode.*
 |*/adcode*
 |*/guanggao/*
@@ -773,7 +773,6 @@
 ||www.59.cn/*/*gg/*
 |*.59.cn/test/newgg/*
 ||img.sharele.cn/*
-||p1.1lo0.net/code/*
 ||un.sharele.cn/*
 ||code.u.18dx.com/*
 |*.58cpm.com/iclk/*

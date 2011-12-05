@@ -1,4 +1,4 @@
-﻿[Adblock Plus 1.1]
+ [Adblock Plus 1.1]
 !----------版本_5.0.2Beta1+---------
 !-----最后更新：2011-12-02_21:11-----
 !-------------通用规则-------------
@@ -98,9 +98,6 @@
 |*/adzone/banner*
 |*/banma.js*
 |*/bdcpro/*
-|*/bwp*?*
-|*/bwp*js*
-|*/bwp*php*
 |*/chat_float.js*
 |*/cnfriend/love.php*
 |*/dmap.gif*
@@ -3187,3 +3184,4 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
 !-------------待分类-------------
+

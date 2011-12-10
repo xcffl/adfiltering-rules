@@ -2665,6 +2665,9 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 !----游民星空----
 |*.gamersky.com/frame/*
 ||image.gamersky.com/img/660.swf
+!----美女图坊----
+||www.beautyfuns.com/wp-content/uploads/*/sun999.gif
+||www.beautyfuns.com/wp-content/uploads/*/yiyeqing.gif
 !----广友影视----
 ||www.gy778tv.cn/UBB/uploadfile/News/20090411/20090411103618800.gif
 |*96.44.179.162*

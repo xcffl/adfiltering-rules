@@ -1712,6 +1712,8 @@
 ||dict.hudong.com/xml/*.html
 ||hdad.hudong.com/*
 ||zt.hudong.com/wid.html
+!----中华网赚论坛----
+||www.you85.cn/2/*
 !----纳米盘----
 ||www.namipan.com/html/un/*
 ||d.namipan.com/inc_js/*.js

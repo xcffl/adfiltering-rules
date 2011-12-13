@@ -1,6 +1,6 @@
  [Adblock Plus 1.1]
 !----------版本_5.0.2Beta1+---------
-!-----最后更新：2011-12-10-----
+!-----最后更新：2011-12-13-----
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -1586,6 +1586,7 @@
 |*.fzdm.com/ggup/*
 !----凤凰网----
 |*/tres/ifeng/game/astd/*
+||y0.ifengimg.com/mappa/*/*/*/*.swf
 |*/ifengRotatorAd.js
 ||img.ifeng.com/tres/recommended/*
 ||img.ifeng.com/tres/recommend/*
@@ -1712,8 +1713,6 @@
 ||dict.hudong.com/xml/*.html
 ||hdad.hudong.com/*
 ||zt.hudong.com/wid.html
-!----中华网赚论坛----
-||www.you85.cn/2/*
 !----纳米盘----
 ||www.namipan.com/html/un/*
 ||d.namipan.com/inc_js/*.js
@@ -2111,6 +2110,9 @@
 |*.130111.com/ad*X*.gif
 !----爱上电影网----
 |*.94as.com/pic/*.gif
+!----美女图坊----
+||www.beautyfuns.com/wp-content/uploads/*/sun999.gif
+||www.beautyfuns.com/wp-content/uploads/*/yiyeqing.gif
 !----荆楚网----
 |*.cnhubei.com/gg_*/*/*.gif
 |*.cnhubei.com/gg_*/sptlggz_*/tlfyb_*/*/*.jpg
@@ -2432,6 +2434,8 @@
 ||sta.dayoo.com/*
 !----yoPoo又拍网----
 ||pic.yupoo.com/leoxuan/ANy7yxF8/F0yP5.jpg
+!----中华网赚论坛----
+||www.you85.cn/2/*
 !----创业邦----
 ||www.cyzone.cn/bian/pic/top_banner.swf
 ||img.cyzone.cn/ad/*
@@ -2667,9 +2671,6 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 !----游民星空----
 |*.gamersky.com/frame/*
 ||image.gamersky.com/img/660.swf
-!----美女图坊----
-||www.beautyfuns.com/wp-content/uploads/*/sun999.gif
-||www.beautyfuns.com/wp-content/uploads/*/yiyeqing.gif
 !----广友影视----
 ||www.gy778tv.cn/UBB/uploadfile/News/20090411/20090411103618800.gif
 |*96.44.179.162*

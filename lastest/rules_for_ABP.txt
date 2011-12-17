@@ -2340,6 +2340,8 @@
 |*lunwen119.com/js/gg_*.js
 !----飞鸟网----
 ||img.hdbird.com/langzi/*
+!----城通网盘----
+||static.ctdisk.com/510.js?*
 !----我的网址导航----
 |*.456t.com/taobao/*
 !----766游戏网----

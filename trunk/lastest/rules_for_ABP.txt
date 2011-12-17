@@ -1,6 +1,6 @@
  [Adblock Plus 1.1]
 !----------版本_5.0.2Beta1+---------
-!-----最后更新：2011-12-13-----
+!-----最后更新：2011-12-17-----
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -1869,6 +1869,12 @@
 |*.lanfw.com/uploadfile/*.gif
 !----眼睛卫士----
 |*eyefoo.com/images/*
+!----我的钢铁网----
+||61.129.113.104/onesteel/*
+||ojsteel.mysteel.com.cn/mysteel/*
+||a.mysteelcdn.com/common/3.0/index.js?*
+||a.mysteelcdn.com/common/3.0/ad*.jpg
+||b.mysteelcdn.com/mall/web/tg/mysteel_*.png
 !----飞翔下载----
 |*52z.com/images/*-*.swf
 |*52z.com/show/All.js
@@ -3190,4 +3196,3 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
 !-------------待分类-------------
-

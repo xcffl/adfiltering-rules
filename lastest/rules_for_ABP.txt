@@ -1,6 +1,6 @@
  [Adblock Plus 1.1]
 !----------版本_5.0.2Beta1+---------
-!-----最后更新：2011-12-17-----
+!-----最后更新：2011-12-20-----
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -1525,7 +1525,6 @@
 !----酷6----
 ||stat.ku6.com/*
 ||gug.ku6cdn.com/*
-||main.gslb.ku6.com/*
 ||i3.ku6img.com/cms/index/*/*/ad*.png
 ||i2.ku6img.com/cms/index/*
 ||image.ku6.com/*/g/*

@@ -1,6 +1,6 @@
  [Adblock Plus 1.1]
-!----------版本_5.0.2Beta1+---------
-!-----最后更新：2011-12-23-----
+!----------版本_5.0.2---------
+!-----最后更新：2011-12-25-----
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -550,7 +550,6 @@
 |*.com.cn/gg/*
 |*.net/gg/*
 |*/counts.*
-||count.*
 |*m/count.*
 |*n/*count.*
 |*/pv?peerid=*
@@ -1224,7 +1223,6 @@
 ||aty.tv.sohu.com/v?*
 |*sogouad*php*
 ||inte.sogou.com/*
-||pb.sogou.com/*
 ||images.sohu.com/cs/htmlfile/brand/*
 |*i3.itc.cn/20101029/*_*_*_a*_*_0.gif
 ||images.sohu.com/sms/*
@@ -2411,6 +2409,8 @@
 ||t.diypda.com/publicize/*
 !----盛大网盘EverBox----
 |*.everbox.com/images/*_ad.*
+!----千脑----
+||count.qiannao.com/*
 !----Yunfile----
 |*.yunfile.com/images/offline_banner/*x*.gif
 !----有问必答健康网----
@@ -2567,7 +2567,10 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 !----PIXNET----
 ||referer.pixplug.in/*
 |*pixnet.net/blog/addvisit?*
+||referer.pixplug.in/*
+||error.pixplug.in/*
 ||api.pixnet.tv/count?*
+||counter.pixplug.in/count.php
 |*pixanalytics.com/*
 !----全球免费中心----
 |*free789.com/images/*

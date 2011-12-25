@@ -673,6 +673,7 @@
 |*.topfriv.com/popup.js
 |*.securitymattersmag.com/scripts/popup.js
 |*.allthelyrics.com/*/popup.js
+|*.y2126.com/*
 ||pub.buzz-time.com.cn/*
 |*.100fenlm.cn/*
 ||p.tanx.com/ex?i=mm_17230573_*

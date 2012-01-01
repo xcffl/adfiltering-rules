@@ -1,5 +1,5 @@
+#summary 弱化更新日志实验目标
 #labels Phase-Implementation,Phase-Requirements,Phase-Design
-#弱化更新日志实验目标
 
 = 介绍 =
 

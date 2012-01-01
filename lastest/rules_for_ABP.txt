@@ -1,6 +1,6 @@
  [Adblock Plus 1.1]
-!----------版本_5.0.2---------
-!-----最后更新：2011-12-25-----
+!----------版本_5.0.3alpha---------
+!-----最后更新：2012-01-01-Happy_New_Year!-----
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -859,6 +859,7 @@
 |*.s2d6.com/x/?*
 |*.game3737.com/*
 |*.adkongjian.com*
+||cpp.ggyad.com*/*
 |*.wrating.com/*
 |*inter-focus.cn/*
 |*ip686.com*
@@ -1682,6 +1683,7 @@
 |*.replays.net/*/rnad/*
 !----赛牛网----
 |*.sitenoo.com/robot/*x*.gif
+|*.2y2r.org/data/attachment/forum/*
 !----言情小说吧----
 |*.xs8.cn/data/iframe/*
 !----潇湘书院----
@@ -1698,6 +1700,8 @@
 !----逐浪都市频道----
 ||css.zhulang.net/js/header.js
 !----永硕E盘----
+||zy.ys168.com/adtp/*
+|*/ys168/*
 ||www.ys168.com/images/gg*.gif
 !----博客网----
 |*adimage.bokee.com*

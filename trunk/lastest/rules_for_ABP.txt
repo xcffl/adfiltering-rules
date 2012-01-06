@@ -1668,8 +1668,8 @@
 !----互联星空----
 ||game1.zj.vnet.cn/popup_*.js
 !----火狐主页----
-||i.g-fox.cn/iframes/taobao_frame*.html
-||i.g-fox.cn/images/upload/*
+||i.firefoxchina.cn/images/upload/*_*.gif
+||i.firefoxchina.cn/iframes/*
 !----浅蓝攻略网----
 ||www.51saier.cn/images/*
 |*51saier.cn/uploads/allimg/100912/*

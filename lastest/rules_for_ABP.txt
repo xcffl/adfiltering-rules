@@ -1,6 +1,6 @@
  [Adblock Plus 1.1]
 !----------版本_5.0.3alpha---------
-!-----最后更新：2012-01-02-Happy_New_Year!-----
+!-----最后更新：2012-01-06-Happy_New_Year!-----
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -1441,6 +1441,7 @@
 ||notice.ppstream.com/M2006110043/*.swf
 |*.pps.tv/cprtp/*
 !----PPTV网络电视----
+||iafp.pptv.com/*
 |*pp2.pptv.com/*
 !----当当网----
 ||a.dangdang.com/*

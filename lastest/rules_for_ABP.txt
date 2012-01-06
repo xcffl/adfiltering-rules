@@ -436,7 +436,6 @@
 |*/guanggao-pic/*
 |*?bannerID=*
 |*/picshow.swf?*
-|*/ad*x*.png
 |*/ejinad/*
 |*?*_chatAD*
 |*_insideAD*

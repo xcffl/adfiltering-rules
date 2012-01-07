@@ -1860,7 +1860,7 @@
 ||www.cctv.com/blog/tanchu/*
 ||log.player.cntv.cn/*
 ||a.cntv.cn/*
-||d.cntv.cn*
+||d.cntv.cn/*
 !----金山网络----
 ||ruanjian.pc120.com/images/x*
 !----卓越亚马逊----

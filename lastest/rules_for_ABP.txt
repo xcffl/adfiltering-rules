@@ -26,6 +26,7 @@
 |*inc_page*
 |*pic_shareware*
 |*partner.p4p*
+|*adheader.*
 |*popunder_ad*
 |*qqhao-qq-com*
 |*qqbfree-welcometo*

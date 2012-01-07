@@ -925,6 +925,7 @@
 |*.union178.com/*
 |*qq61.com/*
 ||u1.skype.tom.com/*
+||ads.revsci.net/*
 ||ulinkdir.tom.com/*
 ||ulinkjs.tom.com/*
 ||online*.cnzz.com/img/*

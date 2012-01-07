@@ -1,6 +1,6 @@
  [Adblock Plus 1.1]
 !----------版本_5.0.3alpha---------
-!-----最后更新：2012-01-06-Happy_New_Year!-----
+!-----最后更新：2012-01-07-Happy_New_Year!-----
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -692,6 +692,7 @@
 |*.369456.com/*
 ||serve.popads.net/*
 |*popadscdn.net/*
+|*.tuite8.com/*
 ||js.ylunion.com/*
 ||js.zfjiu.com/*
 |*.17luntan.com/*

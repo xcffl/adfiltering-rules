@@ -1677,6 +1677,8 @@
 !----RayFile----
 |*.rayfile.com/scr/*
 ||img.rayfile.com/push/*
+!----城市联合网络电视台----
+||cfpfile.cutv.com/*
 !----MSN----
 ||ads*.msn.com/*.js
 ||rad.msn.com/*

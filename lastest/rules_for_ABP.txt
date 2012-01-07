@@ -1147,6 +1147,7 @@
 ||areainfo.xunlei.com/*
 ||union.xunlei.com/*
 ||tracker.movie.xunlei.com/*
+||images.client.xunlei.com/gougou_recommend/*
 ||kkpgv*.xunlei.com/*
 ||cop.my.xunlei.com/*
 ||p4pstatic.xunlei.com*

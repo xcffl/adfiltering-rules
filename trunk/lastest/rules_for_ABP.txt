@@ -2608,7 +2608,7 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 |*cnzz.cc/cn888/*
 |*cnzz.cc/soft/js/a_*
 !----电脑上WAP网----
-||beta.pctowap.com/img/bs*.jpg
+|*.pctowap.com/img/bs*.jpg
 !----华商网----
 ||www.hsw.cn/images08/jsx_0611.gif
 ||eap.hsw.cn/*

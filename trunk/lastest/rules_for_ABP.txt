@@ -684,6 +684,7 @@
 |*.100tone.com/*
 ||js.shenduchuanmei.com:81/*
 ||show.k184.com:8080*
+||img.alimama.cn/cms/images/*.swf
 ||s.334700.com/*
 ||code.100Goo.com/*
 |*.chenjingli.com/*

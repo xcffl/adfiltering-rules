@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.3alpha---------
-!-----最后更新：2012-01-18------
+!-----最后更新：2012-01-19------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -1663,7 +1663,6 @@
 ||hxjs.tool.hexun.com/homeway/pagemediacontrol*.js
 ||blog.hexun.com/inc/popbox.aspx
 !----皇马球迷俱乐部论坛----
-/large/*$domain=bbs.rmfans.cn
 ||img.rmfans.cn/g/*
 ||ww2.sinaimg.cn/large/70aeb54ejw1dne8ifzz7ig.gif
 ||ww2.sinaimg.cn/large/4090c584jw1dn5uzkybzog.gif
@@ -1675,8 +1674,9 @@
 ||ww2.sinaimg.cn/large/70aeb54ejw1dmvk0etugjg.gif
 !----互联星空----
 ||game1.zj.vnet.cn/popup_*.js
-!----火狐主页----
+!----火狐中文网&火狐主页----
 ||i.firefoxchina.cn/images/upload/*_*.gif
+||www.firefoxchina.cn/cooperation/header_image_huanqiu.html
 ||i.firefoxchina.cn/iframes/*
 !----浅蓝攻略网----
 ||www.51saier.cn/images/*

@@ -31,6 +31,7 @@
 *.186ad.com/*
 *.1autopay.com/*
 *.1lo0.net/code/*
+*.1o26.com/*
 *.247realmedia.com/*
 *.26.la/*js
 *.2bj.cc*
@@ -38,6 +39,7 @@
 *.2bj.cn:8899/*
 *.2kkk.com/*
 *.2t2t.cn/*
+*.2y2r.org/data/attachment/forum/*
 *.2yt.net*
 *.333wan.com/*
 *.360kaixin.com/*
@@ -73,6 +75,7 @@
 *.7ask.cn/*
 *.7iam.com/*
 *.7pk.com/*
+*.826060.com/*
 *.8368.info/*
 *.8369.info/*
 *.88210212.com/*
@@ -145,6 +148,7 @@
 *.boodvd.cn/*
 *.bookgew.com/zj85/tao.html
 *.burstmedia.com/*
+*.chenjingli.com/*
 *.chinaih.com/*
 *.chitika.com/*
 *.cicih.cn/images/kuaiji.gif
@@ -285,6 +289,7 @@
 *.p2v.tudou.com*
 *.panduola.com/*
 *.pconline.com.cn/images/lmt/area_lmt.js
+*.pctowap.com/img/bs*.jpg
 *.pee.cn/*
 *.people.com.cn/mediafile/*.swf
 *.picadmedia.com/*
@@ -346,6 +351,7 @@
 *.tudou.com/tdap/*
 *.tudou.com/tdcm/*
 *.tuigoo.com/*
+*.tuite8.com/*
 *.tx8688.com/*
 *.tx908.com/*
 *.uctrac.com/*
@@ -380,6 +386,7 @@
 *.xs8.cn/data/iframe/*
 *.xxsy.net/sygg/*
 *.xxxwebtraffic.com/*
+*.y2126.com/*
 *.yebai.net/*
 *.yeeka.com/*
 *.yeeyoo.com/*
@@ -424,7 +431,6 @@
 */aaaddd/*
 */aaassembly/*
 */aadd/*
-*/ad*x*.png
 */ad-images/*
 */ad.asp?*
 */ad.files/*
@@ -893,6 +899,7 @@
 */yeskyadroller.swf
 */yoqooads_*
 */youxiajiao/*
+*/ys168/*
 */ysmad/*
 */yzjy/?age=*
 */zbxxg2009b/ggw/dmtgg/*
@@ -1012,6 +1019,7 @@
 *adcontrol.*
 *adcount.sandai.net*
 *addplayer*report*
+*adheader.*
 *adimage.bokee.com*
 *adjump.*
 *admin5.com/extras/*images/*x*.swf
@@ -1643,6 +1651,7 @@ adp.cnki.net/*
 adportal.cbsi.com.cn/*
 ads*.msn.com/*.js
 ads*.qq.com/*
+ads.revsci.net/*
 ads158.ynet.com/*
 adsresult.joywell.com.cn/*
 advertisement.tianya.cn/*
@@ -1693,7 +1702,6 @@ bbs.xmfish.com/images/atm/*
 bbs.yeeyi.com/bbs/api/*
 bbsupload.yydm.com/*-*.swf
 bd.yidaba.com*
-beta.pctowap.com/img/bs*.jpg
 bf.bet007.com/top.js
 bill.tgbus.com/html/*
 biz*.sandai.net/*
@@ -1732,6 +1740,7 @@ cb.alimama.cn/*
 cb.baidu.com/*
 cbjs.baidu.com/*
 cdn.udmserve.net/mid858/*
+cfpfile.cutv.com/*
 chat8.live800.com*
 chunjie.baidu.com/img/nbigb*
 chunjie.baidu.com/img/nsmb*
@@ -1786,6 +1795,7 @@ counter.pixplug.in/count.php
 cp1.blcx.com*
 cpm.union.52xiyou.com/*
 cpm.yx121.com/*
+cpp.ggyad.com*/*
 cpro.baidu.com/*
 cpv.channelray.com*
 cq.takungpao.com/img*/abv/*
@@ -1794,7 +1804,8 @@ css.ku6cdn.com/podcast/img/bg_ad.gif
 css.zhulang.net/js/header.js
 cw002.kuaikuai.cn/website/subject/editor_recommend2/*
 cyzone.cn/bian/pic/top_banner.swf
-d.cntv.cn*
+d*.zedo.com/*
+d.cntv.cn/*
 d.namipan.com/flash/*.swf
 d.namipan.com/inc_js/*.js
 d.yoyi.tv/*
@@ -1863,6 +1874,7 @@ f.qstatic.com/*
 fangte.com/aswf.swf
 feo.staticsdo.com/*
 file.chanet.com.cn*
+firefoxchina.cn/cooperation/header_image_huanqiu.html
 float2006.tq.cn/*
 flv.jsbc.com/playerad/*
 fodder.qq.com/*
@@ -1915,8 +1927,8 @@ html.molidao.com*
 hxjs.tool.hexun.com/homeway/pagemediacontrol*.js
 i*.17173.itc.cn/*/www/*/sx/*/*.jpg
 i.6.cn/cvbnm/99/18/a3/4478ff78d6c6565d9fc6a635ad173121.jpg
-i.g-fox.cn/iframes/taobao_frame*.html
-i.g-fox.cn/images/upload/*
+i.firefoxchina.cn/iframes/*
+i.firefoxchina.cn/images/upload/*_*.gif
 i.uu06.com/*
 i0.sinaimg.cn/home/*/*/u*.gif
 i0.sinaimg.cn/home/2010/1220/u210p30dt20101220093229.jpg
@@ -1929,6 +1941,7 @@ i3.17173.itc.cn/*/www/*/*/*-*-*.*
 i3.ku6img.com/cms/index/*/*/ad*.png
 i3.sinaimg.cn/home/2011/*/u*dt*.gif
 iads.xinmin.cn/*
+iafp.pptv.com/*
 iciba.englishtown.com/sp/landing/*
 icon.zdnet.com.cn/software_zone/pic/utd/ad_*.gif
 idm666.s159.288idc.com/*
@@ -1962,6 +1975,7 @@ images.chinaz.com/index_images/wz.htm
 images.chinaz.com/index_imagesa/*
 images.chinaz.com/newindex_images/*
 images.chinaz.com/tool/*
+images.client.xunlei.com/gougou_recommend/*
 images.csdn.net/20101105/*
 images.dayoo.com/dywimg/*
 images.dot.tk/content/images/*.gif
@@ -1993,6 +2007,7 @@ img.265g.com/images/*.gif
 img.360.cn/images/2008/360cn/huodong/*x*.jpg
 img.3bu.cn/js/*.js
 img.alimama.cn/a/*
+img.alimama.cn/cms/images/*.swf
 img.alimama.cn/cms/push*
 img.alimama.cn/topicfile/*-*-*/*.*
 img.c4.ku6.cn/*/upload/*.swf
@@ -2002,6 +2017,7 @@ img.cnbeta.com/*300.jpg
 img.cnbeta.com/*336.gif
 img.cnbeta.com/*336.jpg
 img.cnbeta.com/*336.png
+img.cnbeta.com/*3362.gif
 img.cnbeta.com/app*.gif
 img.cnbeta.com/ks*.gif
 img.cnbeta.com/ks*.jpg
@@ -2557,6 +2573,7 @@ www.naqigs.cn/*
 www.netgy.com/*
 www.newwang.com/*
 www.okhaobang.com/*
+www.oneqing.com/lip/ons*.gif
 www.ouyaoxiazai.com/*f*.js
 www.oyksoft.com/pic/*
 www.ozchinese.com/image/*.gif
@@ -2582,10 +2599,12 @@ www.subpig.net/add/*
 www.thexiu.com/pop/*
 www.tompda.com/images/*x*0*.swf
 www.tompda.com/tupian/*-*-*/*.swf
+www.top1bet.com/imgs/zp*x*.gif
 www.tv365w.com/sq*.gif
 www.uueasy.com/images/pai_taobao*
 www.vancl.com/websource/*
 www.veryhuo.com/images/gaogao/*x*_*.gif
+www.xixianad.com/*
 www.yceml.net/*
 www.yesky.com/image*/*
 www.yindaoxian.com/*up-pic/*
@@ -2609,5 +2628,6 @@ zhidao.baidu.com/s/ikqb/*
 zhulang.com/js/pf2.js
 ziti.cndesign.com/logo*.gif
 zt.hudong.com/wid.html
+zy.ys168.com/adtp/*
 zyylva.blu.livefilestore.com/*
 zyypva.blu.livefilestore.com/*

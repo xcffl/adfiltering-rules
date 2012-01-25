@@ -17,6 +17,7 @@
 |*/adver_*
 |*/eventad/*
 |*/toptip.js*
+|*_ad_iframe.*
 |*/ttads.*
 |*/tuijianimg/*
 |*/tygg/*

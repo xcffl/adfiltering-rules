@@ -1538,6 +1538,7 @@
 !----m1905.com----
 ||static.acs86.com/*
 !----酷6----
+||dwtracking.sdo.com/*
 ||stat.ku6.com/*
 ||gug.ku6cdn.com/*
 ||i3.ku6img.com/cms/index/*/*/ad*.png

@@ -1967,6 +1967,8 @@
 ||gg.zzit.com.cn/js/*.js
 !----搜房房地产网----
 ||home.soufun.com/html/*
+!---耳机网
+||photo.erji.com/*
 !----17K（一起看）小说网----
 ||img.17k.com/channel/qita/*
 ||img.17k.com/js/jquery*.js

@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.4alpha--新春愉快-------
-!-----最后更新：2012-01-25------
+!-----最后更新：2012-01-27------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -1149,6 +1149,7 @@
 ||tj.xunlei.com/*
 ||hezuo.down.xunlei.com/*
 ||gouwu.vip.xunlei.com/*
+||img.gougou.com/down/aishangwang2.jpg
 ||areainfo.xunlei.com/*
 ||union.xunlei.com/*
 ||tracker.movie.xunlei.com/*

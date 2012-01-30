@@ -555,7 +555,7 @@
 |*.net/gg/*
 |*/counts.*
 |*m/count.*
-|*n/*count.*
+|*.cn/*count.*
 |*/pv?peerid=*
 |*pv.*.cc*
 |*pv.*.org*

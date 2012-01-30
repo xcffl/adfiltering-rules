@@ -340,10 +340,6 @@
 |*/stat.php?ad_id*
 |*/ggimg/*.gif
 |*/adbot*.js
-|*/js_newhua_left_picshow*.js
-|*/js_newhua_picshow*.js
-|*/js_newhua_right_picshow*.js
-|*/js_newhua_txtshow*.js
 |*/js_softdown_picshow*.js
 |*/js_softdown_left_picshow*.js
 |*/newhua_index_pic_*.js
@@ -1457,8 +1453,13 @@
 !----当当网----
 ||a.dangdang.com/*
 ||img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
-!----华军软件园----
+!----华军软件园&牛华网----
 |*/newhuagg/pptv.jpg
+|*/newhuagg/doudizhu68080.jpg
+|*/js_newhua_left_picshow*.js
+|*/js_newhua_picshow*.js
+|*/js_newhua_right_picshow*.js
+|*/js_newhua_txtshow*.js
 |*newhua.com/zt/*
 |*/newhuagg/*.gif
 |*/newhuagg/*.swf

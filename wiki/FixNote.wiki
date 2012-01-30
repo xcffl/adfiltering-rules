@@ -1,0 +1,10 @@
+#summary 待查验疑似误过滤
+
+= 规则 =
+== 通用 ==
+
+*/html.ng/*
+*/adplayer/*
+*/adpolestar/* 
+*/show.aspx?id=*
+

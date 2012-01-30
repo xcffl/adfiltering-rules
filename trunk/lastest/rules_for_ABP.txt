@@ -1460,7 +1460,6 @@
 |*/js_newhua_picshow*.js
 |*/js_newhua_right_picshow*.js
 |*/js_newhua_txtshow*.js
-|*newhua.com/zt/*
 |*/newhuagg/*.gif
 |*/newhuagg/*.swf
 |*/newhuagg/*_*_*.js

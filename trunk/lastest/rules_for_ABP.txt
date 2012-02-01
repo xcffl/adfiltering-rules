@@ -1488,6 +1488,7 @@
 !----FLvcd----
 |*.flvcd.com/image/partner/*
 !----cnBeta----
+||img.cnbeta.com/*300.gif
 ||img.cnbeta.com/*336.jpg
 |*cnbeta.com/images/tw*.jpg
 ||img.cnbeta.com/wps*.gif

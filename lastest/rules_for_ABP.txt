@@ -1919,6 +1919,8 @@
 |*verypsp.com/bd.html
 |*verypsp.com/cj.html
 !----36氪----
+||static.36kr.com/wp-content/uploads/*/*/*_*_*.*
+||static.36kr.com/wp-content/uploads/krads-images/*
 ||img*.36krcnd.com/wp-content/uploads/krads-images/*
 !----中国英语网----
 |*chinaenglish.com.cn/images/pic/*lish.jpg

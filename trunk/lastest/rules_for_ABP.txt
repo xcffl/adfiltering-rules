@@ -679,6 +679,7 @@
 |*.100fenlm.cn/*
 ||p.tanx.com/ex?i=mm_17230573_*
 |*.1133.cc/*
+||union.zhubajie.com/*
 |*.jugao.com/*
 |*.100tone.com/*
 ||js.shenduchuanmei.com:81/*
@@ -1736,6 +1737,8 @@
 |*price.cheshi.com.cn*
 !----我看书斋----
 |*5ccc.net/scripts/*
+!----itBulo.com----
+||img.itbulo.com/js/pic/a*-*.gif
 !----IT世界网----
 ||bjdcdv.it.com.cn*
 !----互动百科----

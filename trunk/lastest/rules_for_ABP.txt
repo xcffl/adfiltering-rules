@@ -1576,6 +1576,8 @@
 !----久久漫画----
 |*.99manga.com/g/*
 |*.99manga.com/haodm/dmjsc/*.js
+!----互联网的那点事----
+||alibuybuy-wordpress.stor.sinaapp.com/*
 !----卡饭----
 ||bbs.kafan.cn/static/kafan_img/*
 ||bbs.kafan.cn/static/kafan_bd/*

@@ -8,4 +8,4 @@
 
 = 订阅方法 =
 
-到http://www.iegallery.com/cn/trackingprotectionlists/default.aspx找到XXX，点击右侧“添加按钮”即可。（未开启）
+到 http://www.iegallery.com/cn/trackingprotectionlists/default.aspx 找到XXX，点击右侧“添加按钮”即可。（未开启）

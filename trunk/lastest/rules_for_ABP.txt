@@ -50,7 +50,12 @@
 |*.ad.*
 |*.ad1.*
 |*.ads.*
-|*/ads/*
+|*/ads/*.ico*
+|*/ads/*.htm*
+|*/ads/*.js
+|*/ads/*.gif*
+|*/ads/*.png*
+|*/ads/*.jpg*
 |*/clink/*
 |*/*.popup.*.js
 |*/a-d-s/*
@@ -1312,6 +1317,8 @@
 ||lstat.youku.com/*
 |*220.181.154.*/youku/*
 !----雅虎----
+||l.yimg.com/d/lib/bc/bcr_2.0.5.js
+||l.yimg.com/f/a/tw/gif_backup/ad_*.gif
 |*.webmaster.yahoo.com/*
 ||p.mm.cn.yahoo.com*
 |*yahoo-ads*

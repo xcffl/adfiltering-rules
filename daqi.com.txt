@@ -1,0 +1,6 @@
+5,4,static.csbew.com/k.js
+5,4,log.daqi.com/*
+5,4,gg.daqi.com/*
+5,4,*daqi.com/clicklog.js
+5,4,*/tuiguang/*
+5,4,*.google-analytics.com/*

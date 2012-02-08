@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.4alpha---------
-!-----最后更新：2012-02-06------
+!-----最后更新：2012-02-08------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -50,12 +50,7 @@
 |*.ad.*
 |*.ad1.*
 |*.ads.*
-|*/ads/*.ico*
-|*/ads/*.htm*
-|*/ads/*.js
-|*/ads/*.gif*
-|*/ads/*.png*
-|*/ads/*.jpg*
+|*/ads/*
 |*/clink/*
 |*/*.popup.*.js
 |*/a-d-s/*
@@ -1552,6 +1547,7 @@
 ||static.acs86.com/*
 !----酷6----
 ||dwtracking.sdo.com/*
+||ku6afp.allyes.com/*
 ||stat.ku6.com/*
 ||gug.ku6cdn.com/*
 ||i3.ku6img.com/cms/index/*/*/ad*.png
@@ -3103,6 +3099,8 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||cj.qidian.com/Flash/*_*.swf
 ||cj.qidian.com/include/bottom_snda1.htm
 ||cj.qidian.com/Picture/*.gif
+||aa.sdo.com/*
+|*.aa.sdo.com/*
 |*qidian.com/Javascript/CaiHongJingLing.js
 ||feo.staticsdo.com/*
 ||ipic.staticsdo.com/*
@@ -3258,3 +3256,6 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
 !-------------待分类-------------
+||aa.sdo.com/*
+|*.aa.sdo.com/*
+||rs.sinajs.cn/*

@@ -1174,6 +1174,7 @@
 ||un.so.gougou.com/*
 |*mcfg.sandai.net/*
 !----新浪网----
+||rs.sinajs.cn/*
 |*sina.ec90.com/*
 |*.adsina.*
 |*.sina.com.cn/iframe/content*/*
@@ -2200,8 +2201,6 @@
 ||img181.poco.cn/mypoco/myphoto/20110518/23/5296431020110518234058067.gif
 !----鲜网----
 ||64.124.54.122//image/banner/*
-!----剑盟----
-||bbs.janmeng.com/ad/*
 !----爱游网页游戏----
 ||uimg.yxcpm.com/*
 !----摆渡当----
@@ -2618,7 +2617,6 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 !----PIXNET----
 ||referer.pixplug.in/*
 |*pixnet.net/blog/addvisit?*
-||referer.pixplug.in/*
 ||error.pixplug.in/*
 ||api.pixnet.tv/count?*
 ||counter.pixplug.in/count.php
@@ -3083,7 +3081,6 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 |*bbs.*/taobao/images/*
 ||tj.alisoft.com/*
 ||img.im.alicdn.com/po/images/*
-||img.im.alicdn.com/ad/pic/*
 ||po.im.alisoft.com/*
 !----XP系统下载乐园----
 |*.xp500.com/images/*.gif
@@ -3095,7 +3092,6 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 !----新蛋中国----
 ||c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
 !----盛大在线&起点中文网----
-||dfp.aa.sdo.com/*
 ||cj.qidian.com/Flash/*_*.swf
 ||cj.qidian.com/include/bottom_snda1.htm
 ||cj.qidian.com/Picture/*.gif
@@ -3256,6 +3252,3 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
 !-------------待分类-------------
-||aa.sdo.com/*
-|*.aa.sdo.com/*
-||rs.sinajs.cn/*

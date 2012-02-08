@@ -1,0 +1,4 @@
+5,4,a.alimama.cn/*
+5,4,*ashow.*
+5,4,cpro.baidu.com/*
+5,4,*/gg/*.js

@@ -1595,7 +1595,6 @@
 ||www.17173.com/script/ggcommon.js
 ||book.17173.com/17k/xct/*
 ||media.17173.com/09gonggao.js
-||app-02.my.17173.com/*
 ||images.17173.com/*/sx/*
 ||media.17173.com/x/*
 ||js.17173.com/ping.js

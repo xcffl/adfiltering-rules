@@ -50,7 +50,12 @@
 |*.ad.*
 |*.ad1.*
 |*.ads.*
-|*/ads/*
+|*/ads/*.ico*
+|*/ads/*.htm*
+|*/ads/*.js
+|*/ads/*.gif*
+|*/ads/*.png*
+|*/ads/*.jpg*
 |*/clink/*
 |*/*.popup.*.js
 |*/a-d-s/*

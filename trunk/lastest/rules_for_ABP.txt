@@ -1316,7 +1316,6 @@
 ||static.atm.youku.com/*/*/*x*.jpg
 ||stat.youku.com/*
 ||lstat.youku.com/*
-|*220.181.154.*/youku/*
 !----雅虎----
 ||l.yimg.com/d/lib/bc/bcr_2.0.5.js
 ||l.yimg.com/f/a/tw/gif_backup/ad_*.gif

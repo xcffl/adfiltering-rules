@@ -1,0 +1,5 @@
+|*/pv?s=*
+||v2.tudou.com/td*/*
+|*/tui/*js*
+|*/saleloader*.js
+|*index_ad*

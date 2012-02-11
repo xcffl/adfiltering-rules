@@ -1,0 +1,9 @@
+5,4,cpro.baidu.com/*
+5,4,*.ajiang.net/*
+5,4,*.1lo0.net/code/*
+5,4,*/guanggao/*
+5,4,*/fmt.js
+5,4,*.ajiang.net/*
+5,4,*.qiyou.com/*
+5,4,*.googlesyndication.com/*
+5,4,*/gonggao.js

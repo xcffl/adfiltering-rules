@@ -1,0 +1,17 @@
+!-------------Жёвт&Еігу-------------
+|*.26.la/*js
+|*.2kkk.com/*
+|*.2t2t.cn/*
+|*.aiqianming.cn/*
+|*.web-qq-com.cn/*
+||360.legoumall.com/?id=*
+|*.jianfei234.com/*
+|*gaomm.in/*
+
+
+
+
+
+
+
+

@@ -1,0 +1,2 @@
+5,4,ad.*/*
+5,4,*.sponsorads.de/*

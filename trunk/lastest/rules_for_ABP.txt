@@ -1132,6 +1132,7 @@
 !----腾讯&财付通----
 ||mat1.gtimg.com/cq/*
 ||mat1.gtimg.com/sports/2011ad/*
+||rh.qq.com/*
 ||pingfore.qq.com/*
 ||trace.qq.com/*
 ||go.ae.tenpay.com/cgi-bin/*

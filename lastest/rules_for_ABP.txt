@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.4alpha---------
-!-----最后更新：2012-02-08------
+!-----最后更新：2012-02-11------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -923,7 +923,7 @@
 ||cpm.yx121.com/*
 ||go.lele.com/*
 ||ipagent.igalive.com/s.aspx?adid=*
-||imgserv.sponsorads.de/*
+||*.sponsorads.de/*
 |*yceml.net/0106/*
 ||www.yceml.net/*
 ||js*.339.cn/*

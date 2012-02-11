@@ -923,7 +923,7 @@
 ||cpm.yx121.com/*
 ||go.lele.com/*
 ||ipagent.igalive.com/s.aspx?adid=*
-||*.sponsorads.de/*
+|*.sponsorads.de/*
 |*yceml.net/0106/*
 ||www.yceml.net/*
 ||js*.339.cn/*

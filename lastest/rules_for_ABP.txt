@@ -424,7 +424,6 @@
 |*_click.js
 |*/stat.do?videoId=*
 |*/*lick.html?adid=*
-|*/trans_downsoft.php?id=*
 |*/file_get.aspx?*
 |*/HBannerAutoSize.swf?*
 |*/beautifyChannelHor.htm?*

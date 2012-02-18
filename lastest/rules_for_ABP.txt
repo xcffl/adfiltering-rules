@@ -2132,6 +2132,8 @@
 !----红旅动漫----
 ||www.hltm.net/4.15/*.js
 ||www.hltm.net/ad*.gif
+!----XP下载部落----
+||www.xp911.com/img/xitong.gif
 !----52硬件----
 ||www.52hardware.com/topic/*
 !----天上人间动漫网----

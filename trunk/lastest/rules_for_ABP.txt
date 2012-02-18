@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.4alpha---------
-!-----最后更新：2012-02-12------
+!-----最后更新：2012-02-18------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -2119,6 +2119,9 @@
 !----OnlyLady女人志----
 |*onlylady.com/kds/thread.html
 ||btn.onlylady.com/*.swf
+!----河源下载站----
+||www.cngr.cn/youxi/UploadPic/*-*/*.jpg
+||www.cngr.cn/youxi/UploadPic/*-*/*.gif
 !----昨日小筑----
 ||pic*.dler.org/up_img/ven/*
 ||pic.dler.org/up_img/corp/*

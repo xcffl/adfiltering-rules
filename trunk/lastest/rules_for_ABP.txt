@@ -2160,6 +2160,8 @@
 ||dl.dydao.com/taobao*.gif
 ||dl.dydao.com/daikao*.gif
 !----人人影视----
+||tbphoto.bababian.com/upload2/%E7%BB%BF%E7%BB%BF%E6%88%91%E7%88%B1/710_90.gif
+||img.uu1001.cn/wrappler_swf2/2011-12-27/19/1b/27403090_cb427d45b6c6ae9f46b0ad3ceb2060db_268x90.swf
 |*.yyets.com/forumid_*/*.gif
 !----华彩软件园----
 |*.huacolor.com/soft/UploadPic/*.gif

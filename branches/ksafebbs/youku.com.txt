@@ -1,0 +1,14 @@
+5,4,html.atm.youku.com/*
+5,4,f.youku.com/player/getFlvPath/fileid/*
+5,4,static.atm.youku.com/*/popup.js
+5,4,valf.atm.youku.com/show?*
+5,4,static.atm.youku.com/*swf*
+5,4,fvid.atm.youku.com/*
+5,4,walp.atm.youku.com/*
+5,4,valp.atm.youku.com/*
+5,4,valc.atm.youku.com/*
+5,4,static.atm.youku.com/*/*/*_*.jpg
+5,4,static.atm.youku.com/*/*/*/*-*.jpg
+5,4,static.atm.youku.com/*/*/*x*.jpg
+5,4,stat.youku.com/*
+5,4,lstat.youku.com/*

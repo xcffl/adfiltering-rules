@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.4alpha---------
-!-----最后更新：2012-02-19------
+!-----最后更新：2012-02-20------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -2984,6 +2984,7 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 !----盛唐军事网----
 |*junshier.com/data/js/*
 !----环球网----
+||huanqiu.allyes.com/*
 |*huanqiu.com/script/content_js/*
 !----原动力资讯----
 |*htpc1.com/newfolder/*

@@ -2349,6 +2349,8 @@
 |*appinn.com/wp-content/uploads/*
 |*appinn.com/wp-content/chinamode2010nominate.png
 |*appinn.com/wp-content/since84.jpg
+!----一起动漫----
+||www.17dm.com/s/common/js/*AD.js
 !----网赚社区----
 ||www.koo4.cn/c*.gif
 ||www.koo4.cn/*d*.gif

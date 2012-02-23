@@ -2733,6 +2733,7 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 !----8858游戏网----
 |*8558.org/nyimg/*
 !----百书斋----
+||www.baishuzhai.com/bookaction.aspx
 ||www.baishuzhai.com/wlxsjs/c_gg2.js
 !----恒星英语学习网----
 ||img*.hxen.com/js/ce/*
@@ -3275,4 +3276,3 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
 !-------------待分类-------------
-||a.tbcdn.cn^

@@ -691,6 +691,7 @@
 ||union.zhubajie.com/*
 |*.jugao.com/*
 |*.100tone.com/*
+||js.yoyi.tv/*
 ||js.shenduchuanmei.com:81/*
 ||show.k184.com:8080*
 ||img.alimama.cn/cms/images/*.swf
@@ -1942,6 +1943,8 @@
 |*verypsp.com/dl.js
 |*verypsp.com/bd.html
 |*verypsp.com/cj.html
+!----男人志----
+||img.mansuno.com/file/article/fashion/detail/*-*/*.swf
 !----36氪----
 ||static.36kr.com/wp-content/uploads/*/*/*_*_*.*
 ||static.36kr.com/wp-content/uploads/krads-images/*
@@ -3278,4 +3281,3 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
 !-------------待分类-------------
-||a.tbcdn.cn^

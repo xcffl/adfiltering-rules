@@ -1,8 +1,8 @@
 ﻿[General]
-version=5.0.3
+version=504
 name=广告过滤软件通用强效广告过滤规则 for AB Pro
 updateUrl=https://code.google.com/p/adfiltering-rules/source/browse/trunk/lastest/rules_for_AB_PRO.txt
-updateTime=
+updateTime=0
 [Whitelist]
 [Block Address]
 *&adid=*

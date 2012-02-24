@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.4alpha---------
-!-----最后更新：2012-02-23------
+!-----最后更新：2012-02-24------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -2733,8 +2733,10 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 !----8858游戏网----
 |*8558.org/nyimg/*
 !----百书斋----
-||www.baishuzhai.com/bookaction.aspx
-||www.baishuzhai.com/wlxsjs/c_gg2.js
+|*.baishuzhai.com/wlxsjs/chapter.js
+|*.baishuzhai.com/wlxsjs/bdSearch_mid.js
+|*.baishuzhai.com/wlxsjs/bd0*.js
+|*.baishuzhai.com/wlxsjs/*gg*.js
 !----恒星英语学习网----
 ||img*.hxen.com/js/ce/*
 ||img*.hxen.com/js/dl/close.gif
@@ -3276,3 +3278,4 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
 !-------------待分类-------------
+||a.tbcdn.cn^

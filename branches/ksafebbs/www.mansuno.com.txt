@@ -1,0 +1,8 @@
+5,4,hm.baidu.com/*
+5,4,cpv.channelray.com*
+5,4,cpro.baidu.com/*
+5,4,a.alimama.cn/*
+5,4,*.ajiang.net/*
+5,4,*/js/acmsd/*
+5,4,img.mansuno.com/file/article/fashion/detail/*-*/*.swf
+5,4,js.yoyi.tv/*

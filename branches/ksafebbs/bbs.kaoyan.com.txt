@@ -1,0 +1,9 @@
+5,4,tcss.qq.com/ping.js
+5,4,nsclick.baidu.com/*
+5,4,images.sohu.com/cs/jsfile/js/*
+5,4,hm.baidu.com/*
+5,4,cpro.baidu.com/*
+5,4,cbjs.baidu.com/*
+5,4,*/tc.js
+5,4,*.google-analytics.com/*
+5,4,*.googlesyndication.com/*

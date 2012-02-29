@@ -1708,6 +1708,7 @@
 !----互联星空----
 ||game1.zj.vnet.cn/popup_*.js
 !----火狐中文网&火狐主页----
+||i.firefoxchina.cn/alimama_banner_f.html*
 ||i.firefoxchina.cn/images/upload/*_*.gif
 ||www.firefoxchina.cn/cooperation/header_image_huanqiu.html
 ||i.firefoxchina.cn/iframes/*
@@ -3284,4 +3285,3 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
 !-------------待分类-------------
-||static.ikafan.com/kafan_bd/*

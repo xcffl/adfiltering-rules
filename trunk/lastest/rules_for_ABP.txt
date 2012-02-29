@@ -44,7 +44,6 @@
 |*yadun*
 |*youpiao*.js
 |*/svnad/*
-|*r?site=*
 |*.adpolestar.*
 |*/adphoto/*
 |*clink.*
@@ -1275,13 +1274,15 @@
 ||links.kugou.com/*
 ||sdn.kugou.com/*
 !----网易&有道----
+||flv.bn.netease.com/*
 |*/163ad/*
 ||images*.cache.netease.com/channel*
 ||v.163.com/special/open_adv/*
 ||v.163.com/special/008547FN/gg20091116.xml
 ||tech.163.com/*.js
 ||images.163.com/*
-||g.163.com/*
+||g.163.com/r?*column*
+||g.163.com/r?*logo*
 ||pro.163.com/*
 ||img*.126.net/channel*/*.html
 ||popme.163.com*

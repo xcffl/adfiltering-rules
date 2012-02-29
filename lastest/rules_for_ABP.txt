@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.5alpha1---------
-!-----最后更新：2012-02-27------
+!-----最后更新：2012-02-29------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -1597,8 +1597,8 @@
 !----互联网的那点事----
 ||alibuybuy-wordpress.stor.sinaapp.com/*
 !----卡饭----
-||bbs.kafan.cn/static/kafan_img/*
-||bbs.kafan.cn/static/kafan_bd/*
+||*.kafan.cn/static/kafan_img/*
+||*.kafan.cn/static/kafan_bd/*
 ||static.ikafan.com/kafan_img/*
 !----17173----
 ||images.17173.com/*/www/*/*/*-*-*.swf
@@ -3284,3 +3284,4 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
 !-------------待分类-------------
+||static.ikafan.com/kafan_bd/*

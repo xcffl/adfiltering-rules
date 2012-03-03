@@ -7,4 +7,19 @@
 =3.能否发布规则的时候发布黑名单和白名单一起发布？=
 答：部分是可以的。有些广告过滤软件是将白名单和黑名单放在同一个文件中，这样导入导出非常方便。而有的则[https://code.google.com/p/adfiltering-rules/wiki/WhiteList 不是这样]，因为它们的白名单与黑名单导入地方不同，因此无法添加至同一文件。注意，*请勿将白名单导入至黑名单*，否则将无法正常显示很多网页。白名单与黑名单导入地方不同，因此无法添加至同一文件。
 =4.如果更新规则，我需要做什么操作吗？是全新导入呢？还是在基础上导入啊？我是在原来的基础上导入的，有影响吗？=
-答：每个广告过滤软件的操作都不同，可以点此查看详细。导入时一定要*全新导入*，如果是要替换文件，一定要关闭占有此文件的程序，并关闭它们的自我保护。如果不这样，可能有以下影响：①可能同一规则会有多条；②新版本取出的误过滤规则不会去除而导致误过滤；③文件被占用导致导入失败；④文件正在操作中，文件内容被篡改导致乱码等后果以致规则失效或错误。_因此务必全新导入。_
+答：每个广告过滤软件的操作都不同，可以点此查看详细。导入时一定要*全新导入*，如果是要替换文件，一定要关闭占有此文件的程序，并关闭它们的自我保护。如果不这样，可能有以下影响：
+* 可能同一规则会有多条；
+* 新版本取出的误过滤规则不会去除而导致误过滤；
+* 文件被占用导致导入失败；
+* 文件正在操作中，文件内容被篡改导致乱码等后果以致规则失效或错误。_因此务必全新导入。_
+=5.有一个网站使用你的规则发生了显示不正常/无法访问问题，或还是会出现广告，怎么办？=
+到[https://code.google.com/p/adfiltering-rules/issues/entry?template=%E5%8F%8D%E9%A6%88%E9%97%AE%E9%A2%98 这里]反馈即可。
+=6.目前支持的广告过滤软件列表=
+===已知支持以下几个软件（某些未知但是仍可使用）：===
+*通用版：https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/ESET_NOD32.png https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/Kaspersky.png
+*金山版：https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/KSafe.png https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/duba.png https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/KS_Wangdun.png
+*ABP版：https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/adblock-plus.jpg
+*360版：https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/360wangdun.png
+*~~Avast！版：https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/Avast%21.png~~（暂停支持）
+*AB Pro版：https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/Adblock_Pro.png
+*Opera版：https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/Opera.png

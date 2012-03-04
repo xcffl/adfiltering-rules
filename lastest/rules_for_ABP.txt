@@ -1,8 +1,8 @@
-![AdblockPlus1.1]
+﻿![AdblockPlus1.1]
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.5alpha1---------
-!-----最后更新：2012-03-03------
+!-----最后更新：2012-03-04------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -26,6 +26,8 @@
 |*cpushpop*
 |*dellhome*
 |*duilian*js*
+|*/adbanner.*
+|*/ads0.*
 |*&yad=*
 |*huohu/huohu.js
 |*inc_page*
@@ -1139,6 +1141,7 @@
 !----腾讯&财付通----
 ||mat1.gtimg.com/cq/*
 ||mat1.gtimg.com/sports/2011ad/*
+||pingjs.qq.com/ping.js
 ||rh.qq.com/*
 ||pingfore.qq.com/*
 ||trace.qq.com/*

@@ -1141,6 +1141,7 @@
 !----腾讯&财付通----
 ||mat1.gtimg.com/cq/*
 ||mat1.gtimg.com/sports/2011ad/*
+||mat1.gtimg.com/*.swf
 ||pingjs.qq.com/ping.js
 ||rh.qq.com/*
 ||pingfore.qq.com/*

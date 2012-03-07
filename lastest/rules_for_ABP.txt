@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.5alpha1---------
-!-----最后更新：2012-03-05------
+!-----最后更新：2012-03-07------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -1723,6 +1723,11 @@
 ||i.firefoxchina.cn/images/upload/*_*.gif
 ||www.firefoxchina.cn/cooperation/header_image_huanqiu.html
 ||i.firefoxchina.cn/iframes/*
+!----枫树浏览器----
+|*.coolnovo.com/temp/images/elong.jpg
+||coolnovo.com/temp/images/elong.jpg
+|*.coolnovo.com/temp/images/*_*x*.*
+||coolnovo.com/temp/images/*_*x*.*
 !----浅蓝攻略网----
 ||www.51saier.cn/images/*
 |*51saier.cn/uploads/allimg/100912/*

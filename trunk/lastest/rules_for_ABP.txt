@@ -8,6 +8,7 @@
 |*/37ss.js*
 |*/999aadbak.js*
 |*/adv.*
+|*_ad1.*
 |*/adsjs/*
 |*/adtop/*.js*
 |*.com/ad/*
@@ -689,6 +690,7 @@
 |*.y2126.com/*
 ||pub.buzz-time.com.cn/*
 |*.100fenlm.cn/*
+|*.adszui.com/*
 ||p.tanx.com/ex?i=mm_17230573_*
 ||js.3975.com/*
 |*.1133.cc/*

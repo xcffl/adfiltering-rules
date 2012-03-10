@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.5alpha1---------
-!-----最后更新：2012-03-09------
+!-----最后更新：2012-03-10------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -2378,6 +2378,9 @@
 |*voc.com.cn/Frame/qqms_cs.html
 ||bbs.voc.com.cn/s.js
 !----小众软件----
+||static-y.appinn.com/wp-content/tapd.png
+||static-y.appinn.com/wp-content/dolphin1.png
+||static-y.appinn.com/wp-content/nanrenwa.jpg
 |*appinn.com/wp-content/*.swf*
 |*appinn.com/wp-content/uploads/*
 |*appinn.com/wp-content/chinamode2010nominate.png

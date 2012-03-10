@@ -747,6 +747,7 @@
 |*.adbrite.com/*
 ||t.yigouw.com/*
 |*.adpinion.com/*
+|*down.jialichuang.com/*
 |*.ads8.com/*
 |*.ads99.net*
 |*.adsky.net*

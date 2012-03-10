@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.5alpha1---------
-!-----最后更新：2012-03-10------
+!-----最后更新：2012-03-09------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -686,6 +686,7 @@
 ||i.uu06.com/*
 |*.topfriv.com/popup.js
 |*.securitymattersmag.com/scripts/popup.js
+|*.198game.net/*
 |*.allthelyrics.com/*/popup.js
 |*.y2126.com/*
 ||pub.buzz-time.com.cn/*
@@ -3200,7 +3201,6 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||free919.xoom.it/imageup/upload/*x*.jpg
 |*groupgo.com.au/static/css/i/dealoz.gif
 ||register.haohaowan.com/adu/cpm?channelId=*
-||pic.198game.net/js/*
 !-------------IP型广告-------------
 |*119.167.222.*mp4*
 |*60.217.245.*mp4*

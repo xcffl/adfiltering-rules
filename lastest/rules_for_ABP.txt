@@ -487,7 +487,6 @@
 |*/adfclick?db=*
 |*/indexAd.html?*
 |*/jj.gif
-|*/static/images/banner/*
 |*/images/*/htad.gif
 |*/images/*/360/1vs1.gif
 |*/adv_3b2g.js

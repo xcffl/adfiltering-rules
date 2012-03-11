@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.5alpha1---------
-!-----最后更新：2012-03-09------
+!-----最后更新：2012-03-11------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -686,6 +686,7 @@
 ||i.uu06.com/*
 |*.topfriv.com/popup.js
 |*.securitymattersmag.com/scripts/popup.js
+|*.198game.com/*
 |*.198game.net/*
 |*.allthelyrics.com/*/popup.js
 |*.y2126.com/*

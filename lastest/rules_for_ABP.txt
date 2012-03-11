@@ -2578,6 +2578,9 @@
 ||b.now.cn/data/NOWA/*
 ||p.tnet.hk/share/images/*x*.gif
 !----Facebook----
+||creative.ak.fbcdn.net/*/flyers/*.gif
+||creative.ak.fbcdn.net/*/flyers/*.png
+||creative.ak.fbcdn.net/*/flyers/*.jpg
 |*facebook.com/extern/login_status.php?*
 |*facebook.com/plugins/like.php?*
 |*facebook.com/widgets/*

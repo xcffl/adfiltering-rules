@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.5alpha1---------
-!-----最后更新：2012-03-13------
+!-----最后更新：2012-03-16------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -950,6 +950,7 @@
 |*.union178.com/*
 |*qq61.com/*
 ||u1.skype.tom.com/*
+||js.a3p4.com/*
 ||ads.revsci.net/*
 ||ulinkdir.tom.com/*
 ||ulinkjs.tom.com/*
@@ -2123,6 +2124,8 @@
 !----汽车之家----
 |*autohome.com.cn/33*
 ||33.autohome.com.cn*
+!----AcFun.tv
+|*.acfun.tv/json/newad.xml
 !----俺要电子书----
 |*aybook.cn/love/*
 !----红袖言情小说网----

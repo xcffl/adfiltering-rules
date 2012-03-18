@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.5alpha1---------
-!-----最后更新：2012-03-16------
+!-----最后更新：2012-03-18------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -1330,7 +1330,7 @@
 |*.tudou.com/tdap/*
 !----优酷网----
 ||html.atm.youku.com/*
-||f.youku.com/player/getFlvPath/fileid/*
+||f.youku.com/player/getFlvPath/fileid/*&yad=*
 ||static.atm.youku.com/*/popup.js
 ||valf.atm.youku.com/show?*
 ||static.atm.youku.com/*swf*

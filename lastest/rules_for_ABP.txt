@@ -887,6 +887,7 @@
 |*.game3737.com/*
 |*.adkongjian.com*
 ||cpp.ggyad.com*/*
+||img.shenduchuanmei.com:81/a/*
 |*.wrating.com/*
 |*inter-focus.cn/*
 |*ip686.com*
@@ -2064,6 +2065,8 @@
 |*co.cc/img/partner_ship/*
 !----友人----
 |*.younet.com/images/*.swf
+!----江城足球网----
+||img1.jczqw.com/img/*
 !----电脑之家PChome----
 ||js-1.pchome.net/*.js
 ||btn.pchome.net/*
@@ -3321,4 +3324,3 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
 !-------------待分类-------------
-||img.shenduchuanmei.com:81/a/*

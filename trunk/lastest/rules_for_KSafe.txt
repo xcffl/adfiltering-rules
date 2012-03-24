@@ -29,6 +29,8 @@
 5,4,*.17luntan.com/*,0
 5,4,*.17xl8.com/jancet/*,0
 5,4,*.186ad.com/*,0
+5,4,*.198game.com/*,0
+5,4,*.198game.net/*,0
 5,4,*.1autopay.com/*,0
 5,4,*.1lo0.net/code/*,0
 5,4,*.1o26.com/*,0
@@ -66,6 +68,7 @@
 5,4,*.5ykj.cn/950.jpg,0
 5,4,*.5zon.com/*,0
 5,4,*.6693.cc/*,0
+5,4,*.6788787.com/*,0
 5,4,*.68vs.com*,0
 5,4,*.69*/250x70.gif,0
 5,4,*.6dad.com/*,0
@@ -103,6 +106,7 @@
 5,4,*.9wee.com/cluclk?*,0
 5,4,*.aa.sdo.com/*,0
 5,4,*.ab126.com/skin/default/images/main_bg.jpg,0
+5,4,*.acfun.tv/json/newad.xml,0
 5,4,*.ad-plus.cn/*,0
 5,4,*.ad.*,0
 5,4,*.ad1.*,0
@@ -120,6 +124,7 @@
 5,4,*.adsina.*,0
 5,4,*.adsky.net*,0
 5,4,*.adsue.com/*,0
+5,4,*.adszui.com/*,0
 5,4,*.adtech.de/*,0
 5,4,*.adtology.com/*,0
 5,4,*.adultadworld.com/*,0
@@ -159,7 +164,7 @@
 5,4,*.cicih.cn/images/kuaiji.gif,0
 5,4,*.clickeye*.cn/*,0
 5,4,*.cn*/header.js,0
-5,4,*.cn/*count.*,0
+5,4,*.cn/*/count.*,0
 5,4,*.cngadget.cn/ad/*,0
 5,4,*.cnhubei.com/gg_*/*/*.gif,0
 5,4,*.cnhubei.com/gg_*/sptlggz_*/tlfyb_*/*/*.jpg,0
@@ -176,6 +181,8 @@
 5,4,*.com/pv.*,0
 5,4,*.com/pv/*,0
 5,4,*.com/qqad.js,0
+5,4,*.coolnovo.com/temp/images/*_*x*.*,0
+5,4,*.coolnovo.com/temp/images/elong.jpg,0
 5,4,*.counter.dudu.com/*,0
 5,4,*.cpm360.com/*,0
 5,4,*.cpm9v.cn/*,0
@@ -256,6 +263,8 @@
 5,4,*.junnew.com/indexad/*,0
 5,4,*.jxkch.com/*,0
 5,4,*.jz5u.com/inc/std_stranjf.js,0
+5,4,*.kafan.cn/static/kafan_bd/*,0
+5,4,*.kafan.cn/static/kafan_img/*,0
 5,4,*.keydot.net/*,0
 5,4,*.keyrun.*,0
 5,4,*.keyyou.net/*,0
@@ -289,6 +298,7 @@
 5,4,*.oadz.com/*,0
 5,4,*.ok8848.com/*,0
 5,4,*.onetad.com/*,0
+5,4,*.ooaaoo.com/*,0
 5,4,*.org*/data/attachment/common/*.gif,0
 5,4,*.org*/header.js,0
 5,4,*.orsoon.com/orsoon/img/*x*.jpg,0
@@ -358,6 +368,7 @@
 5,4,*.topfriv.com/popup.js,0
 5,4,*.tribalfusion.com/*,0
 5,4,*.tudou.com/framepage/*,0
+5,4,*.tudou.com/service/outside.php?type=taobao_ad,0
 5,4,*.tudou.com/tdap/*,0
 5,4,*.tudou.com/tdcm/*,0
 5,4,*.tuigoo.com/*,0
@@ -472,6 +483,7 @@
 5,4,*/ad_include/*,0
 5,4,*/ad_tab.js,0
 5,4,*/ad_top*,0
+5,4,*/adbanner.*,0
 5,4,*/adboard/*,0
 5,4,*/adbot*.js,0
 5,4,*/adbot.*,0
@@ -531,6 +543,7 @@
 5,4,*/ads/*.jpg*,0
 5,4,*/ads/*.js,0
 5,4,*/ads/*.png*,0
+5,4,*/ads0.*,0
 5,4,*/ads_*,0
 5,4,*/adsc/*,0
 5,4,*/adsclick/*,0
@@ -541,6 +554,7 @@
 5,4,*/adservice/*,0
 5,4,*/adsfile/*,0
 5,4,*/adshow*,0
+5,4,*/adshow?*,0
 5,4,*/adsimages/*,0
 5,4,*/adsimg/*,0
 5,4,*/adsjs/*,0
@@ -550,6 +564,7 @@
 5,4,*/adtest/*,0
 5,4,*/adtop/*.js*,0
 5,4,*/adtrack.*,0
+5,4,*/adv.*,0
 5,4,*/adv/*,0
 5,4,*/adv760.js*,0
 5,4,*/adv_3b2g.js,0
@@ -677,7 +692,8 @@
 5,4,*/go/tc.asp*,0
 5,4,*/gogo.php?uid=*,0
 5,4,*/gonggao.js,0
-5,4,*/google*js*,0
+5,4,*/google*ad*js*,0
+5,4,*/google.js*,0
 5,4,*/greenxfad/*,0
 5,4,*/guangao/js/*.js,0
 5,4,*/guangg/*,0
@@ -858,7 +874,6 @@
 5,4,*/srp-p4p-min.js?*,0
 5,4,*/stat.do?videoid=*,0
 5,4,*/stat.php?ad_id*,0
-5,4,*/static/images/banner/*,0
 5,4,*/superpop.js,0
 5,4,*/svnad/*,0
 5,4,*/tan.js,0
@@ -1017,6 +1032,7 @@
 5,4,*?gopage=*,0
 5,4,*?searchterms=*,0
 5,4,*?zyid=*&sid=*&ubjs=*,0
+5,4,*_ad1.*,0
 5,4,*_ad_iframe.*,0
 5,4,*_click.js,0
 5,4,*_friendbanner*,0
@@ -1180,6 +1196,7 @@
 5,4,*dnhys.com/sp/*,0
 5,4,*dospy.com/hezuo/*,0
 5,4,*dotmore.cn*,0
+5,4,*down.jialichuang.com/*,0
 5,4,*downxia.com/js/*,0
 5,4,*duilian*js*,0
 5,4,*duotegame.com/images/*5c*.gif,0
@@ -1411,7 +1428,6 @@
 5,4,*qvodstat.js*,0
 5,4,*qzdnwx.com/images2010/*,0
 5,4,*r6.cn/pswf/*,0
-5,4,*r?site=*,0
 5,4,*rd.apmebf.com/*,0
 5,4,*rd.htm?id=*,0
 5,4,*realhd.com.cn/hz/chdpt.gif,0
@@ -1615,6 +1631,7 @@
 5,4,202.109.129.248/*,0
 5,4,218.44.31.45/*,0
 5,4,222.73.227.67/*/dzx/forum/*.jpg,0
+3,4,22ons.com/ons.gif,0
 5,4,33.autohome.cn/file/*,0
 5,4,33.autohome.com.cn*,0
 5,4,33.pcpop.com/*.*f,0
@@ -1628,6 +1645,9 @@
 5,4,61.147.113.170:88/*,0
 5,4,61.153.183.104:800/setuptz/*,0
 5,4,64.124.54.122//image/banner/*,0
+3,4,69.46.67.18/adv_index.htm,0
+3,4,69.46.67.18/adv_other.htm,0
+3,4,69.46.67.18/images/9girl.gif,0
 5,4,8*.tianya.cn/*,0
 5,4,80.qukanshu.com/*,0
 5,4,86file.megajoy.com/*,0
@@ -1672,6 +1692,7 @@
 5,4,adportal.cbsi.com.cn/*,0
 5,4,ads*.msn.com/*.js,0
 5,4,ads*.qq.com/*,0
+5,4,ads.doublemax.net/*,0
 5,4,ads.revsci.net/*,0
 5,4,ads158.ynet.com/*,0
 5,4,adsresult.joywell.com.cn/*,0
@@ -1705,8 +1726,6 @@
 3,4,bbs.fengniao.com/forum/clientscript/vbb_scroll.js,0
 3,4,bbs.fengniao.com/forum/var/vbb_scroll_content.js,0
 3,4,bbs.fengniao.com/pic/baidu.html,0
-5,4,bbs.kafan.cn/static/kafan_bd/*,0
-5,4,bbs.kafan.cn/static/kafan_img/*,0
 5,4,bbs.kaspersky.com.cn/images/bbs/*,0
 5,4,bbs.pcbeta.com/static/image/biz/*,0
 5,4,bbs.plu.cn/plu/images/*,0
@@ -1805,9 +1824,12 @@
 5,4,code.u.18dx.com/*,0
 5,4,code.woainame.cn/code/*.js,0
 5,4,code.woairing.cn/mmscode/musicsinglering/*,0
+5,4,code.yy32.com/*,0
 5,4,comment.ifeng.com/count_*,0
 5,4,content.xilu.com/uploadfile/*/*/*.swf,0
 5,4,content.yieldmanager.edgesuite.net/atoms/*,0
+5,4,coolnovo.com/temp/images/*_*x*.*,0
+3,4,coolnovo.com/temp/images/elong.jpg,0
 5,4,cop.my.xunlei.com/*,0
 5,4,copy.ousns.com/*.jpg,0
 5,4,corp.56.com/*,0
@@ -1821,6 +1843,9 @@
 5,4,cpro.baidu.com/*,0
 5,4,cpv.channelray.com*,0
 5,4,cq.takungpao.com/img*/abv/*,0
+5,4,creative.ak.fbcdn.net/*/flyers/*.gif,0
+5,4,creative.ak.fbcdn.net/*/flyers/*.jpg,0
+5,4,creative.ak.fbcdn.net/*/flyers/*.png,0
 5,4,cs.twcczhu.com/*,0
 3,4,css.ku6cdn.com/podcast/img/bg_ad.gif,0
 3,4,css.zhulang.net/js/header.js,0
@@ -1860,6 +1885,7 @@
 5,4,d4.sina.com.cn/201012/24/*,0
 5,4,d5.sina.com.cn/jianyu1/taobao/*,0
 5,4,d5.sina.com.cn/sina/ae/2009/*,0
+5,4,dc.letv.com/*,0
 5,4,dhcode.cn3.cn*,0
 5,4,dict.hudong.com/xml/*.html,0
 5,4,display.xpresssyndication.com*,0
@@ -1894,12 +1920,13 @@
 5,4,error.pixplug.in/*,0
 5,4,f.mtmmt.com*,0
 5,4,f.qstatic.com/*,0
-5,4,f.youku.com/player/getflvpath/fileid/*,0
+5,4,f.youku.com/player/getflvpath/fileid/*&yad=*,0
 3,4,fangte.com/aswf.swf,0
 5,4,feo.staticsdo.com/*,0
 5,4,file.chanet.com.cn*,0
 3,4,firefoxchina.cn/cooperation/header_image_huanqiu.html,0
 5,4,float2006.tq.cn/*,0
+5,4,flv.bn.netease.com/*,0
 5,4,flv.jsbc.com/playerad/*,0
 5,4,fodder.qq.com/*,0
 3,4,free.xue5.com/templates/green/images/59300160.gif,0
@@ -1907,7 +1934,8 @@
 5,4,free919.xoom.it/imageup/upload/*x*.jpg,0
 5,4,fun.ynet.com/*,0
 5,4,fvid.atm.youku.com/*,0
-5,4,g.163.com/*,0
+5,4,g.163.com/r?*column*,0
+5,4,g.163.com/r?*logo*,0
 5,4,g.hsw.cn/*,0
 5,4,g.tgbusdata.cn/*,0
 5,4,g.webgame.com.cn/*,0
@@ -1915,6 +1943,7 @@
 5,4,game.zhulang.com/*,0
 5,4,game1.zj.vnet.cn/popup_*.js,0
 5,4,games.kugou.com/mini/*,0
+5,4,get.766.com/*.js,0
 5,4,gg.12354.com*,0
 5,4,gg.blueidea.com*,0
 5,4,gg.daqi.com/*,0
@@ -1952,6 +1981,7 @@
 5,4,hxjs.tool.hexun.com/homeway/pagemediacontrol*.js,0
 5,4,i*.17173.itc.cn/*/www/*/sx/*/*.jpg,0
 3,4,i.6.cn/cvbnm/99/18/a3/4478ff78d6c6565d9fc6a635ad173121.jpg,0
+5,4,i.firefoxchina.cn/alimama_banner_f.html*,0
 5,4,i.firefoxchina.cn/iframes/*,0
 5,4,i.firefoxchina.cn/images/upload/*_*.gif,0
 5,4,i.uu06.com/*,0
@@ -2092,6 +2122,7 @@
 5,4,img.rmfans.cn/g/*,0
 5,4,img.scol.com.cn/afp/*.swf,0
 5,4,img.sharele.cn/*,0
+5,4,img.shenduchuanmei.com:81/a/*,0
 5,4,img.taoguba.com.cn/gbimg/*,0
 3,4,img.taoguba.com.cn/js/tc.js,0
 3,4,img.uu1001.cn/wrappler_swf2/2011-12-27/19/1b/27403090_cb427d45b6c6ae9f46b0ad3ceb2060db_268x90.swf,0
@@ -2105,6 +2136,7 @@
 5,4,img02.taobaocdn.com/imgextra/i2/199092905/*,0
 3,4,img03.taobaocdn.com/imgextra/i3/16214655/t2fkbhxotaxxxxxxxx_!!16214655.gif,0
 5,4,img1.07073.com/a/*,0
+5,4,img1.jczqw.com/img/*,0
 3,4,img181.poco.cn/mypoco/myphoto/20110120/20/5296431020110120200706031.gif,0
 3,4,img181.poco.cn/mypoco/myphoto/20110201/23/5635003420110201232541093_640.jpg,0
 3,4,img181.poco.cn/mypoco/myphoto/20110216/17/5639799420110216174810040_640.jpg,0
@@ -2147,6 +2179,7 @@
 3,4,js.17173.com/ping.js,0
 5,4,js.3975.com/*,0
 5,4,js.62826.com*,0
+5,4,js.a3p4.com/*,0
 3,4,js.auto.msn.com.cn/js/incsearch_a.js,0
 5,4,js.coogao.cn*,0
 5,4,js.fengwu.net/baidu/*,0
@@ -2206,6 +2239,7 @@
 5,4,market.178.com/*,0
 5,4,market.52pk.com/*,0
 5,4,market.duowan.com/*,0
+5,4,mat1.gtimg.com/*.swf,0
 5,4,mat1.gtimg.com/cq/*,0
 5,4,mat1.gtimg.com/hb/avd/*x*_*.swf,0
 5,4,mat1.gtimg.com/news/fbgg/*,0
@@ -2277,7 +2311,6 @@
 5,4,photo.erji.com/*,0
 5,4,photo.minwt.com/img/banner/*,0
 5,4,pic*.dler.org/up_img/ven/*,0
-5,4,pic.198game.net/js/*,0
 5,4,pic.adhai.com/*,0
 5,4,pic.adver.com*,0
 3,4,pic.dapenti.com/2011/02/09/dapenti_apl6waz5_143idp.jpg,0
@@ -2303,6 +2336,7 @@
 5,4,pic1.duowan.com/webgame/*,0
 5,4,pic3.qiyipic.com/common/*/*.jpg,0
 5,4,pingfore.qq.com/*,0
+3,4,pingjs.qq.com/ping.js,0
 3,4,playerwebservice.jsbc.com/getip.aspx,0
 3,4,playerwebservice.jsbc.com/getplaycount.aspx,0
 5,4,pmm.people.com.cn/main/s?*,0
@@ -2385,12 +2419,16 @@
 5,4,sta.dayoo.com/*,0
 5,4,sta.ifeng.com/*,0
 5,4,stadig.ifeng.com/*,0
+5,4,stat*.tudou.com/*,0
 5,4,stat.ku6.com/*,0
 5,4,stat.tudou.com/play.srv*,0
 5,4,stat.uuu9.com/stat/*,0
 5,4,stat.xunlei.com/*,0
 5,4,stat.youku.com/*,0
 3,4,stat.zol.com.cn/ol.js,0
+3,4,static-y.appinn.com/wp-content/dolphin1.png,0
+3,4,static-y.appinn.com/wp-content/nanrenwa.jpg,0
+3,4,static-y.appinn.com/wp-content/tapd.png,0
 5,4,static.36kr.com/wp-content/uploads/*/*/*_*_*.*,0
 5,4,static.36kr.com/wp-content/uploads/krads-images/*,0
 5,4,static.acs86.com/*,0
@@ -2408,6 +2446,7 @@
 5,4,static.doyouhike.net/partner/*,0
 5,4,static.funshion.com/js/ga.js*,0
 5,4,static.hhzw.5pk.com/*,0
+5,4,static.ikafan.com/kafan_bd/*,0
 5,4,static.ikafan.com/kafan_img/*,0
 5,4,static.mediav.com/*,0
 5,4,static.mp3.baidu.com/*,0
@@ -2417,6 +2456,7 @@
 5,4,sub.powerapple.com/*,0
 5,4,sup.live.com/*,0
 5,4,survey.news.ifeng.com/resultjson.php?*,0
+5,4,synad*.nuffnang.com.cn/*,0
 5,4,sysimages.tq.cn*,0
 5,4,t.diypda.com/publicize/*,0
 5,4,t.gameyule.com/*,0
@@ -2462,6 +2502,7 @@
 5,4,u.7town.com/*,0
 5,4,u.adbutler.com.cn/allsites/*,0
 5,4,u.ferrygame.com/*,0
+5,4,u.haom.us/*,0
 5,4,u.iciba.com/*,0
 5,4,u.imop.com/*,0
 5,4,u.molidao.com/*,0

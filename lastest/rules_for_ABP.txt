@@ -2457,6 +2457,7 @@
 !----766游戏网----
 ||res.get.766.com/cateid_*
 ||s5.img.766.com/*.gif
+||get.766.com/*.js
 ||dnf.766.com/zhuanti/ny/*
 ||s2.img.766.com/*
 !----我的领地----

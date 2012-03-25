@@ -186,7 +186,7 @@
 |*clucode?*
 |*.adpcode.*
 |*/codepic/*
-|*ad*js.php*
+|*.ad*js.php*
 |un*js.php*
 |*ad*/.swf*
 |*js_ad_*.js

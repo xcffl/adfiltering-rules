@@ -195,7 +195,8 @@
 |*.com/ff.js*
 |*_gg.*
 |*layer*ight.swf
-|*linkad*
+|*linkad/*
+|*linkad.*
 |*link.aspx?id=*
 |*adclient*
 |*adcode.*

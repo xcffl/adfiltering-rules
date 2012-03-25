@@ -1,8 +1,8 @@
-﻿![AdblockPlus1.1]
+![AdblockPlus1.1]
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.5---------
-!-----最后更新：2012-03-24------
+!-----最后更新：2012-03-25------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -2861,7 +2861,6 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 !----Wangye2游戏门户----
 |*wangye2.com/templets/default/spec/seh/images/*
 !----玩多多网页游戏----
-|*.wandodo.com/uploads/allimg/*
 |*wandodo.com/ad.html
 !----爱拍游戏----
 |*aipai.com/app/www/templates/common/img/upload/*

@@ -1865,6 +1865,8 @@
 |*/114ad/*
 !----遐想网络----
 ||down.x6x8.com/good/*
+!----txt论坛----
+||bbs.txtbbs.com/data/*.swf
 !----下载吧----
 |*xiazaiba.com/js/*
 |*/tg/xiazaiba/index.html

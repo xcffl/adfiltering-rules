@@ -1,4 +1,4 @@
-![AdblockPlus1.1]
+﻿![AdblockPlus1.1]
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.6alpha---------
@@ -1627,8 +1627,9 @@
 !----互联网的那点事----
 ||alibuybuy-wordpress.stor.sinaapp.com/*
 !----卡饭----
-||*.kafan.cn/static/kafan_img/*
-||*.kafan.cn/static/kafan_bd/*
+|*.kafan.cn/static/kafan_img/*
+||static.ikafan.com/a/yuekan.js
+|*.kafan.cn/static/kafan_bd/*
 ||static.ikafan.com/kafan_bd/*
 ||static.ikafan.com/kafan_img/*
 !----17173----

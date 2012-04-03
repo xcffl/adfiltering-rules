@@ -862,6 +862,7 @@
 ||vip.qingdaonews.com*
 ||web.kehu.cn*
 ||sysimages.tq.cn*
+|*.ugooo.cc/*
 |*sellcn.com/*
 ||server.yoyi.com.cn/*
 ||mmsu.moyu.com*
@@ -1613,6 +1614,8 @@
 !----凡客诚品----
 ||www.vancl.com/WebSource/*
 ||images.vancl.com/Others/*/*/*/search_vt_*.jpg
+!----幻世中文----
+||www.hszw.com/inc/*
 !----SafeBeta----
 |*safebeta.cn/gg/*
 !----Immunet----

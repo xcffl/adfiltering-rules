@@ -1,8 +1,8 @@
-﻿![AdblockPlus1.1]
+![AdblockPlus1.1]
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.6alpha---------
-!-----最后更新：2012-04-03------
+!-----最后更新：2012-04-04------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -1157,6 +1157,7 @@
 ||mat1.gtimg.com/cq/*
 ||mat1.gtimg.com/sports/2011ad/*
 ||mat1.gtimg.com/*_ad_*.swf
+||l.qq.com/lview?*
 ||pingjs.qq.com/ping.js
 ||rh.qq.com/*
 ||pingfore.qq.com/*
@@ -1564,9 +1565,10 @@
 ||img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 |*normteam.com/usepic/*
 !----厦门小鱼网----
+||adm.xmfish.com/*
+||bbs.xmfish.com/images/atm/*
 ||client.xmfish.com/attachments/bar/*
 ||hot.xmfish.com/pages/images/*
-||bbs.xmfish.com/images/atm/*
 ||img.xmfish.com/attachment/Mon_1104/*
 !----多特软件站----
 ||img.duote.com/images/gg_bbs_*

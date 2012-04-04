@@ -1,4 +1,4 @@
-﻿![AdblockPlus1.1]
+![AdblockPlus1.1]
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.6alpha---------
@@ -372,6 +372,7 @@
 |*/indexbottom.js
 |*/paa.js
 |*/ecom.js*
+|*/plus/ad_*
 |*/tcby.js
 |*/tan.js
 |*/play-d*.js
@@ -879,6 +880,8 @@
 |*.heroclick.cn/*
 |*.000wan.com/*
 |*.doubleclick.net/*
+|*.84422.com/*
+|*.84422.com:*/*
 ||dw.cbsi.com.cn/js/*
 ||adportal.cbsi.com.cn/*
 ||t.iloveyouxi.com/*
@@ -3342,3 +3345,4 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
 !-------------待分类-------------
+

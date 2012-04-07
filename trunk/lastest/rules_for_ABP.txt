@@ -834,6 +834,7 @@
 |*b.todayisp.com*
 |*.dingge.cc/*
 ||bd.yidaba.com*
+||www.460.com.cn/*/*/*x*-*.htm
 ||adj.yidaba.com/*
 ||www.hoyiad.com/a/*
 |*hoyiad.com/images/*

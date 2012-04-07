@@ -1,8 +1,8 @@
-![AdblockPlus1.1]
+﻿![AdblockPlus1.1]
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.6alpha---------
-!-----最后更新：2012-04-03------
+!-----最后更新：2012-04-07------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -239,7 +239,6 @@
 |*amps.*
 |*adcontrol.*
 |*index_ad*
-|*site=download*
 |*js_floatwindows*
 |*js_popwinforum*
 |*/aaaddd/*
@@ -957,6 +956,7 @@
 |*qq61.com/*
 ||u1.skype.tom.com/*
 ||js.a3p4.com/*
+|*.91mt.net/data/js/*
 ||ads.revsci.net/*
 ||ulinkdir.tom.com/*
 ||ulinkjs.tom.com/*
@@ -3345,4 +3345,3 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
 !-------------待分类-------------
-

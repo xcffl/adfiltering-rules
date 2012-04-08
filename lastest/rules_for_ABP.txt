@@ -1,4 +1,4 @@
-﻿![AdblockPlus1.1]
+![AdblockPlus1.1]
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.6alpha---------
@@ -204,7 +204,8 @@
 |*js/cm.js
 |*/adshow*
 |*/js/tan/*.js
-|*/banner.js*
+|*.net*/banner.js*
+|*.co*/banner.js*
 |*/cpm/ids.js
 |*c.*/code_img/*
 |*c.*/img_*

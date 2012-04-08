@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.6alpha---------
-!-----最后更新：2012-04-07------
+!-----最后更新：2012-04-08------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -839,6 +839,7 @@
 ||www.hoyiad.com/a/*
 |*hoyiad.com/images/*
 |*hoyiad.com/show.php?*
+||img.007.mx/flash/*x*.swf
 |*yunads.com/a/*-*-*/*
 |*yunads.com/show.php?*
 ||bs.serving-sys.com*
@@ -940,6 +941,7 @@
 |*.826060.com/*
 |*.1o26.com/*
 ||code.woainame.cn/code/*.js
+|*.maxreturn.cn/*
 ||p.17kuxun.com/*
 ||cpm.yx121.com/*
 ||go.lele.com/*
@@ -2822,6 +2824,7 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 !----我的久优----
 |*my9u.com/content/templates/demo/images/*
 !----游民星空----
+||image.gamersky.com/img/*
 |*.gamersky.com/frame/*
 ||image.gamersky.com/img/660.swf
 !----广友影视----

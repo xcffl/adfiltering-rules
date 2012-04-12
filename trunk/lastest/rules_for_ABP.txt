@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.6alpha---------
-!-----最后更新：2012-04-08------
+!-----最后更新：2012-04-12------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -1672,6 +1672,9 @@
 !----凤凰网----
 |*/tres/ifeng/game/astd/*
 ||y0.ifengimg.com/mappa/*/*/*/*.swf
+||bc.ifeng.com/*
+|*.ifengimg.com/tres/recommend/*
+|*.ifengimg.com/mappa/*
 |*/ifengRotatorAd.js
 ||img.ifeng.com/tres/recommended/*
 ||img.ifeng.com/tres/recommend/*
@@ -3139,6 +3142,7 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||gimg.baidu.com/img/*pic/*
 ||a.baidu.com/*
 ||c.baidu.com/*
+||duiwai.baidu.com/*
 ||bar.baidu.com/*
 ||baidutv.baidu.com/*
 ||cb.baidu.com/*

@@ -1,10 +1,9 @@
 msFilterList
-#-------【广告强效过滤规则 for TPL】-------
-#请务必立即到http://goo.gl/GR0mf重新订阅
-#----一个通用、全面的广告过滤规则----
-#----------版本_5.0.5alpha1---------
-#-----最后更新：2012-03-22------
 : Expires=5
+#-------【广告强效过滤规则 for ABP】-------
+#----一个通用、全面的广告过滤规则----
+#----------版本_5.0.6alpha---------
+#-----最后更新：2012-04-14------
 #-------------通用规则-------------
 - */js.ng/
 - */37ss.js
@@ -173,7 +172,6 @@ msFilterList
 - *aliunion
 - *unionads
 - *_union
-- *union*php
 - *linkpage.js
 - */showwindow/
 - */unipro/
@@ -188,7 +186,7 @@ msFilterList
 - *clucode?
 - *.adpcode.
 - */codepic/
-- *ad*js.php
+- *.ad*js.php
 - un*js.php
 - *ad*/.swf
 - *js_ad_*.js
@@ -197,7 +195,8 @@ msFilterList
 - *.com/ff.js
 - *_gg.
 - *layer*ight.swf
-- *linkad
+- *linkad/
+- *linkad.
 - *link.aspx?id=
 - *adclient
 - *adcode.
@@ -206,7 +205,8 @@ msFilterList
 - *js/cm.js
 - */adshow
 - */js/tan/*.js
-- */banner.js
+- *.net*/banner.js
+- *.co*/banner.js
 - */cpm/ids.js
 - *c.*/code_img/
 - *c.*/img_
@@ -241,7 +241,6 @@ msFilterList
 - *amps.
 - *adcontrol.
 - *index_ad
-- *site=download
 - *js_floatwindows
 - *js_popwinforum
 - */aaaddd/
@@ -374,6 +373,7 @@ msFilterList
 - */indexbottom.js
 - */paa.js
 - */ecom.js
+- */plus/ad_
 - */tcby.js
 - */tan.js
 - */play-d*.js
@@ -696,6 +696,7 @@ msFilterList
 - *.adszui.com/
 -d p.tanx.com /ex?i=mm_17230573_
 -d js.3975.com
+- *.ooaaoo.com/
 - *.1133.cc/
 -d union.zhubajie.com
 - *.jugao.com/
@@ -786,6 +787,7 @@ msFilterList
 - *.ifocus.cn/
 - *.insenz.com/
 - *.itsun.com/
+-d p.zhanzhang.net
 - *.junnew.com/indexad/
 - *.kfwan.com/
 - *.leomediachina.
@@ -835,10 +837,12 @@ msFilterList
 - *b.todayisp.com
 - *.dingge.cc/
 - http://bd.yidaba.com
+-d www.460.com.cn /*/*x*-*.htm
 -d adj.yidaba.com
 -d www.hoyiad.com /a/
 - *hoyiad.com/images/
 - *hoyiad.com/show.php?
+-d img.007.mx /flash/*x*.swf
 - *yunads.com/a/*-*-*/
 - *yunads.com/show.php?
 - http://bs.serving-sys.com
@@ -862,6 +866,7 @@ msFilterList
 - http://vip.qingdaonews.com
 - http://web.kehu.cn
 - http://sysimages.tq.cn
+- *.ugooo.cc/
 - *sellcn.com/
 -d server.yoyi.com.cn
 - http://mmsu.moyu.com
@@ -879,6 +884,8 @@ msFilterList
 - *.heroclick.cn/
 - *.000wan.com/
 - *.doubleclick.net/
+- *.84422.com/
+- *.84422.com:*/
 -d dw.cbsi.com.cn /js/
 -d adportal.cbsi.com.cn
 -d t.iloveyouxi.com
@@ -937,6 +944,7 @@ msFilterList
 - *.826060.com/
 - *.1o26.com/
 -d code.woainame.cn /code/*.js
+- *.maxreturn.cn/
 -d p.17kuxun.com
 -d cpm.yx121.com
 -d go.lele.com
@@ -954,6 +962,7 @@ msFilterList
 - *qq61.com/
 -d u1.skype.tom.com
 -d js.a3p4.com
+- *.91mt.net/data/js/
 -d ads.revsci.net
 -d ulinkdir.tom.com
 -d ulinkjs.tom.com
@@ -1105,6 +1114,10 @@ msFilterList
 -d code.178gg.com
 -d v.9vcpp.cn
 -d vtechweb.adsame.com /s?
+-d www.114la.com /indexa.html
+- *.flunion.cn/
+-d www.1717388.com /i.js
+- *.ubcpm.com/
 -d un.22w.com /show.php?
 - *.ad18.com.cn/new2010/11z/
 - *19dc.com/a/
@@ -1151,7 +1164,8 @@ msFilterList
 #----腾讯&财付通----
 -d mat1.gtimg.com /cq/
 -d mat1.gtimg.com /sports/2011ad/
--d mat1.gtimg.com .swf
+-d mat1.gtimg.com _ad_*.swf
+-d l.qq.com /lview?
 -d pingjs.qq.com /ping.js
 -d rh.qq.com
 -d pingfore.qq.com
@@ -1297,6 +1311,8 @@ msFilterList
 -d v.163.com /special/open_adv/
 -d v.163.com /special/008547FN/gg20091116.xml
 -d tech.163.com .js
+-d analytics.163.com
+-d swf.ws.126.net .flv
 -d images.163.com
 -d g.163.com /r?*column
 -d g.163.com /r?*logo
@@ -1557,9 +1573,10 @@ msFilterList
 -d img03.taobaocdn.com /imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 - *normteam.com/usepic/
 #----厦门小鱼网----
+-d adm.xmfish.com
+-d bbs.xmfish.com /images/atm/
 -d client.xmfish.com /attachments/bar/
 -d hot.xmfish.com /pages/images/
--d bbs.xmfish.com /images/atm/
 -d img.xmfish.com /attachment/Mon_1104/
 #----多特软件站----
 -d img.duote.com /images/gg_bbs_
@@ -1607,6 +1624,8 @@ msFilterList
 #----凡客诚品----
 -d www.vancl.com /WebSource/
 -d images.vancl.com /Others/*/*/*/search_vt_*.jpg
+#----幻世中文----
+-d www.hszw.com /inc/
 #----SafeBeta----
 - *safebeta.cn/gg/
 #----Immunet----
@@ -1618,8 +1637,9 @@ msFilterList
 #----互联网的那点事----
 -d alibuybuy-wordpress.stor.sinaapp.com
 #----卡饭----
-- http://*.kafan.cn/static/kafan_img/
-- http://*.kafan.cn/static/kafan_bd/
+- *.kafan.cn/static/kafan_img/
+-d static.ikafan.com /a/yuekan.js
+- *.kafan.cn/static/kafan_bd/
 -d static.ikafan.com /kafan_bd/
 -d static.ikafan.com /kafan_img/
 #----17173----
@@ -1646,6 +1666,7 @@ msFilterList
 -d img.scol.com.cn /afp/*.swf
 #----小熊在线----
 - *.beareyes.com.cn/*/pub/
+-d gg.whbear.com
 #----航空航天网----
 -d www.9ifly.cn /source/plugin/dabandeng/dabandeng-gbk.html
 #----风之动漫----
@@ -1653,6 +1674,9 @@ msFilterList
 #----凤凰网----
 - */tres/ifeng/game/astd/
 -d y0.ifengimg.com /mappa/*/*/*/*.swf
+-d bc.ifeng.com
+- *.ifengimg.com/tres/recommend/
+- *.ifengimg.com/mappa/
 - */ifengRotatorAd.js
 -d img.ifeng.com /tres/recommended/
 -d img.ifeng.com /tres/recommend/
@@ -1699,6 +1723,8 @@ msFilterList
 -d shrek.6.cn
 -d lisbon.6rooms.com
 - *6.cn/mdfor/index_new.js
+#----体育吧----
+- *.tiyuba.tv/app/js/common.js
 #----我乐网----
 -d corp.56.com
 #----创e下载园----
@@ -1862,6 +1888,8 @@ msFilterList
 - */114ad/
 #----遐想网络----
 -d down.x6x8.com /good/
+#----txt论坛----
+-d bbs.txtbbs.com /data/*.swf
 #----下载吧----
 - *xiazaiba.com/js/
 - */tg/xiazaiba/index.html
@@ -2458,6 +2486,7 @@ msFilterList
 #----766游戏网----
 -d res.get.766.com /cateid_
 -d s5.img.766.com .gif
+-d get.766.com .js
 -d dnf.766.com /zhuanti/ny/
 -d s2.img.766.com
 #----我的领地----
@@ -2801,6 +2830,7 @@ msFilterList
 #----我的久优----
 - *my9u.com/content/templates/demo/images/
 #----游民星空----
+-d image.gamersky.com /img/
 - *.gamersky.com/frame/
 -d image.gamersky.com /img/660.swf
 #----广友影视----
@@ -2861,7 +2891,6 @@ msFilterList
 #----Wangye2游戏门户----
 - *wangye2.com/templets/default/spec/seh/images/
 #----玩多多网页游戏----
-- *.wandodo.com/uploads/allimg/
 - *wandodo.com/ad.html
 #----爱拍游戏----
 - *aipai.com/app/www/templates/common/img/upload/
@@ -3115,6 +3144,7 @@ msFilterList
 -d gimg.baidu.com /img/*pic/
 -d a.baidu.com
 -d c.baidu.com
+-d duiwai.baidu.com
 -d bar.baidu.com
 -d baidutv.baidu.com
 -d cb.baidu.com
@@ -3326,4 +3356,3 @@ msFilterList
 -d www.fclub.cn /affiche.php?act=img&ad_id=
 -d www.54new.com /da/
 #-------------待分类-------------
-

@@ -1,4 +1,5 @@
 ﻿![AdblockPlus1.1]
+! Redirect: https://adfiltering-rules.googlecode.com/svn/trunk/lastest/Plus_Rules.txt
 !-------【广告强效元素隐藏增强包 for ABP】-------
 !----------全面辅助广告过滤----------
 !----------版本_0.2---------

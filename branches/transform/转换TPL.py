@@ -13,10 +13,10 @@ acceptedExtensions = {
   '.txt': True,
 }
 ignore = {
-  'Apache.txt': True,
-  'CC-BY-SA.txt': True,
-  'GPL.txt': True,
-  'MPL.txt': True,
+  'rules_for_KSafe.txt': True,
+  'rules_for_AB_PRO.txt': True,
+  'Plus_Rules.txt': True,
+  'genera_rules.txt': True,
 }
 verbatim = {
   'COPYING': True,

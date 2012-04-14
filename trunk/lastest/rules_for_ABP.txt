@@ -1,4 +1,4 @@
-![Adblock Plus]
+![Adblock Plus 2.0]
 ! Redirect: https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_ABP.txt
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----

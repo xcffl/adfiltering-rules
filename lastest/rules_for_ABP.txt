@@ -1,9 +1,9 @@
-![Adblock Plus 2.0]
+![Adblock Plus]
 ! Redirect: https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_ABP.txt
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.6alpha---------
-!-----最后更新：2012-04-14------
+!-----最后更新：2012-04-15------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -1603,7 +1603,6 @@
 ||stat.ku6.com/*
 ||gug.ku6cdn.com/*
 ||i3.ku6img.com/cms/index/*/*/ad*.png
-||i2.ku6img.com/cms/index/*
 ||image.ku6.com/*/g/*
 ||img.c4.ku6.cn/*/upload/*.swf
 ||css.ku6cdn.com/podcast/img/bg_ad.gif
@@ -1734,6 +1733,8 @@
 ||ranking.ynet.com/*
 ||ads158.ynet.com/*
 ||fun.ynet.com/*
+!----扬子晚报----
+|*.yangtse.com/images/*.swf
 !----IT168.com----
 |*.it168.com/cad/*
 ||download.it168.com/jscript/bubbl*.js

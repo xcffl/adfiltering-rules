@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.0.6alpha---------
-!-----最后更新：2012-04-15------
+!-----最后更新：2012-04-16------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -1467,7 +1467,9 @@
 |*.qiyi.com/player/*/shangyou_*_*.swf
 |*.qiyi.com/player/*/xuehua_*_*.swf
 ||www.qiyi.com/player/*/right1.swf
-!----哔哩哔哩----
+!----网页制作大宝库----
+||images.dabaoku.com/*.gif
+||www.dabaoku.com/js/top*.js
 !----知音漫客----
 |*zymk.cn/Public/upload/img/2010-08-11/20100811132427.jpg
 |*zymk.cn/Public/upload/img/2010-06-30/20100630164523.gif

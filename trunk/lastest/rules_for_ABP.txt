@@ -717,6 +717,7 @@
 |*.77union.cn/*
 ||s.svem.cc/*
 ||c.xsu.cc/*
+|*.07171.com/*
 |*.369456.com/*
 ||serve.popads.net/*
 |*popadscdn.net/*
@@ -2101,6 +2102,14 @@
 !----CO.CC----
 |*co.cc/outside_search/*
 |*co.cc/img/partner_ship/*
+!----深同网----
+|*szgay.net/2011/*-*.*
+|*szgay.net/szgayimages/*-*.*
+|*szgay.net/szgayimages/*X*.*
+|*szgay.net/2012/*-*.*
+|*szgay.net/2011/*X*.*
+|*szgay.net/2012/*X*.*
+|*szgay.net/szgayimages/fs.gif
 !----友人----
 |*.younet.com/images/*.swf
 !----志同论坛----

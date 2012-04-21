@@ -708,6 +708,7 @@
 ||show.k184.com:8080*
 ||code.yy32.com/*
 ||ads.doublemax.net/*
+||js.7794lm.com/*
 ||img.alimama.cn/cms/images/*.swf
 ||s.334700.com/*
 ||code.100Goo.com/*

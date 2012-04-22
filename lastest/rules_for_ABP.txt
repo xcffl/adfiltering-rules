@@ -1677,6 +1677,7 @@
 !----风之动漫----
 |*.fzdm.com/ggup/*
 !----凤凰网----
+|*.ifengimg.com/*.swf
 |*/tres/ifeng/game/astd/*
 ||y0.ifengimg.com/mappa/*/*/*/*.swf
 ||bc.ifeng.com/*

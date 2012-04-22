@@ -1944,6 +1944,8 @@
 ||u.6868le.com/images/ie.gif
 ||u.6868le.com/templates/default/images/mainbg.gif
 |*6868le.com/poster/*
+!----酷米网----
+||www.kumi.cn/player/*_*.swf?*
 !----A5下载----
 |*xiazai.com/z/*
 !----Sex8----
@@ -2646,8 +2648,8 @@
 |*facebook.com/widgets/*
 !----Taorar----
 |*88591.com/hy/*
-http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=http://ref.so/lanx
 !----REF.SO----
+http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=http://ref.so/lanx
 ||bbs.tazhao.com/api.php?*
 !----中国网赚论坛----
 |*you85.cn/1/*

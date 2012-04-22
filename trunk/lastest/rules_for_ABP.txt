@@ -996,6 +996,7 @@
 ||v.jymtdm.com/*
 ||vip.78.cn/*
 ||urich20.uitv.com/*
+||p.tanx.com/ex?i=mm_*_*_*
 ||u.taotaosou.com/*
 ||www.0731s.net/*
 ||www.101860.com/*

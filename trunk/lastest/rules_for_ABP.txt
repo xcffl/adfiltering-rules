@@ -752,6 +752,7 @@
 |*.9elm.cn/*
 |*.9v.cn/*
 |*.9vcpm.cn/*
+||code.ze5.com/*
 |*.adbrite.com/*
 ||t.yigouw.com/*
 |*.adpinion.com/*

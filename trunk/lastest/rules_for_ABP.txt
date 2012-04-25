@@ -1354,10 +1354,11 @@
 |*.tudou.com/tdap/*
 !----优酷网----
 ||html.atm.youku.com/*
+||res.mfs.ykimg.com/051000004F967C999792737B8D0896BB.jpg
+||res.mfs.ykimg.com/051000004F977A8F9792733E9304BF86.jpg
 ||f.youku.com/player/getFlvPath/fileid/*&yad=*
 ||static.atm.youku.com/*/popup.js
 ||valf.atm.youku.com/show?*
-||static.atm.youku.com/*swf*
 ||fvid.atm.youku.com/*
 ||walp.atm.youku.com/*
 ||valp.atm.youku.com/*

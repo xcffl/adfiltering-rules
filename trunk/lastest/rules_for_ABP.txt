@@ -1529,6 +1529,7 @@
 |*/newhuagg/*_*_*.js
 !----金山词霸----
 ||u.iciba.com/*
+|*.iciba.com/images/toef.jpg
 ||iciba.englishtown.com/Sp/Landing/*
 ||web.iciba.com/ef/*
 ||goto.www.iciba.com/*

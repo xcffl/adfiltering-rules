@@ -17,6 +17,7 @@ ignore = {
   'rules_for_AB_PRO.txt': True,
   'Plus_Rules.txt': True,
   'genera_rules.txt': True,
+  'Element_Hiding_Rules.txt': True,
 }
 verbatim = {
   'COPYING': True,

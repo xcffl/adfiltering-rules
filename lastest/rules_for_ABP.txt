@@ -1997,6 +1997,8 @@
 ||trace.enet.com.cn/*
 |*enet.com.cn/enetshow.shtml?*
 ||images.enet.com.cn/consumer/*
+!----世纪文学网----
+||www.2100book.com/themes/v2/images/top_*.jpg
 !----久久影院----
 ||c.w99.cc/*
 !----蓝房网----

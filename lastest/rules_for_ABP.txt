@@ -356,7 +356,6 @@
 |*/adbot*.js
 |*/js_softdown_picshow*.js
 |*/js_softdown_left_picshow*.js
-|*/newhua_index_pic_*.js
 |*/ggxc/*
 |*/zhjfooter.js
 |*/fmt.js
@@ -1518,6 +1517,8 @@
 ||a.dangdang.com/*
 ||img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 !----华军软件园&牛华网----
+||www.onlinedown.net/newhuagg/daohang.js
+|*/newhua_index_pic_*.js
 |*/newhuagg/pptv.jpg
 |*/newhuagg/doudizhu68080.jpg
 |*/js_newhua_left_picshow*.js

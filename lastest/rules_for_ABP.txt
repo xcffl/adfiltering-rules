@@ -1183,7 +1183,7 @@
 ||fodder.qq.com/*
 ||mini.group.qq.com/*
 ||oimsgad.qq.com/*
-||ads*.qq.com/*
+||adsfile.qq.com/*
 ||rich.qq.com*
 ||mat1.gtimg.com/news/fbgg/*
 ||mat1.gtimg.com/hb/avd/*x*_*.swf

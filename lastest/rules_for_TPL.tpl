@@ -2,7 +2,7 @@ msFilterList
 : Expires=3
 #-------【广告强效过滤规则 for ABP】-------
 #----一个通用、全面的广告过滤规则----
-#----------版本_5.0.6---------
+#----------版本_5.1.0---------
 #-----最后更新：2012-04-29------
 #-------------通用规则-------------
 - */js.ng/
@@ -1224,7 +1224,7 @@ msFilterList
 - *sina.ec90.com/
 - *.adsina.
 - *.sina.com.cn/iframe/content*/
-- *.sina.com.cn/v/iframe/
+- *.sina.com.cn/v/iframe/*taglist.html
 -d mybizsite.sina.com.cn
 -d p4p.sina.com.cn
 -d pfp.sina.com.cn

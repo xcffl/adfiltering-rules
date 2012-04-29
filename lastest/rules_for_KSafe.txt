@@ -356,7 +356,7 @@
 5,4,*.shtimg.com/portal/*/*/*.gif,0
 5,4,*.shuazuan.com/uploadfile/*.jpg,0
 5,4,*.sina.com.cn/iframe/content*/*,0
-5,4,*.sina.com.cn/v/iframe/*,0
+5,4,*.sina.com.cn/v/iframe/*taglist.html,0
 5,4,*.sinaimg.cn/dy/deco/*/headty.js,0
 5,4,*.sinaimg.cn/dy/deco/*headcj.js,0
 5,4,*.sitenoo.com/robot/*x*.gif,0

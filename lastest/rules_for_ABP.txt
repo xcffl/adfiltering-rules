@@ -3232,7 +3232,7 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||cj.qidian.com/Picture/*.gif
 ||aa.sdo.com/*
 |*.aa.sdo.com/*
-|*qidian.com/Javascript/CaiHongJingLing.js
+|*.qidian.com/Javascript/CaiHongJingLing.js
 ||feo.staticsdo.com/*
 ||ipic.staticsdo.com/*
 !-------------恶意&钓鱼-------------

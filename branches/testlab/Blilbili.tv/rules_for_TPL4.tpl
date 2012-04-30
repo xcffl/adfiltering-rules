@@ -10,9 +10,4 @@ msFilterList
 - *&z_uc_ks=
 - *C.Html?P=
 - *?searchterms=
-- c.*/*.js
-- */adjs/
-- */js/playhd.js
-- */gg.js
-- */js/index-1.js
-- *tongji.js
+

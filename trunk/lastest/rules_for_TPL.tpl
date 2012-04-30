@@ -2,8 +2,8 @@ msFilterList
 : Expires=3
 #-------【广告强效过滤规则 for ABP】-------
 #----一个通用、全面的广告过滤规则----
-#----------版本_5.1.0---------
-#-----最后更新：2012-04-29------
+#----------版本_5.1.1alpha---------
+#-----最后更新：2012-04-30------
 #-------------通用规则-------------
 - */js.ng/
 - */37ss.js
@@ -260,7 +260,7 @@ msFilterList
 - *&z_uc_ks=
 - *C.Html?P=
 - *?searchterms=
-- c.*/*.js
+- http://c.*/*.js
 - */adjs/
 - */js/playhd.js
 - */gg.js
@@ -356,7 +356,6 @@ msFilterList
 - */adbot*.js
 - */js_softdown_picshow*.js
 - */js_softdown_left_picshow*.js
-- */newhua_index_pic_*.js
 - */ggxc/
 - */zhjfooter.js
 - */fmt.js
@@ -615,6 +614,7 @@ msFilterList
 - */vpnad.jpg
 - */headwww.js
 - */ad/*.php
+- */ad/*.html
 - */ad/*.htm
 - */client_down.html
 - */ad/*-*.jpg
@@ -1182,7 +1182,7 @@ msFilterList
 -d fodder.qq.com
 -d mini.group.qq.com
 -d oimsgad.qq.com
-- http://ads*.qq.com/
+-d adsfile.qq.com
 - http://rich.qq.com
 -d mat1.gtimg.com /news/fbgg/
 -d mat1.gtimg.com /hb/avd/*x*_*.swf
@@ -1517,6 +1517,8 @@ msFilterList
 -d a.dangdang.com
 -d img4.ddimg.cn /00074/pic/*_*_*x*_*.jpg
 #----华军软件园&牛华网----
+-d www.onlinedown.net /newhuagg/daohang.js
+- */newhua_index_pic_*.js
 - */newhuagg/pptv.jpg
 - */newhuagg/doudizhu68080.jpg
 - */js_newhua_left_picshow*.js
@@ -1995,6 +1997,8 @@ msFilterList
 -d trace.enet.com.cn
 - *enet.com.cn/enetshow.shtml?
 -d images.enet.com.cn /consumer/
+#----世纪文学网----
+-d www.2100book.com /themes/v2/images/top_*.jpg
 #----久久影院----
 -d c.w99.cc
 #----蓝房网----
@@ -3230,7 +3234,7 @@ msFilterList
 -d cj.qidian.com /Picture/*.gif
 -d aa.sdo.com
 - *.aa.sdo.com/
-- *qidian.com/Javascript/CaiHongJingLing.js
+- *.qidian.com/Javascript/CaiHongJingLing.js
 -d feo.staticsdo.com
 -d ipic.staticsdo.com
 #-------------恶意&钓鱼-------------

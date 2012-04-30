@@ -5,5 +5,14 @@ msFilterList
 #----------版本_5.1.0---------
 #-----最后更新：2012-04-29------
 #-------------通用规则-------------
-- http://js.*/i.js
-- http://js.*/code.js
+- *&z_sw=
+- *&z_sh=
+- *&z_uc_ks=
+- *C.Html?P=
+- *?searchterms=
+- c.*/*.js
+- */adjs/
+- */js/playhd.js
+- */gg.js
+- */js/index-1.js
+- *tongji.js

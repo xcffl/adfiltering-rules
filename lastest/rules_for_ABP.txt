@@ -1,5 +1,4 @@
 ![Adblock Plus]
-! Checksum: a9vTLpyyX5+BtUJB08IK7Q
 ! This list expires after 3 days
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
@@ -1583,6 +1582,9 @@
 !----Norm Team----
 ||img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 |*normteam.com/usepic/*
+!----天维网----
+||ads.skykiwi.com/*
+||www.gcemedia.co.nz/www/images/*.swf
 !----厦门小鱼网----
 ||adm.xmfish.com/*
 ||bbs.xmfish.com/images/atm/*

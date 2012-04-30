@@ -44,7 +44,7 @@ def combineSubscriptions(sourceDir, targetDir, timeout=30):
         print >>sys.stderr, '错误处理订阅文件 "%s"' % file
         traceback.print_exc()
         print >>sys.stderr
-      known[os.path.splitext(file)[0] + '.tpl'] = True
+      known['TPL.tpl'] = True
     known[file] = True
 
 
@@ -95,7 +95,7 @@ def processSubscriptionFile(sourceDir, targetDir, file, timeout):
   lines = resolveIncludes(filePath, lines, timeout)
   lines = filter(lambda l: l != '' and not re.search(r'!\s*checksum[\s\-:]+([\w\+\/=]+)', l, re.I), lines)
 
-  writeTPL(os.path.join(targetDir, os.path.splitext(file)[0] + '.tpl'), lines)
+  writeTPL(os.path.join(targetDir, 'TPL.tpl'), lines)
 
   checksum = hashlib.md5()
   checksum.update((header + '\n' + '\n'.join(lines) + '\n').encode('utf-8'))

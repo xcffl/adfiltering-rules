@@ -5,7 +5,6 @@ msFilterList
 #----------版本_5.1.0---------
 #-----最后更新：2012-04-29------
 #-------------通用规则-------------
-
 - *js_floatwindows
 - *js_popwinforum
 - */aaaddd/
@@ -19,31 +18,4 @@ msFilterList
 - *rd.htm?id=
 - *&z_c_url=
 - *&z_scd=
-- *&z_sw=
-- *&z_sh=
-- *&z_uc_ks=
-- *C.Html?P=
-- *?searchterms=
-- c.*/*.js
-- */adjs/
-- */js/playhd.js
-- */gg.js
-- */js/index-1.js
-- *tongji.js
-- */foot.js
-- */c_2/
-- http://a-m-s.
-- */adcontrol/
-- *advjs*.js
-- c.*/chat/
-- c.*?aid=
-- *floatad.js
-- */footer.js
-- */ad_include/
-- */ggjs.js
-- *.com/qqad.js
-- */cs/pic.gif
-- */float.js
-- */ktrace*.js
-- http://js.*/i.js
-- http://js.*/code.js
+

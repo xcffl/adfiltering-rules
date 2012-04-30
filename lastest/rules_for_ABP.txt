@@ -1,9 +1,10 @@
 ![Adblock Plus]
+! Checksum: a9vTLpyyX5+BtUJB08IK7Q
 ! This list expires after 3 days
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.1alpha---------
-!-----最后更新：2012-04-29------
+!-----最后更新：2012-04-30------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -260,7 +261,7 @@
 |*&z_uc_ks=*
 |*C.Html?P=*
 |*?searchterms=*
-|c.*/*.js
+||c.*/*.js
 |*/adjs/*
 |*/js/playhd.js
 |*/gg.js

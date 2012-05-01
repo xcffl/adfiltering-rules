@@ -2091,6 +2091,9 @@
 !----17K（一起看）小说网----
 ||img.17k.com/channel/qita/*
 ||img.17k.com/js/jquery*.js
+!----豆瓣----
+||www.douban.fm/rotate_ad?cid=*
+||douban.fm/rotate_ad?cid=*
 !----大旗网----
 ||img.daqi.com/common/art_img/0204/aili/js/xixi.js
 ||gg.daqi.com/*
@@ -3250,6 +3253,7 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 |*.jianfei234.com/*
 |*gaomm.in/*
 !-------------本站推广-------------
+||www.eshop8.com/images/*i*.gif
 |*www1.leeuu.com/bbsimg/gg39.swf
 |*91*qianming.cn*
 ||www.22ons.com/ons.gif

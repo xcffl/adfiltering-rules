@@ -1,9 +1,9 @@
-![Adblock Plus]
+[AdblockPlus]
 ! This list expires after 3 days
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.1alpha---------
-!-----最后更新：2012-04-30------
+!-----最后更新：2012-05-04------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -11,11 +11,13 @@
 |*/sidead.*
 |*/999aadbak.js*
 |*/adv.*
+*/advpic/*
 |*_ad1.*
 |*/adsjs/*
 |*/adtop/*.js*
 |*.com/ad/*
 |*/clicker.swf
+|*/*_ad.js
 |*/adshow?*
 |*/adv760.js*
 |*/advall.js*
@@ -1684,6 +1686,7 @@
 !----风之动漫----
 |*.fzdm.com/ggup/*
 !----凤凰网----
+||y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 |*.ifengimg.com/*.swf
 ||y0.ifengimg.com/*/*/*/rdn_*.jpg
 |*/tres/ifeng/game/astd/*
@@ -3236,6 +3239,9 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
 !----盛大在线&起点中文网----
 ||cj.qidian.com/Flash/*_*.swf
+||game.qidian.com/game/sssg/*/index.html
+||uedas.qidian.com/*
+||o.if.qidian.com/js/o.js
 ||cj.qidian.com/include/bottom_snda1.htm
 ||cj.qidian.com/Picture/*.gif
 ||aa.sdo.com/*

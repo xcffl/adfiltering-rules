@@ -1018,6 +1018,7 @@
 ||pic.jdunion.com/jdbbs/flash/*.swf
 |*.tjhggs.com/*
 |*.6788787.com/*
+||code.game3896.com/*
 |*.tjq.com/*
 |*.qiyou.com/*
 ||60.191.124.245/images/*.jpg

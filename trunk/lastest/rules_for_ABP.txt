@@ -1100,8 +1100,7 @@
 ||js.xsu.cc/*
 ||cs.twcczhu.com/*
 ||cdn.udmserve.net/mid858/*
-||view.admaster.com.cn/*
-||click.admaster.com.cn/*
+|*.admaster.com.cn/*
 ||code.aizhuanlove.cn/loveimages/*
 ||code.aizhuanlove.cn/code/*
 |*snyu.com/*
@@ -2824,7 +2823,8 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 !----ab126在线计算----
 |*.ab126.com/skin/default/images/main_bg.jpg
 !----自贡在线----
-||bbs.zg163.net/bbs/attachments/pushpic/*
+|*.zg163.net/*attachments/pushpic/*.gif
+|*.zg163.net/*attachments/pushpic/*.swf
 !----无搜不有----
 |*wudso.com/images/amazon/*
 ||gvod.wudso.com/apis/webslices?*

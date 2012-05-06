@@ -3,7 +3,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.1alpha---------
-!-----最后更新：2012-05-05------
+!-----最后更新：2012-05-06------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -11,7 +11,7 @@
 |*/sidead.*
 |*/999aadbak.js*
 |*/adv.*
-*/advpic/*
+|*/advpic/*
 |*_ad1.*
 |*/adsjs/*
 |*/adtop/*.js*
@@ -35,6 +35,7 @@
 |*dellhome*
 |*duilian*js*
 |*/adbanner.*
+|*/adloader.*
 |*/ads0.*
 |*&yad=*
 |*huohu/huohu.js
@@ -2822,6 +2823,8 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||afp.m1905.com/*
 !----ab126在线计算----
 |*.ab126.com/skin/default/images/main_bg.jpg
+!----自贡在线----
+||bbs.zg163.net/bbs/attachments/pushpic/*
 !----无搜不有----
 |*wudso.com/images/amazon/*
 ||gvod.wudso.com/apis/webslices?*

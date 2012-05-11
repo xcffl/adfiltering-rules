@@ -839,6 +839,7 @@
 |*.yigao.com/*
 |*.yiqiwin.com/*
 |*.zhcpm.com*
+||code.129game.com/*
 ||www.ipinyou.com/*
 |*autosense.bitauto.com*
 |*b.todayisp.com*

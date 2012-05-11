@@ -856,6 +856,7 @@
 ||bs.serving-sys.com*
 ||chat8.live800.com*
 ||cn.lianmeng.com*
+||img.50bang.org/jifen/*
 ||code.52qiangming.com*
 ||code.comuce.com/bdcode/*
 ||cpv.channelray.com*
@@ -1369,8 +1370,8 @@
 ||static.atm.youku.com/*/*/*_*.jpg
 ||static.atm.youku.com/*/*/*/*-*.jpg
 ||static.atm.youku.com/*/*/*x*.jpg
-||stat.youku.com/*
-||lstat.youku.com/*
+|*stat.youku.com/*
+|*lstat.youku.com/*
 !----雅虎----
 ||l.yimg.com/d/lib/bc/bcr_2.0.5.js
 ||l.yimg.com/f/a/tw/gif_backup/ad_*.gif

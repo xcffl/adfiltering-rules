@@ -3,7 +3,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.1alpha---------
-!-----最后更新：2012-05-08------
+!-----最后更新：2012-05-11------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -2834,6 +2834,7 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||gvod.wudso.com/apis/webslices?*
 !----圣城家园----
 ||tuan.cnscg.com/img/T13.gif
+||img170.poco.cn/mypoco/myphoto/20120319/18/6442645220120319181917096.gif
 ||tuan.cnscg.com/img/3dtv.jpg
 ||zyypva.blu.livefilestore.com/*
 ||zyylva.blu.livefilestore.com/*

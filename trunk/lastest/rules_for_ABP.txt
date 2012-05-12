@@ -1,3 +1,4 @@
+[AdblockPlus]
 ! This list expires after 3 days
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----

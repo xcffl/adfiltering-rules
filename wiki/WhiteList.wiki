@@ -16,7 +16,7 @@
 ||搜狗浏览器||订阅自带||直接订阅规则即可||
 ||枫树浏览器||订阅自带||直接订阅规则即可||
 ||360网盾||订阅（下载即可订阅）自带||直接订阅规则即可||
-||金山毒霸、金山卫士、金山网盾||单击打开右侧的“点击获取”，[逐条复制入http://bbs.duba.net/forum.php?mod=redirect&goto=findpost&ptid=22647779&pid=7019383 适当位置]||[https://adfiltering-rules.googlecode.com/svn/trunk/whitelist/genera_whitelist.txt 点击获取]||
+||金山毒霸、金山卫士、金山网盾||单击打开右侧的“点击获取”，逐条复制入[http://bbs.duba.net/forum.php?mod=redirect&goto=findpost&ptid=22647779&pid=7019383 适当位置]||[https://adfiltering-rules.googlecode.com/svn/trunk/whitelist/genera_whitelist.txt 点击获取]||
 ||卡巴斯基||在右侧的“点击获取”上右键另存为，然后导入即可||[https://adfiltering-rules.googlecode.com/svn/trunk/whitelist/genera_whitelist.txt 点击获取]||
 ||ESET Nod32||在右侧的“点击获取”上右键另存为，然后导入即可||[https://adfiltering-rules.googlecode.com/svn/trunk/whitelist/genera_whitelist.txt 点击获取]||
 ||Adblock Pro||订阅（下载即可订阅）自带||直接订阅规则即可||

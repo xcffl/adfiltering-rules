@@ -1358,6 +1358,7 @@
 |*.tudou.com/framepage/*
 |*.tudou.com/tdap/*
 !----优酷网----
+||static.atm.youku.com/*/*-*.swf?jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=*
 ||html.atm.youku.com/*
 ||f.youku.com/player/getFlvPath/fileid/*&yad=*
 ||static.atm.youku.com/*/popup.js

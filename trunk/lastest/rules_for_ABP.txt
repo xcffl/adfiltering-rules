@@ -3,7 +3,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.1alpha---------
-!-----最后更新：2012-05-17------
+!-----最后更新：2012-05-18------
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -1503,7 +1503,9 @@
 |*.people.com.cn/mediafile/*.swf
 !----推一把----
 ||bbs.tui18.com/js/bbstop.htm
-!----快播----
+!----快播&快玩&hahabei----
+||web.kuaiwan.com/js/*
+||is.kuaibo.com/uploadfile/*
 |*ad*.qvod.com*
 !----快车----
 ||ufile.kuaiche.com/*
@@ -1690,7 +1692,6 @@
 !----凤凰网----
 ||y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 |*.ifengimg.com/*.swf
-||y0.ifengimg.com/*/*/*/rdn_*.jpg
 |*/tres/ifeng/game/astd/*
 ||y0.ifengimg.com/mappa/*/*/*/*.swf
 ||bc.ifeng.com/*
@@ -2185,8 +2186,6 @@
 |*17daili.com/UpFile/Article/*
 |*17daili.com/file/upload/*/*/*-*-*-*-*.gif
 |*17daili.com/file/upload/*/*/*-*-*-*-*.jpg
-||is.kuaibo.com/uploadfile/*
-||searchstat.kuaibo.com/*
 !----电脑爱好者俱乐部----
 ||bbs.cfanclub.net/lmimages/*-*.gif
 ||bbs.cfanclub.net/attachment/Mon_*/*

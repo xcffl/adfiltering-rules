@@ -1863,6 +1863,7 @@
 |*bkill.net/images/3.jpg
 !----GayFriendFinder----
 !----站长网----
+||down.admin5.com/z/*
 |*admin5.com/extras/*images/*x*.swf
 |*admin5.com/extras/zz/images/*-*.jpg
 |*admin5.com/extras/zz/images/*.gif

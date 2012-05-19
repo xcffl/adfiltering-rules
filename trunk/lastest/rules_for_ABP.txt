@@ -709,7 +709,6 @@
 ||code.yy32.com/*
 ||ads.doublemax.net/*
 ||js.7794lm.com/*
-||img.alimama.cn/cms/images/*.swf
 ||s.334700.com/*
 ||code.100Goo.com/*
 |*.chenjingli.com/*
@@ -882,6 +881,7 @@
 ||code.woairing.cn/mmscode/MusicSingleRing/*
 |*cc.kx365.com/*
 ||tj.37wanwan.com/data/load.php?*
+||uimg.youxjia.com/jsorigin/*
 ||pic.adhai.com/*
 |*.unionsky.cn/*
 |*.jizzads.com/*
@@ -997,6 +997,8 @@
 ||un.265.com/*
 ||un.5i.com/*
 ||v.jymtdm.com/*
+||hao.kkpk.com/pop/*
+||yy.wofan.net/*
 ||vip.78.cn/*
 ||urich20.uitv.com/*
 ||p.tanx.com/ex?i=mm_*_*_*
@@ -1548,6 +1550,8 @@
 |*chinaz.com/js/text_link.js*
 ||alexa.chinaz.com/ip_gadsense.asp
 ||images.chinaz.com/newindex_images/*
+!----当易网----
+||www.downyi.com/css/ad.css
 !----免费中国----
 |*cnenf.com/images/*.jpg
 |*cnenf.com/images/ad*.gif
@@ -2135,6 +2139,9 @@
 |*e666.cn/images/ztwan.gif
 !----FileBase.to----
 |*filebase.to/images/bg.png
+!----多多软件站----
+||www.ddooo.com/ad_logo/*
+||www.ddooo.com/js/*
 !----CO.CC----
 |*co.cc/outside_search/*
 |*co.cc/img/partner_ship/*
@@ -2488,8 +2495,8 @@
 |*mumayi.net/index/ad*.gif
 |*mumayi.net/index/ad*.jpg
 ||js.mumayi.net/*
-!----9553软件下载站----
-|*9553.com/otherhtml/*
+!----9553绿色软件站----
+|*.9553.com/otherhtml/*
 !----第一放映室----
 ||61.139.219.150:65380/UpLoadFile/*.jpg
 !----英语帮----
@@ -2752,6 +2759,8 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 |*tongji.net*/sp/*
 !----绿野户外网----
 |*lvye.cn/images/pu/*
+!----pc6下载站----
+||www.pc6.com/js/un/*
 !----糗事百科----
 |*qiushibaike.com/ac/*
 !----联合新闻网----
@@ -3225,6 +3234,8 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||imgs.zhangmen.baidu.com/mp3fiesta/*
 ||house.leju.com/js/cooperate/leju_bitauto_search.js
 !----阿里妈妈&阿里软件&淘宝网&淘宝商城----
+||img.uu1001.cn/x2/*/*-*/*-*-*_*.xml
+||img.alimama.cn/cms/images/*.swf
 ||cb.alimama.cn/*
 ||a.alimama.cn/*
 |*/alimama.js

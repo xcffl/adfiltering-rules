@@ -1727,6 +1727,11 @@
 !----网页教学网----
 ||www.webjx.com/zanzhushang/*
 ||www.webjx.com/upfiles/*-*.gif
+!----绿茶下载站----
+||www.33lc.com/js/banner-*.js
+||www.33lc.com/soft/UploadPic/*-*/dnxx_*
+||www.33lc.com/js/*_*.js
+||www.33lc.com/soft/UploadPic/2012-5/201251814224916797.jpg
 !----若人网&若人论坛----
 ||mu.ruoren.com/*
 !----铁泰参考----

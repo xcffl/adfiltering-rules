@@ -758,6 +758,7 @@
 |*down.jialichuang.com/*
 |*.ads8.com/*
 |*.ads99.net*
+|*.70e.com/*
 |*.adsky.net*
 |*.adtology.com/*
 |*.adultadworld.com/*

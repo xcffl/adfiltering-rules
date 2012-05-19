@@ -1656,6 +1656,7 @@
 !----互联网的那点事----
 ||alibuybuy-wordpress.stor.sinaapp.com/*
 !----卡饭----
+||a.ikafan.com/*/top_*.html
 |*.kafan.cn/static/kafan_img/*
 ||static.ikafan.com/a/yuekan.js
 |*.kafan.cn/static/kafan_bd/*

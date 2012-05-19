@@ -25,6 +25,7 @@
 |*/adver/bannernew/*
 |*/adver_*
 |*/eventad/*
+|*.com/ad.*
 |*/toptip.js*
 |*/tc.js
 |*_ad_iframe.*

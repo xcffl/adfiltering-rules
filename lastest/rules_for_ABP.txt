@@ -1,9 +1,9 @@
 [AdblockPlus]
-! This list expires after 3 days
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.1alpha---------
-!-----最后更新：2012-05-19------
+!-----最后更新：2012-05-20------
+! This list expires after 3 days
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -2485,6 +2485,8 @@
 |*appinn.com/wp-content/*.swf*
 |*appinn.com/wp-content/uploads/*
 |*appinn.com/wp-content/chinamode2010nominate.png
+||static-y.appinn.com/wp-content/abizhi.png
+||static-y.appinn.com/wp-content/notesdo.png
 |*appinn.com/wp-content/since84.jpg
 !----一起动漫----
 ||www.17dm.com/s/common/js/*AD.js

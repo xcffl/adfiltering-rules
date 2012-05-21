@@ -698,7 +698,6 @@
 ||pub.buzz-time.com.cn/*
 |*.100fenlm.cn/*
 |*.adszui.com/*
-||p.tanx.com/ex?i=mm_17230573_*
 ||js.3975.com/*
 |*.ooaaoo.com/*
 |*.1133.cc/*
@@ -1004,7 +1003,6 @@
 ||yy.wofan.net/*
 ||vip.78.cn/*
 ||urich20.uitv.com/*
-||p.tanx.com/ex?i=mm_*_*_*
 ||u.taotaosou.com/*
 ||www.0731s.net/*
 ||www.101860.com/*
@@ -3244,6 +3242,7 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||img.uu1001.cn/x2/*/*-*/*-*-*_*.xml
 ||img.alimama.cn/cms/images/*.swf
 ||cb.alimama.cn/*
+||p.tanx.com/ex?i=mm_*_*_*
 ||a.alimama.cn/*
 |*/alimama.js
 ||img.alimama.cn/cms/push*

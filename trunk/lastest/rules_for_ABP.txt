@@ -1136,6 +1136,7 @@
 ||u.adbutler.com.cn/allsites/*
 ||pic.loliso.com:99/*
 |*bitian8g.com/gif/*
+||cp.5228167.com/*
 |*p012.com/Image/TaoBaoAd/*
 ||img.img18.com/img/unimages/ys2012/images/cr/*
 ||c*.uk.jf26.com/show.php?*
@@ -1308,6 +1309,9 @@
 ||images.sohu.com/*market/yule*
 ||images.sohu.com/cs/*.*f
 ||tv.sohu.com/upload/csad/*
+!----51看电影----
+||www.51kdy.com/js/yzz/banner_*.js
+||www.51kdy.com/js/yzz/top_*.html
 !----酷狗音乐-----
 |*links.kugoo.com/*
 ||sdn.kugoo.com/*

@@ -214,7 +214,7 @@
 |*.net*/banner.js*
 |*/cpm/ids.js
 |*c.*/code_img/*
-|*c.*/img_*
+||c.*/img_*
 |*code.*/iclk*
 |*code.*/show.php?*
 |*/adfile/*

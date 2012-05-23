@@ -945,7 +945,6 @@ updateTime=1
 */tygg/*
 */u/_sponsor/*
 */ui.js.php?siteid=*
-*/union/*
 */union_pop*js*
 */unipro/*
 */upload/images/ad_*x*_*.gif

@@ -938,7 +938,6 @@
 5,4,*/tygg/*,0
 5,4,*/u/_sponsor/*,0
 5,4,*/ui.js.php?siteid=*,0
-5,4,*/union/*,0
 5,4,*/union_pop*js*,0
 5,4,*/unipro/*,0
 5,4,*/upload/images/ad_*x*_*.gif,0

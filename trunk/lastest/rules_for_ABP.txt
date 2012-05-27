@@ -811,6 +811,7 @@
 |*.pointroll.com/*
 |*q78.com.cn/*
 |*.qq494.cn/*
+|*.3975lm.com/*
 |*.rj518.*
 |*.rmxads.com/*
 |*.rubiconproject.com/*

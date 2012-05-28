@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.2alpha---------
-!-----最后更新：2012-05-27------
+!-----最后更新：2012-05-28------
 ! This list expires after 3 days
 !-------------通用规则-------------
 |*/js.ng/*
@@ -17,7 +17,8 @@
 |*/adtop/*.js*
 |*.com/ad/*
 |*/clicker.swf
-|*/*_ad.js
+|*.net/*/*_ad.js
+|*.com/*/*_ad.js
 |*/adshow?*
 |*/adv760.js*
 |*/advall.js*
@@ -39,7 +40,6 @@
 |*/adbanner.*
 |*/adloader.*
 |*/ads0.*
-|*&yad=*
 |*huohu/huohu.js
 |*inc_page*
 |*pic_shareware*
@@ -1368,9 +1368,11 @@
 |*.tudou.com/framepage/*
 |*.tudou.com/tdap/*
 !----优酷网----
+||valf.atm.youku.com/crossdomain.xml
+||vid.atm.youku.com/*
 ||static.atm.youku.com/*/*-*.swf?jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=*
 ||html.atm.youku.com/*
-||f.youku.com/player/getFlvPath/fileid/*&yad=*
+||f.youku.com/player/getFlvPath/fileid/*&yad=*&ts=15
 ||static.atm.youku.com/*/popup.js
 ||valf.atm.youku.com/show?*
 ||fvid.atm.youku.com/*

@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.2alpha---------
-!-----最后更新：2012-05-28------
+!-----最后更新：2012-06-02------
 ! This list expires after 3 days
 !-------------通用规则-------------
 |*/js.ng/*
@@ -10,6 +10,7 @@
 |*/bannerad.*
 |*/sidead.*
 |*/999aadbak.js*
+|*/banner-ad-*
 |*/adv.*
 |*/advpic/*
 |*_ad1.*
@@ -947,6 +948,8 @@
 ||cache.51go.com/*
 ||cache.blogads.com/*
 ||cm.p4p.cn/*
+||code.345ads.com/*
+||code.345ads.com:*/*
 ||code.158ad.com/*
 ||code.qqgou.com/*
 ||www.xixianad.com/*
@@ -1179,6 +1182,9 @@
 !----腾讯&财付通----
 ||mat1.gtimg.com/cq/*
 ||mat1.gtimg.com/sports/2011ad/*
+||adsrich.qq.com/sc/vqq/crystal-min.js
+||l.qq.com/p?*
+||adslvfile.qq.com/*
 ||mat1.gtimg.com/*_ad_*.swf
 ||l.qq.com/lview?*
 ||pingjs.qq.com/ping.js
@@ -1231,6 +1237,8 @@
 ||un.so.gougou.com/*
 |*mcfg.sandai.net/*
 !----新浪网----
+||bj.house.sina.com.cn/*.js
+|*.sinaimg.cn/*/deco/*.js
 ||rs.sinajs.cn/*
 |*sina.ec90.com/*
 |*.adsina.*
@@ -1368,11 +1376,12 @@
 |*.tudou.com/framepage/*
 |*.tudou.com/tdap/*
 !----优酷网----
-||valf.atm.youku.com/crossdomain.xml
+||hz.youku.com/red/ggnotice.php
+||f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-
 ||vid.atm.youku.com/*
 ||static.atm.youku.com/*/*-*.swf?jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=*
 ||html.atm.youku.com/*
-||f.youku.com/player/getFlvPath/fileid/*&yad=*&ts=15
+||f.youku.com/player/getFlvPath/fileid/*&yad=*&ts=1*
 ||static.atm.youku.com/*/popup.js
 ||valf.atm.youku.com/show?*
 ||fvid.atm.youku.com/*
@@ -1505,6 +1514,7 @@
 ||sponsor.verycd.com/*
 ||sp.vcimg.com/*
 !----天涯社区----
+||static.tianyaui.com/global/ty/stat/*
 ||squidclick.bbs.tianya.cn/*
 ||8*.tianya.cn/*
 ||blog.tianya.cn/tuijian/tanchu.js
@@ -1706,6 +1716,7 @@
 !----风之动漫----
 |*.fzdm.com/ggup/*
 !----凤凰网----
+|*.ifeng.com/statics/comment_baidu.html
 ||y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 |*.ifengimg.com/*.swf
 |*/tres/ifeng/game/astd/*
@@ -2019,6 +2030,11 @@
 ||www.cctv.com/blog/tanchu/*
 ||log.player.cntv.cn/*
 ||a.cntv.cn/*
+|*.cctv.com/script/ad_s.js
+|*.cntv.cn/*/js_ad*.js*
+|*.cntv.cn/library/script/flash_guanggaodiaoyong.js
+||qiye.cctv.com/js/*
+|*.cntv.cn/Library/a2.js
 ||d.cntv.cn/*
 !----游久网----
 |*.uuu9.com/code/tool_netgame/*
@@ -2056,6 +2072,8 @@
 |*.cxdq.com/flash/*.gif
 |*.cxdq.com/flash/*.jpg
 !----V游网----
+||ftp3.verypsp.com/ben.gif
+||bbs.verypsp.com/*.js*
 ||s.verypsp.com:808/pic/*ad.gif
 ||soft.verypsp.com/pic/*
 |*verypsp.com/dl.js
@@ -3249,13 +3267,14 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||house.leju.com/js/cooperate/leju_bitauto_search.js
 !----阿里妈妈&阿里软件&淘宝网&淘宝商城----
 ||img.uu1001.cn/x2/*/*-*/*-*-*_*.xml
+||log.mmstat.com/*
 ||img.alimama.cn/cms/images/*.swf
 ||cb.alimama.cn/*
 ||p.tanx.com/ex?i=mm_*_*_*
 ||a.alimama.cn/*
 |*/alimama.js
 ||img.alimama.cn/cms/push*
-||z.alimama.com*
+||z.alimama.com/*
 ||img.alimama.cn/a/*
 ||click.tz.simba.taobao.com*
 ||img.alimama.cn/topicfile/*-*-*/*.*

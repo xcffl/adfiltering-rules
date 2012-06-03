@@ -560,6 +560,7 @@
 5,4,*/adlogo/,0
 5,4,*/admanage.js,0
 5,4,*/admanagers/*,0
+5,4,*/adpage/*,0
 5,4,*/adphoto/*,0
 5,4,*/adpic/*,0
 5,4,*/adpics/*,0
@@ -1985,7 +1986,7 @@
 5,4,f.mtmmt.com*,0
 5,4,f.qstatic.com/*,0
 5,4,f.youku.com/player/getflvpath/fileid/*&yad=*&ts=1*,0
-5,4,f.youku.com/player/getflvpath/sid/*-f90a-920d-1778-,0
+5,4,f.youku.com/player/getflvpath/sid/*-f90a-920d-1778-*,0
 3,4,fangte.com/aswf.swf,0
 5,4,feo.staticsdo.com/*,0
 5,4,file.chanet.com.cn*,0
@@ -2071,6 +2072,7 @@
 5,4,iciba.englishtown.com/sp/landing/*,0
 5,4,icon.zdnet.com.cn/software_zone/pic/utd/ad_*.gif,0
 5,4,idm666.s159.288idc.com/*,0
+5,4,ik.synacast.com/*,0
 5,4,image.6park.com*,0
 5,4,image.gamersky.com/img/*,0
 3,4,image.gamersky.com/img/660.swf,0
@@ -2364,6 +2366,7 @@
 3,4,o.if.qidian.com/js/o.js,0
 5,4,oimsgad.qq.com/*,0
 5,4,ojsteel.mysteel.com.cn/mysteel/*,0
+5,4,ol.synacast.com/*,0
 5,4,online*.cnzz.com/img/*,0
 5,4,online4.lianmeng.com*,0
 3,4,onlinedown.net/newhuagg/daohang.js,0
@@ -2422,6 +2425,7 @@
 5,4,pingfore.qq.com/*,0
 3,4,pingjs.qq.com/ping.js,0
 5,4,play.unionsky2.cn/*,0
+5,4,player.pplive.cn/*/ppliveplugin.swf,0
 3,4,playerwebservice.jsbc.com/getip.aspx,0
 3,4,playerwebservice.jsbc.com/getplaycount.aspx,0
 5,4,pmm.people.com.cn/main/s?*,0
@@ -2518,7 +2522,6 @@
 5,4,static.36kr.com/wp-content/uploads/*/*/*_*_*.*,0
 5,4,static.36kr.com/wp-content/uploads/krads-images/*,0
 5,4,static.acs86.com/*,0
-5,4,static.atm.youku.com/*/*-*.swf?jsstart=execcrazystart&jsend=execcrazyend&url=*,0
 5,4,static.atm.youku.com/*/*/*/*-*.jpg,0
 5,4,static.atm.youku.com/*/*/*_*.jpg,0
 5,4,static.atm.youku.com/*/*/*x*.jpg,0

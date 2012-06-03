@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.2alpha---------
-!-----最后更新：2012-06-02------
+!-----最后更新：2012-06-03------
 ! This list expires after 3 days
 !-------------通用规则-------------
 |*/js.ng/*
@@ -21,6 +21,7 @@
 |*.net/*/*_ad.js
 |*.com/*/*_ad.js
 |*/adshow?*
+|*/adpage/*
 |*/adv760.js*
 |*/advall.js*
 |*/js/ads-*
@@ -1377,9 +1378,8 @@
 |*.tudou.com/tdap/*
 !----优酷网----
 ||hz.youku.com/red/ggnotice.php
-||f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-
+||f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-*
 ||vid.atm.youku.com/*
-||static.atm.youku.com/*/*-*.swf?jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=*
 ||html.atm.youku.com/*
 ||f.youku.com/player/getFlvPath/fileid/*&yad=*&ts=1*
 ||static.atm.youku.com/*/popup.js
@@ -1541,6 +1541,9 @@
 |*.pps.tv/cprtp/*
 !----PPTV网络电视----
 ||iafp.pptv.com/*
+||player.pplive.cn/*/PPLivePlugin.swf
+||ik.synacast.com/*
+||ol.synacast.com/*
 |*pp2.pptv.com/*
 !----当当网----
 ||a.dangdang.com/*

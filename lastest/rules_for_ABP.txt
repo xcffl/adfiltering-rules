@@ -697,6 +697,7 @@
 |*.198game.net/*
 |*.allthelyrics.com/*/popup.js
 |*.y2126.com/*
+|*.union009.com/*
 ||pub.buzz-time.com.cn/*
 |*.100fenlm.cn/*
 |*.adszui.com/*
@@ -1583,6 +1584,9 @@
 |*cnenf.com/images/ad*.gif
 !----杀毒安全网----
 |*.safeba.net/images/a*.jpg
+!----找小说网----
+||www.zhaoxiaoshuo.com/adproxy.html?*
+||www.zhaoxiaoshuo.com/js/63wan.js
 !----三楚网----
 ||www.3chu.com/salegm/files/images/*/*/*-*-*-*.gif
 ||www.3chu.com/salegm/files/images/*/*/*-*-*-*.jpg

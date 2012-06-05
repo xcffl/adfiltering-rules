@@ -2147,7 +2147,8 @@
 !---耳机网
 ||photo.erji.com/*
 !----17K（一起看）小说网----
-||img.17k.com/channel/qita/*
+||log.17k.com/*
+||img.17k.com/channel/*
 ||img.17k.com/js/jquery*.js
 !----豆瓣----
 ||www.douban.fm/rotate_ad?cid=*

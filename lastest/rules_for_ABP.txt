@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.2alpha---------
-!-----最后更新：2012-06-03------
+!-----最后更新：2012-06-05------
 ! This list expires after 3 days
 !-------------通用规则-------------
 |*/js.ng/*
@@ -601,7 +601,8 @@
 |*/wankvids/*
 |*/pic/ashley_and_maca_2/images/*
 |*/ggad*.html
-|*/html.ng/*
+|*.net*/html.ng/*
+|*.com*/html.ng/*
 |*/wwefs_*.jpg
 |*/ad_close.gif
 |*/adgo?.asp*
@@ -2372,6 +2373,13 @@
 |*.99d.com/images/99d_*x*_*.gif
 !----CJDdaiLi超级在线代理----
 ||s1.cjdaili.com/images/vpn.jpg
+!----山西新闻网----
+||ny.sxrb.com/configuration/js/*
+||images.daynews.com.cn/zzbframe/2010daynews/js/*
+|*.xinzhou.org/api/javascript.php?*
+||images.daynews.com.cn/zzbframe/2008daynews/ad/*
+||images.daynews.com.cn/flash/*
+|*.xinzhou.org/data/js/*
 !----在线乐----
 ||img181.poco.cn/mypoco/myphoto/20110518/23/5296431020110518233946046.gif
 ||img181.poco.cn/mypoco/myphoto/20110120/20/5296431020110120200706031.gif

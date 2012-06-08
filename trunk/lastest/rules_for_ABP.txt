@@ -1383,7 +1383,7 @@
 ||f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-*
 ||vid.atm.youku.com/*
 ||html.atm.youku.com/*
-||f.youku.com/player/getFlvPath/fileid/*&yad=*&ts=1*
+||f.youku.com/player/getFlvPath/fileid/*&yad=1*
 ||static.atm.youku.com/*/popup.js
 ||valf.atm.youku.com/show?*
 ||fvid.atm.youku.com/*

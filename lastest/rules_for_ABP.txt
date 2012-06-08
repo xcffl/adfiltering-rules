@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.2alpha---------
-!-----最后更新：2012-06-05------
+!-----最后更新：2012-06-08------
 ! This list expires after 3 days
 !-------------通用规则-------------
 |*/js.ng/*
@@ -2153,6 +2153,7 @@
 !----豆瓣----
 ||www.douban.fm/rotate_ad?cid=*
 ||douban.fm/rotate_ad?cid=*
+|*.douban.fm/rotate_ad?cid=*
 !----大旗网----
 ||img.daqi.com/common/art_img/0204/aili/js/xixi.js
 ||gg.daqi.com/*

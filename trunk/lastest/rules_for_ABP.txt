@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.2alpha---------
-!-----最后更新：2012-06-08------
+!-----最后更新：2012-06-10------
 ! This list expires after 3 days
 !-------------通用规则-------------
 |*/js.ng/*
@@ -704,6 +704,7 @@
 ||js.3975.com/*
 |*.ooaaoo.com/*
 |*.1133.cc/*
+||pub.htwisdom.com/*
 ||union.zhubajie.com/*
 |*.jugao.com/*
 |*.100tone.com/*
@@ -1479,28 +1480,14 @@
 ||11.mydrivers.com/myfiles/04.js
 ||11.mydrivers.com/myfiles/myfiles100*.js
 |*images.mydrivers.com/*/*x*.gif
-!----奇艺网----
-|*.qiyi.com/player/*/zouxiu_*_*.swf
-||www.qiyipic.com/common/fix/xsh.images/*banner.jpg
-||www.qiyi.com/player/*/afp/*_*_*_*.swf
-||www.qiyi.com/player/*/qyq_tl_*.swf
-|*.qiyi.com/player/*/suteng_*.swf
-|*.qiyi.com/player/*/keaiduo_*.swf
-|*.qiyi.com/player/*/shenzhou_*.swf
-|*.qiyi.com/player/*/zjtl_*.swf
-|*.qiyi.com/player/*/afp/dsj_zj_tp*_*.swf
-||afp.qiyi.com/main/s?user=qiyiafp|qiyifr|qiyi*=ie
-||afp.qiyi.com/main/s?user=qiyiafp|qiyifr|qiyifr_zzsp_*&db=qiyiafp&border=0&local=yes&kv=ld|*&r=0.*
-||www.qiyi.com/player/*/zhongzi_player.swf
-||pic3.qiyipic.com/common/*/*.jpg
-||pic0.qiyipic.com/common/20110617/64eacdfc88e8474dbb5e142d7d77a0cd.jpg
-|*.qiyi.com/player/*/wktr_*
-||afp.qiyi.com/main/s?user=qiyiafp|dianshiju|qiyidsj_banner&db=qiyiafp&border=0&local=yes&kv=*
-|*.qiyi.com/player/*/dfrc_*
-|*.qiyi.com/player/*/yinlu_*_*.swf
-|*.qiyi.com/player/*/shangyou_*_*.swf
-|*.qiyi.com/player/*/xuehua_*_*.swf
-||www.qiyi.com/player/*/right1.swf
+!----爱奇艺----
+||afp.qiyi.com/*
+||jsmsg.video.qiyi.com/*
+||msg.video.qiyi.com/*
+||static.qiyi.com/js/pingback/*
+||policy.cupid.qiyi.com/*
+||uestat.video.qiyi.com/*
+|*.iqiyi.com/player/*/theatre*.swf
 !----网页制作大宝库----
 ||images.dabaoku.com/*.gif
 ||www.dabaoku.com/js/top*.js
@@ -1943,7 +1930,8 @@
 ||img.vista123.com/images/TweakCube468.gif
 ||img.vista123.com/images/win7master.gif
 |*.vista123.cn/notice.js
-||www.win8china.com/win8/headline.htm
+|*win8china.com/win8/headline.htm
+|*win8china.com/Script/elements/side_google.htm
 |*.win7china.com/Script/win7elements/*
 |*.win7china.com/HitCount.aspx?*
 !----站长助手----

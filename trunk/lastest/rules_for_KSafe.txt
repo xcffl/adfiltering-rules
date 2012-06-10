@@ -821,6 +821,7 @@
 5,4,*.rmxads.com/*
 5,4,*.rubiconproject.com/*
 5,4,*.scupio.com/*
+5,4,*.arti-mediagroup.com/*
 5,4,*.seegogo.net*
 5,4,*.sms888.net*
 5,4,www.top1bet.com/imgs/zp*x*.gif
@@ -1382,14 +1383,14 @@
 !----优酷网----
 5,4,hz.youku.com/red/ggnotice.php
 5,4,static.atm.youku.com/*-*.swf?jsStart=*
-5,4,f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-*
 5,4,vid.atm.youku.com/*
 5,4,html.atm.youku.com/*
+5,4,static.atm.youku.com/*/popup.js
+5,4,valf.atm.youku.com/show?*
+5,4,f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-*
 5,4,f.youku.com/player/getFlvPath/fileid/*-8DD5-1082-A06B-*&yad=1*
 5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=1*
 5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=3*
-5,4,static.atm.youku.com/*/popup.js
-5,4,valf.atm.youku.com/show?*
 5,4,fvid.atm.youku.com/*
 5,4,walp.atm.youku.com/*
 5,4,valp.atm.youku.com/*

@@ -1383,10 +1383,13 @@
 |*.tudou.com/tdap/*
 !----优酷网----
 ||hz.youku.com/red/ggnotice.php
+||static.atm.youku.com/*-*.swf?jsStart=*
 ||f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-*
 ||vid.atm.youku.com/*
 ||html.atm.youku.com/*
-||f.youku.com/player/getFlvPath/fileid/*&yad=1*
+||f.youku.com/player/getFlvPath/fileid/*-8DD5-1082-A06B-*&yad=1*
+||f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=1*
+||f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=3*
 ||static.atm.youku.com/*/popup.js
 ||valf.atm.youku.com/show?*
 ||fvid.atm.youku.com/*

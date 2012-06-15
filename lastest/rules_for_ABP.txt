@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.2alpha---------
-!-----最后更新：2012-06-10------
+!-----最后更新：2012-06-15------
 ! This list expires after 3 days
 !-------------通用规则-------------
 |*/js.ng/*
@@ -798,6 +798,8 @@
 ||d.yoyi.tv/*
 |*.ifocus.cn/*
 |*.insenz.com/*
+|*.arpg2.com/*
+|*.gs307.com/*
 |*.itsun.com/*
 ||p.zhanzhang.net/*
 |*.junnew.com/indexad/*
@@ -1645,7 +1647,7 @@
 !----酷6----
 ||dwtracking.sdo.com/*
 ||ku6afp.allyes.com/*
-||stat.ku6.com/*
+|*stat.ku6.com/?*
 ||gug.ku6cdn.com/*
 ||i3.ku6img.com/cms/index/*/*/ad*.png
 ||image.ku6.com/*/g/*
@@ -2303,6 +2305,7 @@
 !----52硬件----
 ||www.52hardware.com/topic/*
 !----天上人间动漫网----
+||www.52tian.net/qq/*
 ||www.52tian.net/js/*
 !----雪糕网----
 |*xuegao.com/pub/img/u/*
@@ -3315,8 +3318,6 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||o.if.qidian.com/js/o.js
 ||cj.qidian.com/include/bottom_snda1.htm
 ||cj.qidian.com/Picture/*.gif
-||aa.sdo.com/*
-|*.aa.sdo.com/*
 |*.qidian.com/Javascript/CaiHongJingLing.js
 ||feo.staticsdo.com/*
 ||ipic.staticsdo.com/*

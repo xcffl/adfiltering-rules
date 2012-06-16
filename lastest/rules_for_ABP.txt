@@ -1192,9 +1192,10 @@
 |*46.com/taobao/images/*
 !----腾讯&财付通----
 ||mat1.gtimg.com/cq/*
-||mat1.gtimg.com/sports/2011ad/*
-||adsrich.qq.com/sc/vqq/crystal-min.js
+||mat1.gtimg.com/sports/*.swf
+||adsrich.qq.com/*/crystal-min.js
 ||l.qq.com/p?*
+||mat1.gtimg.com/ent/flash/*
 ||adslvfile.qq.com/*
 ||mat1.gtimg.com/*_ad_*.swf
 ||l.qq.com/lview?*
@@ -1253,6 +1254,7 @@
 ||rs.sinajs.cn/*
 |*sina.ec90.com/*
 |*.adsina.*
+||sh.sinaimg.cn//228/*
 |*.sina.com.cn/iframe/content*/*
 |*.sina.com.cn/v/iframe/*taglist.html
 ||mybizsite.sina.com.cn/*
@@ -1305,6 +1307,11 @@
 |*.sinaimg.cn/dy/deco/*headcj.js
 ||d3.sina.com.cn/*/*/*_*.jpg
 ||i2.sinaimg.cn/home/*/*/U*.jpg
+||sh.sinaimg.cn/adpackage/*
+||sh.sina.com.cn/iframe/249/*/5.html
+||sh.sina.com.cn/iframe/328/*
+||sh.sina.com.cn/iframe/391/*
+||sh.sina.com.cn/iframe/408/*
 |*.sinaimg.cn/dy/deco/*/headty.js
 !----搜狗&搜狐&搜狐畅游----
 ||gm.changyou.com/css/ads-slide.css
@@ -3344,6 +3351,7 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 ||www.22ons.com/ons.gif
 ||app4.733.com*
 ||c03.caishow.com*
+|*.yodak.net/*/iframe/*.html
 ||cp1.blcx.com*
 ||*.xiazhiwa.com/*.gif
 ||*.kxyyq.com/*.gif

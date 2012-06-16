@@ -731,6 +731,7 @@
 ||serve.popads.net/*
 |*popadscdn.net/*
 |*.tuite8.com/*
+|*.5151ad.com/*
 ||js.ylunion.com/*
 ||js.zfjiu.com/*
 |*.17luntan.com/*

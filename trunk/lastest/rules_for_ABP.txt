@@ -1670,6 +1670,8 @@
 |*zol.com.cn/imphit0*.gif?*
 ||pic.zol.com.cn/*/*hp*_*_*.swf
 |*pc3w.com/jS/*
+!----77119TXT小说----
+||www.77119.com/js/bd/*x*.htm
 !----凡客诚品----
 ||www.vancl.com/WebSource/*
 ||images.vancl.com/Others/*/*/*/search_vt_*.jpg
@@ -1967,6 +1969,8 @@
 ||down.x6x8.com/good/*
 !----txt论坛----
 ||bbs.txtbbs.com/data/*.swf
+!----爆米花网----
+||a.pomoho.com/*
 !----下载吧----
 |*xiazaiba.com/js/*
 |*/tg/xiazaiba/index.html

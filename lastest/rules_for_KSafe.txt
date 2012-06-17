@@ -55,6 +55,7 @@
 5,4,*.3dmgame.com/games/uploadfiles/*/*.gif,0
 5,4,*.45511.com/*,0
 5,4,*.456t.com/taobao/*,0
+5,4,*.5151ad.com/*,0
 5,4,*.51yes.com/*,0
 5,4,*.52kkk.com/*,0
 5,4,*.52z.com/images/52z.jpg,0
@@ -110,7 +111,6 @@
 5,4,*.9vcpp.com/*,0
 5,4,*.9vsms.cn/*,0
 5,4,*.9wee.com/cluclk?*,0
-5,4,*.aa.sdo.com/*,0
 5,4,*.ab126.com/skin/default/images/main_bg.jpg,0
 5,4,*.acfun.tv/json/newad.xml,0
 5,4,*.ad*js.php*,0
@@ -449,6 +449,7 @@
 5,4,*.yesky.com/*/popcontent.js,0
 5,4,*.yigao.com/*,0
 5,4,*.yiqiwin.com/*,0
+5,4,*.yodak.net/*/iframe/*.html,0
 5,4,*.younet.com/images/*.swf,0
 5,4,*.youxiaxiazai.com/db_top/index_top.htm,0
 5,4,*.yubaibai.com.cn/uploadfile/*,0
@@ -1723,7 +1724,6 @@
 5,4,a.zifugame.com/*,0
 5,4,a12.alphagodaddy.com/?*,0
 5,4,a4.yeshj.com/*,0
-5,4,aa.sdo.com/*,0
 5,4,acount.pconline.com.cn/*,0
 5,4,acs.*,0
 5,4,act.chinatimes.com/aimg/*,0
@@ -1748,7 +1748,7 @@
 5,4,adsfile.qq.com/*,0
 5,4,adslvfile.qq.com/*,0
 5,4,adsresult.joywell.com.cn/*,0
-3,4,adsrich.qq.com/sc/vqq/crystal-min.js,0
+5,4,adsrich.qq.com/*/crystal-min.js,0
 5,4,adsrich.qq.com/web/default_fodders/*x*_*.swf,0
 5,4,advertisement.tianya.cn/*,0
 5,4,afp.m1905.com/*,0
@@ -2337,9 +2337,10 @@
 5,4,market.duowan.com/*,0
 5,4,mat1.gtimg.com/*_ad_*.swf,0
 5,4,mat1.gtimg.com/cq/*,0
+5,4,mat1.gtimg.com/ent/flash/*,0
 5,4,mat1.gtimg.com/hb/avd/*x*_*.swf,0
 5,4,mat1.gtimg.com/news/fbgg/*,0
-5,4,mat1.gtimg.com/sports/2011ad/*,0
+5,4,mat1.gtimg.com/sports/*.swf,0
 5,4,material.mediav.com/*,0
 5,4,mb2.yubaibai.com.cn/*/*/*.gif,0
 5,4,mb2.yubaibai.com.cn/*/*/*.jpg,0
@@ -2502,6 +2503,12 @@
 5,4,serve.popads.net/*,0
 5,4,server.yoyi.com.cn/*,0
 5,4,service.topsage.com/service/club/*/*_*_*x*.swf,0
+5,4,sh.sina.com.cn/iframe/249/*/5.html,0
+5,4,sh.sina.com.cn/iframe/328/*,0
+5,4,sh.sina.com.cn/iframe/391/*,0
+5,4,sh.sina.com.cn/iframe/408/*,0
+5,4,sh.sinaimg.cn//228/*,0
+5,4,sh.sinaimg.cn/adpackage/*,0
 5,4,shaft.jebe.renren.com/*,0
 5,4,shequ.kongfz.com/attachment/photo/*,0
 5,4,show.altitudedigitalpartners.com/*,0
@@ -2524,7 +2531,6 @@
 5,4,sta.ifeng.com/*,0
 5,4,stadig.ifeng.com/*,0
 5,4,stat*.tudou.com/*,0
-5,4,stat.ku6.com/*,1
 5,4,stat.tudou.com/play.srv*,0
 5,4,stat.uuu9.com/stat/*,0
 5,4,stat.xunlei.com/*,0

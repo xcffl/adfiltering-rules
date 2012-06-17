@@ -313,7 +313,7 @@
 |*/wwwcpm/*.js
 |*/leeboo/*.js
 |*/htm/index_*.htm
-|*/js/index*.js
+|/js/index*.js
 |*/aa/index/index*.js
 |*/pee_fmt_show*
 |*/js/indexflash.js
@@ -693,7 +693,6 @@
 !-------------广告联盟-------------
 |*.0252.com/*
 ||i.uu06.com/*
-|*.irs09.com/*
 |*.topfriv.com/popup.js
 |*.securitymattersmag.com/scripts/popup.js
 |*.198game.com/*
@@ -2470,7 +2469,7 @@
 !----秀客时尚网----
 ||www.thexiu.com/pop/*
 !----万松小说网----
-||www.wansong.net/ascript/*
+|||www.wansong.net/ascript/*
 !----免费啊网址导航----
 ||www.mianfeia.net/0*.gif
 !----去秀小游戏----

@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.2---------
-!-----最后更新：2012-06-17------
+!-----最后更新：2012-06-18------
 ! This list expires after 3 days
 !-------------通用规则-------------
 |*/js.ng/*
@@ -1659,11 +1659,11 @@
 !----酷6----
 ||dwtracking.sdo.com/*
 ||ku6afp.allyes.com/*
-|*stat.ku6.com/?*
+||stat.aa.sdo.com/*
+|*stat.ku6.com/*.do?*
 ||gug.ku6cdn.com/*
 ||i3.ku6img.com/cms/index/*/*/ad*.png
 ||image.ku6.com/*/g/*
-||img.c4.ku6.cn/*/upload/*.swf
 ||css.ku6cdn.com/podcast/img/bg_ad.gif
 ||st.vq.ku6.cn/*
 ||image.ku6.com/image/*
@@ -3020,8 +3020,8 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 !----玩多多网页游戏----
 |*wandodo.com/ad.html
 !----爱拍游戏----
-|*aipai.com/app/www/templates/common/img/upload/*
-||apas.aipai.com/*
+|*.aipai.com/*/ADPlayer_new.swf
+||apas.aipai.com/www/images/*
 !----DJ嗨嗨网----
 |*djkk.com/ak/*
 !----可可西音乐网----

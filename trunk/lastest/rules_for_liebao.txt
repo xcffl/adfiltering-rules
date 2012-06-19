@@ -1,9 +1,10 @@
-[AdblockPlus]
-!-------【广告强效过滤规则 for ABP】-------
-!----一个通用、全面的广告过滤规则----
-!----------版本_5.1.2---------
-!-----最后更新：2012-06-19------
-! This list expires after 3 days
+![Liebao Adblock Rule]
+!Title:广告强效过滤规则 for 猎豹浏览器
+!Author:xcffl
+!Updated:2012-06-18
+!Version5.1.2
+!Description:一个通用、全面的广告过滤规则
+!Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
@@ -1996,12 +1997,10 @@
 !----小说精灵----
 ||js.xiaoshuojingling.com/*
 !----猫扑----
-|*mopimg.cn/tj/*
-||pub.mop.com/*
-|*mopimg.cn/dc/*
+||pub.mop.com/widget.jsp?*
 ||imgpub.mop.com/mt/widget/*
 |*mop.com/fxb/js/fxb.js
-|*.mopimg.cn/app/pub/pub.*.js
+||mopimg.cn/app/pub/pub.*.js
 ||in.dg.mop.com/*
 ||gg.mop.com/*
 !----淮南论坛----

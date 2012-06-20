@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.2---------
-!-----最后更新：2012-06-19------
+!-----最后更新：2012-06-20------
 ! This list expires after 3 days
 !-------------通用规则-------------
 |*/js.ng/*
@@ -294,6 +294,7 @@
 |*/saleloader*.js
 |*/js/_gg/*
 |*/jsad/*
+|*/adiframe/*
 |*/adpolestar/*
 |*/qqxivodd/*
 |*/show.aspx?typeid=*
@@ -701,6 +702,8 @@
 |*.allthelyrics.com/*/popup.js
 |*.y2126.com/*
 |*.union009.com/*
+|*.ipinyou.com.cn/*
+|*.ipinyou.com/*
 ||pub.buzz-time.com.cn/*
 |*.100fenlm.cn/*
 |*.adszui.com/*
@@ -994,6 +997,7 @@
 ||ulinkjs.tom.com/*
 ||online*.cnzz.com/img/*
 ||uimg.unionli.com/*
+|*.pagechoice.net/*
 ||www.lf-lm.com/*
 |*.innity.net/*
 ||jsa*.733.com/*
@@ -1354,6 +1358,11 @@
 ||links.kugou.com/*
 ||sdn.kugou.com/*
 !----网易&有道----
+||stat.ws.126.net/*
+||adgeo.163.com/*
+|*.163.com/special/*_*.xml
+||img1.126.net/*
+||img2.126.net/*
 ||flv.bn.netease.com/*
 |*/163ad/*
 ||images*.cache.netease.com/channel*
@@ -3155,6 +3164,7 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 |*0595jx.com/images/41.gif
 !----乐视网----
 ||dc.letv.com/*
+||js.letvcdn.com/js/*/stats/*
 |*pro.letv.com/*
 !----一听音乐网----
 ||img.1ting.com/v5/js/*text.js

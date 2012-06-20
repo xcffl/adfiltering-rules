@@ -24,6 +24,7 @@
 5,4,*.116b.com/*,0
 5,4,*.130111.com/ad*x*.gif,0
 5,4,*.13300.com/donwpf.gif,0
+5,4,*.163.com/special/*_*.xml,0
 5,4,*.176web.com/mc/*,0
 5,4,*.17g.net/,0
 5,4,*.17luntan.com/*,0
@@ -144,6 +145,7 @@
 5,4,*.advertising.com/*,0
 5,4,*.afdads.com/*,0
 5,4,*.aikaokao.com/*,0
+5,4,*.aipai.com/*/adplayer_new.swf,0
 5,4,*.aiqianming.cn/*,0
 5,4,*.aisf.cn/*,0
 5,4,*.ajiang.net/*,0
@@ -272,7 +274,10 @@
 5,4,*.ifocus.cn/*,0
 5,4,*.innity.net/*,0
 5,4,*.insenz.com/*,0
+5,4,*.ipinyou.com.cn/*,0
+5,4,*.ipinyou.com/*,0
 5,4,*.iqiyi.com/player/*/theatre*.swf,0
+5,4,*.irs09.com/*,0
 5,4,*.is686.com/*,0
 5,4,*.it168.com/cad/*,0
 5,4,*.itopnetworks.com/*,0
@@ -313,6 +318,7 @@
 5,4,*.mengxiang.in/show.php?*,0
 5,4,*.mgqrw.com/*.gif,0
 5,4,*.miaozhen.com/*,0
+5,4,*.mopimg.cn/app/pub/pub.*.js,0
 5,4,*.moyu.com/*,0
 5,4,*.mr66.com/*,0
 5,4,*.msads.net/*,0
@@ -335,6 +341,7 @@
 5,4,*.orsoon.com/orsoon/img/*x*.jpg,0
 5,4,*.orsoon.com/orsoon/img/zz*.gif,0
 5,4,*.p2v.tudou.com*,0
+5,4,*.pagechoice.net/*,0
 5,4,*.panduola.com/*,0
 5,4,*.pconline.com.cn/images/lmt/area_lmt.js,0
 5,4,*.pctowap.com/img/bs*.jpg,0
@@ -547,6 +554,7 @@
 5,4,*/adhits.aspx,0
 5,4,*/adhtml/*,0
 5,4,*/adifm_*,0
+5,4,*/adiframe/*,0
 5,4,*/adimage/*,0
 5,4,*/adimages/*,0
 5,4,*/adimg/*,0
@@ -792,6 +800,7 @@
 5,4,*/js/ads-*,0
 5,4,*/js/head1.js,0
 5,4,*/js/html/*,0
+5,4,*/js/index*.js,0
 5,4,*/js/index-1.js,0
 5,4,*/js/indexflash.js,0
 5,4,*/js/playhd.js,0
@@ -1123,7 +1132,6 @@
 5,4,*adview*,0
 5,4,*advjs*.js,0
 5,4,*advstat.*,0
-5,4,*aipai.com/app/www/templates/common/img/upload/*,0
 5,4,*aliunion*,0
 5,4,*all_content_ad*,0
 5,4,*allyes.*/ad*,0
@@ -1392,6 +1400,8 @@
 5,4,*mmitb.com/images/js1.gif,0
 5,4,*mobilepop*,0
 5,4,*mop.com/fxb/js/fxb.js,0
+5,4,*mopimg.cn/dc/*,0
+5,4,*mopimg.cn/tj/*,0
 5,4,*mtips.xunlei.com/*,0
 5,4,*mumayi.net/index/ad*.gif,0
 5,4,*mumayi.net/index/ad*.jpg,0
@@ -1522,7 +1532,7 @@
 5,4,*sosotz.com/images/h*,0
 5,4,*sosotz.com/uploadfiles/20*.gif,0
 5,4,*spcode.*,0
-5,4,*stat.ku6.com/?*,0
+5,4,*stat.ku6.com/*.do?*,0
 5,4,*sucai.com/public/*,0
 5,4,*sudupan.com/sdgg.jpg,0
 5,4,*suflash.com/xinyua_xml.swf*,0
@@ -1658,7 +1668,6 @@
 5,4,*zzsky.cn/images/a_d_*,0
 5,4,*zzsky.cn/images/huangjinlian.gif,0
 5,4,*zzsky.cn/images/jiboli.gif,0
-5,4,/js/index*.js,0
 5,4,11.mydrivers.com/*.htm*,0
 3,4,11.mydrivers.com/myfiles/04.js,0
 5,4,11.mydrivers.com/myfiles/myfiles100*.js,0
@@ -1684,7 +1693,6 @@
 5,4,33.pcpop.com/*.*f,0
 3,4,33lc.com/soft/uploadpic/2012-5/201251814224916797.jpg,0
 5,4,360.legoumall.com/?id=*,0
-1,4,5,0
 5,4,60.191.124.196/*.jpg,0
 5,4,60.191.124.245/images/*.jpg,0
 3,4,60.191.124.245/images/sudu5.gif,0
@@ -1733,6 +1741,7 @@
 5,4,ad.*/*,0
 5,4,ad4.enet.com.cn/*,0
 5,4,adcontorl.tudou.com/*,0
+5,4,adgeo.163.com/*,0
 5,4,adimg.*,0
 5,4,adj.yidaba.com/*,0
 5,4,adk.*/*,0
@@ -1759,7 +1768,7 @@
 5,4,am.zdnet.com.cn/www/images/*/*_*.swf,0
 5,4,analytics-union.sandai.net/*,0
 5,4,analytics.163.com/*,0
-5,4,apas.aipai.com/*,0
+5,4,apas.aipai.com/www/images/*,0
 5,4,api.pixnet.tv/count?*,0
 5,4,api.qunar.com/ips.jcp?*,0
 5,4,app.pcpop.com/pageview.aspx?*,0
@@ -2142,7 +2151,6 @@
 5,4,img*.hxen.com/js/dl/close.gif,0
 5,4,img.007.mx/flash/*x*.swf,0
 5,4,img.0554cc.com/vip/*,0
-5,4,img.17k.com/channel/*,0
 5,4,img.17k.com/js/jquery*.js,0
 5,4,img.1ting.com/v5/js/*text.js,0
 5,4,img.265g.com/images/*.gif,0
@@ -2153,7 +2161,6 @@
 5,4,img.alimama.cn/cms/images/*.swf,0
 5,4,img.alimama.cn/cms/push*,0
 5,4,img.alimama.cn/topicfile/*-*-*/*.*,0
-5,4,img.c4.ku6.cn/*/upload/*.swf,0
 5,4,img.cnbeta.com/*-1.gif,0
 5,4,img.cnbeta.com/*.swf,0
 5,4,img.cnbeta.com/*300.gif,0
@@ -2225,6 +2232,7 @@
 5,4,img02.taobaocdn.com/imgextra/i2/199092905/*,0
 3,4,img03.taobaocdn.com/imgextra/i3/16214655/t2fkbhxotaxxxxxxxx_!!16214655.gif,0
 5,4,img1.07073.com/a/*,0
+5,4,img1.126.net/*,0
 5,4,img1.jczqw.com/img/*,0
 3,4,img170.poco.cn/mypoco/myphoto/20120319/18/6442645220120319181917096.gif,0
 3,4,img181.poco.cn/mypoco/myphoto/20110120/20/5296431020110120200706031.gif,0
@@ -2232,6 +2240,7 @@
 3,4,img181.poco.cn/mypoco/myphoto/20110216/17/5639799420110216174810040_640.jpg,0
 3,4,img181.poco.cn/mypoco/myphoto/20110518/23/5296431020110518233946046.gif,0
 3,4,img181.poco.cn/mypoco/myphoto/20110518/23/5296431020110518234058067.gif,0
+5,4,img2.126.net/*,0
 5,4,img2.bet007.com/image/*.gif,0
 3,4,img2081.poco.cn/mypoco/myphoto/20110825/12/5296431020110825125744022.jpg,0
 3,4,img2081.poco.cn/mypoco/myphoto/20110827/16/5296431020110827161024057.jpg,0
@@ -2275,6 +2284,7 @@
 5,4,js.coogao.cn*,0
 5,4,js.fengwu.net/baidu/*,0
 5,4,js.ggyy8.cc/1/js/760*,0
+5,4,js.letvcdn.com/js/*/stats/*,0
 5,4,js.mumayi.net/*,0
 5,4,js.pub.tom.com/*,0
 5,4,js.qizhao.com/*,0
@@ -2360,7 +2370,6 @@
 5,4,mmscode3.3bu.com*,0
 5,4,mmsu.moyu.com*,0
 5,4,monitor.yigao.com*,0
-5,4,mopimg.cn/app/pub/pub.*.js,0
 5,4,mpv.sandai.net/*,0
 5,4,msg.video.qiyi.com/*,0
 5,4,mu.ruoren.com/*,0
@@ -2454,7 +2463,7 @@
 5,4,pro.163.com/*,0
 5,4,pub.buzz-time.com.cn/*,0
 5,4,pub.htwisdom.com/*,0
-5,4,pub.mop.com/widget.jsp?*,0
+5,4,pub.mop.com/*,0
 5,4,pv.tom.com*,0
 3,4,pvstat.china.cn/statpv.js,0
 5,4,qiye.cctv.com/js/*,0
@@ -2531,8 +2540,10 @@
 5,4,sta.ifeng.com/*,0
 5,4,stadig.ifeng.com/*,0
 5,4,stat*.tudou.com/*,0
+5,4,stat.aa.sdo.com/*,0
 5,4,stat.tudou.com/play.srv*,0
 5,4,stat.uuu9.com/stat/*,0
+5,4,stat.ws.126.net/*,0
 5,4,stat.xunlei.com/*,0
 3,4,stat.zol.com.cn/ol.js,0
 3,4,static-y.appinn.com/wp-content/abizhi.png,0
@@ -2827,6 +2838,7 @@
 5,4,www.uueasy.com/images/pai_taobao*,0
 5,4,www.vancl.com/websource/*,0
 5,4,www.veryhuo.com/images/gaogao/*x*_*.gif,0
+5,4,www.wansong.net/ascript/*,0
 5,4,www.webjx.com/upfiles/*-*.gif,0
 5,4,www.webjx.com/zanzhushang/*,0
 5,4,www.xixianad.com/*,0

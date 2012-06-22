@@ -282,7 +282,8 @@
 |c.*/chat/*
 |c.*?aid=*
 |*floatad.js*
-|*/footer.js
+|*.org*/footer.js
+|*.com*/footer.js
 |*/ad_include/*
 |*/ggjs.js
 |*.com/qqad.js

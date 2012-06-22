@@ -295,6 +295,7 @@ js.*/code.js
 */saleloader*.js
 */js/_gg/*
 */jsad/*
+*/adiframe/*
 */adpolestar/*
 */qqxivodd/*
 */show.aspx?typeid=*
@@ -702,6 +703,8 @@ i.uu06.com/*
 *.allthelyrics.com/*/popup.js
 *.y2126.com/*
 *.union009.com/*
+*.ipinyou.com.cn/*
+*.ipinyou.com/*
 pub.buzz-time.com.cn/*
 *.100fenlm.cn/*
 *.adszui.com/*
@@ -995,6 +998,7 @@ ulinkdir.tom.com/*
 ulinkjs.tom.com/*
 online*.cnzz.com/img/*
 uimg.unionli.com/*
+*.pagechoice.net/*
 www.lf-lm.com/*
 *.innity.net/*
 jsa*.733.com/*
@@ -1324,8 +1328,14 @@ brand.sogou.com/*
 *sogou.com/textlink*
 *sogou_ad*js*
 *sogou_ad*php*
+count.vrs.sohu.com/*.swf
+count.vrs.sohu.com/*.xml
+js.sohu.com/wrating0820.js
+*.sohu.com/*.do?*&c=*
+*.sohu.com.cn/*.do?*&uid=*
+*.sohu.com.cn/*.gif?*&uid=*
 *sogouad*js*
-aty.tv.sohu.com/v?*
+aty*.tv.sohu.com/*
 *sogouad*php*
 inte.sogou.com/*
 images.sohu.com/cs/htmlfile/brand/*
@@ -1341,6 +1351,8 @@ txt.go.sohu.com/ip/soip*
 news.sohu.com/upload/cs/cswb*/news-*/*.html
 images.sohu.com/*market/yule*
 images.sohu.com/cs/*.*f
+tv.sohu.com/upload/ad_fr/*
+tv.sohu.com/upload/trace/*
 tv.sohu.com/upload/csad/*
 !----51看电影----
 www.51kdy.com/js/yzz/banner_*.js
@@ -1355,6 +1367,11 @@ ring.kugou.com/*
 links.kugou.com/*
 sdn.kugou.com/*
 !----网易&有道----
+stat.ws.126.net/*
+adgeo.163.com/*
+*.163.com/special/*_*.xml
+img1.126.net/*
+img2.126.net/*
 flv.bn.netease.com/*
 */163ad/*
 images*.cache.netease.com/channel*
@@ -1397,6 +1414,11 @@ stat*.tudou.com/*
 *.tudou.com/framepage/*
 *.tudou.com/tdap/*
 !----优酷网----
+static.atm.youku.com^*.swf|$domain=www.youku.com$w
+valf.atm.youku.com/crossdomain.xml$w
+valf.atm.youku.com/valf?$w
+f.youku.com/player/getFlvPath/fileid/*-7CD3-7320-*&yad=1&ts=5|$w
+static.atm.youku.com^*jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=http://count.atm.youku.com/$w
 vhtml.atm.youku.com/*
 hz.youku.com/red/ggnotice.php
 static.atm.youku.com/*-*.swf?jsStart=*
@@ -1997,10 +2019,12 @@ www.ouyaoxiazai.com/*f*.js
 !----小说精灵----
 js.xiaoshuojingling.com/*
 !----猫扑----
-pub.mop.com/widget.jsp?*
+*mopimg.cn/tj/*
+pub.mop.com/*
+*mopimg.cn/dc/*
 imgpub.mop.com/mt/widget/*
 *mop.com/fxb/js/fxb.js
-mopimg.cn/app/pub/pub.*.js
+*.mopimg.cn/app/pub/pub.*.js
 in.dg.mop.com/*
 gg.mop.com/*
 !----淮南论坛----
@@ -3154,6 +3178,7 @@ luckstatic.v1.cn/st/10000/*
 *0595jx.com/images/41.gif
 !----乐视网----
 dc.letv.com/*
+js.letvcdn.com/js/*/stats/*
 *pro.letv.com/*
 !----一听音乐网----
 img.1ting.com/v5/js/*text.js
@@ -3269,6 +3294,7 @@ partner.googleadservices.com*
 *.google-analytics.com/*
 www.google.cn/aclk?*
 !----百度&乐居----
+sclick.baidu.com/*
 gimg.baidu.com/img/*pic/*
 a.baidu.com/*
 c.baidu.com/*

@@ -1,8 +1,8 @@
 [AdblockPlus]
 !-------【广告强效过滤规则 for ABP】-------
 !----一个通用、全面的广告过滤规则----
-!----------版本_5.1.2---------
-!-----最后更新：2012-06-20------
+!----------版本_5.1.3alpha---------
+!-----最后更新：2012-06-22------
 ! This list expires after 3 days
 !-------------通用规则-------------
 |*/js.ng/*
@@ -1327,8 +1327,14 @@
 |*sogou.com/textlink*
 |*sogou_ad*js*
 |*sogou_ad*php*
+||count.vrs.sohu.com/*.swf
+||count.vrs.sohu.com/*.xml
+||js.sohu.com/wrating0820.js
+|*.sohu.com/*.do?*&c=*
+|*.sohu.com.cn/*.do?*&uid=*
+|*.sohu.com.cn/*.gif?*&uid=*
 |*sogouad*js*
-||aty.tv.sohu.com/v?*
+||aty*.tv.sohu.com/*
 |*sogouad*php*
 ||inte.sogou.com/*
 ||images.sohu.com/cs/htmlfile/brand/*
@@ -1344,6 +1350,8 @@
 ||news.sohu.com/upload/cs/cswb*/news-*/*.html
 ||images.sohu.com/*market/yule*
 ||images.sohu.com/cs/*.*f
+||tv.sohu.com/upload/ad_fr/*
+||tv.sohu.com/upload/trace/*
 ||tv.sohu.com/upload/csad/*
 !----51看电影----
 ||www.51kdy.com/js/yzz/banner_*.js
@@ -3280,6 +3288,7 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 |*.google-analytics.com/*
 ||www.google.cn/aclk?*
 !----百度&乐居----
+||sclick.baidu.com/*
 ||gimg.baidu.com/img/*pic/*
 ||a.baidu.com/*
 ||c.baidu.com/*
@@ -3501,6 +3510,7 @@ http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=htt
 |*.drevil.to/*
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
+!-------------待分类-------------
 !-------【广告强效过滤增强包 for ABP】-------
 !----------全面辅助广告过滤----------
 !----------版本_0.2---------

@@ -1,8 +1,8 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules_for_liebao
 !Author:xcffl
-!Updated:2012-06-18
-!Version:5.1.2
+!Updated:2012-06-23
+!Version:5.1.3alpha
 !Description:一个通用、全面的广告过滤规则
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
 !-------------通用规则-------------
@@ -283,7 +283,8 @@ a-m-s.*
 c.*/chat/*
 c.*?aid=*
 *floatad.js*
-*/footer.js
+*.org*/footer.js
+*.com*/footer.js
 */ad_include/*
 */ggjs.js
 *.com/qqad.js
@@ -1414,11 +1415,6 @@ stat*.tudou.com/*
 *.tudou.com/framepage/*
 *.tudou.com/tdap/*
 !----优酷网----
-static.atm.youku.com^*.swf|$domain=www.youku.com$w
-valf.atm.youku.com/crossdomain.xml$w
-valf.atm.youku.com/valf?$w
-f.youku.com/player/getFlvPath/fileid/*-7CD3-7320-*&yad=1&ts=5|$w
-static.atm.youku.com^*jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=http://count.atm.youku.com/$w
 vhtml.atm.youku.com/*
 hz.youku.com/red/ggnotice.php
 static.atm.youku.com/*-*.swf?jsStart=*
@@ -1626,6 +1622,7 @@ www.3chu.com/salegm/files/images/*/*/*-*-*-*.jpg
 img.cnbeta.com/*300.gif
 img.cnbeta.com/*336.jpg
 *cnbeta.com/images/tw*.jpg
+img.cnbeta.com/*576.*
 img.cnbeta.com/wps*.gif
 img.cnbeta.com/*3362.gif
 img.cnbeta.com/*300.jpg

@@ -1621,6 +1621,7 @@
 ||img.cnbeta.com/*300.gif
 ||img.cnbeta.com/*336.jpg
 |*cnbeta.com/images/tw*.jpg
+||img.cnbeta.com/*576.*
 ||img.cnbeta.com/wps*.gif
 ||img.cnbeta.com/*3362.gif
 ||img.cnbeta.com/*300.jpg

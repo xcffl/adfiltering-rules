@@ -1,3 +1,4 @@
+Copyright 2011 xcffl,  Apache License 2.0
 *&adid=*
 *&au_sid=*
 *&stype=endad*

@@ -6,6 +6,7 @@
 !Description:一个通用、全面的广告过滤规则
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
 !版本_5.1.3alpha
+!Copyright 2011 xcffl, Apache License 2.0
 !-------------通用规则-------------
 */js.ng/*
 */37ss.js*

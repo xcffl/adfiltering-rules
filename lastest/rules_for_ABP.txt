@@ -699,6 +699,7 @@
 |*.irs09.com/*
 |*.topfriv.com/popup.js
 |*.securitymattersmag.com/scripts/popup.js
+||a*.q150.com/*
 |*.198game.com/*
 |*.198game.net/*
 |*.allthelyrics.com/*/popup.js
@@ -1434,7 +1435,6 @@
 ||static.atm.youku.com/*/*/*/*-*.jpg
 ||static.atm.youku.com/*/*/*x*.jpg
 ||e.stat.youku.com/*
-|*lstat.youku.com/*
 !----雅虎----
 ||l.yimg.com/d/lib/bc/bcr_2.0.5.js
 ||l.yimg.com/f/a/tw/gif_backup/ad_*.gif

@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules_for_liebao
 !Author:xcffl
-!Updated:2012-06-24 16:36
+!Updated:2012-06-24 20:01
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -701,6 +701,7 @@ i.uu06.com/*
 *.irs09.com/*
 *.topfriv.com/popup.js
 *.securitymattersmag.com/scripts/popup.js
+a*.q150.com/*
 *.198game.com/*
 *.198game.net/*
 *.allthelyrics.com/*/popup.js
@@ -1436,7 +1437,6 @@ static.atm.youku.com/*/*/*_*.jpg
 static.atm.youku.com/*/*/*/*-*.jpg
 static.atm.youku.com/*/*/*x*.jpg
 e.stat.youku.com/*
-*lstat.youku.com/*
 !----雅虎----
 l.yimg.com/d/lib/bc/bcr_2.0.5.js
 l.yimg.com/f/a/tw/gif_backup/ad_*.gif
@@ -2769,7 +2769,7 @@ creative.ak.fbcdn.net/*/flyers/*.jpg
 !----Taorar----
 *88591.com/hy/*
 !----REF.SO----
-www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=ref.so/lanx
+http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=http://ref.so/lanx
 bbs.tazhao.com/api.php?*
 !----中国网赚论坛----
 *you85.cn/1/*

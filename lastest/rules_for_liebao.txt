@@ -3513,6 +3513,10 @@ img.kuyundong.com/images/cuxiao/lkt/lkt*/*X*_r*_c*.jpg
 *.drevil.to/*
 www.fclub.cn/affiche.php?act=img&ad_id=*
 www.54new.com/da/*
+<<<<<<< .mine
 !-------------待分类-------------
 !-------------白名单-------------
-static.youku.com/
+static.youku.com/$w=======
+!-------------待分类-------------
+!-------------白名单-------------
+static.youku.com/>>>>>>> .r481

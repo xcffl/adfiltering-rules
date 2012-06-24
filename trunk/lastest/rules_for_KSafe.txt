@@ -1415,10 +1415,10 @@
 5,4,html.atm.youku.com/*
 5,4,static.atm.youku.com/*/popup.js
 5,4,valf.atm.youku.com/show?*
-5,4,f.youku.com/player/get*/sid/*-F90A-920D-1778-*
-5,4,f.youku.com/player/get*/fileid/*-8DD5-1082-A06B-*&yad=1*
-5,4,f.youku.com/player/get*/fileid/*&yad=1&ts=1*
-5,4,f.youku.com/player/get*/fileid/*&yad=1&ts=3*
+5,4,*f.youku.com/player/get*/sid/*-F90A-920D-1778-*
+5,4,*f.youku.com/player/get*/fileid/*-8DD5-1082-A06B-*&yad=1*
+5,4,*f.youku.com/player/get*/fileid/*&yad=1&ts=1*
+5,4,*f.youku.com/player/get*/fileid/*&yad=1&ts=3*
 5,4,fvid.atm.youku.com/*
 5,4,walp.atm.youku.com/*
 5,4,valp.atm.youku.com/*

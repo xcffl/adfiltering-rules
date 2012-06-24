@@ -3517,4 +3517,4 @@ www.fclub.cn/affiche.php?act=img&ad_id=*
 www.54new.com/da/*
 !-------------待分类-------------
 !-------------白名单-------------
-static.youku.com/$w
+static.youku.com/	$w

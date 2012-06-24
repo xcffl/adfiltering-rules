@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules_for_liebao
 !Author:xcffl
-!Updated:2012-06-24 15:56
+!Updated:2012-06-24 16:36
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -317,7 +317,7 @@ js.*/code.js
 */wwwcpm/*.js
 */leeboo/*.js
 */htm/index_*.htm
-*/js/index*.js
+*.cn*/js/index*.js
 */aa/index/index*.js
 */pee_fmt_show*
 */js/indexflash.js
@@ -2077,7 +2077,7 @@ a.cntv.cn/*
 *.cntv.cn/*/js_ad*.js*
 *.cntv.cn/library/script/flash_guanggaodiaoyong.js
 qiye.cctv.com/js/*
-*.cntv.cn/Library/a2.js
+*.cctv.com/Library/a2.js
 d.cntv.cn/*
 !----游久网----
 *.uuu9.com/code/tool_netgame/*
@@ -2768,7 +2768,7 @@ creative.ak.fbcdn.net/*/flyers/*.jpg
 !----Taorar----
 *88591.com/hy/*
 !----REF.SO----
-http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=http://ref.so/lanx
+www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=ref.so/lanx
 bbs.tazhao.com/api.php?*
 !----中国网赚论坛----
 *you85.cn/1/*
@@ -3514,10 +3514,6 @@ img.kuyundong.com/images/cuxiao/lkt/lkt*/*X*_r*_c*.jpg
 *.drevil.to/*
 www.fclub.cn/affiche.php?act=img&ad_id=*
 www.54new.com/da/*
-<<<<<<< .mine
 !-------------待分类-------------
 !-------------白名单-------------
-static.youku.com/$w=======
-!-------------待分类-------------
-!-------------白名单-------------
-static.youku.com/>>>>>>> .r481
+static.youku.com/$w

@@ -5,6 +5,7 @@ updateUrl=http://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_AB
 updateTime=1
 [Whitelist]
 [Block Address]
+Copyright 2011 xcffl, Apache License 2.0
 *&adid=*
 *&au_sid=*
 *&stype=endad*

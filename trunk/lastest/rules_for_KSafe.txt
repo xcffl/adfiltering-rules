@@ -1,3 +1,4 @@
+Copyright 2011 xcffl, Apache License 2.0
 !-------------通用规则-------------
 5,4,*/js.ng/*
 5,4,*/37ss.js*

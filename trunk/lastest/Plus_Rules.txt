@@ -3,6 +3,8 @@
 !----------全面辅助广告过滤----------
 !----------版本_0.2---------
 !---------最后更新 2012-06-17---------
+!Copyright 2011 xcffl, Apache License 2.0
+! Redirect:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_ABP.txt
 !--------------[元素隐藏规则]--------------
 !-------------通用规则-------------
 ##[id^=ab_],[id*=AD_]

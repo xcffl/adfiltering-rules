@@ -4,6 +4,7 @@ msFilterList
 #----------版本_5.1.2---------
 #-----最后更新：2012-06-17------
 : Expires=3
+#Copyright 2011 xcffl, Apache License 2.0
 #-------------通用规则-------------
 - */js.ng/
 - */37ss.js

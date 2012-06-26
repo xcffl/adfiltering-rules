@@ -1,4 +1,11 @@
 Copyright 2011 xcffl, Apache License 2.0
+[AdblockPlus]
+!-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
+!----一个通用、全面的广告过滤规则----
+!----------版本_5.1.3alpha---------
+!-----最后更新：2012-06-26-20:55-----
+!Copyright 2011 xcffl, Apache License 2.0
+! This list expires after 3 days
 !-------------通用规则-------------
 5,4,*/js.ng/*
 5,4,*/37ss.js*
@@ -310,7 +317,7 @@ Copyright 2011 xcffl, Apache License 2.0
 5,4,*/wwwcpm/*.js
 5,4,*/leeboo/*.js
 5,4,*/htm/index_*.htm
-5,4,*/js/index*.js
+5,4,*.cn*/js/index*.js
 5,4,*/aa/index/index*.js
 5,4,*/pee_fmt_show*
 5,4,*/js/indexflash.js
@@ -693,6 +700,7 @@ Copyright 2011 xcffl, Apache License 2.0
 5,4,*.irs09.com/*
 5,4,*.topfriv.com/popup.js
 5,4,*.securitymattersmag.com/scripts/popup.js
+5,4,a*.q150.com/*
 5,4,*.198game.com/*
 5,4,*.198game.net/*
 5,4,*.allthelyrics.com/*/popup.js
@@ -800,6 +808,7 @@ Copyright 2011 xcffl, Apache License 2.0
 5,4,*.1lo0.net/code/*
 5,4,d.yoyi.tv/*
 5,4,*.ifocus.cn/*
+5,4,c*.keytui.com/*
 5,4,*.insenz.com/*
 5,4,*.arpg2.com/*
 5,4,*.gs307.com/*
@@ -1416,10 +1425,10 @@ Copyright 2011 xcffl, Apache License 2.0
 5,4,html.atm.youku.com/*
 5,4,static.atm.youku.com/*/popup.js
 5,4,valf.atm.youku.com/show?*
-5,4,*f.youku.com/player/get*/sid/*-F90A-920D-1778-*
-5,4,*f.youku.com/player/get*/fileid/*-8DD5-1082-A06B-*&yad=1*
-5,4,*f.youku.com/player/get*/fileid/*&yad=1&ts=1*
-5,4,*f.youku.com/player/get*/fileid/*&yad=1&ts=3*
+5,4,f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-*
+5,4,f.youku.com/player/getFlvPath/fileid/*-8DD5-1082-A06B-*&yad=1*
+5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=1*
+5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=3*
 5,4,fvid.atm.youku.com/*
 5,4,walp.atm.youku.com/*
 5,4,valp.atm.youku.com/*
@@ -1428,7 +1437,6 @@ Copyright 2011 xcffl, Apache License 2.0
 5,4,static.atm.youku.com/*/*/*/*-*.jpg
 5,4,static.atm.youku.com/*/*/*x*.jpg
 5,4,e.stat.youku.com/*
-5,4,*lstat.youku.com/*
 !----雅虎----
 5,4,l.yimg.com/d/lib/bc/bcr_2.0.5.js
 5,4,l.yimg.com/f/a/tw/gif_backup/ad_*.gif
@@ -2070,7 +2078,7 @@ Copyright 2011 xcffl, Apache License 2.0
 5,4,*.cntv.cn/*/js_ad*.js*
 5,4,*.cntv.cn/library/script/flash_guanggaodiaoyong.js
 5,4,qiye.cctv.com/js/*
-5,4,*.cctv.com/*ibrary/a2.js
+5,4,*.cctv.com/Library/a2.js
 5,4,d.cntv.cn/*
 !----游久网----
 5,4,*.uuu9.com/code/tool_netgame/*
@@ -2760,8 +2768,8 @@ Copyright 2011 xcffl, Apache License 2.0
 5,4,*facebook.com/widgets/*
 !----Taorar----
 5,4,*88591.com/hy/*
-!----REF.SO----
-http://www.ref.so//shortCounter.jsp?userId=xcffl&vid=74ce75c2&fileId=lanx&dr=http://ref.so/lanx
+!----REF.SO&他找----
+5,4,www.ref.so//shortCounter.jsp?userId=*&vid=74ce75c2&fileId=lanx&dr=http://ref.so/lanx
 5,4,bbs.tazhao.com/api.php?*
 !----中国网赚论坛----
 5,4,*you85.cn/1/*

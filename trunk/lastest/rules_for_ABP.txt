@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-06-26-20:55-----
+!-----最后更新：2012-06-27-18:07-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -2383,6 +2383,12 @@
 |*.domain.cn/*/ad/*
 !----13300软件站----
 |*.13300.com/donwpf.gif
+!----专门网----
+||www.51nb.com/forum/images/article_*.gif
+||www.51nb.com/images/A-*-*.gif
+||www.51nb.com/images/thinkplus.gif
+||www.51nb.com/forum/images/top*.gif
+||www.51nb.com/forum/images/post*.gif
 !----130111软件园----
 |*.130111.com/ad*X*.gif
 !----爱上电影网----

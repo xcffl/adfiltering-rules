@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-06-30-21:07-----
+!-----最后更新：2012-06-30-21:12-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -3053,9 +3053,11 @@
 !----我的久优----
 |*my9u.com/content/templates/demo/images/*
 !----游民星空----
+||imgf.gamersky.com/**bg_ol*.jpg
+||imgf.gamersky.com/*/*
 ||image.gamersky.com/img/*
 |*.gamersky.com/frame/*
-||image.gamersky.com/img/660.swf
+|*.gamersky.com/img/*
 !----广友影视----
 ||www.gy778tv.cn/UBB/uploadfile/News/20090411/20090411103618800.gif
 |*96.44.179.162*

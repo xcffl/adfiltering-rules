@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-06-30-20:54-----
+!-----最后更新：2012-06-30-21:07-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -16,6 +16,8 @@
 |*/pv.*
 |*/advpic/*
 |*_ad1.*
+|*.swf?clicktag=*
+|*/adjs.php
 |*/adsjs/*
 |*/adtop/*.js*
 |*.com/ad/*
@@ -2198,6 +2200,7 @@
 ||bf.bet007.com/top.js
 ||img2.bet007.com/image/*.gif
 !----3DMGAME----
+||att.3dmgame.com/att/forum/*.jpg
 |*.3dmgame.com/games/UploadFiles/*/*.gif
 !----看书网----
 ||80.qukanshu.com/*
@@ -2775,6 +2778,10 @@
 |*rrhjz.com/model/*
 |*rrhjz.com/guest/*
 !----CSDN----
+|*.csdn.net/*/counter.js
+|*.csdn.net/1341df/csdn_ggmm.js
+||images.china-pub.com/coop/*
+||counter.csdn.net/*.js
 ||info-database.csdn.net/Upload/*
 |*csdnimg.cn/www/images/popup/*
 |*csdn.net/ggmm/*

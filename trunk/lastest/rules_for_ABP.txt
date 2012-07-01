@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-01-15:11-----
+!-----最后更新：2012-07-01-15:58-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -2487,6 +2487,8 @@
 |*23sc.cn/andy/*
 ||www.23sc.cn/007/*
 |*cqcpu.com/andy/*
+!----晋江文学城----
+||static.jjwxc.net/scripts/richMedia.js
 !----99d软件园----
 |*.99d.com/images/99d_*x*_*.gif
 !----CJDdaiLi超级在线代理----
@@ -3403,8 +3405,8 @@
 ||imgs.zhangmen.baidu.com/mp3fiesta/*
 ||house.leju.com/js/cooperate/leju_bitauto_search.js
 !----阿里妈妈&阿里软件&淘宝网&淘宝商城----
-||img.uu1001.cn/x2/*/*-*/*-*-*_*.xml
 ||log.mmstat.com/*
+||log.mm.vip.cnz.alimama.com/*
 ||img.alimama.cn/cms/images/*.swf
 ||cb.alimama.cn/*
 ||p.tanx.com/ex?i=mm_*_*_*

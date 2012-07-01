@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-06-30-21:12-----
+!-----最后更新：2012-07-01-11:26-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -1050,6 +1050,8 @@
 |*.unionbig.com/*
 ||w*ww.blu.livefilestore.com/*.gif
 |*.union178.com/*
+|*.sharele.cn/*
+|*.7555.net/*
 |*qq61.com/*
 ||u1.skype.tom.com/*
 ||js.a3p4.com/*

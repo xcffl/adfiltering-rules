@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-01-14:55-----
+!-----最后更新：2012-07-01-15:11-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -22,6 +22,7 @@
 |*/adtop/*.js*
 |*.com/ad/*
 |*/clicker.swf
+|*/attachments/ad/*
 |*.net/*/*_ad.js
 |*.com/*/*_ad.js
 |*/adshow?*
@@ -1335,12 +1336,14 @@
 ||d1.sina.com.cn/*images/*
 ||d4.sina.com.cn/*images/*
 ||d3.sina.com.cn/*images/*
+||d2.sina.com.cn/*.html
 ||d2.sina.com.cn/*images/*
 ||d4.sina.com.cn/*js*
 ||d3.sina.com.cn/*js*
 ||d2.sina.com.cn/*js*
 ||d1.sina.com.cn/*js*
 ||lining.sina.com.cn/iframe/*
+||d5.sina.com.cn/*.js
 ||d5.sina.com.cn/sina/ae/2009/*
 ||d3.sina.com.cn/rwei/womaiwang/1216new/*
 ||i0.sinaimg.cn/home/2010/1220/U210P30DT20101220093229.jpg
@@ -1382,6 +1385,7 @@
 ||sh.sina.com.cn/iframe/328/*
 ||sh.sina.com.cn/iframe/391/*
 ||sh.sina.com.cn/iframe/408/*
+||news.sina.com.cn/pfpnews/js/libweb.js
 |*.sinaimg.cn/dy/deco/*/headty.js
 !----搜狗&搜狐&搜狐畅游----
 ||gm.changyou.com/css/ads-slide.css

@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-01-15:58-----
+!-----最后更新：2012-07-01-17:48-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -37,6 +37,7 @@
 |*.com/ad.*
 |*/toptip.js*
 |*/tc.js
+|*/pingd?*
 |*_ad_iframe.*
 |*/ttads.*
 |*/tuijianimg/*
@@ -915,6 +916,7 @@
 |*.xxxwebtraffic.com/*
 |*.yebai.net/*
 |*.yeeka.com/*
+|*.samboc.com/*
 |*.yigao.com/*
 |*.yiqiwin.com/*
 |*.zhcpm.com*
@@ -1264,6 +1266,7 @@
 !----腾讯&财付通----
 ||mat1.gtimg.com/cq/*
 ||mat1.gtimg.com/sports/*.swf
+||tajs.qq.com/*
 ||adsrich.qq.com/*/crystal-min.js
 ||l.qq.com/p?*
 ||mat1.gtimg.com/ent/flash/*
@@ -1460,6 +1463,7 @@
 ||img*.126.net/xoimage*/*x*
 ||st.yxp.126.net/h/action/*
 ||st1.yxp.126.net/img/photo/*
+|*.union.youdao.com/*
 ||impservice*.youdao.com/*
 !----土豆网----
 ||tdap.tudou.com*
@@ -2519,6 +2523,9 @@
 |*cncrk.com/ggg/*
 ||www.cngr.cn/dir/uploadpic/*
 ||www.cncrk.com/505/*
+!----中国网----
+|*.china.com.cn/node_*.htm
+||union.china.com.cn/lianmeng/*
 !----可可动漫----
 ||www.cococomic.com/g/*.js
 !----电影前线----

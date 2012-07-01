@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-01-11:26-----
+!-----最后更新：2012-07-01-14:55-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -2436,6 +2436,8 @@
 ||copy.ousns.com/*.jpg
 ||img.uu1001.cn/wrappler_swf2/2011-12-27/19/1b/27403090_cb427d45b6c6ae9f46b0ad3ceb2060db_268x90.swf
 |*.yyets.com/forumid_*/*.gif
+!----燃文小说----
+||www.ranwen.net/ssi/*
 !----华彩软件园----
 |*.huacolor.com/soft/UploadPic/*.gif
 |*.huacolor.com/soft/UploadPic/*-*/*.jpg
@@ -3430,6 +3432,7 @@
 ||c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
 !----盛大在线&起点中文网----
 ||cj.qidian.com/Flash/*_*.swf
+|*.qidian.com/Javascript/NewSNDAPop.js
 ||game.qidian.com/game/sssg/*/index.html
 ||uedas.qidian.com/*
 ||o.if.qidian.com/js/o.js

@@ -1,8 +1,8 @@
-[AdblockPlus]
-!-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
+[Adblock*lus]
+!-------【广告强效过滤规则 + 广告强效过滤增强包 for AB*】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-02-20:30-----
+!-----最后更新：2012-07-03-21:51-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -328,7 +328,7 @@
 5,4,*&z_sw=*
 5,4,*&z_sh=*
 5,4,*&z_uc_ks=*
-5,4,*C.Html?P=*
+5,4,*C.Html?*=*
 5,4,*?searchterms=*
 5,4,c.*/*.js
 5,4,*/adjs/*
@@ -551,7 +551,7 @@
 5,4,*.la/?code=*
 5,4,*/486x60.gif.gif
 5,4,*.69*/250x70.gif
-5,4,*nt.com/UploadFiles/*.gif
+5,4,*nt.com/Upload*iles/*.gif
 5,4,*/4399.jpg
 5,4,*/4399250250.jpg
 5,4,*/4399.gif
@@ -576,7 +576,7 @@
 5,4,*/att_count.js*
 5,4,*/pageMediaControl_*
 5,4,*/adtest/*
-5,4,*/PauseAd.xml
+5,4,*/*auseAd.xml
 5,4,*/AdLinkList.php
 5,4,*/adlogo/
 5,4,*/ad_tab.js
@@ -595,7 +595,7 @@
 5,4,*/link_img/*
 5,4,*/common_res/js_adscommon.js
 5,4,*/common_res/js_bbs_adslist.js
-5,4,*/adFloatPage.js
+5,4,*/ad*loat*age.js
 5,4,*/dlad.js
 5,4,*/js/adm.js
 5,4,*/adjsT.js
@@ -607,7 +607,7 @@
 5,4,*/510379ad/*
 5,4,*/hdad/*
 5,4,*/wk_ad/*
-5,4,*/AdPreview/*
+5,4,*/Ad*review/*
 5,4,*/baobei_ad.php
 5,4,*/xilanad.js
 5,4,*/adintrs/data/*
@@ -658,7 +658,7 @@
 5,4,*/upload/images/ad_*x*_*.gif
 5,4,*/site/images/zol.gif
 5,4,*/site/images/xiangmu2.jpg
-5,4,*soso*.*/UploadFiles/2008*.gif
+5,4,*soso*.*/Upload*iles/2008*.gif
 5,4,*/ad04.htm
 5,4,*/img/500.gif
 5,4,*/userhome/hivimg/*.gif
@@ -707,7 +707,7 @@
 5,4,*/ad/ad.*
 5,4,*/popcode.js
 5,4,*/ad-images/*
-5,4,*/adFloatPage_*.js
+5,4,*/ad*loat*age_*.js
 5,4,*/advman_right_*.jpg
 5,4,*/vpndaili.jpg
 5,4,*/adv/*
@@ -722,7 +722,7 @@
 5,4,*/AImageDs/*
 5,4,*/jsocket.advanced.swf*
 5,4,*/images/Bdvertisement/*
-5,4,*/UploadADPic/*
+5,4,*/UploadAD*ic/*
 5,4,*/playertopad.htm
 5,4,*/playerright360.htm
 5,4,*/playerbottom950.htm
@@ -750,7 +750,7 @@
 5,4,*&view=ad&*
 5,4,*/guanggao_img/*
 5,4,*/ad_img/*
-5,4,*/ADPlayer_*.swf
+5,4,*/AD*layer_*.swf
 5,4,*/gg_ad/*
 5,4,*/zbxxg2009b/ggw/dmtgg/*
 !-------------广告联盟-------------
@@ -1349,7 +1349,7 @@
 5,4,d5.sina.com.cn/*.js
 5,4,d5.sina.com.cn/sina/ae/2009/*
 5,4,d3.sina.com.cn/rwei/womaiwang/1216new/*
-5,4,i0.sinaimg.cn/home/2010/1220/U210P30DT20101220093229.jpg
+5,4,i0.sinaimg.cn/home/2010/1220/U210*30DT20101220093229.jpg
 5,4,d3.sina.com.cn/201001/29/*
 5,4,d1.sina.com.cn/201012/16/*
 5,4,d2.sina.com.cn/iframe/*
@@ -1374,8 +1374,8 @@
 5,4,d1.sina.com.cn/*/*/*_*-*.jpg
 5,4,d2.sina.com.cn/*/*/*_*-*.jpg
 5,4,bj.house.sina.com.cn/iframe/sanshou*/*.html
-5,4,d4.sina.com.cn/*/*/*_*x*.JPG
-5,4,d2.sina.com.cn/*/*/*_*_*.JPG
+5,4,d4.sina.com.cn/*/*/*_*x*.J*G
+5,4,d2.sina.com.cn/*/*/*_*_*.J*G
 5,4,d4.sina.com.cn/*.gif
 5,4,d3.sina.com.cn/*.gif
 5,4,d2.sina.com.cn/*.gif
@@ -1446,7 +1446,7 @@
 5,4,*/163ad/*
 5,4,images*.cache.netease.com/channel*
 5,4,v.163.com/special/open_adv/*
-5,4,v.163.com/special/008547FN/gg20091116.xml
+5,4,v.163.com/special/008547*N/gg20091116.xml
 5,4,tech.163.com/*.js
 5,4,analytics.163.com/*
 5,4,swf.ws.126.net/*.flv
@@ -1487,16 +1487,17 @@
 !----优酷网----
 5,4,vhtml.atm.youku.com/*
 5,4,hz.youku.com/red/ggnotice.php
-5,4,static.atm.youku.com/*-*.swf?jsStart=*
+5,4,static.atm.youku.com/*-*.swf?js*tart=*
 5,4,vid.atm.youku.com/*
 5,4,html.atm.youku.com/*
 5,4,static.atm.youku.com/*/popup.js
 5,4,valf.atm.youku.com/show?*
-5,4,f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-*
-5,4,f.youku.com/player/getFlvPath/fileid/*-8DD5-1082-A06B-*&yad=1*
-5,4,f.youku.com/player/getFlvPath/fileid/*-0F50-09A6-FF96-*&yad=1*
-5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=1*
-5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=3*
+5,4,f.youku.com/player/get*lv*ath/fileid/*-8*44-71*6-*9*C-*&yad=1*
+5,4,f.youku.com/player/get*lv*ath/sid/*-*90*-920*-1778-*
+5,4,f.youku.com/player/get*lv*ath/fileid/*-8*5-1082-*06*-*&yad=1*
+5,4,f.youku.com/player/get*lv*ath/fileid/*-0*50-09*6-**96-*&yad=1*
+5,4,f.youku.com/player/get*lv*ath/fileid/*&yad=1&ts=1*
+5,4,f.youku.com/player/get*lv*ath/fileid/*&yad=1&ts=3*
 5,4,fvid.atm.youku.com/*
 5,4,walp.atm.youku.com/*
 5,4,valp.atm.youku.com/*
@@ -1525,7 +1526,7 @@
 5,4,cn.yimg.com/*/js/*/*window-min.js
 5,4,ks.cn.yahoo.com/ks_q1_tg.html
 5,4,cmh.tw.yahoo.overture.com*
-!----天极传媒（天极网&比特网&IT专家网&52PK游戏网&aFocus)----
+!----天极传媒（天极网&比特网&IT专家网&52*K游戏网&a*ocus)----
 5,4,*.yesky.com/*/popcontent.js
 5,4,image.yesky.com/tlimages*/*
 5,4,mydown.yesky.com/imagelist/*
@@ -1534,7 +1535,7 @@
 5,4,mydown.yesky.com/uploadImages/*
 5,4,media.yesky.com/*
 5,4,*/yeskyadroller.swf
-5,4,image.tianjimedia.com/uploadImages/2011/007/D9KY6F6BT701.gif
+5,4,image.tianjimedia.com/uploadImages/2011/007/D9KY6*6BT701.gif
 !----中华网----
 5,4,dvs.china.com/*
 5,4,dvsend.china.com/*
@@ -1601,9 +1602,9 @@
 5,4,images.dabaoku.com/*.gif
 5,4,www.dabaoku.com/js/top*.js
 !----知音漫客----
-5,4,*zymk.cn/Public/upload/img/2010-08-11/20100811132427.jpg
-5,4,*zymk.cn/Public/upload/img/2010-06-30/20100630164523.gif
-5,4,*zymk.cn/Public/upload/img/2010-10-28/20101028144557.jpg
+5,4,*zymk.cn/*ublic/upload/img/2010-08-11/20100811132427.jpg
+5,4,*zymk.cn/*ublic/upload/img/2010-06-30/20100630164523.gif
+5,4,*zymk.cn/*ublic/upload/img/2010-10-28/20101028144557.jpg
 !----射手网&射手影音----
 5,4,*.splayer.org/img/*_*_*.jpg
 5,4,*.splayer.org/img/yokou*.jpg
@@ -1631,15 +1632,15 @@
 !----快车----
 5,4,ufile.kuaiche.com/*
 5,4,*client.kuaiche.com*
-!----PPS网络电视----
+!----**S网络电视----
 5,4,*pps.tv/js_a2d/*
 5,4,*pps_banner.gif*
-5,4,www.PPStream.com/news/*
+5,4,www.**Stream.com/news/*
 5,4,notice.ppstream.com/M2006110043/*.swf
 5,4,*.pps.tv/cprtp/*
-!----PPTV网络电视----
+!----**TV网络电视----
 5,4,iafp.pptv.com/*
-5,4,player.pplive.cn/*/PPLivePlugin.swf
+5,4,player.pplive.cn/*/**Live*lugin.swf
 5,4,ik.synacast.com/*
 5,4,ol.synacast.com/*
 5,4,*pp2.pptv.com/*
@@ -1686,7 +1687,7 @@
 !----三楚网----
 5,4,www.3chu.com/salegm/files/images/*/*/*-*-*-*.gif
 5,4,www.3chu.com/salegm/files/images/*/*/*-*-*-*.jpg
-!----FLvcd----
+!----*Lvcd----
 5,4,*.flvcd.com/image/partner/*
 !----cnBeta----
 5,4,img.cnbeta.com/*300.gif
@@ -1788,6 +1789,8 @@
 5,4,alibuybuy-wordpress.stor.sinaapp.com/*
 !----卡饭----
 5,4,a.ikafan.com/*/top_*.html
+5,4,a.ikafan.com/4/*.gif
+5,4,a.ikafan.com/3/bottom.html
 5,4,*.kafan.cn/static/kafan_img/*
 5,4,static.ikafan.com/a/yuekan.js
 5,4,*.kafan.cn/static/kafan_bd/*
@@ -1806,7 +1809,7 @@
 5,4,js.17173.com/ping.js
 5,4,images.17173.com/*/www/*/lgzx/*-a.jpg
 5,4,images.17173.com/*/www/*/hd/*-a.jpg
-5,4,i*.17173.itc.cn/*/www/*/sx/*/*.JPG
+5,4,i*.17173.itc.cn/*/www/*/sx/*/*.J*G
 5,4,images.17173.com/*/www/*/wm/*/wm-sm-*.jpg
 5,4,*17173.com/if/*
 5,4,market.17173.com/*
@@ -1863,9 +1866,9 @@
 5,4,www.webjx.com/upfiles/*-*.gif
 !----绿茶下载站----
 5,4,www.33lc.com/js/banner-*.js
-5,4,www.33lc.com/soft/UploadPic/*-*/dnxx_*
+5,4,www.33lc.com/soft/Upload*ic/*-*/dnxx_*
 5,4,www.33lc.com/js/*_*.js
-5,4,www.33lc.com/soft/UploadPic/2012-5/201251814224916797.jpg
+5,4,www.33lc.com/soft/Upload*ic/2012-5/201251814224916797.jpg
 !----若人网&若人论坛----
 5,4,mu.ruoren.com/*
 !----铁泰参考----
@@ -1935,7 +1938,7 @@
 5,4,www.51saier.cn/images/*
 5,4,*51saier.cn/uploads/allimg/100912/*
 5,4,*51saier.cn/4399/*
-!----RayFile----
+!----Ray*ile----
 5,4,*.rayfile.com/scr/*
 5,4,img.rayfile.com/push/*
 !----城市联合网络电视台----
@@ -2000,7 +2003,7 @@
 5,4,*bkill.net/img/fx.gif
 5,4,*bkill.net/images/dubahesiu.gif
 5,4,*bkill.net/images/3.jpg
-!----GayFriendFinder----
+!----Gay*riend*inder----
 !----站长网----
 5,4,down.admin5.com/z/*
 5,4,*admin5.com/extras/*images/*x*.swf
@@ -2011,7 +2014,7 @@
 5,4,*admin5.com/images/zz/*.gif
 5,4,*admin5.com/images/zz/*.jpg
 !----哈哈.MX----
-5,4,*.haha.mx/Public/images/banner-*.png
+5,4,*.haha.mx/*ublic/images/banner-*.png
 !----CC网址名录----
 5,4,*.cicih.cn/images/kuaiji.gif
 !----至顶网----
@@ -2057,7 +2060,7 @@
 !----远景在线----
 5,4,bbs.pcbeta.com/static/image/biz/*
 !----泡泡网----
-5,4,app.pcpop.com/PageView.aspx?*
+5,4,app.pcpop.com/*ageView.aspx?*
 5,4,33.pcpop.com/*.*f
 !----114.com.cn网址导航----
 5,4,partner.114.com.cn*
@@ -2205,13 +2208,13 @@
 5,4,*hinews.cn/out/img/*
 5,4,pmm.people.com.cn/main/s?*
 !----非常在线----
-5,4,*.veryol.com/bigcneditor/UploadFile*/*/*.gif
+5,4,*.veryol.com/bigcneditor/Upload*ile*/*/*.gif
 !----球探比分----
 5,4,bf.bet007.com/top.js
 5,4,img2.bet007.com/image/*.gif
 !----3DMGAME----
 5,4,att.3dmgame.com/att/forum/*.jpg
-5,4,*.3dmgame.com/games/UploadFiles/*/*.gif
+5,4,*.3dmgame.com/games/Upload*iles/*/*.gif
 !----看书网----
 5,4,80.qukanshu.com/*
 !----游侠下载站----
@@ -2284,7 +2287,7 @@
 5,4,img.jiayuan.com/w4/html/index*.html
 5,4,*e666.cn/db/*
 5,4,*e666.cn/images/ztwan.gif
-!----FileBase.to----
+!----*ileBase.to----
 5,4,*filebase.to/images/bg.png
 !----多多软件站----
 5,4,www.ddooo.com/ad_logo/*
@@ -2306,7 +2309,7 @@
 5,4,www.ztlt.org/*ztad*
 !----江城足球网----
 5,4,img1.jczqw.com/img/*
-!----电脑之家PChome----
+!----电脑之家*Chome----
 5,4,js-1.pchome.net/*.js
 5,4,btn.pchome.net/*
 5,4,btm.pchome.net*
@@ -2342,8 +2345,8 @@
 5,4,news.5068.com/z/js/Addme.js
 5,4,*5068.com/tg/*
 !----网店代理中国----
-5,4,*17daili.com/UpFile/Img/*
-5,4,*17daili.com/UpFile/Article/*
+5,4,*17daili.com/Up*ile/Img/*
+5,4,*17daili.com/Up*ile/Article/*
 5,4,*17daili.com/file/upload/*/*/*-*-*-*-*.gif
 5,4,*17daili.com/file/upload/*/*/*-*-*-*-*.jpg
 !----电脑爱好者俱乐部----
@@ -2364,7 +2367,7 @@
 !----汽车之家----
 5,4,*autohome.com.cn/33*
 5,4,33.autohome.com.cn*
-!----AcFun.tv
+!----Ac*un.tv
 5,4,*.acfun.tv/json/newad.xml
 !----俺要电子书----
 5,4,*aybook.cn/love/*
@@ -2399,8 +2402,8 @@
 5,4,*onlylady.com/kds/thread.html
 5,4,btn.onlylady.com/*.swf
 !----河源下载站----
-5,4,www.cngr.cn/youxi/UploadPic/*-*/*.jpg
-5,4,www.cngr.cn/youxi/UploadPic/*-*/*.gif
+5,4,www.cngr.cn/youxi/Upload*ic/*-*/*.jpg
+5,4,www.cngr.cn/youxi/Upload*ic/*-*/*.gif
 !----昨日小筑----
 5,4,pic*.dler.org/up_img/ven/*
 5,4,pic.dler.org/up_img/corp/*
@@ -2411,7 +2414,7 @@
 !----红旅动漫----
 5,4,www.hltm.net/4.15/*.js
 5,4,www.hltm.net/ad*.gif
-!----XP下载部落----
+!----X*下载部落----
 5,4,www.xp911.com/img/xitong.gif
 !----52硬件----
 5,4,www.52hardware.com/topic/*
@@ -2440,15 +2443,15 @@
 5,4,dl.dydao.com/taobao*.gif
 5,4,dl.dydao.com/daikao*.gif
 !----人人影视----
-5,4,tbphoto.bababian.com/upload2/%E7%BB%BF%E7%BB%BF%E6%88%91%E7%88%B1/710_90.gif
+5,4,tbphoto.bababian.com/upload2/%E7%BB%B*%E7%BB%B*%E6%88%91%E7%88%B1/710_90.gif
 5,4,copy.ousns.com/*.jpg
 5,4,img.uu1001.cn/wrappler_swf2/2011-12-27/19/1b/27403090_cb427d45b6c6ae9f46b0ad3ceb2060db_268x90.swf
 5,4,*.yyets.com/forumid_*/*.gif
 !----燃文小说----
 5,4,www.ranwen.net/ssi/*
 !----华彩软件园----
-5,4,*.huacolor.com/soft/UploadPic/*.gif
-5,4,*.huacolor.com/soft/UploadPic/*-*/*.jpg
+5,4,*.huacolor.com/soft/Upload*ic/*.gif
+5,4,*.huacolor.com/soft/Upload*ic/*-*/*.jpg
 !----呱呱视频社区----
 5,4,a.17guagua.com/*
 !----文游台----
@@ -2553,7 +2556,7 @@
 5,4,www.veryhuo.com/images/gaogao/*x*_*.gif
 5,4,*liehuo.net/images/gaogao/*
 5,4,*liehuo.net/plus/*
-!----EXPreview超能网----
+!----EX*review超能网----
 5,4,*expreview.com/batch.jasd.php*
 5,4,*expreview.com/exp3/script/expda.js
 !----优亿市场----
@@ -2567,7 +2570,7 @@
 5,4,www.haoting.com/adad/*
 !----爱漫画----
 5,4,*imanhua.com/v2/money/*
-!----ICP备案查询网----
+!----IC*备案查询网----
 5,4,static.valu.cn/*x*_*.swf
 !----多米网----
 5,4,www.myrice.com/d/js/*
@@ -2633,7 +2636,7 @@
 5,4,*sosotz.com/images/*m*.gif
 5,4,*sosotz.com/images/123.gif
 5,4,*sosotz.com/images/*n*.gif
-5,4,*sosotz.com/UploadFiles/20*.gif
+5,4,*sosotz.com/Upload*iles/20*.gif
 !----爱卡汽车----
 5,4,www.xcar.com.cn/bbs/images/heneng.jpg
 5,4,d0.xcar.com.cn/*
@@ -2642,7 +2645,7 @@
 5,4,*udn.com/adpinline/*
 5,4,*udn.com/NEWS/watermark_omo_2010.js
 5,4,*voc.com.cn/js/gg/*
-5,4,*voc.com.cn/Frame/qqms_cs.html
+5,4,*voc.com.cn/*rame/qqms_cs.html
 5,4,bbs.voc.com.cn/s.js
 !----小众软件----
 5,4,static-y.appinn.com/wp-content/tapd.png
@@ -2668,7 +2671,7 @@
 !----9553绿色软件站----
 5,4,*.9553.com/otherhtml/*
 !----第一放映室----
-5,4,61.139.219.150:65380/UpLoadFile/*.jpg
+5,4,61.139.219.150:65380/UpLoad*ile/*.jpg
 !----英语帮----
 5,4,www.englishbang.com/loy/auto*.gif
 !----马酷----
@@ -2683,8 +2686,8 @@
 5,4,p4u.hinet.net/*
 5,4,hichannel.hinet.net/videoad2/*
 5,4,liveasy.myweb.hinet.net/*
-!----Pcunion个人电脑联盟----
-5,4,*pcunion.cn/skins/FxMei_blueo/zzs.js
+!----*cunion个人电脑联盟----
+5,4,*pcunion.cn/skins/*xMei_blueo/zzs.js
 !----综艺天堂----
 5,4,*zygod.net/js/*
 5,4,pic.zygod.net:8383/*
@@ -2699,7 +2702,7 @@
 5,4,*so100.cn/images/newshead.htm
 !----TV365网络电视----
 5,4,www.tv365w.com/sq*.gif
-!----Free Gay Porn Links----
+!----*ree Gay *orn Links----
 5,4,*free-*-porn-links.com/*.gif
 !----瞄股网----
 5,4,*miaogu.com/pic/*
@@ -2739,7 +2742,7 @@
 !----中国知网----
 5,4,ec.cnki.net/czzx/*.jpg
 !----商都网----
-5,4,ent.shangdu.com/Peacock_*_*_*x*.swf
+5,4,ent.shangdu.com/*eacock_*_*_*x*.swf
 5,4,*/shangduadv/*
 5,4,game.shangdu.com/nryad/*
 !----一起网游----
@@ -2750,7 +2753,7 @@
 5,4,*nen.com.cn/TLimages/nen-index/*.swf
 !----1001下载乐园----
 5,4,*sz1001.net/www/*
-!----Paranimage帕兰映像----
+!----*aranimage帕兰映像----
 5,4,*paranimage.com/spimg/*
 5,4,*paranimage.com/wp-content/uploads/*
 !----07073游戏网----
@@ -2776,7 +2779,7 @@
 5,4,*315ts.net/partner/*
 !----合肥热线----
 5,4,*ad.hefei.cc/*
-!----DiyPDA----
+!----Diy*DA----
 5,4,t.diypda.com/publicize/*
 !----盛大网盘EverBox----
 5,4,dl.everbox.com/www/images/coop/*.jpg
@@ -2817,8 +2820,8 @@
 5,4,images.dayoo.com/dywimg/*
 5,4,club.dayoo.com/banner/*
 5,4,sta.dayoo.com/*
-!----yoPoo又拍网----
-5,4,pic.yupoo.com/leoxuan/ANy7yxF8/F0yP5.jpg
+!----yo*oo又拍网----
+5,4,pic.yupoo.com/leoxuan/ANy7yx*8/*0y*5.jpg
 !----中华网赚论坛----
 5,4,www.you85.cn/2/*
 !----创业邦----
@@ -2848,7 +2851,7 @@
 !----时代互联----
 5,4,b.now.cn/data/NOWA/*
 5,4,p.tnet.hk/share/images/*x*.gif
-!----Facebook----
+!----*acebook----
 5,4,creative.ak.fbcdn.net/*/flyers/*.gif
 5,4,creative.ak.fbcdn.net/*/flyers/*.png
 5,4,creative.ak.fbcdn.net/*/flyers/*.jpg
@@ -2857,7 +2860,7 @@
 5,4,*facebook.com/widgets/*
 !----Taorar----
 5,4,*88591.com/hy/*
-!----REF.SO&他找----
+!----RE*.SO&他找----
 5,4,www.ref.so//shortCounter.jsp?userId=*&vid=74ce75c2&fileId=lanx&dr=http://ref.so/lanx
 5,4,bbs.tazhao.com/api.php?*
 !----中国网赚论坛----
@@ -2866,7 +2869,7 @@
 5,4,*cr173.com/show/img/*
 !----好喜爱学习网络----
 5,4,*haoxiai.net/vip/*
-!----SF123.cc----
+!----S*123.cc----
 5,4,*sf123.cc/1.gif
 !----橙子免费资源----
 5,4,*010dz.com/images/content_undertitle_table.htm
@@ -2889,7 +2892,7 @@
 !----胡莱三国辅助工具1166系列辅助----
 5,4,img01.taobaocdn.com/imgextra/i1/33488020/T2OIBSXiBaXXXXXXXX_!!33488020.gif
 5,4,img01.taobaocdn.com/imgextra/i1/33488020/T2JIBSXiRaXXXXXXXX_!!33488020.gif
-!----TOMPDA智能手机网----
+!----TOM*DA智能手机网----
 5,4,www.tompda.com/tupian/*-*-*/*.swf
 5,4,www.tompda.com/images/*x*0*.swf
 5,4,*tompda.com/scripts/index.js
@@ -2945,7 +2948,7 @@
 5,4,*proxycn.com/worldpeace/qq/qq7.js
 !----S5游戏代理----
 5,4,www.s5proxy.com/img/socks5_40080.gif
-!----PIXNET----
+!----*IXNET----
 5,4,referer.pixplug.in/*
 5,4,*pixnet.net/blog/addvisit?*
 5,4,error.pixplug.in/*
@@ -2956,7 +2959,7 @@
 5,4,*free789.com/images/*
 !----引导线网页制作网----
 5,4,www.yindaoxian.com/*up-pic/*
-!----无名VPN----
+!----无名V*N----
 5,4,my.wmvpn.com/images/*
 !----分贝网----
 5,4,*fenbei.com/ssad5.gif
@@ -2968,7 +2971,7 @@
 !----站长之家cnzz.cc----
 5,4,*cnzz.cc/cn888/*
 5,4,*cnzz.cc/soft/js/a_*
-!----电脑上WAP网----
+!----电脑上WA*网----
 5,4,*.pctowap.com/img/bs*.jpg
 !----华商网----
 5,4,www.hsw.cn/images08/jsx_0611.gif
@@ -2980,7 +2983,7 @@
 5,4,*hkheadline.com/*promo/*
 5,4,*hkheadline.com/headline/js/*
 5,4,*hkheadline.com/js/right_promo.js
-!----ITPUB技术论坛----
+!----IT*UB技术论坛----
 5,4,*itpub.net/popwindowjs.php
 !----ABC学院----
 5,4,*abcdown.net/hezuo/*
@@ -2995,7 +2998,7 @@
 !----江苏网络广播电视台----
 5,4,flv.jsbc.com/playerad/*
 5,4,image.jsbc.com/v_tvshow/gg/*
-5,4,playerwebservice.jsbc.com/GetPlayCount.aspx
+5,4,playerwebservice.jsbc.com/Get*layCount.aspx
 5,4,playerwebservice.jsbc.com/getip.aspx
 5,4,*jstv.com/v/fplayer/font.swf
 5,4,*jstv.com/v/fplayer/*adplayer_*.swf
@@ -3127,7 +3130,7 @@
 5,4,bmp.ali213.net/*
 !----wg818小游戏----
 5,4,*wg818.com/468x60.gif
-!----PHP爱好者----
+!----*H*爱好者----
 5,4,*phpfans.net/image/sponsors/*
 !----兄弟软件----
 !----Wangye2游戏门户----
@@ -3135,7 +3138,7 @@
 !----玩多多网页游戏----
 5,4,*wandodo.com/ad.html
 !----爱拍游戏----
-5,4,*.aipai.com/*/ADPlayer_new.swf
+5,4,*.aipai.com/*/AD*layer_new.swf
 5,4,apas.aipai.com/www/images/*
 !----DJ嗨嗨网----
 5,4,*djkk.com/ak/*
@@ -3204,7 +3207,7 @@
 5,4,*weste.net/js_v2009/ggao*
 !----威锋网----
 5,4,*weiphone.com/baidu.html?id=*
-!----TGFC俱乐部----
+!----TG*C俱乐部----
 5,4,club.tgfcer.com/images/g*
 !----泰无聊----
 5,4,bbs.t56.net/ad*/*
@@ -3229,7 +3232,7 @@
 5,4,secret.moumentei.com/images/ac/x.gif
 !----凯迪网络----
 5,4,panda.kdnet.net/*
-!----iMP3随身数码影音----
+!----iM*3随身数码影音----
 5,4,*imp3.net/data/js/*
 !----InfoQ----
 5,4,*infoq.com/resource/skyscraper/*
@@ -3326,7 +3329,7 @@
 5,4,pvstat.china.cn/statpv.js
 !----计世网---
 5,4,imgs.ccw.com.cn/ccw/1.htm
-!----PLU游戏娱乐传媒----
+!----*LU游戏娱乐传媒----
 5,4,bbs.plu.cn/plu/images/*
 !----花旗门小游戏----
 5,4,*huaqimen.com/flash/bcastr.swf
@@ -3337,7 +3340,7 @@
 5,4,*fangte.com/uploadfiles/fangte_pic/pic/*
 5,4,www.fangte.com/aswf.swf
 !----喷嚏网----
-5,4,pic.dapenti.com/2011/02/09/dapenti_APL6waZ5_143idp.jpg
+5,4,pic.dapenti.com/2011/02/09/dapenti_A*L6waZ5_143idp.jpg
 5,4,adp.cnki.net/*
 !----高清锐视----
 5,4,*realhd.com.cn/hz/chdpt.gif
@@ -3365,7 +3368,7 @@
 5,4,*hk-pub.com/forum/images/banner/*
 !----极速下载站----
 5,4,*jisuxz.com/hzy/*
-!----PC资讯网----
+!----*C资讯网----
 5,4,*pc286.com/other/7148948.gif
 !----世界网络----
 5,4,*linkwan.com/gb/images/uploadimages/*
@@ -3434,7 +3437,7 @@
 5,4,tj.alisoft.com/*
 5,4,img.im.alicdn.com/po/images/*
 5,4,po.im.alisoft.com/*
-!----XP系统下载乐园----
+!----X*系统下载乐园----
 5,4,*.xp500.com/images/*.gif
 5,4,*xp500.com/images/mbox-tcn-160-90.gif
 5,4,*xp500.com/images/180-120.gif
@@ -3444,13 +3447,13 @@
 !----新蛋中国----
 5,4,c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
 !----盛大在线&起点中文网----
-5,4,cj.qidian.com/Flash/*_*.swf
-5,4,*.qidian.com/Javascript/NewSNDAPop.js
+5,4,cj.qidian.com/*lash/*_*.swf
+5,4,*.qidian.com/Javascript/NewSNDA*op.js
 5,4,game.qidian.com/game/sssg/*/index.html
 5,4,uedas.qidian.com/*
 5,4,o.if.qidian.com/js/o.js
 5,4,cj.qidian.com/include/bottom_snda1.htm
-5,4,cj.qidian.com/Picture/*.gif
+5,4,cj.qidian.com/*icture/*.gif
 5,4,*.qidian.com/Javascript/CaiHongJingLing.js
 5,4,feo.staticsdo.com/*
 5,4,ipic.staticsdo.com/*
@@ -3497,7 +3500,7 @@
 5,4,free919.xoom.it/imageup/upload/*x*.jpg
 5,4,*groupgo.com.au/static/css/i/dealoz.gif
 5,4,register.haohaowan.com/adu/cpm?channelId=*
-!-------------IP型广告-------------
+!-------------I*型广告-------------
 5,4,*119.167.222.*mp4*
 5,4,*60.217.245.*mp4*
 5,4,61.147.113.170:88/*
@@ -3607,6 +3610,6 @@
 5,4,*.drevil.to/*
 5,4,www.fclub.cn/affiche.php?act=img&ad_id=*
 5,4,www.54new.com/da/*
-!-------------ABP特殊-------------
+!-------------AB*特殊-------------
 5,4,*/banner*.htm
 !-------------待分类-------------

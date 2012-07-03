@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-03-14:20-----
+!-----最后更新：2012-07-03-17:20-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -1789,6 +1789,7 @@
 ||alibuybuy-wordpress.stor.sinaapp.com/*
 !----卡饭----
 ||a.ikafan.com/*/top_*.html
+||a.ikafan.com/3/bottom.html
 |*.kafan.cn/static/kafan_img/*
 ||static.ikafan.com/a/yuekan.js
 |*.kafan.cn/static/kafan_bd/*

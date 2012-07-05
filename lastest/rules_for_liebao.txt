@@ -1,4 +1,4 @@
-you![Liebao Adblock Rule]
+![Liebao Adblock Rule]
 !Title:adfiltering-rules_for_liebao
 !Author:xcffl
 !Updated:2012-07-05 11:30

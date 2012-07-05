@@ -1,7 +1,8 @@
-!-------【广告强效过滤规则 for 金山】-------
+[AdblockPlus]
+!-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-05-16:22-----
+!-----最后更新：2012-07-05-21:00-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -1586,7 +1587,7 @@
 !----驱动之家----
 5,4,images.mydrivers.com/*/*x*.swf
 5,4,11.mydrivers.com/*.htm*
-5,4,11.mydrivers.com/www/*.js
+5,4,11.mydrivers.com/www/*_*.js
 5,4,11.mydrivers.com/news/define.js
 5,4,11.mydrivers.com/myfiles/04.js
 5,4,11.mydrivers.com/myfiles/myfiles100*.js
@@ -2864,7 +2865,8 @@
 !----Taorar----
 5,4,*88591.com/hy/*
 !----REF.SO&他找----
-5,4,www.ref.so//shortCounter.jsp?userId=*&vid=74ce75c2&fileId=lanx&dr=http://ref.so/lanx
+5,4,wzw.la/new.php?action=article&fidin=*&digest=0&postdate=0&author=0&fname=0&hits=0&replies=0&pre=2&num=8&length=*&order=2
+5,4,pic.filec2c.com/img/483793ea/*
 5,4,bbs.tazhao.com/api.php?*
 !----中国网赚论坛----
 5,4,*you85.cn/1/*

@@ -1,8 +1,7 @@
-[AdblockPlus]
 !-------【广告强效过滤规则 for 金山】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-05-11:44-----
+!-----最后更新：2012-07-05-16:22-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -1320,6 +1319,10 @@
 5,4,click.cm.sandai.net/*
 5,4,un.so.gougou.com/*
 5,4,*mcfg.sandai.net/*
+!----主机码----
+5,4,www.zhujima.com/tu/*u*.jpg
+5,4,www.zhujima.com/tu/*g*.png
+5,4,www.zhujima.com/tu/*vps.gif
 !----新浪网----
 5,4,bj.house.sina.com.cn/*.js
 5,4,*.sinaimg.cn/*/deco/*.js

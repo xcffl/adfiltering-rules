@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules_for_liebao
 !Author:xcffl
-!Updated:2012-07-05 16:22
+!Updated:2012-07-05 16:29
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -3624,7 +3624,7 @@
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
 !-------------特殊规则-------------
-*/banner*.htm
+*\/banner*\.htm$/
 /^http:\/\/c.*\/*\.js/
 !-------------待分类-------------
 !-------------白名单-------------

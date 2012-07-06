@@ -1993,6 +1993,12 @@ bjdcdv.it.com.cn*
 dict.hudong.com/xml/*.html
 hdad.hudong.com/*
 zt.hudong.com/wid.html
+!----湖南招生考试信息网----
+www.hneeb.cn/images/*201*.gif
+www.hneeb.cn/images/imgAd_*.gif
+www.hneeb.cn/images/FLASH*.swf
+www.hneeb.cn/images/cswszy.gif
+www.hneeb.cn/2010/*.swf
 !----纳米盘----
 www.namipan.com/html/un/*
 d.namipan.com/inc_js/*.js

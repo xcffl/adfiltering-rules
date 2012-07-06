@@ -1,8 +1,8 @@
 [AdblockPlus]
-!-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
+!-------【广告强效过滤规则 for 金山】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-05-21:00-----
+!-----最后更新：2012-07-06-11:18-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -1489,17 +1489,17 @@
 !----优酷网----
 5,4,vhtml.atm.youku.com/*
 5,4,hz.youku.com/red/ggnotice.php
-5,4,static.atm.youku.com/*-*.swf?js*tart=*
+5,4,static.atm.youku.com/*-*.swf?jsStart=*
 5,4,vid.atm.youku.com/*
 5,4,html.atm.youku.com/*
 5,4,static.atm.youku.com/*/popup.js
 5,4,valf.atm.youku.com/show?*
-5,4,f.youku.com/player/get*lv*ath/fileid/*-8*44-71*6-*9*-*&yad=1*
-5,4,f.youku.com/player/get*lv*ath/sid/*-*90*-920*-1778-*
-5,4,f.youku.com/player/get*lv*ath/fileid/*-8*5-1082-*06*-*&yad=1*
-5,4,f.youku.com/player/get*lv*ath/fileid/*-0*50-09*6-*96-*&yad=1*
-5,4,f.youku.com/player/get*lv*ath/fileid/*&yad=1&ts=1*
-5,4,f.youku.com/player/get*lv*ath/fileid/*&yad=1&ts=3*
+5,4,f.youku.com/player/getFlvPath/fileid/*-8F44-71B6-E9AC-*&yad=1*
+5,4,f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-*
+5,4,f.youku.com/player/getFlvPath/fileid/*-8DD5-1082-A06B-*&yad=1*
+5,4,f.youku.com/player/getFlvPath/fileid/*-0F50-09A6-FF96-*&yad=1*
+5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=1*
+5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=3*
 5,4,fvid.atm.youku.com/*
 5,4,walp.atm.youku.com/*
 5,4,valp.atm.youku.com/*
@@ -1991,6 +1991,12 @@
 5,4,dict.hudong.com/xml/*.html
 5,4,hdad.hudong.com/*
 5,4,zt.hudong.com/wid.html
+!----湖南招生考试信息网----
+5,4,www.hneeb.cn/images/*201*.gif
+5,4,www.hneeb.cn/images/imgAd_*.gif
+5,4,www.hneeb.cn/images/FLASH*.swf
+5,4,www.hneeb.cn/images/cswszy.gif
+5,4,www.hneeb.cn/2010/*.swf
 !----纳米盘----
 5,4,www.namipan.com/html/un/*
 5,4,d.namipan.com/inc_js/*.js

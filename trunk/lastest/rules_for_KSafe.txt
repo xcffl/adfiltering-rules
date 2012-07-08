@@ -1,8 +1,7 @@
-[AdblockPlus]
 !-------【广告强效过滤规则 for 金山】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-06-18:04-----
+!-----最后更新：2012-07-08-13:28-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -804,6 +803,7 @@
 5,4,synad*.nuffnang.com.cn/*
 5,4,*.is686.com/*
 5,4,*.247realmedia.com/*
+5,4,125.46.61.28/*
 5,4,*.2bj.cc*
 5,4,*.2bj.cn/*
 5,4,*.37cs.com/*.gif
@@ -1494,12 +1494,12 @@
 5,4,html.atm.youku.com/*
 5,4,static.atm.youku.com/*/popup.js
 5,4,valf.atm.youku.com/show?*
-5,4,f.youku.com/player/get*lv*ath/fileid/*-8*44-71*6-*9*-*&yad=1*
-5,4,f.youku.com/player/get*lv*ath/sid/*-*90*-920*-1778-*
-5,4,f.youku.com/player/get*lv*ath/fileid/*-8*5-1082-*06*-*&yad=1*
-5,4,f.youku.com/player/get*lv*ath/fileid/*-0*50-09*6-*96-*&yad=1*
-5,4,f.youku.com/player/get*lv*ath/fileid/*&yad=1&ts=1*
-5,4,f.youku.com/player/get*lv*ath/fileid/*&yad=1&ts=3*
+5,4,*f.youku.com/player/get*lv*ath/fileid/*-8*44-71*6-*9*-*&yad=1*
+5,4,*f.youku.com/player/get*lv*ath/sid/*-*90*-920*-1778-*
+5,4,*f.youku.com/player/get*lv*ath/fileid/*-8*5-1082-*06*-*&yad=1*
+5,4,*f.youku.com/player/get*lv*ath/fileid/*-0*50-09*6-*96-*&yad=1*
+5,4,*f.youku.com/player/get*lv*ath/fileid/*&yad=1&ts=1*
+5,4,*f.youku.com/player/get*lv*ath/fileid/*&yad=1&ts=3*
 5,4,fvid.atm.youku.com/*
 5,4,walp.atm.youku.com/*
 5,4,valp.atm.youku.com/*
@@ -1615,6 +1615,10 @@
 5,4,sponsor.verycd.com/*
 5,4,sp.vcimg.com/*
 !----天涯社区----
+5,4,wenda.tianya.cn/wenda/images/*X*.swf
+5,4,wenda.tianya.cn/wenda/images/*/rightAd_*.*
+5,4,stat.tianya.cn/*
+5,4,*/rightad.*
 5,4,static.tianyaui.com/global/ty/stat/*
 5,4,squidclick.bbs.tianya.cn/*
 5,4,8*.tianya.cn/*
@@ -1857,7 +1861,7 @@
 5,4,pic1.duowan.com/webgame/*
 5,4,www.duowan.com/*/notice.js
 5,4,market.duowan.com/*
-5,4,duowan.com/duowan.js
+5,4,*.duowan.com/duowan.js
 !----Adobe----
 5,4,practivate.adobe.com/*
 5,4,activate.wip3.adobe.com/*
@@ -2036,6 +2040,8 @@
 5,4,*huayuanmeng.com/lip/*
 5,4,img181.poco.cn/mypoco/myphoto/20110216/17/5639799420110216174810040_640.jpg
 5,4,174.139.220.155/pic/*.gif
+!----MXC----
+5,4,www.itmxc.com/mxc-news/*x*.*
 !----九城社区----
 5,4,*yanyuwu.com/sexa/*
 !----蓝色理想----
@@ -2635,6 +2641,8 @@
 5,4,*xilu.com/js/artjs/*
 5,4,newspage.xilu.com/model/visitlog.js*
 5,4,content.xilu.com/uploadfile/*/*/*.swf
+!----女人世界4738.com----
+5,4,js.4738.com/4738da/*
 !----搜搜同志----
 5,4,*sosotz.com/images/h*
 5,4,*sosotz.com/images/*t*
@@ -2747,6 +2755,8 @@
 5,4,www.6dan.com/uploads/*x*.gif
 5,4,www.6dan.com/uploads/allimg/*/*_*.gif
 5,4,www.6dan.com/uploads/*x*.jpg
+!----派派小说----
+5,4,*.paipaitxt.com/bans/*
 !----九酷音乐网----
 5,4,*9ku.com/a9/*
 !----中国知网----
@@ -2878,6 +2888,8 @@
 5,4,*you85.cn/1/*
 !----西西软件园----
 5,4,*cr173.com/show/img/*
+!----绿同网----
+5,4,www.5264.net/ad/*
 !----好喜爱学习网络----
 5,4,*haoxiai.net/vip/*
 !----SF123.cc----
@@ -3400,7 +3412,6 @@
 !----百度&乐居----
 5,4,sclick.baidu.com/*
 5,4,gimg.baidu.com/img/*pic/*
-5,4,a.baidu.com/*
 5,4,c.baidu.com/*
 5,4,duiwai.baidu.com/*
 5,4,bar.baidu.com/*
@@ -3623,5 +3634,6 @@
 5,4,www.54new.com/da/*
 !-------------特殊规则-------------
 5,4,*/banner*.htm
-5,4,c.*/*.js
+5,4,c.*/*.js*
+5,4,a.baidu.com/*
 !-------------待分类-------------

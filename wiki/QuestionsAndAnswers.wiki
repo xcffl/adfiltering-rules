@@ -26,9 +26,9 @@ https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/smal
 https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/small/TPL(IE9+).png
 =7.如何导入规则？=
 ===请点击以下对应过滤软件图标查看：===
-[http://bbs.duba.net/forum.php?mod=redirect&goto=findpost&ptid=22647779&pid=7019336 https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/small/Kingsoft.png]
-https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/small/ABP.png =====>见[http://xcffl.tk/adfilter/getit/ 规则获取页面]
-[https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/small/360.png http://bbs.kafan.cn/forum.php?mod=viewthread&tid=821042&page=137&extra=#pid18771972]
-[https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/small/genera.png http://bbs.kafan.cn/forum.php?mod=viewthread&tid=821042&page=6&extra=#pid15515054]
-[https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/small/Opera.png http://bbs.kafan.cn/forum.php?mod=viewthread&tid=821042&page=135#pid18722226]
-https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/small/TPL(IE9+).png =====>见[http://xcffl.tk/adfilter/getit/ 规则获取页面]
+===[http://bbs.duba.net/forum.php?mod=redirect&goto=findpost&ptid=22647779&pid=7019336 https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/small/Kingsoft.png]===
+===https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/small/ABP.png =====>见[http://xcffl.tk/adfilter/getit/ 规则获取页面]===
+===[http://bbs.kafan.cn/forum.php?mod=viewthread&tid=821042&page=137&extra=#pid18771972 https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/small/360.png]===
+===[http://bbs.kafan.cn/forum.php?mod=viewthread&tid=821042&page=6&extra=#pid15515054 https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/small/genera.png]===
+===[http://bbs.kafan.cn/forum.php?mod=viewthread&tid=821042&page=135#pid18722226 https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/small/Opera.png]===
+===https://adfiltering-rules.googlecode.com/svn/wiki/images/%E5%9B%BE%E6%A0%87/small/TPL(IE9+).png =====>见[http://xcffl.tk/adfilter/getit/ 规则获取页面]===

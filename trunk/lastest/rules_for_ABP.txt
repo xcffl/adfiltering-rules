@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-10-17:40-----
+!-----最后更新：2012-07-11-16:17-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -2173,6 +2173,7 @@
 !----游久网----
 |*.uuu9.com/code/tool_netgame/*
 !----金山网络----
+||www.ijinshan.com/images/gk/game-*.jpg
 ||ruanjian.pc120.com/images/x*
 !----卓越亚马逊----
 ||rcm-cn.amazon.cn/*

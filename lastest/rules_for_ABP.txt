@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-13-15:37-----
+!-----最后更新：2012-07-13-15:53-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -25,7 +25,6 @@
 |*/attachments/ad/*
 |*.net/*/*_ad.js
 |*.com/*/*_ad.js
-|*/adshow?*
 |*/adpage/*
 |*/adv760.js*
 |*/advall.js*
@@ -543,7 +542,6 @@
 |*/www/*/sx/*/qjp-*.*
 |*/www/*/sx/*/lzzh-*.*
 |*/openad.gif
-|*/attachment/advpic/*
 |*/frame/topright.html
 |*/article_ad_google.htm
 |*.la/?code=*
@@ -636,7 +634,6 @@
 |*pv.*.cc*
 |*pv.*.org*
 |*pv.*.com/*
-|*.com/pv.*
 |*.com/pv/*
 |*/hiido.js*
 |*/adtrack.*
@@ -734,7 +731,6 @@
 |*/data/attachment/common/cf/*
 |*img.*/attachments/month_1011/*.jpg
 |*box_home.xml*
-|*js/soft_ad1.js*
 |*lanmang.gif*
 |*mobilepop*
 |*overture_ads*
@@ -919,7 +915,6 @@
 |*.yiqiwin.com/*
 |*.zhcpm.com*
 ||code.129game.com/*
-||www.ipinyou.com/*
 |*autosense.bitauto.com*
 |*b.todayisp.com*
 |*.dingge.cc/*
@@ -1099,8 +1094,6 @@
 ||www.52xmm.cn/*
 ||www.59.cn/*/*gg/*
 |*.59.cn/test/newgg/*
-||img.sharele.cn/*
-||un.sharele.cn/*
 ||code.u.18dx.com/*
 |*.58cpm.com/iclk/*
 ||www2.vadcast.com/*
@@ -1246,7 +1239,6 @@
 |*js*.9wad.com/*
 ||code.ceyunshi.cn/*
 ||v.cpp9v.cn/*
-||sixc.r.arpg2.com/*
 ||yxyz.mttmtt.com/yxyz9.html?code=*
 ||media.fastclick.net*
 |*image.j-a-net.jp/*
@@ -1388,7 +1380,6 @@
 ||d3.sina.com.cn/*.gif
 ||d2.sina.com.cn/*.gif
 ||d1.sina.com.cn/jianyu1/TaoBao/*
-|*.sinaimg.cn/dy/deco/*headcj.js
 ||d3.sina.com.cn/*/*/*_*.jpg
 ||i2.sinaimg.cn/home/*/*/U*.jpg
 ||sh.sinaimg.cn/adpackage/*
@@ -1397,7 +1388,6 @@
 ||sh.sina.com.cn/iframe/391/*
 ||sh.sina.com.cn/iframe/408/*
 ||news.sina.com.cn/pfpnews/js/libweb.js
-|*.sinaimg.cn/dy/deco/*/headty.js
 !----搜狗&搜狐&搜狐畅游----
 ||gm.changyou.com/css/ads-slide.css
 ||gm.changyou.com/js/ADSlide.js
@@ -1738,7 +1728,6 @@
 ||ads.skykiwi.com/*
 ||www.gcemedia.co.nz/www/images/*.swf
 !----厦门小鱼网----
-||adm.xmfish.com/*
 ||bbs.xmfish.com/images/atm/*
 ||client.xmfish.com/attachments/bar/*
 ||hot.xmfish.com/pages/images/*
@@ -1845,7 +1834,6 @@
 ||y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 |*.ifengimg.com/*.swf
 |*/tres/ifeng/game/astd/*
-||y0.ifengimg.com/mappa/*/*/*/*.swf
 ||bc.ifeng.com/*
 |*.ifengimg.com/tres/recommend/*
 |*.ifengimg.com/mappa/*
@@ -1989,7 +1977,6 @@
 ||www.ys168.com/images/*_*.*
 |*/ys168/*
 ||www.ys168.com/images/*.gif
-||www.ys168.com/images/gg*.gif
 !----博客网----
 |*adimage.bokee.com*
 !----网上车市----
@@ -2129,9 +2116,7 @@
 |*ziddu.com/images/140x150_egglad.gif
 |*ziddu.com/screencornerimages/*
 |*ziddu.com/banners/*
-!----厦门房地产联合网----
 !----淘股吧----
-||img.taoguba.com.cn/js/tc.js
 ||img.taoguba.com.cn/gbimg/*
 |*taoguba.com.cn/gbimg/2010/11/04/*
 !----400Disk网络硬盘----
@@ -3111,7 +3096,6 @@
 !----游民星空----
 ||imgf.gamersky.com/**bg_ol*.jpg
 ||imgf.gamersky.com/*/*
-||image.gamersky.com/img/*
 |*.gamersky.com/frame/*
 |*.gamersky.com/img/*
 !----广友影视----
@@ -3170,10 +3154,7 @@
 |*phpfans.net/image/sponsors/*
 !----Wangye2游戏门户----
 |*wangye2.com/templets/default/spec/seh/images/*
-!----玩多多网页游戏----
-|*wandodo.com/ad.html
 !----爱拍游戏----
-|*.aipai.com/*/ADPlayer_new.swf
 ||apas.aipai.com/www/images/*
 !----阿巴达小说下载网----
 ||www.abada.cn/js/*x*.gif
@@ -3288,8 +3269,6 @@
 ||static.doyouhike.net/partner/*
 !----中国网管联盟----
 |*bitscn.com/pic2009/a*.js
-!----疯狂在线代理----
-|*daili39.com/ad.jpg
 !----51.com----
 ||v3.apic.51.com/vda09.js
 !----360doc个人图书馆----

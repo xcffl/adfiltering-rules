@@ -1,7 +1,7 @@
 !-------【广告强效过滤规则 for 金山】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-08-13:28-----
+!-----最后更新：2012-07-13-15:37-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -655,7 +655,6 @@
 5,4,*/upload/images/ad_*x*_*.gif
 5,4,*/site/images/zol.gif
 5,4,*/site/images/xiangmu2.jpg
-5,4,*soso*.*/UploadFiles/2008*.gif
 5,4,*/ad04.htm
 5,4,*/img/500.gif
 5,4,*/userhome/hivimg/*.gif
@@ -1125,6 +1124,7 @@
 5,4,*.jomodns.com/*
 5,4,img.mmcdn.cn/t/*
 5,4,www.91cy.cn/*
+5,4,a.mimiduo.com/*
 5,4,www.91tel.com/*
 5,4,www.99xqw.com/*
 5,4,www.algj-27dy.cn/*.html
@@ -1288,7 +1288,12 @@
 5,4,mat1.gtimg.com/news/fbgg/*
 5,4,mat1.gtimg.com/hb/avd/*x*_*.swf
 5,4,f.qstatic.com/*
-!----迅雷&狗狗----
+!----搜搜----
+5,4,dr.soso.com/*
+5,4,*soso*.*/UploadFiles/2008*.gif
+!----迅雷&狗狗&快传----
+5,4,img.kuai.xunlei.com/img/v2/top*X*_*.*
+5,4,img.kuai.xunlei.com/img/v2/side*X*_*.*
 5,4,*mtips.xunlei.com/*
 5,4,*websts.xunlei.com/*
 5,4,*wy.xunlei.com/*
@@ -1690,6 +1695,9 @@
 !----找小说网----
 5,4,www.zhaoxiaoshuo.com/adproxy.html?*
 5,4,www.zhaoxiaoshuo.com/js/63wan.js
+!----书香电子书----
+5,4,dm.sxcnw.net/pic/*.gif
+5,4,dm.sxcnw.net/pic/*.jpg
 !----三楚网----
 5,4,www.3chu.com/salegm/files/images/*/*/*-*-*-*.gif
 5,4,www.3chu.com/salegm/files/images/*/*/*-*-*-*.jpg
@@ -2051,6 +2059,8 @@
 5,4,xfiles.myspace.cn/*mstg/image/yunying/*/*_*.gif
 !----好看的小说网址----
 5,4,*hkwxc.com/t/g/*
+!----天下书盟网----
+5,4,www.fbook.net/fbookad/*
 !----IT之家&Vista之家&Win7之家&Win8之家----
 5,4,*.vista123.com/notice.htm
 5,4,*.vista123.com/script/popup_win.js
@@ -2168,6 +2178,7 @@
 !----游久网----
 5,4,*.uuu9.com/code/tool_netgame/*
 !----金山网络----
+5,4,www.ijinshan.com/images/gk/game-*.jpg
 5,4,ruanjian.pc120.com/images/x*
 !----卓越亚马逊----
 5,4,rcm-cn.amazon.cn/*
@@ -2268,7 +2279,8 @@
 5,4,home.soufun.com/html/*
 !---耳机网
 5,4,photo.erji.com/*
-!----17K（一起看）小说网----
+!----17K（一起看）小说网&四月天言情小说网----
+5,4,img.17k.com/channel/flash/*.swf
 5,4,log.17k.com/*
 5,4,img.17k.com/js/jquery*.js
 !----豆瓣----
@@ -3155,7 +3167,6 @@
 5,4,*wg818.com/468x60.gif
 !----PHP爱好者----
 5,4,*phpfans.net/image/sponsors/*
-!----兄弟软件----
 !----Wangye2游戏门户----
 5,4,*wangye2.com/templets/default/spec/seh/images/*
 !----玩多多网页游戏----
@@ -3163,6 +3174,9 @@
 !----爱拍游戏----
 5,4,*.aipai.com/*/ADPlayer_new.swf
 5,4,apas.aipai.com/www/images/*
+!----阿巴达小说下载网----
+5,4,www.abada.cn/js/*x*.gif
+5,4,www.abada.cn/js/hf*.js
 !----DJ嗨嗨网----
 5,4,*djkk.com/ak/*
 !----可可西音乐网----

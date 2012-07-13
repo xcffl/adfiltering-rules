@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-13-15:53-----
+!-----最后更新：2012-07-13-17:25-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -756,6 +756,7 @@
 |*.198game.com/*
 |*.198game.net/*
 |*.allthelyrics.com/*/popup.js
+||code.9buo.com/*
 |*.y2126.com/*
 |*.union009.com/*
 |*.ipinyou.com.cn/*
@@ -1789,6 +1790,10 @@
 !----久久漫画----
 |*.99manga.com/g/*
 |*.99manga.com/haodm/dmjsc/*.js
+!----来书小说网----
+|*.laishu.com/lsgg/*
+|*.laishuwu.com/files/friend/*
+||js.laishu.com/lsgg/*
 !----互联网的那点事----
 ||alibuybuy-wordpress.stor.sinaapp.com/*
 !----卡饭----
@@ -2888,6 +2893,9 @@
 |*cr173.com/show/img/*
 !----绿同网----
 ||www.5264.net/ad/*
+!----烟雨红尘----
+||www.cc222.com/cc222ads/*
+||www.cc222.com/_javascript/popupWin.js
 !----好喜爱学习网络----
 |*haoxiai.net/vip/*
 !----SF123.cc----

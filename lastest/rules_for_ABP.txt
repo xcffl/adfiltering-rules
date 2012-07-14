@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-13-17:33-----
+!-----最后更新：2012-07-14-19:17-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -11,13 +11,16 @@
 |*/configs/article/*.htm
 |*/configs/article/*.js
 |*/bannerad.*
+|*.net/ads/*
 |*/sidead.*
 |*/999aadbak.js*
 |*/banner-ad-*
 |*/adv.*
 |*/pv.*
 |*/advpic/*
+|*/advertising/*
 |*_ad1.*
+|*/tuiguang/*
 |*.swf?clicktag=*
 |*/adjs.php
 |*/adsjs/*
@@ -266,7 +269,7 @@
 |*/adclick.js
 |*jshow.swf*
 |*.com/ff.js*
-|*_gg.*
+|*.cn/*_gg.*
 |*layer*ight.swf
 |*linkad/*
 |*linkad.*
@@ -827,6 +830,7 @@
 |*.9vcpm.cn/*
 ||code.ze5.com/*
 |*.adbrite.com/*
+||tui.4779.com/*
 ||t.yigouw.com/*
 |*.adpinion.com/*
 |*down.jialichuang.com/*
@@ -868,6 +872,7 @@
 |*.insenz.com/*
 |*.arpg2.com/*
 |*.gs307.com/*
+|*.400or800.com/*
 |*.itsun.com/*
 ||p.zhanzhang.net/*
 |*.junnew.com/indexad/*
@@ -992,6 +997,7 @@
 ||js.coogao.cn*
 ||js1.339.cn*
 ||jsa.733.com*
+||union.netease.com/*
 |*kanoodle.com*
 |*lelecpp.com*
 |*linkpage.cn/*
@@ -1005,6 +1011,7 @@
 ||p4p.foundermedia.cn*
 ||p4p.tom.com*
 ||pages.etology.com*
+|*.tbjfw.com/*
 ||pic.adver.com*
 ||popunder.adsrevenue.net*
 ||popunder.paypopup.com/popup.php*
@@ -1024,6 +1031,7 @@
 ||c.sfilm.com/*
 ||cache.51go.com/*
 ||cache.blogads.com/*
+||copy.ousns.com/new/*.swf
 ||cm.p4p.cn/*
 ||code.345ads.com/*
 ||code.345ads.com:*/*
@@ -1159,6 +1167,7 @@
 ||js.qizhao.com/*
 |*c.qling.com*
 |*dgseo8.com/images/*
+|*.gsdwj.com/*
 |*.6693.cc/*
 |*yinjiasm.com/ima/ggtp/*
 |*.zjbdt.com/*
@@ -1284,6 +1293,8 @@
 ||mat1.gtimg.com/news/fbgg/*
 ||mat1.gtimg.com/hb/avd/*x*_*.swf
 ||f.qstatic.com/*
+!----瑞星知道----
+||zhidao.ikaka.com/images/game_*.gif
 !----搜搜----
 ||dr.soso.com/*
 |*soso*.*/UploadFiles/2008*.gif
@@ -1485,28 +1496,6 @@
 ||stat*.tudou.com/*
 |*.tudou.com/framepage/*
 |*.tudou.com/tdap/*
-!----优酷网----
-||vhtml.atm.youku.com/*
-||hz.youku.com/red/ggnotice.php
-||static.atm.youku.com/*-*.swf?jsStart=*
-||vid.atm.youku.com/*
-||html.atm.youku.com/*
-||static.atm.youku.com/*/popup.js
-||valf.atm.youku.com/show?*
-||f.youku.com/player/getFlvPath/fileid/*-8F44-71B6-E9AC-*&yad=1*
-||f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-*
-||f.youku.com/player/getFlvPath/fileid/*-8DD5-1082-A06B-*&yad=1*
-||f.youku.com/player/getFlvPath/fileid/*-0F50-09A6-FF96-*&yad=1*
-||f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=1*
-||f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=3*
-||fvid.atm.youku.com/*
-||walp.atm.youku.com/*
-||valp.atm.youku.com/*
-||valc.atm.youku.com/*
-||static.atm.youku.com/*/*/*_*.jpg
-||static.atm.youku.com/*/*/*/*-*.jpg
-||static.atm.youku.com/*/*/*x*.jpg
-||e.stat.youku.com/*
 !----雅虎----
 ||l.yimg.com/d/lib/bc/bcr_2.0.5.js
 ||l.yimg.com/f/a/tw/gif_backup/ad_*.gif
@@ -1881,6 +1870,10 @@
 ||www.33lc.com/soft/UploadPic/2012-5/201251814224916797.jpg
 !----若人网&若人论坛----
 ||mu.ruoren.com/*
+!----纵横中文网----
+||log.zongheng.com/*
+||static.zongheng.com/v2_0/js/adClickStat.js
+||book.zongheng.com/inc/add/zhad.html
 !----铁泰参考----
 ||www.tietai.com/file/upload/*/*/*-*-*-*-*.jpg
 !----未来软件园----
@@ -2090,6 +2083,8 @@
 ||down.x6x8.com/good/*
 !----txt论坛----
 ||bbs.txtbbs.com/data/*.swf
+!----图集网----
+||www.tujiw.com/tuijs/*
 !----爆米花网----
 ||a.pomoho.com/*
 !----下载吧----
@@ -2154,6 +2149,8 @@
 ||p4.zbjimg.com/task/*-*/11/pub/*.gif
 !----激网----
 ||www.jetwang.org/ad/*
+!----快读网----
+||www.kuairead.com/kr-img/krtop.gif
 !----联盘----
 ||cache.mofile.com/tv/cn/images/*
 !----中国网络电视台（CCTV&CNTV）----
@@ -2180,7 +2177,12 @@
 ||trace.enet.com.cn/*
 |*enet.com.cn/enetshow.shtml?*
 ||images.enet.com.cn/consumer/*
+!----请看小说网----
+||www.qingkan.net/js/list.html
 !----世纪文学网----
+|*.2100book.com/scripts/open/*.js
+|*.2100book.com/you/*.js
+|*.2100book.com/themes/v2/images/frxz_tonglan.gif
 ||www.2100book.com/themes/v2/images/top_*.jpg
 !----久久影院----
 ||c.w99.cc/*
@@ -2465,6 +2467,7 @@
 ||tbphoto.bababian.com/upload2/%E7%BB%BF%E7%BB%BF%E6%88%91%E7%88%B1/710_90.gif
 ||copy.ousns.com/*.jpg
 ||img.uu1001.cn/wrappler_swf2/2011-12-27/19/1b/27403090_cb427d45b6c6ae9f46b0ad3ceb2060db_268x90.swf
+||res.yyets.com/images/close-ad.gif
 |*.yyets.com/forumid_*/*.gif
 !----燃文小说----
 ||www.ranwen.net/ssi/*
@@ -2840,6 +2843,8 @@
 ||act.chinatimes.com/aimg/*
 ||news.chinatimes.com/2009Cti/*Ads-Right*.shtml
 |*chinatimes.com/2007Cti/*
+!----豆丁中文网----
+||www.docin.net/js/adwz*.js
 !----大洋网----
 |*dayoo.com/sta/da.js*
 ||images.dayoo.com/dywimg/*
@@ -3009,6 +3014,9 @@
 ||eap.hsw.cn/*
 ||g.hsw.cn/*
 |*hsw.cn/yhn/*
+!----黑龙小说网----
+||www.hljcre.com/Snicu/js/tanchuan.js
+||www.hljcre.com/js/pop.js
 !----头条日报----
 ||news.hkheadline.com/js/*ad*.js
 |*hkheadline.com/*promo/*
@@ -3165,6 +3173,8 @@
 !----Wangye2游戏门户----
 |*wangye2.com/templets/default/spec/seh/images/*
 !----爱拍游戏----
+||apas.aipai.com/www/api/aipaiPlayFull2.js?0.*
+||web.aipai.com/bbt/*
 ||apas.aipai.com/www/images/*
 !----阿巴达小说下载网----
 ||www.abada.cn/js/*x*.gif
@@ -3640,6 +3650,28 @@
 |*/banner*.htm|
 ||c.*/*.js*
 ||a.baidu.com/*
+!----优酷网----
+||vhtml.atm.youku.com/*
+||hz.youku.com/red/ggnotice.php
+||static.atm.youku.com/*-*.swf?jsStart=*
+||vid.atm.youku.com/*
+||html.atm.youku.com/*
+||static.atm.youku.com/*/popup.js
+||valf.atm.youku.com/show?*
+||f.youku.com/player/getFlvPath/fileid/*-8F44-71B6-E9AC-*&yad=1*
+||f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-*
+||f.youku.com/player/getFlvPath/fileid/*-8DD5-1082-A06B-*&yad=1*
+||f.youku.com/player/getFlvPath/fileid/*-0F50-09A6-FF96-*&yad=1*
+||f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=1*
+||f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=3*
+||fvid.atm.youku.com/*
+||walp.atm.youku.com/*
+||valp.atm.youku.com/*
+||valc.atm.youku.com/*
+||static.atm.youku.com/*/*/*_*.jpg
+||static.atm.youku.com/*/*/*/*-*.jpg
+||static.atm.youku.com/*/*/*x*.jpg
+||e.stat.youku.com/*
 !-------------待分类-------------
 !--------------[元素隐藏规则]--------------
 !-------------通用规则-------------

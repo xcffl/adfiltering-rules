@@ -3676,3 +3676,4 @@ static.atm.youku.com/*/*/*x*.jpg
 e.stat.youku.com/*
 !-------------°×Ãûµ¥-------------
 */banner*.html        $w
+imgsrc.baidu.com/*        $w

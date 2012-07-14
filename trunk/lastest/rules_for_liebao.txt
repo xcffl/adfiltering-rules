@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules_for_liebao
 !Author:xcffl
-!Updated:2012-07-13 15:37
+!Updated:2012-07-14 19:17
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -10,14 +10,19 @@
 !-------------通用规则-------------
 */js.ng/*
 */37ss.js*
+*/configs/article/*.htm
+*/configs/article/*.js
 */bannerad.*
+*.net/ads/*
 */sidead.*
 */999aadbak.js*
 */banner-ad-*
 */adv.*
 */pv.*
 */advpic/*
+*/advertising/*
 *_ad1.*
+*/tuiguang/*
 *.swf?clicktag=*
 */adjs.php
 */adsjs/*
@@ -27,7 +32,6 @@
 */attachments/ad/*
 *.net/*/*_ad.js
 *.com/*/*_ad.js
-*/adshow?*
 */adpage/*
 */adv760.js*
 */advall.js*
@@ -267,7 +271,7 @@ un*js.php*
 */adclick.js
 *jshow.swf*
 *.com/ff.js*
-*_gg.*
+*.cn/*_gg.*
 *layer*ight.swf
 *linkad/*
 *linkad.*
@@ -545,7 +549,6 @@ js.*/code.js
 */www/*/sx/*/qjp-*.*
 */www/*/sx/*/lzzh-*.*
 */openad.gif
-*/attachment/advpic/*
 */frame/topright.html
 */article_ad_google.htm
 *.la/?code=*
@@ -638,7 +641,6 @@ acs.*
 *pv.*.cc*
 *pv.*.org*
 *pv.*.com/*
-*.com/pv.*
 *.com/pv/*
 */hiido.js*
 */adtrack.*
@@ -736,7 +738,6 @@ a.*/scripts/common.js
 */data/attachment/common/cf/*
 *img.*/attachments/month_1011/*.jpg
 *box_home.xml*
-*js/soft_ad1.js*
 *lanmang.gif*
 *mobilepop*
 *overture_ads*
@@ -762,6 +763,7 @@ a*.q150.com/*
 *.198game.com/*
 *.198game.net/*
 *.allthelyrics.com/*/popup.js
+code.9buo.com/*
 *.y2126.com/*
 *.union009.com/*
 *.ipinyou.com.cn/*
@@ -830,6 +832,7 @@ synad*.nuffnang.com.cn/*
 *.9vcpm.cn/*
 code.ze5.com/*
 *.adbrite.com/*
+tui.4779.com/*
 t.yigouw.com/*
 *.adpinion.com/*
 *down.jialichuang.com/*
@@ -871,6 +874,7 @@ c*.keytui.com/*
 *.insenz.com/*
 *.arpg2.com/*
 *.gs307.com/*
+*.400or800.com/*
 *.itsun.com/*
 p.zhanzhang.net/*
 *.junnew.com/indexad/*
@@ -921,7 +925,6 @@ www.top1bet.com/imgs/zp*x*.gif
 *.yiqiwin.com/*
 *.zhcpm.com*
 code.129game.com/*
-www.ipinyou.com/*
 *autosense.bitauto.com*
 *b.todayisp.com*
 *.dingge.cc/*
@@ -996,6 +999,7 @@ js.62826.com*
 js.coogao.cn*
 js1.339.cn*
 jsa.733.com*
+union.netease.com/*
 *kanoodle.com*
 *lelecpp.com*
 *linkpage.cn/*
@@ -1009,6 +1013,7 @@ p4p.cnaz.com*
 p4p.foundermedia.cn*
 p4p.tom.com*
 pages.etology.com*
+*.tbjfw.com/*
 pic.adver.com*
 popunder.adsrevenue.net*
 popunder.paypopup.com/popup.php*
@@ -1028,6 +1033,7 @@ c.91wan.com/*
 c.sfilm.com/*
 cache.51go.com/*
 cache.blogads.com/*
+copy.ousns.com/new/*.swf
 cm.p4p.cn/*
 code.345ads.com/*
 code.345ads.com:*/*
@@ -1101,8 +1107,6 @@ www.2myad.com/*
 www.52xmm.cn/*
 www.59.cn/*/*gg/*
 *.59.cn/test/newgg/*
-img.sharele.cn/*
-un.sharele.cn/*
 code.u.18dx.com/*
 *.58cpm.com/iclk/*
 www2.vadcast.com/*
@@ -1165,6 +1169,7 @@ idm666.s159.288idc.com/*
 js.qizhao.com/*
 *c.qling.com*
 *dgseo8.com/images/*
+*.gsdwj.com/*
 *.6693.cc/*
 *yinjiasm.com/ima/ggtp/*
 *.zjbdt.com/*
@@ -1248,7 +1253,6 @@ t.gameyule.com/*
 *js*.9wad.com/*
 code.ceyunshi.cn/*
 v.cpp9v.cn/*
-sixc.r.arpg2.com/*
 yxyz.mttmtt.com/yxyz9.html?code=*
 media.fastclick.net*
 *image.j-a-net.jp/*
@@ -1291,6 +1295,8 @@ adsrich.qq.com/web/default_fodders/*x*_*.swf
 mat1.gtimg.com/news/fbgg/*
 mat1.gtimg.com/hb/avd/*x*_*.swf
 f.qstatic.com/*
+!----瑞星知道----
+zhidao.ikaka.com/images/game_*.gif
 !----搜搜----
 dr.soso.com/*
 *soso*.*/UploadFiles/2008*.gif
@@ -1390,7 +1396,6 @@ d4.sina.com.cn/*.gif
 d3.sina.com.cn/*.gif
 d2.sina.com.cn/*.gif
 d1.sina.com.cn/jianyu1/TaoBao/*
-*.sinaimg.cn/dy/deco/*headcj.js
 d3.sina.com.cn/*/*/*_*.jpg
 i2.sinaimg.cn/home/*/*/U*.jpg
 sh.sinaimg.cn/adpackage/*
@@ -1399,7 +1404,6 @@ sh.sina.com.cn/iframe/328/*
 sh.sina.com.cn/iframe/391/*
 sh.sina.com.cn/iframe/408/*
 news.sina.com.cn/pfpnews/js/libweb.js
-*.sinaimg.cn/dy/deco/*/headty.js
 !----搜狗&搜狐&搜狐畅游----
 gm.changyou.com/css/ads-slide.css
 gm.changyou.com/js/ADSlide.js
@@ -1494,28 +1498,6 @@ v2.tudou.com/td*/*
 stat*.tudou.com/*
 *.tudou.com/framepage/*
 *.tudou.com/tdap/*
-!----优酷网----
-vhtml.atm.youku.com/*
-hz.youku.com/red/ggnotice.php
-static.atm.youku.com/*-*.swf?jsStart=*
-vid.atm.youku.com/*
-html.atm.youku.com/*
-static.atm.youku.com/*/popup.js
-valf.atm.youku.com/show?*
-f.youku.com/player/getFlvPath/fileid/*-8F44-71B6-E9AC-*&yad=1*
-f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-*
-f.youku.com/player/getFlvPath/fileid/*-8DD5-1082-A06B-*&yad=1*
-f.youku.com/player/getFlvPath/fileid/*-0F50-09A6-FF96-*&yad=1*
-f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=1*
-f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=3*
-fvid.atm.youku.com/*
-walp.atm.youku.com/*
-valp.atm.youku.com/*
-valc.atm.youku.com/*
-static.atm.youku.com/*/*/*_*.jpg
-static.atm.youku.com/*/*/*/*-*.jpg
-static.atm.youku.com/*/*/*x*.jpg
-e.stat.youku.com/*
 !----雅虎----
 l.yimg.com/d/lib/bc/bcr_2.0.5.js
 l.yimg.com/f/a/tw/gif_backup/ad_*.gif
@@ -1740,7 +1722,6 @@ img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 ads.skykiwi.com/*
 www.gcemedia.co.nz/www/images/*.swf
 !----厦门小鱼网----
-adm.xmfish.com/*
 bbs.xmfish.com/images/atm/*
 client.xmfish.com/attachments/bar/*
 hot.xmfish.com/pages/images/*
@@ -1802,6 +1783,10 @@ www.hszw.com/inc/*
 !----久久漫画----
 *.99manga.com/g/*
 *.99manga.com/haodm/dmjsc/*.js
+!----来书小说网----
+*.laishu.com/lsgg/*
+*.laishuwu.com/files/friend/*
+js.laishu.com/lsgg/*
 !----互联网的那点事----
 alibuybuy-wordpress.stor.sinaapp.com/*
 !----卡饭----
@@ -1847,7 +1832,6 @@ www.9ifly.cn/source/plugin/dabandeng/dabandeng-gbk.html
 y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 *.ifengimg.com/*.swf
 */tres/ifeng/game/astd/*
-y0.ifengimg.com/mappa/*/*/*/*.swf
 bc.ifeng.com/*
 *.ifengimg.com/tres/recommend/*
 *.ifengimg.com/mappa/*
@@ -1888,6 +1872,10 @@ www.33lc.com/js/*_*.js
 www.33lc.com/soft/UploadPic/2012-5/201251814224916797.jpg
 !----若人网&若人论坛----
 mu.ruoren.com/*
+!----纵横中文网----
+log.zongheng.com/*
+static.zongheng.com/v2_0/js/adClickStat.js
+book.zongheng.com/inc/add/zhad.html
 !----铁泰参考----
 www.tietai.com/file/upload/*/*/*-*-*-*-*.jpg
 !----未来软件园----
@@ -1991,7 +1979,6 @@ zy.ys168.com/adtp/*
 www.ys168.com/images/*_*.*
 */ys168/*
 www.ys168.com/images/*.gif
-www.ys168.com/images/gg*.gif
 !----博客网----
 *adimage.bokee.com*
 !----网上车市----
@@ -2098,6 +2085,8 @@ s.114.com.cn/*
 down.x6x8.com/good/*
 !----txt论坛----
 bbs.txtbbs.com/data/*.swf
+!----图集网----
+www.tujiw.com/tuijs/*
 !----爆米花网----
 a.pomoho.com/*
 !----下载吧----
@@ -2131,9 +2120,7 @@ img.0554cc.com/vip/*
 *ziddu.com/images/140x150_egglad.gif
 *ziddu.com/screencornerimages/*
 *ziddu.com/banners/*
-!----厦门房地产联合网----
 !----淘股吧----
-img.taoguba.com.cn/js/tc.js
 img.taoguba.com.cn/gbimg/*
 *taoguba.com.cn/gbimg/2010/11/04/*
 !----400Disk网络硬盘----
@@ -2164,6 +2151,8 @@ p4.zbjimg.com/task/*-*/11/pub/*.jpg
 p4.zbjimg.com/task/*-*/11/pub/*.gif
 !----激网----
 www.jetwang.org/ad/*
+!----快读网----
+www.kuairead.com/kr-img/krtop.gif
 !----联盘----
 cache.mofile.com/tv/cn/images/*
 !----中国网络电视台（CCTV&CNTV）----
@@ -2190,7 +2179,12 @@ ad4.enet.com.cn/*
 trace.enet.com.cn/*
 *enet.com.cn/enetshow.shtml?*
 images.enet.com.cn/consumer/*
+!----请看小说网----
+www.qingkan.net/js/list.html
 !----世纪文学网----
+*.2100book.com/scripts/open/*.js
+*.2100book.com/you/*.js
+*.2100book.com/themes/v2/images/frxz_tonglan.gif
 www.2100book.com/themes/v2/images/top_*.jpg
 !----久久影院----
 c.w99.cc/*
@@ -2475,6 +2469,7 @@ dl.dydao.com/daikao*.gif
 tbphoto.bababian.com/upload2/%E7%BB%BF%E7%BB%BF%E6%88%91%E7%88%B1/710_90.gif
 copy.ousns.com/*.jpg
 img.uu1001.cn/wrappler_swf2/2011-12-27/19/1b/27403090_cb427d45b6c6ae9f46b0ad3ceb2060db_268x90.swf
+res.yyets.com/images/close-ad.gif
 *.yyets.com/forumid_*/*.gif
 !----燃文小说----
 www.ranwen.net/ssi/*
@@ -2850,6 +2845,8 @@ topic.csdn.net/u/t5/include/*
 act.chinatimes.com/aimg/*
 news.chinatimes.com/2009Cti/*Ads-Right*.shtml
 *chinatimes.com/2007Cti/*
+!----豆丁中文网----
+www.docin.net/js/adwz*.js
 !----大洋网----
 *dayoo.com/sta/da.js*
 images.dayoo.com/dywimg/*
@@ -2905,6 +2902,9 @@ bbs.tazhao.com/api.php?*
 *cr173.com/show/img/*
 !----绿同网----
 www.5264.net/ad/*
+!----烟雨红尘----
+www.cc222.com/cc222ads/*
+www.cc222.com/_javascript/popupWin.js
 !----好喜爱学习网络----
 *haoxiai.net/vip/*
 !----SF123.cc----
@@ -3016,6 +3016,9 @@ www.hsw.cn/images08/jsx_0611.gif
 eap.hsw.cn/*
 g.hsw.cn/*
 *hsw.cn/yhn/*
+!----黑龙小说网----
+www.hljcre.com/Snicu/js/tanchuan.js
+www.hljcre.com/js/pop.js
 !----头条日报----
 news.hkheadline.com/js/*ad*.js
 *hkheadline.com/*promo/*
@@ -3113,7 +3116,6 @@ img.jcard.cn/ADNews/*
 !----游民星空----
 imgf.gamersky.com/**bg_ol*.jpg
 imgf.gamersky.com/*/*
-image.gamersky.com/img/*
 *.gamersky.com/frame/*
 *.gamersky.com/img/*
 !----广友影视----
@@ -3172,10 +3174,9 @@ bmp.ali213.net/*
 *phpfans.net/image/sponsors/*
 !----Wangye2游戏门户----
 *wangye2.com/templets/default/spec/seh/images/*
-!----玩多多网页游戏----
-*wandodo.com/ad.html
 !----爱拍游戏----
-*.aipai.com/*/ADPlayer_new.swf
+apas.aipai.com/www/api/aipaiPlayFull2.js?0.*
+web.aipai.com/bbt/*
 apas.aipai.com/www/images/*
 !----阿巴达小说下载网----
 www.abada.cn/js/*x*.gif
@@ -3290,8 +3291,6 @@ eap.enorth.com.cn/*
 static.doyouhike.net/partner/*
 !----中国网管联盟----
 *bitscn.com/pic2009/a*.js
-!----疯狂在线代理----
-*daili39.com/ad.jpg
 !----51.com----
 v3.apic.51.com/vda09.js
 !----360doc个人图书馆----
@@ -3653,5 +3652,27 @@ www.54new.com/da/*
 *\/banner*\.htm$/
 /^http:\/\/c.*\/*\.js/
 /:\/\/([^\/]+\.)?a\.baidu\.com/
+!----优酷网----
+vhtml.atm.youku.com/*
+hz.youku.com/red/ggnotice.php
+static.atm.youku.com/*-*.swf?jsStart=*
+vid.atm.youku.com/*
+html.atm.youku.com/*
+static.atm.youku.com/*/popup.js
+valf.atm.youku.com/show?*
+f.youku.com/player/getFlvPath/fileid/*-8F44-71B6-E9AC-*&yad=1*
+f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-*
+f.youku.com/player/getFlvPath/fileid/*-8DD5-1082-A06B-*&yad=1*
+f.youku.com/player/getFlvPath/fileid/*-0F50-09A6-FF96-*&yad=1*
+f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=1*
+f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=3*
+fvid.atm.youku.com/*
+walp.atm.youku.com/*
+valp.atm.youku.com/*
+valc.atm.youku.com/*
+static.atm.youku.com/*/*/*_*.jpg
+static.atm.youku.com/*/*/*/*-*.jpg
+static.atm.youku.com/*/*/*x*.jpg
+e.stat.youku.com/*
 !-------------白名单-------------
 */banner*.html        $w

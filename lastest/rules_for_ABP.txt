@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-15-18:12-----
+!-----最后更新：2012-07-15-19:03-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -1777,6 +1777,8 @@
 ||st.vq.ku6.cn/*
 ||image.ku6.com/image/*
 ||image.ku6.com/*888*/*
+!----异次元软件世界----
+||www.iplaysoft.com/plus/static_files/nuffnang.html
 !----中关村在线&中关村在线武汉站----
 |*.zol.com.cn/js/setcook.js
 ||stat.zol.com.cn/ol.js

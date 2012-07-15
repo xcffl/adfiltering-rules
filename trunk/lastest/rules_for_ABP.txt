@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-14-19:17-----
+!-----最后更新：2012-07-15-18:12-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -1496,6 +1496,28 @@
 ||stat*.tudou.com/*
 |*.tudou.com/framepage/*
 |*.tudou.com/tdap/*
+!----优酷网----
+||vhtml.atm.youku.com/*
+||hz.youku.com/red/ggnotice.php
+||static.atm.youku.com/*-*.swf?jsStart=*
+||vid.atm.youku.com/*
+||html.atm.youku.com/*
+||static.atm.youku.com/*/popup.js
+||valf.atm.youku.com/show?*
+||f.youku.com/player/getFlvPath/fileid/*-8F44-71B6-E9AC-*&yad=1*
+||f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-*
+||f.youku.com/player/getFlvPath/fileid/*-8DD5-1082-A06B-*&yad=1*
+||f.youku.com/player/getFlvPath/fileid/*-0F50-09A6-FF96-*&yad=1*
+||f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=1*
+||f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=3*
+||fvid.atm.youku.com/*
+||walp.atm.youku.com/*
+||valp.atm.youku.com/*
+||valc.atm.youku.com/*
+||static.atm.youku.com/*/*/*_*.jpg
+||static.atm.youku.com/*/*/*/*-*.jpg
+||static.atm.youku.com/*/*/*x*.jpg
+||e.stat.youku.com/*
 !----雅虎----
 ||l.yimg.com/d/lib/bc/bcr_2.0.5.js
 ||l.yimg.com/f/a/tw/gif_backup/ad_*.gif
@@ -1846,6 +1868,8 @@
 ||sta.ifeng.com/*
 ||sc.ifeng.com/*
 ||survey.news.ifeng.com/resultjson.php?*
+!----57DJ----
+||www.57dj.com/js/bd.shtml?id=*
 !----多玩游戏----
 ||pic.duowan.com/news/*/*/*.jpg
 |*duowan.com/public/s/market_count.js
@@ -3650,28 +3674,6 @@
 |*/banner*.htm|
 ||c.*/*.js*
 ||a.baidu.com/*
-!----优酷网----
-||vhtml.atm.youku.com/*
-||hz.youku.com/red/ggnotice.php
-||static.atm.youku.com/*-*.swf?jsStart=*
-||vid.atm.youku.com/*
-||html.atm.youku.com/*
-||static.atm.youku.com/*/popup.js
-||valf.atm.youku.com/show?*
-||f.youku.com/player/getFlvPath/fileid/*-8F44-71B6-E9AC-*&yad=1*
-||f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-*
-||f.youku.com/player/getFlvPath/fileid/*-8DD5-1082-A06B-*&yad=1*
-||f.youku.com/player/getFlvPath/fileid/*-0F50-09A6-FF96-*&yad=1*
-||f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=1*
-||f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=3*
-||fvid.atm.youku.com/*
-||walp.atm.youku.com/*
-||valp.atm.youku.com/*
-||valc.atm.youku.com/*
-||static.atm.youku.com/*/*/*_*.jpg
-||static.atm.youku.com/*/*/*/*-*.jpg
-||static.atm.youku.com/*/*/*x*.jpg
-||e.stat.youku.com/*
 !-------------待分类-------------
 !--------------[元素隐藏规则]--------------
 !-------------通用规则-------------

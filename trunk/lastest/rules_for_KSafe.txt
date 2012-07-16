@@ -1,12 +1,13 @@
 !-------【广告强效过滤规则 for 金山】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-14-19:17-----
+!-----最后更新：2012-07-16-22:17-----
 !Copyright 2011 xcffl, Apache License 2.0
 !-------------通用规则-------------
 5,4,*/js.ng/*
 5,4,*/37ss.js*
 5,4,*/configs/article/*.htm
+5,4,*/track.*
 5,4,*/configs/article/*.js
 5,4,*/bannerad.*
 5,4,*.net/ads/*
@@ -800,6 +801,7 @@
 5,4,js.zfjiu.com/*
 5,4,*.17luntan.com/*
 5,4,*.186ad.com/*
+5,4,*.medleyads.com/*
 5,4,synad*.nuffnang.com.cn/*
 5,4,*.is686.com/*
 5,4,*.247realmedia.com/*
@@ -904,6 +906,8 @@
 5,4,*.t2t2.com/*
 5,4,*.taobd.com/*
 5,4,*.the5v.com/*
+5,4,union.gxcms.com/*
+5,4,*.shurumedia.com/*
 5,4,*.tribalfusion.com/*
 5,4,*.tuigoo.com/*
 5,4,*.tx8688.com/*
@@ -1494,6 +1498,28 @@
 5,4,stat*.tudou.com/*
 5,4,*.tudou.com/framepage/*
 5,4,*.tudou.com/tdap/*
+!----优酷网----
+5,4,vhtml.atm.youku.com/*
+5,4,hz.youku.com/red/ggnotice.php
+5,4,static.atm.youku.com/*-*.swf?jsStart=*
+5,4,vid.atm.youku.com/*
+5,4,html.atm.youku.com/*
+5,4,static.atm.youku.com/*/popup.js
+5,4,valf.atm.youku.com/show?*
+5,4,f.youku.com/player/getFlvPath/fileid/*-8F44-71B6-E9AC-*&yad=1*
+5,4,f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-*
+5,4,f.youku.com/player/getFlvPath/fileid/*-8DD5-1082-A06B-*&yad=1*
+5,4,f.youku.com/player/getFlvPath/fileid/*-0F50-09A6-FF96-*&yad=1*
+5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=1*
+5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=3*
+5,4,fvid.atm.youku.com/*
+5,4,walp.atm.youku.com/*
+5,4,valp.atm.youku.com/*
+5,4,valc.atm.youku.com/*
+5,4,static.atm.youku.com/*/*/*_*.jpg
+5,4,static.atm.youku.com/*/*/*/*-*.jpg
+5,4,static.atm.youku.com/*/*/*x*.jpg
+5,4,e.stat.youku.com/*
 !----雅虎----
 5,4,l.yimg.com/d/lib/bc/bcr_2.0.5.js
 5,4,l.yimg.com/f/a/tw/gif_backup/ad_*.gif
@@ -1753,6 +1779,8 @@
 5,4,st.vq.ku6.cn/*
 5,4,image.ku6.com/image/*
 5,4,image.ku6.com/*888*/*
+!----异次元软件世界----
+5,4,www.iplaysoft.com/plus/static_files/nuffnang.html
 !----中关村在线&中关村在线武汉站----
 5,4,*.zol.com.cn/js/setcook.js
 5,4,stat.zol.com.cn/ol.js
@@ -1844,6 +1872,8 @@
 5,4,sta.ifeng.com/*
 5,4,sc.ifeng.com/*
 5,4,survey.news.ifeng.com/resultjson.php?*
+!----57DJ----
+5,4,www.57dj.com/js/bd.shtml?id=*
 !----多玩游戏----
 5,4,pic.duowan.com/news/*/*/*.jpg
 5,4,*duowan.com/public/s/market_count.js
@@ -2056,9 +2086,11 @@
 5,4,img.vista123.com/images/win7master.gif
 5,4,*.vista123.cn/notice.js
 5,4,*win8china.com/win8/headline.htm
-5,4,*win8china.com/Script/elements/side_google.htm
+5,4,*win8china.com/Script/elements/*_google*
 5,4,*.win7china.com/Script/win7elements/*
 5,4,*.win7china.com/HitCount.aspx?*
+5,4,*.ithome.com/block/*_google*
+5,4,*.ithome.com/block/headerline.htm
 !----站长助手----
 5,4,*.baidu456.com/ggimages/*
 5,4,*baidu456.com/tcjs/*
@@ -3166,6 +3198,8 @@
 5,4,bmp.ali213.net/*
 !----wg818小游戏----
 5,4,*wg818.com/468x60.gif
+!----和风日语----
+5,4,*.jpwind.com/images/partner/
 !----PHP爱好者----
 5,4,*phpfans.net/image/sponsors/*
 !----Wangye2游戏门户----
@@ -3308,6 +3342,9 @@
 5,4,dc.letv.com/*
 5,4,js.letvcdn.com/js/*/stats/*
 5,4,*pro.letv.com/*
+!----FriendFinder&AsiaFriendFinder----
+5,4,geobanner.asiafriendfinder.com/go/page/iframe_geobanner_custom?*
+5,4,*.pop6.com/banners/*
 !----一听音乐网----
 5,4,img.1ting.com/v5/js/*text.js
 !----先看看----
@@ -3421,8 +3458,9 @@
 5,4,partner.googleadservices.com*
 5,4,*.google-analytics.com/*
 5,4,www.google.cn/aclk?*
-!----百度&乐居----
+!----百度&乐居&hao123----
 5,4,sclick.baidu.com/*
+5,4,*.hao123.com/images/ua2.gif
 5,4,gimg.baidu.com/img/*pic/*
 5,4,c.baidu.com/*
 5,4,duiwai.baidu.com/*

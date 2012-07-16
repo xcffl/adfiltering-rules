@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-16-18:27-----
+!-----最后更新：2012-07-16-22:17-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -803,6 +803,7 @@
 ||js.zfjiu.com/*
 |*.17luntan.com/*
 |*.186ad.com/*
+|*.medleyads.com/*
 ||synad*.nuffnang.com.cn/*
 |*.is686.com/*
 |*.247realmedia.com/*
@@ -3343,6 +3344,9 @@
 ||dc.letv.com/*
 ||js.letvcdn.com/js/*/stats/*
 |*pro.letv.com/*
+!----FriendFinder&AsiaFriendFinder----
+||geobanner.asiafriendfinder.com/go/page/iframe_geobanner_custom?*
+|*.pop6.com/banners/*
 !----一听音乐网----
 ||img.1ting.com/v5/js/*text.js
 !----先看看----

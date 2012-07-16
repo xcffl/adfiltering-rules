@@ -1,16 +1,17 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules_for_liebao
 !Author:xcffl
-!Updated:2012-07-15 10:39
+!Updated:2012-07-16 22:17
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
 !版本_5.1.3alpha
 !Copyright 2011 xcffl, Apache License 2.0
-!-------------通用规则-------------
+!-------------!-------------通用规则-------------
 */js.ng/*
 */37ss.js*
 */configs/article/*.htm
+*/track.*
 */configs/article/*.js
 */bannerad.*
 *.net/ads/*
@@ -804,6 +805,7 @@ js.ylunion.com/*
 js.zfjiu.com/*
 *.17luntan.com/*
 *.186ad.com/*
+*.medleyads.com/*
 synad*.nuffnang.com.cn/*
 *.is686.com/*
 *.247realmedia.com/*
@@ -908,6 +910,8 @@ www.top1bet.com/imgs/zp*x*.gif
 *.t2t2.com/*
 *.taobd.com/*
 *.the5v.com/*
+union.gxcms.com/*
+*.shurumedia.com/*
 *.tribalfusion.com/*
 *.tuigoo.com/*
 *.tx8688.com/*
@@ -1498,6 +1502,28 @@ v2.tudou.com/td*/*
 stat*.tudou.com/*
 *.tudou.com/framepage/*
 *.tudou.com/tdap/*
+!----优酷网----
+vhtml.atm.youku.com/*
+hz.youku.com/red/ggnotice.php
+static.atm.youku.com/*-*.swf?jsStart=*
+vid.atm.youku.com/*
+html.atm.youku.com/*
+static.atm.youku.com/*/popup.js
+valf.atm.youku.com/show?*
+f.youku.com/player/getFlvPath/fileid/*-8F44-71B6-E9AC-*&yad=1*
+f.youku.com/player/getFlvPath/sid/*-F90A-920D-1778-*
+f.youku.com/player/getFlvPath/fileid/*-8DD5-1082-A06B-*&yad=1*
+f.youku.com/player/getFlvPath/fileid/*-0F50-09A6-FF96-*&yad=1*
+f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=1*
+f.youku.com/player/getFlvPath/fileid/*&yad=1&ts=3*
+fvid.atm.youku.com/*
+walp.atm.youku.com/*
+valp.atm.youku.com/*
+valc.atm.youku.com/*
+static.atm.youku.com/*/*/*_*.jpg
+static.atm.youku.com/*/*/*/*-*.jpg
+static.atm.youku.com/*/*/*x*.jpg
+e.stat.youku.com/*
 !----雅虎----
 l.yimg.com/d/lib/bc/bcr_2.0.5.js
 l.yimg.com/f/a/tw/gif_backup/ad_*.gif
@@ -1757,6 +1783,8 @@ css.ku6cdn.com/podcast/img/bg_ad.gif
 st.vq.ku6.cn/*
 image.ku6.com/image/*
 image.ku6.com/*888*/*
+!----异次元软件世界----
+www.iplaysoft.com/plus/static_files/nuffnang.html
 !----中关村在线&中关村在线武汉站----
 *.zol.com.cn/js/setcook.js
 stat.zol.com.cn/ol.js
@@ -1848,6 +1876,8 @@ img.ifeng.com/tres/html/*
 sta.ifeng.com/*
 sc.ifeng.com/*
 survey.news.ifeng.com/resultjson.php?*
+!----57DJ----
+www.57dj.com/js/bd.shtml?id=*
 !----多玩游戏----
 pic.duowan.com/news/*/*/*.jpg
 *duowan.com/public/s/market_count.js
@@ -2060,9 +2090,11 @@ img.vista123.com/images/TweakCube468.gif
 img.vista123.com/images/win7master.gif
 *.vista123.cn/notice.js
 *win8china.com/win8/headline.htm
-*win8china.com/Script/elements/side_google.htm
+*win8china.com/Script/elements/*_google*
 *.win7china.com/Script/win7elements/*
 *.win7china.com/HitCount.aspx?*
+*.ithome.com/block/*_google*
+*.ithome.com/block/headerline.htm
 !----站长助手----
 *.baidu456.com/ggimages/*
 *baidu456.com/tcjs/*
@@ -3170,6 +3202,8 @@ bbs.a9vg.com/showit/img_show.php*
 bmp.ali213.net/*
 !----wg818小游戏----
 *wg818.com/468x60.gif
+!----和风日语----
+*.jpwind.com/images/partner/
 !----PHP爱好者----
 *phpfans.net/image/sponsors/*
 !----Wangye2游戏门户----
@@ -3312,6 +3346,9 @@ luckstatic.v1.cn/st/10000/*
 dc.letv.com/*
 js.letvcdn.com/js/*/stats/*
 *pro.letv.com/*
+!----FriendFinder&AsiaFriendFinder----
+geobanner.asiafriendfinder.com/go/page/iframe_geobanner_custom?*
+*.pop6.com/banners/*
 !----一听音乐网----
 img.1ting.com/v5/js/*text.js
 !----先看看----
@@ -3425,8 +3462,9 @@ google.mmjq.com/*
 partner.googleadservices.com*
 *.google-analytics.com/*
 www.google.cn/aclk?*
-!----百度&乐居----
+!----百度&乐居&hao123----
 sclick.baidu.com/*
+*.hao123.com/images/ua2.gif
 gimg.baidu.com/img/*pic/*
 c.baidu.com/*
 duiwai.baidu.com/*

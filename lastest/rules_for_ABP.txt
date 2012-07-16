@@ -2,13 +2,14 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-16-13:43-----
+!-----最后更新：2012-07-16-13:50-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
 |*/js.ng/*
 |*/37ss.js*
 |*/configs/article/*.htm
+|*/track.*
 |*/configs/article/*.js
 |*/bannerad.*
 |*.net/ads/*
@@ -3453,8 +3454,9 @@
 ||partner.googleadservices.com*
 |*.google-analytics.com/*
 ||www.google.cn/aclk?*
-!----百度&乐居----
+!----百度&乐居&hao123----
 ||sclick.baidu.com/*
+|*.hao123.com/images/ua2.gif
 ||gimg.baidu.com/img/*pic/*
 ||c.baidu.com/*
 ||duiwai.baidu.com/*

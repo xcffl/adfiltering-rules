@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-16-22:17-----
+!-----最后更新：2012-07-17-14:38-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -2110,6 +2110,8 @@
 ||partner.114.com.cn*
 ||u.114.com.cn/*
 ||s.114.com.cn/*
+!----114导航----
+||www.in250.com/*
 |*/114ad/*
 !----遐想网络----
 ||down.x6x8.com/good/*
@@ -2675,6 +2677,14 @@
 |*xizi.com/include/sinaflash.js
 !----当下软件园----
 |*downxia.com/js/*
+!----大话利州----
+||bbs.dzsm.com/img/*.jpg
+||bbs.dzsm.com/img/bt11.gif
+||bbs.dzsm.com/images/YoyoSky/*1.jpg
+||bbs.dzsm.com/images/YoyoSky/*3.jpg
+||bbs.dzsm.com/img/k*.swf
+||bbs.dzsm.com/img/j*.swf
+||bbs.dzsm.com/img/q*.swf
 !----西陆网----
 ||tp.xilu.com/*
 |*xilu.com/js/bd.js

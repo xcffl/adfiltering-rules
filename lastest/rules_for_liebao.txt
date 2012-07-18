@@ -1,18 +1,19 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules_for_liebao
 !Author:xcffl
-!Updated:2012-07-16 22:17
+!Updated:2012-07-18 13:25
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
 !版本_5.1.3alpha
 !Copyright 2011 xcffl, Apache License 2.0
-!-------------!-------------通用规则-------------
+!-------------通用规则-------------
 */js.ng/*
 */37ss.js*
 */configs/article/*.htm
 */track.*
-*/configs/article/*.js
+*.net*/configs/article/*.js
+*.com*/configs/article/*.js
 */bannerad.*
 *.net/ads/*
 */sidead.*
@@ -2112,6 +2113,8 @@ app.pcpop.com/PageView.aspx?*
 partner.114.com.cn*
 u.114.com.cn/*
 s.114.com.cn/*
+!----114导航----
+www.in250.com/*
 */114ad/*
 !----遐想网络----
 down.x6x8.com/good/*
@@ -2677,6 +2680,14 @@ logasp.zhongsou.com/fm_search.asp?*
 *xizi.com/include/sinaflash.js
 !----当下软件园----
 *downxia.com/js/*
+!----大话利州----
+bbs.dzsm.com/img/*.jpg
+bbs.dzsm.com/img/bt11.gif
+bbs.dzsm.com/images/YoyoSky/*1.jpg
+bbs.dzsm.com/images/YoyoSky/*3.jpg
+bbs.dzsm.com/img/k*.swf
+bbs.dzsm.com/img/j*.swf
+bbs.dzsm.com/img/q*.swf
 !----西陆网----
 tp.xilu.com/*
 *xilu.com/js/bd.js
@@ -3687,6 +3698,10 @@ img.kuyundong.com/images/cuxiao/lkt/lkt*/*X*_r*_c*.jpg
 www.fclub.cn/affiche.php?act=img&ad_id=*
 www.54new.com/da/*
 !-------------特殊规则-------------
+*/banner*.htm
+c.*/*.js*
+a.baidu.com/*
+!-------------待分类-------------
 *\/banner*\.htm$/
 /^http:\/\/c.*\/*\.js/
 /:\/\/([^\/]+\.)?a\.baidu\.com/

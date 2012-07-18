@@ -1,14 +1,15 @@
 !-------【广告强效过滤规则 for 金山】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-16-22:17-----
+!-----最后更新：2012-07-18-13:25-----
 !Copyright 2011 xcffl, Apache License 2.0
 !-------------通用规则-------------
 5,4,*/js.ng/*
 5,4,*/37ss.js*
 5,4,*/configs/article/*.htm
 5,4,*/track.*
-5,4,*/configs/article/*.js
+5,4,*.net*/configs/article/*.js
+5,4,*.com*/configs/article/*.js
 5,4,*/bannerad.*
 5,4,*.net/ads/*
 5,4,*/sidead.*
@@ -2108,6 +2109,8 @@
 5,4,partner.114.com.cn*
 5,4,u.114.com.cn/*
 5,4,s.114.com.cn/*
+!----114导航----
+5,4,www.in250.com/*
 5,4,*/114ad/*
 !----遐想网络----
 5,4,down.x6x8.com/good/*
@@ -2673,6 +2676,14 @@
 5,4,*xizi.com/include/sinaflash.js
 !----当下软件园----
 5,4,*downxia.com/js/*
+!----大话利州----
+5,4,bbs.dzsm.com/img/*.jpg
+5,4,bbs.dzsm.com/img/bt11.gif
+5,4,bbs.dzsm.com/images/YoyoSky/*1.jpg
+5,4,bbs.dzsm.com/images/YoyoSky/*3.jpg
+5,4,bbs.dzsm.com/img/k*.swf
+5,4,bbs.dzsm.com/img/j*.swf
+5,4,bbs.dzsm.com/img/q*.swf
 !----西陆网----
 5,4,tp.xilu.com/*
 5,4,*xilu.com/js/bd.js

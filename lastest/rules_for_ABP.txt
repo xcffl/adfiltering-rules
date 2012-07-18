@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-18-13:25-----
+!-----最后更新：2012-07-18-13:37-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -2037,6 +2037,8 @@
 !----YouTube----
 |*youtube.com/img/youchoose/*
 !----比克尔（必杀客）----
+|*.bkill.com/css/js/bkill.js
+|*.bkill.com/css/ajs/*
 |*.bkill.com/images/di.js
 ||www.bkill.com/img/*
 |*bkill.net/img/fx.gif
@@ -2655,6 +2657,8 @@
 !----异域动漫论坛----
 ||bbsupload.yydm.com/*-*.swf
 |*yydm.com/baoyue/*
+!----指南者----
+|*.amznz.com/proxy.html
 !----GOGOBOX----
 |*gogobox.com.tw/n_images/tw2/common/*
 !----落伍下载站----
@@ -2859,6 +2863,8 @@
 ||count.qiannao.com/*
 !----Yunfile----
 |*.yunfile.com/images/offline_banner/*x*.gif
+!----HowFile----
+|*.howfile.com/templates/howfile/res/*
 !----有问必答健康网----
 |*120ask.com/player/*
 !----jsduba.net金山毒霸2009----

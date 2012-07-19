@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-19-10:05-----
+!-----最后更新：2012-07-19-10:09-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -498,7 +498,9 @@
 |*/com_spe.js?p=*
 |*/advertisement/*
 |*/adpolicy.aspx?*
-|*/click/*htm*
+|*.org*/click/*html
+|*.cn*/click/*html
+|*/click/*htm
 |*/click/*png*
 |*/click/*jpg*
 |*/click/*js*

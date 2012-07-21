@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-21-16:15-----
+!-----最后更新：2012-07-21-22:03-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -1345,6 +1345,7 @@
 ||www.zhujima.com/tu/*g*.png
 ||www.zhujima.com/tu/*vps.gif
 !----新浪网----
+||pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 ||bj.house.sina.com.cn/*.js
 |*.sinaimg.cn/*/deco/*.js
 ||rs.sinajs.cn/*
@@ -1634,6 +1635,8 @@
 ||sponsor.verycd.com/*
 ||sp.vcimg.com/*
 !----天涯社区----
+||static.tianyaui.com/*/stat_20080313.js
+||ebook.tianya.cn/js/stat.js
 ||wenda.tianya.cn/wenda/images/*X*.swf
 ||wenda.tianya.cn/wenda/images/*/rightAd_*.*
 ||stat.tianya.cn/*
@@ -2295,6 +2298,7 @@
 !----中国天气----
 ||poster.weather.com.cn/*
 !----绿色软件联盟----
+|*.xdowns.com/new/ggdown.html
 ||cc.153.xdowns.com/*
 ||bbs.xdowns.com/jump.js
 !----七喜下载站----

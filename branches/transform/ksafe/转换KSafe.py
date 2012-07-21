@@ -180,6 +180,7 @@ def writeTPL(filePath, lines):
       if line[0:2] == '@@':
         isException = True
         line = line[2:]
+        
 
       hasUnsupportedOptions = False
       requiresScript = False
@@ -230,7 +231,7 @@ def writeTPL(filePath, lines):
         # 不包括不支持的选项的过滤器
         result.append('# ' + origLine)
       else:
-        line = line.replace('^', '/') # 假定分隔符的占位符的意思是斜线
+        line = line.replace('^', '/*') # 假定分隔符的占位符的意思是斜线
 
         # 尝试提取域名信息
         domain = None
@@ -245,14 +246,11 @@ def writeTPL(filePath, lines):
         # 删除规则尾的标记
         line = re.sub(r'\|$', '', line)
         # 删除不必要的两端的管状符
-        line = re.sub(r'\*$', '', line)
         # 添加 *.js 到规则以效仿 $script
         if requiresScript:
           line += '*.js'
-        if line.startswith('/*'):
-          line = line[2:]
         if domain:
-          line = '%s5,4,%s %s' % ('+' if isException else '', domain, line)
+          line = '%s5,4,%s%s' % ('+' if isException else '', domain, line)
           line = re.sub(r'\s+/$', '', line)
           result.append(line)
         elif isException:

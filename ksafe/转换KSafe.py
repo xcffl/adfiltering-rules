@@ -107,6 +107,7 @@ def resolveIncludes(filePath, lines, timeout, level=0):
   if level > 5:
     raise Exception('有太多的嵌套包含，这可能是循环引用的地方。')
 
+
   result = []
   for line in lines:
     match = re.search(r'^\s*%include\s+(.*)%\s*$', line)
@@ -249,6 +250,8 @@ def writeTPL(filePath, lines):
         # 添加 *.js 到规则以效仿 $script
         if requiresScript:
           line += '*.js'
+        if line.startswith('http://'):
+          line = line[7:] #前面一个数字是上一行字符串的字符数
         if domain:
           line = '%s5,4,%s%s' % ('+' if isException else '', domain, line)
           line = re.sub(r'\s+/$', '', line)

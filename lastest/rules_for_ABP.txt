@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-21-22:03-----
+!-----最后更新：2012-07-22-14:51-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -10,8 +10,8 @@
 |*/37ss.js*
 |*/configs/article/*.htm
 |*/track.*
-|*.net*/configs/article/*.js
 |*.com*/configs/article/*.js
+|*.net*/configs/article/*.js
 |*/bannerad.*
 |*.net/ads/*
 |*/sidead.*
@@ -2439,7 +2439,7 @@
 !----汽车之家----
 |*autohome.com.cn/33*
 ||33.autohome.com.cn*
-!----AcFun.tv
+!----AcFun.tv----
 |*.acfun.tv/json/newad.xml
 !----俺要电子书----
 |*aybook.cn/love/*
@@ -2450,7 +2450,7 @@
 !----动漫屋----
 ||by.dm5.com/*
 ||tongji.dm5.com/*
-!----Discuz!----
+!----Discuz----
 |*.discuz.net/data/attachment/forum/*
 !----留园网----
 ||am.6park.com/img/*

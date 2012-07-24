@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules_for_liebao
 !Author:xcffl
-!Updated:2012-07-24 11:02
+!Updated:2012-07-24 11:42
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -3477,7 +3477,6 @@ www.google.cn/aclk?*
 sclick.baidu.com/*
 *.hao123.com/images/ua2.gif
 gimg.baidu.com/img/*pic/*
-c.baidu.com/*
 duiwai.baidu.com/*
 bar.baidu.com/*
 baidutv.baidu.com/*
@@ -3698,9 +3697,11 @@ img.kuyundong.com/images/cuxiao/lkt/lkt*/*X*_r*_c*.jpg
 www.fclub.cn/affiche.php?act=img&ad_id=*
 www.54new.com/da/*
 !-------------特殊规则-------------
-*\/banner*\.htm$/
-/^http:\/\/c.*\/*\.js/
+/\/banner\/.htm$/
+/^http:\/\/c\..*\/.*\.js/
 /:\/\/([^\/]+\.)?a\.baidu\.com/
+/^http:\/\/ad\..*\/
+/:\/\/([^\/]+\.)?c\.baidu\.com/
 !-------------待分类-------------
 !----优酷网----
 vhtml.atm.youku.com/*
@@ -3725,9 +3726,4 @@ static.atm.youku.com/*/*/*/*-*.jpg
 static.atm.youku.com/*/*/*x*.jpg
 e.stat.youku.com/*
 !-------------白名单-------------
-*/banner*.html	$w
-imgsrc.baidu.com/*	$w
-static.youku.com/*	$w
-static.tieba.baidu.com/*	$w
-dynamic.12306.cn/*	$w
-tieba.baidu.com/*	$w
+

@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-23-20:27-----
+!-----最后更新：2012-07-24-11:44-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -3520,7 +3520,6 @@
 ||sclick.baidu.com/*
 |*.hao123.com/images/ua2.gif
 ||gimg.baidu.com/img/*pic/*
-||c.baidu.com/*
 ||duiwai.baidu.com/*
 ||bar.baidu.com/*
 ||baidutv.baidu.com/*
@@ -3750,6 +3749,7 @@
 |*/banner*.htm|
 ||c.*/*.js*
 ||a.baidu.com/*
+||c.baidu.com/*
 !-------------待分类-------------
 !--------------[元素隐藏规则]--------------
 !-------------通用规则-------------

@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-24-21:05-----
+!-----最后更新：2012-07-24-14:18-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -1429,6 +1429,8 @@
 ||js.sohu.com/wrating0820.js
 |*.sohu.com/*.do?*&c=*
 |*.sohu.com.cn/*.do?*&uid=*
+||hd.sohu.com.cn/*.swf*
+||data.vrs.sohu.com/player.gif?*
 |*.sohu.com.cn/*.gif?*&uid=*
 |*sogouad*js*
 ||aty*.tv.sohu.com/*
@@ -2409,8 +2411,11 @@
 |*20ju.com/js/RightJs1.js
 ||www.20ju.com/images/*.swf
 ||www.20ju.com/images/*.gif
-!----360安全中心----
+!----奇虎----
 ||img.360.cn/images/2008/360cn/huodong/*x*.jpg
+||tf.360.cn/*
+||hao.360.cn/css/monitorscript.js
+||clkstat.qihoo.com/*
 ||click.stat.hao.360.cn/*
 !----风暴数码----
 ||attach.fengbao.com/album/*/*/*.gif

@@ -3751,4 +3751,4 @@ www.54new.com/da/*
 f.youku.com/player/getFlvPath/fileid/*&yad=1*
 !-------------待分类-------------
 !-------------白名单-------------
-api.t.sina.com.cn/statuses/counts.	$w
+api.t.sina.com.cn/statuses/counts.*	$w

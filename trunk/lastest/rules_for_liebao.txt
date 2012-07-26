@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules_for_liebao
 !Author:xcffl
-!Updated:2012-07-24 21:07
+!Updated:2012-07-26 13:07
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -1479,7 +1479,6 @@ tech.163.com/*.js
 analytics.163.com/*
 swf.ws.126.net/*.flv
 images.163.com/*
-g.163.com/*
 pro.163.com/*
 img*.126.net/channel*/*.html
 popme.163.com*
@@ -3748,6 +3747,7 @@ www.54new.com/da/*
 /:\/\/([^\/]+\.)?a\.baidu\.com/
 /^http:\/\/ad\..*\/
 /:\/\/([^\/]+\.)?c\.baidu\.com/
+/:\/\/([^\/]+\.)?g\.163\.com/
 f.youku.com/player/getFlvPath/fileid/*&yad=1*
 !-------------待分类-------------
 !-------------白名单-------------

@@ -2,7 +2,7 @@
 !-------【广告强效过滤规则 + 广告强效过滤增强包 for ABP】-------
 !----一个通用、全面的广告过滤规则----
 !----------版本_5.1.3alpha---------
-!-----最后更新：2012-07-24-18:58-----
+!-----最后更新：2012-07-24-19:28-----
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
@@ -4261,14 +4261,14 @@ xiachufang.com##.g-ga.g-bg-white
 xfastest.com##[id^="ad"]
 xfastest.com##[class^="ad"]
 yyets.com##[id^="kads"]
-!--------------[白名单]--------------
-!--------原创白名单--------
+!--------------[白名单]
+!--------原创白名单
 @@||statics.dnspod.cn/yantai/js/*
 @@||pv.5211game.com/*
 @@||l.yimg.com/zz/combo?*.js*
 @@||bbs.zg163.net/bbs/attachments/pushpic/20120416092945.gif
 @@||bbs.zg163.net/bbs/attachments/pushpic/20120413010555.gif
-!--------其他-------
+!--------其他
 @@||iphone4.tw/forums/news_proxy.php$xmlhttprequest
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 !---Shopping websites

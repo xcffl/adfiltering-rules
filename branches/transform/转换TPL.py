@@ -18,6 +18,7 @@ ignore = {
   'Plus_Rules.txt': True,
   'genera_rules.txt': True,
   'Element_Hiding_Rules.txt': True,
+  'rules_for_liebao.txt': True,
 }
 verbatim = {
   'COPYING': True,

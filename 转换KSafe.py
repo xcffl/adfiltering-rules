@@ -19,6 +19,7 @@ ignore = {
   'Plus_Rules.txt': True,
   'genera_rules.txt': True,
   'Element_Hiding_Rules.txt': True,
+  'rules_for_liebao.txt': True,
 }
 verbatim = {
   'COPYING': True,
@@ -160,7 +161,7 @@ def writeRule(filePath, lines):
   result = []
   for line in lines:
     if re.search(r'^!', line):
-      # 这是注释，可以转译。
+      # 这是注释，去除。
       if line.find(r'!\-+.*$') >= 0:
         pass
       '''result.append(re.sub(r'!\-+.*$', '',  line))

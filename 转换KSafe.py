@@ -9,6 +9,7 @@
 import sys, os, re, subprocess, urllib2, time, traceback, codecs, hashlib, base64
 from getopt import getopt, GetoptError
 
+
 acceptedExtensions = {
   '.txt': True,
 }
@@ -95,7 +96,7 @@ def processSubscriptionFile(sourceDir, targetDir, file, timeout):
   lines = resolveIncludes(filePath, lines, timeout)
   lines = filter(lambda l: l != '' and not re.search(r'!\s*checksum[\s\-:]+([\w\+\/=]+)', l, re.I), lines)
 
-  writeTPL(os.path.join(targetDir, 'rules_for_KSafe.txt'), lines)
+  writeRule(os.path.join(targetDir, 'rules_for_KSafe.txt'), lines)
 
   checksum = hashlib.md5()
   checksum.update((header + '\n' + '\n'.join(lines) + '\n').encode('utf-8'))
@@ -155,7 +156,7 @@ def resolveIncludes(filePath, lines, timeout, level=0):
       result.append(line)
   return result
 
-def writeTPL(filePath, lines):
+def writeRule(filePath, lines):
   result = []
   for line in lines:
     if re.search(r'^!', line):
@@ -278,11 +279,12 @@ if __name__ == '__main__':
     usage()
     sys.exit(2)
 
-  sourceDir, targetDir =  '.', 'TPL'
+  sourceDir, targetDir =  '.', 'Temp'
   if len(args) >= 1:
     sourceDir = args[0]
   if len(args) >= 2:
     targetDir = args[1]
+
 
   timeout = 30
   for option, value in opts:
@@ -296,7 +298,50 @@ if __name__ == '__main__':
     # Our source is a Mercurial repository, try updating
     subprocess.Popen(['hg', '-R', sourceDir, 'pull', '--update']).communicate()
 
+
+    
   combineSubscriptions(sourceDir, targetDir, timeout)
 
   #笔记：(#|!)\-+[^\-]*\n    匹配无效分类
   #     (#|!)\-+【广告强效过滤规则.* 匹配第一行规则标题
+#把临时生成的文件移动回根目录
+import shutil
+import os
+if os.path.isfile('.' + 'rules_for_KSafe.txt'):
+  os.system('rm -fr rules_for_KSafe.txt')
+else:
+  shutil.copy('./Temp/rules_for_KSafe.txt', '.')
+#删除临时文件夹
+import os, stat;  
+root_dir = r'.';  
+def walk(path):  
+  for item in os.listdir(path):  
+    subpath = os.path.join(path, item);  
+    mode = os.stat(subpath)[stat.ST_MODE];  
+               
+    if stat.S_ISDIR(mode):  
+      if item=="Temp":  
+        print "Clean %s ..." % subpath;  
+        print "%d deleted!" % purge(subpath);  
+      else:  
+        walk(subpath);  
+      
+def purge(path):  
+  count = 0;  
+  for item in os.listdir(path):  
+    subpath = os.path.join(path, item);  
+    mode = os.stat(subpath)[stat.ST_MODE];  
+    if stat.S_ISDIR(mode):  
+      count += purge(subpath);  
+    else:  
+      os.chmod(subpath, stat.S_IREAD|stat.S_IWRITE);  
+      os.unlink(subpath);  
+      count += 1;  
+  os.rmdir(path);  
+  count += 1;  
+  return count;            
+if __name__=='__main__':  
+  walk(root_dir);  
+
+
+  

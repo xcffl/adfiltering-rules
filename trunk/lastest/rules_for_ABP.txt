@@ -1938,6 +1938,7 @@
 ||lisbon.6rooms.com/*
 |*6.cn/mdfor/index_new.js
 !----中国破解站----
+|*.pojiezhan.com/vivi/*
 !----体育吧----
 |*.tiyuba.tv/app/js/common.js
 !----我乐网----

@@ -10,7 +10,7 @@
 |*/37ss.js*
 |*/configs/article/*.htm
 |*/track.*
-/ads3.
+|*/ads3.*
 |*.com*/configs/article/*.js
 |*.net*/configs/article/*.js
 |*/bannerad.*

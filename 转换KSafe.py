@@ -47,12 +47,12 @@ def combineSubscriptions(sourceDir, targetDir, timeout=30):
       known['rules_for_KSafe.txt'] = True
     known[file] = True
 
-
   for file in os.listdir(targetDir):
     if file[0] == '.':
       continue
     if not file in known:
       os.remove(os.path.join(targetDir, file))
+
 
 def conditionalWrite(filePath, data):
   changed = True
@@ -144,7 +144,8 @@ def resolveIncludes(filePath, lines, timeout, level=0):
         
       if len(newLines) and re.search(r'\[Adblock(?:\s*Plus\s*([\d\.]+)?)?\]', newLines[0], re.I):
         del newLines[0]
-      result.extend(newLines)      
+      result.extend(newLines)
+  
     else:
       if line.find('%timestamp%') >= 0:
         if level == 0:
@@ -159,14 +160,11 @@ def writeTPL(filePath, lines):
   for line in lines:
     if re.search(r'^!', line):
       # 这是注释，可以转译。
-      
-      match = re.search(r'\bExpires\s*(?::|after)\s*(\d+)\s*(h)?', line)
-      if match:
-        interval = int(match.group(1))
-        if match.group(2):
-          interval = int(interval / 24)
-      else:
-        result.append(re.sub(r'!', '#', re.sub(r'--!$', '--#', line)))
+      if line.find(r'!\-+.*$') >= 0:
+        pass
+      '''result.append(re.sub(r'!\-+.*$', '',  line))
+    if re.search(r'\n\s*\n', lines):
+      result.append(re.sub(r'\n\s*\n', '',  lines))'''
     elif line.find('#') >= 0:
       # Element hiding rules are not supported in MSIE, drop them
       pass
@@ -181,6 +179,7 @@ def writeTPL(filePath, lines):
       if line[0:2] == '@@':
         isException = True
         line = line[2:]
+
         
 
       hasUnsupportedOptions = False
@@ -298,3 +297,6 @@ if __name__ == '__main__':
     subprocess.Popen(['hg', '-R', sourceDir, 'pull', '--update']).communicate()
 
   combineSubscriptions(sourceDir, targetDir, timeout)
+
+  #笔记：(#|!)\-+[^\-]*\n    匹配无效分类
+  #     (#|!)\-+【广告强效过滤规则.* 匹配第一行规则标题

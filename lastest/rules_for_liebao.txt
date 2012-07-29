@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for liebao
 !Author:xcffl
-!Updated:2012-07-29 22:52
+!Updated:2012-07-29 23:15
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -3810,6 +3810,8 @@
 /:\/\/([^\/]+\.)?51nb.com\/forum\/images\\/\//	$w
 !---六间房
 /:\/\/([^\/]+\.)?pole.6rooms.com\/adpolestar\/\.*_qtie\.swf/	$w
+!---8684
+:\\/\\/([^\\/]+\\.)\?js\.973\.com\/ad\/sys_ad_complete\.js$d=8684\.cn	$w
 !---admin5
 /:\/\/([^\/]+\.)?admin5.com\/extras\/zz\/inner\.head\.logo\.js/	$w
 !--淘宝

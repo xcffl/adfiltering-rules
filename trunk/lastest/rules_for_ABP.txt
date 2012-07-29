@@ -1,7 +1,7 @@
 [AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-07-29-16:57
+!Updated:2012-07-29-17:22
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.3alpha
 !Copyright 2011 xcffl, Apache License 2.0
@@ -35,6 +35,8 @@
 |*/attachments/ad/*
 |*.net/*/*_ad.js
 |*.com/*/*_ad.js
+|*/banner*.htm|
+||c.*/*.js*
 |*/adpage/*
 |*/adv760.js*
 |*/advall.js*
@@ -3539,6 +3541,8 @@
 |*.google-analytics.com/*
 ||www.google.cn/aclk?*
 !----百度&乐居&hao123----
+||a.baidu.com/*
+||c.baidu.com/*
 ||sclick.baidu.com/*
 |*.hao123.com/images/ua2.gif
 ||gimg.baidu.com/img/*pic/*
@@ -3768,10 +3772,6 @@
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
 !-------------特殊规则-------------
-|*/banner*.htm|
-||c.*/*.js*
-||a.baidu.com/*
-||c.baidu.com/*
 ||f.youku.com/player/getFlvPath/fileid/*&yad=1*
 !-------------待分类-------------
 !--------------[元素隐藏规则]

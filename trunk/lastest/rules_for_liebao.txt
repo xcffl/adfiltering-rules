@@ -1,5 +1,5 @@
 ![Liebao Adblock Rule]
-!Title:广告强效过滤规则 + 广告强效过滤增强包 for liebao
+!Title:adfiltering-rules
 !Author:xcffl
 !Updated:2012-07-29-11:44
 !Version:1.0

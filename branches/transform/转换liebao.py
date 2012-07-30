@@ -271,7 +271,6 @@ def writeRule(filePath, lines):
         else:
           # 修改各种标记
           line = re.sub(r'^\|\*', '', line)
-          line = re.sub(r'^\|', '^', line)
           line = re.sub(r'\*\|$', '$', line)
           line = re.sub(r'\*$', '', line)
           line = re.sub(r'\*\*', '*', line)
@@ -285,6 +284,8 @@ def writeRule(filePath, lines):
           line = re.sub('\\\/\\\.\*', '', line)
           line = re.sub('\\\/\\\/\/', '/', line)
           line = re.sub(r'^\|\|', ':\/\/([^\/]+\.)?', line)
+          line = re.sub(r'^\|', '^', line)
+
 
 
         '''match = re.search(r'^(\@\@\|\||\|\w+://)([^*:/]+)(:\d+)?(/.*)', line)

@@ -3802,13 +3802,13 @@
 !--------其他--------
 /:\/\/([^\/]+\.)?iphone4.tw\/forums\/news_proxy\.php/	$w
 /:\/\/([^\/]+\.)?ad.ourgame.com\/cgi-bin\/insertflasha\.js/	$w
-/:\/\/([^\/]+\.)?cpro\.baidu\.com\/cpro\/ui\/c\.js,$d=bbs\.9es\.cn/$w
-/:\/\/([^\/]+\.)?pos\.baidu\.com\/ecom\?,$script,$d=bbs\.9es\.cn/$w
+/:\/\/([^\/]+\.)?cpro.baidu.com\/cpro\/ui\/c.js/  $d=bbs.9es.cn,$w
+/:\/\/([^\/]+\.)?pos.baidu.com\/ecom\?/  $t=script,$d=bbs.9es.cn,$w
 !---Shopping websites
 /:\/\/([^\/]+\.)?a.banggo.com\/Ad\/getAdPosList\.shtml/	$w
-/@@\/adbanner\/.*,$image,$d=books\.com\.tw/$w
-/:\/\/([^\/]+\.)?paipai\.com\/$d=shop\.qq\.com/$w
-/@@\/advertise\/.*,$d=suning\.com/$w
+/@@\/adbanner\/.*/  $t=image,$d=books.com.tw,$w
+/:\/\/([^\/]+\.)?paipai.com\//  $d=shop.qq.com,$w
+/@@\/advertise\/.*/  $d=suning.com,$w
 !---京东
 /:\/\/([^\/]+\.)?adimg.adtpl.360buy.com\/uploads\//	$w
 /:\/\/([^\/]+\.)?book.360buy.com\/book\/BookShowService\.aspx/	$w
@@ -3817,7 +3817,7 @@
 !---六间房
 /:\/\/([^\/]+\.)?pole.6rooms.com\/adpolestar\/.*_qtie\.swf/	$w
 !---8684
-/:\/\/([^\/]+\.)?js\.973\.com\/ad\/sys_ad_complete\.js,$d=8684\.cn/$w
+/:\/\/([^\/]+\.)?js.973.com\/ad\/sys_ad_complete.js/  $d=8684.cn,$w
 !---admin5
 /:\/\/([^\/]+\.)?admin5.com\/extras\/zz\/inner\.head\.logo\.js/	$w
 !--淘宝
@@ -3825,11 +3825,11 @@
 !---汽车之家
 /:\/\/([^\/]+\.)?33.autohome.com.cn\/njs\/1\.js/	$w
 !--MP3
-/:\/\/([^\/]+\.)?cb\.baidu\.com\/ecom\?,$d=mp3\.baidu\.com/$w
-/:\/\/([^\/]+\.)?cbjs\.baidu\.com\/js\/m\.js,$d=mp3\.baidu\.com/$w
+/:\/\/([^\/]+\.)?cb.baidu.com\/ecom\?/  $d=mp3.baidu.com,$w
+/:\/\/([^\/]+\.)?cbjs.baidu.com\/js\/m.js/  $d=mp3.baidu.com,$w
 !---爆米花网
 /:\/\/([^\/]+\.)?cb.baidu.com\/crossdomain\.xml/	$w
-/:\/\/([^\/]+\.)?cb\.baidu\.com\/ecom\?,$object,$d=baomihua\.com|pomoho\.com/$w
+/:\/\/([^\/]+\.)?cb.baidu.com\/ecom\?/  $t=object,$d=baomihua.com|pomoho.com,$w
 /:\/\/([^\/]+\.)?pvstat.pomoho.com\/crossdomain\.xml/	$w
 !---CC视频
 /:\/\/([^\/]+\.)?union.bokecc.com\/flash\//	$w
@@ -3847,19 +3847,19 @@
 /:\/\/([^\/]+\.)?dianping.com\/adwords\//	$w
 /:\/\/([^\/]+\.)?union.mapbar.com\/apis\/maps\/ $t=script/	$w
 !---Discuz! & PHPWind etc.
-/\/common\/cf\/.*\.thumb$image/	$w
+/\/common\/cf\/.*.thumb/  $t=image/	$w
 !---风行网
 /:\/\/([^\/]+\.)?q.funshion.com\/js\.php/	$w
 !---HiNet
-/:\/\/([^\/]+\.)?hichannel\.hinet\.net\/$object/$w
-/:\/\/([^\/]+\.)?p4u\.hinet\.net\/bien12\/$image,$d=webhd\.xuite\.net/$w
+/:\/\/([^\/]+\.)?hichannel.hinet.net\//  $t=object,$w
+/:\/\/([^\/]+\.)?p4u.hinet.net\/bien12\//  $t=image,$d=webhd.xuite.net,$w
 !---Ku6
 /:\/\/([^\/]+\.)?g.aa.sdo.com\/crossdomain\.xml/	$w
-/:\/\/([^\/]+\.)?g\.aa\.sdo\.com\/\?method=getversion,$object/$w
+/:\/\/([^\/]+\.)?g.aa.sdo.com\/\?method=getversion/  $t=object,$w
 /:\/\/([^\/]+\.)?my.ku6.com\/resource\/images\/feed_ad1\.jpg/	$w
 /:\/\/([^\/]+\.)?css.ku6cdn.com\/comm\/gg\//	$w
 !--embedded
-/:\/\/([^\/]+\.)?pic\.snyu\.com\/sdk.*\/Main\.swf,$d=~ku6\.com/$w
+/:\/\/([^\/]+\.)?pic.snyu.com\/sdk.*\/Main.swf/  $d=~ku6.com,$w
 !---MSN
 !-CN
 /:\/\/([^\/]+\.)?msn.wrating.com\/a1\.js/	$w
@@ -3874,7 +3874,7 @@
 !---东方电视
 /:\/\/([^\/]+\.)?home.on.cc\/adv\/web\/corp\//	$w
 !---QQ
-/:\/\/([^\/]+\.)?gtimg\.com\/img\/ad\/$image,$d=buy\.qq\.com/$w
+/:\/\/([^\/]+\.)?gtimg.com\/img\/ad\//  $t=image,$d=buy.qq.com,$w
 /:\/\/([^\/]+\.)?cq.qq.com\/js\/cody\/gdad\/all_scroll_ad\.js/	$w
 /:\/\/([^\/]+\.)?exp.qq.com\/img\/ad\//	$w
 !---巧巧读书
@@ -3885,11 +3885,11 @@
 /:\/\/([^\/]+\.)?sinaimg.cn\/.*\/deco\/.*\/common $t=script/	$w
 /:\/\/([^\/]+\.)?sinaimg.cn\/.*\/deco\/.*\/sinaObj\.js/	$w
 !-auto
-/:\/\/([^\/]+\.)?sina\.wrating\.com\/a1\.js,$d=bbs\.auto\.sina\.com\.cn/$w
+/:\/\/([^\/]+\.)?sina.wrating.com\/a1.js/  $d=bbs.auto.sina.com.cn,$w
 !-finance
-/:\/\/([^\/]+\.)?counter\.sina\.com\.cn\/time\?fm=JS,$d=finance\.sina\.com\.cn/$w
-/:\/\/([^\/]+\.)?sinaimg\.cn\/cj\/deco\/.*\/all\.js,$d=finance\.sina\.com\.cn/$w
-/:\/\/([^\/]+\.)?sinaimg\.cn\/dy\/deco\/.*\/headcj\.js,$d=finance\.sina\.com\.cn/$w
+/:\/\/([^\/]+\.)?counter.sina.com.cn\/time\?fm=JS/  $d=finance.sina.com.cn,$w
+/:\/\/([^\/]+\.)?sinaimg.cn\/cj\/deco\/.*\/all.js/  $d=finance.sina.com.cn,$w
+/:\/\/([^\/]+\.)?sinaimg.cn\/dy\/deco\/.*\/headcj.js/  $d=finance.sina.com.cn,$w
 !-weibo
 /:\/\/([^\/]+\.)?api.t.sina.com.cn\/statuses\/counts\./	$w
 !---东方宽频
@@ -3898,20 +3898,20 @@
 !--player may incorrectly blocked by some subscriptions
 /:\/\/([^\/]+\.)?js.tudouui.com\/bin\/player/	$w
 !---bbs.vc52.cn
-/:\\/\\/([^\\/]+\\.)\?gg\.a\.5d6d\.$image,object_subrequest/	$w
+/:\\/\\/([^\\/]+\.)\?gg.a.5d6d./  $t=image,object_subrequest/	$w
 !---udn
-/:\/\/([^\/]+\.)?video\.udn\.com\/player\/Adv\.swf,$object/$w
-/:\/\/([^\/]+\.)?video\.udn\.com\/udnad\/videoad\.php\/$object/$w
+/:\/\/([^\/]+\.)?video.udn.com\/player\/Adv.swf/  $t=object,$w
+/:\/\/([^\/]+\.)?video.udn.com\/udnad\/videoad.php\//  $t=object,$w
 !---新华网
 /:\/\/([^\/]+\.)?xinhuanet.com\/static\/rmedia\/pv\.swf/	$w
 !--TW
-/@@\/ads\/.*,$image,$d=buy\.yahoo\.com\.tw/$w
-/@@\/flash_general_20090213\.js|,$d=tw\.yahoo\.com/$w
+/@@\/ads\/.*/  $t=image,$d=buy.yahoo.com.tw,$w
+/@@\/flash_general_20090213.js|/  $d=tw.yahoo.com,$w
 /:\/\/([^\/]+\.)?l.yimg.com\/f\/a\/tw\/.*\/790840_.*\.swf/	$w
 /:\/\/([^\/]+\.)?l.yimg.com\/f\/a\/tw\/elephant\/.*240x94.*\.swf/	$w
 /:\/\/([^\/]+\.)?l.yimg.com\/zz\/combo\?.*\/ads\/ $t=script/	$w
 !---优酷
-/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\.swf|,$d=www\.youku\.com/$w
+/:\/\/([^\/]+\.)?static.atm.youku.com\/.*.swf|/  $d=www.youku.com,$w
 /:\/\/([^\/]+\.)?valf.atm.youku.com\/crossdomain\.xml/	$w
 /:\/\/([^\/]+\.)?valf.atm.youku.com\/valf\?/	$w
 !---人人影视
@@ -3921,7 +3921,7 @@
 /:\/\/([^\/]+\.)?copy.ousns.com\/new\/4\.PNG/	$w
 /:\/\/([^\/]+\.)?copy.ousns.com\/new\/5\.PNG/	$w
 !---叶子猪游戏网
-/:\/\/([^\/]+\.)?yktj\.yzz\.cn\/htmldata\/mds\/yzz_single_gg\.js,$d=bbs\.yzz\.cn/$w
+/:\/\/([^\/]+\.)?yktj.yzz.cn\/htmldata\/mds\/yzz_single_gg.js/  $d=bbs.yzz.cn,$w
 /:\/\/([^\/]+\.)?plu.cn\/d\/js\/acmsd\/thea44\.js/	$w
 !---Online Novel/Comic Sites
 /\/configs\/article\/bottom\.js/	$w
@@ -3935,11 +3935,11 @@
 !---Private Sites
 !--TTG
 /:\/\/([^\/]+\.)?ttg.im\/pic\/ttg_logo\.png/	$w
-/:\/\/([^\/]+\.)?go\.goyeah\.com\/adpolestar\/$object/$w
+/:\/\/([^\/]+\.)?go.goyeah.com\/adpolestar\//  $t=object,$w
 /:\/\/([^\/]+\.)?sopnba.com\/js\/gb\.js/	$w
 /:\/\/([^\/]+\.)?chiphell.com\/activity\/.*\/.*\//	$w
-/:\/\/([^\/]+\.)?static\.m1905\.com\/profile\/ads\/.*\.xml,$object/$w
+/:\/\/([^\/]+\.)?static.m1905.com\/profile\/ads\/.*.xml/  $t=object,$w
 /:\/\/([^\/]+\.)?yihaodian.com\/advertise\//	$w
 /:\/\/([^\/]+\.)?yihaodian.com\/product\/ajaxAds\.do\?/	$w
 /:\/\/([^\/]+\.)?ad.zasv.com\/.*\/.*\//	$w
-/:\/\/([^\/]+\.)?drmcmm\.baidu\.com\/media\/$d=zhibo8\.cc/$w
+/:\/\/([^\/]+\.)?drmcmm.baidu.com\/media\//  $d=zhibo8.cc,$w

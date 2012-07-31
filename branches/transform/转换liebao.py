@@ -5,7 +5,7 @@
 # Version 1.1 (the "License"); you may not use this file except in
 # compliance with the License. You may obtain a copy of the License at
 # http://www.mozilla.org/MPL/
-# 暂时屏蔽了白名单
+# 元素隐藏规则暂时只有全局规则有效
 
 import sys, os, re, subprocess, urllib2, time, traceback, codecs, hashlib, base64
 from getopt import getopt, GetoptError
@@ -172,15 +172,18 @@ def writeRule(filePath, lines):
       #把各种注释内容替换掉
       #line = re.sub(r'(#|!)\-+[^\-]*$','', line)
       line = re.sub(r'(.*?)\expires(.*)', '', line)
-      line = re.sub('for ABP', 'for liebao', line)
+      line = re.sub('!Title:.*$', '!Title:adfiltering-rules', line)
+      #由于猎豹有些问题，暂时使用短名称
+      #line = re.sub('for ABP', 'for liebao', line)
       line = re.sub(r'--!$', '--!', line)
       line = re.sub(u'!Description:一个通用、全面的广告过滤规则', u'''!Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt''', line)
       result.append(line)
     elif line.find('#') >= 0:
-      # 不支持元素隐藏规则，排除掉
-      pass
+      # 已支持元素隐藏规则
+      isElementHiding = True
+      line = line
 
 
     else:
@@ -242,23 +245,78 @@ def writeRule(filePath, lines):
         # 不包括不支持的选项的过滤器
 
         origLine = re.sub(r'^@@\|\*', '', origLine)
-        origLine = re.sub(r'^@@\|\|', ':\/\/([^\/]+\.)?', origLine)
-        origLine = re.sub(r'^@@\|', '^', origLine)
-        origLine = re.sub(r'^@@\/', '/', origLine)
+        origLine = re.sub(r'\/', '\/', origLine)        
+        origLine = re.sub(r'^@@\/', '', origLine)
         origLine = re.sub(r'\*\|$', '$', origLine)
         origLine = re.sub(r'\*$', '', origLine)
         origLine = re.sub(r'\*\*', '*', origLine)
         origLine = re.sub(r'\*$', '', origLine)
-        origLine = re.sub(r'\*', '.*', origLine)
-        origLine = re.sub(r'\.', '\.', origLine)
+        #保证domain地址不正则
+        if re.search(r'\.', origLine):
+          if re.search('\$', origLine):
+            origLine = re.sub(r'\.(?=\S\$)', '\.', origLine)
+          else:
+            origLine = re.sub(r'\.','\.', origLine)
+        origLine = re.sub(r'\*', '.*', origLine)        
         origLine = re.sub(r'\\\.\\\.', '\.', origLine)
-        origLine = re.sub(r'\?', '\?', origLine)
-        origLine = re.sub(r'\/', '\/', origLine)
-        origLine = re.sub('domain=', 'd=', origLine)
+        origLine = re.sub(r'\?', '\?', origLine)        
+        origLine = re.sub(r'domain\=', 'd=', origLine)
+        origLine = re.sub(r'\,d\=', ',$d=', origLine)
+        #origLine = re.sub(r'\$d\=', '$d=', origLine)
+        origLine = re.sub(r'\^','\/', origLine)
+        origLine = re.sub(r'^@@\|\|', ':\/\/([^\/]+\.)?', origLine)      
+        origLine = re.sub(r'^@@\|', '^', origLine)
         origLine = re.sub('\\\/\\\.\*', '', origLine)
         origLine = re.sub('\\\/\\\/\/', '/', origLine)
+        #标识这是正则
         
-        result.append(origLine + '	$w')
+        
+        #处理各种规则选项
+        origLine = re.sub('object_subrequest','object', origLine)
+        origLine = re.sub('subdocument','document', origLine)
+        if origLine.find('[\$\,]elemhide'):
+          pass
+        
+        #把domain后的/放到域名后
+        #if re.search(r'\$.*\=|\d', origLine):
+          #origLine = re.sub(r'\/$', '', origLine)
+          #if re.search(r'  \$',origLine):
+            #origLine = re.sub(r'  \$', '/	$', origLine)
+          #else:
+            #origLine = re.sub(r'\$', '/	$', origLine)
+        #添加白名单后缀标识
+        origLine = origLine + '$w'
+        #如果domain和whitelist放在一起，就用,隔开
+        #如果这一行有三个选项$的话
+        
+          #接着是第二三个
+          #origLine = re.sub(r'(?<=\,)\$
+        #增加正则标识
+        origLine = '/' + origLine + '/'
+        #把错误放在最后的/放到域名后        
+        if re.search(r'\$w\/$', origLine):
+          origLine = re.sub(r'\/$','', origLine)
+          origLine = re.sub(r'\$w',',$w', origLine)
+          origLine = re.sub(r'  \$','/  $', origLine)
+          origLine = re.sub(r'\/	\$w','  $w', origLine)
+        if re.search(r'\$(?=.+\$.+\$)', origLine):
+          #把前面是地址的第一个$给替换成 $了
+          origLine = re.sub(r'\$(?=.+\$.+\$)','/  $', origLine)
+        elif re.search(r'\$(?=.+\$)', origLine):
+          origLine = re.sub(r'\$(?=.+\$)','/  $', origLine)
+        #把$t加上去
+        origLine = re.sub(r'\$(?![(d\=)|(t\=)|(\$w)])','$t=', origLine)
+          
+          
+          
+          #把前面是地址$的给替换成 $了
+          #origLine = re.sub(r'(?<=\/)\$','  $', origLine)
+          #
+          #origLine = re.sub(r'\$',',$', origLine)
+          #origLine = re.sub(r',d',',$d', origLine)
+          #origLine = re.sub(r'\/,\$','/$', origLine)
+        
+        result.append(origLine)
       else:
         line = line.replace('^', '/*') # 假定分隔符的占位符的意思是斜线
 
@@ -272,19 +330,38 @@ def writeRule(filePath, lines):
           # 修改各种标记
           line = re.sub(r'^\|\*', '', line)
           line = re.sub(r'\*\|$', '$', line)
+          line = re.sub(r'\/', '\/', line)
           line = re.sub(r'\*$', '', line)
           line = re.sub(r'\*\*', '*', line)
           line = re.sub(r'\*$', '', line)
-          line = re.sub(r'\*', '.*', line)
-          line = re.sub(r'\.', '\.', line)
+          #保证domain地址不正则
+          if re.search(r'\.', line):
+            if re.search('\$', line):
+              line = re.sub(r'\.(?=\S\$)', '\.', line)
+            else:
+              line = re.sub(r'\.','\.', line)
+          line = re.sub(r'\*', '.*', line)          
           line = re.sub(r'\\\.\\\.', '\.', line)
-          line = re.sub(r'\?', '\?', line)
-          line = re.sub(r'\/', '\/', line)
-          line = re.sub('domain=', 'd=', line)
+          line = re.sub(r'\?', '\?', line)          
+          line = re.sub(r'domain\=', 'd=', line)
+          line = re.sub(r'\,d\=', ',$d=', line)
+          #line = re.sub(r'\$d\=', '  $d=', line)
           line = re.sub('\\\/\\\.\*', '', line)
           line = re.sub('\\\/\\\/\/', '/', line)
+          line = re.sub(r'\^','\/', line)
           line = re.sub(r'^\|\|', ':\/\/([^\/]+\.)?', line)
           line = re.sub(r'^\|', '^', line)
+          line = re.sub(r'\$(?![(d\=)|(t\=)|(\$w)])','$t=', line)
+          if re.search(r'\$w\/$', line):
+            line = re.sub(r'\/$','', line)
+            line = re.sub(r'\$w',',$w', line)
+            line = re.sub(r'  \$','/  $', line)
+            line = re.sub(r'\/	\$w','  $w', line)
+          if re.search(r'\$(?=.+\$.+\$)', line):
+            #把前面是地址的第一个$给替换成 $了
+            line = re.sub(r'\$(?=.+\$.+\$)','/  $', line)
+          elif re.search(r'\$(?=.+\$)', origLine):
+            line = re.sub(r'\$(?=.+\$)','/  $', line)
 
 
 
@@ -300,44 +377,89 @@ def writeRule(filePath, lines):
         # 删除不必要的两端的管状符
         # 添加 *.js 到规则以效仿 $script
         if requiresScript:
-          line += ' t=script'
+          line += ' $t=script'
         #if line.startswith('http://'): #要删除的规则中的字符串
           #line = line[7:] #前面一个数字是上一行字符串的字符数
         if domain:
           line = re.sub(r'\s+/$', '', line) #去掉||行符号
+          line = re.sub(r'\/', '\/', line)
           line = re.sub(r'\/\*\/$','\//', line)
           line = re.sub(r'\*\|$', '$', line)
           line = re.sub(r'\*$', '', line)
           line = re.sub(r'\*\*', '*', line)
           line = re.sub(r'\*$', '', line)
-          line = re.sub(r'\*', '.*', line)
-          line = re.sub(r'\.', '\.', line)
+          #保证domain地址不正则
+          if re.search(r'\.', line):
+            if re.search('\$', line):
+              line = re.sub(r'\.(?=\S\$)', '\.', line)
+            else:
+              line = re.sub(r'\.','\.', line)
+          line = re.sub(r'\*', '.*', line)          
           line = re.sub(r'\\\.\\\.', '\.', line)
-          line = re.sub(r'\?', '\?', line)
-          line = re.sub(r'\/', '\/', line)
-          line = re.sub('domain=', 'd=', line)
+          line = re.sub(r'\?', '\?', line)          
+          line = re.sub(r'domain\=', 'd=', line)
+          line = re.sub(r'\,d\=', ',$d=', line)
+          line = re.sub(r'\^','\/', line)
+          #line = re.sub(r'\$d\=', '  $d=', line)
           line = '/:\/\/([^\/]+\.)?%s%s/%s' % ( domain, line, '	$w' if  isException  else '')
+          if re.search(r'\$w\/$', line):
+            line = re.sub(r'\/$','', line)
+            line = re.sub(r'\$w',',$w', line)
+            line = re.sub(r'  \$','/  $', line)
+            line = re.sub(r'\/	\$w','  $w', line)
+          if re.search(r'\$(?=.+\$.+\$)', line):
+            #把前面是地址的第一个$给替换成 $了
+            line = re.sub(r'\$(?=.+\$.+\$)','/  $', line)
+          elif re.search(r'\$(?=.+\$)', origLine):
+            line = re.sub(r'\$(?=.+\$)','/  $', line)
 
+
+          line = re.sub(r'\$(?![(d\=)|(t\=)|(\$w)])','$t=', line)
+          
           result.append(line)
         elif isException:
           # 没有域的例外规则不受支持
+          origLine = re.sub(r'\^','\/', origLine)
           origLine = re.sub(r'^@@\|\*', '', origLine)
           origLine = re.sub(r'^@@\|\|', ':\/\/([^\/]+\.)?', origLine)
           origLine = re.sub(r'^@@\|', '^', origLine)
-          origLine = re.sub(r'^@@\/', '/', origLine)
+          origLine = re.sub(r'^@@', '', origLine)
           origLine = re.sub(r'\*\|$', '$', origLine)
           origLine = re.sub(r'\*$', '', origLine)
           origLine = re.sub(r'\*\*', '*', origLine)
           origLine = re.sub(r'\*$', '', origLine)
-          origLine = re.sub(r'\*', '.*', origLine)
-          origLine = re.sub(r'\.', '\.', origLine)
+          #保证domain地址不正则
+          if re.search(r'\.', origLine):
+            if re.search('\$', origLine):
+              origLine = re.sub(r'\.(?=\S\$)', '\.', origLine)
+            else:
+              origLine = re.sub(r'\.','\.', origLine)
+          origLine = re.sub(r'\*', '.*', origLine)          
           origLine = re.sub(r'\\\.\\\.', '\.', origLine)
           origLine = re.sub(r'\?', '\?', origLine)
           origLine = re.sub(r'\/', '\/', origLine)
-          origLine = re.sub('domain=', 'd=', origLine)
-          origLine = re.sub('\\\/\\\.\*', '', origLine)
-          origLine = re.sub('\\\/\\\/\/', '/', origLine)
-          result.append(origLine + '	$w')
+          origLine = re.sub(r'domain\=', 'd=', origLine)
+          origLine = re.sub(r'\,d\=', ',$d=', origLine)
+          #origLine = re.sub(r'', '$d=', origLine)
+          #origLine = re.sub(r'\$d\=', '  $d=', origLine)
+          #正则标识
+          origLine = '/' + origLine + '/' '	$w'
+          #把错误放在最后的/放到域名后        
+          if re.search(r'\$w\/$', origLine):
+            #origLine = re.sub(r'\/$','', origLine)
+            origLine = re.sub(r'  \$','/  $', origLine)
+          origLine = re.sub(r'\$(?![(d\=)|(t\=)|(\$w)])','$t=', origLine)
+          if re.search(r'\$w\/$', origLine):
+            origLine = re.sub(r'\/$','', origLine)
+            origLine = re.sub(r'\$w',',$w', origLine)
+            origLine = re.sub(r'  \$','/  $', origLine)
+            origLine = re.sub(r'\/	\$w','  $w', origLine)
+          if re.search(r'\$(?=.+\$.+\$)', origLine):
+            #把前面是地址的第一个$给替换成 $了
+           origLine = re.sub(r'\$(?=.+\$.+\$)','/  $', origLine)
+          elif re.search(r'\$(?=.+\$)', origLine):
+            origLine = re.sub(r'\$(?=.+\$)','/  $', origLine)
+          result.append(origLine)
     
         else:
           #处理到这里基本就是空白行的处置了
@@ -347,7 +469,7 @@ def writeRule(filePath, lines):
           
           if re.search(r'^\/\w', line):
             
-            line = re.sub(r'^\/','/:\/\/([^\/]+\.)?', line)
+            line = re.sub(r'^\/',':\/\/([^\/]+\.)?', line)
           result.append(line)
           
 

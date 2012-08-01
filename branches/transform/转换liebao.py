@@ -5,7 +5,7 @@
 # Version 1.1 (the "License"); you may not use this file except in
 # compliance with the License. You may obtain a copy of the License at
 # http://www.mozilla.org/MPL/
-# 元素隐藏规则暂时只有全局规则有效
+
 
 import sys, os, re, subprocess, urllib2, time, traceback, codecs, hashlib, base64
 from getopt import getopt, GetoptError
@@ -181,9 +181,28 @@ def writeRule(filePath, lines):
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt''', line)
       result.append(line)
     elif line.find('#') >= 0:
-      # 已支持元素隐藏规则
-      isElementHiding = True
-      line = line
+      # 如果是元素隐藏规则     
+      
+      #没域名的全局规则直接添加
+      if re.search(r'^###', line):
+        result.append(line)
+      elif re.search(r'^##', line):
+        result.append(line)
+      #有域名的调转域名位置
+      elif re.search(r'.+###', line):
+        l = line.split('##')
+        for line in l:
+          dm = l[0]
+          eh = l[1]
+        line = '##%s  $d=%s' %(eh,dm)	
+        result.append(line)
+      elif re.search(r'.+##', line):
+        l = line.split('##')
+        for line in l:
+          dm = l[0]
+          eh = l[1]
+        line = '##%s  $d=%s' %(eh,dm)	
+        result.append(line)
 
 
     else:

@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-01 11:38
+!Updated:2012-08-01 20:08
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -1951,6 +1951,8 @@
 /\.tiyuba\.tv\/app\/js\/common\.js/
 !----我乐网----
 /:\/\/([^\/]+\.)?corp.56.com\//
+!----楚网----
+/\.cnchu\.com\/.*\/aps\//
 !----创e下载园----
 :\/\/([^\/]+\.)?7edown\.com\/db\//
 :\/\/([^\/]+\.)?7edown\.com\/newbd\//
@@ -2125,6 +2127,8 @@
 !----站长助手----
 /\.baidu456\.com\/ggimages\//
 :\/\/([^\/]+\.)?baidu456\.com\/tcjs\//
+!----E健网----
+/:\/\/([^\/]+\.)?www.ej38.com\/css\/images\/bbs\.gif/
 !----酷我音乐----
 /:\/\/([^\/]+\.)?img\.koowo\.com/
 /:\/\/([^\/]+\.)?wa.kuwo.cn\/lyrics\/img\/kwgg\//

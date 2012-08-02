@@ -17,7 +17,7 @@ ignore = {
   'rules_for_KSafe.txt': True,
   'rules_for_AB_PRO.txt': True,
   'Plus_Rules.txt': True,
-  'genera_rules.txt': True,
+  'rules_for_AB_PRO.txt': True,
   'Element_Hiding_Rules.txt': True,
   'rules_for_liebao.txt': True,
 }
@@ -46,7 +46,7 @@ def combineSubscriptions(sourceDir, targetDir, timeout=30):
         print >>sys.stderr, '错误处理订阅文件 "%s"' % file
         traceback.print_exc()
         print >>sys.stderr
-      known['genera_rules.txt'] = True
+      known['rules_for_AB_PRO.txt'] = True
     known[file] = True
 
   for file in os.listdir(targetDir):
@@ -97,7 +97,7 @@ def processSubscriptionFile(sourceDir, targetDir, file, timeout):
   lines = resolveIncludes(filePath, lines, timeout)
   lines = filter(lambda l: l != '' and not re.search(r'!\s*checksum[\s\-:]+([\w\+\/=]+)', l, re.I), lines)
 
-  writeRule(os.path.join(targetDir, 'genera_rules.txt'), lines)
+  writeRule(os.path.join(targetDir, 'rules_for_AB_PRO.txt'), lines)
 
   checksum = hashlib.md5()
   checksum.update((header + '\n' + '\n'.join(lines) + '\n').encode('utf-8'))
@@ -161,7 +161,15 @@ def writeRule(filePath, lines):
   result = []
   for line in lines:
     if re.search(r'^!', line):
-      # 这是注释，去除。
+      #生成版本号
+      match = re.search(ur'(?<=版本_)(\d\.)*\d', line, re.I)
+      if match:
+        vs = line[4:9]
+        vs = re.sub(r'\.','', vs)
+        #vs = int(vs)
+        vs = 'version=%s' % vs       
+        
+      # 其他注释去除。
       if line.find(r'!\-+.*$') >= 0:
         pass
       '''result.append(re.sub(r'!\-+.*$', '',  line))
@@ -265,7 +273,21 @@ def writeRule(filePath, lines):
           result.append('!' + origLine)
         else:
           result.append('' + line)
-  conditionalWrite(filePath, '\n'.join(result) + '\n')
+  #标识
+  top = u'[General]'
+  
+  #规则头
+  head = u'''name=广告过滤软件通用强效广告过滤规则 for AB Pro
+updateUrl=http://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_AB_PRO.txt
+updateTime=1
+[Whitelist]
+[Block Address]
+Copyright 2011 xcffl, Apache License 2.0
+'''
+  #规则尾
+  bottom = '[Block Object]'
+  #输出到文件  
+  conditionalWrite(filePath, top + '\n' + vs + '\n' + head +  '\n'.join(result) + '\n' + bottom)
 
 def usage():
   print '''Usage: %s [source_dir] [output_dir]
@@ -308,13 +330,30 @@ if __name__ == '__main__':
 
   #笔记：(#|!)\-+[^\-]*\n    匹配无效分类
   #     (#|!)\-+【广告强效过滤规则.* 匹配第一行规则标题
+#把换行符替换为;并把临时生成的文件移动回根目录
+
+'''#读取文件
+file1 = open("./Temp/rules_for_AB_PRO.txt","r")
+#file2 = open("rules_for_AB_PRO.txt","w")
+#把换行符替换为;
+#sp = re.compile('\n+') 
+rules = file1.readlines() #读取全部内容
+rules = ';'.join(rules)
+rules = rules ,
+
+file1 = open("./Temp/rules_for_AB_PRO.txt","w")
+
+file1.write(rules)
+file1.close()
+#file2.close()'''
+
 #把临时生成的文件移动回根目录
 import shutil
 import os
-if os.path.isfile('.' + 'genera_rules.txt'):
-  os.system('rm -fr genera_rules.txt')
+if os.path.isfile('.' + 'rules_for_AB_PRO.txt'):
+  os.system('rm -fr rules_for_AB_PRO.txt')
 else:
-  shutil.copy('./Temp/genera_rules.txt', '.')
+  shutil.copy('./Temp/rules_for_AB_PRO.txt', '.')
 #删除临时文件夹
 import os, stat;  
 root_dir = r'.';  

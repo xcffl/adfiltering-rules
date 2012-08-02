@@ -17,9 +17,11 @@ ignore = {
   'rules_for_KSafe.txt': True,
   'rules_for_AB_PRO.txt': True,
   'Plus_Rules.txt': True,
-  'urlfilter.ini': True,
+  'rules_for_AB_PRO.txt': True,
   'Element_Hiding_Rules.txt': True,
   'rules_for_liebao.txt': True,
+  'rules_for_360.txt': True,
+  'genera_rules.txt': True,
 }
 verbatim = {
   'COPYING': True,

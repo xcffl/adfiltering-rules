@@ -231,7 +231,10 @@ def writeRule(filePath, lines):
 
       if hasUnsupportedOptions:
         # 不包括不支持的选项的过滤器
-        result.append('# ' + origLine)
+        origLine = re.sub(r'^\|\|', '', origLine)
+        origLine = re.sub(r'^\|', '', origLine)
+        origLine = re.sub(r'\$.*$','', origLine)
+        result.append('5,4,' + origLine)
       else:
         line = line.replace('^', '/*') # 假定分隔符的占位符的意思是斜线
 
@@ -254,7 +257,7 @@ def writeRule(filePath, lines):
         if line.startswith('http://'):
           line = line[7:] #前面一个数字是上一行字符串的字符数
         if domain:
-          line = '%s%s%s' % ('+' if isException else '', domain, line)
+          line = '%s%s' % ('+' if isException else '', line)
           line = re.sub(r'\s+/$', '', line)
           result.append(line)
         elif isException:

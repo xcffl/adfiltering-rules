@@ -17,9 +17,11 @@ ignore = {
   'rules_for_KSafe.txt': True,
   'rules_for_AB_PRO.txt': True,
   'Plus_Rules.txt': True,
-  'genera_rules.txt': True,
+  'rules_for_AB_PRO.txt': True,
   'Element_Hiding_Rules.txt': True,
   'rules_for_liebao.txt': True,
+  'rules_for_360.txt': True,
+  'genera_rules.txt': True,
 }
 verbatim = {
   'COPYING': True,
@@ -311,10 +313,14 @@ if __name__ == '__main__':
 #把临时生成的文件移动回根目录
 import shutil
 import os
+if os.path.isfile('.' + 'rules_for_ABP.txt'):
+  os.system('rm -fr rules_for_ABP.txt')
 if os.path.isfile('.' + 'rules_for_KSafe.txt'):
   os.system('rm -fr rules_for_KSafe.txt')
 else:
   shutil.copy('./Temp/rules_for_KSafe.txt', '.')
+  shutil.copy('./Temp/rules_for_ABP.txt', '.')
+
 #删除临时文件夹
 import os, stat;  
 root_dir = r'.';  

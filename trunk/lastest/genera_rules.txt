@@ -9,6 +9,7 @@
 *.net/ads/*
 */sidead.*
 */999aadbak.js*
+*/adimg.*
 */banner-ad-*
 */adv.*
 */pv.*
@@ -25,6 +26,8 @@
 */adtop/*.js*
 *.com/ad/*
 */clicker.swf
+*_afs_ads.*
+*/count.js
 */attachments/ad/*
 *.net/*/*_ad.js
 *.com/*/*_ad.js
@@ -243,6 +246,10 @@ ad.*/*
 */adcouncil/*
 *cpc/*
 *cpc.*
+*/common/cf/*.jpg
+*/common/cf/*.gif
+*/common/cf/*.png
+*/common/cf/*.swf
 *cpc_*
 *adunion*
 *aliunion*
@@ -796,6 +803,8 @@ c.xsu.cc/*
 *.369456.com/*
 serve.popads.net/*
 *popadscdn.net/*
+api.yucmedia.com/script/script.js?*
+mcc.chinauma.net/*
 *.tuite8.com/*
 *.5151ad.com/*
 js.ylunion.com/*
@@ -1153,6 +1162,8 @@ www.spjoy.com/*
 *housefun.com.tw/*
 *qling.com/*
 union.dvbbs.net/*
+*.adnxs.com/*
+*.tlvmedia.com/*
 un.5d6d.com/*
 media.fojafrog.com/mm/materials/player/*
 *.88210212.com/*
@@ -1635,6 +1646,7 @@ ik.synacast.com/*
 *pp2.pptv.com/*
 a.dangdang.com/*
 img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
+download.cncmax.js.cn/images/temp/down-banner*.jpg
 www.onlinedown.net/newhuagg/daohang.js
 */newhua_index_pic_*.js
 */newhuagg/pptv.jpg
@@ -2104,7 +2116,7 @@ pmm.people.com.cn/main/s?*
 *.veryol.com/bigcneditor/UploadFile*/*/*.gif
 bf.bet007.com/top.js
 img2.bet007.com/image/*.gif
-att.3dmgame.com/att/forum/*.jpg
+att.3dmgame.com/att/forum/201207/20/2357438m3eem8mebm888bm.jpg
 *.3dmgame.com/games/UploadFiles/*/*.gif
 80.qukanshu.com/*
 *.youxiaxiazai.com/db_top/index_top.htm
@@ -2254,6 +2266,10 @@ www.xp911.com/img/xitong.gif
 www.52hardware.com/topic/*
 www.52tian.net/qq/*
 www.52tian.net/js/*
+www.xiazaix.com/images/ad*.gif
+www.xiazaix.com/js/nbanner.js
+www.naiertj.com/images/ad*.gif
+www.naiertj.com/js/nbanner.js
 *xuegao.com/pub/img/u/*
 *96693.com/tg/tom365/a*-*/*
 *.ayxz.com/images/*banner.gif
@@ -2517,6 +2533,7 @@ www.haokan123.com/attachments/*.swf
 t.diypda.com/publicize/*
 dl.everbox.com/www/images/coop/*.jpg
 *.everbox.com/images/*_ad.*
+pic1.qndown.com/doimg/yfking/*
 count.qiannao.com/*
 *.yunfile.com/images/offline_banner/*x*.gif
 *.howfile.com/templates/howfile/res/*
@@ -2569,6 +2586,7 @@ creative.ak.fbcdn.net/*/flyers/*.jpg
 *facebook.com/plugins/like.php?*
 *facebook.com/widgets/*
 *88591.com/hy/*
+www.ref.so/*shortCounter.jsp?*=tesp&dr=*
 wzw.la/new.php?action=article&fidin=*&digest=0&postdate=0&author=0&fname=0&hits=0&replies=0&pre=2&num=8&length=*&order=2
 pic.filec2c.com/img/483793ea/*
 bbs.tazhao.com/api.php?*
@@ -2791,6 +2809,7 @@ res.yytou.cn/zw/tc/zwb.html?qd=*
 *xxhh.net/image/em*.gif
 *xltvrobbs.net/tuku/*
 *xitek.com/newsite/mojs.php?*
+www.weste.net/js/showpagead.js
 *weste.net/js_v2009/ggao*
 *weiphone.com/baidu.html?id=*
 club.tgfcer.com/images/g*

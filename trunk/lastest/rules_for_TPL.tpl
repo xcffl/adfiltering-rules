@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-02 14:15
+#Updated:2012-08-03 19:26
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -18,6 +18,7 @@ msFilterList
 - *.net/ads/
 - */sidead.
 - */999aadbak.js
+- */adimg.
 - */banner-ad-
 - */adv.
 - */pv.
@@ -34,6 +35,8 @@ msFilterList
 - */adtop/*.js
 - *.com/ad/
 - */clicker.swf
+- *_afs_ads.
+- */count.js
 - */attachments/ad/
 - *.net/*/*_ad.js
 - *.com/*/*_ad.js
@@ -252,6 +255,10 @@ msFilterList
 - */adcouncil/
 - *cpc/
 - *cpc.
+- */common/cf/*.jpg
+- */common/cf/*.gif
+- */common/cf/*.png
+- */common/cf/*.swf
 - *cpc_
 - *adunion
 - *aliunion
@@ -806,6 +813,8 @@ msFilterList
 - *.369456.com/
 -d serve.popads.net
 - *popadscdn.net/
+-d api.yucmedia.com /script/script.js?
+-d mcc.chinauma.net
 - *.tuite8.com/
 - *.5151ad.com/
 -d js.ylunion.com
@@ -1164,6 +1173,8 @@ msFilterList
 - *housefun.com.tw/
 - *qling.com/
 -d union.dvbbs.net
+- *.adnxs.com/
+- *.tlvmedia.com/
 -d un.5d6d.com
 -d media.fojafrog.com /mm/materials/player/
 - *.88210212.com/
@@ -1687,6 +1698,7 @@ msFilterList
 -d a.dangdang.com
 -d img4.ddimg.cn /00074/pic/*_*_*x*_*.jpg
 #----华军软件园&牛华网----
+-d download.cncmax.js.cn /images/temp/down-banner*.jpg
 -d www.onlinedown.net /newhuagg/daohang.js
 - */newhua_index_pic_*.js
 - */newhuagg/pptv.jpg
@@ -2315,7 +2327,7 @@ msFilterList
 -d bf.bet007.com /top.js
 -d img2.bet007.com /image/*.gif
 #----3DMGAME----
--d att.3dmgame.com /att/forum/*.jpg
+-d att.3dmgame.com /att/forum/201207/20/2357438m3eem8mebm888bm.jpg
 - *.3dmgame.com/games/UploadFiles/*/*.gif
 #----看书网----
 -d 80.qukanshu.com
@@ -2536,6 +2548,11 @@ msFilterList
 #----天上人间动漫网----
 -d www.52tian.net /qq/
 -d www.52tian.net /js/
+#----烈火软件站----
+-d www.xiazaix.com /images/ad*.gif
+-d www.xiazaix.com /js/nbanner.js
+-d www.naiertj.com /images/ad*.gif
+-d www.naiertj.com /js/nbanner.js
 #----雪糕网----
 - *xuegao.com/pub/img/u/
 #----96693网址导航----
@@ -2930,6 +2947,7 @@ msFilterList
 -d dl.everbox.com /www/images/coop/*.jpg
 - *.everbox.com/images/*_ad.
 #----千脑----
+-d pic1.qndown.com /doimg/yfking/
 -d count.qiannao.com
 #----Yunfile----
 - *.yunfile.com/images/offline_banner/*x*.gif
@@ -3010,6 +3028,7 @@ msFilterList
 #----Taorar----
 - *88591.com/hy/
 #----REF.SO&他找----
+-d www.ref.so shortCounter.jsp?*=tesp&dr=
 -d wzw.la /new.php?action=article&fidin=*&digest=0&postdate=0&author=0&fname=0&hits=0&replies=0&pre=2&num=8&length=*&order=2
 -d pic.filec2c.com /img/483793ea/
 -d bbs.tazhao.com /api.php?
@@ -3367,6 +3386,7 @@ msFilterList
 #----色影无忌----
 - *xitek.com/newsite/mojs.php?
 #----西部e网----
+-d www.weste.net /js/showpagead.js
 - *weste.net/js_v2009/ggao
 #----威锋网----
 - *weiphone.com/baidu.html?id=

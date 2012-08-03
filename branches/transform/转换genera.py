@@ -259,7 +259,7 @@ def writeRule(filePath, lines):
         if line.startswith('http://'):
           line = line[7:] #前面一个数字是上一行字符串的字符数
         if domain:
-          line = '%s%s' % ('+' if isException else '', line)
+          line = '%s%s%s' % ('+' if isException else '', domain, line)
           line = re.sub(r'\s+/$', '', line)
           result.append(line)
         elif isException:

@@ -275,7 +275,7 @@ def writeRule(filePath, lines):
         #保证domain地址不正则
         if re.search(r'\.', origLine):
           if re.search('\$', origLine):
-            origLine = re.sub(r'\.(?=\S\$)', '\.', origLine)
+            origLine = re.sub(r'\.(?=.*\S\$)', '\.', origLine)
           else:
             origLine = re.sub(r'\.','\.', origLine)
         origLine = re.sub(r'\*', '.*', origLine)        
@@ -358,7 +358,7 @@ def writeRule(filePath, lines):
           #保证domain地址不正则
           if re.search(r'\.', line):
             if re.search('\$', line):
-              line = re.sub(r'\.(?=\S\$)', '\.', line)
+              line = re.sub(r'\.(?=.*\S\$)', '\.', line)
             else:
               line = re.sub(r'\.','\.', line)
           line = re.sub(r'\*', '.*', line)          
@@ -410,11 +410,10 @@ def writeRule(filePath, lines):
           line = re.sub(r'\*\*', '*', line)
           line = re.sub(r'\*$', '', line)
           #保证domain地址不正则
-          if re.search(r'\.', line):
-            if re.search('\$', line):
-              line = re.sub(r'\.(?=\S\$)', '\.', line)
-            else:
-              line = re.sub(r'\.','\.', line)
+          if re.search('\$', domain):
+            domain = re.sub(r'\.(?=.*\S\$)', '\.', domain)
+          else:
+            domain = re.sub('\.','\.', domain)
           line = re.sub(r'\*', '.*', line)          
           line = re.sub(r'\\\.\\\.', '\.', line)
           line = re.sub(r'\?', '\?', line)          
@@ -422,7 +421,7 @@ def writeRule(filePath, lines):
           line = re.sub(r'\,d\=', ',$d=', line)
           line = re.sub(r'\^','\/', line)
           #line = re.sub(r'\$d\=', '  $d=', line)
-          line = '/:\/\/([^\/]+\.)?%s%s/%s' % ( domain, line, '	$w' if  isException  else '')
+          line = '/:\/\/([^\/]+\.)?%s%s/%s' % ( domain, line, '	$w' if  isException  else '')         
           if re.search(r'\$w\/$', line):
             line = re.sub(r'\/$','', line)
             line = re.sub(r'\$w',',$w', line)
@@ -452,7 +451,7 @@ def writeRule(filePath, lines):
           #保证domain地址不正则
           if re.search(r'\.', origLine):
             if re.search('\$', origLine):
-              origLine = re.sub(r'\.(?=\S\$)', '\.', origLine)
+              origLine = re.sub(r'\.(?=.*\S\$)', '\.', origLine)
             else:
               origLine = re.sub(r'\.','\.', origLine)
           origLine = re.sub(r'\*', '.*', origLine)          

@@ -298,7 +298,7 @@ TaskSensitivity=100
 UseCodeEmulation=1
 VirusAction=abort'''
   #输出到文件  
-  conditionalWrite(filePath, head +  ';'.join(result) + '\n' + bottom)
+  conditionalWrite(filePath, head +  ';'.join(result) + '\r\n' + bottom)
 
 def usage():
   print '''Usage: %s [source_dir] [output_dir]

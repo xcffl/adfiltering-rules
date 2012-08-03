@@ -280,7 +280,7 @@ prioritize excludelist=1
           result.append('!' + origLine)
         else:
           result.append('' + line)
-  conditionalWrite(filePath, '\n'.join(result) + '\n')
+  conditionalWrite(filePath, '\r\n'.join(result) + '\r\n')
 
 def usage():
   print '''Usage: %s [source_dir] [output_dir]

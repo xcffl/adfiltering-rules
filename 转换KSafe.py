@@ -9,7 +9,6 @@
 import sys, os, re, subprocess, urllib2, time, traceback, codecs, hashlib, base64
 from getopt import getopt, GetoptError
 
-
 acceptedExtensions = {
   '.txt': True,
 }
@@ -51,12 +50,12 @@ def combineSubscriptions(sourceDir, targetDir, timeout=30):
       known['rules_for_KSafe.txt'] = True
     known[file] = True
 
+
   for file in os.listdir(targetDir):
     if file[0] == '.':
       continue
     if not file in known:
       os.remove(os.path.join(targetDir, file))
-
 
 def conditionalWrite(filePath, data):
   changed = True
@@ -111,7 +110,6 @@ def resolveIncludes(filePath, lines, timeout, level=0):
   if level > 5:
     raise Exception('有太多的嵌套包含，这可能是循环引用的地方。')
 
-
   result = []
   for line in lines:
     match = re.search(r'^\s*%include\s+(.*)%\s*$', line)
@@ -121,13 +119,14 @@ def resolveIncludes(filePath, lines, timeout, level=0):
       if re.match(r'^https?://', file):
         result.append('! *** Fetched from: %s ***' % file)
 
-
+        request = urllib2.urlopen(file, None, timeout)
         charset = 'utf-8'
         contentType = request.headers.get('content-type', '')
         if contentType.find('charset=') >= 0:
           charset = contentType.split('charset=', 1)[1]
         newLines = unicode(request.read(), charset).split('\n')
         newLines = map(lambda l: re.sub(r'[\r\n]', '', l), newLines)
+        newLines = filter(lambda l: not re.search(r'^\s*!.*?\bExpires\s*(?::|after)\s*(\d+)\s*(h)?', l, re.M | re.I), newLines)
       else:
         result.append('! *** %s ***' % file)
 
@@ -141,15 +140,10 @@ def resolveIncludes(filePath, lines, timeout, level=0):
         newLines = map(lambda l: re.sub(r'[\r\n]', '', l), handle.readlines())
         newLines = resolveIncludes(includePath, newLines, timeout, level + 1)
         handle.close()
-        
 
-
-	  
-        
       if len(newLines) and re.search(r'\[Adblock(?:\s*Plus\s*([\d\.]+)?)?\]', newLines[0], re.I):
         del newLines[0]
       result.extend(newLines)
-  
     else:
       if line.find('%timestamp%') >= 0:
         if level == 0:
@@ -163,12 +157,12 @@ def writeRule(filePath, lines):
   result = []
   for line in lines:
     if re.search(r'^!', line):
-      # 这是注释，去除。
-      if line.find(r'!\-+.*$') >= 0:
-        pass
-      '''result.append(re.sub(r'!\-+.*$', '',  line))
-    if re.search(r'\n\s*\n', lines):
-      result.append(re.sub(r'\n\s*\n', '',  lines))'''
+      #把各种注释内容替换掉
+      #line = re.sub(r'(#|!)\-+[^\-]*$','', line)
+      line = re.sub(r'^!.*$','', line)
+      #由于猎豹有些问题，暂时使用短名称
+      #line = re.sub('for ABP', 'for liebao', line)
+      result.append(line)
     elif line.find('#') >= 0:
       # Element hiding rules are not supported in MSIE, drop them
       pass
@@ -235,7 +229,7 @@ def writeRule(filePath, lines):
         # 不包括不支持的选项的过滤器
         origLine = re.sub(r'^\|\|', '', origLine)
         origLine = re.sub(r'^\|', '', origLine)
-        origLine = re.sub(r'\$.*$','', origLine)
+        origLine = re.sub(r'\$d.*$','', origLine)
         result.append('5,4,' + origLine)
       else:
         line = line.replace('^', '/*') # 假定分隔符的占位符的意思是斜线
@@ -259,7 +253,7 @@ def writeRule(filePath, lines):
         if line.startswith('http://'):
           line = line[7:] #前面一个数字是上一行字符串的字符数
         if domain:
-          line = '5,4,%s%s' % ('+' if isException else '', line)
+          line = '5,4,%s%s%s' % ('+' if isException else '', domain, line)
           line = re.sub(r'\s+/$', '', line)
           result.append(line)
         elif isException:
@@ -311,15 +305,28 @@ if __name__ == '__main__':
   #笔记：(#|!)\-+[^\-]*\n    匹配无效分类
   #     (#|!)\-+【广告强效过滤规则.* 匹配第一行规则标题
 #把临时生成的文件移动回根目录
-import shutil
+'''import shutil
 import os
-if os.path.isfile('.' + 'rules_for_ABP.txt'):
-  os.system('rm -fr rules_for_ABP.txt')
 if os.path.isfile('.' + 'rules_for_KSafe.txt'):
   os.system('rm -fr rules_for_KSafe.txt')
 else:
-  shutil.copy('./Temp/rules_for_KSafe.txt', '.')
-  shutil.copy('./Temp/rules_for_ABP.txt', '.')
+  shutil.copy('./Temp/rules_for_KSafe.txt', '.')'''
+#把临时生成的文件移动回根目录，同时去除所有的空白行
+# coding=utf-8
+file1 = open("./Temp/rules_for_KSafe.txt","r")
+file2 = open("rules_for_KSafe.txt","w")
+while 1:
+ text = file1.readline()
+ if( text == '' ):
+  print ""
+  break
+ elif( text == '\n'):
+  print ""
+ else:
+  file2.write( text )
+file1.close()
+file2.close()
+
 
 #删除临时文件夹
 import os, stat;  

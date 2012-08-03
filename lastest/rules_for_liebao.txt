@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-03 13:43
+!Updated:2012-08-03 19:26
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -36,6 +36,8 @@
 /\/adtop\/.*\.js/
 /\.com\/ad\//
 /\/clicker\.swf/
+:\/\/([^\/]+\.)?_afs_ads\./
+/\/count\.js$/
 /\/attachments\/ad\//
 /\.net\/.*\/.*_ad\.js/
 /\.com\/.*\/.*_ad\.js/
@@ -254,6 +256,10 @@
 /\/adcouncil\//
 :\/\/([^\/]+\.)?cpc\//
 :\/\/([^\/]+\.)?cpc\./
+/\/common\/cf\/.*\.jpg/
+/\/common\/cf\/.*\.gif/
+/\/common\/cf\/.*\.png/
+/\/common\/cf\/.*\.swf/
 :\/\/([^\/]+\.)?cpc_/
 :\/\/([^\/]+\.)?adunion/
 :\/\/([^\/]+\.)?aliunion/
@@ -1168,6 +1174,8 @@
 :\/\/([^\/]+\.)?housefun\.com\.tw\//
 :\/\/([^\/]+\.)?qling\.com\//
 /:\/\/([^\/]+\.)?union\.dvbbs\.net\//
+/\.adnxs\.com\//
+/\.tlvmedia\.com\//
 /:\/\/([^\/]+\.)?un\.5d6d\.com\//
 /:\/\/([^\/]+\.)?media\.fojafrog\.com\/mm\/materials\/player\//
 /\.88210212\.com\//
@@ -1691,6 +1699,7 @@
 /:\/\/([^\/]+\.)?a\.dangdang\.com\//
 /:\/\/([^\/]+\.)?img4\.ddimg\.cn\/00074\/pic\/.*_.*_.*x.*_.*.jpg/
 !----华军软件园&牛华网----
+/:\/\/([^\/]+\.)?download\.cncmax\.js\.cn\/images\/temp\/down-banner.*.jpg/
 /:\/\/([^\/]+\.)?www\.onlinedown\.net\/newhuagg\/daohang.js/
 /\/newhua_index_pic_.*\.js/
 /\/newhuagg\/pptv\.jpg/
@@ -2319,7 +2328,7 @@
 /:\/\/([^\/]+\.)?bf\.bet007\.com\/top.js/
 /:\/\/([^\/]+\.)?img2\.bet007\.com\/image\/.*.gif/
 !----3DMGAME----
-/:\/\/([^\/]+\.)?att\.3dmgame\.com\/att\/forum\/.*.jpg/
+/:\/\/([^\/]+\.)?att\.3dmgame\.com\/att\/forum\/201207\/20\/2357438m3eem8mebm888bm.jpg/
 /\.3dmgame\.com\/games\/UploadFiles\/.*\/.*\.gif/
 !----看书网----
 /:\/\/([^\/]+\.)?80\.qukanshu\.com\//
@@ -2540,6 +2549,11 @@
 !----天上人间动漫网----
 /:\/\/([^\/]+\.)?www\.52tian\.net\/qq\//
 /:\/\/([^\/]+\.)?www\.52tian\.net\/js\//
+!----烈火软件站----
+/:\/\/([^\/]+\.)?www\.xiazaix\.com\/images\/ad.*.gif/
+/:\/\/([^\/]+\.)?www\.xiazaix\.com\/js\/nbanner.js/
+/:\/\/([^\/]+\.)?www\.naiertj\.com\/images\/ad.*.gif/
+/:\/\/([^\/]+\.)?www\.naiertj\.com\/js\/nbanner.js/
 !----雪糕网----
 :\/\/([^\/]+\.)?xuegao\.com\/pub\/img\/u\//
 !----96693网址导航----
@@ -3373,6 +3387,7 @@
 !----色影无忌----
 :\/\/([^\/]+\.)?xitek\.com\/newsite\/mojs\.php\?/
 !----西部e网----
+/:\/\/([^\/]+\.)?www\.weste\.net\/js\/showpagead.js/
 :\/\/([^\/]+\.)?weste\.net\/js_v2009\/ggao/
 !----威锋网----
 :\/\/([^\/]+\.)?weiphone\.com\/baidu\.html\?id=/
@@ -3791,8 +3806,6 @@
 /:\/\/([^\/]+\.)?www\.54new\.com\/da\//
 !-------------特殊规则-------------
 !-------------待分类-------------
-/\.adnxs\.com\//
-/\.tlvmedia\.com\//
 !--------------[元素隐藏规则]
 !-------------通用规则
 ##[id^=ab_],[id*=AD_]

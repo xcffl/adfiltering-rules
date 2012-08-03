@@ -289,7 +289,7 @@ Copyright 2011 xcffl, Apache License 2.0
   #规则尾
   bottom = '[Block Object]'
   #输出到文件  
-  conditionalWrite(filePath, top + '\n' + vs + '\n' + head +  '\n'.join(result) + '\n' + bottom)
+  conditionalWrite(filePath, top + '\r\n' + vs + '\r\n' + head +  '\r\n'.join(result) + '\r\n' + bottom)
 
 def usage():
   print '''Usage: %s [source_dir] [output_dir]

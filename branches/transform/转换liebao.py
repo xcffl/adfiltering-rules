@@ -319,6 +319,7 @@ def writeRule(filePath, lines):
         # 不包括不支持的选项的过滤器
 
         origLine = re.sub(r'^@@\|\*', '', origLine)
+        origLine = re.sub(r'^\|\*', '', origLine)
         origLine = re.sub(r'\/', '\/', origLine)        
         origLine = re.sub(r'^@@\/', '', origLine)
         origLine = re.sub(r'\*\|$', '$', origLine)
@@ -333,13 +334,18 @@ def writeRule(filePath, lines):
             origLine = re.sub(r'\.','\.', origLine)
         origLine = re.sub(r'\*', '.*', origLine)        
         origLine = re.sub(r'\\\.\\\.', '\.', origLine)
-        origLine = re.sub(r'\?', '\?', origLine)        
+        origLine = re.sub(r'\?', '\?', origLine)
+        #暂时去掉不支持的domain=~排除规则。
+        origLine = re.sub(r'(,|\$)domain=~.*$', ',$d=', origLine)
+        
         origLine = re.sub(r'domain\=', 'd=', origLine)
-        origLine = re.sub(r'\,d\=', ',$d=', origLine)
+        origLine = re.sub(r'\,d\=', ',$d=', origLine)        
         #origLine = re.sub(r'\$d\=', '$d=', origLine)
         origLine = re.sub(r'\^','\/', origLine)
         origLine = re.sub(r'^@@\|\|', ':\/\/([^\/]+\.)?', origLine)      
         origLine = re.sub(r'^@@\|', '^', origLine)
+        origLine = re.sub(r'^\|\|', ':\/\/([^\/]+\.)?', origLine)      
+        origLine = re.sub(r'^\|', '^', origLine)
         origLine = re.sub('\\\/\\\.\*', '', origLine)
         origLine = re.sub('\\\/\\\/\/', '/', origLine)
         #标识这是正则
@@ -540,9 +546,9 @@ def writeRule(filePath, lines):
 
 
           
-          if re.search(r'^\/\w', line):
+          '''if re.search(r'^\/\w', line):
             
-            line = re.sub(r'^\/',':\/\/([^\/]+\.)?', line)
+            line = re.sub(r'^\/',':\/\/([^\/]+\.)?', line)'''
           result.append(line)
           
 

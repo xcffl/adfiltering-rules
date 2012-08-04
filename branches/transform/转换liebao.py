@@ -186,25 +186,78 @@ def writeRule(filePath, lines):
       # 如果是元素隐藏规则     
       
       #没域名的全局规则直接添加
+      
       if re.search(r'^###', line):
         result.append(line)
       elif re.search(r'^##', line):
         result.append(line)
       #有域名的调转域名位置
       elif re.search(r'.+###', line):
-        l = line.split('##')
+        l = line.split('###')
         for line in l:
           dm = l[0]
           eh = l[1]
-        line = '##%s  $d=%s' %(eh,dm)	
-        result.append(line)
+        #多个域名的就分割掉
+        if re.search(r'(?<=\w),(?=\w)', dm):
+          cut = dm.split(',')
+          times = len(cut)         
+          
+
+          if times == 2:
+            for dm in cut:
+              dm1 = cut[0]
+              dm2 = cut[1]
+            
+            line = '''###%s	$d=%s\n###%s	$d=%s''' %(eh,dm1,eh,dm2)
+            
+          if times == 4:
+            for dm in cut:
+              dm1 = cut[0]
+              dm2 = cut[1]
+              dm3 = cut[2]
+              dm4 = cut[3]
+            line = '''##%s	$d=%s
+##%s	$d=%s
+##%s	$d=%s
+##%s	$d=%s''' %(eh,dm1,eh,dm2,eh,dm3,eh,dm4)
+          #else:
+            #print '====n1====\n' + line
+        else:
+          line = '##%s	$d=%s' %(eh,dm)	
+      #两个#的话
       elif re.search(r'.+##', line):
         l = line.split('##')
         for line in l:
           dm = l[0]
           eh = l[1]
-        line = '##%s  $d=%s' %(eh,dm)	
-        result.append(line)
+        #多个域名分割掉
+        if re.search(r'(?<=\w),(?=\w)', dm):
+          cut = dm.split(',')
+          times = len(cut)          
+          if times == 2:
+            for dm in cut:
+              dm1 = cut[0]
+              dm2 = cut[1]
+            line = '''##%s	$d=%s
+##%s	$d=%s''' %(eh,dm1,eh,dm2)
+          if times == 4:
+            for dm in cut:
+              dm1 = cut[0]
+              dm2 = cut[1]
+              dm3 = cut[2]
+              dm4 = cut[3]
+            line = '''##%s	$d=%s
+##%s	$d=%s
+##%s	$d=%s
+##%s	$d=%s''' %(eh,dm1,eh,dm2,eh,dm3,eh,dm4)
+          #else:
+            #print '====n2====\n' + line
+        else:
+          line = '##%s	$d=%s' %(eh,dm)	
+
+        
+        
+      result.append(line)
 
 
     else:

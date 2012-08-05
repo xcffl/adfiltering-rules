@@ -3659,14 +3659,14 @@
 |*.web-qq-com.cn/*
 ||360.legoumall.com/?id=*
 |*.jianfei234.com/*
-|http:/*gaomm.in/*
+|http://*gaomm.in/*
 !-------------本站推广-------------
 ||stat.wiseie.com/*
 ||script2.pingan.com/app_js/pingan/*
 ||www.eshop8.com/images/*i*.gif
 ||hitbs.cn/img/banner.jpg
 |*www1.leeuu.com/bbsimg/gg39.swf
-|http:/*91*qianming.cn*
+|http://*91*qianming.cn*
 ||www.22ons.com/ons.gif
 ||app4.733.com*
 ||c03.caishow.com*

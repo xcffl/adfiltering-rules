@@ -1,7 +1,7 @@
 [AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-08-05 16:52
+!Updated:2012-08-06 11:15
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.3
 !Copyright 2011 xcffl, Apache License 2.0
@@ -1332,8 +1332,8 @@
 ||dr.soso.com/*
 |*soso*.*/UploadFiles/2008*.gif
 !----迅雷&狗狗&快传----
-||img.kuai.xunlei.com/img/v2/top*X*_*.*
-||img.kuai.xunlei.com/img/v2/side*X*_*.*
+||img.kuai.xunlei.com/img/v2/fen/top*X*.*
+||img.kuai.xunlei.com/img/v2/fen/side*X*.*
 |*mtips.xunlei.com/*
 |*websts.xunlei.com/*
 |*wy.xunlei.com/*
@@ -1701,6 +1701,7 @@
 ||img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 !----华军软件园&牛华网----
 ||download.cncmax.js.cn/images/temp/down-banner*.jpg
+||count.newhua.com/*
 ||www.onlinedown.net/newhuagg/daohang.js
 |*/newhua_index_pic_*.js
 |*/newhuagg/pptv.jpg

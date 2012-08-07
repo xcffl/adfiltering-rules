@@ -20,7 +20,10 @@ ignore = {
   'Element_Hiding_Rules.txt': True,
   'rules_for_liebao.txt': True,
   'rules_for_360.txt': True,
-  'genera_rules.txt': True,
+  'rules_for_ESET[1].txt': True,
+  'rules_for_ESET[2].txt': True,
+  'rules_for_Kaspersky.txt': True,
+  
 }
 verbatim = {
   'COPYING': True,

@@ -21,7 +21,10 @@ ignore = {
   'Element_Hiding_Rules.txt': True,
   'rules_for_liebao.txt': True,
   'rules_for_360.txt': True,
-  'genera_rules.txt': True,
+  'rules_for_ESET[1].txt': True,
+  'rules_for_ESET[2].txt': True,
+  'rules_for_Kaspersky.txt': True,
+  
 }
 verbatim = {
   'COPYING': True,
@@ -48,7 +51,7 @@ def combineSubscriptions(sourceDir, targetDir, timeout=30):
         print >>sys.stderr, '错误处理订阅文件 "%s"' % file
         traceback.print_exc()
         print >>sys.stderr
-      known['genera_rules.txt'] = True
+      known['rules_for_Kaspersky.txt'] = True
     known[file] = True
 
   for file in os.listdir(targetDir):
@@ -99,7 +102,7 @@ def processSubscriptionFile(sourceDir, targetDir, file, timeout):
   lines = resolveIncludes(filePath, lines, timeout)
   lines = filter(lambda l: l != '' and not re.search(r'!\s*checksum[\s\-:]+([\w\+\/=]+)', l, re.I), lines)
 
-  writeRule(os.path.join(targetDir, 'genera_rules.txt'), lines)
+  writeRule(os.path.join(targetDir, 'rules_for_Kaspersky.txt'), lines)
 
   checksum = hashlib.md5()
   checksum.update((header + '\n' + '\n'.join(lines) + '\n').encode('utf-8'))
@@ -310,13 +313,30 @@ if __name__ == '__main__':
 
   #笔记：(#|!)\-+[^\-]*\n    匹配无效分类
   #     (#|!)\-+【广告强效过滤规则.* 匹配第一行规则标题
-#把临时生成的文件移动回根目录
+
+#由于ESET文件限制，因此分成2个版本
+#生成ESET版
+#2000行1个文件
+genera_rules_file = open('./Temp/rules_for_Kaspersky.txt','r')
+eset1_file = open('rules_for_ESET[1].txt','w')
+eset2_file = open('rules_for_ESET[2].txt','w')
+
+genera_rules = genera_rules_file.readlines()
+eset1 = genera_rules[0:1999]
+print >> eset1_file, eset1
+eset2 = genera_rules[2000:]
+print >> eset2_file, eset2
+
+eset1_file.close()
+eset2_file.close()
+
+#把卡巴斯基版移动回根目录
 import shutil
 import os
-if os.path.isfile('.' + 'genera_rules.txt'):
-  os.system('rm -fr genera_rules.txt')
+if os.path.isfile('.' + 'rules_for_Kaspersky.txt'):
+  os.system('rm -fr rules_for_Kaspersky.txt')
 else:
-  shutil.copy('./Temp/genera_rules.txt', '.')
+  shutil.copy('./Temp/rules_for_Kaspersky.txt', '.')
 #删除临时文件夹
 import os, stat;  
 root_dir = r'.';  

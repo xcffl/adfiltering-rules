@@ -1,13 +1,13 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-03 19:26
+#Updated:2012-08-07 16:00
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
 : Expires=3
 #-------------通用规则-------------
-- */js.ng/
+- http://*/js.ng/
 - */37ss.js
 - */configs/article/*.htm
 - */track.
@@ -21,7 +21,7 @@ msFilterList
 - */adimg.
 - */banner-ad-
 - */adv.
-- */pv.
+- http://*/pv.
 - */advpic/
 - */advertising/
 - */images/ad/
@@ -41,7 +41,7 @@ msFilterList
 - *.net/*/*_ad.js
 - *.com/*/*_ad.js
 - */banner*.htm
-- http://c.*/*.js
+# |http://c.*/*.js*$domain=~speedtest.net
 - */adpage/
 - */adv760.js
 - */advall.js
@@ -52,7 +52,7 @@ msFilterList
 - */eventad/
 - *.com/ad.
 - */toptip.js
-- */tc.js
+- http://*/tc.js
 - */pingd?
 - *_ad_iframe.
 - */ttads.
@@ -114,33 +114,33 @@ msFilterList
 - *_768x90_
 - *_a468x60.
 - */tygg/
-- *cpushpop
-- *dellhome
-- *duilian*js
+- http://*cpushpop
+- http://*dellhome
+- http://*duilian*js
 - */adbanner.
 - */adloader.
 - */ads0.
 - *huohu/huohu.js
-- *inc_page
-- *pic_shareware
-- *partner.p4p
-- *adheader.
-- *popunder_ad
-- *qqhao-qq-com
-- *qqbfree-welcometo
-- *qunar_s.js
+- http://*inc_page
+- http://*pic_shareware
+- http://*partner.p4p
+- http://*adheader.
+- http://*popunder_ad
+- http://*qqhao-qq-com
+- http://*qqbfree-welcometo
+- http://*qunar_s.js
 - *soft_mid_ad
-- *sunboke
-- *syrightnav.js
+- http://*sunboke
+- http://*syrightnav.js
 - *vip-qianming-vip
-- *vip-qq-entertainment
-- *yadun
-- *youpiao*.js
+- http://*vip-qq-entertainment
+- http://*yadun
+- http://*youpiao*.js
 - */svnad/
 - *.adpolestar.
 - */adphoto/
-- *clink.
-- *.ad.
+- http://*clink.
+- http://*.ad.
 - *.ad1.
 - *.ads.
 - */ads/*.ico
@@ -151,10 +151,10 @@ msFilterList
 - */ads/*.jpg
 - */clink/
 - */*.popup.*.js
-- */a-d-s/
-- */a_d/
+- http://*/a-d-s/
+- http://*/a_d/
 - */aadd/
-- */ad.php
+- http://*/ad.php
 - */ad2/
 - */adbot.
 - */adifm_
@@ -168,37 +168,37 @@ msFilterList
 - */adlog/
 - */adpic/
 - */adpics/
-- *adrotator.
+- http://*adrotator.
 - */ads.php
 - */ads_
 - */AdsImages/
-- *999ad.js
-- *copyrightad.js
-- *footad.js
-- *waitad.js
-- *showad.js
+- http://*999ad.js
+- http://*copyrightad.js
+- http://*footad.js
+- http://*waitad.js
+- http://*showad.js
 - http://adm.*/
 - http://adk.*/
 - http://ad.*/
-- *playad.js
-- *advstat.
-- *adslvseed.
-- *adjump.
+- http://*playad.js
+- http://*advstat.
+- http://*adslvseed.
+- http://*adjump.
 - *.ulink.
 - */adsc/
 - */adscripts/
-- *adsence.
+- http://*adsence.
 - */adserver.
 - */floatAd/
 - *ads-res.
 - */gaog/
-- */gg/*.gif
-- */gg/*.js
+- http://*/gg/*.gif
+- http://*/gg/*.js
 - */gg_new/
 - */ggao/
 - */ggpic/
 - */ggs/
-- *adview
+- http://*adview
 - */adwidget.js
 - */adzone/banner
 - */banma.js
@@ -206,20 +206,20 @@ msFilterList
 - */chat_float.js
 - */cnfriend/love.php
 - */dmap.gif
-- */dulian*js
+- http://*/dulian*js
 - */embed_webchat.js
 - */icast/
-- *.*icast.
+- http://*.*icast.
 - */icost/
 - */js/html/
 - */jsfile/*.htm
 - */jsgg/
-- */keyrun
+- http://*/keyrun
 - *.keyrun.
 - */links/
-- */mopgg*?
-- */mopgg*js
-- */mopgg*php
+- http://*/mopgg*?
+- http://*/mopgg*js
+- http://*/mopgg*php
 - */nav/ad
 - */other/js/
 - */pagead/
@@ -229,7 +229,7 @@ msFilterList
 - */piaofu.js
 - */poppage.js
 - */popwinscript.js
-- */qq.js
+- http://*/qq.js
 - */randm.js
 - */rightad/
 - */showad.
@@ -240,7 +240,7 @@ msFilterList
 - */softad/
 - */union_pop*js
 - */vip_img/
-- *vodone
+- http://*vodone
 - */www/if/
 - */www/iframe/
 - */wwwad/
@@ -249,120 +249,120 @@ msFilterList
 - */ysmad/
 - */yzjy/?age=
 - */zolfloat.js
-- *adserver*php
-- *adserving
-- */adsview
+- http://*adserver*php
+- http://*adserving
+- http://*/adsview
 - */adcouncil/
-- *cpc/
-- *cpc.
+- http://*cpc/
+- http://*cpc.
 - */common/cf/*.jpg
 - */common/cf/*.gif
 - */common/cf/*.png
 - */common/cf/*.swf
-- *cpc_
-- *adunion
-- *aliunion
-- *unionads
-- *_union
-- *linkpage.js
+- http://*cpc_
+- http://*adunion
+- http://*aliunion
+- http://*unionads
+- http://*_union
+- http://*linkpage.js
 - */showwindow/
 - */unipro/
 - http://cl.
-- *banners.
+- http://*banners.
 - */ads.js
 - *click.aspx?id=
-- *code?id=
-- *spcode.
+- http://*code?id=
+- http://*spcode.
 - */spcode/
-- */smscode
-- *clucode?
+- http://*/smscode
+- http://*clucode?
 - *.adpcode.
 - */codepic/
-- *.ad*js.php
-- un*js.php
-- *ad*/.swf
-- *js_ad_*.js
+- http://*.ad*js.php
+- http://un*js.php
+- http://*ad*/.swf
+- http://*js_ad_*.js
 - */adclick.js
-- *jshow.swf
+- http://*jshow.swf
 - *.com/ff.js
-- *.cn/*_gg.
-- *layer*ight.swf
-- *linkad/
-- *linkad.
+- http://*.cn/*_gg.
+- http://*layer*ight.swf
+- http://*linkad/
+- http://*linkad.
 - *link.aspx?id=
-- *adclient
-- *adcode.
-- */adcode
+- http://*adclient
+- http://*adcode.
+- http://*/adcode
 - */guanggao/
-- *js/cm.js
-- */adshow
+- http://*js/cm.js
+- http://*/adshow
 - */js/tan/*.js
 - *.net*/banner.js
 - */cpm/ids.js
 - *c.*/code_img/
 - http://c.*/img_
-- *code.*/iclk
+- http://*code.*/iclk
 - *code.*/show.php?
 - */adfile/
 - *uijs.php?*=
-- */g_js/
+- http://*/g_js/
 - */flashads/
 - */aspnet_client/
-- */dd/*.exe
-- */aa/*.exe
+- http://*/dd/*.exe
+- http://*/aa/*.exe
 - *client-get-data
-- *sex8.exe
-- *newads
-- *cilent.jar
+- http://*sex8.exe
+- http://*newads
+- http://*cilent.jar
 - *?getexe=
 - */incet/app/
 - */incet/code/
 - */incet/comic/
 - */incet/js/
-- *ashow?js=
+- http://*ashow?js=
 - */a_d_code/
 - */advert/
-- *adtopyc.js
-- */ad.js
-- *adbottom.js
+- http://*adtopyc.js
+- http://*/ad.js
+- http://*adbottom.js
 - *click_full.php
 - */adsys/
-- *adv.*/
-- *ashow.
-- *amps.
-- *adcontrol.
-- *index_ad
-- *js_floatwindows
-- *js_popwinforum
+- http://*adv.*/
+- http://*ashow.
+- http://*amps.
+- http://*adcontrol.
+- http://*index_ad
+- http://*js_floatwindows
+- http://*js_popwinforum
 - */aaaddd/
 - */adposition/
-- */s?z=
+- http://*/s?z=
 - *all_content_ad
-- *ggplay.js
+- http://*ggplay.js
 - */adsunion/
 - */advertise_images/
 - *ad-apac.
 - *rd.htm?id=
 - *&z_c_url=
 - *&z_scd=
-- *&z_sw=
-- *&z_sh=
-- *&z_uc_ks=
+- http://*&z_sw=
+- http://*&z_sh=
+- http://*&z_uc_ks=
 - *C.Html?P=
 - *?searchterms=
 - */adjs/
 - */js/playhd.js
-- */gg.js
+- http://*/gg.js
 - */js/index-1.js
-- *tongji.js
+- http://*tongji.js
 - */foot.js
-- */c_2/
+- http://*/c_2/
 - http://a-m-s.
 - */adcontrol/
-- *advjs*.js
+- http://*advjs*.js
 - c.*/chat/
 - c.*?aid=
-- *floatad.js
+- http://*floatad.js
 - *.org*/footer.js
 - *.com*/footer.js
 - */ad_include/
@@ -370,11 +370,11 @@ msFilterList
 - *.com/qqad.js
 - */cs/pic.gif
 - */float.js
-- */ktrace*.js
+- http://*/ktrace*.js
 - http://js.*/i.js
 - http://js.*/code.js
-- */saleloader*.js
-- */js/_gg/
+- http://*/saleloader*.js
+- http://*/js/_gg/
 - */jsad/
 - */adiframe/
 - */adpolestar/
@@ -386,9 +386,9 @@ msFilterList
 - */template/kankan/images/1
 - */lzad/
 - */ggjs/
-- */akcms
+- http://*/akcms
 - */guochan/*.j
-- */nr*.js
+- http://*/nr*.js
 - */zijigg/
 - */adhtml/
 - */adqq/
@@ -414,12 +414,12 @@ msFilterList
 # |*.cn*/header.js$domain=~bj-ibook.cn
 - *get_ad.php?ad_id=
 - */bookfloat.js
-- */downyc*.js
+- http://*/downyc*.js
 - */js/show/middle.js
-- */gg_js/
+- http://*/gg_js/
 - */showavd.aspx
 - */gg/jsp/useract/
-- */go/tc.asp
+- http://*/go/tc.asp
 - */guangao/js/*.js
 - */ipush_jsp/server.jsp
 - */js/tan2/
@@ -432,7 +432,7 @@ msFilterList
 - */news_gonggao.js
 - */readadend.js
 - */amp/*isplay*d
-- */advjs
+- http://*/advjs
 - */ad_images/
 - */req_ads_*.js
 - */adpuba/
@@ -442,7 +442,7 @@ msFilterList
 - */click.js?=
 - */stat.php?ad_id
 - */ggimg/*.gif
-- */adbot*.js
+- http://*/adbot*.js
 - */js_softdown_picshow*.js
 - */js_softdown_left_picshow*.js
 - */ggxc/
@@ -458,7 +458,7 @@ msFilterList
 - */alltc.js
 - */index_top.js
 - */asd.js
-- */d_d.js
+- http://*/d_d.js
 - */indexbottom.js
 - */paa.js
 - */ecom.js
@@ -468,6 +468,7 @@ msFilterList
 - */play-d*.js
 - */superpop.js
 - */lmtwindow.js
+- */images/scroll.js
 - */rightfloat.js
 - */view_ad*.js
 - */y_asp/
@@ -488,7 +489,7 @@ msFilterList
 - */*.swf?url0=
 - */enetshow.shtml*=
 - */batch.jasd.php?id=
-- *a_d_s
+- http://*a_d_s
 - */show.php?z_uid=
 - */*aspx?url=
 - */srp-p4p-min.js?
@@ -508,7 +509,7 @@ msFilterList
 - *action=redir*_splash&url=
 - */ui.js.php?siteid=
 - */at_tan.php?
-- */pv?s=
+- http://*/pv?s=
 - */com_spe.js?p=
 - */advertisement/
 - */adpolicy.aspx?
@@ -518,7 +519,7 @@ msFilterList
 - */click/*png
 - */click/*jpg
 - */click/*js
-- *clickDownAjax*.js
+- http://*clickDownAjax*.js
 - *_click.js
 - */stat.do?videoId=
 - */*lick.html?adid=
@@ -530,33 +531,33 @@ msFilterList
 - */ad.asp?
 - */oyksoft_pic/
 - */images/a/
-- *aclk?sa=
-- *click_*.jsp
+- http://*aclk?sa=
+- http://*click_*.jsp
 - *lady.php?pid=
 - */shouyeguanggao/
-- */AD.gif
+- http://*/AD.gif
 - *?gopage=
 - */taobao.gif
-- *qvodstat.js
+- http://*qvodstat.js
 - */guanggao-pic/
 - *?bannerID=
 - */picshow.swf?
 - */ejinad/
-- *?*_chatAD
-- *_insideAD
-- *_tribeAD
-- *_friendBanner
-- *_tribeBanner
+- http://*?*_chatAD
+- http://*_insideAD
+- http://*_tribeAD
+- http://*_friendBanner
+- http://*_tribeBanner
 - */adboard/
 - */ad_buynow.gif
 - */awugrc.jpg
 - *&AdID=
 - *.org*/data/attachment/common/*.gif
 - */mini_html01/
-- */viger*.
+- http://*/viger*.
 - */tao-jipiao.jpg
 - */gkgou.gif
-- */DS-2.swf
+- http://*/DS-2.swf
 - */images/ad_*.jpg
 - */g.html?au_aud=
 - *&au_sid=
@@ -578,7 +579,7 @@ msFilterList
 - */adsclick?
 - */adfclick?db=
 - */indexAd.html?
-- */jj.gif
+- http://*/jj.gif
 - */images/*/htad.gif
 - */images/*/360/1vs1.gif
 - */adv_3b2g.js
@@ -587,7 +588,7 @@ msFilterList
 - http://acs.
 - */GetAdContent.aspx
 - */aaAssembly/
-- */gg_a.xml
+- http://*/gg_a.xml
 - */iframe/gd_xxg_ad.js
 - */js/adDetail1.js
 - */floatad_n.js
@@ -607,7 +608,7 @@ msFilterList
 - */adinfo/
 - */attachment/pushpic/
 - */ADEvent/
-- */_ad/
+- http://*/_ad/
 - */adgg/
 - */zqtad/
 - */GreenxfAD/
@@ -625,7 +626,7 @@ msFilterList
 - *&stype=endAD
 - */510379ad/
 - */hdad/
-- */wk_ad/
+- http://*/wk_ad/
 - */AdPreview/
 - */baobei_ad.php
 - */xilanad.js
@@ -646,15 +647,15 @@ msFilterList
 - */webafp?
 - */tanchuang/
 - */images/gg/
-- *www*/gg/
+- http://*www*/gg/
 - *.com/gg/
 - *.com.cn/gg/
 - *.net/gg/
 - */counts.
 - *m/count.
 - */pv?peerid=
-- *pv.*.cc
-- *pv.*.org
+- http://*pv.*.cc
+- http://*pv.*.org
 - *pv.*.com/
 - *.com/pv/
 - */hiido.js
@@ -681,7 +682,7 @@ msFilterList
 - */queerchina.gif
 - */wankvids/
 - */pic/ashley_and_maca_2/images/
-- */ggad*.html
+- http://*/ggad*.html
 - *.net*/html.ng/
 - *.com*/html.ng/
 - */wwefs_*.jpg
@@ -700,27 +701,27 @@ msFilterList
 - */adsfile/
 - */vpnad.jpg
 - */headwww.js
-- */ad/*.php
-- */ad/*.html
-- */ad/*.htm
+- http://*/ad/*.php
+- http://*/ad/*.html
+- http://*/ad/*.htm
 - */client_down.html
-- */ad/*-*.jpg
+- http://*/ad/*-*.jpg
 - */ad/photo/
 - */skin/ad/
-- */js/ad/
+- http://*/js/ad/
 - */image/ad/
 - */html/ad/
 - */bbs_list/ad/
-- */ad/*X*.jpg
-- */ad/*.js
-- */ad/*.gif
-- */ad/*.css
-- */ad/*.bmp
+- http://*/ad/*X*.jpg
+- http://*/ad/*.js
+- http://*/ad/*.gif
+- http://*/ad/*.css
+- http://*/ad/*.bmp
 - *.com.tw/ad/
 - *.com.cn/ad/
-- *com*/ad/*.swf
-- */ad/*=
-- */ad/ad.
+- http://*com*/ad/*.swf
+- http://*/ad/*=
+- http://*/ad/ad.
 - */popcode.js
 - */ad-images/
 - */adFloatPage_*.js
@@ -728,10 +729,10 @@ msFilterList
 - */vpndaili.jpg
 - */adv/
 - */adplayer.swf
-- */ad_Top
+- http://*/ad_Top
 - */sflash/
-- */ad.swf
-- */ad/*_ad.jpg
+- http://*/ad.swf
+- http://*/ad/*_ad.jpg
 - */float_ad_replay.gif
 - */headnx.js
 - */ad_api/
@@ -745,28 +746,28 @@ msFilterList
 - */playerbottomad.htm
 - */fm_ad_close.gif
 - */adkids/
-- *fboat.cn
-- *banner.duilian
+- http://*fboat.cn
+- http://*banner.duilian
 - */tui_guang/
-- *-ad/
+- http://*-ad/
 - *g.*/index.html?agent_id=*&placeid=
 - */data/attachment/common/cf/
 - *img.*/attachments/month_1011/*.jpg
 - *box_home.xml
-- *lanmang.gif
-- *mobilepop
-- *overture_ads
+- http://*lanmang.gif
+- http://*mobilepop
+- http://*overture_ads
 - *sashare_player.htm
 - */ad/click/
 - */clickad?
 - */adplayer/
 - */ADScript/
-- *now.cn/?
+- http://*now.cn/?
 - *&view=ad&
 - */guanggao_img/
 - */ad_img/
 - */ADPlayer_*.swf
-- */gg_ad/
+- http://*/gg_ad/
 - */zbxxg2009b/ggw/dmtgg/
 #-------------广告联盟-------------
 - *.0252.com/
@@ -805,6 +806,8 @@ msFilterList
 -d code.100Goo.com
 - *.chenjingli.com/
 -d s.tiaosa.cn
+-d v.1717gs.com
+-d t.adyun.com
 - *.001union.com/
 - *.77union.cn/
 -d s.svem.cc
@@ -846,9 +849,9 @@ msFilterList
 - *.565882.com/
 - *.91sanguo.cn
 - *.6dad.com/
-- *allyes.*/ad
+- http://*allyes.*/ad
 - *.9elm.cn/
-- *.9v.cn/
+- http://*.9v.cn/
 - *.9vcpm.cn/
 -d code.ze5.com
 - *.adbrite.com/
@@ -868,7 +871,7 @@ msFilterList
 - *.burstmedia.com/
 - *.chinaih.com/
 - *.chitika.com/
-- *.clickeye*.cn/
+- http://*.clickeye*.cn/
 - *.cnxad.com/
 - *.cnzz.com/api/*.js
 - *.counter.dudu.com/
@@ -971,7 +974,7 @@ msFilterList
 -d 98.126.54.107 .gif
 - http://dhcode.cn3.cn
 - http://display.xpresssyndication.com
-- *dotmore.cn
+- http://*dotmore.cn
 - *dw-cn.com.com/
 - http://ec.131377.com
 - http://file.chanet.com.cn
@@ -997,7 +1000,7 @@ msFilterList
 - *.unionsky.cn/
 - *.jizzads.com/
 - *.adsue.com/
-- *wangrong1002.com
+- http://*wangrong1002.com
 -d res.9dzc.com /tcjs/
 - *.heroclick.cn/
 - *.000wan.com/
@@ -1017,20 +1020,20 @@ msFilterList
 -d img.shenduchuanmei.com /a/
 - *.wrating.com/
 - *inter-focus.cn/
-- *ip686.com
+- http://*ip686.com
 - *ivru.moyu.com
 - http://js.62826.com
 - http://js.coogao.cn
 - http://js1.339.cn
 - http://jsa.733.com
 -d union.netease.com
-- *kanoodle.com
-- *lelecpp.com
-- *linkpage.cn/
+- http://*kanoodle.com
+- http://*lelecpp.com
+- http://*linkpage.cn/
 -d i.84232.com
 - http://mmm.mm5208.com
 - http://monitor.yigao.com
-- *myad.cn/
+- http://*myad.cn/
 - http://online4.lianmeng.com
 -d p.wanliuliang.com
 - http://p4p.cnaz.com
@@ -1047,12 +1050,12 @@ msFilterList
 - *qqmms.net/adlink/
 - *questionmarket.com/
 - http://resource.communicatte.com
-- *smartcreative.cn/
+- http://*smartcreative.cn/
 -d sms.wellsms.com
 -d teamwork.enorth.com.cn
 -d 33.autohome.cn /file/
 - *.irs09.com/
-- *allyesky.cn/js/
+- http://*allyesky.cn/js/
 -d au.ipart.cn /comp/hooks.php
 -d c.91wan.com
 -d c.sfilm.com
@@ -1160,7 +1163,7 @@ msFilterList
 -d www.91tel.com
 -d www.99xqw.com
 -d www.algj-27dy.cn .html
-- *7794.com
+- http://*7794.com
 -d www.lduhtrp.net
 -d www.d9ad.com
 -d www.linkiis.cn
@@ -1180,11 +1183,11 @@ msFilterList
 - *.88210212.com/
 - *.8369.info/
 - *66-77.com/
-- *adpower.cn/
+- http://*adpower.cn/
 - *.dn888.com:85/
 - *.2bj.cn:8899/
 - *.dn888.com/
-- *5622.cn/
+- http://*5622.cn/
 - *woniu666.com/
 - *.blogad.com.tw/
 -d s.dalu2000.com /sitespread.php?
@@ -1200,6 +1203,7 @@ msFilterList
 - *.gsdwj.com/
 - *.6693.cc/
 - *yinjiasm.com/ima/ggtp/
+-d a.001media.com
 - *.zjbdt.com/
 - *.uctrac.com/
 - *.ajiang.net/
@@ -1330,8 +1334,8 @@ msFilterList
 -d dr.soso.com
 - *soso*.*/UploadFiles/2008*.gif
 #----迅雷&狗狗&快传----
--d img.kuai.xunlei.com /img/v2/top*X*_*.
--d img.kuai.xunlei.com /img/v2/side*X*_*.
+-d img.kuai.xunlei.com /img/v2/fen/top*X*.
+-d img.kuai.xunlei.com /img/v2/fen/side*X*.
 - *mtips.xunlei.com/
 - *websts.xunlei.com/
 - *wy.xunlei.com/
@@ -1440,8 +1444,8 @@ msFilterList
 -d image.p4p.sogou.com /picad/
 -d brand.sogou.com
 - *sogou.com/textlink
-- *sogou_ad*js
-- *sogou_ad*php
+- http://*sogou_ad*js
+- http://*sogou_ad*php
 -d count.vrs.sohu.com .swf
 -d count.vrs.sohu.com .xml
 -d js.sohu.com /wrating0820.js
@@ -1450,9 +1454,9 @@ msFilterList
 -d hd.sohu.com.cn .swf
 -d data.vrs.sohu.com /player.gif?
 - *.sohu.com.cn/*.gif?*&uid=
-- *sogouad*js
+- http://*sogouad*js
 - http://aty*.tv.sohu.com/
-- *sogouad*php
+- http://*sogouad*php
 -d inte.sogou.com
 -d images.sohu.com /cs/htmlfile/brand/
 - *i3.itc.cn/20101029/*_*_*_a*_*_0.gif
@@ -1553,8 +1557,8 @@ msFilterList
 -d l.yimg.com /f/a/tw/gif_backup/ad_*.gif
 - *.webmaster.yahoo.com/
 - http://p.mm.cn.yahoo.com
-- *yahoo-ads
-- *yahoo760.html
+- http://*yahoo-ads
+- http://*yahoo760.html
 - http://p4p.cn.yahoo
 -d yahoo.overture.com
 -d cn.yimg.com /hp-popup-script-v2.js
@@ -1699,6 +1703,7 @@ msFilterList
 -d img4.ddimg.cn /00074/pic/*_*_*x*_*.jpg
 #----华军软件园&牛华网----
 -d download.cncmax.js.cn /images/temp/down-banner*.jpg
+-d count.newhua.com
 -d www.onlinedown.net /newhuagg/daohang.js
 - */newhua_index_pic_*.js
 - */newhuagg/pptv.jpg
@@ -1802,6 +1807,7 @@ msFilterList
 -d static.acs86.com
 #----酷6----
 -d dwtracking.sdo.com
+-d stat.ku6.com .xml
 -d ku6afp.allyes.com
 -d stat.aa.sdo.com
 - *stat.ku6.com/*.do?
@@ -1833,7 +1839,7 @@ msFilterList
 #----幻世中文----
 -d www.hszw.com /inc/
 #----SafeBeta----
-- *safebeta.cn/gg/
+- http://*safebeta.cn/gg/
 #----Immunet----
 #----九九漫画----
 - *.99comic.com/g/
@@ -2126,6 +2132,7 @@ msFilterList
 - *.vista123.com/script/popup_win.js
 -d img.vista123.com /images/*3*x*.
 -d img.vista123.com /images/355_80_cd.gif
+-d img.vista123.com /images/saayaa*.gif
 -d img.vista123.com /images/TweakCube468.gif
 -d img.vista123.com /images/win7master.gif
 - *.vista123.cn/notice.js
@@ -2184,9 +2191,9 @@ msFilterList
 #----小说精灵----
 -d js.xiaoshuojingling.com
 #----猫扑----
-- *mopimg.cn/tj/
+- http://*mopimg.cn/tj/
 -d pub.mop.com
-- *mopimg.cn/dc/
+- http://*mopimg.cn/dc/
 -d imgpub.mop.com /mt/widget/
 - *mop.com/fxb/js/fxb.js
 - *.mopimg.cn/app/pub/pub.*.js
@@ -2401,7 +2408,7 @@ msFilterList
 - *.shtimg.com/portal/*/*/*.gif
 #----世纪佳缘交友网----
 -d img.jiayuan.com /w4/html/index*.html
-- *e666.cn/db/
+- http://*e666.cn/db/
 - *e666.cn/images/ztwan.gif
 #----FileBase.to----
 - *filebase.to/images/bg.png
@@ -2493,6 +2500,8 @@ msFilterList
 - *.acfun.tv/json/newad.xml
 #----大纪元----
 -d ads3.epochtimes.com
+#----GC1069----
+-d gc1069.com /bbs/images/default/*X*.gif
 #----俺要电子书----
 - *aybook.cn/love/
 #----红袖言情小说网----
@@ -2857,6 +2866,7 @@ msFilterList
 - *.8684.cn/js/*_hid.js
 -d js.973.com /gjs/139.js
 -d js.973.com /gjs/178.js
+-d js.973.com /gjs/268.js
 -d js.973.com /gjs/230.js
 -d js.973.com /gjs/257.js
 -d js.973.com /gjs/268.js
@@ -2928,7 +2938,7 @@ msFilterList
 #----诚信网赚网&诚信精选网赚网----
 - *sohoptc.com/image/banner/
 - *sohoptc.com/down1.htm
-- *sohoboy.ws/top*.htm
+- http://*sohoboy.ws/top*.htm
 #----去哪儿----
 -d api.qunar.com /ips.jcp?
 #----我去遛一遛！导航网----
@@ -3000,7 +3010,7 @@ msFilterList
 -d www.cngadget.cn /taobao/
 - *.cngadget.cn/ad/
 #----实用小工具----
-- *smalltool.cn/ad/
+- http://*smalltool.cn/ad/
 #----瓢虫网----
 - *.icpcw.com/epaper/image/*x*_*.jpg
 #----京东网----
@@ -3033,7 +3043,7 @@ msFilterList
 -d pic.filec2c.com /img/483793ea/
 -d bbs.tazhao.com /api.php?
 #----中国网赚论坛----
-- *you85.cn/1/
+- http://*you85.cn/1/
 #----西西软件园----
 - *cr173.com/show/
 #----绿同网----
@@ -3044,7 +3054,7 @@ msFilterList
 #----好喜爱学习网络----
 - *haoxiai.net/vip/
 #----SF123.cc----
-- *sf123.cc/1.gif
+- http://*sf123.cc/1.gif
 #----橙子免费资源----
 - *010dz.com/images/content_undertitle_table.htm
 - *010dz.com/images/*_*.gif
@@ -3110,7 +3120,7 @@ msFilterList
 #----参考啊----
 - *.cankaoa.com/new/*.js
 #----同济网----
-- *tongji.net*/sp/
+- http://*tongji.net*/sp/
 #----绿野户外网----
 - *lvye.cn/images/pu/
 #----pc6下载站----
@@ -3293,7 +3303,7 @@ msFilterList
 - *.uwants.com/aeiou/
 - *.discuss.com.hk/aeiou/
 #----海词----
-- *dict.cn/ef/
+- http://*dict.cn/ef/
 - *dict.cn/sync2/
 #----搜狐焦点----
 - *focus.cn/common/js/adm2008.js
@@ -3355,7 +3365,7 @@ msFilterList
 -d img.jb51.net /imgby/
 #----豆豆网----
 #----我拉网----
-- *55.la/gg/
+- http://*55.la/gg/
 #----飘花资源网----
 - *3edyy.com/js/
 #----33MD免费电影----
@@ -3495,7 +3505,7 @@ msFilterList
 - *sznews.com/2008gg/
 - *sznews.com/ad
 #----新头壳----
-- *newtalk.tw/ad_
+- http://*newtalk.tw/ad_
 #----明报网站----
 - *mingpao.com/image/banner/adc/*.jpg
 #----盛唐军事网----
@@ -3568,7 +3578,8 @@ msFilterList
 - *.googlesyndication.com/
 - *.googleadservices.com/
 - */google.js
-- */google*ad*js
+- https://*/google*ad*js
+- http://*/google*ad*js
 - http://partner.googleadservices.com
 - *.google-analytics.com/
 -d www.google.cn /aclk?
@@ -3648,21 +3659,21 @@ msFilterList
 -d feo.staticsdo.com
 -d ipic.staticsdo.com
 #-------------恶意&钓鱼-------------
-- *.26.la/*js
+- http://*.26.la/*js
 - *.2kkk.com/
 - *.2t2t.cn/
 - *.aiqianming.cn/
 - *.web-qq-com.cn/
 -d 360.legoumall.com /?id=
 - *.jianfei234.com/
-- *gaomm.in/
+- http://*gaomm.in/
 #-------------本站推广-------------
 -d stat.wiseie.com
 -d script2.pingan.com /app_js/pingan/
 -d www.eshop8.com /images/*i*.gif
 -d hitbs.cn /img/banner.jpg
 - *www1.leeuu.com/bbsimg/gg39.swf
-- *91*qianming.cn
+- http://*91*qianming.cn
 -d www.22ons.com /ons.gif
 - http://app4.733.com
 - http://c03.caishow.com
@@ -3678,7 +3689,7 @@ msFilterList
 - http://mmscode1.3bu.com
 - http://mmscode2.3bu.com
 - http://mmscode3.3bu.com
-- *kunlun.com
+- http://*kunlun.com
 -d img.3bu.cn /js/*.js
 -d js.users.51.la /2256258.js
 - *zzshouji.info/
@@ -3711,7 +3722,7 @@ msFilterList
 - *61.172.192.73/
 - *221.174.50.131/
 -d 222.73.227.67 /dzx/forum/*.jpg
-#-------------未知-------------
+#-------------待分类-------------
 - *.100190.com/
 - *.114.my/
 - *.2yt.net
@@ -3735,7 +3746,7 @@ msFilterList
 - *.jxkch.com/
 - *.moyu.com/
 - http://f.mtmmt.com
-- *ggwoool.com
+- http://*ggwoool.com
 - *suflash.com/xinyua_xml.swf
 - *.8368.info/
 -d weikush.elinkhost.net
@@ -3765,14 +3776,14 @@ msFilterList
 - *.ukaka.com/
 - *.yeeyoo.com/
 - *.zyydy.com/
-- *3ding.cn/i.js
-- *bannerboxes.com
+- http://*3ding.cn/i.js
+- http://*bannerboxes.com
 - *conline.com/ivy/image/
-- *feizhou.net
-- *yite.cn
+- http://*feizhou.net
+- http://*yite.cn
 - *hywdh.cn/jia0you/
-- *sa20.com
-- *weloveqianming.cn/
+- http://*sa20.com
+- http://*weloveqianming.cn/
 - http://hi*.totolook.com/
 -d www.pybao.net
 -d openx.subvokal.com /www/delivery/
@@ -3804,7 +3815,6 @@ msFilterList
 -d www.fclub.cn /affiche.php?act=img&ad_id=
 -d www.54new.com /da/
 #-------------特殊规则-------------
-#-------------待分类-------------
 #--------------[元素隐藏规则]
 #-------------通用规则
 #-------------网站本站
@@ -3813,9 +3823,6 @@ msFilterList
 #----中华网赚论坛
 #----火狐主页
 #-------------其他
-#--image
-#--tieba
-#-----------------------Element Hiding---------------------
 #--------------[白名单]--------------
 #--------原创白名单--------
 +d statics.dnspod.cn /yantai/js/
@@ -3828,126 +3835,84 @@ msFilterList
 +d ad.ourgame.com /cgi-bin/insertflasha.js
 # @@||cpro.baidu.com/cpro/ui/c.js$domain=bbs.9es.cn
 # @@||pos.baidu.com/ecom?$script,domain=bbs.9es.cn
-#---Shopping websites
 +d a.banggo.com /Ad/getAdPosList.shtml
 # @@/adbanner/*$image,domain=books.com.tw
 # @@||paipai.com^$domain=shop.qq.com
 # @@/advertise/*$domain=suning.com
-#---京东
+# @@||analytics.163.com/ntes.js$domain=cbg.163.com
 +d adimg.adtpl.360buy.com /uploads/
 +d book.360buy.com /book/BookShowService.aspx
-#---51nb.com
-+d 51nb.com /forum/images/*/
-#---六间房
++d forum.51nb.com /images/*/
 +d pole.6rooms.com /adpolestar/*_qtie.swf
-#---8684
 # @@||js.973.com/ad/sys_ad_complete.js$domain=8684.cn
-#---admin5
 +d admin5.com /extras/zz/inner.head.logo.js
-#--淘宝
 +d tmatch.simba.taobao.com /?name=mcad*.js
-#---汽车之家
 +d 33.autohome.com.cn /njs/1.js
-#--MP3
 # @@||cb.baidu.com/ecom?$domain=mp3.baidu.com
 # @@||cbjs.baidu.com/js/m.js$domain=mp3.baidu.com
-#---爆米花网
 +d cb.baidu.com /crossdomain.xml
 # @@||cb.baidu.com/ecom?$object_subrequest,domain=baomihua.com|pomoho.com
 +d pvstat.pomoho.com /crossdomain.xml
-#---CC视频
 +d union.bokecc.com /flash/
 +d union.bokecc.com /js/player/
 +d union.bokecc.com /player?
 +d union.bokecc.com /servlet/playinfo?
 +d union.bokecc.com /servlet/getvideofile?
-#---CCTV
 +d baidu.cntv.cn /player/baidu_ad.js
 +d js.player.cntv.cn /creator/*_bg_ad.js
-#---cnBeta
 +d img.cnbeta.com /newsimg/
 +d img.cnbeta.com /upimg/
-#---点评网
 +d dianping.com /adwords/
 +d union.mapbar.com /apis/maps/*.js
-#---Discuz# & PHPWind etc.
 # @@/common/cf/*.thumb$image
-#---风行网
 +d q.funshion.com /js.php
-#---HiNet
 # @@||hichannel.hinet.net^$object_subrequest
 # @@||p4u.hinet.net/bien12/$image,domain=webhd.xuite.net
-#---Ku6
 +d g.aa.sdo.com /crossdomain.xml
 # @@||g.aa.sdo.com/?method=getversion$object_subrequest
 +d my.ku6.com /resource/images/feed_ad1.jpg
 +d css.ku6cdn.com /comm/gg/
-#--embedded
 # @@||pic.snyu.com/sdk*/Main.swf$domain=~ku6.com
-#---MSN
-#-CN
 +d msn.wrating.com /a1.js
-#---驱动之家
 +d 11.mydrivers.com /www/2012/js/*.js
-#---NextMedia
-#-HK
 +d video.appledaily.com.hk /admedia/
-#---Nownews
 +d nownews.com /ad2004/*-*-*p.png
 +d ad1.nownews.com /ads.php?ownerid=1294
-#---东方电视
 +d home.on.cc /adv/web/corp/
-#---QQ
 # @@||gtimg.com/img/ad/$image,domain=buy.qq.com
 +d cq.qq.com /js/cody/gdad/all_scroll_ad.js
 +d exp.qq.com /img/ad/
-#---巧巧读书
 +d qqread.com /swf/qqread_rollpic.swf
-#---读者文摘
 +d readersdigest.cn /files/cn-chn/pictures/RD_cn.gif
-#--sina.com.cn
 +d sinaimg.cn /deco/*/common*.js
 +d sinaimg.cn /deco/*/sinaObj.js
-#-auto
 # @@||sina.wrating.com/a1.js$domain=bbs.auto.sina.com.cn
-#-finance
 # @@||counter.sina.com.cn/time?fm=JS$domain=finance.sina.com.cn
-# @@||sinaimg.cn/cj/deco/*/all.js$domain=finance.sina.com.cn
+# @@||sinaimg.cn/cj/deco/$script,domain=finance.sina.com.cn
 # @@||sinaimg.cn/dy/deco/*/headcj.js$domain=finance.sina.com.cn
-#-weibo
 +d api.t.sina.com.cn /statuses/counts.
-#---东方宽频
 +d acs86.com /crossdomain.xml
 +d static.acs86.com /player/
-#--player may incorrectly blocked by some subscriptions
 +d js.tudouui.com /bin/player
-#---bbs.vc52.cn
 # @@||gg.a.5d6d.$image,object_subrequest
-#---udn
 # @@||video.udn.com/player/Adv.swf$object_subrequest
 # @@||video.udn.com/udnad/videoad.php^$object_subrequest
-#---新华网
 +d xinhuanet.com /static/rmedia/pv.swf
-#--TW
 # @@/ads/*$image,domain=buy.yahoo.com.tw
 # @@/flash_general_20090213.js|$domain=tw.yahoo.com
 +d l.yimg.com /f/a/tw/*/790840_*.swf
 +d l.yimg.com /f/a/tw/elephant/*240x94*.swf
 +d l.yimg.com /zz/combo?*/ads/*.js
-#---优酷
 # @@||static.atm.youku.com^*.swf|$domain=www.youku.com
 +d valf.atm.youku.com /crossdomain.xml
 +d valf.atm.youku.com /valf?
-#---人人影视
 +d copy.ousns.com /new/1.PNG
 +d copy.ousns.com /new/2.PNG
 +d copy.ousns.com /new/3.PNG
 +d copy.ousns.com /new/4.PNG
 +d copy.ousns.com /new/5.PNG
-#---叶子猪游戏网
 # @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
 +d plu.cn /d/js/acmsd/thea44.js
-#---Online Novel/Comic Sites
 # @@/configs/article/bottom.js
 # @@/configs/article/pagebottom.js
 # @@/configs/article/pagetop.js
@@ -3956,8 +3921,6 @@ msFilterList
 +d shanwen.com /configs/article/pagetop3.js
 +d shanwen.com /scripts/checkuser.js
 +d xiaoshuo570.com /scripts/read/page.js
-#---Private Sites
-#--TTG
 +d ttg.im /pic/ttg_logo.png
 # @@||go.goyeah.com/adpolestar/$object_subrequest
 +d sopnba.com /js/gb.js

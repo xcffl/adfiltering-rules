@@ -461,6 +461,7 @@ def writeRule(filePath, lines):
         # 添加 *.js 到规则以效仿 $script
         if requiresScript:
           line += ' $t=script'
+		#猎豹版不用删除http://
         #if line.startswith('http://'): #要删除的规则中的字符串
           #line = line[7:] #前面一个数字是上一行字符串的字符数
         if domain:

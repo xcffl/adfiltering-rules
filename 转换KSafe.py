@@ -321,7 +321,7 @@ file2 = open("rules_for_KSafe.txt","w")
 while 1:
  text = file1.readline()
  if( text == '' ):
-  print ""
+  
   break
  elif( text == '\n'):
   print ""

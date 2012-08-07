@@ -329,6 +329,7 @@ print >> eset2_file, eset2
 
 eset1_file.close()
 eset2_file.close()
+genera_rules_file.close()
 
 #把卡巴斯基版移动回根目录
 import shutil

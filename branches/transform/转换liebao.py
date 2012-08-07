@@ -611,9 +611,7 @@ while 1:
  if( text == '' ):
   print ""
   break
- elif( text == '\n'):
-  print ""
- else:
+ elif( text != '\n'):
   file2.write( text )
 file1.close()
 file2.close()

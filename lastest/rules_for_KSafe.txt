@@ -32,7 +32,7 @@
 5,4,*.net/*/*_ad.js
 5,4,*.com/*/*_ad.js
 5,4,*/banner*.htm
-5,4,c.*/*.js*
+5,4,http://c.*/*.js*
 5,4,*/adpage/*
 5,4,*/adv760.js*
 5,4,*/advall.js*
@@ -407,7 +407,7 @@
 5,4,*/bookfloat.js
 5,4,*/downyc*.js
 5,4,*/js/show/middle.js
-5,4,*/gg_js/
+5,4,*/gg_js/*
 5,4,*/showavd.aspx*
 5,4,*/gg/jsp/useract/*
 5,4,*/go/tc.asp*
@@ -459,6 +459,7 @@
 5,4,*/play-d*.js
 5,4,*/superpop.js
 5,4,*/lmtwindow.js
+5,4,*/images/scroll.js
 5,4,*/rightfloat.js
 5,4,*/view_ad*.js
 5,4,*/y_asp/*
@@ -795,6 +796,8 @@
 5,4,code.100Goo.com/*
 5,4,*.chenjingli.com/*
 5,4,s.tiaosa.cn/*
+5,4,v.1717gs.com/*
+5,4,t.adyun.com/*
 5,4,*.001union.com/*
 5,4,*.77union.cn/*
 5,4,s.svem.cc/*
@@ -1189,6 +1192,7 @@
 5,4,*.gsdwj.com/*
 5,4,*.6693.cc/*
 5,4,*yinjiasm.com/ima/ggtp/*
+5,4,a.001media.com/*
 5,4,*.zjbdt.com/*
 5,4,*.uctrac.com/*
 5,4,*.ajiang.net/*
@@ -1310,8 +1314,8 @@
 5,4,zhidao.ikaka.com/images/game_*.gif
 5,4,dr.soso.com/*
 5,4,*soso*.*/UploadFiles/2008*.gif
-5,4,img.kuai.xunlei.com/img/v2/top*X*_*.*
-5,4,img.kuai.xunlei.com/img/v2/side*X*_*.*
+5,4,img.kuai.xunlei.com/img/v2/fen/top*X*.*
+5,4,img.kuai.xunlei.com/img/v2/fen/side*X*.*
 5,4,*mtips.xunlei.com/*
 5,4,*websts.xunlei.com/*
 5,4,*wy.xunlei.com/*
@@ -1647,6 +1651,7 @@
 5,4,a.dangdang.com/*
 5,4,img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 5,4,download.cncmax.js.cn/images/temp/down-banner*.jpg
+5,4,count.newhua.com/*
 5,4,www.onlinedown.net/newhuagg/daohang.js
 5,4,*/newhua_index_pic_*.js
 5,4,*/newhuagg/pptv.jpg
@@ -1729,6 +1734,7 @@
 5,4,js.fengwu.net/baidu/*
 5,4,static.acs86.com/*
 5,4,dwtracking.sdo.com/*
+5,4,stat.ku6.com/*.xml
 5,4,ku6afp.allyes.com/*
 5,4,stat.aa.sdo.com/*
 5,4,*stat.ku6.com/*.do?*
@@ -1973,6 +1979,7 @@
 5,4,*.vista123.com/script/popup_win.js
 5,4,img.vista123.com/images/*3*x*.
 5,4,img.vista123.com/images/355_80_cd.gif
+5,4,img.vista123.com/images/saayaa*.gif
 5,4,img.vista123.com/images/TweakCube468.gif
 5,4,img.vista123.com/images/win7master.gif
 5,4,*.vista123.cn/notice.js
@@ -2232,6 +2239,7 @@
 5,4,33.autohome.com.cn*
 5,4,*.acfun.tv/json/newad.xml
 5,4,ads3.epochtimes.com/*
+5,4,gc1069.com/bbs/images/default/*X*.gif
 5,4,*aybook.cn/love/*
 5,4,pic.hongxiu.com/fox/hx/*
 5,4,*ibook8.com/2/*
@@ -2474,6 +2482,7 @@
 5,4,*.8684.cn/js/*_hid.js
 5,4,js.973.com/gjs/139.js
 5,4,js.973.com/gjs/178.js
+5,4,js.973.com/gjs/268.js
 5,4,js.973.com/gjs/230.js
 5,4,js.973.com/gjs/257.js
 5,4,js.973.com/gjs/268.js
@@ -2911,6 +2920,7 @@
 5,4,*.googlesyndication.com/*
 5,4,*.googleadservices.com/*
 5,4,*/google.js*
+5,4,https://*/google*ad*js*
 5,4,*/google*ad*js*
 5,4,partner.googleadservices.com*
 5,4,*.google-analytics.com/*

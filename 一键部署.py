@@ -67,9 +67,7 @@ while 1:
  atemp = atempfile.readline()
  if( atemp == '' ):  
   break
- elif( atemp == '\n'):
-  print ""
- else:
+ elif( atemp != '\n'):
   afrfile.write( atemp )
 atempfile.close()
 afrfile.close()
@@ -690,11 +688,8 @@ file2 = open("rules_for_liebao.txt","w")
 while 1:
  text = file1.readline()
  if( text == '' ):
-  print ""
   break
- elif( text == '\n'):
-  print ""
- else:
+ elif( text != '\n'):
   file2.write( text )
 file1.close()
 file2.close()
@@ -1023,7 +1018,6 @@ file2 = open("rules_for_KSafe.txt","w")
 while 1:
  text = file1.readline()
  if( text == '' ):
-  print ""
   break
  elif( text != '\n'):
   file2.write( text )
@@ -2745,6 +2739,7 @@ print >> eset2_file, eset2
 
 eset1_file.close()
 eset2_file.close()
+genera_rules_file.close()
 
 #把卡巴斯基版移动回根目录
 import shutil

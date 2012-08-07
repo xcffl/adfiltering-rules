@@ -40,7 +40,7 @@ Copyright 2011 xcffl, Apache License 2.0
 *.net/*/*_ad.js
 *.com/*/*_ad.js
 */banner*.htm
-c.*/*.js*
+5,4,http://c.*/*.js*
 */adpage/*
 */adv760.js*
 */advall.js*
@@ -415,7 +415,7 @@ js.*/code.js
 */bookfloat.js
 */downyc*.js
 */js/show/middle.js
-*/gg_js/
+*/gg_js/*
 */showavd.aspx*
 */gg/jsp/useract/*
 */go/tc.asp*
@@ -467,6 +467,7 @@ js.*/code.js
 */play-d*.js
 */superpop.js
 */lmtwindow.js
+*/images/scroll.js
 */rightfloat.js
 */view_ad*.js
 */y_asp/*
@@ -803,6 +804,8 @@ s.334700.com/*
 code.100Goo.com/*
 *.chenjingli.com/*
 s.tiaosa.cn/*
+v.1717gs.com/*
+t.adyun.com/*
 *.001union.com/*
 *.77union.cn/*
 s.svem.cc/*
@@ -1197,6 +1200,7 @@ js.qizhao.com/*
 *.gsdwj.com/*
 *.6693.cc/*
 *yinjiasm.com/ima/ggtp/*
+a.001media.com/*
 *.zjbdt.com/*
 *.uctrac.com/*
 *.ajiang.net/*
@@ -1318,8 +1322,8 @@ f.qstatic.com/*
 zhidao.ikaka.com/images/game_*.gif
 dr.soso.com/*
 *soso*.*/UploadFiles/2008*.gif
-img.kuai.xunlei.com/img/v2/top*X*_*.*
-img.kuai.xunlei.com/img/v2/side*X*_*.*
+img.kuai.xunlei.com/img/v2/fen/top*X*.*
+img.kuai.xunlei.com/img/v2/fen/side*X*.*
 *mtips.xunlei.com/*
 *websts.xunlei.com/*
 *wy.xunlei.com/*
@@ -1655,6 +1659,7 @@ ik.synacast.com/*
 a.dangdang.com/*
 img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 download.cncmax.js.cn/images/temp/down-banner*.jpg
+count.newhua.com/*
 www.onlinedown.net/newhuagg/daohang.js
 */newhua_index_pic_*.js
 */newhuagg/pptv.jpg
@@ -1737,6 +1742,7 @@ news.xmnn.cn/xwgg/nydb/*
 js.fengwu.net/baidu/*
 static.acs86.com/*
 dwtracking.sdo.com/*
+stat.ku6.com/*.xml
 ku6afp.allyes.com/*
 stat.aa.sdo.com/*
 *stat.ku6.com/*.do?*
@@ -1981,6 +1987,7 @@ www.fbook.net/fbookad/*
 *.vista123.com/script/popup_win.js
 img.vista123.com/images/*3*x*.
 img.vista123.com/images/355_80_cd.gif
+img.vista123.com/images/saayaa*.gif
 img.vista123.com/images/TweakCube468.gif
 img.vista123.com/images/win7master.gif
 *.vista123.cn/notice.js
@@ -2240,6 +2247,7 @@ res.files.131.com/script/notif.js
 33.autohome.com.cn*
 *.acfun.tv/json/newad.xml
 ads3.epochtimes.com/*
+gc1069.com/bbs/images/default/*X*.gif
 *aybook.cn/love/*
 pic.hongxiu.com/fox/hx/*
 *ibook8.com/2/*
@@ -2482,6 +2490,7 @@ www.tv365w.com/sq*.gif
 *.8684.cn/js/*_hid.js
 js.973.com/gjs/139.js
 js.973.com/gjs/178.js
+js.973.com/gjs/268.js
 js.973.com/gjs/230.js
 js.973.com/gjs/257.js
 js.973.com/gjs/268.js
@@ -2919,6 +2928,7 @@ google.mmjq.com/*
 *.googlesyndication.com/*
 *.googleadservices.com/*
 */google.js*
+https://*/google*ad*js*
 */google*ad*js*
 partner.googleadservices.com*
 *.google-analytics.com/*

@@ -1,14 +1,14 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-04 20:16
+!Updated:2012-08-07 16:41:05
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
 !版本_5.1.3
 !Copyright 2011 xcffl, Apache License 2.0
 !-------------通用规则-------------
-/\/js\.ng\//
+/^http:\/\/.*\/js\.ng\//
 /\/37ss\.js/
 /\/configs\/article\/.*\.htm/
 /\/track\./
@@ -22,7 +22,7 @@
 /\/adimg\./
 /\/banner-ad-/
 /\/adv\./
-/\/pv\./
+/^http:\/\/.*\/pv\./
 /\/advpic\//
 /\/advertising\//
 /\/images\/ad\//
@@ -42,7 +42,7 @@
 /\.net\/.*\/.*_ad\.js/
 /\.com\/.*\/.*_ad\.js/
 /\/banner.*\.htm$/
-/:\/\/([^\/]+\.)?c\..*\/.*\.js.*/  $d=~speedtest.net,$w
+/^http:\/\/c\..*\/.*\.js.*,/  $d=,$w
 /\/adpage\//
 /\/adv760\.js/
 /\/advall\.js/
@@ -53,7 +53,7 @@
 /\/eventad\//
 /\.com\/ad\./
 /\/toptip\.js/
-/\/tc\.js/
+/^http:\/\/.*\/tc\.js/
 /\/pingd\?/
 /_ad_iframe\./
 /\/ttads\./
@@ -115,33 +115,33 @@
 /_768x90_/
 /_a468x60\./
 /\/tygg\//
-/cpushpop/
-/dellhome/
-/duilian.*js/
+/^http:\/\/.*cpushpop/
+/^http:\/\/.*dellhome/
+/^http:\/\/.*duilian.*js/
 /\/adbanner\./
 /\/adloader\./
 /\/ads0\./
 /huohu\/huohu\.js/
-/inc_page/
-/pic_shareware/
-/partner\.p4p/
-/adheader\./
-/popunder_ad/
-/qqhao-qq-com/
-/qqbfree-welcometo/
-/qunar_s\.js/
+/^http:\/\/.*inc_page/
+/^http:\/\/.*pic_shareware/
+/^http:\/\/.*partner\.p4p/
+/^http:\/\/.*adheader\./
+/^http:\/\/.*popunder_ad/
+/^http:\/\/.*qqhao-qq-com/
+/^http:\/\/.*qqbfree-welcometo/
+/^http:\/\/.*qunar_s\.js/
 /soft_mid_ad/
-/sunboke/
-/syrightnav\.js/
+/^http:\/\/.*sunboke/
+/^http:\/\/.*syrightnav\.js/
 /vip-qianming-vip/
-/vip-qq-entertainment/
-/yadun/
-/youpiao.*\.js/
+/^http:\/\/.*vip-qq-entertainment/
+/^http:\/\/.*yadun/
+/^http:\/\/.*youpiao.*\.js/
 /\/svnad\//
 /\.adpolestar\./
 /\/adphoto\//
-/clink\./
-/\.ad\./
+/^http:\/\/.*clink\./
+/^http:\/\/.*\.ad\./
 /\.ad1\./
 /\.ads\./
 /\/ads\/.*\.ico/
@@ -152,10 +152,10 @@
 /\/ads\/.*\.jpg/
 /\/clink\//
 /\/.*\.popup\..*\.js/
-/\/a-d-s\//
-/\/a_d\//
+/^http:\/\/.*\/a-d-s\//
+/^http:\/\/.*\/a_d\//
 /\/aadd\//
-/\/ad\.php/
+/^http:\/\/.*\/ad\.php/
 /\/ad2\//
 /\/adbot\./
 /\/adifm_/
@@ -169,37 +169,37 @@
 /\/adlog\//
 /\/adpic\//
 /\/adpics\//
-/adrotator\./
+/^http:\/\/.*adrotator\./
 /\/ads\.php/
 /\/ads_/
 /\/AdsImages\//
-/999ad\.js/
-/copyrightad\.js/
-/footad\.js/
-/waitad\.js/
-/showad\.js/
+/^http:\/\/.*999ad\.js/
+/^http:\/\/.*copyrightad\.js/
+/^http:\/\/.*footad\.js/
+/^http:\/\/.*waitad\.js/
+/^http:\/\/.*showad\.js/
 /:\/\/([^\/]+\.)?adm\..*\//
 /:\/\/([^\/]+\.)?adk\..*\//
-/:\/\/([^\/]+\.)?ad\..*\//
-/playad\.js/
-/advstat\./
-/adslvseed\./
-/adjump\./
+/^http:\/\/ad\..*\//
+/^http:\/\/.*playad\.js/
+/^http:\/\/.*advstat\./
+/^http:\/\/.*adslvseed\./
+/^http:\/\/.*adjump\./
 /\.ulink\./
 /\/adsc\//
 /\/adscripts\//
-/adsence\./
+/^http:\/\/.*adsence\./
 /\/adserver\./
 /\/floatAd\//
 /ads-res\./
 /\/gaog\//
-/\/gg\/.*\.gif/
-/\/gg\/.*\.js/
+/^http:\/\/.*\/gg\/.*\.gif/
+/^http:\/\/.*\/gg\/.*\.js/
 /\/gg_new\//
 /\/ggao\//
 /\/ggpic\//
 /\/ggs\//
-/adview/
+/^http:\/\/.*adview/
 /\/adwidget\.js/
 /\/adzone\/banner/
 /\/banma\.js/
@@ -207,20 +207,20 @@
 /\/chat_float\.js/
 /\/cnfriend\/love\.php/
 /\/dmap\.gif/
-/\/dulian.*js/
+/^http:\/\/.*\/dulian.*js/
 /\/embed_webchat\.js/
 /\/icast\//
-/\..*icast\./
+/^http:\/\/.*\..*icast\./
 /\/icost\//
 /\/js\/html\//
 /\/jsfile\/.*\.htm/
 /\/jsgg\//
-/\/keyrun/
+/^http:\/\/.*\/keyrun/
 /\.keyrun\./
 /\/links\//
-/\/mopgg.*\?/
-/\/mopgg.*js/
-/\/mopgg.*php/
+/^http:\/\/.*\/mopgg.*\?/
+/^http:\/\/.*\/mopgg.*js/
+/^http:\/\/.*\/mopgg.*php/
 /\/nav\/ad/
 /\/other\/js\//
 /\/pagead\//
@@ -230,7 +230,7 @@
 /\/piaofu\.js/
 /\/poppage\.js/
 /\/popwinscript\.js/
-/\/qq\.js/
+/^http:\/\/.*\/qq\.js/
 /\/randm\.js/
 /\/rightad\//
 /\/showad\./
@@ -241,7 +241,7 @@
 /\/softad\//
 /\/union_pop.*js/
 /\/vip_img\//
-/vodone/
+/^http:\/\/.*vodone/
 /\/www\/if\//
 /\/www\/iframe\//
 /\/wwwad\//
@@ -250,120 +250,120 @@
 /\/ysmad\//
 /\/yzjy\/\?age=/
 /\/zolfloat\.js/
-/adserver.*php/
-/adserving/
-/\/adsview/
+/^http:\/\/.*adserver.*php/
+/^http:\/\/.*adserving/
+/^http:\/\/.*\/adsview/
 /\/adcouncil\//
-/cpc\//
-/cpc\./
+/^http:\/\/.*cpc\//
+/^http:\/\/.*cpc\./
 /\/common\/cf\/.*\.jpg/
 /\/common\/cf\/.*\.gif/
 /\/common\/cf\/.*\.png/
 /\/common\/cf\/.*\.swf/
-/cpc_/
-/adunion/
-/aliunion/
-/unionads/
-/_union/
-/linkpage\.js/
+/^http:\/\/.*cpc_/
+/^http:\/\/.*adunion/
+/^http:\/\/.*aliunion/
+/^http:\/\/.*unionads/
+/^http:\/\/.*_union/
+/^http:\/\/.*linkpage\.js/
 /\/showwindow\//
 /\/unipro\//
-/:\/\/([^\/]+\.)?cl\./
-/banners\./
+/^http:\/\/cl\./
+/^http:\/\/.*banners\./
 /\/ads\.js/
 /click\.aspx\?id=/
-/code\?id=/
-/spcode\./
+/^http:\/\/.*code\?id=/
+/^http:\/\/.*spcode\./
 /\/spcode\//
-/\/smscode/
-/clucode\?/
+/^http:\/\/.*\/smscode/
+/^http:\/\/.*clucode\?/
 /\.adpcode\./
 /\/codepic\//
-/\.ad.*js\.php/
-/^un.*js\.php/
-/ad.*\/\.swf/
-/js_ad_.*\.js/
+/^http:\/\/.*\.ad.*js\.php/
+/^http:\/\/un.*js\.php/
+/^http:\/\/.*ad.*\/\.swf/
+/^http:\/\/.*js_ad_.*\.js/
 /\/adclick\.js/
-/jshow\.swf/
+/^http:\/\/.*jshow\.swf/
 /\.com\/ff\.js/
-/\.cn\/.*_gg\./
-/layer.*ight\.swf/
-/linkad\//
-/linkad\./
+/^http:\/\/.*\.cn\/.*_gg\./
+/^http:\/\/.*layer.*ight\.swf/
+/^http:\/\/.*linkad\//
+/^http:\/\/.*linkad\./
 /link\.aspx\?id=/
-/adclient/
-/adcode\./
-/\/adcode/
+/^http:\/\/.*adclient/
+/^http:\/\/.*adcode\./
+/^http:\/\/.*\/adcode/
 /\/guanggao\//
-/js\/cm\.js/
-/\/adshow/
+/^http:\/\/.*js\/cm\.js/
+/^http:\/\/.*\/adshow/
 /\/js\/tan\/.*\.js/
 /\.net.*\/banner\.js/
 /\/cpm\/ids\.js/
 /c\..*\/code_img\//
 /:\/\/([^\/]+\.)?c\..*\/img_/
-/code\..*\/iclk/
+/^http:\/\/.*code\..*\/iclk/
 /code\..*\/show\.php\?/
 /\/adfile\//
 /uijs\.php\?.*=/
-/\/g_js\//
+/^http:\/\/.*\/g_js\//
 /\/flashads\//
 /\/aspnet_client\//
-/\/dd\/.*\.exe/
-/\/aa\/.*\.exe/
+/^http:\/\/.*\/dd\/.*\.exe/
+/^http:\/\/.*\/aa\/.*\.exe/
 /client-get-data/
-/sex8\.exe/
-/newads/
-/cilent\.jar/
+/^http:\/\/.*sex8\.exe/
+/^http:\/\/.*newads/
+/^http:\/\/.*cilent\.jar/
 /\?getexe=/
 /\/incet\/app\//
 /\/incet\/code\//
 /\/incet\/comic\//
 /\/incet\/js\//
-/ashow\?js=/
+/^http:\/\/.*ashow\?js=/
 /\/a_d_code\//
 /\/advert\//
-/adtopyc\.js/
-/\/ad\.js/
-/adbottom\.js/
+/^http:\/\/.*adtopyc\.js/
+/^http:\/\/.*\/ad\.js/
+/^http:\/\/.*adbottom\.js/
 /click_full\.php/
 /\/adsys\//
-/adv\..*\//
-/ashow\./
-/amps\./
-/adcontrol\./
-/index_ad/
-/js_floatwindows/
-/js_popwinforum/
+/^http:\/\/.*adv\..*\//
+/^http:\/\/.*ashow\./
+/^http:\/\/.*amps\./
+/^http:\/\/.*adcontrol\./
+/^http:\/\/.*index_ad/
+/^http:\/\/.*js_floatwindows/
+/^http:\/\/.*js_popwinforum/
 /\/aaaddd\//
 /\/adposition\//
-/\/s\?z=/
+/^http:\/\/.*\/s\?z=/
 /all_content_ad/
-/ggplay\.js/
+/^http:\/\/.*ggplay\.js/
 /\/adsunion\//
 /\/advertise_images\//
 /ad-apac\./
 /rd\.htm\?id=/
 /&z_c_url=/
 /&z_scd=/
-/&z_sw=/
-/&z_sh=/
-/&z_uc_ks=/
+/^http:\/\/.*&z_sw=/
+/^http:\/\/.*&z_sh=/
+/^http:\/\/.*&z_uc_ks=/
 /C\.Html\?P=/
 /\?searchterms=/
 /\/adjs\//
 /\/js\/playhd\.js/
-/\/gg\.js/
+/^http:\/\/.*\/gg\.js/
 /\/js\/index-1\.js/
-/tongji\.js/
+/^http:\/\/.*tongji\.js/
 /\/foot\.js/
-/\/c_2\//
-/:\/\/([^\/]+\.)?a-m-s\./
+/^http:\/\/.*\/c_2\//
+/^http:\/\/a-m-s\./
 /\/adcontrol\//
-/advjs.*\.js/
+/^http:\/\/.*advjs.*\.js/
 /^c\..*\/chat\//
 /^c\..*\?aid=/
-/floatad\.js/
+/^http:\/\/.*floatad\.js/
 /\.org.*\/footer\.js/
 /\.com.*\/footer\.js/
 /\/ad_include\//
@@ -371,11 +371,11 @@
 /\.com\/qqad\.js/
 /\/cs\/pic\.gif/
 /\/float\.js/
-/\/ktrace.*\.js/
-/:\/\/([^\/]+\.)?js\..*\/i\.js/
+/^http:\/\/.*\/ktrace.*\.js/
+/^http:\/\/js\..*\/i\.js/
 /:\/\/([^\/]+\.)?js\..*\/code\.js/
-/\/saleloader.*\.js/
-/\/js\/_gg\//
+/^http:\/\/.*\/saleloader.*\.js/
+/^http:\/\/.*\/js\/_gg\//
 /\/jsad\//
 /\/adiframe\//
 /\/adpolestar\//
@@ -387,9 +387,9 @@
 /\/template\/kankan\/images\/1/
 /\/lzad\//
 /\/ggjs\//
-/\/akcms/
+/^http:\/\/.*\/akcms/
 /\/guochan\/.*\.j/
-/\/nr.*\.js/
+/^http:\/\/.*\/nr.*\.js/
 /\/zijigg\//
 /\/adhtml\//
 /\/adqq\//
@@ -412,15 +412,15 @@
 /\.me.*\/header\.js/
 /\.co\/.*\/header\.js/
 /\.org.*\/header\.js/
-/\.cn.*\/header\.js/  $d=~bj-ibook.cn,$w
+/\.cn.*\/header\.js,/  $d=,$w
 /get_ad\.php\?ad_id=/
 /\/bookfloat\.js/
-/\/downyc.*\.js/
+/^http:\/\/.*\/downyc.*\.js/
 /\/js\/show\/middle\.js/
-/\/gg_js\//
+/^http:\/\/.*\/gg_js\//
 /\/showavd\.aspx/
 /\/gg\/jsp\/useract\//
-/\/go\/tc\.asp/
+/^http:\/\/.*\/go\/tc\.asp/
 /\/guangao\/js\/.*\.js/
 /\/ipush_jsp\/server\.jsp/
 /\/js\/tan2\//
@@ -433,7 +433,7 @@
 /\/news_gonggao\.js/
 /\/readadend\.js/
 /\/amp\/.*isplay.*d/
-/\/advjs/
+/^http:\/\/.*\/advjs/
 /\/ad_images\//
 /\/req_ads_.*\.js/
 /\/adpuba\//
@@ -443,7 +443,7 @@
 /\/click\.js\?=/
 /\/stat\.php\?ad_id/
 /\/ggimg\/.*\.gif/
-/\/adbot.*\.js/
+/^http:\/\/.*\/adbot.*\.js/
 /\/js_softdown_picshow.*\.js/
 /\/js_softdown_left_picshow.*\.js/
 /\/ggxc\//
@@ -459,7 +459,7 @@
 /\/alltc\.js/
 /\/index_top\.js/
 /\/asd\.js/
-/\/d_d\.js/
+/^http:\/\/.*\/d_d\.js/
 /\/indexbottom\.js/
 /\/paa\.js/
 /\/ecom\.js/
@@ -469,6 +469,7 @@
 /\/play-d.*\.js/
 /\/superpop\.js/
 /\/lmtwindow\.js/
+/\/images\/scroll\.js/
 /\/rightfloat\.js/
 /\/view_ad.*\.js/
 /\/y_asp\//
@@ -489,7 +490,7 @@
 /\/.*\.swf\?url0=/
 /\/enetshow\.shtml.*=/
 /\/batch\.jasd\.php\?id=/
-/a_d_s/
+/^http:\/\/.*a_d_s/
 /\/show\.php\?z_uid=/
 /\/.*aspx\?url=/
 /\/srp-p4p-min\.js\?/
@@ -509,7 +510,7 @@
 /action=redir.*_splash&url=/
 /\/ui\.js\.php\?siteid=/
 /\/at_tan\.php\?/
-/\/pv\?s=/
+/^http:\/\/.*\/pv\?s=/
 /\/com_spe\.js\?p=/
 /\/advertisement\//
 /\/adpolicy\.aspx\?/
@@ -519,7 +520,7 @@
 /\/click\/.*png/
 /\/click\/.*jpg/
 /\/click\/.*js/
-/clickDownAjax.*\.js/
+/^http:\/\/.*clickDownAjax.*\.js/
 /_click\.js/
 /\/stat\.do\?videoId=/
 /\/.*lick\.html\?adid=/
@@ -531,33 +532,33 @@
 /\/ad\.asp\?/
 /\/oyksoft_pic\//
 /\/images\/a\//
-/aclk\?sa=/
-/click_.*\.jsp/
+/^http:\/\/.*aclk\?sa=/
+/^http:\/\/.*click_.*\.jsp/
 /lady\.php\?pid=/
 /\/shouyeguanggao\//
-/\/AD\.gif/
+/^http:\/\/.*\/AD\.gif/
 /\?gopage=/
 /\/taobao\.gif/
-/qvodstat\.js/
+/^http:\/\/.*qvodstat\.js/
 /\/guanggao-pic\//
 /\?bannerID=/
 /\/picshow\.swf\?/
 /\/ejinad\//
-/\?.*_chatAD/
-/_insideAD/
-/_tribeAD/
-/_friendBanner/
-/_tribeBanner/
+/^http:\/\/.*\?.*_chatAD/
+/^http:\/\/.*_insideAD/
+/^http:\/\/.*_tribeAD/
+/^http:\/\/.*_friendBanner/
+/^http:\/\/.*_tribeBanner/
 /\/adboard\//
 /\/ad_buynow\.gif/
 /\/awugrc\.jpg/
 /&AdID=/
 /\.org.*\/data\/attachment\/common\/.*\.gif/
 /\/mini_html01\//
-/\/viger.*\./
+/^http:\/\/.*\/viger.*\./
 /\/tao-jipiao\.jpg/
 /\/gkgou\.gif/
-/\/DS-2\.swf/
+/^http:\/\/.*\/DS-2\.swf/
 /\/images\/ad_.*\.jpg/
 /\/g\.html\?au_aud=/
 /&au_sid=/
@@ -579,7 +580,7 @@
 /\/adsclick\?/
 /\/adfclick\?db=/
 /\/indexAd\.html\?/
-/\/jj\.gif/
+/^http:\/\/.*\/jj\.gif/
 /\/images\/.*\/htad\.gif/
 /\/images\/.*\/360\/1vs1\.gif/
 /\/adv_3b2g\.js/
@@ -588,7 +589,7 @@
 /:\/\/([^\/]+\.)?acs\./
 /\/GetAdContent\.aspx/
 /\/aaAssembly\//
-/\/gg_a\.xml/
+/^http:\/\/.*\/gg_a\.xml/
 /\/iframe\/gd_xxg_ad\.js/
 /\/js\/adDetail1\.js/
 /\/floatad_n\.js/
@@ -608,7 +609,7 @@
 /\/adinfo\//
 /\/attachment\/pushpic\//
 /\/ADEvent\//
-/\/_ad\//
+/^http:\/\/.*\/_ad\//
 /\/adgg\//
 /\/zqtad\//
 /\/GreenxfAD\//
@@ -626,7 +627,7 @@
 /&stype=endAD/
 /\/510379ad\//
 /\/hdad\//
-/\/wk_ad\//
+/^http:\/\/.*\/wk_ad\//
 /\/AdPreview\//
 /\/baobei_ad\.php/
 /\/xilanad\.js/
@@ -647,15 +648,15 @@
 /\/webafp\?/
 /\/tanchuang\//
 /\/images\/gg\//
-/www.*\/gg\//
+/^http:\/\/.*www.*\/gg\//
 /\.com\/gg\//
 /\.com\.cn\/gg\//
 /\.net\/gg\//
 /\/counts\./
 /m\/count\./
 /\/pv\?peerid=/
-/pv\..*\.cc/
-/pv\..*\.org/
+/^http:\/\/.*pv\..*\.cc/
+/^http:\/\/.*pv\..*\.org/
 /pv\..*\.com\//
 /\.com\/pv\//
 /\/hiido\.js/
@@ -682,7 +683,7 @@
 /\/queerchina\.gif/
 /\/wankvids\//
 /\/pic\/ashley_and_maca_2\/images\//
-/\/ggad.*\.html/
+/^http:\/\/.*\/ggad.*\.html/
 /\.net.*\/html\.ng\//
 /\.com.*\/html\.ng\//
 /\/wwefs_.*\.jpg/
@@ -701,27 +702,27 @@
 /\/adsfile\//
 /\/vpnad\.jpg/
 /\/headwww\.js/
-/\/ad\/.*\.php/
-/\/ad\/.*\.html/
-/\/ad\/.*\.htm/
+/^http:\/\/.*\/ad\/.*\.php/
+/^http:\/\/.*\/ad\/.*\.html/
+/^http:\/\/.*\/ad\/.*\.htm/
 /\/client_down\.html/
-/\/ad\/.*-.*\.jpg/
+/^http:\/\/.*\/ad\/.*-.*\.jpg/
 /\/ad\/photo\//
 /\/skin\/ad\//
-/\/js\/ad\//
+/^http:\/\/.*\/js\/ad\//
 /\/image\/ad\//
 /\/html\/ad\//
 /\/bbs_list\/ad\//
-/\/ad\/.*X.*\.jpg/
-/\/ad\/.*\.js/
-/\/ad\/.*\.gif/
-/\/ad\/.*\.css/
-/\/ad\/.*\.bmp/
+/^http:\/\/.*\/ad\/.*X.*\.jpg/
+/^http:\/\/.*\/ad\/.*\.js/
+/^http:\/\/.*\/ad\/.*\.gif/
+/^http:\/\/.*\/ad\/.*\.css/
+/^http:\/\/.*\/ad\/.*\.bmp/
 /\.com\.tw\/ad\//
 /\.com\.cn\/ad\//
-/com.*\/ad\/.*\.swf/
-/\/ad\/.*=/
-/\/ad\/ad\./
+/^http:\/\/.*com.*\/ad\/.*\.swf/
+/^http:\/\/.*\/ad\/.*=/
+/^http:\/\/.*\/ad\/ad\./
 /\/popcode\.js/
 /\/ad-images\//
 /\/adFloatPage_.*\.js/
@@ -729,10 +730,10 @@
 /\/vpndaili\.jpg/
 /\/adv\//
 /\/adplayer\.swf/
-/\/ad_Top/
+/^http:\/\/.*\/ad_Top/
 /\/sflash\//
-/\/ad\.swf/
-/\/ad\/.*_ad\.jpg/
+/^http:\/\/.*\/ad\.swf/
+/^http:\/\/.*\/ad\/.*_ad\.jpg/
 /\/float_ad_replay\.gif/
 /\/headnx\.js/
 /\/ad_api\//
@@ -746,28 +747,28 @@
 /\/playerbottomad\.htm/
 /\/fm_ad_close\.gif/
 /\/adkids\//
-/fboat\.cn/
-/banner\.duilian/
+/^http:\/\/.*fboat\.cn/
+/^http:\/\/.*banner\.duilian/
 /\/tui_guang\//
-/-ad\//
+/^http:\/\/.*-ad\//
 /g\..*\/index\.html\?agent_id=.*&placeid=/
 /\/data\/attachment\/common\/cf\//
 /img\..*\/attachments\/month_1011\/.*\.jpg/
 /box_home\.xml/
-/lanmang\.gif/
-/mobilepop/
-/overture_ads/
+/^http:\/\/.*lanmang\.gif/
+/^http:\/\/.*mobilepop/
+/^http:\/\/.*overture_ads/
 /sashare_player\.htm/
 /\/ad\/click\//
 /\/clickad\?/
 /\/adplayer\//
 /\/ADScript\//
-/now\.cn\/\?/
+/^http:\/\/.*now\.cn\/\?/
 /&view=ad&/
 /\/guanggao_img\//
 /\/ad_img\//
 /\/ADPlayer_.*\.swf/
-/\/gg_ad\//
+/^http:\/\/.*\/gg_ad\//
 /\/zbxxg2009b\/ggw\/dmtgg\//
 !-------------广告联盟-------------
 /\.0252\.com\//
@@ -806,6 +807,8 @@
 /:\/\/([^\/]+\.)?code\.100Goo\.com\//
 /\.chenjingli\.com\//
 /:\/\/([^\/]+\.)?s\.tiaosa\.cn\//
+/:\/\/([^\/]+\.)?v\.1717gs\.com\//
+/:\/\/([^\/]+\.)?t\.adyun\.com\//
 /\.001union\.com\//
 /\.77union\.cn\//
 /:\/\/([^\/]+\.)?s\.svem\.cc\//
@@ -847,9 +850,9 @@
 /\.565882\.com\//
 /\.91sanguo\.cn/
 /\.6dad\.com\//
-/allyes\..*\/ad/
+/^http:\/\/.*allyes\..*\/ad/
 /\.9elm\.cn\//
-/\.9v\.cn\//
+/^http:\/\/.*\.9v\.cn\//
 /\.9vcpm\.cn\//
 /:\/\/([^\/]+\.)?code\.ze5\.com\//
 /\.adbrite\.com\//
@@ -869,7 +872,7 @@
 /\.burstmedia\.com\//
 /\.chinaih\.com\//
 /\.chitika\.com\//
-/\.clickeye.*\.cn\//
+/^http:\/\/.*\.clickeye.*\.cn\//
 /\.cnxad\.com\//
 /\.cnzz\.com\/api\/.*\.js/
 /\.counter\.dudu\.com\//
@@ -972,7 +975,7 @@
 /:\/\/([^\/]+\.)?98\.126\.54\.107\/.*.gif/
 /:\/\/([^\/]+\.)?dhcode\.cn3\.cn/
 /:\/\/([^\/]+\.)?display\.xpresssyndication\.com/
-/dotmore\.cn/
+/^http:\/\/.*dotmore\.cn/
 /dw-cn\.com\.com\//
 /:\/\/([^\/]+\.)?ec\.131377\.com/
 /:\/\/([^\/]+\.)?file\.chanet\.com\.cn/
@@ -998,7 +1001,7 @@
 /\.unionsky\.cn\//
 /\.jizzads\.com\//
 /\.adsue\.com\//
-/wangrong1002\.com/
+/^http:\/\/.*wangrong1002\.com/
 /:\/\/([^\/]+\.)?res\.9dzc\.com\/tcjs\//
 /\.heroclick\.cn\//
 /\.000wan\.com\//
@@ -1018,20 +1021,20 @@
 /:\/\/([^\/]+\.)?img\.shenduchuanmei\.com\/a\//
 /\.wrating\.com\//
 /inter-focus\.cn\//
-/ip686\.com/
+/^http:\/\/.*ip686\.com/
 /ivru\.moyu\.com/
 /:\/\/([^\/]+\.)?js\.62826\.com/
 /:\/\/([^\/]+\.)?js\.coogao\.cn/
 /:\/\/([^\/]+\.)?js1\.339\.cn/
 /:\/\/([^\/]+\.)?jsa\.733\.com/
 /:\/\/([^\/]+\.)?union\.netease\.com\//
-/kanoodle\.com/
-/lelecpp\.com/
-/linkpage\.cn\//
+/^http:\/\/.*kanoodle\.com/
+/^http:\/\/.*lelecpp\.com/
+/^http:\/\/.*linkpage\.cn\//
 /:\/\/([^\/]+\.)?i\.84232\.com\//
 /:\/\/([^\/]+\.)?mmm\.mm5208\.com/
 /:\/\/([^\/]+\.)?monitor\.yigao\.com/
-/myad\.cn\//
+/^http:\/\/.*myad\.cn\//
 /:\/\/([^\/]+\.)?online4\.lianmeng\.com/
 /:\/\/([^\/]+\.)?p\.wanliuliang\.com\//
 /:\/\/([^\/]+\.)?p4p\.cnaz\.com/
@@ -1048,12 +1051,12 @@
 /qqmms\.net\/adlink\//
 /questionmarket\.com\//
 /:\/\/([^\/]+\.)?resource\.communicatte\.com/
-/smartcreative\.cn\//
+/^http:\/\/.*smartcreative\.cn\//
 /:\/\/([^\/]+\.)?sms\.wellsms\.com\//
 /:\/\/([^\/]+\.)?teamwork\.enorth\.com\.cn\//
 /:\/\/([^\/]+\.)?33\.autohome\.cn\/file\//
 /\.irs09\.com\//
-/allyesky\.cn\/js\//
+/^http:\/\/.*allyesky\.cn\/js\//
 /:\/\/([^\/]+\.)?au\.ipart\.cn\/comp\/hooks.php/
 /:\/\/([^\/]+\.)?c\.91wan\.com\//
 /:\/\/([^\/]+\.)?c\.sfilm\.com\//
@@ -1161,7 +1164,7 @@
 /:\/\/([^\/]+\.)?www\.91tel\.com\//
 /:\/\/([^\/]+\.)?www\.99xqw\.com\//
 /:\/\/([^\/]+\.)?www\.algj-27dy\.cn\/.*.html/
-/7794\.com/
+/^http:\/\/.*7794\.com/
 /:\/\/([^\/]+\.)?www\.lduhtrp\.net\//
 /:\/\/([^\/]+\.)?www\.d9ad\.com\//
 /:\/\/([^\/]+\.)?www\.linkiis\.cn\//
@@ -1181,11 +1184,11 @@
 /\.88210212\.com\//
 /\.8369\.info\//
 /66-77\.com\//
-/adpower\.cn\//
+/^http:\/\/.*adpower\.cn\//
 /\.dn888\.com:85\//
 /\.2bj\.cn:8899\//
 /\.dn888\.com\//
-/5622\.cn\//
+/^http:\/\/.*5622\.cn\//
 /woniu666\.com\//
 /\.blogad\.com\.tw\//
 /:\/\/([^\/]+\.)?s\.dalu2000\.com\/sitespread.php\?/
@@ -1201,6 +1204,7 @@
 /\.gsdwj\.com\//
 /\.6693\.cc\//
 /yinjiasm\.com\/ima\/ggtp\//
+/:\/\/([^\/]+\.)?a\.001media\.com\//
 /\.zjbdt\.com\//
 /\.uctrac\.com\//
 /\.ajiang\.net\//
@@ -1331,8 +1335,8 @@
 /:\/\/([^\/]+\.)?dr\.soso\.com\//
 /soso.*\..*\/UploadFiles\/2008.*\.gif/
 !----迅雷&狗狗&快传----
-/:\/\/([^\/]+\.)?img\.kuai\.xunlei\.com\/img\/v2\/top.*X.*_.*./
-/:\/\/([^\/]+\.)?img\.kuai\.xunlei\.com\/img\/v2\/side.*X.*_.*./
+/:\/\/([^\/]+\.)?img\.kuai\.xunlei\.com\/img\/v2\/fen\/top.*X.*./
+/:\/\/([^\/]+\.)?img\.kuai\.xunlei\.com\/img\/v2\/fen\/side.*X.*./
 /mtips\.xunlei\.com\//
 /websts\.xunlei\.com\//
 /wy\.xunlei\.com\//
@@ -1441,8 +1445,8 @@
 /:\/\/([^\/]+\.)?image\.p4p\.sogou\.com\/picad\//
 /:\/\/([^\/]+\.)?brand\.sogou\.com\//
 /sogou\.com\/textlink/
-/sogou_ad.*js/
-/sogou_ad.*php/
+/^http:\/\/.*sogou_ad.*js/
+/^http:\/\/.*sogou_ad.*php/
 /:\/\/([^\/]+\.)?count\.vrs\.sohu\.com\/.*.swf/
 /:\/\/([^\/]+\.)?count\.vrs\.sohu\.com\/.*.xml/
 /:\/\/([^\/]+\.)?js\.sohu\.com\/wrating0820.js/
@@ -1451,9 +1455,9 @@
 /:\/\/([^\/]+\.)?hd\.sohu\.com\.cn\/.*.swf/
 /:\/\/([^\/]+\.)?data\.vrs\.sohu\.com\/player.gif\?/
 /\.sohu\.com\.cn\/.*\.gif\?.*&uid=/
-/sogouad.*js/
+/^http:\/\/.*sogouad.*js/
 /:\/\/([^\/]+\.)?aty.*\.tv\.sohu\.com\//
-/sogouad.*php/
+/^http:\/\/.*sogouad.*php/
 /:\/\/([^\/]+\.)?inte\.sogou\.com\//
 /:\/\/([^\/]+\.)?images\.sohu\.com\/cs\/htmlfile\/brand\//
 /i3\.itc\.cn\/20101029\/.*_.*_.*_a.*_.*_0\.gif/
@@ -1554,8 +1558,8 @@
 /:\/\/([^\/]+\.)?l\.yimg\.com\/f\/a\/tw\/gif_backup\/ad_.*.gif/
 /\.webmaster\.yahoo\.com\//
 /:\/\/([^\/]+\.)?p\.mm\.cn\.yahoo\.com/
-/yahoo-ads/
-/yahoo760\.html/
+/^http:\/\/.*yahoo-ads/
+/^http:\/\/.*yahoo760\.html/
 /:\/\/([^\/]+\.)?p4p\.cn\.yahoo/
 /:\/\/([^\/]+\.)?yahoo\.overture\.com\//
 /:\/\/([^\/]+\.)?cn\.yimg\.com\/.*\/hp-popup-script-v2.js/
@@ -1700,6 +1704,7 @@
 /:\/\/([^\/]+\.)?img4\.ddimg\.cn\/00074\/pic\/.*_.*_.*x.*_.*.jpg/
 !----华军软件园&牛华网----
 /:\/\/([^\/]+\.)?download\.cncmax\.js\.cn\/images\/temp\/down-banner.*.jpg/
+/:\/\/([^\/]+\.)?count\.newhua\.com\//
 /:\/\/([^\/]+\.)?www\.onlinedown\.net\/newhuagg\/daohang.js/
 /\/newhua_index_pic_.*\.js/
 /\/newhuagg\/pptv\.jpg/
@@ -1803,6 +1808,7 @@
 /:\/\/([^\/]+\.)?static\.acs86\.com\//
 !----酷6----
 /:\/\/([^\/]+\.)?dwtracking\.sdo\.com\//
+/:\/\/([^\/]+\.)?stat\.ku6\.com\/.*.xml/
 /:\/\/([^\/]+\.)?ku6afp\.allyes\.com\//
 /:\/\/([^\/]+\.)?stat\.aa\.sdo\.com\//
 /stat\.ku6\.com\/.*\.do\?/
@@ -1834,7 +1840,7 @@
 !----幻世中文----
 /:\/\/([^\/]+\.)?www\.hszw\.com\/inc\//
 !----SafeBeta----
-/safebeta\.cn\/gg\//
+/^http:\/\/.*safebeta\.cn\/gg\//
 !----Immunet----
 !----九九漫画----
 /\.99comic\.com\/g\//
@@ -2127,6 +2133,7 @@
 /\.vista123\.com\/script\/popup_win\.js/
 /:\/\/([^\/]+\.)?img\.vista123\.com\/images\/.*3.*x.*./
 /:\/\/([^\/]+\.)?img\.vista123\.com\/images\/355_80_cd.gif/
+/:\/\/([^\/]+\.)?img\.vista123\.com\/images\/saayaa.*.gif/
 /:\/\/([^\/]+\.)?img\.vista123\.com\/images\/TweakCube468.gif/
 /:\/\/([^\/]+\.)?img\.vista123\.com\/images\/win7master.gif/
 /\.vista123\.cn\/notice\.js/
@@ -2185,9 +2192,9 @@
 !----小说精灵----
 /:\/\/([^\/]+\.)?js\.xiaoshuojingling\.com\//
 !----猫扑----
-/mopimg\.cn\/tj\//
+/^http:\/\/.*mopimg\.cn\/tj\//
 /:\/\/([^\/]+\.)?pub\.mop\.com\//
-/mopimg\.cn\/dc\//
+/^http:\/\/.*mopimg\.cn\/dc\//
 /:\/\/([^\/]+\.)?imgpub\.mop\.com\/mt\/widget\//
 /mop\.com\/fxb\/js\/fxb\.js/
 /\.mopimg\.cn\/app\/pub\/pub\..*\.js/
@@ -2402,7 +2409,7 @@
 /\.shtimg\.com\/portal\/.*\/.*\/.*\.gif/
 !----世纪佳缘交友网----
 /:\/\/([^\/]+\.)?img\.jiayuan\.com\/w4\/html\/index.*.html/
-/e666\.cn\/db\//
+/^http:\/\/.*e666\.cn\/db\//
 /e666\.cn\/images\/ztwan\.gif/
 !----FileBase.to----
 /filebase\.to\/images\/bg\.png/
@@ -2860,6 +2867,7 @@
 /\.8684\.cn\/js\/.*_hid\.js/
 /:\/\/([^\/]+\.)?js\.973\.com\/gjs\/139.js/
 /:\/\/([^\/]+\.)?js\.973\.com\/gjs\/178.js/
+/:\/\/([^\/]+\.)?js\.973\.com\/gjs\/268.js/
 /:\/\/([^\/]+\.)?js\.973\.com\/gjs\/230.js/
 /:\/\/([^\/]+\.)?js\.973\.com\/gjs\/257.js/
 /:\/\/([^\/]+\.)?js\.973\.com\/gjs\/268.js/
@@ -2931,7 +2939,7 @@
 !----诚信网赚网&诚信精选网赚网----
 /sohoptc\.com\/image\/banner\//
 /sohoptc\.com\/down1\.htm/
-/sohoboy\.ws\/top.*\.htm/
+/^http:\/\/.*sohoboy\.ws\/top.*\.htm/
 !----去哪儿----
 /:\/\/([^\/]+\.)?api\.qunar\.com\/ips.jcp\?/
 !----我去遛一遛！导航网----
@@ -3003,7 +3011,7 @@
 /:\/\/([^\/]+\.)?www\.cngadget\.cn\/taobao\//
 /\.cngadget\.cn\/ad\//
 !----实用小工具----
-/smalltool\.cn\/ad\//
+/^http:\/\/.*smalltool\.cn\/ad\//
 !----瓢虫网----
 /\.icpcw\.com\/epaper\/image\/.*x.*_.*\.jpg/
 !----京东网----
@@ -3036,7 +3044,7 @@
 /:\/\/([^\/]+\.)?pic\.filec2c\.com\/img\/483793ea\//
 /:\/\/([^\/]+\.)?bbs\.tazhao\.com\/api.php\?/
 !----中国网赚论坛----
-/you85\.cn\/1\//
+/^http:\/\/.*you85\.cn\/1\//
 !----西西软件园----
 /cr173\.com\/show\//
 !----绿同网----
@@ -3047,7 +3055,7 @@
 !----好喜爱学习网络----
 /haoxiai\.net\/vip\//
 !----SF123.cc----
-/sf123\.cc\/1\.gif/
+/^http:\/\/.*sf123\.cc\/1\.gif/
 !----橙子免费资源----
 /010dz\.com\/images\/content_undertitle_table\.htm/
 /010dz\.com\/images\/.*_.*\.gif/
@@ -3113,7 +3121,7 @@
 !----参考啊----
 /\.cankaoa\.com\/new\/.*\.js/
 !----同济网----
-/tongji\.net.*\/sp\//
+/^http:\/\/.*tongji\.net.*\/sp\//
 !----绿野户外网----
 /lvye\.cn\/images\/pu\//
 !----pc6下载站----
@@ -3296,7 +3304,7 @@
 /\.uwants\.com\/aeiou\//
 /\.discuss\.com\.hk\/aeiou\//
 !----海词----
-/dict\.cn\/ef\//
+/^http:\/\/.*dict\.cn\/ef\//
 /dict\.cn\/sync2\//
 !----搜狐焦点----
 /focus\.cn\/common\/js\/adm2008\.js/
@@ -3358,7 +3366,7 @@
 /:\/\/([^\/]+\.)?img\.jb51\.net\/imgby\//
 !----豆豆网----
 !----我拉网----
-/55\.la\/gg\//
+/^http:\/\/.*55\.la\/gg\//
 !----飘花资源网----
 /3edyy\.com\/js\//
 !----33MD免费电影----
@@ -3498,7 +3506,7 @@
 /sznews\.com\/2008gg\//
 /sznews\.com\/ad/
 !----新头壳----
-/newtalk\.tw\/ad_/
+/^http:\/\/.*newtalk\.tw\/ad_/
 !----明报网站----
 /mingpao\.com\/image\/banner\/adc\/.*\.jpg/
 !----盛唐军事网----
@@ -3571,7 +3579,8 @@
 /\.googlesyndication\.com\//
 /\.googleadservices\.com\//
 /\/google\.js/
-/\/google.*ad.*js/
+/^https:\/\/.*\/google.*ad.*js/
+/^http:\/\/.*\/google.*ad.*js/
 /:\/\/([^\/]+\.)?partner\.googleadservices\.com/
 /\.google-analytics\.com\//
 /:\/\/([^\/]+\.)?www\.google\.cn\/aclk\?/
@@ -3651,21 +3660,21 @@
 /:\/\/([^\/]+\.)?feo\.staticsdo\.com\//
 /:\/\/([^\/]+\.)?ipic\.staticsdo\.com\//
 !-------------恶意&钓鱼-------------
-/\.26\.la\/.*js/
+/^http:\/\/.*\.26\.la\/.*js/
 /\.2kkk\.com\//
 /\.2t2t\.cn\//
 /\.aiqianming\.cn\//
 /\.web-qq-com\.cn\//
 /:\/\/([^\/]+\.)?360\.legoumall\.com\/\?id=/
 /\.jianfei234\.com\//
-/gaomm\.in\//
+/^http:\/\/.*gaomm\.in\//
 !-------------本站推广-------------
 /:\/\/([^\/]+\.)?stat\.wiseie\.com\//
 /:\/\/([^\/]+\.)?script2\.pingan\.com\/app_js\/pingan\//
 /:\/\/([^\/]+\.)?www\.eshop8\.com\/images\/.*i.*.gif/
 /:\/\/([^\/]+\.)?hitbs\.cn\/img\/banner.jpg/
 /www1\.leeuu\.com\/bbsimg\/gg39\.swf/
-/91.*qianming\.cn/
+/^http:\/\/.*91.*qianming\.cn/
 /:\/\/([^\/]+\.)?www\.22ons\.com\/ons.gif/
 /:\/\/([^\/]+\.)?app4\.733\.com/
 /:\/\/([^\/]+\.)?c03\.caishow\.com/
@@ -3681,7 +3690,7 @@
 /:\/\/([^\/]+\.)?mmscode1\.3bu\.com/
 /:\/\/([^\/]+\.)?mmscode2\.3bu\.com/
 /:\/\/([^\/]+\.)?mmscode3\.3bu\.com/
-/kunlun\.com/
+/^http:\/\/.*kunlun\.com/
 /:\/\/([^\/]+\.)?img\.3bu\.cn\/js\/.*.js/
 /:\/\/([^\/]+\.)?js\.users\.51\.la\/2256258.js/
 /zzshouji\.info\//
@@ -3714,7 +3723,7 @@
 /61\.172\.192\.73\//
 /221\.174\.50\.131\//
 /:\/\/([^\/]+\.)?222\.73\.227\.67\/.*\/dzx\/forum\/.*.jpg/
-!-------------未知-------------
+!-------------待分类-------------
 /\.100190\.com\//
 /\.114\.my\//
 /\.2yt\.net/
@@ -3738,7 +3747,7 @@
 /\.jxkch\.com\//
 /\.moyu\.com\//
 /:\/\/([^\/]+\.)?f\.mtmmt\.com/
-/ggwoool\.com/
+/^http:\/\/.*ggwoool\.com/
 /suflash\.com\/xinyua_xml\.swf/
 /\.8368\.info\//
 /:\/\/([^\/]+\.)?weikush\.elinkhost\.net\//
@@ -3768,14 +3777,14 @@
 /\.ukaka\.com\//
 /\.yeeyoo\.com\//
 /\.zyydy\.com\//
-/3ding\.cn\/i\.js/
-/bannerboxes\.com/
+/^http:\/\/.*3ding\.cn\/i\.js/
+/^http:\/\/.*bannerboxes\.com/
 /conline\.com\/ivy\/image\//
-/feizhou\.net/
-/yite\.cn/
+/^http:\/\/.*feizhou\.net/
+/^http:\/\/.*yite\.cn/
 /hywdh\.cn\/jia0you\//
-/sa20\.com/
-/weloveqianming\.cn\//
+/^http:\/\/.*sa20\.com/
+/^http:\/\/.*weloveqianming\.cn\//
 /:\/\/([^\/]+\.)?hi.*\.totolook\.com\//
 /:\/\/([^\/]+\.)?www\.pybao\.net\//
 /:\/\/([^\/]+\.)?openx\.subvokal\.com\/www\/delivery\//
@@ -3807,8 +3816,6 @@
 /:\/\/([^\/]+\.)?www\.fclub\.cn\/affiche.php\?act=img&ad_id=/
 /:\/\/([^\/]+\.)?www\.54new\.com\/da\//
 !-------------特殊规则-------------
-!-------------待分类-------------
-/:\/\/([^\/]+\.)?a\.001media\.com\//
 !--------------[元素隐藏规则]
 !-------------通用规则
 ##[id^=ab_],[id*=AD_]
@@ -3826,6 +3833,11 @@
 !----火狐主页
 ##banner_show1	$d=i.firefoxchina.cn
 !-------------其他
+##ad_left	$d=51job.com#@
+##ad_right	$d=51job.com#@
+##head_ad	$d=52vfx.com#@
+##top_ad	$d=bbs.9baka.com
+##top_ad	$d=bbs.9gal.com#@
 ##.banner-top	$d=115.com
 ##.resource-list > ul	$d=115.com
 ##[class^="gg"]	$d=163.com
@@ -3841,6 +3853,7 @@
 ##sp	$d=youdao.com
 ##adBottom	$d=youdao.com
 ##ext	$d=www.youdao.com
+##advt	$d=178.com#@
 ##[class^="ad-2"]	$d=178.com
 ##.banner.area	$d=news.21cn.com
 ##td[height="35"]	$d=search.21cn.com
@@ -3861,6 +3874,7 @@
 ##.notice	$d=admin5.com
 ##a2	$d=down.admin5.com
 ##ad-comment	$d=acfun.tv
+##adlayer	$d=shop.ali213.com#@
 ##banner	$d=ali213.net
 ##.newright	$d=ali213.net
 ##.advarticle	$d=autohome.com.cn
@@ -3887,7 +3901,6 @@
 ##style + table:nth-child(3)	$d=www1.baidu.com
 ##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]	$d=www.baidu.com
 ##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]	$d=www1.baidu.com
-!--image
 ##ecomContainer	$d=image.baidu.com
 ##relEcom	$d=image.baidu.com
 ##relecom54	$d=image.baidu.com
@@ -3895,7 +3908,6 @@
 ##adv_daoliu	$d=mp3.baidu.com
 ##.area-top-ads	$d=mp3.baidu.com
 ##.ecom-ad	$d=mp3.baidu.com
-!--tieba
 ##[id^="guanggao"]	$d=tieba.baidu.com
 ##.l_banner	$d=tieba.baidu.com
 ##frs_banner_ad	$d=tieba.baidu.com
@@ -3924,9 +3936,9 @@
 ##center > div[style="width:85%"]	$d=zidao.baidu.com
 ##center > div[style="width:85%"]	$d=zhidao.baidu.com
 ##adflash	$d=iqiyi.com
+##[id^="div_theatre"]	$d=iqiyi.com
 ##.first_adv	$d=iqiyi.com
 ##.seed	$d=iqiyi.com
-##.mt15	$d=www.iqiyi.com
 ##.bt_ad	$d=bitauto.com
 ##.con_ad	$d=bitauto.com
 ##adhzh	$d=chinanews.com
@@ -4101,6 +4113,7 @@
 ##containermmtypea	$d=jjwxc.net
 ##table[style^="width:984px;"]	$d=jjwxc.net
 ##.aXd	$d=bbs.360.cn
+##ad-container	$d=mb.qq.com#@
 ##.AdBox-Article-QQ	$d=qq.com
 ##.AdTop-Article-QQ	$d=qq.com
 ##.business-Article-QQ	$d=qq.com
@@ -4235,7 +4248,7 @@
 ##[id^="cm"].banner	$d=xunlei.com
 ##.topic_center	$d=xunlei.com
 ##.l_img	$d=kuai.xunlei.com
-##[class^="ad"]	$d=cn.yahoo.com
+##.p_sider	$d=cn.yahoo.com
 ##r_expandable	$d=cn.yahoo.com
 ##.gn_sub_blue	$d=tw.news.yahoo.com
 ##.admod	$d=tw.yahoo.com
@@ -4277,6 +4290,7 @@
 ##.adArea2	$d=xiazaiba.com
 ##.ad68060	$d=gamefy.cn
 ##.float_bottom_right	$d=gamefy.cn
+##content_adv	$d=club.tgfcer.com#@
 ##table[width="960"]	$d=verypsp.com
 ##.kk_xshow	$d=ctdisk.com
 ##filelist_marker	$d=dbank.com
@@ -4303,6 +4317,7 @@
 ##script[src="/js/ad.js"] + #table1	$d=taihe.net
 ##[class^="ad"]	$d=yesky.com
 ##[id^="ad0"]	$d=17k.com
+##adtop	$d=24novel.com#@
 ##.header-banner	$d=3gsc.com.cn
 ##.area > a[href^="http://wan.3gsc.com.cn"]	$d=3gsc.com.cn
 ##table[width="950PX"]	$d=binhuo.com
@@ -4318,6 +4333,7 @@
 ##.rightbanner	$d=xxsy.net
 ##[id^="adv"]	$d=zhulang.com
 ##.coverpageadv01	$d=zhulang.com
+##adtop	$d=zzzcn.com#@
 ##.bm.a_c	$d=www.chdtv.net
 ##sitefocus.focus	$d=www.chdtv.net
 ##.cover_bd	$d=aipai.com
@@ -4368,7 +4384,6 @@
 ##.doc_tl.p9	$d=xici.net
 ##.bm.a_c	$d=www.zasv.com
 ##it_an	$d=zxtjd.com
-!-----------------------Element Hiding---------------------
 ##center	$d=1000fr.net
 ##divadleft	$d=360doc.com
 ##hint + .AdTop-Article-QQ	$d=51caiju.com
@@ -4430,126 +4445,84 @@
 /:\/\/([^\/]+\.)?ad\.ourgame\.com\/cgi-bin\/insertflasha.js/	$w
 /:\/\/([^\/]+\.)?cpro\.baidu\.com\/cpro\/ui\/c\.js/  $d=bbs.9es.cn,$w
 /:\/\/([^\/]+\.)?pos\.baidu\.com\/ecom\?/  $t=script,$d=bbs.9es.cn,$w
-!---Shopping websites
 /:\/\/([^\/]+\.)?a\.banggo\.com\/Ad\/getAdPosList.shtml/	$w
 /@@\/adbanner\/.*/  $t=image,$d=books.com.tw,$w
 /:\/\/([^\/]+\.)?paipai\.com\//  $d=shop.qq.com,$w
 /@@\/advertise\/.*/  $d=suning.com,$w
-!---京东
+/:\/\/([^\/]+\.)?analytics\.163\.com\/ntes\.js/  $d=cbg.163.com,$w
 /:\/\/([^\/]+\.)?adimg\.adtpl\.360buy\.com\/uploads\//	$w
 /:\/\/([^\/]+\.)?book\.360buy\.com\/book\/BookShowService.aspx/	$w
-!---51nb.com
-/:\/\/([^\/]+\.)?51nb\.com\/forum\/images\/.*\//	$w
-!---六间房
+/:\/\/([^\/]+\.)?forum\.51nb\.com\/images\/.*\//	$w
 /:\/\/([^\/]+\.)?pole\.6rooms\.com\/adpolestar\/.*_qtie.swf/	$w
-!---8684
 /:\/\/([^\/]+\.)?js\.973\.com\/ad\/sys_ad_complete\.js/  $d=8684.cn,$w
-!---admin5
 /:\/\/([^\/]+\.)?admin5\.com\/extras\/zz\/inner.head.logo.js/	$w
-!--淘宝
 /:\/\/([^\/]+\.)?tmatch\.simba\.taobao\.com\/\?name=mcad $t=script/	$w
-!---汽车之家
 /:\/\/([^\/]+\.)?33\.autohome\.com\.cn\/njs\/1.js/	$w
-!--MP3
 /:\/\/([^\/]+\.)?cb\.baidu\.com\/ecom\?/  $d=mp3.baidu.com,$w
 /:\/\/([^\/]+\.)?cbjs\.baidu\.com\/js\/m\.js/  $d=mp3.baidu.com,$w
-!---爆米花网
 /:\/\/([^\/]+\.)?cb\.baidu\.com\/crossdomain.xml/	$w
 /:\/\/([^\/]+\.)?cb\.baidu\.com\/ecom\?/  $t=object,$d=baomihua.com|pomoho.com,$w
 /:\/\/([^\/]+\.)?pvstat\.pomoho\.com\/crossdomain.xml/	$w
-!---CC视频
 /:\/\/([^\/]+\.)?union\.bokecc\.com\/flash\//	$w
 /:\/\/([^\/]+\.)?union\.bokecc\.com\/js\/player\//	$w
 /:\/\/([^\/]+\.)?union\.bokecc\.com\/player\?/	$w
 /:\/\/([^\/]+\.)?union\.bokecc\.com\/servlet\/playinfo\?/	$w
 /:\/\/([^\/]+\.)?union\.bokecc\.com\/servlet\/getvideofile\?/	$w
-!---CCTV
 /:\/\/([^\/]+\.)?baidu\.cntv\.cn\/player\/baidu_ad.js/	$w
 /:\/\/([^\/]+\.)?js\.player\.cntv\.cn\/creator\/.*_bg_ad.js/	$w
-!---cnBeta
 /:\/\/([^\/]+\.)?img\.cnbeta\.com\/newsimg\//	$w
 /:\/\/([^\/]+\.)?img\.cnbeta\.com\/upimg\//	$w
-!---点评网
 /:\/\/([^\/]+\.)?dianping\.com\/adwords\//	$w
 /:\/\/([^\/]+\.)?union\.mapbar\.com\/apis\/maps\/ $t=script/	$w
-!---Discuz! & PHPWind etc.
 /\/common\/cf\/.*\.thumb/  $t=image/	$w
-!---风行网
 /:\/\/([^\/]+\.)?q\.funshion\.com\/js.php/	$w
-!---HiNet
 /:\/\/([^\/]+\.)?hichannel\.hinet\.net\//  $t=object,$w
 /:\/\/([^\/]+\.)?p4u\.hinet\.net\/bien12\//  $t=image,$d=webhd.xuite.net,$w
-!---Ku6
 /:\/\/([^\/]+\.)?g\.aa\.sdo\.com\/crossdomain.xml/	$w
 /:\/\/([^\/]+\.)?g\.aa\.sdo\.com\/\?method=getversion/  $t=object,$w
 /:\/\/([^\/]+\.)?my\.ku6\.com\/resource\/images\/feed_ad1.jpg/	$w
 /:\/\/([^\/]+\.)?css\.ku6cdn\.com\/comm\/gg\//	$w
-!--embedded
-/:\/\/([^\/]+\.)?pic\.snyu\.com\/sdk.*\/Main\.swf/  $d=~ku6.com,$w
-!---MSN
-!-CN
+/:\/\/([^\/]+\.)?pic\.snyu\.com\/sdk.*\/Main\.swf,/  $d=,$w
 /:\/\/([^\/]+\.)?msn\.wrating\.com\/a1.js/	$w
-!---驱动之家
 /:\/\/([^\/]+\.)?11\.mydrivers\.com\/www\/2012\/js\/ $t=script/	$w
-!---NextMedia
-!-HK
 /:\/\/([^\/]+\.)?video\.appledaily\.com\.hk\/admedia\//	$w
-!---Nownews
 /:\/\/([^\/]+\.)?nownews\.com\/ad2004\/.*-.*-.*p.png/	$w
 /:\/\/([^\/]+\.)?ad1\.nownews\.com\/ads.php\?ownerid=1294/	$w
-!---东方电视
 /:\/\/([^\/]+\.)?home\.on\.cc\/adv\/web\/corp\//	$w
-!---QQ
 /:\/\/([^\/]+\.)?gtimg\.com\/img\/ad\//  $t=image,$d=buy.qq.com,$w
 /:\/\/([^\/]+\.)?cq\.qq\.com\/js\/cody\/gdad\/all_scroll_ad.js/	$w
 /:\/\/([^\/]+\.)?exp\.qq\.com\/img\/ad\//	$w
-!---巧巧读书
 /:\/\/([^\/]+\.)?qqread\.com\/swf\/qqread_rollpic.swf/	$w
-!---读者文摘
 /:\/\/([^\/]+\.)?readersdigest\.cn\/files\/cn-chn\/pictures\/RD_cn.gif/	$w
-!--sina.com.cn
 /:\/\/([^\/]+\.)?sinaimg\.cn\/.*\/deco\/.*\/common $t=script/	$w
 /:\/\/([^\/]+\.)?sinaimg\.cn\/.*\/deco\/.*\/sinaObj.js/	$w
-!-auto
 /:\/\/([^\/]+\.)?sina\.wrating\.com\/a1\.js/  $d=bbs.auto.sina.com.cn,$w
-!-finance
 /:\/\/([^\/]+\.)?counter\.sina\.com\.cn\/time\?fm=JS/  $d=finance.sina.com.cn,$w
-/:\/\/([^\/]+\.)?sinaimg\.cn\/cj\/deco\/.*\/all\.js/  $d=finance.sina.com.cn,$w
+/:\/\/([^\/]+\.)?sinaimg\.cn\/cj\/deco\//  $t=script,$d=finance.sina.com.cn,$w
 /:\/\/([^\/]+\.)?sinaimg\.cn\/dy\/deco\/.*\/headcj\.js/  $d=finance.sina.com.cn,$w
-!-weibo
 /:\/\/([^\/]+\.)?api\.t\.sina\.com\.cn\/statuses\/counts./	$w
-!---东方宽频
 /:\/\/([^\/]+\.)?acs86\.com\/crossdomain.xml/	$w
 /:\/\/([^\/]+\.)?static\.acs86\.com\/player\//	$w
-!--player may incorrectly blocked by some subscriptions
 /:\/\/([^\/]+\.)?js\.tudouui\.com\/bin\/player/	$w
-!---bbs.vc52.cn
 /:\\/\\/([^\\/]+\\.)\?gg\.a\.5d6d./  $t=image,object_subrequest/	$w
-!---udn
 /:\/\/([^\/]+\.)?video\.udn\.com\/player\/Adv\.swf/  $t=object,$w
 /:\/\/([^\/]+\.)?video\.udn\.com\/udnad\/videoad\.php\//  $t=object,$w
-!---新华网
 /:\/\/([^\/]+\.)?xinhuanet\.com\/static\/rmedia\/pv.swf/	$w
-!--TW
 /@@\/ads\/.*/  $t=image,$d=buy.yahoo.com.tw,$w
 /@@\/flash_general_20090213\.js|/  $d=tw.yahoo.com,$w
 /:\/\/([^\/]+\.)?l\.yimg\.com\/f\/a\/tw\/.*\/790840_.*.swf/	$w
 /:\/\/([^\/]+\.)?l\.yimg\.com\/f\/a\/tw\/elephant\/.*240x94.*.swf/	$w
 /:\/\/([^\/]+\.)?l\.yimg\.com\/zz\/combo\?.*\/ads\/ $t=script/	$w
-!---优酷
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\.swf|/  $d=www.youku.com,$w
 /:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/crossdomain.xml/	$w
 /:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/valf\?/	$w
-!---人人影视
 /:\/\/([^\/]+\.)?copy\.ousns\.com\/new\/1.PNG/	$w
 /:\/\/([^\/]+\.)?copy\.ousns\.com\/new\/2.PNG/	$w
 /:\/\/([^\/]+\.)?copy\.ousns\.com\/new\/3.PNG/	$w
 /:\/\/([^\/]+\.)?copy\.ousns\.com\/new\/4.PNG/	$w
 /:\/\/([^\/]+\.)?copy\.ousns\.com\/new\/5.PNG/	$w
-!---叶子猪游戏网
 /:\/\/([^\/]+\.)?yktj\.yzz\.cn\/htmldata\/mds\/yzz_single_gg\.js/  $d=bbs.yzz.cn,$w
 /:\/\/([^\/]+\.)?plu\.cn\/d\/js\/acmsd\/thea44.js/	$w
-!---Online Novel/Comic Sites
 /\/configs\/article\/bottom\.js/	$w
 /\/configs\/article\/pagebottom\.js/	$w
 /\/configs\/article\/pagetop\.js/	$w
@@ -4558,8 +4531,6 @@
 /:\/\/([^\/]+\.)?shanwen\.com\/configs\/article\/pagetop3.js/	$w
 /:\/\/([^\/]+\.)?shanwen\.com\/scripts\/checkuser.js/	$w
 /:\/\/([^\/]+\.)?xiaoshuo570\.com\/scripts\/read\/page.js/	$w
-!---Private Sites
-!--TTG
 /:\/\/([^\/]+\.)?ttg\.im\/pic\/ttg_logo.png/	$w
 /:\/\/([^\/]+\.)?go\.goyeah\.com\/adpolestar\//  $t=object,$w
 /:\/\/([^\/]+\.)?sopnba\.com\/js\/gb.js/	$w

@@ -64,9 +64,7 @@ while 1:
  atemp = atempfile.readline()
  if( atemp == '' ):  
   break
- elif( atemp == '\n'):
-  print ""
- else:
+ elif( atemp != '\n'):
   afrfile.write( atemp )
 atempfile.close()
 afrfile.close()

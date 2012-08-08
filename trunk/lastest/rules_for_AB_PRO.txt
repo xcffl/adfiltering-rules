@@ -712,6 +712,7 @@ a.*/scripts/common.js
 */html/ad/*
 */bbs_list/ad/*
 */ad/*X*.jpg
+ox-d.*/jstag
 */ad/*.js*
 */ad/*.gif*
 */ad/*.css*
@@ -1233,6 +1234,11 @@ code.aizhuanlove.cn/loveimages/*
 code.aizhuanlove.cn/code/*
 *snyu.com/*
 *.picadmedia.com/*
+cts.tradepub.com/*
+*.intellitxt.com/*
+*.dt07.net/*domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
+*.mgid.com/*.htm
+*.mgid.com/*.js
 static.hhzw.5pk.com/*
 *.keyyou.net/*
 *.cpm9v.cn/*
@@ -1322,8 +1328,7 @@ f.qstatic.com/*
 zhidao.ikaka.com/images/game_*.gif
 dr.soso.com/*
 *soso*.*/UploadFiles/2008*.gif
-img.kuai.xunlei.com/img/v2/fen/top*X*.*
-img.kuai.xunlei.com/img/v2/fen/side*X*.*
+img.kuai.xunlei.com/img/v2/fen/*
 *mtips.xunlei.com/*
 *websts.xunlei.com/*
 *wy.xunlei.com/*
@@ -2335,6 +2340,7 @@ cq.takungpao.com/img*/abv/*
 www.23sc.cn/007/*
 *cqcpu.com/andy/*
 210.51.33.225/*
+static.jjwxc.net/scripts/richMedia.js*
 *.static.jjwxc.net/sp/*.html
 static.jjwxc.net/scripts/richMedia.js
 *.99d.com/images/99d_*x*_*.gif

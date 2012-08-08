@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-07 16:41:05
+!Updated:2012-08-08 19:30:34
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -714,6 +714,7 @@
 /\/html\/ad\//
 /\/bbs_list\/ad\//
 /^http:\/\/.*\/ad\/.*X.*\.jpg/
+/:\/\/([^\/]+\.)?ox-d\..*\/jstag$/
 /^http:\/\/.*\/ad\/.*\.js/
 /^http:\/\/.*\/ad\/.*\.gif/
 /^http:\/\/.*\/ad\/.*\.css/
@@ -1237,6 +1238,11 @@
 /:\/\/([^\/]+\.)?code\.aizhuanlove\.cn\/code\//
 /snyu\.com\//
 /\.picadmedia\.com\//
+/:\/\/([^\/]+\.)?cts\.tradepub\.com\//
+/\.intellitxt\.com\//
+/\.dt07\.net\/.*d=~marketgid\.com|~marketgid\.ru|~marketgid\.ua|~mgid\.com|~thechive\.com/
+/\.mgid\.com\/.*\.htm/
+/\.mgid\.com\/.*\.js/
 /:\/\/([^\/]+\.)?static\.hhzw\.5pk\.com\//
 /\.keyyou\.net\//
 /\.cpm9v\.cn\//
@@ -1335,8 +1341,7 @@
 /:\/\/([^\/]+\.)?dr\.soso\.com\//
 /soso.*\..*\/UploadFiles\/2008.*\.gif/
 !----迅雷&狗狗&快传----
-/:\/\/([^\/]+\.)?img\.kuai\.xunlei\.com\/img\/v2\/fen\/top.*X.*./
-/:\/\/([^\/]+\.)?img\.kuai\.xunlei\.com\/img\/v2\/fen\/side.*X.*./
+/:\/\/([^\/]+\.)?img\.kuai\.xunlei\.com\/img\/v2\/fen\//
 /mtips\.xunlei\.com\//
 /websts\.xunlei\.com\//
 /wy\.xunlei\.com\//
@@ -2641,6 +2646,7 @@
 /cqcpu\.com\/andy\//
 !----晋江文学城----
 /:\/\/([^\/]+\.)?210\.51\.33\.225\//
+/:\/\/([^\/]+\.)?static\.jjwxc\.net\/scripts\/richMedia.js/
 /\.static\.jjwxc\.net\/sp\/.*\.html/
 /:\/\/([^\/]+\.)?static\.jjwxc\.net\/scripts\/richMedia.js/
 !----99d软件园----

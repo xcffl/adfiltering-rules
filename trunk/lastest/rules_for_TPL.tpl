@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-07 16:41:05
+#Updated:2012-08-08 19:30:34
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -713,6 +713,7 @@ msFilterList
 - */html/ad/
 - */bbs_list/ad/
 - http://*/ad/*X*.jpg
+- http://ox-d.*/jstag
 - http://*/ad/*.js
 - http://*/ad/*.gif
 - http://*/ad/*.css
@@ -1236,6 +1237,11 @@ msFilterList
 -d code.aizhuanlove.cn /code/
 - *snyu.com/
 - *.picadmedia.com/
+-d cts.tradepub.com
+- *.intellitxt.com/
+- *.dt07.net/*domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
+- *.mgid.com/*.htm
+- *.mgid.com/*.js
 -d static.hhzw.5pk.com
 - *.keyyou.net/
 - *.cpm9v.cn/
@@ -1334,8 +1340,7 @@ msFilterList
 -d dr.soso.com
 - *soso*.*/UploadFiles/2008*.gif
 #----迅雷&狗狗&快传----
--d img.kuai.xunlei.com /img/v2/fen/top*X*.
--d img.kuai.xunlei.com /img/v2/fen/side*X*.
+-d img.kuai.xunlei.com /img/v2/fen/
 - *mtips.xunlei.com/
 - *websts.xunlei.com/
 - *wy.xunlei.com/
@@ -2640,6 +2645,7 @@ msFilterList
 - *cqcpu.com/andy/
 #----晋江文学城----
 -d 210.51.33.225
+-d static.jjwxc.net /scripts/richMedia.js
 - *.static.jjwxc.net/sp/*.html
 -d static.jjwxc.net /scripts/richMedia.js
 #----99d软件园----

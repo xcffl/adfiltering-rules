@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-08 19:30:34
+#Updated:2012-08-09 11:00:25
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -10,6 +10,7 @@ msFilterList
 - http://*/js.ng/
 - */37ss.js
 - */configs/article/*.htm
+- */advertise.
 - */track.
 - */ads3.
 - *.com*/configs/article/*.js
@@ -806,6 +807,7 @@ msFilterList
 -d s.334700.com
 -d code.100Goo.com
 - *.chenjingli.com/
+-d u.mimiduo.com
 -d s.tiaosa.cn
 -d v.1717gs.com
 -d t.adyun.com
@@ -1069,6 +1071,7 @@ msFilterList
 -d code.158ad.com
 -d code.qqgou.com
 -d www.xixianad.com
+- *.linkbucksmedia.com/director/
 - http://d*.zedo.com/
 - *.826060.com/
 - *.1o26.com/
@@ -1708,7 +1711,9 @@ msFilterList
 -d img4.ddimg.cn /00074/pic/*_*_*x*_*.jpg
 #----华军软件园&牛华网----
 -d download.cncmax.js.cn /images/temp/down-banner*.jpg
+# |*/newhuagg/js_*$domain=newhua.com|onlinedown.net
 -d count.newhua.com
+# |*/newhuagg/article_*$domain=newhua.com|onlinedown.net
 -d www.onlinedown.net /newhuagg/daohang.js
 - */newhua_index_pic_*.js
 - */newhuagg/pptv.jpg
@@ -1717,9 +1722,7 @@ msFilterList
 - */js_newhua_picshow*.js
 - */js_newhua_right_picshow*.js
 - */js_newhua_txtshow*.js
-- */newhuagg/*.gif
 - */newhuagg/*.swf
-- */newhuagg/*_*_*.js
 #----金山词霸----
 -d u.iciba.com
 - *.iciba.com/images/toef.jpg
@@ -3678,6 +3681,7 @@ msFilterList
 -d script2.pingan.com /app_js/pingan/
 -d www.eshop8.com /images/*i*.gif
 -d hitbs.cn /img/banner.jpg
+-d geobanner.outpersonals.com
 - *www1.leeuu.com/bbsimg/gg39.swf
 - http://*91*qianming.cn
 -d www.22ons.com /ons.gif

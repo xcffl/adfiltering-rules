@@ -1,6 +1,7 @@
 5,4,*/js.ng/*
 5,4,*/37ss.js*
 5,4,*/configs/article/*.htm
+5,4,*/advertise.*
 5,4,*/track.*
 5,4,*/ads3.*
 5,4,*.com*/configs/article/*.js
@@ -796,6 +797,7 @@
 5,4,s.334700.com/*
 5,4,code.100Goo.com/*
 5,4,*.chenjingli.com/*
+5,4,u.mimiduo.com/*
 5,4,s.tiaosa.cn/*
 5,4,v.1717gs.com/*
 5,4,t.adyun.com/*
@@ -1058,6 +1060,7 @@
 5,4,code.158ad.com/*
 5,4,code.qqgou.com/*
 5,4,www.xixianad.com/*
+5,4,*.linkbucksmedia.com/director/*
 5,4,d*.zedo.com/*
 5,4,*.826060.com/*
 5,4,*.1o26.com/*
@@ -1656,7 +1659,9 @@
 5,4,a.dangdang.com/*
 5,4,img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 5,4,download.cncmax.js.cn/images/temp/down-banner*.jpg
+5,4,*/newhuagg/js_*
 5,4,count.newhua.com/*
+5,4,*/newhuagg/article_*
 5,4,www.onlinedown.net/newhuagg/daohang.js
 5,4,*/newhua_index_pic_*.js
 5,4,*/newhuagg/pptv.jpg
@@ -1665,9 +1670,7 @@
 5,4,*/js_newhua_picshow*.js
 5,4,*/js_newhua_right_picshow*.js
 5,4,*/js_newhua_txtshow*.js
-5,4,*/newhuagg/*.gif
-5,4,*/newhuagg/*.swf
-5,4,*/newhuagg/*_*_*.js
+5,4,*/newhuagg/*.swf*
 5,4,u.iciba.com/*
 5,4,*.iciba.com/images/toef.jpg
 5,4,iciba.englishtown.com/Sp/Landing/*
@@ -3012,6 +3015,7 @@
 5,4,script2.pingan.com/app_js/pingan/*
 5,4,www.eshop8.com/images/*i*.gif
 5,4,hitbs.cn/img/banner.jpg
+5,4,geobanner.outpersonals.com/*
 5,4,*www1.leeuu.com/bbsimg/gg39.swf
 5,4,*91*qianming.cn*
 5,4,www.22ons.com/ons.gif

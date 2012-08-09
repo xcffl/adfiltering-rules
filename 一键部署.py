@@ -9,7 +9,7 @@
 import urllib
 import re, os
 import time
-chinalistfile = urllib.urlopen('http://adblock-chinalist.googlecode.com/svn/trunk/adblock.txt')
+chinalistfile = urllib.urlopen('http://adblock-chinalist.googlecode.com/svn/trunk/adblock-lazy.txt')
 chinalist = chinalistfile.read()
 
 #读取afr，合并到同一字符串
@@ -72,6 +72,8 @@ while 1:
 atempfile.close()
 afrfile.close()
        
+
+
 #删除临时文件
 atempfile ='rules_for_ABP.temp.txt'   
 os.remove(atempfile)
@@ -265,22 +267,33 @@ def writeRule(filePath, lines):
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt''', line)
       result.append(line)
     elif line.find('#') >= 0:
-      # 如果是元素隐藏规则     
-      
-      #没域名的全局规则直接添加
-      
+      # 如果是元素隐藏规则
+      #猎豹浏览器暂不支持domain~的排除规则，删掉排除
+      line = re.sub(r',~[^,#]+(?=#)', '', line)
+      line = re.sub(r'^~[^,]+,', '', line)
+      line = re.sub(r'^~[^,#]+(?=#)', '', line)     
+      #没域名的全局规则直接添加      
       if re.search(r'^###', line):
         result.append(line)
       elif re.search(r'^##', line):
         result.append(line)
+        
+            
       #有域名的调转域名位置
       elif re.search(r'.+###', line):
+        
         l = line.split('###')
         for line in l:
+
           dm = l[0]
           eh = l[1]
+ 
+        
+        
+          
         #多个域名的就分割掉
-        if re.search(r'(?<=\w),(?=\w)', dm):
+        if re.search(r'(?<=[^,]),(?=[^,])', dm):
+          
           cut = dm.split(',')
           times = len(cut)         
           
@@ -289,9 +302,12 @@ def writeRule(filePath, lines):
             for dm in cut:
               dm1 = cut[0]
               dm2 = cut[1]
+
             
             line = '''###%s	$d=%s\n###%s	$d=%s''' %(eh,dm1,eh,dm2)
             
+
+          
           if times == 4:
             for dm in cut:
               dm1 = cut[0]
@@ -302,10 +318,12 @@ def writeRule(filePath, lines):
 ##%s	$d=%s
 ##%s	$d=%s
 ##%s	$d=%s''' %(eh,dm1,eh,dm2,eh,dm3,eh,dm4)
+            
           #else:
             #print '====n1====\n' + line
         else:
-          line = '##%s	$d=%s' %(eh,dm)	
+          line = '##%s	$d=%s' %(eh,dm)
+        result.append(line)
       #两个#的话
       elif re.search(r'.+##', line):
         l = line.split('##')
@@ -313,15 +331,18 @@ def writeRule(filePath, lines):
           dm = l[0]
           eh = l[1]
         #多个域名分割掉
-        if re.search(r'(?<=\w),(?=\w)', dm):
+        if re.search(r'(?<=[^,]),(?=[^,])', dm):
           cut = dm.split(',')
           times = len(cut)          
           if times == 2:
             for dm in cut:
               dm1 = cut[0]
               dm2 = cut[1]
+            #生成多行
             line = '''##%s	$d=%s
 ##%s	$d=%s''' %(eh,dm1,eh,dm2)
+            
+            
           if times == 4:
             for dm in cut:
               dm1 = cut[0]
@@ -335,11 +356,11 @@ def writeRule(filePath, lines):
           #else:
             #print '====n2====\n' + line
         else:
-          line = '##%s	$d=%s' %(eh,dm)	
+          line = '##%s	$d=%s' %(eh,dm)
+          
+        result.append(line)
 
-        
-        
-      result.append(line)
+
 
 
     else:
@@ -394,12 +415,16 @@ def writeRule(filePath, lines):
             # 除非是特定于域的一个例外规则，所有剩余的选项将被忽略，以避免潜在的误报。
            if isException:
               hasUnsupportedOptions = any([o.startswith('domain=') for o in options])
-           else:
+           elif re.search('@@', origLine):
               hasUnsupportedOptions = True
 
       if hasUnsupportedOptions:        
-        # 不包括不支持的选项的过滤器
-
+        # 包括不支持的选项的过滤器（即包含domain的过滤规则)
+        #猎豹浏览器暂不支持domain~的排除规则，删掉排除
+        origLine = re.sub(r'\|~[^|]+(?=\|)', '', origLine)
+        origLine = re.sub(r'\|~[^|]+$', '', origLine)
+        origLine = re.sub(r'\$domain=~[^|]+$', '', origLine)
+        
         origLine = re.sub(r'^@@\|\*', '', origLine)
         origLine = re.sub(r'^\|\*', '', origLine)
         origLine = re.sub(r'\/', '\/', origLine)        
@@ -417,9 +442,7 @@ def writeRule(filePath, lines):
         origLine = re.sub(r'\*', '.*', origLine)        
         origLine = re.sub(r'\\\.\\\.', '\.', origLine)
         origLine = re.sub(r'\?', '\?', origLine)
-        #暂时去掉不支持的domain=~排除规则。
-        origLine = re.sub(r'(,|\$)domain=~.*$', ',$d=', origLine)
-        
+               
         origLine = re.sub(r'domain\=', 'd=', origLine)
         origLine = re.sub(r'\,d\=', ',$d=', origLine)        
         #origLine = re.sub(r'\$d\=', '$d=', origLine)
@@ -430,7 +453,9 @@ def writeRule(filePath, lines):
         origLine = re.sub(r'^\|', '^', origLine)
         origLine = re.sub('\\\/\\\.\*', '', origLine)
         origLine = re.sub('\\\/\\\/\/', '/', origLine)
-        #标识这是正则
+        
+
+        
         
         
         #处理各种规则选项
@@ -455,17 +480,22 @@ def writeRule(filePath, lines):
           #origLine = re.sub(r'(?<=\,)\$
         #增加正则标识
         origLine = '/' + origLine + '/'
+        #把结尾管状符换成$
+        origLine = re.sub('\|\/', '$/', origLine)
         #把错误放在最后的/放到域名后        
         if re.search(r'\$w\/$', origLine):
           origLine = re.sub(r'\/$','', origLine)
-          origLine = re.sub(r'\$w',',$w', origLine)
-          origLine = re.sub(r'  \$','/  $', origLine)
-          origLine = re.sub(r'\/	\$w','  $w', origLine)
+          if re.search(r'\$.*(?=\$)', origLine):
+            if re.search(r'(?=\$).*\$w.*(?=\$)*', origLine):
+              origLine = re.sub(r'\$w',',$w', origLine)
+          
+          origLine = re.sub(r'	\$','/	$', origLine)
+          origLine = re.sub(r'\/	\$w','	$w', origLine)
         if re.search(r'\$(?=.+\$.+\$)', origLine):
           #把前面是地址的第一个$给替换成 $了
-          origLine = re.sub(r'\$(?=.+\$.+\$)','/  $', origLine)
+          origLine = re.sub(r'\$(?=.+\$.+\$)','/	$', origLine)
         elif re.search(r'\$(?=.+\$)', origLine):
-          origLine = re.sub(r'\$(?=.+\$)','/  $', origLine)
+          origLine = re.sub(r'\$(?=.+\$)','/	$', origLine)
         #把$t加上去
         origLine = re.sub(r'\$(?![(d\=)|(t\=)|(\$w)])','$t=', origLine)
           
@@ -490,6 +520,11 @@ def writeRule(filePath, lines):
           line = match.group(4)
         else:
           # 修改各种标记
+          #猎豹浏览器暂不支持domain~的排除规则，删掉排除
+          line = re.sub(r'\|~[^|]+(?=\|)', '', line)
+          line = re.sub(r'\|~[^|]+$', '', line)
+          line = re.sub(r'\$domain=~[^|]+$', '', line)
+          
           line = re.sub(r'^\|\*', '', line)
           line = re.sub(r'\*\|$', '$', line)
           line = re.sub(r'\/', '\/', line)
@@ -540,9 +575,15 @@ def writeRule(filePath, lines):
         # 添加 *.js 到规则以效仿 $script
         if requiresScript:
           line += ' $t=script'
+		#猎豹版不用删除http://
         #if line.startswith('http://'): #要删除的规则中的字符串
           #line = line[7:] #前面一个数字是上一行字符串的字符数
         if domain:
+          #猎豹浏览器暂不支持domain~的排除规则，删掉排除
+          line = re.sub(r'\|~[^|]+(?=\|)', '', line)
+          line = re.sub(r'\|~[^|]+$', '', line)
+          line = re.sub(r'\$domain=~[^|]+$', '', line)
+          
           line = re.sub(r'\s+/$', '', line) #去掉||行符号
           line = re.sub(r'\/', '\/', line)
           line = re.sub(r'\/\*\/$','\//', line)
@@ -551,10 +592,12 @@ def writeRule(filePath, lines):
           line = re.sub(r'\*\*', '*', line)
           line = re.sub(r'\*$', '', line)
           #保证domain地址不正则
-          if re.search('\$', domain):
-            domain = re.sub(r'\.(?=.*\S\$)', '\.', domain)
-          else:
-            domain = re.sub('\.','\.', domain)
+          if re.search(r'\.', line):
+            if re.search('\$', line):
+              line = re.sub(r'\.(?=.*\S\$)', '\.', line)
+            else:
+              line = re.sub(r'\.','\.', line)
+              
           line = re.sub(r'\*', '.*', line)          
           line = re.sub(r'\\\.\\\.', '\.', line)
           line = re.sub(r'\?', '\?', line)          
@@ -579,7 +622,12 @@ def writeRule(filePath, lines):
           
           result.append(line)
         elif isException:
-          # 没有域的例外规则不受支持
+          # 没有域的例外规则
+          #猎豹浏览器暂不支持domain~的排除规则，删掉排除
+          origLine = re.sub(r'\|~[^|]+(?=\|)', '', origLine)
+          origLine = re.sub(r'\|~[^|]+$', '', origLine)
+          origLine = re.sub(r'\$domain=~[^|]+$', '', origLine)
+          
           origLine = re.sub(r'\^','\/', origLine)
           origLine = re.sub(r'^@@\|\*', '', origLine)
           origLine = re.sub(r'^@@\|\|', ':\/\/([^\/]+\.)?', origLine)
@@ -605,9 +653,15 @@ def writeRule(filePath, lines):
           #origLine = re.sub(r'\$d\=', '  $d=', origLine)
           #正则标识
           origLine = '/' + origLine + '/' '	$w'
+          #把结尾管状符换成$
+          origLine = re.sub('\|\/', '$/', origLine)
           #把错误放在最后的/放到域名后        
           if re.search(r'\$w\/$', origLine):
             #origLine = re.sub(r'\/$','', origLine)
+            if re.search(r'\$.*(?=\$)', origLine):
+              if re.search(r'(?=\$).*\$w.*(?=\$)*', origLine):
+                origLine = re.sub(r'\$w',',$w', origLine)
+              
             origLine = re.sub(r'  \$','/  $', origLine)
           origLine = re.sub(r'\$(?![(d\=)|(t\=)|(\$w)])','$t=', origLine)
           if re.search(r'\$w\/$', origLine):
@@ -620,6 +674,9 @@ def writeRule(filePath, lines):
            origLine = re.sub(r'\$(?=.+\$.+\$)','/  $', origLine)
           elif re.search(r'\$(?=.+\$)', origLine):
             origLine = re.sub(r'\$(?=.+\$)','/  $', origLine)
+          #猎豹暂时不支持domain=~的规则，去掉。  
+          if re.search(r'((	|,)\$d=~[^,]+$)|((?<=(	|,)\$d=)~[^,]*,)|((?<=,)~[^,]*,)|((?<=,)~[^,]*$)',origLine):
+            origLine = re.sub(r'((	|,)\$d=~[^,]+$)|((?<=(	|,)\$d=)~[^,]*,)|((?<=,)~[^,]*,)|((?<=,)~[^,]*$)', '', origLine)
           result.append(origLine)
     
         else:
@@ -930,6 +987,9 @@ def writeRule(filePath, lines):
         origLine = re.sub(r'^\|\|', '', origLine)
         origLine = re.sub(r'^\|', '', origLine)
         origLine = re.sub(r'\$d.*$','', origLine)
+        #去掉http://
+        if origLine.startswith('http://'):
+          origLine = origLine[7:] #前面一个数字是上一行字符串的字符数
         result.append('5,4,' + origLine)
       else:
         line = line.replace('^', '/*') # 假定分隔符的占位符的意思是斜线
@@ -1018,11 +1078,10 @@ file2 = open("rules_for_KSafe.txt","w")
 while 1:
  text = file1.readline()
  if( text == '' ):
+  
   break
  elif( text != '\n'):
   file2.write( text )
- 
-  
 file1.close()
 file2.close()
 
@@ -1268,6 +1327,9 @@ def writeRule(filePath, lines):
         origLine = re.sub(r'^\|\|', '', origLine)
         origLine = re.sub(r'^\|', '', origLine)
         origLine = re.sub(r'\$.*$','', origLine)
+        #去掉http://
+        if origLine.startswith('http://'):
+          origLine = origLine[7:] #前面一个数字是上一行字符串的字符数
         result.append('5,4,' + origLine)
       else:
         line = line.replace('^', '/*') # 假定分隔符的占位符的意思是斜线
@@ -1653,6 +1715,9 @@ prioritize excludelist=1\r\n
         origLine = re.sub(r'^\|\|', '', origLine)
         origLine = re.sub(r'^\|', '', origLine)
         origLine = re.sub(r'\$.*$','', origLine)
+        #去掉http://
+        if origLine.startswith('http://'):
+          origLine = origLine[7:] #前面一个数字是上一行字符串的字符数
         result.append('' + origLine)
       else:
         line = line.replace('^', '/*') # 假定分隔符的占位符的意思是斜线
@@ -1911,7 +1976,11 @@ def writeTPL(filePath, lines):
     elif line.find('#') >= 0:
       # Element hiding rules are not supported in MSIE, drop them
       pass
+    
     else:
+      #把domain给删掉
+      line = re.sub(r'\$domain=[^,]*,','', line)
+      line = re.sub(r'\$domain=[^,]*$','', line)
       # We have a blocking or exception rule, try to convert it
       origLine = line
 
@@ -1961,12 +2030,13 @@ def writeTPL(filePath, lines):
             # Unless an exception rule is specific to a domain, all remaining
             # options are ignored to avoid potential false positives.
             if isException:
-              hasUnsupportedOptions = any([o.startswith('domain=') for o in options])
+              hasDomain = any([o.startswith('domain=') for o in options])
             else:
               hasUnsupportedOptions = True
 
       if hasUnsupportedOptions:
         # Do not include filters with unsupported options
+        
         result.append('# ' + origLine)
       else:
         line = line.replace('^', '/') # Assume that separator placeholders mean slashes
@@ -1981,6 +2051,7 @@ def writeTPL(filePath, lines):
           # No domain info, remove anchors at the rule start
           line = re.sub(r'^\|\|', 'http://', line)
           line = re.sub(r'^\|', '', line)
+          
         # Remove anchors at the rule end
         line = re.sub(r'\|$', '', line)
         # Remove unnecessary asterisks at the ends of lines
@@ -2294,6 +2365,9 @@ def writeRule(filePath, lines):
         origLine = re.sub(r'^\|\|', '', origLine)
         origLine = re.sub(r'^\|', '', origLine)
         origLine = re.sub(r'\$.*$','', origLine)
+        #去掉http://
+        if origLine.startswith('http://'):
+          origLine = origLine[7:] #前面一个数字是上一行字符串的字符数
         result.append('5,4,' + origLine)
       else:
         line = line.replace('^', '/*') # 假定分隔符的占位符的意思是斜线
@@ -2649,7 +2723,10 @@ def writeRule(filePath, lines):
         origLine = re.sub(r'^\|\|', '', origLine)
         origLine = re.sub(r'^\|', '', origLine)
         origLine = re.sub(r'\$.*$','', origLine)
-        result.append('5,4,' + origLine)
+        #去掉http://
+        if origLine.startswith('http://'):
+          origLine = origLine[7:] #前面一个数字是上一行字符串的字符数
+        result.append(origLine)
       else:
         line = line.replace('^', '/*') # 假定分隔符的占位符的意思是斜线
 
@@ -2669,6 +2746,7 @@ def writeRule(filePath, lines):
         # 添加 *.js 到规则以效仿 $script
         if requiresScript:
           line += '*.js'
+        #去掉http://
         if line.startswith('http://'):
           line = line[7:] #前面一个数字是上一行字符串的字符数
         if domain:
@@ -2733,8 +2811,10 @@ eset2_file = open('rules_for_ESET[2].txt','w')
 
 genera_rules = genera_rules_file.readlines()
 eset1 = genera_rules[0:1999]
+eset1 = ''.join(eset1)
 print >> eset1_file, eset1
 eset2 = genera_rules[2000:]
+eset2 = ''.join(eset2)
 print >> eset2_file, eset2
 
 eset1_file.close()
@@ -2985,6 +3065,9 @@ def writeRule(filePath, lines):
         origLine = re.sub(r'^\|\|', '', origLine)
         origLine = re.sub(r'^\|', '', origLine)
         origLine = re.sub(r'\$d.*$','', origLine)
+        #去掉http://
+        if origLine.startswith('http://'):
+          origLine = origLine[7:] #前面一个数字是上一行字符串的字符数
         result.append('http://' + origLine)
       else:
         line = line.replace('^', '/*') # 假定分隔符的占位符的意思是斜线
@@ -3080,6 +3163,38 @@ while 1:
 file1.close()
 file2.close()
 
+
+#删除临时文件夹
+import os, stat;  
+root_dir = r'.';  
+def walk(path):  
+  for item in os.listdir(path):  
+    subpath = os.path.join(path, item);  
+    mode = os.stat(subpath)[stat.ST_MODE];  
+               
+    if stat.S_ISDIR(mode):  
+      if item=="Temp":  
+        print "Clean %s ..." % subpath;  
+        print "%d deleted!" % purge(subpath);  
+      else:  
+        walk(subpath);  
+      
+def purge(path):  
+  count = 0;  
+  for item in os.listdir(path):  
+    subpath = os.path.join(path, item);  
+    mode = os.stat(subpath)[stat.ST_MODE];  
+    if stat.S_ISDIR(mode):  
+      count += purge(subpath);  
+    else:  
+      os.chmod(subpath, stat.S_IREAD|stat.S_IWRITE);  
+      os.unlink(subpath);  
+      count += 1;  
+  os.rmdir(path);  
+  count += 1;  
+  return count;            
+if __name__=='__main__':  
+  walk(root_dir);  
 
 #获取当前路径
 import os

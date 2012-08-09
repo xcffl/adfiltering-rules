@@ -6,7 +6,7 @@
 import urllib
 import re, os
 import time
-chinalistfile = urllib.urlopen('http://adblock-chinalist.googlecode.com/svn/trunk/adblock.txt')
+chinalistfile = urllib.urlopen('http://adblock-chinalist.googlecode.com/svn/trunk/adblock-lazy.txt')
 chinalist = chinalistfile.read()
 
 #读取afr，合并到同一字符串

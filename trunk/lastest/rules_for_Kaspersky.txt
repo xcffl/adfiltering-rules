@@ -33,7 +33,7 @@
 *.net/*/*_ad.js
 *.com/*/*_ad.js
 */banner*.htm
-5,4,http://c.*/*.js*
+c.*/*.js*
 */adpage/*
 */adv760.js*
 */advall.js*
@@ -403,7 +403,7 @@ js.*/code.js
 *.me*/header.js
 *.co/*/header.js
 *.org*/header.js
-5,4,*.cn*/header.js
+*.cn*/header.js
 *get_ad.php?ad_id=*
 */bookfloat.js
 */downyc*.js
@@ -505,6 +505,8 @@ js.*/code.js
 */com_spe.js?p=*
 */advertisement/*
 */adpolicy.aspx?*
+*/googleafs.*
+*/floatadv.*
 *.org*/click/*html
 *.cn*/click/*html
 */click/*htm
@@ -896,6 +898,7 @@ c*.keytui.com/*
 p.zhanzhang.net/*
 *.junnew.com/indexad/*
 *.kfwan.com/*
+b.scorecardresearch.com/*
 *.leomediachina.*
 *.lt77.com*
 *.lzjl.com/*
@@ -1231,7 +1234,7 @@ code.aizhuanlove.cn/code/*
 *.picadmedia.com/*
 cts.tradepub.com/*
 *.intellitxt.com/*
-*.dt07.net/*domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
+*.dt07.net/*
 *.mgid.com/*.htm
 *.mgid.com/*.js
 static.hhzw.5pk.com/*
@@ -1659,9 +1662,9 @@ ik.synacast.com/*
 a.dangdang.com/*
 img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 download.cncmax.js.cn/images/temp/down-banner*.jpg
-5,4,*/newhuagg/js_*
+*/newhuagg/js_*
 count.newhua.com/*
-5,4,*/newhuagg/article_*
+*/newhuagg/article_*
 www.onlinedown.net/newhuagg/daohang.js
 */newhua_index_pic_*.js
 */newhuagg/pptv.jpg
@@ -1777,6 +1780,7 @@ www.hszw.com/inc/*
 js.laishu.com/lsgg/*
 alibuybuy-wordpress.stor.sinaapp.com/*
 a.ikafan.com/*/top_*.html
+a.ikafan.com/2/b.js*
 a.ikafan.com/4/*.gif
 a.ikafan.com/3/bottom.html
 *.kafan.cn/static/kafan_img/*
@@ -2538,6 +2542,7 @@ a.07073.com/*
 *1166.com/images/*x*
 *.1166.com/images/*_*
 www.1166.com/images/*.jpg
+link.fobshanghai.com/*
 *sohoptc.com/image/banner/*
 *sohoptc.com/down1.htm
 *sohoboy.ws/top*.htm
@@ -3014,6 +3019,7 @@ ipic.staticsdo.com/*
 stat.wiseie.com/*
 script2.pingan.com/app_js/pingan/*
 www.eshop8.com/images/*i*.gif
+www.2apay.com/2apay.gif
 hitbs.cn/img/banner.jpg
 geobanner.outpersonals.com/*
 *www1.leeuu.com/bbsimg/gg39.swf

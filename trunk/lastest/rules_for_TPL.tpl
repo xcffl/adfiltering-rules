@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-09 11:00:25
+#Updated:2012-08-09 21:48:19
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -42,7 +42,7 @@ msFilterList
 - *.net/*/*_ad.js
 - *.com/*/*_ad.js
 - */banner*.htm
-# |http://c.*/*.js*$domain=~speedtest.net
+- http://c.*/*.js
 - */adpage/
 - */adv760.js
 - */advall.js
@@ -412,7 +412,7 @@ msFilterList
 - *.me*/header.js
 - *.co/*/header.js
 - *.org*/header.js
-# |*.cn*/header.js$domain=~bj-ibook.cn
+- *.cn*/header.js
 - *get_ad.php?ad_id=
 - */bookfloat.js
 - http://*/downyc*.js
@@ -514,6 +514,8 @@ msFilterList
 - */com_spe.js?p=
 - */advertisement/
 - */adpolicy.aspx?
+- */googleafs.
+- */floatadv.
 - *.org*/click/*html
 - *.cn*/click/*html
 - */click/*htm
@@ -906,6 +908,7 @@ msFilterList
 -d p.zhanzhang.net
 - *.junnew.com/indexad/
 - *.kfwan.com/
+-d b.scorecardresearch.com
 - *.leomediachina.
 - *.lt77.com
 - *.lzjl.com/
@@ -1242,7 +1245,7 @@ msFilterList
 - *.picadmedia.com/
 -d cts.tradepub.com
 - *.intellitxt.com/
-- *.dt07.net/*domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
+- *.dt07.net/
 - *.mgid.com/*.htm
 - *.mgid.com/*.js
 -d static.hhzw.5pk.com
@@ -1711,9 +1714,9 @@ msFilterList
 -d img4.ddimg.cn /00074/pic/*_*_*x*_*.jpg
 #----华军软件园&牛华网----
 -d download.cncmax.js.cn /images/temp/down-banner*.jpg
-# |*/newhuagg/js_*$domain=newhua.com|onlinedown.net
+- */newhuagg/js_
 -d count.newhua.com
-# |*/newhuagg/article_*$domain=newhua.com|onlinedown.net
+- */newhuagg/article_
 -d www.onlinedown.net /newhuagg/daohang.js
 - */newhua_index_pic_*.js
 - */newhuagg/pptv.jpg
@@ -1862,6 +1865,7 @@ msFilterList
 -d alibuybuy-wordpress.stor.sinaapp.com
 #----卡饭----
 -d a.ikafan.com /top_*.html
+-d a.ikafan.com /2/b.js
 -d a.ikafan.com /4/*.gif
 -d a.ikafan.com /3/bottom.html
 - *.kafan.cn/static/kafan_img/
@@ -2944,6 +2948,8 @@ msFilterList
 - *1166.com/images/*x
 - *.1166.com/images/*_
 -d www.1166.com /images/*.jpg
+#----福步外贸论坛----
+-d link.fobshanghai.com
 #----诚信网赚网&诚信精选网赚网----
 - *sohoptc.com/image/banner/
 - *sohoptc.com/down1.htm
@@ -3680,6 +3686,7 @@ msFilterList
 -d stat.wiseie.com
 -d script2.pingan.com /app_js/pingan/
 -d www.eshop8.com /images/*i*.gif
+-d www.2apay.com /2apay.gif
 -d hitbs.cn /img/banner.jpg
 -d geobanner.outpersonals.com
 - *www1.leeuu.com/bbsimg/gg39.swf
@@ -3843,25 +3850,25 @@ msFilterList
 #--------其他--------
 +d iphone4.tw /forums/news_proxy.php
 +d ad.ourgame.com /cgi-bin/insertflasha.js
-# @@||cpro.baidu.com/cpro/ui/c.js$domain=bbs.9es.cn
-# @@||pos.baidu.com/ecom?$script,domain=bbs.9es.cn
++d cpro.baidu.com /cpro/ui/c.js
++d pos.baidu.com /ecom?
 +d a.banggo.com /Ad/getAdPosList.shtml
 # @@/adbanner/*$image,domain=books.com.tw
-# @@||paipai.com^$domain=shop.qq.com
-# @@/advertise/*$domain=suning.com
-# @@||analytics.163.com/ntes.js$domain=cbg.163.com
++d paipai.com
+# @@/advertise/*
++d analytics.163.com /ntes.js
 +d adimg.adtpl.360buy.com /uploads/
 +d book.360buy.com /book/BookShowService.aspx
 +d forum.51nb.com /images/*/
 +d pole.6rooms.com /adpolestar/*_qtie.swf
-# @@||js.973.com/ad/sys_ad_complete.js$domain=8684.cn
++d js.973.com /ad/sys_ad_complete.js
 +d admin5.com /extras/zz/inner.head.logo.js
 +d tmatch.simba.taobao.com /?name=mcad*.js
 +d 33.autohome.com.cn /njs/1.js
-# @@||cb.baidu.com/ecom?$domain=mp3.baidu.com
-# @@||cbjs.baidu.com/js/m.js$domain=mp3.baidu.com
++d cb.baidu.com /ecom?
++d cbjs.baidu.com /js/m.js
 +d cb.baidu.com /crossdomain.xml
-# @@||cb.baidu.com/ecom?$object_subrequest,domain=baomihua.com|pomoho.com
++d cb.baidu.com /ecom?
 +d pvstat.pomoho.com /crossdomain.xml
 +d union.bokecc.com /flash/
 +d union.bokecc.com /js/player/
@@ -3877,29 +3884,29 @@ msFilterList
 # @@/common/cf/*.thumb$image
 +d q.funshion.com /js.php
 # @@||hichannel.hinet.net^$object_subrequest
-# @@||p4u.hinet.net/bien12/$image,domain=webhd.xuite.net
++d p4u.hinet.net /bien12/
 +d g.aa.sdo.com /crossdomain.xml
 # @@||g.aa.sdo.com/?method=getversion$object_subrequest
 +d my.ku6.com /resource/images/feed_ad1.jpg
 +d css.ku6cdn.com /comm/gg/
-# @@||pic.snyu.com/sdk*/Main.swf$domain=~ku6.com
++d pic.snyu.com /sdk*/Main.swf
 +d msn.wrating.com /a1.js
 +d 11.mydrivers.com /www/2012/js/*.js
 +d video.appledaily.com.hk /admedia/
 +d nownews.com /ad2004/*-*-*p.png
 +d ad1.nownews.com /ads.php?ownerid=1294
 +d home.on.cc /adv/web/corp/
-# @@||gtimg.com/img/ad/$image,domain=buy.qq.com
++d gtimg.com /img/ad/
 +d cq.qq.com /js/cody/gdad/all_scroll_ad.js
 +d exp.qq.com /img/ad/
 +d qqread.com /swf/qqread_rollpic.swf
 +d readersdigest.cn /files/cn-chn/pictures/RD_cn.gif
 +d sinaimg.cn /deco/*/common*.js
 +d sinaimg.cn /deco/*/sinaObj.js
-# @@||sina.wrating.com/a1.js$domain=bbs.auto.sina.com.cn
-# @@||counter.sina.com.cn/time?fm=JS$domain=finance.sina.com.cn
-# @@||sinaimg.cn/cj/deco/$script,domain=finance.sina.com.cn
-# @@||sinaimg.cn/dy/deco/*/headcj.js$domain=finance.sina.com.cn
++d sina.wrating.com /a1.js
++d counter.sina.com.cn /time?fm=JS
++d sinaimg.cn /cj/deco/
++d sinaimg.cn /dy/deco/*/headcj.js
 +d api.t.sina.com.cn /statuses/counts.
 +d acs86.com /crossdomain.xml
 +d static.acs86.com /player/
@@ -3909,11 +3916,11 @@ msFilterList
 # @@||video.udn.com/udnad/videoad.php^$object_subrequest
 +d xinhuanet.com /static/rmedia/pv.swf
 # @@/ads/*$image,domain=buy.yahoo.com.tw
-# @@/flash_general_20090213.js|$domain=tw.yahoo.com
+# @@/flash_general_20090213.js|
 +d l.yimg.com /f/a/tw/*/790840_*.swf
 +d l.yimg.com /f/a/tw/elephant/*240x94*.swf
 +d l.yimg.com /zz/combo?*/ads/*.js
-# @@||static.atm.youku.com^*.swf|$domain=www.youku.com
++d static.atm.youku.com .swf
 +d valf.atm.youku.com /crossdomain.xml
 +d valf.atm.youku.com /valf?
 +d copy.ousns.com /new/1.PNG
@@ -3921,7 +3928,8 @@ msFilterList
 +d copy.ousns.com /new/3.PNG
 +d copy.ousns.com /new/4.PNG
 +d copy.ousns.com /new/5.PNG
-# @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
++d yktj.yzz.cn /htmldata/mds/yzz_single_gg.js
++d 131js.131.com /home/resouces/js/index_20120420.js
 +d plu.cn /d/js/acmsd/thea44.js
 # @@/configs/article/bottom.js
 # @@/configs/article/pagebottom.js
@@ -3938,5 +3946,13 @@ msFilterList
 # @@||static.m1905.com/profile/ads/*.xml$object_subrequest
 +d yihaodian.com /advertise/
 +d yihaodian.com /product/ajaxAds.do?
-+d ad.zasv.com /*/
-# @@||drmcmm.baidu.com/media/$domain=zhibo8.cc
++d drmcmm.baidu.com /media/
+# @@||easy.box^$donottrack,image,~image
+# @@||nekto.me^$donottrack,image,~image
+# @@||speedport.ip^$donottrack,image,~image
+# @@||clustrmaps.com/images/clustrmaps-back-soon.jpg$third-party
++d s.clicktale.net /WRb.js
++d doubleclick.net /adi/amzn.*;ri=digital-music-track;
++d doubleclick.net /adi/ebay.*/video;
++d doubleclick.net /adj/imdb2.consumer.video/*;sz=320x240,*.js
++d imrworldwide.com /novms/js/2/ggcmb353.js

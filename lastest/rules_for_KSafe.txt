@@ -33,7 +33,7 @@
 5,4,*.net/*/*_ad.js
 5,4,*.com/*/*_ad.js
 5,4,*/banner*.htm
-5,4,http://c.*/*.js*
+5,4,c.*/*.js*
 5,4,*/adpage/*
 5,4,*/adv760.js*
 5,4,*/advall.js*
@@ -505,6 +505,8 @@
 5,4,*/com_spe.js?p=*
 5,4,*/advertisement/*
 5,4,*/adpolicy.aspx?*
+5,4,*/googleafs.*
+5,4,*/floatadv.*
 5,4,*.org*/click/*html
 5,4,*.cn*/click/*html
 5,4,*/click/*htm
@@ -896,6 +898,7 @@
 5,4,p.zhanzhang.net/*
 5,4,*.junnew.com/indexad/*
 5,4,*.kfwan.com/*
+5,4,b.scorecardresearch.com/*
 5,4,*.leomediachina.*
 5,4,*.lt77.com*
 5,4,*.lzjl.com/*
@@ -1231,7 +1234,7 @@
 5,4,*.picadmedia.com/*
 5,4,cts.tradepub.com/*
 5,4,*.intellitxt.com/*
-5,4,*.dt07.net/*domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
+5,4,*.dt07.net/*
 5,4,*.mgid.com/*.htm
 5,4,*.mgid.com/*.js
 5,4,static.hhzw.5pk.com/*
@@ -1777,6 +1780,7 @@
 5,4,js.laishu.com/lsgg/*
 5,4,alibuybuy-wordpress.stor.sinaapp.com/*
 5,4,a.ikafan.com/*/top_*.html
+5,4,a.ikafan.com/2/b.js*
 5,4,a.ikafan.com/4/*.gif
 5,4,a.ikafan.com/3/bottom.html
 5,4,*.kafan.cn/static/kafan_img/*
@@ -2538,6 +2542,7 @@
 5,4,*1166.com/images/*x*
 5,4,*.1166.com/images/*_*
 5,4,www.1166.com/images/*.jpg
+5,4,link.fobshanghai.com/*
 5,4,*sohoptc.com/image/banner/*
 5,4,*sohoptc.com/down1.htm
 5,4,*sohoboy.ws/top*.htm
@@ -3014,6 +3019,7 @@
 5,4,stat.wiseie.com/*
 5,4,script2.pingan.com/app_js/pingan/*
 5,4,www.eshop8.com/images/*i*.gif
+5,4,www.2apay.com/2apay.gif
 5,4,hitbs.cn/img/banner.jpg
 5,4,geobanner.outpersonals.com/*
 5,4,*www1.leeuu.com/bbsimg/gg39.swf

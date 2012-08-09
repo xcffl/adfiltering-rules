@@ -173,7 +173,11 @@ def writeTPL(filePath, lines):
     elif line.find('#') >= 0:
       # Element hiding rules are not supported in MSIE, drop them
       pass
+    
     else:
+      #把domain给删掉
+      line = re.sub(r'\$domain=[^,]*,','', line)
+      line = re.sub(r'\$domain=[^,]*$','', line)
       # We have a blocking or exception rule, try to convert it
       origLine = line
 
@@ -223,12 +227,13 @@ def writeTPL(filePath, lines):
             # Unless an exception rule is specific to a domain, all remaining
             # options are ignored to avoid potential false positives.
             if isException:
-              hasUnsupportedOptions = any([o.startswith('domain=') for o in options])
+              hasDomain = any([o.startswith('domain=') for o in options])
             else:
               hasUnsupportedOptions = True
 
       if hasUnsupportedOptions:
         # Do not include filters with unsupported options
+        
         result.append('# ' + origLine)
       else:
         line = line.replace('^', '/') # Assume that separator placeholders mean slashes
@@ -243,6 +248,7 @@ def writeTPL(filePath, lines):
           # No domain info, remove anchors at the rule start
           line = re.sub(r'^\|\|', 'http://', line)
           line = re.sub(r'^\|', '', line)
+          
         # Remove anchors at the rule end
         line = re.sub(r'\|$', '', line)
         # Remove unnecessary asterisks at the ends of lines

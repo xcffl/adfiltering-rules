@@ -239,7 +239,10 @@ def writeRule(filePath, lines):
         origLine = re.sub(r'^\|\|', '', origLine)
         origLine = re.sub(r'^\|', '', origLine)
         origLine = re.sub(r'\$.*$','', origLine)
-        result.append('5,4,' + origLine)
+        #去掉http://
+        if origLine.startswith('http://'):
+          origLine = origLine[7:] #前面一个数字是上一行字符串的字符数
+        result.append(origLine)
       else:
         line = line.replace('^', '/*') # 假定分隔符的占位符的意思是斜线
 
@@ -259,6 +262,7 @@ def writeRule(filePath, lines):
         # 添加 *.js 到规则以效仿 $script
         if requiresScript:
           line += '*.js'
+        #去掉http://
         if line.startswith('http://'):
           line = line[7:] #前面一个数字是上一行字符串的字符数
         if domain:
@@ -323,8 +327,10 @@ eset2_file = open('rules_for_ESET[2].txt','w')
 
 genera_rules = genera_rules_file.readlines()
 eset1 = genera_rules[0:1999]
+eset1 = ''.join(eset1)
 print >> eset1_file, eset1
 eset2 = genera_rules[2000:]
+eset2 = ''.join(eset2)
 print >> eset2_file, eset2
 
 eset1_file.close()

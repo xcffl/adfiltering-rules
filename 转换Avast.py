@@ -239,6 +239,9 @@ def writeRule(filePath, lines):
         origLine = re.sub(r'^\|\|', '', origLine)
         origLine = re.sub(r'^\|', '', origLine)
         origLine = re.sub(r'\$.*$','', origLine)
+        #去掉http://
+        if origLine.startswith('http://'):
+          origLine = origLine[7:] #前面一个数字是上一行字符串的字符数
         result.append('5,4,' + origLine)
       else:
         line = line.replace('^', '/*') # 假定分隔符的占位符的意思是斜线

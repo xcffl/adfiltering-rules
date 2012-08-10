@@ -274,35 +274,9 @@ def writeRule(filePath, lines):
         else:
           result.append('' + line)
   #规则头
-  head = '''[WebScanner]
-HttpRedirectPort=80,8080,8091,8081,8008,8888,3124,3127,3128
-HttpRedirectPortUpdated1=1
-URLBlocking=1
-IgnoreAddress=
-IgnoreLocalhost=1
-ExcludedTypes=1
-ExcludedTypesList=image/gif;image/png;audio/*;video/*
-ExcludedURLs=0
-HttpScanParamFlag=1
-IntelligentStreamScanning=1
-WebScanning=1
-BlockedURLs='''
+  head = '''[WebScanner]\r\nHttpRedirectPort=80,8080,8091,8081,8008,8888,3124,3127,3128\r\nHttpRedirectPortUpdated1=1\r\nURLBlocking=1\r\nIgnoreAddress=\r\nIgnoreLocalhost=1\r\nExcludedTypes=1\r\nExcludedTypesList=image/gif;image/png;audio/*;video/*\r\nExcludedURLs=0\r\nHttpScanParamFlag=1\r\nIntelligentStreamScanning=1\r\nWebScanning=1\r\nBlockedURLs='''
   #规则尾
-  bottom = '''[Common]
-ProviderEnabled=1
-OverwriteReport=0
-PUPAction=abort
-Report=TXT
-ReportName=*
-ReportRecords=Infected;HardErrors;SoftErrors
-ScanFullFiles=0
-ScanPUP=0
-ScanPackers=All
-ShowAppliedActionNotification=1
-SuspiciousAction=abort
-TaskSensitivity=100
-UseCodeEmulation=1
-VirusAction=abort'''
+  bottom = '''[Common]\r\nProviderEnabled=1\r\nOverwriteReport=0\r\nPUPAction=abort\r\nReport=TXT\r\nReportName=*\r\nReportRecords=Infected;HardErrors;SoftErrors\r\nScanFullFiles=0\r\nScanPUP=0\r\nScanPackers=All\r\nShowAppliedActionNotification=1\r\nSuspiciousAction=abort\r\nTaskSensitivity=100\r\nUseCodeEmulation=1\r\nVirusAction=abort'''
   #输出到文件  
   conditionalWrite(filePath, head +  ';'.join(result) + '\r\n' + bottom)
 

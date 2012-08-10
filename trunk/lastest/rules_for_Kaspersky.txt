@@ -11,6 +11,7 @@
 */sidead.*
 */999aadbak.js*
 */adimg.*
+*/tanchuang.*
 */banner-ad-*
 */adv.*
 */pv.*

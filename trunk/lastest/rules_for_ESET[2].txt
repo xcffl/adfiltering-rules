@@ -1,3 +1,4 @@
+*.win7china.com/Script/win7elements/*
 *.win7china.com/HitCount.aspx?*
 *.ithome.com/block/*_google*
 *.ithome.com/block/headerline.htm

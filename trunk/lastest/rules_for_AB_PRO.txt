@@ -19,6 +19,7 @@ Copyright 2011 xcffl, Apache License 2.0
 */sidead.*
 */999aadbak.js*
 */adimg.*
+*/tanchuang.*
 */banner-ad-*
 */adv.*
 */pv.*

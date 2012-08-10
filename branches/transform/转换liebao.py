@@ -334,7 +334,8 @@ def writeRule(filePath, lines):
             # 除非是特定于域的一个例外规则，所有剩余的选项将被忽略，以避免潜在的误报。
            if isException:
               hasUnsupportedOptions = any([o.startswith('domain=') for o in options])
-           elif re.search('@@', origLine):
+           #elif re.search('@@', origLine):
+           else:
               hasUnsupportedOptions = True
 
       if hasUnsupportedOptions:        
@@ -458,7 +459,7 @@ def writeRule(filePath, lines):
               line = re.sub(r'\.','\.', line)
           line = re.sub(r'\*', '.*', line)          
           line = re.sub(r'\\\.\\\.', '\.', line)
-          line = re.sub(r'\?', '\?', line)          
+          line = re.sub(r'\?', '\?', line)     
           line = re.sub(r'domain\=', 'd=', line)
           line = re.sub(r'\,d\=', ',$d=', line)
           #line = re.sub(r'\$d\=', '  $d=', line)

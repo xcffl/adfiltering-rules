@@ -1362,6 +1362,11 @@ un.so.gougou.com/*
 www.zhujima.com/tu/*u*.jpg
 www.zhujima.com/tu/*g*.png
 www.zhujima.com/tu/*vps.gif
+v.sina.com.cn/*
+count.kandian.com/*.html
+l.you.video.sina.com.cn*_undig&*
+l.you.video.sina.com.cn/*.xml
+dcads.sina.com.cn/*
 pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 bj.house.sina.com.cn/*.js
 *.sinaimg.cn/*/deco/*.js
@@ -1992,9 +1997,4 @@ www.fbook.net/fbookad/*
 *.vista123.com/notice.htm
 *.vista123.com/script/popup_win.js
 img.vista123.com/images/*3*x*.
-img.vista123.com/images/355_80_cd.gif
-img.vista123.com/images/saayaa*.gif
-img.vista123.com/images/TweakCube468.gif
-img.vista123.com/images/win7master.gif
-*.vista123.cn/notice.js
 

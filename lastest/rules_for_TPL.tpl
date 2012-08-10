@@ -1,12 +1,14 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-10 11:56:15
+#Updated:2012-08-10 12:58:09
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
 : Expires=3
 #-------------通用规则-------------
+#------元素隐藏规则------
+#------广告过滤规则------
 - http://*/js.ng/
 - */37ss.js
 - */configs/article/*.htm
@@ -1383,7 +1385,12 @@ msFilterList
 -d www.zhujima.com /tu/*u*.jpg
 -d www.zhujima.com /tu/*g*.png
 -d www.zhujima.com /tu/*vps.gif
-#----新浪网----
+#----新浪网&看点----
+-d v.sina.com.cn
+-d count.kandian.com .html
+- http://l.you.video.sina.com.cn*_undig&
+-d l.you.video.sina.com.cn .xml
+-d dcads.sina.com.cn
 -d pfp.sina.com.cn /iframe/2012nonghangguanggaotest1.html
 -d bj.house.sina.com.cn .js
 - *.sinaimg.cn/*/deco/*.js
@@ -1566,6 +1573,7 @@ msFilterList
 -d static.atm.youku.com /*/*x*.jpg
 -d e.stat.youku.com
 #----雅虎----
++d l.yimg.com /zz/combo?*.js
 -d l.yimg.com /d/lib/bc/bcr_2.0.5.js
 -d l.yimg.com /f/a/tw/gif_backup/ad_*.gif
 - *.webmaster.yahoo.com/
@@ -1786,6 +1794,8 @@ msFilterList
 -d img.cnbeta.com /tongbu*.
 -d img.cnbeta.com 336.gif
 -d img.cnbeta.com /app*.gif
+#----DNSPod----
++d statics.dnspod.cn /yantai/js/
 #----卡巴一族----
 -d bbs.kaspersky.com.cn /images/bbs/
 #----Norm Team----
@@ -2395,6 +2405,8 @@ msFilterList
 -d log.17k.com
 -d img.17k.com /js/jquery*.js
 #----豆瓣----
+-d img3.douban.com /js/boomerang.js
+-d img3.douban.com /js/packed_ad
 -d erebor.douban.com /?unit=
 -d erebor.douban.com /count/?ad=
 -d erebor.douban.com /redirect/?ad=
@@ -2878,6 +2890,7 @@ msFilterList
 #----Free Gay Porn Links----
 - *free-*-porn-links.com/*.gif
 #----8684公交网----
++d js.973.com /ad/sys_ad_complete.js
 - *.8684.cn/js/*_hid.js
 -d js.973.com /gjs/139.js
 -d js.973.com /gjs/178.js
@@ -3224,6 +3237,8 @@ msFilterList
 #----ab126在线计算----
 - *.ab126.com/skin/default/images/main_bg.jpg
 #----自贡在线----
++d bbs.zg163.net /bbs/attachments/pushpic/20120416092945.gif
++d bbs.zg163.net /bbs/attachments/pushpic/20120413010555.gif
 - *.zg163.net/*attachments/pushpic/*.gif
 - *.zg163.net/*attachments/pushpic/*.swf
 #----无搜不有----
@@ -3685,6 +3700,7 @@ msFilterList
 - *.jianfei234.com/
 - http://*gaomm.in/
 #-------------本站推广-------------
++d pv.5211game.com
 -d stat.wiseie.com
 -d script2.pingan.com /app_js/pingan/
 -d www.eshop8.com /images/*i*.gif
@@ -3741,7 +3757,7 @@ msFilterList
 - *61.172.192.73/
 - *221.174.50.131/
 -d 222.73.227.67 /dzx/forum/*.jpg
-#-------------待分类-------------
+#-------------未知-------------
 - *.100190.com/
 - *.114.my/
 - *.2yt.net
@@ -3834,127 +3850,4 @@ msFilterList
 -d www.fclub.cn /affiche.php?act=img&ad_id=
 -d www.54new.com /da/
 #-------------特殊规则-------------
-#--------------[元素隐藏规则]
-#-------------通用规则
-#-------------网站本站
-#----卡饭
-#----REF.SO
-#----中华网赚论坛
-#----火狐主页
-#-------------其他
-#--------------[白名单]--------------
-#--------原创白名单--------
-+d statics.dnspod.cn /yantai/js/
-+d pv.5211game.com
-+d l.yimg.com /zz/combo?*.js
-+d bbs.zg163.net /bbs/attachments/pushpic/20120416092945.gif
-+d bbs.zg163.net /bbs/attachments/pushpic/20120413010555.gif
-#--------其他--------
-+d iphone4.tw /forums/news_proxy.php
-+d ad.ourgame.com /cgi-bin/insertflasha.js
-+d cpro.baidu.com /cpro/ui/c.js
-+d pos.baidu.com /ecom?
-+d a.banggo.com /Ad/getAdPosList.shtml
-# @@/adbanner/*$image,domain=books.com.tw
-+d paipai.com
-# @@/advertise/*
-+d analytics.163.com /ntes.js
-+d adimg.adtpl.360buy.com /uploads/
-+d book.360buy.com /book/BookShowService.aspx
-+d forum.51nb.com /images/*/
-+d pole.6rooms.com /adpolestar/*_qtie.swf
-+d js.973.com /ad/sys_ad_complete.js
-+d admin5.com /extras/zz/inner.head.logo.js
-+d tmatch.simba.taobao.com /?name=mcad*.js
-+d 33.autohome.com.cn /njs/1.js
-+d cb.baidu.com /ecom?
-+d cbjs.baidu.com /js/m.js
-+d cb.baidu.com /crossdomain.xml
-+d cb.baidu.com /ecom?
-+d pvstat.pomoho.com /crossdomain.xml
-+d union.bokecc.com /flash/
-+d union.bokecc.com /js/player/
-+d union.bokecc.com /player?
-+d union.bokecc.com /servlet/playinfo?
-+d union.bokecc.com /servlet/getvideofile?
-+d baidu.cntv.cn /player/baidu_ad.js
-+d js.player.cntv.cn /creator/*_bg_ad.js
-+d img.cnbeta.com /newsimg/
-+d img.cnbeta.com /upimg/
-+d dianping.com /adwords/
-+d union.mapbar.com /apis/maps/*.js
-# @@/common/cf/*.thumb$image
-+d q.funshion.com /js.php
-# @@||hichannel.hinet.net^$object_subrequest
-+d p4u.hinet.net /bien12/
-+d g.aa.sdo.com /crossdomain.xml
-# @@||g.aa.sdo.com/?method=getversion$object_subrequest
-+d my.ku6.com /resource/images/feed_ad1.jpg
-+d css.ku6cdn.com /comm/gg/
-+d pic.snyu.com /sdk*/Main.swf
-+d msn.wrating.com /a1.js
-+d 11.mydrivers.com /www/2012/js/*.js
-+d video.appledaily.com.hk /admedia/
-+d nownews.com /ad2004/*-*-*p.png
-+d ad1.nownews.com /ads.php?ownerid=1294
-+d home.on.cc /adv/web/corp/
-+d gtimg.com /img/ad/
-+d cq.qq.com /js/cody/gdad/all_scroll_ad.js
-+d exp.qq.com /img/ad/
-+d qqread.com /swf/qqread_rollpic.swf
-+d readersdigest.cn /files/cn-chn/pictures/RD_cn.gif
-+d sinaimg.cn /deco/*/common*.js
-+d sinaimg.cn /deco/*/sinaObj.js
-+d sina.wrating.com /a1.js
-+d counter.sina.com.cn /time?fm=JS
-+d sinaimg.cn /cj/deco/
-+d sinaimg.cn /dy/deco/*/headcj.js
-+d api.t.sina.com.cn /statuses/counts.
-+d acs86.com /crossdomain.xml
-+d static.acs86.com /player/
-+d js.tudouui.com /bin/player
-# @@||gg.a.5d6d.$image,object_subrequest
-# @@||video.udn.com/player/Adv.swf$object_subrequest
-# @@||video.udn.com/udnad/videoad.php^$object_subrequest
-+d xinhuanet.com /static/rmedia/pv.swf
-# @@/ads/*$image,domain=buy.yahoo.com.tw
-# @@/flash_general_20090213.js|
-+d l.yimg.com /f/a/tw/*/790840_*.swf
-+d l.yimg.com /f/a/tw/elephant/*240x94*.swf
-+d l.yimg.com /zz/combo?*/ads/*.js
-+d static.atm.youku.com .swf
-+d valf.atm.youku.com /crossdomain.xml
-+d valf.atm.youku.com /valf?
-+d copy.ousns.com /new/1.PNG
-+d copy.ousns.com /new/2.PNG
-+d copy.ousns.com /new/3.PNG
-+d copy.ousns.com /new/4.PNG
-+d copy.ousns.com /new/5.PNG
-+d yktj.yzz.cn /htmldata/mds/yzz_single_gg.js
-+d 131js.131.com /home/resouces/js/index_20120420.js
-+d plu.cn /d/js/acmsd/thea44.js
-# @@/configs/article/bottom.js
-# @@/configs/article/pagebottom.js
-# @@/configs/article/pagetop.js
-+d 35xs.com /js/xingxi.js
-+d jj.5ccc.net /scripts/new/pagetop.js
-+d shanwen.com /configs/article/pagetop3.js
-+d shanwen.com /scripts/checkuser.js
-+d xiaoshuo570.com /scripts/read/page.js
-+d ttg.im /pic/ttg_logo.png
-# @@||go.goyeah.com/adpolestar/$object_subrequest
-+d sopnba.com /js/gb.js
-+d chiphell.com /activity/*/*/
-# @@||static.m1905.com/profile/ads/*.xml$object_subrequest
-+d yihaodian.com /advertise/
-+d yihaodian.com /product/ajaxAds.do?
-+d drmcmm.baidu.com /media/
-# @@||easy.box^$donottrack,image,~image
-# @@||nekto.me^$donottrack,image,~image
-# @@||speedport.ip^$donottrack,image,~image
-# @@||clustrmaps.com/images/clustrmaps-back-soon.jpg$third-party
-+d s.clicktale.net /WRb.js
-+d doubleclick.net /adi/amzn.*;ri=digital-music-track;
-+d doubleclick.net /adi/ebay.*/video;
-+d doubleclick.net /adj/imdb2.consumer.video/*;sz=320x240,*.js
-+d imrworldwide.com /novms/js/2/ggcmb353.js
+#-------------待分类-------------

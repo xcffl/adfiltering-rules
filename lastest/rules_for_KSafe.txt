@@ -1362,6 +1362,11 @@
 5,4,www.zhujima.com/tu/*u*.jpg
 5,4,www.zhujima.com/tu/*g*.png
 5,4,www.zhujima.com/tu/*vps.gif
+5,4,v.sina.com.cn/*
+5,4,count.kandian.com/*.html
+5,4,l.you.video.sina.com.cn*_undig&*
+5,4,l.you.video.sina.com.cn/*.xml
+5,4,dcads.sina.com.cn/*
 5,4,pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 5,4,bj.house.sina.com.cn/*.js
 5,4,*.sinaimg.cn/*/deco/*.js
@@ -2167,6 +2172,8 @@
 5,4,img.17k.com/channel/flash/*.swf
 5,4,log.17k.com/*
 5,4,img.17k.com/js/jquery*.js
+5,4,img3.douban.com/js/boomerang.js*
+5,4,img3.douban.com/js/packed_ad*
 5,4,erebor.douban.com/?unit=*
 5,4,erebor.douban.com/count/?ad=*
 5,4,erebor.douban.com/redirect/?ad=*

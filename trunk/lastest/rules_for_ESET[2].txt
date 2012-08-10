@@ -1,3 +1,8 @@
+img.vista123.com/images/saayaa*.gif
+img.vista123.com/images/TweakCube468.gif
+img.vista123.com/images/win7master.gif
+*.vista123.cn/notice.js
+*win8china.com/win8/headline.htm
 *win8china.com/Script/elements/*_google*
 *.win7china.com/Script/win7elements/*
 *.win7china.com/HitCount.aspx?*
@@ -167,6 +172,8 @@ photo.erji.com/*
 img.17k.com/channel/flash/*.swf
 log.17k.com/*
 img.17k.com/js/jquery*.js
+img3.douban.com/js/boomerang.js*
+img3.douban.com/js/packed_ad*
 erebor.douban.com/?unit=*
 erebor.douban.com/count/?ad=*
 erebor.douban.com/redirect/?ad=*

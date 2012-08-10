@@ -18,6 +18,7 @@ Copyright 2011 xcffl, Apache License 2.0
 *.net/ads/*
 */sidead.*
 */999aadbak.js*
+*/google_ads/*
 */adimg.*
 */tanchuang.*
 */banner-ad-*
@@ -42,7 +43,7 @@ Copyright 2011 xcffl, Apache License 2.0
 *.net/*/*_ad.js
 *.com/*/*_ad.js
 */banner*.htm
-5,4,c.*/*.js*
+c.*/*.js*
 */adpage/*
 */adv760.js*
 */advall.js*
@@ -412,7 +413,7 @@ js.*/code.js
 *.me*/header.js
 *.co/*/header.js
 *.org*/header.js
-5,4,*.cn*/header.js
+*.cn*/header.js
 *get_ad.php?ad_id=*
 */bookfloat.js
 */downyc*.js
@@ -1243,7 +1244,7 @@ code.aizhuanlove.cn/code/*
 *.picadmedia.com/*
 cts.tradepub.com/*
 *.intellitxt.com/*
-5,4,*.dt07.net/*
+*.dt07.net/*
 *.mgid.com/*.htm
 *.mgid.com/*.js
 static.hhzw.5pk.com/*
@@ -1532,7 +1533,7 @@ v2.tudou.com/td*/*
 stat*.tudou.com/*
 *.tudou.com/framepage/*
 *.tudou.com/tdap/*
-valf.atm.youku.com/valf?*
+5,4,valf.atm.youku.com/valf?*
 f.youku.com/player/getFlvPath/fileid/*&yad=1*
 vhtml.atm.youku.com/*
 t.stat.youku.com/*
@@ -1677,9 +1678,13 @@ ik.synacast.com/*
 a.dangdang.com/*
 img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 download.cncmax.js.cn/images/temp/down-banner*.jpg
-5,4,*/newhuagg/js_*
+www.onlinedown.net/newhuagg/js_*
+www.newhua.com/newhuagg/js_*
+www.onlinedown.net/newhuagg/js_*
+www.newhua.com/newhuagg/js_*
 count.newhua.com/*
-5,4,*/newhuagg/article_*
+www.newhua.com//newhuagg/article_*
+www.onlinedown.net//newhuagg/article_*
 www.onlinedown.net/newhuagg/daohang.js
 */newhua_index_pic_*.js
 */newhuagg/pptv.jpg
@@ -2003,6 +2008,8 @@ xfiles.myspace.cn/*mstg/image/yunying/*/*_*.gif
 *hkwxc.com/t/g/*
 www.fbook.net/fbookad/*
 *.vista123.com/notice.htm
+www.win8china.com/script/*.htm
+www.win7china.com/script/*.htm
 *.vista123.com/script/popup_win.js
 img.vista123.com/images/*3*x*.
 img.vista123.com/images/355_80_cd.gif

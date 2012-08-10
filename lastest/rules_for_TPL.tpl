@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-10 14:24:10
+#Updated:2012-08-10 19:26:22
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -21,6 +21,7 @@ msFilterList
 - *.net/ads/
 - */sidead.
 - */999aadbak.js
+- */google_ads/
 - */adimg.
 - */tanchuang.
 - */banner-ad-
@@ -1248,6 +1249,11 @@ msFilterList
 - *.picadmedia.com/
 -d cts.tradepub.com
 - *.intellitxt.com/
++d dt07.net
++d dt07.net
++d dt07.net
++d dt07.net
++d dt07.net
 - *.dt07.net/
 - *.mgid.com/*.htm
 - *.mgid.com/*.js
@@ -1724,9 +1730,13 @@ msFilterList
 -d img4.ddimg.cn /00074/pic/*_*_*x*_*.jpg
 #----华军软件园&牛华网----
 -d download.cncmax.js.cn /images/temp/down-banner*.jpg
-- */newhuagg/js_
+-d www.onlinedown.net /newhuagg/js_
+-d www.newhua.com /newhuagg/js_
+-d www.onlinedown.net /newhuagg/js_
+-d www.newhua.com /newhuagg/js_
 -d count.newhua.com
-- */newhuagg/article_
+-d www.newhua.com //newhuagg/article_
+-d www.onlinedown.net //newhuagg/article_
 -d www.onlinedown.net /newhuagg/daohang.js
 - */newhua_index_pic_*.js
 - */newhuagg/pptv.jpg
@@ -2153,6 +2163,8 @@ msFilterList
 -d www.fbook.net /fbookad/
 #----IT之家&Vista之家&Win7之家&Win8之家----
 - *.vista123.com/notice.htm
+-d www.win8china.com /script/*.htm
+-d www.win7china.com /script/*.htm
 - *.vista123.com/script/popup_win.js
 -d img.vista123.com /images/*3*x*.
 -d img.vista123.com /images/355_80_cd.gif
@@ -2928,6 +2940,8 @@ msFilterList
 #----万方数据----
 - *.wanfangdata.com.cn/Share/Images/*.gif
 - *.wanfangdata.com.cn/Share/Images/*.swf
+#----北京爱书----
++d www.bj-ibook.cn /pub/index/js/header.js
 #----6担网----
 -d www.6dan.com /uploads/*-*-*.gif
 -d www.6dan.com /uploads/*.swf
@@ -3190,6 +3204,8 @@ msFilterList
 - *cnzz.cc/soft/js/a_
 #----电脑上WAP网----
 - *.pctowap.com/img/bs*.jpg
+#----Speedtest.net----
++d c.speedtest.net
 #----华商网----
 -d www.hsw.cn /images08/jsx_0611.gif
 -d eap.hsw.cn

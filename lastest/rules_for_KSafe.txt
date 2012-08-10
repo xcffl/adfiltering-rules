@@ -10,6 +10,7 @@
 5,4,*.net/ads/*
 5,4,*/sidead.*
 5,4,*/999aadbak.js*
+5,4,*/google_ads/*
 5,4,*/adimg.*
 5,4,*/tanchuang.*
 5,4,*/banner-ad-*
@@ -1525,7 +1526,7 @@
 5,4,*.tudou.com/framepage/*
 5,4,*.tudou.com/tdap/*
 5,4,valf.atm.youku.com/valf?*
-5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1*
+5,4,*&yad=1*
 5,4,vhtml.atm.youku.com/*
 5,4,t.stat.youku.com/*
 5,4,hz.youku.com/red/ggnotice.php
@@ -1669,9 +1670,13 @@
 5,4,a.dangdang.com/*
 5,4,img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 5,4,download.cncmax.js.cn/images/temp/down-banner*.jpg
-5,4,*/newhuagg/js_*
+5,4,www.onlinedown.net/newhuagg/js_*
+5,4,www.newhua.com/newhuagg/js_*
+5,4,www.onlinedown.net/newhuagg/js_*
+5,4,www.newhua.com/newhuagg/js_*
 5,4,count.newhua.com/*
-5,4,*/newhuagg/article_*
+5,4,www.newhua.com//newhuagg/article_*
+5,4,www.onlinedown.net//newhuagg/article_*
 5,4,www.onlinedown.net/newhuagg/daohang.js
 5,4,*/newhua_index_pic_*.js
 5,4,*/newhuagg/pptv.jpg
@@ -1995,6 +2000,8 @@
 5,4,*hkwxc.com/t/g/*
 5,4,www.fbook.net/fbookad/*
 5,4,*.vista123.com/notice.htm
+5,4,www.win8china.com/script/*.htm
+5,4,www.win7china.com/script/*.htm
 5,4,*.vista123.com/script/popup_win.js
 5,4,img.vista123.com/images/*3*x*.
 5,4,img.vista123.com/images/355_80_cd.gif

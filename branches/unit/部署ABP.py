@@ -1,29 +1,34 @@
 # -*- coding: utf-8 -*-
 #毕业于2012.08.06 v1.0
 #增加自动获取时间功能 2012.08.07 v1.1
+#精简到仅仅更新时间。 2012。08.10 v1.2
 
 #先定义原规则各部分，再过滤出chinalist中新规则，分别按顺序打印到文件，再复制回来
-import urllib
+'''import urllib'''
 import re, os
 import time
-chinalistfile = urllib.urlopen('http://adblock-chinalist.googlecode.com/svn/trunk/adblock-lazy.txt')
-chinalist = chinalistfile.read()
+'''chinalistfile = urllib.urlopen('http://adblock-chinalist.googlecode.com/svn/trunk/adblock-lazy.txt')
+chinalist = chinalistfile.read()'''
 
 #读取afr，合并到同一字符串
 afrfile = open('rules_for_ABP.txt', 'r')
 afr = afrfile.readlines()
 afr = ''.join(afr)
 
-#在需要分割的位置添加标识符\cut/
+'''#在需要分割的位置添加标识符\cut/
 afr = re.sub(r'!\-{13}.{6}\-{13}(?=\n)','!-------------待分类-------------\cut/', afr)
 afr = re.sub('!-------------其他','!-------------其他\cut/', afr)
 afr = re.sub('!--------其他--------','!--------其他--------\cut/', afr)
-
+'''
 #更新“更新时间”
 time = time.strftime("%Y-%m-%d %X", time.localtime())
 afr = re.sub(r'(?<=!Updated:).*', time ,afr)
+afrfile.close()
+afrfile = open('rules_for_ABP.txt', 'w')
+print >> afrfile, afr
+afrfile.close()
 
-#分割规则
+'''#分割规则
 afr = afr.split('\cut/')
 
 #加个atemp
@@ -74,3 +79,4 @@ afrfile.close()
 #删除临时文件
 atempfile ='rules_for_ABP.temp.txt'   
 os.remove(atempfile)
+'''

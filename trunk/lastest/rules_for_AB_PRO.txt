@@ -1527,6 +1527,7 @@ v2.tudou.com/td*/*
 stat*.tudou.com/*
 *.tudou.com/framepage/*
 *.tudou.com/tdap/*
+valf.atm.youku.com/valf?*
 f.youku.com/player/getFlvPath/fileid/*&yad=1*
 vhtml.atm.youku.com/*
 t.stat.youku.com/*

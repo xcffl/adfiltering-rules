@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-10 13:42:31
+#Updated:2012-08-10 14:24:10
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -3703,6 +3703,9 @@ msFilterList
 +d pv.5211game.com
 -d stat.wiseie.com
 -d script2.pingan.com /app_js/pingan/
+-d www.godnav.net /MAPS/LE*.gif
+-d www.roadrover.cn /images/luchang.swf
+-d www.xieche.net /imgs/SOSAW.gif
 -d www.eshop8.com /images/*i*.gif
 -d www.2apay.com /2apay.gif
 -d hitbs.cn /img/banner.jpg

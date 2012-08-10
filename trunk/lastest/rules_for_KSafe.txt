@@ -3027,6 +3027,9 @@
 5,4,*gaomm.in/*
 5,4,stat.wiseie.com/*
 5,4,script2.pingan.com/app_js/pingan/*
+5,4,www.godnav.net/MAPS/LE*.gif
+5,4,www.roadrover.cn/images/luchang.swf
+5,4,www.xieche.net/imgs/SOSAW.gif
 5,4,www.eshop8.com/images/*i*.gif
 5,4,www.2apay.com/2apay.gif
 5,4,hitbs.cn/img/banner.jpg

@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-10 13:25:36
+!Updated:2012-08-10 13:36:06
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -12,6 +12,7 @@
 ##.adRight
 ##.adFrame
 ##[id^=ab_],[id*=AD_]
+##.ad_top
 ##.adLeft
 ###tads.c
 ###bottomads
@@ -1745,6 +1746,7 @@
 /:\/\/([^\/]+\.)?a.dangdang.com\//
 /:\/\/([^\/]+\.)?img4.ddimg.cn\/00074\/pic\/.*_.*_.*x.*_.*\.jpg/
 !----华军软件园&牛华网----
+##[class^="ad_ritht_"]	$d=newhua.com
 /:\/\/([^\/]+\.)?download.cncmax.js.cn\/images\/temp\/down-banner.*\.jpg/
 /\/newhuagg\/js_/
 /:\/\/([^\/]+\.)?count.newhua.com\//

@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-10 14:24:10
+!Updated:2012-08-10 19:26:22
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -11,6 +11,7 @@
 !------元素隐藏规则------
 bannerad
 ##.wp.a_t
+##.side_ad
 ##.a_mu
 ##.ad-div
 ###footer-ads
@@ -35,6 +36,7 @@ bannerad
 /\.net\/ads\//
 /\/sidead\./
 /\/999aadbak\.js/
+/\/google_ads\//
 /\/adimg\./
 /\/tanchuang\./
 /\/banner-ad-/
@@ -1262,6 +1264,11 @@ bannerad
 /\.picadmedia\.com\//
 /:\/\/([^\/]+\.)?cts.tradepub.com\//
 /\.intellitxt\.com\//
+/:\/\/([^\/]+\.)?dt07\.net\/.*/	$d=mgid.com,$w
+/:\/\/([^\/]+\.)?dt07\.net\/.*/	$d=marketgid.ua,$w
+/:\/\/([^\/]+\.)?dt07\.net\/.*/	$d=marketgid.ru,$w
+/:\/\/([^\/]+\.)?dt07\.net\/.*/	$d=marketgid.com,$w
+/:\/\/([^\/]+\.)?dt07\.net\/.*/	$d=thechive.com,$w
 /\.dt07\.net\//
 /\.mgid\.com\/.*\.htm/
 /\.mgid\.com\/.*\.js/
@@ -1582,7 +1589,7 @@ bannerad
 ##[id^="ab_"]	$d=soku.com
 ##[id^="ab_"]	$d=youku.com
 ##.sideCol > div[class^="AB"]
-/:\/\/([^\/]+\.)?valf.atm.youku.com\/valf\?/
+/:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/valf\?.*/	$d=youku.com,$w
 /:\/\/([^\/]+\.)?f.youku.com\/player\/getFlvPath\/fileid\/.*&yad=1/
 /:\/\/([^\/]+\.)?vhtml.atm.youku.com\//
 /:\/\/([^\/]+\.)?t.stat.youku.com\//
@@ -1753,9 +1760,13 @@ bannerad
 !----华军软件园&牛华网----
 ##[class^="ad_ritht_"]	$d=newhua.com
 /:\/\/([^\/]+\.)?download.cncmax.js.cn\/images\/temp\/down-banner.*\.jpg/
-/\/newhuagg\/js_/
+/:\/\/([^\/]+\.)?www.onlinedown.net\/newhuagg\/js_/
+/:\/\/([^\/]+\.)?www.newhua.com\/newhuagg\/js_/
+/:\/\/([^\/]+\.)?www.onlinedown.net\/newhuagg\/js_/
+/:\/\/([^\/]+\.)?www.newhua.com\/newhuagg\/js_/
 /:\/\/([^\/]+\.)?count.newhua.com\//
-/\/newhuagg\/article_/
+/:\/\/([^\/]+\.)?www.newhua.com\/\/newhuagg\/article_/
+/:\/\/([^\/]+\.)?www.onlinedown.net\/\/newhuagg\/article_/
 /:\/\/([^\/]+\.)?www.onlinedown.net\/newhuagg\/daohang\.js/
 /\/newhua_index_pic_.*\.js/
 /\/newhuagg\/pptv\.jpg/
@@ -2184,7 +2195,11 @@ bannerad
 !----天下书盟网----
 /:\/\/([^\/]+\.)?www.fbook.net\/fbookad\//
 !----IT之家&Vista之家&Win7之家&Win8之家----
+##.site_ad	$d=win7china.com
+##.site_ad	$d=win8china.com
 /\.vista123\.com\/notice\.htm/
+/:\/\/([^\/]+\.)?www.win8china.com\/script\/.*\.htm/
+/:\/\/([^\/]+\.)?www.win7china.com\/script\/.*\.htm/
 /\.vista123\.com\/script\/popup_win\.js/
 /:\/\/([^\/]+\.)?img.vista123.com\/images\/.*3.*x.*\./
 /:\/\/([^\/]+\.)?img.vista123.com\/images\/355_80_cd\.gif/
@@ -2209,6 +2224,8 @@ bannerad
 !----金山快快----
 /:\/\/([^\/]+\.)?cw002.kuaikuai.cn\/website\/subject\/editor_recommend2\//
 !----远景在线----
+##.forum_top + div[style]:nth-child(3)	$d=bbs.pcbeta.com
+##pt + div[style] > div[style^="clear:both;"]	$d=bbs.pcbeta.com
 /:\/\/([^\/]+\.)?bbs.pcbeta.com\/static\/image\/biz\//
 !----泡泡网----
 /:\/\/([^\/]+\.)?app.pcpop.com\/PageView\.aspx\?/
@@ -2960,6 +2977,8 @@ bannerad
 !----万方数据----
 /\.wanfangdata\.com\.cn\/Share\/Images\/.*\.gif/
 /\.wanfangdata\.com\.cn\/Share\/Images\/.*\.swf/
+!----北京爱书----
+/:\/\/([^\/]+\.)?www.bj-ibook.cn\/pub\/index\/js\/header\.js/	$w
 !----6担网----
 /:\/\/([^\/]+\.)?www.6dan.com\/uploads\/.*-.*-.*\.gif/
 /:\/\/([^\/]+\.)?www.6dan.com\/uploads\/.*\.swf/
@@ -3226,6 +3245,8 @@ bannerad
 /cnzz\.cc\/soft\/js\/a_/
 !----电脑上WAP网----
 /\.pctowap\.com\/img\/bs.*\.jpg/
+!----Speedtest.net----
+/:\/\/([^\/]+\.)?c.speedtest.net\//	$w
 !----华商网----
 /:\/\/([^\/]+\.)?www.hsw.cn\/images08\/jsx_0611\.gif/
 /:\/\/([^\/]+\.)?eap.hsw.cn\//

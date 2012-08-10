@@ -1,3 +1,10 @@
+www.fbook.net/fbookad/*
+*.vista123.com/notice.htm
+www.win8china.com/script/*.htm
+www.win7china.com/script/*.htm
+*.vista123.com/script/popup_win.js
+img.vista123.com/images/*3*x*.
+img.vista123.com/images/355_80_cd.gif
 img.vista123.com/images/saayaa*.gif
 img.vista123.com/images/TweakCube468.gif
 img.vista123.com/images/win7master.gif

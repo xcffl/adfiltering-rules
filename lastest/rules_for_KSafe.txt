@@ -11,6 +11,7 @@
 5,4,*/sidead.*
 5,4,*/999aadbak.js*
 5,4,*/adimg.*
+5,4,*/tanchuang.*
 5,4,*/banner-ad-*
 5,4,*/adv.*
 5,4,*/pv.*

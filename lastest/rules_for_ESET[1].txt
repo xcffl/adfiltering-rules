@@ -11,6 +11,7 @@
 */sidead.*
 */999aadbak.js*
 */adimg.*
+*/tanchuang.*
 */banner-ad-*
 */adv.*
 */pv.*
@@ -1996,5 +1997,4 @@ img.vista123.com/images/TweakCube468.gif
 img.vista123.com/images/win7master.gif
 *.vista123.cn/notice.js
 *win8china.com/win8/headline.htm
-*win8china.com/Script/elements/*_google*
 

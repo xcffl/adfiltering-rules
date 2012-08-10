@@ -386,6 +386,6 @@ tempfile ='rules_for_360.txt'
 os.remove(tempfile)
 #打开360更新网站
 import os
-os.startfile('http://rules.wd.360.cn/upload_rule_22.html?pid=60546&id=105545')
+os.startfile('http://rules.wd.360.cn/upload_rule_11.html?id=60546')
 
   

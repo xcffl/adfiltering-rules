@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-10 19:26:22
+!Updated:2012-08-11 15:46:22
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -10,6 +10,8 @@
 !-------------通用规则-------------
 !------元素隐藏规则------
 bannerad
+##.top-ad
+##.widget-ads
 ##.wp.a_t
 ##.side_ad
 ##.a_mu
@@ -580,6 +582,7 @@ bannerad
 /\/tao-jipiao\.jpg/
 /\/gkgou\.gif/
 /^http:\/\/.*\/DS-2\.swf/
+/\/advertisement-/
 /\/images\/ad_.*\.jpg/
 /\/g\.html\?au_aud=/
 /&au_sid=/
@@ -1586,9 +1589,11 @@ bannerad
 /\.tudou\.com\/framepage\//
 /\.tudou\.com\/tdap\//
 !----优酷网----
+##.AB50,.AB240	$d=youku.com
 ##[id^="ab_"]	$d=soku.com
 ##[id^="ab_"]	$d=youku.com
 ##.sideCol > div[class^="AB"]
+/:\/\/([^\/]+\.)?valf.atm.youku.com\/valf\?/
 /:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/valf\?.*/	$d=youku.com,$w
 /:\/\/([^\/]+\.)?f.youku.com\/player\/getFlvPath\/fileid\/.*&yad=1/
 /:\/\/([^\/]+\.)?vhtml.atm.youku.com\//
@@ -2224,6 +2229,9 @@ bannerad
 !----金山快快----
 /:\/\/([^\/]+\.)?cw002.kuaikuai.cn\/website\/subject\/editor_recommend2\//
 !----远景在线----
+##.a_pt	$d=bbs.pcbeta.com
+##.a_pb	$d=bbs.pcbeta.com
+##diynavtop + .wp	$d=bbs.pcbeta.com
 ##.forum_top + div[style]:nth-child(3)	$d=bbs.pcbeta.com
 ##pt + div[style] > div[style^="clear:both;"]	$d=bbs.pcbeta.com
 /:\/\/([^\/]+\.)?bbs.pcbeta.com\/static\/image\/biz\//
@@ -2417,6 +2425,8 @@ bannerad
 /duotegame\.com\/images\/duotegame.*\.swf/
 /duotegame\.com\/img\/.*\.gif/
 /duotegame\.com\/images\/.*5c.*\.gif/
+!----Engadget----
+##.medrect	$d=engadget.com
 !----中国学生网----
 /:\/\/([^\/]+\.)?ad.*\.6to23\.com\//
 !----中国天气----
@@ -3673,6 +3683,17 @@ bannerad
 /\.google-analytics\.com\//
 /:\/\/([^\/]+\.)?www.google.cn\/aclk\?/
 !----百度&乐居&hao123----
+##.l_banner	$d=tieba.baidu.com
+##h123_mod	$d=tieba.baidu.com
+##qb-ad-cpro	$d=iknow.baidu.com
+##qb-ad-cpro	$d=z.baidu.com
+##qb-ad-cpro	$d=zidao.baidu.com
+##qb-ad-cpro	$d=zhidao.baidu.com
+##ad-brand-down	$d=iknow.baidu.com
+##ad-brand-down	$d=z.baidu.com
+##ad-brand-down	$d=zidao.baidu.com
+##ad-brand-down	$d=zhidao.baidu.com
+##mabox	$d=baike.baidu.com
 ##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]	$d=www.baidu.com
 ##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]	$d=www1.baidu.com
 ##style + table:nth-child(3)	$d=www.baidu.com

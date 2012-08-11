@@ -554,6 +554,7 @@ js.*/code.js
 */tao-jipiao.jpg
 */gkgou.gif
 */DS-2.swf
+*/advertisement-*
 */images/ad_*.jpg
 */g.html?au_aud=*
 *&au_sid=*
@@ -1526,6 +1527,7 @@ stat*.tudou.com/*
 *.tudou.com/framepage/*
 *.tudou.com/tdap/*
 valf.atm.youku.com/valf?*
+valf.atm.youku.com/valf?*
 f.youku.com/player/getFlvPath/fileid/*&yad=1*
 vhtml.atm.youku.com/*
 t.stat.youku.com/*
@@ -1995,6 +1997,4 @@ img181.poco.cn/mypoco/myphoto/20110216/17/5639799420110216174810040_640.jpg
 www.itmxc.com/mxc-news/*x*.*
 *yanyuwu.com/sexa/*
 gg.blueidea.com*
-gg.un.myspace.cn*
-xfiles.myspace.cn/*mstg/image/yunying/*/*_*.gif
 

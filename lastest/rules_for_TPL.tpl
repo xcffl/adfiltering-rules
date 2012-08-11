@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-10 19:26:22
+#Updated:2012-08-11 15:46:22
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -565,6 +565,7 @@ msFilterList
 - */tao-jipiao.jpg
 - */gkgou.gif
 - http://*/DS-2.swf
+- */advertisement-
 - */images/ad_*.jpg
 - */g.html?au_aud=
 - *&au_sid=
@@ -1561,6 +1562,7 @@ msFilterList
 - *.tudou.com/tdap/
 #----优酷网----
 -d valf.atm.youku.com /valf?
+-d valf.atm.youku.com /valf?
 -d f.youku.com /player/getFlvPath/fileid/*&yad=1
 -d vhtml.atm.youku.com
 -d t.stat.youku.com
@@ -2380,6 +2382,7 @@ msFilterList
 - *duotegame.com/images/duotegame*.swf
 - *duotegame.com/img/*.gif
 - *duotegame.com/images/*5c*.gif
+#----Engadget----
 #----中国学生网----
 - http://ad*.6to23.com/
 #----中国天气----

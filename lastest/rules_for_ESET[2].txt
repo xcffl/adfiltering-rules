@@ -1,3 +1,14 @@
+img181.poco.cn/mypoco/myphoto/20110216/17/5639799420110216174810040_640.jpg
+174.139.220.155/pic/*.gif
+www.itmxc.com/mxc-news/*x*.*
+forum.51nb.com/images/*-*.gif
+forum.51nb.com/images/post*.gif
+forum.51nb.com/images/top*.gif
+forum.51nb.com/images/wpc*.gif
+forum.51nb.com/images/forumbottom.gif
+*yanyuwu.com/sexa/*
+gg.blueidea.com*
+gg.un.myspace.cn*
 xfiles.myspace.cn/*mstg/image/yunying/*/*_*.gif
 *hkwxc.com/t/g/*
 www.fbook.net/fbookad/*

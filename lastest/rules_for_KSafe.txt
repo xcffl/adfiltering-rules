@@ -773,6 +773,7 @@
 5,4,*.topfriv.com/popup.js
 5,4,*.securitymattersmag.com/scripts/popup.js
 5,4,a*.q150.com/*
+5,4,js.juandou.com/a.js?*
 5,4,*.198game.com/*
 5,4,*.198game.net/*
 5,4,*.allthelyrics.com/*/popup.js
@@ -1021,6 +1022,8 @@
 5,4,*ip686.com*
 5,4,*ivru.moyu.com*
 5,4,js.62826.com*
+5,4,pixel.indieclick.com/*
+5,4,cdn.demdex.net/*
 5,4,js.coogao.cn*
 5,4,js1.339.cn*
 5,4,jsa.733.com*
@@ -1065,6 +1068,7 @@
 5,4,code.345ads.com:*/*
 5,4,code.158ad.com/*
 5,4,code.qqgou.com/*
+5,4,j.union.ijinshan.com/*
 5,4,www.xixianad.com/*
 5,4,*.linkbucksmedia.com/director/*
 5,4,d*.zedo.com/*
@@ -1299,6 +1303,7 @@
 5,4,*.i99770.com/haodm/dmjsc/*.js
 5,4,www.i99770.com/g/h/*.html
 5,4,*46.com/taobao/images/*
+5,4,discuz.gtimg.cn/cloud/scripts/discuz_tips.js?*
 5,4,mat1.gtimg.com/cq/*
 5,4,mat1.gtimg.com/sports/*.swf
 5,4,tajs.qq.com/*
@@ -1364,11 +1369,12 @@
 5,4,www.zhujima.com/tu/*u*.jpg
 5,4,www.zhujima.com/tu/*g*.png
 5,4,www.zhujima.com/tu/*vps.gif
-5,4,v.sina.com.cn/*
+5,4,v.sina.com.cn/*.html
 5,4,count.kandian.com/*.html
 5,4,l.you.video.sina.com.cn*_undig&*
 5,4,l.you.video.sina.com.cn/*.xml
 5,4,dcads.sina.com.cn/*
+5,4,pfp.sina.com.cn/jczs.html
 5,4,pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 5,4,bj.house.sina.com.cn/*.js
 5,4,*.sinaimg.cn/*/deco/*.js
@@ -1380,7 +1386,7 @@
 5,4,*.sina.com.cn/v/iframe/*taglist.html
 5,4,mybizsite.sina.com.cn/*
 5,4,p4p.sina.com.cn/*
-5,4,pfp.sina.com.cn/*
+5,4,pfp.sina.com.cn/*.js
 5,4,blog.sina.com.cn/lm/mini/*.html
 5,4,d1.sina.com.cn/*.gif
 5,4,d1.sina.com.cn/*images/*
@@ -1995,6 +2001,11 @@
 5,4,img181.poco.cn/mypoco/myphoto/20110216/17/5639799420110216174810040_640.jpg
 5,4,174.139.220.155/pic/*.gif
 5,4,www.itmxc.com/mxc-news/*x*.*
+5,4,forum.51nb.com/images/*-*.gif
+5,4,forum.51nb.com/images/post*.gif
+5,4,forum.51nb.com/images/top*.gif
+5,4,forum.51nb.com/images/wpc*.gif
+5,4,forum.51nb.com/images/forumbottom.gif
 5,4,*yanyuwu.com/sexa/*
 5,4,gg.blueidea.com*
 5,4,gg.un.myspace.cn*

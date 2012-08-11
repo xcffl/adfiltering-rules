@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-08-11 15:57:15
+!Updated:2012-08-11 15:59:22
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.3
 !Copyright 2011 xcffl, Apache License 2.0
@@ -2599,6 +2599,8 @@ engadget.com##.medrect
 ||am.6park.com/img/*
 ||image.6park.com*
 ||www.6park.com/wap/close.gif*
+!----51CTO.COM----
+developer.51cto.com###list4
 !----万卷书屋----
 ||js.wanjuan.net/*.html
 ||js.wanjuan.net/youzhong/*-*

@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-11 15:59:22
+!Updated:2012-08-11 16:24:26
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -802,6 +802,7 @@ bannerad
 /\.topfriv\.com\/popup\.js/
 /\.securitymattersmag\.com\/scripts\/popup\.js/
 /:\/\/([^\/]+\.)?a.*\.q150\.com\//
+/:\/\/([^\/]+\.)?js.juandou.com\/a\.js\?/
 /\.198game\.com\//
 /\.198game\.net\//
 /\.allthelyrics\.com\/.*\/popup\.js/
@@ -1051,6 +1052,8 @@ bannerad
 /^http:\/\/.*ip686\.com/
 /ivru\.moyu\.com/
 /:\/\/([^\/]+\.)?js\.62826\.com/
+/:\/\/([^\/]+\.)?pixel.indieclick.com\//
+/:\/\/([^\/]+\.)?cdn.demdex.net\//
 /:\/\/([^\/]+\.)?js\.coogao\.cn/
 /:\/\/([^\/]+\.)?js1\.339\.cn/
 /:\/\/([^\/]+\.)?jsa\.733\.com/
@@ -1095,6 +1098,7 @@ bannerad
 /:\/\/([^\/]+\.)?code\.345ads\.com:.*\//
 /:\/\/([^\/]+\.)?code.158ad.com\//
 /:\/\/([^\/]+\.)?code.qqgou.com\//
+/:\/\/([^\/]+\.)?j.union.ijinshan.com\//
 /:\/\/([^\/]+\.)?www.xixianad.com\//
 /\.linkbucksmedia\.com\/director\//
 /:\/\/([^\/]+\.)?d.*\.zedo\.com\//
@@ -1341,6 +1345,7 @@ bannerad
 /46\.com\/taobao\/images\//
 !----腾讯&财付通----
 ##.l_qq_com	$d=qq.com
+/:\/\/([^\/]+\.)?discuz.gtimg.cn\/cloud\/scripts\/discuz_tips\.js\?/
 /:\/\/([^\/]+\.)?mat1.gtimg.com\/cq\//
 /:\/\/([^\/]+\.)?mat1.gtimg.com\/sports\/.*\.swf/
 /:\/\/([^\/]+\.)?tajs.qq.com\//
@@ -1421,11 +1426,12 @@ bannerad
 ##PartG > .rightbox	$d=www.sina.com.cn
 ##PartA > .left > div:not(#sina_house_link9)	$d=www.sina.com.cn
 ##topBg	$d=house.sina.com.cn
-/:\/\/([^\/]+\.)?v.sina.com.cn\//
+/:\/\/([^\/]+\.)?v.sina.com.cn\/.*\.html/
 /:\/\/([^\/]+\.)?count.kandian.com\/.*\.html/
 /:\/\/([^\/]+\.)?l\.you\.video\.sina\.com\.cn.*_undig&/
 /:\/\/([^\/]+\.)?l.you.video.sina.com.cn\/.*\.xml/
 /:\/\/([^\/]+\.)?dcads.sina.com.cn\//
+/:\/\/([^\/]+\.)?pfp.sina.com.cn\/jczs\.html/
 /:\/\/([^\/]+\.)?pfp.sina.com.cn\/iframe\/2012nonghangguanggaotest1\.html/
 /:\/\/([^\/]+\.)?bj.house.sina.com.cn\/.*\.js/
 /\.sinaimg\.cn\/.*\/deco\/.*\.js/
@@ -1437,7 +1443,7 @@ bannerad
 /\.sina\.com\.cn\/v\/iframe\/.*taglist\.html/
 /:\/\/([^\/]+\.)?mybizsite.sina.com.cn\//
 /:\/\/([^\/]+\.)?p4p.sina.com.cn\//
-/:\/\/([^\/]+\.)?pfp.sina.com.cn\//
+/:\/\/([^\/]+\.)?pfp.sina.com.cn\/.*\.js/
 /:\/\/([^\/]+\.)?blog.sina.com.cn\/lm\/mini\/.*\.html/
 /:\/\/([^\/]+\.)?d1.sina.com.cn\/.*\.gif/
 /:\/\/([^\/]+\.)?d1.sina.com.cn\/.*images\//
@@ -2188,6 +2194,12 @@ bannerad
 /:\/\/([^\/]+\.)?174.139.220.155\/pic\/.*\.gif/
 !----MXC----
 /:\/\/([^\/]+\.)?www.itmxc.com\/mxc-news\/.*x.*\./
+!----专门网----
+/:\/\/([^\/]+\.)?forum.51nb.com\/images\/.*-.*\.gif/
+/:\/\/([^\/]+\.)?forum.51nb.com\/images\/post.*\.gif/
+/:\/\/([^\/]+\.)?forum.51nb.com\/images\/top.*\.gif/
+/:\/\/([^\/]+\.)?forum.51nb.com\/images\/wpc.*\.gif/
+/:\/\/([^\/]+\.)?forum.51nb.com\/images\/forumbottom\.gif/
 !----九城社区----
 /yanyuwu\.com\/sexa\//
 !----蓝色理想----

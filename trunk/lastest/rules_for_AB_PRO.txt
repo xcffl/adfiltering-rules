@@ -781,6 +781,7 @@ i.uu06.com/*
 *.topfriv.com/popup.js
 *.securitymattersmag.com/scripts/popup.js
 a*.q150.com/*
+js.juandou.com/a.js?*
 *.198game.com/*
 *.198game.net/*
 *.allthelyrics.com/*/popup.js
@@ -1029,6 +1030,8 @@ img.shenduchuanmei.com/a/*
 *ip686.com*
 *ivru.moyu.com*
 js.62826.com*
+pixel.indieclick.com/*
+cdn.demdex.net/*
 js.coogao.cn*
 js1.339.cn*
 jsa.733.com*
@@ -1073,6 +1076,7 @@ code.345ads.com/*
 code.345ads.com:*/*
 code.158ad.com/*
 code.qqgou.com/*
+j.union.ijinshan.com/*
 www.xixianad.com/*
 *.linkbucksmedia.com/director/*
 d*.zedo.com/*
@@ -1307,6 +1311,7 @@ media.fastclick.net*
 *.i99770.com/haodm/dmjsc/*.js
 www.i99770.com/g/h/*.html
 *46.com/taobao/images/*
+discuz.gtimg.cn/cloud/scripts/discuz_tips.js?*
 mat1.gtimg.com/cq/*
 mat1.gtimg.com/sports/*.swf
 tajs.qq.com/*
@@ -1372,11 +1377,12 @@ un.so.gougou.com/*
 www.zhujima.com/tu/*u*.jpg
 www.zhujima.com/tu/*g*.png
 www.zhujima.com/tu/*vps.gif
-v.sina.com.cn/*
+v.sina.com.cn/*.html
 count.kandian.com/*.html
 l.you.video.sina.com.cn*_undig&*
 l.you.video.sina.com.cn/*.xml
 dcads.sina.com.cn/*
+pfp.sina.com.cn/jczs.html
 pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 bj.house.sina.com.cn/*.js
 *.sinaimg.cn/*/deco/*.js
@@ -1388,7 +1394,7 @@ sh.sinaimg.cn//228/*
 *.sina.com.cn/v/iframe/*taglist.html
 mybizsite.sina.com.cn/*
 p4p.sina.com.cn/*
-pfp.sina.com.cn/*
+pfp.sina.com.cn/*.js
 blog.sina.com.cn/lm/mini/*.html
 d1.sina.com.cn/*.gif
 d1.sina.com.cn/*images/*
@@ -2003,6 +2009,11 @@ www.oneqing.com/lip/ons*.gif
 img181.poco.cn/mypoco/myphoto/20110216/17/5639799420110216174810040_640.jpg
 174.139.220.155/pic/*.gif
 www.itmxc.com/mxc-news/*x*.*
+forum.51nb.com/images/*-*.gif
+forum.51nb.com/images/post*.gif
+forum.51nb.com/images/top*.gif
+forum.51nb.com/images/wpc*.gif
+forum.51nb.com/images/forumbottom.gif
 *yanyuwu.com/sexa/*
 gg.blueidea.com*
 gg.un.myspace.cn*

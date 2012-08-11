@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-11 15:59:22
+#Updated:2012-08-11 16:24:26
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -785,6 +785,7 @@ msFilterList
 - *.topfriv.com/popup.js
 - *.securitymattersmag.com/scripts/popup.js
 - http://a*.q150.com/
+-d js.juandou.com /a.js?
 - *.198game.com/
 - *.198game.net/
 - *.allthelyrics.com/*/popup.js
@@ -1034,6 +1035,8 @@ msFilterList
 - http://*ip686.com
 - *ivru.moyu.com
 - http://js.62826.com
+-d pixel.indieclick.com
+-d cdn.demdex.net
 - http://js.coogao.cn
 - http://js1.339.cn
 - http://jsa.733.com
@@ -1078,6 +1081,7 @@ msFilterList
 - http://code.345ads.com:*/
 -d code.158ad.com
 -d code.qqgou.com
+-d j.union.ijinshan.com
 -d www.xixianad.com
 - *.linkbucksmedia.com/director/
 - http://d*.zedo.com/
@@ -1323,6 +1327,7 @@ msFilterList
 #----46网址导航----
 - *46.com/taobao/images/
 #----腾讯&财付通----
+-d discuz.gtimg.cn /cloud/scripts/discuz_tips.js?
 -d mat1.gtimg.com /cq/
 -d mat1.gtimg.com /sports/*.swf
 -d tajs.qq.com
@@ -1393,11 +1398,12 @@ msFilterList
 -d www.zhujima.com /tu/*g*.png
 -d www.zhujima.com /tu/*vps.gif
 #----新浪网&看点----
--d v.sina.com.cn
+-d v.sina.com.cn .html
 -d count.kandian.com .html
 - http://l.you.video.sina.com.cn*_undig&
 -d l.you.video.sina.com.cn .xml
 -d dcads.sina.com.cn
+-d pfp.sina.com.cn /jczs.html
 -d pfp.sina.com.cn /iframe/2012nonghangguanggaotest1.html
 -d bj.house.sina.com.cn .js
 - *.sinaimg.cn/*/deco/*.js
@@ -1409,7 +1415,7 @@ msFilterList
 - *.sina.com.cn/v/iframe/*taglist.html
 -d mybizsite.sina.com.cn
 -d p4p.sina.com.cn
--d pfp.sina.com.cn
+-d pfp.sina.com.cn .js
 -d blog.sina.com.cn /lm/mini/*.html
 -d d1.sina.com.cn .gif
 -d d1.sina.com.cn images/
@@ -2152,6 +2158,12 @@ msFilterList
 -d 174.139.220.155 /pic/*.gif
 #----MXC----
 -d www.itmxc.com /mxc-news/*x*.
+#----专门网----
+-d forum.51nb.com /images/*-*.gif
+-d forum.51nb.com /images/post*.gif
+-d forum.51nb.com /images/top*.gif
+-d forum.51nb.com /images/wpc*.gif
+-d forum.51nb.com /images/forumbottom.gif
 #----九城社区----
 - *yanyuwu.com/sexa/
 #----蓝色理想----

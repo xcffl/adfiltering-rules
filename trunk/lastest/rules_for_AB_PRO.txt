@@ -562,6 +562,7 @@ js.*/code.js
 */tao-jipiao.jpg
 */gkgou.gif
 */DS-2.swf
+*/advertisement-*
 */images/ad_*.jpg
 */g.html?au_aud=*
 *&au_sid=*
@@ -1533,6 +1534,7 @@ v2.tudou.com/td*/*
 stat*.tudou.com/*
 *.tudou.com/framepage/*
 *.tudou.com/tdap/*
+valf.atm.youku.com/valf?*
 5,4,valf.atm.youku.com/valf?*
 f.youku.com/player/getFlvPath/fileid/*&yad=1*
 vhtml.atm.youku.com/*

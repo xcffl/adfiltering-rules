@@ -554,6 +554,7 @@
 5,4,*/tao-jipiao.jpg
 5,4,*/gkgou.gif
 5,4,*/DS-2.swf
+5,4,*/advertisement-*
 5,4,*/images/ad_*.jpg
 5,4,*/g.html?au_aud=*
 5,4,*&au_sid=*
@@ -1526,7 +1527,8 @@
 5,4,*.tudou.com/framepage/*
 5,4,*.tudou.com/tdap/*
 5,4,valf.atm.youku.com/valf?*
-5,4,*&yad=1*
+5,4,valf.atm.youku.com/valf?*
+5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1*
 5,4,vhtml.atm.youku.com/*
 5,4,t.stat.youku.com/*
 5,4,hz.youku.com/red/ggnotice.php

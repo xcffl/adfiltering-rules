@@ -1,8 +1,8 @@
 ﻿[AdblockPlus]
-! Checksum: WqMJZS9GTJ2zqfcXYw21ZQ
+! Checksum: SOnm8vBDVN9+je+tfWeikw
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-08-10 19:26:22
+!Updated:2012-08-11 15:46:22
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.3
 !Copyright 2011 xcffl, Apache License 2.0
@@ -10,6 +10,8 @@
 !-------------通用规则-------------
 !------元素隐藏规则------
 ~alltimesgames.com,~comedycentral.de,~comedycentral.nl,~go.com,~modernmedicine.com,~shareapic.net,~viva.tv###bannerad
+~aylak.com##.top-ad
+##.widget-ads
 ~kafan.cn##.wp.a_t
 ##.side_ad
 ##.a_mu
@@ -580,6 +582,7 @@
 |*/tao-jipiao.jpg
 |*/gkgou.gif
 |http://*/DS-2.swf
+|*/advertisement-*
 |*/images/ad_*.jpg
 |*/g.html?au_aud=*
 |*&au_sid=*
@@ -1586,8 +1589,10 @@ house.sina.com.cn###topBg
 |*.tudou.com/framepage/*
 |*.tudou.com/tdap/*
 !----优酷网----
+youku.com##.AB50,.AB240
 soku.com,youku.com##[id^="ab_"]
 ##.sideCol > div[class^="AB"]
+||valf.atm.youku.com/valf?*
 ||valf.atm.youku.com/valf?*$domain=youku.com
 ||f.youku.com/player/getFlvPath/fileid/*&yad=1*
 ||vhtml.atm.youku.com/*
@@ -2222,6 +2227,9 @@ win7china.com,win8china.com##.site_ad
 !----金山快快----
 ||cw002.kuaikuai.cn/website/subject/editor_recommend2/*
 !----远景在线----
+bbs.pcbeta.com##.a_pt
+bbs.pcbeta.com##.a_pb
+bbs.pcbeta.com###diynavtop + .wp
 bbs.pcbeta.com##.forum_top + div[style]:nth-child(3)
 bbs.pcbeta.com###pt + div[style] > div[style^="clear:both;"]
 ||bbs.pcbeta.com/static/image/biz/*
@@ -2415,6 +2423,8 @@ bbs.pcbeta.com###pt + div[style] > div[style^="clear:both;"]
 |*duotegame.com/images/duotegame*.swf
 |*duotegame.com/img/*.gif
 |*duotegame.com/images/*5c*.gif
+!----Engadget----
+engadget.com##.medrect
 !----中国学生网----
 ||ad*.6to23.com/*
 !----中国天气----
@@ -3671,6 +3681,11 @@ you85.cn##TABLE[align="center"]
 |*.google-analytics.com/*
 ||www.google.cn/aclk?*
 !----百度&乐居&hao123----
+tieba.baidu.com##.l_banner
+tieba.baidu.com###h123_mod
+iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###qb-ad-cpro
+iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###ad-brand-down
+baike.baidu.com###mabox
 www.baidu.com,www1.baidu.com##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]
 www.baidu.com,www1.baidu.com##style + table:nth-child(3)
 www.baidu.com,www1.baidu.com##.EC_mr15

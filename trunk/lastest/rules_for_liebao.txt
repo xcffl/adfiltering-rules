@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-12 14:42:37
+!Updated:2012-08-12 14:56:42
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -1601,7 +1601,6 @@ bannerad
 /\.tudou\.com\/framepage\//
 /\.tudou\.com\/tdap\//
 !----优酷网----
-##.AB50,.AB240	$d=youku.com
 ##[id^="ab_"]	$d=soku.com
 ##[id^="ab_"]	$d=youku.com
 ##.sideCol > div[class^="AB"]

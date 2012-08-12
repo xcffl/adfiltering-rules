@@ -1,4 +1,3 @@
-*.haofoot.net/gif.gif
 img181.poco.cn/mypoco/myphoto/20110201/23/5635003420110201232541093_640.jpg
 www.oneqing.com/lip/ons*.gif
 *huayuanmeng.com/lip/*
@@ -986,7 +985,6 @@ hm.baidu.com/*
 www.baidu.com/baidu.php?url=*-*_*_*_*-*.*_*_*_*&ck=*.*
 drmcmm.baidu.com/*
 ma.baidu.com/*
-www.baidu.com/adrc.php?*
 zhidao.baidu.com/s/ikqb/*
 unstat.baidu.com/*
 cbjs.baidu.com/*

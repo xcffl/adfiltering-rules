@@ -1497,7 +1497,6 @@
 5,4,images*.cache.netease.com/channel*
 5,4,v.163.com/special/open_adv/*
 5,4,v.163.com/special/008547FN/gg20091116.xml
-5,4,tech.163.com/*.js
 5,4,analytics.163.com/*
 5,4,swf.ws.126.net/*.flv
 5,4,images.163.com/*
@@ -2986,7 +2985,6 @@
 5,4,www.baidu.com/baidu.php?url=*-*_*_*_*-*.*_*_*_*&ck=*.*
 5,4,drmcmm.baidu.com/*
 5,4,ma.baidu.com/*
-5,4,www.baidu.com/adrc.php?*
 5,4,zhidao.baidu.com/s/ikqb/*
 5,4,unstat.baidu.com/*
 5,4,cbjs.baidu.com/*

@@ -1497,7 +1497,6 @@ flv.bn.netease.com/*
 images*.cache.netease.com/channel*
 v.163.com/special/open_adv/*
 v.163.com/special/008547FN/gg20091116.xml
-tech.163.com/*.js
 analytics.163.com/*
 swf.ws.126.net/*.flv
 images.163.com/*
@@ -1997,4 +1996,5 @@ www.92wg.com/new/js/A_*.js
 *.haha.mx/Public/images/banner-*.png
 *.cicih.cn/images/kuaiji.gif
 am.zdnet.com.cn/www/images/*/*_*.swf
+icon.zdnet.com.cn/software_zone/pic/utd/ad_*.gif
 

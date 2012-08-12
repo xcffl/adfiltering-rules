@@ -348,7 +348,6 @@
 5,4,*/js/playhd.js
 5,4,*/gg.js
 5,4,*/js/index-1.js
-5,4,*tongji.js
 5,4,*/foot.js*
 5,4,*/c_2/*
 5,4,a-m-s.*
@@ -403,6 +402,7 @@
 5,4,*/rmb/*.js
 5,4,*/click.php?=*
 5,4,*.me*/header.js
+5,4,*.cn/*/header.js
 5,4,*.co/*/header.js
 5,4,*.org*/header.js
 5,4,*get_ad.php?ad_id=*
@@ -1366,6 +1366,7 @@
 5,4,click.cm.sandai.net/*
 5,4,un.so.gougou.com/*
 5,4,*mcfg.sandai.net/*
+5,4,www.zhujima.com/tupian/*
 5,4,www.zhujima.com/tu/*u*.jpg
 5,4,www.zhujima.com/tu/*g*.png
 5,4,www.zhujima.com/tu/*vps.gif
@@ -1619,6 +1620,7 @@
 5,4,www.pcgames.com.cn/*/hzh/index.html
 5,4,www.pcgames.com.cn/*/fz/*
 5,4,*3conline.com/ivy/*
+5,4,gg.yxdown.com/*
 5,4,images.mydrivers.com/*/*x*.swf
 5,4,11.mydrivers.com/*.htm*
 5,4,11.mydrivers.com/www/*_*.js

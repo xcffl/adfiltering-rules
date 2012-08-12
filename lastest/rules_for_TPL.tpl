@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-11 16:24:26
+#Updated:2012-08-12 12:16:41
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -272,7 +272,7 @@ msFilterList
 - http://*linkpage.js
 - */showwindow/
 - */unipro/
-- http://cl.
+- http://cl.*.*/
 - http://*banners.
 - */ads.js
 - *click.aspx?id=
@@ -416,7 +416,6 @@ msFilterList
 - *.me*/header.js
 - *.co/*/header.js
 - *.org*/header.js
-- *.cn*/header.js
 - *get_ad.php?ad_id=
 - */bookfloat.js
 - http://*/downyc*.js
@@ -903,6 +902,7 @@ msFilterList
 -d material.mediav.com
 - *.discuz.net/data/attachment/album/*/*/*.gif
 - *.1lo0.net/code/
+- *.ads001.com/
 -d d.yoyi.tv
 - *.ifocus.cn/
 - http://c*.keytui.com/
@@ -1568,11 +1568,11 @@ msFilterList
 - *.tudou.com/tdap/
 #----优酷网----
 -d valf.atm.youku.com /valf?
--d valf.atm.youku.com /valf?
 -d f.youku.com /player/getFlvPath/fileid/*&yad=1
 -d vhtml.atm.youku.com
 -d t.stat.youku.com
 -d hz.youku.com /red/ggnotice.php
+# @@||static.atm.youku.com*jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=http://count.atm.youku*
 -d static.atm.youku.com -*.swf?jsStart=
 -d vid.atm.youku.com
 -d html.atm.youku.com
@@ -1812,6 +1812,8 @@ msFilterList
 -d img.cnbeta.com /tongbu*.
 -d img.cnbeta.com 336.gif
 -d img.cnbeta.com /app*.gif
+#----999宝藏网----
+-d www.rin9.com /js/t1.js?
 #----DNSPod----
 +d statics.dnspod.cn /yantai/js/
 #----卡巴一族----
@@ -2141,6 +2143,9 @@ msFilterList
 - *admin5.com/extras/zz/index.scroll.flash.js
 - *admin5.com/images/zz/*.gif
 - *admin5.com/images/zz/*.jpg
+#----就爱外挂网----
+-d www.92wg.com /Style_litcn/css/ad.css
+-d www.92wg.com /new/js/A_*.js
 #----哈哈.MX----
 - *.haha.mx/Public/images/banner-*.png
 #----CC网址名录----

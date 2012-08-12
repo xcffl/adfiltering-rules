@@ -348,7 +348,6 @@ c.*/img_*
 */js/playhd.js
 */gg.js
 */js/index-1.js
-*tongji.js
 */foot.js*
 */c_2/*
 a-m-s.*
@@ -403,6 +402,7 @@ js.*/code.js
 */rmb/*.js
 */click.php?=*
 *.me*/header.js
+*.cn/*/header.js
 *.co/*/header.js
 *.org*/header.js
 *get_ad.php?ad_id=*
@@ -1366,6 +1366,7 @@ gvod.union.sandai.net/*
 click.cm.sandai.net/*
 un.so.gougou.com/*
 *mcfg.sandai.net/*
+www.zhujima.com/tupian/*
 www.zhujima.com/tu/*u*.jpg
 www.zhujima.com/tu/*g*.png
 www.zhujima.com/tu/*vps.gif
@@ -1619,6 +1620,7 @@ img3.pcgames.com.cn/pcgames/1012/02/*
 www.pcgames.com.cn/*/hzh/index.html
 www.pcgames.com.cn/*/fz/*
 *3conline.com/ivy/*
+gg.yxdown.com/*
 images.mydrivers.com/*/*x*.swf
 11.mydrivers.com/*.htm*
 11.mydrivers.com/www/*_*.js
@@ -1995,6 +1997,4 @@ www.92wg.com/new/js/A_*.js
 *.haha.mx/Public/images/banner-*.png
 *.cicih.cn/images/kuaiji.gif
 am.zdnet.com.cn/www/images/*/*_*.swf
-icon.zdnet.com.cn/software_zone/pic/utd/ad_*.gif
-*.haofoot.net/gif.gif
 

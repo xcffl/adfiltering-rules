@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-12 12:16:41
+#Updated:2012-08-12 14:28:32
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -359,7 +359,6 @@ msFilterList
 - */js/playhd.js
 - http://*/gg.js
 - */js/index-1.js
-- http://*tongji.js
 - */foot.js
 - http://*/c_2/
 - http://a-m-s.
@@ -414,6 +413,7 @@ msFilterList
 - */rmb/*.js
 - */click.php?=
 - *.me*/header.js
+- *.cn/*/header.js
 - *.co/*/header.js
 - *.org*/header.js
 - *get_ad.php?ad_id=
@@ -1394,6 +1394,7 @@ msFilterList
 -d un.so.gougou.com
 - *mcfg.sandai.net/
 #----主机码----
+-d www.zhujima.com /tupian/
 -d www.zhujima.com /tu/*u*.jpg
 -d www.zhujima.com /tu/*g*.png
 -d www.zhujima.com /tu/*vps.gif
@@ -1664,6 +1665,8 @@ msFilterList
 -d www.pcgames.com.cn /hzh/index.html
 -d www.pcgames.com.cn /fz/
 - *3conline.com/ivy/
+#----游讯网----
+-d gg.yxdown.com
 #----驱动之家----
 -d images.mydrivers.com /*x*.swf
 -d 11.mydrivers.com .htm
@@ -1680,6 +1683,8 @@ msFilterList
 -d policy.cupid.qiyi.com
 -d uestat.video.qiyi.com
 - *.iqiyi.com/player/*/theatre*.swf
+#----中国移动----
++d gd.10086.cn
 #----网页制作大宝库----
 -d images.dabaoku.com .gif
 -d www.dabaoku.com /js/top*.js
@@ -2393,6 +2398,9 @@ msFilterList
 - *.3dmgame.com/games/UploadFiles/*/*.gif
 #----看书网----
 -d 80.qukanshu.com
+#----198Game----
++d public.198game.com /toponline/ost.js
++d v.198game.com /hzw1198com/
 #----游侠下载站----
 - *.youxiaxiazai.com/db_top/index_top.htm
 #----电游网----

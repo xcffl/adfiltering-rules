@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-12 14:28:32
+#Updated:2012-08-12 14:42:37
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1530,7 +1530,6 @@ msFilterList
 - http://images*.cache.netease.com/channel
 -d v.163.com /special/open_adv/
 -d v.163.com /special/008547FN/gg20091116.xml
--d tech.163.com .js
 -d analytics.163.com
 -d swf.ws.126.net .flv
 -d images.163.com
@@ -3675,7 +3674,6 @@ msFilterList
 -d www.baidu.com /baidu.php?url=*-*_*_*_*-*.*_*_*_*&ck=*.
 -d drmcmm.baidu.com
 -d ma.baidu.com
--d www.baidu.com /adrc.php?
 -d zhidao.baidu.com /s/ikqb/
 -d unstat.baidu.com
 -d cbjs.baidu.com

@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-12 14:28:32
+!Updated:2012-08-12 14:42:37
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -1564,7 +1564,6 @@ bannerad
 /:\/\/([^\/]+\.)?images.*\.cache\.netease\.com\/channel/
 /:\/\/([^\/]+\.)?v.163.com\/special\/open_adv\//
 /:\/\/([^\/]+\.)?v.163.com\/special\/008547FN\/gg20091116\.xml/
-/:\/\/([^\/]+\.)?tech.163.com\/.*\.js/
 /:\/\/([^\/]+\.)?analytics.163.com\//
 /:\/\/([^\/]+\.)?swf.ws.126.net\/.*\.flv/
 /:\/\/([^\/]+\.)?images.163.com\//
@@ -3756,7 +3755,6 @@ bannerad
 /:\/\/([^\/]+\.)?www.baidu.com\/baidu\.php\?url=.*-.*_.*_.*_.*-.*\..*_.*_.*_.*&ck=.*\./
 /:\/\/([^\/]+\.)?drmcmm.baidu.com\//
 /:\/\/([^\/]+\.)?ma.baidu.com\//
-/:\/\/([^\/]+\.)?www.baidu.com\/adrc\.php\?/
 /:\/\/([^\/]+\.)?zhidao.baidu.com\/s\/ikqb\//
 /:\/\/([^\/]+\.)?unstat.baidu.com\//
 /:\/\/([^\/]+\.)?cbjs.baidu.com\//

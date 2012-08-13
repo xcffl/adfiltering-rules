@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-13 17:54:36
+#Updated:2012-08-13 19:08:29
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1380,6 +1380,7 @@ msFilterList
 - http://kkpgv*.xunlei.com/
 -d cop.my.xunlei.com
 - http://p4pstatic.xunlei.com
+- *.cpm.cm.sandai.net/
 - http://leiyanstatic.xunlei.com
 - *211.94.190.80/
 - http://biz*.sandai.net/

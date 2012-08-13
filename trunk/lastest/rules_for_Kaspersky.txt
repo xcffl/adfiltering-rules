@@ -1353,6 +1353,7 @@ images.client.xunlei.com/gougou_recommend/*
 kkpgv*.xunlei.com/*
 cop.my.xunlei.com/*
 p4pstatic.xunlei.com*
+*.cpm.cm.sandai.net/*
 leiyanstatic.xunlei.com*
 *211.94.190.80/*
 biz*.sandai.net/*

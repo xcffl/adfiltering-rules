@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-08-13 17:54:36
+!Updated:2012-08-13 19:08:29
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.3
 !Copyright 2011 xcffl, Apache License 2.0
@@ -9,6 +9,7 @@
 !-------------通用规则-------------
 !------元素隐藏规则------
 ~alltimesgames.com,~comedycentral.de,~comedycentral.nl,~go.com,~modernmedicine.com,~shareapic.net,~viva.tv###bannerad
+##.boxad
 ~bipbip.co.il,~quoka.de##.adpic
 ###ad_headerbanner
 ~zdnet.de##a[href^="http://ad.doubleclick.net/"]
@@ -1391,6 +1392,7 @@ qq.com##.l_qq_com
 ||dr.soso.com/*
 |*soso*.*/UploadFiles/2008*.gif
 !----迅雷&狗狗&快传----
+xunlei.com##.playad
 kuai.xunlei.com##.l_img
 ||img.kuai.xunlei.com/img/v2/fen/*
 |*mtips.xunlei.com/*
@@ -1408,6 +1410,7 @@ kuai.xunlei.com##.l_img
 ||kkpgv*.xunlei.com/*
 ||cop.my.xunlei.com/*
 ||p4pstatic.xunlei.com*
+|*.cpm.cm.sandai.net/*
 ||leiyanstatic.xunlei.com*
 |*211.94.190.80/*
 ||biz*.sandai.net/*

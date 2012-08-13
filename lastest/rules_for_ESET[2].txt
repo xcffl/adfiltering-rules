@@ -1,3 +1,4 @@
+*.haha.mx/Public/images/banner-*.png
 *.cicih.cn/images/kuaiji.gif
 am.zdnet.com.cn/www/images/*/*_*.swf
 icon.zdnet.com.cn/software_zone/pic/utd/ad_*.gif

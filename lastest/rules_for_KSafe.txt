@@ -1353,6 +1353,7 @@
 5,4,kkpgv*.xunlei.com/*
 5,4,cop.my.xunlei.com/*
 5,4,p4pstatic.xunlei.com*
+5,4,*.cpm.cm.sandai.net/*
 5,4,leiyanstatic.xunlei.com*
 5,4,*211.94.190.80/*
 5,4,biz*.sandai.net/*

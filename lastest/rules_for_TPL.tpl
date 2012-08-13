@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-12 14:56:42
+#Updated:2012-08-13 17:54:36
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -304,6 +304,7 @@ msFilterList
 - */js/tan/*.js
 - *.net*/banner.js
 - */cpm/ids.js
+- */images/ad.
 - *c.*/code_img/
 - http://c.*/img_
 - http://*code.*/iclk
@@ -1328,6 +1329,8 @@ msFilterList
 - *46.com/taobao/images/
 #----腾讯&财付通----
 -d discuz.gtimg.cn /cloud/scripts/discuz_tips.js?
+-d mat1.gtimg.com /2012/images/ay12/*AD*.png
+-d mat1.gtimg.com /2012/images/ay12/*ad*.jpg
 -d mat1.gtimg.com /cq/
 -d mat1.gtimg.com /sports/*.swf
 -d tajs.qq.com
@@ -1548,6 +1551,7 @@ msFilterList
 - *.union.youdao.com/
 - http://impservice*.youdao.com/
 #----土豆网----
+-d td.atm.youku.com
 - http://tdap.tudou.com
 - */tui/*js
 -d stat.tudou.com /play.srv
@@ -1865,7 +1869,7 @@ msFilterList
 -d st.vq.ku6.cn
 -d image.ku6.com /image/
 -d image.ku6.com 888*/
-#----异次元软件世界----
+#----异次元软件世界&iPc.me----
 -d www.iplaysoft.com /plus/static_files/nuffnang.html
 #----中关村在线&中关村在线武汉站----
 - *.zol.com.cn/js/setcook.js
@@ -2498,8 +2502,10 @@ msFilterList
 #----江城足球网----
 -d img1.jczqw.com /img/
 #----电脑之家PChome----
+-d images.pchome.net /global/js2/f_right.js?
 -d js-1.pchome.net .js
 -d btn.pchome.net
+-d stat.pchome.net
 - http://btm.pchome.net
 #----温尼星----
 - *winnistar.ca/images/star1.jpg
@@ -3110,12 +3116,16 @@ msFilterList
 #----Taorar----
 - *88591.com/hy/
 #----REF.SO&他找----
--d www.ref.so shortCounter.jsp?*=tesp&dr=
+-d www.ref.so shortCounter.jsp?
 -d wzw.la /new.php?action=article&fidin=*&digest=0&postdate=0&author=0&fname=0&hits=0&replies=0&pre=2&num=8&length=*&order=2
 -d pic.filec2c.com /img/483793ea/
 -d bbs.tazhao.com /api.php?
 #----中国网赚论坛----
 - http://*you85.cn/1/
+#----西西外挂网----
+-d www.xixibbs.com /1.jpg
+#----西西游戏网----
+-d www.321youxi.com /js/
 #----西西软件园----
 - *cr173.com/show/
 #----绿同网----
@@ -3742,8 +3752,11 @@ msFilterList
 -d 360.legoumall.com /?id=
 - *.jianfei234.com/
 - http://*gaomm.in/
-#-------------本站推广-------------
+#-------------推广本站-------------
 +d pv.5211game.com
+-d www.doudou.com /scripts/recom/*x*.gif
+-d www.gaywang.com /images/friend*.gif
+-d raymond315.xiazaia.net
 -d stat.wiseie.com
 -d script2.pingan.com /app_js/pingan/
 -d www.godnav.net /MAPS/LE*.gif

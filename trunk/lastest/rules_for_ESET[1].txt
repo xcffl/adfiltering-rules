@@ -293,6 +293,7 @@ un*js.php*
 */js/tan/*.js
 *.net*/banner.js*
 */cpm/ids.js
+*/images/ad.*
 *c.*/code_img/*
 c.*/img_*
 *code.*/iclk*
@@ -1304,6 +1305,8 @@ media.fastclick.net*
 www.i99770.com/g/h/*.html
 *46.com/taobao/images/*
 discuz.gtimg.cn/cloud/scripts/discuz_tips.js?*
+mat1.gtimg.com/2012/images/ay12/*AD*.png
+mat1.gtimg.com/2012/images/ay12/*ad*.jpg
 mat1.gtimg.com/cq/*
 mat1.gtimg.com/sports/*.swf
 tajs.qq.com/*
@@ -1514,6 +1517,7 @@ st.yxp.126.net/h/action/*
 st1.yxp.126.net/img/photo/*
 *.union.youdao.com/*
 impservice*.youdao.com/*
+td.atm.youku.com/*
 tdap.tudou.com*
 */tui/*js*
 stat.tudou.com/play.srv*
@@ -1993,8 +1997,4 @@ down.admin5.com/z/*
 *admin5.com/images/zz/*.jpg
 www.92wg.com/Style_litcn/css/ad.css
 www.92wg.com/new/js/A_*.js
-*.haha.mx/Public/images/banner-*.png
-*.cicih.cn/images/kuaiji.gif
-am.zdnet.com.cn/www/images/*/*_*.swf
-icon.zdnet.com.cn/software_zone/pic/utd/ad_*.gif
 

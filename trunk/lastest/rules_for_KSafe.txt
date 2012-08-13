@@ -293,6 +293,7 @@
 5,4,*/js/tan/*.js
 5,4,*.net*/banner.js*
 5,4,*/cpm/ids.js
+5,4,*/images/ad.*
 5,4,*c.*/code_img/*
 5,4,c.*/img_*
 5,4,*code.*/iclk*
@@ -1304,6 +1305,8 @@
 5,4,www.i99770.com/g/h/*.html
 5,4,*46.com/taobao/images/*
 5,4,discuz.gtimg.cn/cloud/scripts/discuz_tips.js?*
+5,4,mat1.gtimg.com/2012/images/ay12/*AD*.png
+5,4,mat1.gtimg.com/2012/images/ay12/*ad*.jpg
 5,4,mat1.gtimg.com/cq/*
 5,4,mat1.gtimg.com/sports/*.swf
 5,4,tajs.qq.com/*
@@ -1514,6 +1517,7 @@
 5,4,st1.yxp.126.net/img/photo/*
 5,4,*.union.youdao.com/*
 5,4,impservice*.youdao.com/*
+5,4,td.atm.youku.com/*
 5,4,tdap.tudou.com*
 5,4,*/tui/*js*
 5,4,stat.tudou.com/play.srv*
@@ -2234,8 +2238,10 @@
 5,4,*.younet.com/images/*.swf
 5,4,www.ztlt.org/*ztad*
 5,4,img1.jczqw.com/img/*
+5,4,images.pchome.net/global/js2/f_right.js?*
 5,4,js-1.pchome.net/*.js
 5,4,btn.pchome.net/*
+5,4,stat.pchome.net/*
 5,4,btm.pchome.net*
 5,4,*winnistar.ca/images/star1.jpg
 5,4,*winnistar.ca/images/mid.jpg
@@ -2641,11 +2647,13 @@
 5,4,*facebook.com/plugins/like.php?*
 5,4,*facebook.com/widgets/*
 5,4,*88591.com/hy/*
-5,4,www.ref.so/*shortCounter.jsp?*=tesp&dr=*
+5,4,www.ref.so/*shortCounter.jsp?*
 5,4,wzw.la/new.php?action=article&fidin=*&digest=0&postdate=0&author=0&fname=0&hits=0&replies=0&pre=2&num=8&length=*&order=2
 5,4,pic.filec2c.com/img/483793ea/*
 5,4,bbs.tazhao.com/api.php?*
 5,4,*you85.cn/1/*
+5,4,www.xixibbs.com/1.jpg
+5,4,www.321youxi.com/js/*
 5,4,*cr173.com/show/*
 5,4,www.5264.net/ad/*
 5,4,www.cc222.com/cc222ads/*
@@ -3047,6 +3055,9 @@
 5,4,360.legoumall.com/?id=*
 5,4,*.jianfei234.com/*
 5,4,*gaomm.in/*
+5,4,www.doudou.com/scripts/recom/*x*.gif
+5,4,www.gaywang.com/images/friend*.gif
+5,4,raymond315.xiazaia.net/*
 5,4,stat.wiseie.com/*
 5,4,script2.pingan.com/app_js/pingan/*
 5,4,www.godnav.net/MAPS/LE*.gif

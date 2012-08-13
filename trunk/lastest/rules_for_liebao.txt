@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-12 14:56:42
+!Updated:2012-08-13 17:54:36
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -10,7 +10,10 @@
 !-------------通用规则-------------
 !------元素隐藏规则------
 bannerad
+##.adpic
 ###ad_headerbanner
+##a[href^="http://ad.doubleclick.net/"]
+##.adarea
 ###ad_text:not(textarea)
 ##.ad300
 ##.top-ad
@@ -327,6 +330,7 @@ bannerad
 /\/js\/tan\/.*\.js/
 /\.net.*\/banner\.js/
 /\/cpm\/ids\.js/
+/\/images\/ad\./
 /c\..*\/code_img\//
 /:\/\/([^\/]+\.)?c\..*\/img_/
 /^http:\/\/.*code\..*\/iclk/
@@ -1350,8 +1354,11 @@ bannerad
 !----46网址导航----
 /46\.com\/taobao\/images\//
 !----腾讯&财付通----
+##.AdTop-Article-QQ	$d=qq.com
 ##.l_qq_com	$d=qq.com
 /:\/\/([^\/]+\.)?discuz.gtimg.cn\/cloud\/scripts\/discuz_tips\.js\?/
+/:\/\/([^\/]+\.)?mat1.gtimg.com\/2012\/images\/ay12\/.*AD.*\.png/
+/:\/\/([^\/]+\.)?mat1.gtimg.com\/2012\/images\/ay12\/.*ad.*\.jpg/
 /:\/\/([^\/]+\.)?mat1.gtimg.com\/cq\//
 /:\/\/([^\/]+\.)?mat1.gtimg.com\/sports\/.*\.swf/
 /:\/\/([^\/]+\.)?tajs.qq.com\//
@@ -1385,6 +1392,7 @@ bannerad
 /:\/\/([^\/]+\.)?dr.soso.com\//
 /soso.*\..*\/UploadFiles\/2008.*\.gif/
 !----迅雷&狗狗&快传----
+##.l_img	$d=kuai.xunlei.com
 /:\/\/([^\/]+\.)?img.kuai.xunlei.com\/img\/v2\/fen\//
 /mtips\.xunlei\.com\//
 /websts\.xunlei\.com\//
@@ -1582,6 +1590,7 @@ bannerad
 /\.union\.youdao\.com\//
 /:\/\/([^\/]+\.)?impservice.*\.youdao\.com\//
 !----土豆网----
+/:\/\/([^\/]+\.)?td.atm.youku.com\//
 /:\/\/([^\/]+\.)?tdap\.tudou\.com/
 /\/tui\/.*js/
 /:\/\/([^\/]+\.)?stat.tudou.com\/play\.srv/
@@ -1891,6 +1900,7 @@ bannerad
 !----m1905.com----
 /:\/\/([^\/]+\.)?static.acs86.com\//
 !----酷6----
+##[class^="aa_"]	$d=v.ku6.com
 /:\/\/([^\/]+\.)?dwtracking.sdo.com\//
 /:\/\/([^\/]+\.)?stat.ku6.com\/.*\.xml/
 /:\/\/([^\/]+\.)?ku6afp.allyes.com\//
@@ -1903,7 +1913,8 @@ bannerad
 /:\/\/([^\/]+\.)?st.vq.ku6.cn\//
 /:\/\/([^\/]+\.)?image.ku6.com\/image\//
 /:\/\/([^\/]+\.)?image.ku6.com\/.*888.*\//
-!----异次元软件世界----
+!----异次元软件世界&iPc.me----
+##.post-top-gg	$d=ipc.me
 /:\/\/([^\/]+\.)?www.iplaysoft.com\/plus\/static_files\/nuffnang\.html/
 !----中关村在线&中关村在线武汉站----
 /\.zol\.com\.cn\/js\/setcook\.js/
@@ -1977,6 +1988,7 @@ bannerad
 !----风之动漫----
 /\.fzdm\.com\/ggup\//
 !----凤凰网----
+##.label_3	$d=ifeng.com
 ##[id^="flash_outer_"]	$d=ifeng.com
 ##[class^="adList"]	$d=ifeng.com
 ##StreamMediaWrap	$d=ifeng.com
@@ -2072,6 +2084,8 @@ bannerad
 !----扬子晚报----
 /\.yangtse\.com\/images\/.*\.swf/
 !----IT168.com----
+##.gg	$d=it168.com
+##[id^="ADV"]	$d=it168.com
 /\.it168\.com\/cad\//
 /:\/\/([^\/]+\.)?168.it168.com\/.*\.js/
 /:\/\/([^\/]+\.)?download.it168.com\/jscript\/bubbl.*\.js/
@@ -2231,6 +2245,7 @@ bannerad
 !----天下书盟网----
 /:\/\/([^\/]+\.)?www.fbook.net\/fbookad\//
 !----IT之家&Vista之家&Win7之家&Win8之家----
+##bbs_hl	$d=bbs.ithome.com
 ##.site_ad	$d=win7china.com
 ##.site_ad	$d=win8china.com
 /\.vista123\.com\/notice\.htm/
@@ -2552,8 +2567,13 @@ bannerad
 !----江城足球网----
 /:\/\/([^\/]+\.)?img1.jczqw.com\/img\//
 !----电脑之家PChome----
+##lenovo	$d=article.pchome.net
+##[class^="ad"]	$d=kdslife.com
+##[class^="ad"]	$d=pchome.net
+/:\/\/([^\/]+\.)?images.pchome.net\/global\/js2\/f_right\.js\?/
 /:\/\/([^\/]+\.)?js-1.pchome.net\/.*\.js/
 /:\/\/([^\/]+\.)?btn.pchome.net\//
+/:\/\/([^\/]+\.)?stat.pchome.net\//
 /:\/\/([^\/]+\.)?btm\.pchome\.net/
 !----温尼星----
 /winnistar\.ca\/images\/star1\.jpg/
@@ -3166,8 +3186,9 @@ bannerad
 !----Taorar----
 /88591\.com\/hy\//
 !----REF.SO&他找----
+##[style="overflow:hidden; height:auto;  width:950px; margin:0 auto;  "]	$d=ref.so
 ##TABLE[width="300"]	$d=ref.so
-/:\/\/([^\/]+\.)?www.ref.so\/.*shortCounter\.jsp\?.*=tesp&dr=/
+/:\/\/([^\/]+\.)?www.ref.so\/.*shortCounter\.jsp\?/
 /:\/\/([^\/]+\.)?wzw.la\/new\.php\?action=article&fidin=.*&digest=0&postdate=0&author=0&fname=0&hits=0&replies=0&pre=2&num=8&length=.*&order=2/
 /:\/\/([^\/]+\.)?pic.filec2c.com\/img\/483793ea\//
 /:\/\/([^\/]+\.)?bbs.tazhao.com\/api\.php\?/
@@ -3175,6 +3196,10 @@ bannerad
 ##TABLE[bordercolor="#000000"]	$d=you85.cn
 ##TABLE[align="center"]	$d=you85.cn
 /^http:\/\/.*you85\.cn\/1\//
+!----西西外挂网----
+/:\/\/([^\/]+\.)?www.xixibbs.com\/1\.jpg/
+!----西西游戏网----
+/:\/\/([^\/]+\.)?www.321youxi.com\/js\//
 !----西西软件园----
 /cr173\.com\/show\//
 !----绿同网----
@@ -3655,6 +3680,8 @@ bannerad
 !----速盘----
 /:\/\/([^\/]+\.)?www.supan.la\/filestorescaoni\/.*\.jpg/
 !----中国新闻网----
+##qizhi_div980	$d=chinanews.com
+##adhzh	$d=chinanews.com
 /chinanews\.com\.cn\/ad/
 !----中国供应商----
 /:\/\/([^\/]+\.)?pvstat.china.cn\/statpv\.js/
@@ -3822,8 +3849,11 @@ bannerad
 /:\/\/([^\/]+\.)?360.legoumall.com\/\?id=/
 /\.jianfei234\.com\//
 /^http:\/\/.*gaomm\.in\//
-!-------------本站推广-------------
+!-------------推广本站-------------
 /:\/\/([^\/]+\.)?pv.5211game.com\//	$w
+/:\/\/([^\/]+\.)?www.doudou.com\/scripts\/recom\/.*x.*\.gif/
+/:\/\/([^\/]+\.)?www.gaywang.com\/images\/friend.*\.gif/
+/:\/\/([^\/]+\.)?raymond315.xiazaia.net\//
 /:\/\/([^\/]+\.)?stat.wiseie.com\//
 /:\/\/([^\/]+\.)?script2.pingan.com\/app_js\/pingan\//
 /:\/\/([^\/]+\.)?www.godnav.net\/MAPS\/LE.*\.gif/

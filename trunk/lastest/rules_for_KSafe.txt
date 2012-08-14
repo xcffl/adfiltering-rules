@@ -666,6 +666,8 @@
 5,4,*/tx300.gif
 5,4,*/piao.gif
 5,4,*/play_down.html
+5,4,*?adtype=*
+5,4,*/ads.gif
 5,4,*/mmscode/bigbanner/*
 5,4,*/mmscode/smallbanner/*
 5,4,*/gogo.php?uid=*
@@ -1489,6 +1491,7 @@
 5,4,ring.kugou.com/*
 5,4,links.kugou.com/*
 5,4,sdn.kugou.com/*
+5,4,img3.cache.netease.com/*/ieupdate/update_funcs.js
 5,4,stat.ws.126.net/*
 5,4,adgeo.163.com/*
 5,4,*.163.com/special/*_*.xml

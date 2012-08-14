@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-14 15:19:24
+#Updated:2012-08-14 17:01:22
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -677,6 +677,8 @@ msFilterList
 - */tx300.gif
 - */piao.gif
 - */play_down.html
+- *?adtype=
+- */ads.gif
 - */mmscode/bigbanner/
 - */mmscode/smallbanner/
 - */gogo.php?uid=
@@ -1522,6 +1524,7 @@ msFilterList
 -d links.kugou.com
 -d sdn.kugou.com
 #----网易&有道----
+-d img3.cache.netease.com /ieupdate/update_funcs.js
 -d stat.ws.126.net
 -d adgeo.163.com
 - *.163.com/special/*_*.xml
@@ -1832,6 +1835,7 @@ msFilterList
 #----天维网----
 -d ads.skykiwi.com
 -d www.gcemedia.co.nz /www/images/*.swf
+#----问吧----
 #----厦门小鱼网----
 -d bbs.xmfish.com /images/atm/
 -d client.xmfish.com /attachments/bar/

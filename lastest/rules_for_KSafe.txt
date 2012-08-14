@@ -1537,7 +1537,7 @@
 5,4,stat*.tudou.com/*
 5,4,*.tudou.com/framepage/*
 5,4,*.tudou.com/tdap/*
-5,4,valf.atm.youku.com/valf?*
+5,4,valf.atm.youku.com/crossdomain.xml
 5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1*
 5,4,vhtml.atm.youku.com/*
 5,4,t.stat.youku.com/*

@@ -1439,8 +1439,6 @@ d3.sina.com.cn/*.gif
 d2.sina.com.cn/*.gif
 d1.sina.com.cn/jianyu1/TaoBao/*
 d3.sina.com.cn/*/*/*_*.jpg
-i2.sinaimg.cn/home/*/*/U*.jpg
-sh.sinaimg.cn/adpackage/*
 sh.sina.com.cn/iframe/249/*/5.html
 sh.sina.com.cn/iframe/328/*
 sh.sina.com.cn/iframe/391/*
@@ -1793,6 +1791,7 @@ pic.zol-img.com.cn/*/*_*.*
 *zol.com.cn/imphit0*.gif?*
 pic.zol.com.cn/*/*hp*_*_*.swf
 *pc3w.com/jS/*
+graphics.streamray.com/images/cams/flash/cams_live.swf
 www.77119.com/js/bd/*x*.htm
 www.vancl.com/WebSource/*
 images.vancl.com/Others/*/*/*/search_vt_*.jpg

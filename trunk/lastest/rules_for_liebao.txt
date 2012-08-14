@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-14 11:18:09
+!Updated:2012-08-14 15:19:24
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -9,6 +9,7 @@
 !Copyright 2011 xcffl, Apache License 2.0
 !-------------通用规则-------------
 !------元素隐藏规则------
+##.topads
 bannerad
 ##.boxad
 ##.adpic
@@ -1434,6 +1435,9 @@ bannerad
 /:\/\/([^\/]+\.)?www.zhujima.com\/tu\/.*g.*\.png/
 /:\/\/([^\/]+\.)?www.zhujima.com\/tu\/.*vps\.gif/
 !----新浪网&看点----
+##DIV[style="clear:both;width:140px;height:290px;margin:13px auto;"]	$d=sina.com.cn
+##[style="margin-top:5px; _margin-top:-5px;"]	$d=sina.com.cn
+##DIV[class$="ra_780x90Div"]	$d=sina.com.cn
 ##.adNone	$d=sina.com.cn
 ##[class^="AD"]	$d=www.sina.com.cn
 ##[class="yleft2blk"]	$d=www.sina.com.cn
@@ -1509,8 +1513,6 @@ bannerad
 /:\/\/([^\/]+\.)?d2.sina.com.cn\/.*\.gif/
 /:\/\/([^\/]+\.)?d1.sina.com.cn\/jianyu1\/TaoBao\//
 /:\/\/([^\/]+\.)?d3.sina.com.cn\/.*\/.*\/.*_.*\.jpg/
-/:\/\/([^\/]+\.)?i2.sinaimg.cn\/home\/.*\/.*\/U.*\.jpg/
-/:\/\/([^\/]+\.)?sh.sinaimg.cn\/adpackage\//
 /:\/\/([^\/]+\.)?sh.sina.com.cn\/iframe\/249\/.*\/5\.html/
 /:\/\/([^\/]+\.)?sh.sina.com.cn\/iframe\/328\//
 /:\/\/([^\/]+\.)?sh.sina.com.cn\/iframe\/391\//
@@ -1931,6 +1933,9 @@ bannerad
 /zol\.com\.cn\/imphit0.*\.gif\?/
 /:\/\/([^\/]+\.)?pic.zol.com.cn\/.*\/.*hp.*_.*_.*\.swf/
 /pc3w\.com\/jS\//
+!----GC1069----
+/:\/\/([^\/]+\.)?graphics.streamray.com\/images\/cams\/flash\/cams_live\.swf/
+##EMBED	$d=gc1069.com
 !----77119TXT小说----
 /:\/\/([^\/]+\.)?www.77119.com\/js\/bd\/.*x.*\.htm/
 !----凡客诚品----

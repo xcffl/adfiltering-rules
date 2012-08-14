@@ -1439,8 +1439,6 @@
 5,4,d2.sina.com.cn/*.gif
 5,4,d1.sina.com.cn/jianyu1/TaoBao/*
 5,4,d3.sina.com.cn/*/*/*_*.jpg
-5,4,i2.sinaimg.cn/home/*/*/U*.jpg
-5,4,sh.sinaimg.cn/adpackage/*
 5,4,sh.sina.com.cn/iframe/249/*/5.html
 5,4,sh.sina.com.cn/iframe/328/*
 5,4,sh.sina.com.cn/iframe/391/*
@@ -1793,6 +1791,7 @@
 5,4,*zol.com.cn/imphit0*.gif?*
 5,4,pic.zol.com.cn/*/*hp*_*_*.swf
 5,4,*pc3w.com/jS/*
+5,4,graphics.streamray.com/images/cams/flash/cams_live.swf
 5,4,www.77119.com/js/bd/*x*.htm
 5,4,www.vancl.com/WebSource/*
 5,4,images.vancl.com/Others/*/*/*/search_vt_*.jpg

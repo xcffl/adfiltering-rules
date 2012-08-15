@@ -834,6 +834,7 @@ synad*.nuffnang.com.cn/*
 *.2bj.cn/*
 *.zhanzhang.net/*
 code.37cs.com/*
+d1.yghua.com/code/*
 *.37cs.com/*.gif
 *.37dz.com/*
 *.45511.com/*
@@ -1043,6 +1044,8 @@ p.wanliuliang.com/*
 p4p.cnaz.com*
 p4p.foundermedia.cn*
 p4p.tom.com*
+*.wqzyt.net/*
+*.vipads.cn/*
 pages.etology.com*
 *.tbjfw.com/*
 pic.adver.com*
@@ -1713,6 +1716,8 @@ images.chinaz.com/index_imagesa/*
 *chinaz.com/js/text_link.js*
 alexa.chinaz.com/ip_gadsense.asp
 images.chinaz.com/newindex_images/*
+bbs.ruian.com/img/c*-*-*_*x*.gif
+bbs.ruian.com/img/gd_*x*.gif
 www.downyi.com/css/ad.css
 *cnenf.com/images/*.jpg
 *cnenf.com/images/ad*.gif
@@ -1772,7 +1777,7 @@ news.xmnn.cn/xwgg/nydb/*
 js.fengwu.net/baidu/*
 static.acs86.com/*
 dwtracking.sdo.com/*
-stat.ku6.com/*.xml
+*.stat.ku6.com/*.xml
 ku6afp.allyes.com/*
 stat.aa.sdo.com/*
 *stat.ku6.com/*.do?*
@@ -2267,6 +2272,7 @@ attach.fengbao.com/album/*/*/*.gif
 js.ggyy8.cc/1/js/760*
 js.pub.tom.com/*
 tv-static.tom.com/6c6266/20101026/hd16953.flv
+bilibili.kankanews.com/html/ads-*
 www.bilibili.tv/html/ads-*
 www.bilibili.tv/html/*.html
 *pb86.net/sb/images/*

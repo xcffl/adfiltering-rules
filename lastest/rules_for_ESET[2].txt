@@ -1,3 +1,8 @@
+*admin5.com/extras/zz/images/*.gif
+*admin5.com/extras/images/zz/*.gif
+*admin5.com/extras/zz/index.scroll.flash.js
+*admin5.com/images/zz/*.gif
+*admin5.com/images/zz/*.jpg
 www.92wg.com/Style_litcn/css/ad.css
 www.92wg.com/new/js/A_*.js
 *.haha.mx/Public/images/banner-*.png
@@ -267,6 +272,7 @@ attach.fengbao.com/album/*/*/*.gif
 js.ggyy8.cc/1/js/760*
 js.pub.tom.com/*
 tv-static.tom.com/6c6266/20101026/hd16953.flv
+bilibili.kankanews.com/html/ads-*
 www.bilibili.tv/html/ads-*
 www.bilibili.tv/html/*.html
 *pb86.net/sb/images/*

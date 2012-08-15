@@ -834,6 +834,7 @@
 5,4,*.2bj.cn/*
 5,4,*.zhanzhang.net/*
 5,4,code.37cs.com/*
+5,4,d1.yghua.com/code/*
 5,4,*.37cs.com/*.gif
 5,4,*.37dz.com/*
 5,4,*.45511.com/*
@@ -1043,6 +1044,8 @@
 5,4,p4p.cnaz.com*
 5,4,p4p.foundermedia.cn*
 5,4,p4p.tom.com*
+5,4,*.wqzyt.net/*
+5,4,*.vipads.cn/*
 5,4,pages.etology.com*
 5,4,*.tbjfw.com/*
 5,4,pic.adver.com*
@@ -1713,6 +1716,8 @@
 5,4,*chinaz.com/js/text_link.js*
 5,4,alexa.chinaz.com/ip_gadsense.asp
 5,4,images.chinaz.com/newindex_images/*
+5,4,bbs.ruian.com/img/c*-*-*_*x*.gif
+5,4,bbs.ruian.com/img/gd_*x*.gif
 5,4,www.downyi.com/css/ad.css
 5,4,*cnenf.com/images/*.jpg
 5,4,*cnenf.com/images/ad*.gif
@@ -1772,7 +1777,7 @@
 5,4,js.fengwu.net/baidu/*
 5,4,static.acs86.com/*
 5,4,dwtracking.sdo.com/*
-5,4,stat.ku6.com/*.xml
+5,4,*.stat.ku6.com/*.xml
 5,4,ku6afp.allyes.com/*
 5,4,stat.aa.sdo.com/*
 5,4,*stat.ku6.com/*.do?*
@@ -2267,6 +2272,7 @@
 5,4,js.ggyy8.cc/1/js/760*
 5,4,js.pub.tom.com/*
 5,4,tv-static.tom.com/6c6266/20101026/hd16953.flv
+5,4,bilibili.kankanews.com/html/ads-*
 5,4,www.bilibili.tv/html/ads-*
 5,4,www.bilibili.tv/html/*.html
 5,4,*pb86.net/sb/images/*

@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-14 17:01:22
+!Updated:2012-08-15 17:14:15
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -9,6 +9,7 @@
 !Copyright 2011 xcffl, Apache License 2.0
 !-------------通用规则-------------
 !------元素隐藏规则------
+##.a_h
 ##.topads
 bannerad
 ##.boxad
@@ -874,6 +875,7 @@ bannerad
 /\.2bj\.cn\//
 /\.zhanzhang\.net\//
 /:\/\/([^\/]+\.)?code.37cs.com\//
+/:\/\/([^\/]+\.)?d1.yghua.com\/code\//
 /\.37cs\.com\/.*\.gif/
 /\.37dz\.com\//
 /\.45511\.com\//
@@ -1084,6 +1086,8 @@ bannerad
 /:\/\/([^\/]+\.)?p4p\.cnaz\.com/
 /:\/\/([^\/]+\.)?p4p\.foundermedia\.cn/
 /:\/\/([^\/]+\.)?p4p\.tom\.com/
+/\.wqzyt\.net\//
+/\.vipads\.cn\//
 /:\/\/([^\/]+\.)?pages\.etology\.com/
 /\.tbjfw\.com\//
 /:\/\/([^\/]+\.)?pic\.adver\.com/
@@ -1829,6 +1833,9 @@ bannerad
 /chinaz\.com\/js\/text_link\.js/
 /:\/\/([^\/]+\.)?alexa.chinaz.com\/ip_gadsense\.asp/
 /:\/\/([^\/]+\.)?images.chinaz.com\/newindex_images\//
+!----瑞安论坛----
+/:\/\/([^\/]+\.)?bbs.ruian.com\/img\/c.*-.*-.*_.*x.*\.gif/
+/:\/\/([^\/]+\.)?bbs.ruian.com\/img\/gd_.*x.*\.gif/
 !----当易网----
 /:\/\/([^\/]+\.)?www.downyi.com\/css\/ad\.css/
 !----免费中国----
@@ -1913,8 +1920,10 @@ bannerad
 /:\/\/([^\/]+\.)?static.acs86.com\//
 !----酷6----
 ##[class^="aa_"]	$d=v.ku6.com
+##.gg	$d=my.ku6.com
+##[class^="a_d0608"]	$d=www.ku6.com
 /:\/\/([^\/]+\.)?dwtracking.sdo.com\//
-/:\/\/([^\/]+\.)?stat.ku6.com\/.*\.xml/
+/\.stat\.ku6\.com\/.*\.xml/
 /:\/\/([^\/]+\.)?ku6afp.allyes.com\//
 /:\/\/([^\/]+\.)?stat.aa.sdo.com\//
 /stat\.ku6\.com\/.*\.do\?/
@@ -2619,6 +2628,7 @@ bannerad
 /:\/\/([^\/]+\.)?js.pub.tom.com\//
 /^tv-static\.tom\.com\/6c6266\/20101026\/hd16953\.flv/
 !----bilibili.tv----
+/:\/\/([^\/]+\.)?bilibili.kankanews.com\/html\/ads-/
 /:\/\/([^\/]+\.)?www.bilibili.tv\/html\/ads-/
 /:\/\/([^\/]+\.)?www.bilibili.tv\/html\/.*\.html/
 !----浦北部落----

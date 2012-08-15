@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-14 17:01:22
+#Updated:2012-08-15 17:14:15
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -846,6 +846,7 @@ msFilterList
 - *.2bj.cn/
 - *.zhanzhang.net/
 -d code.37cs.com
+-d d1.yghua.com /code/
 - *.37cs.com/*.gif
 - *.37dz.com/
 - *.45511.com/
@@ -1056,6 +1057,8 @@ msFilterList
 - http://p4p.cnaz.com
 - http://p4p.foundermedia.cn
 - http://p4p.tom.com
+- *.wqzyt.net/
+- *.vipads.cn/
 - http://pages.etology.com
 - *.tbjfw.com/
 - http://pic.adver.com
@@ -1780,6 +1783,9 @@ msFilterList
 - *chinaz.com/js/text_link.js
 -d alexa.chinaz.com /ip_gadsense.asp
 -d images.chinaz.com /newindex_images/
+#----瑞安论坛----
+-d bbs.ruian.com /img/c*-*-*_*x*.gif
+-d bbs.ruian.com /img/gd_*x*.gif
 #----当易网----
 -d www.downyi.com /css/ad.css
 #----免费中国----
@@ -1862,7 +1868,7 @@ msFilterList
 -d static.acs86.com
 #----酷6----
 -d dwtracking.sdo.com
--d stat.ku6.com .xml
+- *.stat.ku6.com/*.xml
 -d ku6afp.allyes.com
 -d stat.aa.sdo.com
 - *stat.ku6.com/*.do?
@@ -2542,6 +2548,7 @@ msFilterList
 -d js.pub.tom.com
 - tv-static.tom.com/6c6266/20101026/hd16953.flv
 #----bilibili.tv----
+-d bilibili.kankanews.com /html/ads-
 -d www.bilibili.tv /html/ads-
 -d www.bilibili.tv /html/*.html
 #----浦北部落----

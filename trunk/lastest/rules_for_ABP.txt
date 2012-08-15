@@ -1,13 +1,14 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-08-14 17:01:22
+!Updated:2012-08-15 17:14:15
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.3
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 3 days
 !-------------通用规则-------------
 !------元素隐藏规则------
+##.a_h
 ~earlyamerica.com##.topads
 ~alltimesgames.com,~comedycentral.de,~comedycentral.nl,~go.com,~modernmedicine.com,~shareapic.net,~viva.tv###bannerad
 ##.boxad
@@ -873,6 +874,7 @@
 |*.2bj.cn/*
 |*.zhanzhang.net/*
 ||code.37cs.com/*
+||d1.yghua.com/code/*
 |*.37cs.com/*.gif
 |*.37dz.com/*
 |*.45511.com/*
@@ -1083,6 +1085,8 @@
 ||p4p.cnaz.com*
 ||p4p.foundermedia.cn*
 ||p4p.tom.com*
+|*.wqzyt.net/*
+|*.vipads.cn/*
 ||pages.etology.com*
 |*.tbjfw.com/*
 ||pic.adver.com*
@@ -1827,6 +1831,9 @@ newhua.com##[class^="ad_ritht_"]
 |*chinaz.com/js/text_link.js*
 ||alexa.chinaz.com/ip_gadsense.asp
 ||images.chinaz.com/newindex_images/*
+!----瑞安论坛----
+||bbs.ruian.com/img/c*-*-*_*x*.gif
+||bbs.ruian.com/img/gd_*x*.gif
 !----当易网----
 ||www.downyi.com/css/ad.css
 !----免费中国----
@@ -1911,8 +1918,10 @@ tesoon.com##TD[valign="top"]
 ||static.acs86.com/*
 !----酷6----
 v.ku6.com##[class^="aa_"]
+my.ku6.com##.gg
+www.ku6.com##[class^="a_d0608"]
 ||dwtracking.sdo.com/*
-||stat.ku6.com/*.xml
+|*.stat.ku6.com/*.xml
 ||ku6afp.allyes.com/*
 ||stat.aa.sdo.com/*
 |*stat.ku6.com/*.do?*
@@ -2615,6 +2624,7 @@ kdslife.com,pchome.net##[class^="ad"]
 ||js.pub.tom.com/*
 |tv-static.tom.com/6c6266/20101026/hd16953.flv
 !----bilibili.tv----
+||bilibili.kankanews.com/html/ads-*
 ||www.bilibili.tv/html/ads-*
 ||www.bilibili.tv/html/*.html
 !----浦北部落----

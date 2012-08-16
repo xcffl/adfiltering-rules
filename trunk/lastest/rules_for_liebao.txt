@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-16 13:16:00
+!Updated:2012-08-16 20:35:42
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -1655,8 +1655,8 @@ bannerad
 ##[id^="ab_"]	$d=soku.com
 ##[id^="ab_"]	$d=youku.com
 ##.sideCol > div[class^="AB"]
-/:\/\/([^\/]+\.)?valf.atm.youku.com\/crossdomain\.xml/
-!||valf.atm.youku.com/valf?*
+!||valf.atm.youku.com/crossdomain.xml
+/:\/\/([^\/]+\.)?valf.atm.youku.com\/valf\?/
 /:\/\/([^\/]+\.)?f.youku.com\/player\/getFlvPath\/fileid\/.*&yad=1/
 /:\/\/([^\/]+\.)?vhtml.atm.youku.com\//
 /:\/\/([^\/]+\.)?t.stat.youku.com\//
@@ -2301,6 +2301,9 @@ bannerad
 !----天下书盟网----
 /:\/\/([^\/]+\.)?www.fbook.net\/fbookad\//
 !----IT之家&Vista之家&Win7之家&Win8之家----
+###pop_notice	$d=ithome.com
+###pop_notice	$d=win7china.com
+##.hl_wrap	$d=ithome.com
 ##bbs_hl	$d=bbs.ithome.com
 ##.site_ad	$d=win7china.com
 ##.site_ad	$d=win8china.com
@@ -2338,6 +2341,7 @@ bannerad
 ##pt + div[style] > div[style^="clear:both;"]	$d=bbs.pcbeta.com
 /:\/\/([^\/]+\.)?bbs.pcbeta.com\/static\/image\/biz\//
 !----泡泡网----
+##.l1	$d=pcpop.com
 /:\/\/([^\/]+\.)?app.pcpop.com\/PageView\.aspx\?/
 /:\/\/([^\/]+\.)?33.pcpop.com\/.*\..*f/
 !----114.com.cn网址导航----
@@ -3613,6 +3617,7 @@ bannerad
 !----色影无忌----
 /xitek\.com\/newsite\/mojs\.php\?/
 !----西部e网----
+/:\/\/([^\/]+\.)?www.weste.net\/js\/zhitan-.*\.js/
 /:\/\/([^\/]+\.)?www.weste.net\/js\/showpagead\.js/
 /weste\.net\/js_v2009\/ggao/
 !----威锋网----
@@ -3891,9 +3896,6 @@ bannerad
 !----新蛋中国----
 /:\/\/([^\/]+\.)?c1.neweggimages.com.cn\/neweggpic.*\/Marketing\/.*\/bocapple\//
 !----盛大在线&起点中文网----
-##[class^="gg"]	$d=www.qidian.com
-##.DH17	$d=www.qidian.com
-/:\/\/([^\/]+\.)?cip\..*\.sdo\.com\//
 /:\/\/([^\/]+\.)?cj.qidian.com\/Flash\/.*_.*\.swf/
 /\.qidian\.com\/Javascript\/NewSNDAPop\.js/
 /:\/\/([^\/]+\.)?game.qidian.com\/game\/sssg\/.*\/index\.html/

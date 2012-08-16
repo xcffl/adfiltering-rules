@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-16 20:35:42
+!Updated:2012-08-16 22:47:36
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -10,6 +10,8 @@
 !-------------通用规则-------------
 !------元素隐藏规则------
 ##.a_h
+###topAds
+###ad_box
 ##.topads
 ###ad_5
 ###ad_4
@@ -1632,7 +1634,7 @@ bannerad
 /\.union\.youdao\.com\//
 /:\/\/([^\/]+\.)?impservice.*\.youdao\.com\//
 !----土豆网----
-/:\/\/([^\/]+\.)?td.atm.youku.com\//
+/:\/\/([^\/]+\.)?td.atm.youku.com\/tdcm\/adcontrol/
 /:\/\/([^\/]+\.)?tdap\.tudou\.com/
 /\/tui\/.*js/
 /:\/\/([^\/]+\.)?stat.tudou.com\/play\.srv/
@@ -1647,7 +1649,7 @@ bannerad
 /\.tudou\.com\/tdcm\//
 /\.tdimg\.com\/sales\//
 /:\/\/([^\/]+\.)?v2.tudou.com\/td.*\//
-/\.tudou\.com\/service\/outside\.php\?type=taobao_ad/
+/\.tudou\.com\/.*\/outside\.php\?/
 /:\/\/([^\/]+\.)?stat.*\.tudou\.com\//
 /\.tudou\.com\/framepage\//
 /\.tudou\.com\/tdap\//
@@ -2202,6 +2204,9 @@ bannerad
 /\.xxsy\.net\/sygg\//
 /:\/\/([^\/]+\.)?images.xxsy.net\/js\/jinisi_show\.js/
 /:\/\/([^\/]+\.)?read.xxsy.net\/js\/menu\/bottom\.js/
+!----Simplecd.org----
+##[style="vertical-align:middle;margin:5px;font-size:16px;"]	$d=simplecd.me
+##HR	$d=simplecd.me
 !----逐浪小说网----
 /:\/\/([^\/]+\.)?game.zhulang.com\//
 /:\/\/([^\/]+\.)?images.zhulang.com\/.*\.gif/
@@ -3165,11 +3170,16 @@ bannerad
 /:\/\/([^\/]+\.)?dl.everbox.com\/www\/images\/coop\/.*\.jpg/
 /\.everbox\.com\/images\/.*_ad\./
 !----千脑----
+##.file_ads	$d=down.qiannao.com
+##PageRigntAds	$d=down.qiannao.com
 /:\/\/([^\/]+\.)?pic1.qndown.com\/doimg\/yfking\//
 /:\/\/([^\/]+\.)?count.qiannao.com\//
 !----Yunfile----
 /\.yunfile\.com\/images\/offline_banner\/.*x.*\.gif/
 !----HowFile----
+/:\/\/([^\/]+\.)?howfile.com\/templates\/howfile\/res\//
+/:\/\/([^\/]+\.)?down.qiannao.com\/tomos\/ui\/.*\.html/
+/:\/\/([^\/]+\.)?count.qiannao.com\//
 /\.howfile\.com\/templates\/howfile\/res\//
 !----有问必答健康网----
 /120ask\.com\/player\//

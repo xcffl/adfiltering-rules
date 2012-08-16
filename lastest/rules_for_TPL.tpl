@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-16 20:35:42
+#Updated:2012-08-16 22:47:36
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1563,7 +1563,7 @@ msFilterList
 - *.union.youdao.com/
 - http://impservice*.youdao.com/
 #----土豆网----
--d td.atm.youku.com
+-d td.atm.youku.com /tdcm/adcontrol
 - http://tdap.tudou.com
 - */tui/*js
 -d stat.tudou.com /play.srv
@@ -1578,7 +1578,7 @@ msFilterList
 - *.tudou.com/tdcm/
 - *.tdimg.com/sales/
 -d v2.tudou.com /td*/
-- *.tudou.com/service/outside.php?type=taobao_ad
+- *.tudou.com/*/outside.php?
 - http://stat*.tudou.com/
 - *.tudou.com/framepage/
 - *.tudou.com/tdap/
@@ -2112,6 +2112,7 @@ msFilterList
 - *.xxsy.net/sygg/
 -d images.xxsy.net /js/jinisi_show.js
 -d read.xxsy.net /js/menu/bottom.js
+#----Simplecd.org----
 #----逐浪小说网----
 -d game.zhulang.com
 -d images.zhulang.com .gif
@@ -3062,6 +3063,9 @@ msFilterList
 #----Yunfile----
 - *.yunfile.com/images/offline_banner/*x*.gif
 #----HowFile----
+-d howfile.com /templates/howfile/res/
+-d down.qiannao.com /tomos/ui/*.html
+-d count.qiannao.com
 - *.howfile.com/templates/howfile/res/
 #----有问必答健康网----
 - *120ask.com/player/

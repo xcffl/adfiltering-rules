@@ -613,6 +613,9 @@ dl.everbox.com/www/images/coop/*.jpg
 pic1.qndown.com/doimg/yfking/*
 count.qiannao.com/*
 *.yunfile.com/images/offline_banner/*x*.gif
+howfile.com/templates/howfile/res/*
+down.qiannao.com/tomos/ui/*.html
+count.qiannao.com/*
 *.howfile.com/templates/howfile/res/*
 *120ask.com/player/*
 *jsduba.net/460x60.gif

@@ -1528,7 +1528,7 @@
 5,4,st1.yxp.126.net/img/photo/*
 5,4,*.union.youdao.com/*
 5,4,impservice*.youdao.com/*
-5,4,td.atm.youku.com/*
+5,4,td.atm.youku.com/tdcm/adcontrol
 5,4,tdap.tudou.com*
 5,4,*/tui/*js*
 5,4,stat.tudou.com/play.srv*
@@ -1543,7 +1543,7 @@
 5,4,*.tudou.com/tdcm/*
 5,4,*.tdimg.com/sales/*
 5,4,v2.tudou.com/td*/*
-5,4,*.tudou.com/service/outside.php?type=taobao_ad
+5,4,*.tudou.com/*/outside.php?*
 5,4,stat*.tudou.com/*
 5,4,*.tudou.com/framepage/*
 5,4,*.tudou.com/tdap/*
@@ -2613,6 +2613,9 @@
 5,4,pic1.qndown.com/doimg/yfking/*
 5,4,count.qiannao.com/*
 5,4,*.yunfile.com/images/offline_banner/*x*.gif
+5,4,howfile.com/templates/howfile/res/*
+5,4,down.qiannao.com/tomos/ui/*.html
+5,4,count.qiannao.com/*
 5,4,*.howfile.com/templates/howfile/res/*
 5,4,*120ask.com/player/*
 5,4,*jsduba.net/460x60.gif

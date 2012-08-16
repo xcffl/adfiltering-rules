@@ -1547,7 +1547,7 @@
 5,4,stat*.tudou.com/*
 5,4,*.tudou.com/framepage/*
 5,4,*.tudou.com/tdap/*
-5,4,valf.atm.youku.com/crossdomain.xml
+5,4,valf.atm.youku.com/valf?*
 5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1*
 5,4,vhtml.atm.youku.com/*
 5,4,t.stat.youku.com/*
@@ -2888,6 +2888,7 @@
 5,4,*xxhh.net/image/em*.gif
 5,4,*xltvrobbs.net/tuku/*
 5,4,*xitek.com/newsite/mojs.php?*
+5,4,www.weste.net/js/zhitan-*.js
 5,4,www.weste.net/js/showpagead.js
 5,4,*weste.net/js_v2009/ggao*
 5,4,*weiphone.com/baidu.html?id=*
@@ -3055,7 +3056,6 @@
 5,4,pic.xp500.com/img/xitong.gif
 5,4,g.webgame.com.cn/*
 5,4,c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
-5,4,cip.*.sdo.com/*
 5,4,cj.qidian.com/Flash/*_*.swf
 5,4,*.qidian.com/Javascript/NewSNDAPop.js
 5,4,game.qidian.com/game/sssg/*/index.html

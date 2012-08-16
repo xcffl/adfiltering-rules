@@ -1055,6 +1055,7 @@ po.im.alisoft.com/*
 pic.xp500.com/img/xitong.gif
 g.webgame.com.cn/*
 c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
+cip.*.sdo.com/*
 cj.qidian.com/Flash/*_*.swf
 *.qidian.com/Javascript/NewSNDAPop.js
 game.qidian.com/game/sssg/*/index.html

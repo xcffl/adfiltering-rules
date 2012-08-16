@@ -3055,6 +3055,7 @@
 5,4,pic.xp500.com/img/xitong.gif
 5,4,g.webgame.com.cn/*
 5,4,c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
+5,4,cip.*.sdo.com/*
 5,4,cj.qidian.com/Flash/*_*.swf
 5,4,*.qidian.com/Javascript/NewSNDAPop.js
 5,4,game.qidian.com/game/sssg/*/index.html

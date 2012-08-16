@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-16 12:15:29
+#Updated:2012-08-16 13:16:00
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -3759,6 +3759,7 @@ msFilterList
 #----新蛋中国----
 -d c1.neweggimages.com.cn /neweggpic*/Marketing/*/bocapple/
 #----盛大在线&起点中文网----
+- http://cip.*.sdo.com/
 -d cj.qidian.com /Flash/*_*.swf
 - *.qidian.com/Javascript/NewSNDAPop.js
 -d game.qidian.com /game/sssg/*/index.html

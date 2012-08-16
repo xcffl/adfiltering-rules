@@ -1449,6 +1449,12 @@ sh.sina.com.cn/iframe/328/*
 sh.sina.com.cn/iframe/391/*
 sh.sina.com.cn/iframe/408/*
 news.sina.com.cn/pfpnews/js/libweb.js
+a*.itc.cn/pv/js/pvclick.*
+his.tv.sohu.com/his/ping.do?*
+count.vrs.sohu.com/*.xml
+*.hd.sohu.com.cn/*.gif?*
+images.sohu.com/ytv/*
+220.181.61.231/get.gif?*
 gm.changyou.com/css/ads-slide.css
 gm.changyou.com/js/ADSlide.js
 image.p4p.sogou.com/picad/*
@@ -1837,6 +1843,7 @@ i*.17173.itc.cn/*/www/*/sx/*/*.JPG
 images.17173.com/*/www/*/wm/*/wm-sm-*.jpg
 *17173.com/if/*
 market.17173.com/*
+www.cocoren.com/templets/cocoren/images/flash/*.swf
 *.scol.com.cn/js/def_*
 *.scol.com.cn/scol-3/js/08scol_text_*
 125.64.41.142/afp/door/*
@@ -1990,11 +1997,4 @@ d.namipan.com/flash/*.swf
 *youtube.com/img/youchoose/*
 *.bkill.com/css/js/bkill.js
 *.bkill.com/css/ajs/*
-*.bkill.com/images/di.js
-www.bkill.com/img/*
-*bkill.net/img/fx.gif
-*bkill.net/images/dubahesiu.gif
-*bkill.net/images/3.jpg
-down.admin5.com/z/*
-*admin5.com/extras/*images/*x*.swf
 

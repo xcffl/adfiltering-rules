@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-15 17:14:15
+!Updated:2012-08-16 12:15:29
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -11,6 +11,22 @@
 !------元素隐藏规则------
 ##.a_h
 ##.topads
+###ad_5
+###ad_4
+###ad_3
+###ad_2
+###ad_1
+###ad_P
+###ad_O
+###ad_N
+###ad_M
+###ad_H
+###ad_G
+###ad_E
+###ad_D
+###ad_C
+###ad_B
+##.top_ad
 bannerad
 ##.boxad
 ##.adpic
@@ -1454,6 +1470,7 @@ bannerad
 ##PartG > .rightbox	$d=www.sina.com.cn
 ##PartA > .left > div:not(#sina_house_link9)	$d=www.sina.com.cn
 ##topBg	$d=house.sina.com.cn
+/:\/\/([^\/]+\.)?api.t.sina.com.cn\/statuses\/counts\./	$w
 /:\/\/([^\/]+\.)?v.sina.com.cn\/.*\.html/
 /:\/\/([^\/]+\.)?count.kandian.com\/.*\.html/
 /:\/\/([^\/]+\.)?l\.you\.video\.sina\.com\.cn.*_undig&/
@@ -1525,6 +1542,17 @@ bannerad
 /:\/\/([^\/]+\.)?sh.sina.com.cn\/iframe\/408\//
 /:\/\/([^\/]+\.)?news.sina.com.cn\/pfpnews\/js\/libweb\.js/
 !----搜狗&搜狐&搜狐畅游----
+##contentC > .columnC	$d=www.sohu.com
+##ad_TOP	$d=www.sohu.com
+##sohuadcode	$d=sohu.com
+##sohuadcode	$d=chinaren.com
+##.adB	$d=sohu.com
+/:\/\/([^\/]+\.)?a.*\.itc\.cn\/pv\/js\/pvclick\./
+/:\/\/([^\/]+\.)?his.tv.sohu.com\/his\/ping\.do\?/
+/:\/\/([^\/]+\.)?count.vrs.sohu.com\/.*\.xml/
+/\.hd\.sohu\.com\.cn\/.*\.gif\?/
+/:\/\/([^\/]+\.)?images.sohu.com\/ytv\//
+/:\/\/([^\/]+\.)?220.181.61.231\/get\.gif\?/
 /:\/\/([^\/]+\.)?gm.changyou.com\/css\/ads-slide\.css/
 /:\/\/([^\/]+\.)?gm.changyou.com\/js\/ADSlide\.js/
 /:\/\/([^\/]+\.)?image.p4p.sogou.com\/picad\//
@@ -1573,6 +1601,8 @@ bannerad
 /:\/\/([^\/]+\.)?links.kugou.com\//
 /:\/\/([^\/]+\.)?sdn.kugou.com\//
 !----网易&有道----
+##g5n1	$d=www.163.com
+##[class^="gg"]	$d=163.com
 /:\/\/([^\/]+\.)?img3.cache.netease.com\/.*\/ieupdate\/update_funcs\.js/
 /:\/\/([^\/]+\.)?stat.ws.126.net\//
 /:\/\/([^\/]+\.)?adgeo.163.com\//
@@ -1999,6 +2029,8 @@ bannerad
 /:\/\/([^\/]+\.)?images.17173.com\/.*\/www\/.*\/wm\/.*\/wm-sm-.*\.jpg/
 /17173\.com\/if\//
 /:\/\/([^\/]+\.)?market.17173.com\//
+!----爱尚网----
+/:\/\/([^\/]+\.)?www.cocoren.com\/templets\/cocoren\/images\/flash\/.*\.swf/
 !----天府在线----
 /\.scol\.com\.cn\/js\/def_/
 /\.scol\.com\.cn\/scol-3\/js\/08scol_text_/
@@ -3587,6 +3619,9 @@ bannerad
 /weiphone\.com\/baidu\.html\?id=/
 !----TGFC俱乐部----
 /:\/\/([^\/]+\.)?club.tgfcer.com\/images\/g/
+!----千军万马网络硬盘----
+/:\/\/([^\/]+\.)?u.qjwm.com\//
+/:\/\/([^\/]+\.)?ad.qjwm.com\//	$w
 !----泰无聊----
 /:\/\/([^\/]+\.)?bbs.t56.net\/ad.*\//
 /so100\.cn\/images\/a.*\.js/
@@ -3793,6 +3828,7 @@ bannerad
 ##.EC_mr15	$d=www.baidu.com
 ##.EC_mr15	$d=www1.baidu.com
 /:\/\/([^\/]+\.)?a.baidu.com\//
+/:\/\/([^\/]+\.)?top.baidu.com\/js\/nsclick\.js/
 /:\/\/([^\/]+\.)?c.baidu.com\//
 /:\/\/([^\/]+\.)?sclick.baidu.com\//
 /\.hao123\.com\/images\/ua2\.gif/

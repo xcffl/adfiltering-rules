@@ -1,3 +1,10 @@
+www.bkill.com/img/*
+*bkill.net/img/fx.gif
+*bkill.net/images/dubahesiu.gif
+*bkill.net/images/3.jpg
+down.admin5.com/z/*
+*admin5.com/extras/*images/*x*.swf
+*admin5.com/extras/zz/images/*-*.jpg
 *admin5.com/extras/zz/images/*.gif
 *admin5.com/extras/images/zz/*.gif
 *admin5.com/extras/zz/index.scroll.flash.js
@@ -885,6 +892,7 @@ www.weste.net/js/showpagead.js
 *weste.net/js_v2009/ggao*
 *weiphone.com/baidu.html?id=*
 club.tgfcer.com/images/g*
+u.qjwm.com/*
 bbs.t56.net/ad*/*
 *so100.cn/images/a*.js
 *sccnn.com/zz/*
@@ -989,6 +997,7 @@ partner.googleadservices.com*
 *.google-analytics.com/*
 www.google.cn/aclk?*
 a.baidu.com/*
+top.baidu.com/js/nsclick.js
 c.baidu.com/*
 sclick.baidu.com/*
 *.hao123.com/images/ua2.gif

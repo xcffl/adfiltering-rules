@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-08-15 17:14:15
+!Updated:2012-08-16 12:15:29
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.3
 !Copyright 2011 xcffl, Apache License 2.0
@@ -10,6 +10,22 @@
 !------元素隐藏规则------
 ##.a_h
 ~earlyamerica.com##.topads
+~sanmarcosrecord.com###ad_5
+~sanmarcosrecord.com###ad_4
+~sanmarcosrecord.com###ad_3
+~sanmarcosrecord.com###ad_2
+~sanmarcosrecord.com###ad_1
+###ad_P
+###ad_O
+###ad_N
+###ad_M
+###ad_H
+###ad_G
+###ad_E
+###ad_D
+###ad_C
+###ad_B
+##.top_ad
 ~alltimesgames.com,~comedycentral.de,~comedycentral.nl,~go.com,~modernmedicine.com,~shareapic.net,~viva.tv###bannerad
 ##.boxad
 ~bipbip.co.il,~quoka.de##.adpic
@@ -1453,6 +1469,7 @@ www.sina.com.cn##.att_div
 www.sina.com.cn###PartG > .rightbox
 www.sina.com.cn###PartA > .left > div:not(#sina_house_link9)
 house.sina.com.cn###topBg
+@@||api.t.sina.com.cn/statuses/counts.*
 ||v.sina.com.cn/*.html
 ||count.kandian.com/*.html
 ||l.you.video.sina.com.cn*_undig&*
@@ -1524,6 +1541,16 @@ house.sina.com.cn###topBg
 ||sh.sina.com.cn/iframe/408/*
 ||news.sina.com.cn/pfpnews/js/libweb.js
 !----搜狗&搜狐&搜狐畅游----
+www.sohu.com###contentC > .columnC
+www.sohu.com###ad_TOP
+sohu.com,chinaren.com##sohuadcode
+sohu.com##.adB
+||a*.itc.cn/pv/js/pvclick.*
+||his.tv.sohu.com/his/ping.do?*
+||count.vrs.sohu.com/*.xml
+|*.hd.sohu.com.cn/*.gif?*
+||images.sohu.com/ytv/*
+||220.181.61.231/get.gif?*
 ||gm.changyou.com/css/ads-slide.css
 ||gm.changyou.com/js/ADSlide.js
 ||image.p4p.sogou.com/picad/*
@@ -1572,6 +1599,8 @@ house.sina.com.cn###topBg
 ||links.kugou.com/*
 ||sdn.kugou.com/*
 !----网易&有道----
+www.163.com###g5n1
+163.com##[class^="gg"]
 ||img3.cache.netease.com/*/ieupdate/update_funcs.js
 ||stat.ws.126.net/*
 ||adgeo.163.com/*
@@ -1997,6 +2026,8 @@ gc1069.com##EMBED
 ||images.17173.com/*/www/*/wm/*/wm-sm-*.jpg
 |*17173.com/if/*
 ||market.17173.com/*
+!----爱尚网----
+||www.cocoren.com/templets/cocoren/images/flash/*.swf
 !----天府在线----
 |*.scol.com.cn/js/def_*
 |*.scol.com.cn/scol-3/js/08scol_text_*
@@ -3583,6 +3614,9 @@ you85.cn##TABLE[align="center"]
 |*weiphone.com/baidu.html?id=*
 !----TGFC俱乐部----
 ||club.tgfcer.com/images/g*
+!----千军万马网络硬盘----
+||u.qjwm.com/*
+@@||ad.qjwm.com/*
 !----泰无聊----
 ||bbs.t56.net/ad*/*
 |*so100.cn/images/a*.js
@@ -3777,6 +3811,7 @@ www.baidu.com,www1.baidu.com##table[cellspacing="0"][cellpadding="0"][align="rig
 www.baidu.com,www1.baidu.com##style + table:nth-child(3)
 www.baidu.com,www1.baidu.com##.EC_mr15
 ||a.baidu.com/*
+||top.baidu.com/js/nsclick.js
 ||c.baidu.com/*
 ||sclick.baidu.com/*
 |*.hao123.com/images/ua2.gif

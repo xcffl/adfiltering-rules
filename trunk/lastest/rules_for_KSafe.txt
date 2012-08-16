@@ -1449,6 +1449,12 @@
 5,4,sh.sina.com.cn/iframe/391/*
 5,4,sh.sina.com.cn/iframe/408/*
 5,4,news.sina.com.cn/pfpnews/js/libweb.js
+5,4,a*.itc.cn/pv/js/pvclick.*
+5,4,his.tv.sohu.com/his/ping.do?*
+5,4,count.vrs.sohu.com/*.xml
+5,4,*.hd.sohu.com.cn/*.gif?*
+5,4,images.sohu.com/ytv/*
+5,4,220.181.61.231/get.gif?*
 5,4,gm.changyou.com/css/ads-slide.css
 5,4,gm.changyou.com/js/ADSlide.js
 5,4,image.p4p.sogou.com/picad/*
@@ -1837,6 +1843,7 @@
 5,4,images.17173.com/*/www/*/wm/*/wm-sm-*.jpg
 5,4,*17173.com/if/*
 5,4,market.17173.com/*
+5,4,www.cocoren.com/templets/cocoren/images/flash/*.swf
 5,4,*.scol.com.cn/js/def_*
 5,4,*.scol.com.cn/scol-3/js/08scol_text_*
 5,4,125.64.41.142/afp/door/*
@@ -2885,6 +2892,7 @@
 5,4,*weste.net/js_v2009/ggao*
 5,4,*weiphone.com/baidu.html?id=*
 5,4,club.tgfcer.com/images/g*
+5,4,u.qjwm.com/*
 5,4,bbs.t56.net/ad*/*
 5,4,*so100.cn/images/a*.js
 5,4,*sccnn.com/zz/*
@@ -2989,6 +2997,7 @@
 5,4,*.google-analytics.com/*
 5,4,www.google.cn/aclk?*
 5,4,a.baidu.com/*
+5,4,top.baidu.com/js/nsclick.js
 5,4,c.baidu.com/*
 5,4,sclick.baidu.com/*
 5,4,*.hao123.com/images/ua2.gif

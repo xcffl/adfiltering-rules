@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-15 17:14:15
+#Updated:2012-08-16 12:15:29
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1408,6 +1408,7 @@ msFilterList
 -d www.zhujima.com /tu/*g*.png
 -d www.zhujima.com /tu/*vps.gif
 #----新浪网&看点----
++d api.t.sina.com.cn /statuses/counts.
 -d v.sina.com.cn .html
 -d count.kandian.com .html
 - http://l.you.video.sina.com.cn*_undig&
@@ -1479,6 +1480,12 @@ msFilterList
 -d sh.sina.com.cn /iframe/408/
 -d news.sina.com.cn /pfpnews/js/libweb.js
 #----搜狗&搜狐&搜狐畅游----
+- http://a*.itc.cn/pv/js/pvclick.
+-d his.tv.sohu.com /his/ping.do?
+-d count.vrs.sohu.com .xml
+- *.hd.sohu.com.cn/*.gif?
+-d images.sohu.com /ytv/
+-d 220.181.61.231 /get.gif?
 -d gm.changyou.com /css/ads-slide.css
 -d gm.changyou.com /js/ADSlide.js
 -d image.p4p.sogou.com /picad/
@@ -1942,6 +1949,8 @@ msFilterList
 -d images.17173.com /www/*/wm/*/wm-sm-*.jpg
 - *17173.com/if/
 -d market.17173.com
+#----爱尚网----
+-d www.cocoren.com /templets/cocoren/images/flash/*.swf
 #----天府在线----
 - *.scol.com.cn/js/def_
 - *.scol.com.cn/scol-3/js/08scol_text_
@@ -3501,6 +3510,9 @@ msFilterList
 - *weiphone.com/baidu.html?id=
 #----TGFC俱乐部----
 -d club.tgfcer.com /images/g
+#----千军万马网络硬盘----
+-d u.qjwm.com
++d ad.qjwm.com
 #----泰无聊----
 -d bbs.t56.net /ad*/
 - *so100.cn/images/a*.js
@@ -3684,6 +3696,7 @@ msFilterList
 -d www.google.cn /aclk?
 #----百度&乐居&hao123----
 -d a.baidu.com
+-d top.baidu.com /js/nsclick.js
 -d c.baidu.com
 -d sclick.baidu.com
 - *.hao123.com/images/ua2.gif

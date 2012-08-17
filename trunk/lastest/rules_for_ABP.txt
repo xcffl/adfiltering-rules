@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-08-16 22:47:36
+!Updated:2012-08-17 13:59:30
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.3
 !Copyright 2011 xcffl, Apache License 2.0
@@ -577,6 +577,7 @@
 |*/stat.do?videoId=*
 |*/*lick.html?adid=*
 |*/file_get.aspx?*
+|*/728x90.*
 |*/HBannerAutoSize.swf?*
 |*/beautifyChannelHor.htm?*
 |*/flash_ad/*
@@ -831,6 +832,7 @@
 ||i.uu06.com/*
 |*.irs09.com/*
 |*.topfriv.com/popup.js
+||code.ilepai.com/*
 |*.securitymattersmag.com/scripts/popup.js
 ||a*.q150.com/*
 ||js.juandou.com/a.js?*
@@ -2201,7 +2203,7 @@ i.firefoxchina.cn###banner_show1
 |*.xxsy.net/sygg/*
 ||images.xxsy.net/js/jinisi_show.js
 ||read.xxsy.net/js/menu/bottom.js
-!----Simplecd.org----
+!----Simplecd----
 simplecd.me##[style="vertical-align:middle;margin:5px;font-size:16px;"]
 simplecd.me##HR
 !----逐浪小说网----
@@ -2448,6 +2450,9 @@ pcpop.com##.l1
 ||d.cntv.cn/*
 !----游久网----
 |*.uuu9.com/code/tool_netgame/*
+!----天珠变----
+saesky.net##FONT[color="#FF0000"]
+saesky.net##FONT[color="#0000FF"]
 !----金山网络----
 ||www.ijinshan.com/images/gk/game-*.jpg
 ||ruanjian.pc120.com/images/x*

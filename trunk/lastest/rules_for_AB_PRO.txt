@@ -528,6 +528,7 @@ js.*/code.js
 */stat.do?videoId=*
 */*lick.html?adid=*
 */file_get.aspx?*
+*/728x90.*
 */HBannerAutoSize.swf?*
 */beautifyChannelHor.htm?*
 */flash_ad/*
@@ -781,6 +782,7 @@ ox-d.*/jstag
 i.uu06.com/*
 *.irs09.com/*
 *.topfriv.com/popup.js
+code.ilepai.com/*
 *.securitymattersmag.com/scripts/popup.js
 a*.q150.com/*
 js.juandou.com/a.js?*

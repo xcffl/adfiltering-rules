@@ -1,3 +1,5 @@
+*.bkill.com/css/ajs/*
+*.bkill.com/images/di.js
 www.bkill.com/img/*
 *bkill.net/img/fx.gif
 *bkill.net/images/dubahesiu.gif

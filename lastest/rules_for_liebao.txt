@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-16 22:47:36
+!Updated:2012-08-17 13:59:30
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -578,6 +578,7 @@ bannerad
 /\/stat\.do\?videoId=/
 /\/.*lick\.html\?adid=/
 /\/file_get\.aspx\?/
+/\/728x90\./
 /\/HBannerAutoSize\.swf\?/
 /\/beautifyChannelHor\.htm\?/
 /\/flash_ad\//
@@ -832,6 +833,7 @@ bannerad
 /:\/\/([^\/]+\.)?i.uu06.com\//
 /\.irs09\.com\//
 /\.topfriv\.com\/popup\.js/
+/:\/\/([^\/]+\.)?code.ilepai.com\//
 /\.securitymattersmag\.com\/scripts\/popup\.js/
 /:\/\/([^\/]+\.)?a.*\.q150\.com\//
 /:\/\/([^\/]+\.)?js.juandou.com\/a\.js\?/
@@ -2204,7 +2206,7 @@ bannerad
 /\.xxsy\.net\/sygg\//
 /:\/\/([^\/]+\.)?images.xxsy.net\/js\/jinisi_show\.js/
 /:\/\/([^\/]+\.)?read.xxsy.net\/js\/menu\/bottom\.js/
-!----Simplecd.org----
+!----Simplecd----
 ##[style="vertical-align:middle;margin:5px;font-size:16px;"]	$d=simplecd.me
 ##HR	$d=simplecd.me
 !----逐浪小说网----
@@ -2453,6 +2455,9 @@ bannerad
 /:\/\/([^\/]+\.)?d.cntv.cn\//
 !----游久网----
 /\.uuu9\.com\/code\/tool_netgame\//
+!----天珠变----
+##FONT[color="#FF0000"]	$d=saesky.net
+##FONT[color="#0000FF"]	$d=saesky.net
 !----金山网络----
 /:\/\/([^\/]+\.)?www.ijinshan.com\/images\/gk\/game-.*\.jpg/
 /:\/\/([^\/]+\.)?ruanjian.pc120.com\/images\/x/

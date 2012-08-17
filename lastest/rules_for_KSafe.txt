@@ -520,6 +520,7 @@
 5,4,*/stat.do?videoId=*
 5,4,*/*lick.html?adid=*
 5,4,*/file_get.aspx?*
+5,4,*/728x90.*
 5,4,*/HBannerAutoSize.swf?*
 5,4,*/beautifyChannelHor.htm?*
 5,4,*/flash_ad/*
@@ -773,6 +774,7 @@
 5,4,i.uu06.com/*
 5,4,*.irs09.com/*
 5,4,*.topfriv.com/popup.js
+5,4,code.ilepai.com/*
 5,4,*.securitymattersmag.com/scripts/popup.js
 5,4,a*.q150.com/*
 5,4,js.juandou.com/a.js?*

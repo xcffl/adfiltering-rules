@@ -1,3 +1,7 @@
+d.namipan.com/flash/*.swf
+*.wumii.com/images/pixel.png
+*youtube.com/img/youchoose/*
+*.bkill.com/css/js/bkill.js
 *.bkill.com/css/ajs/*
 *.bkill.com/images/di.js
 www.bkill.com/img/*
@@ -1061,7 +1065,10 @@ po.im.alisoft.com/*
 pic.xp500.com/img/xitong.gif
 g.webgame.com.cn/*
 c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
+c.pingba.qidian.com/increase.htm?*
 cj.qidian.com/Flash/*_*.swf
+*.qidian.com/Javascript/DoublePop.js
+*.qidian.com/javascript/SNDAADAltern.js
 *.qidian.com/Javascript/NewSNDAPop.js
 game.qidian.com/game/sssg/*/index.html
 uedas.qidian.com/*

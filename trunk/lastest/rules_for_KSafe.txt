@@ -734,6 +734,7 @@
 5,4,*/sflash/*
 5,4,*/ad.swf
 5,4,*/ad/*_ad.jpg
+5,4,*/banner_ad.*
 5,4,*/float_ad_replay.gif
 5,4,*/headnx.js
 5,4,*/ad_api/*
@@ -1784,6 +1785,8 @@
 5,4,news.xmnn.cn/xwgg/nydb/*
 5,4,js.fengwu.net/baidu/*
 5,4,static.acs86.com/*
+5,4,log*.ku6.com/*
+5,4,www.ku6.com/c*/*/s*/index.shtml
 5,4,dwtracking.sdo.com/*
 5,4,*.stat.ku6.com/*.xml
 5,4,ku6afp.allyes.com/*
@@ -1957,6 +1960,7 @@
 5,4,*.rayfile.com/scr/*
 5,4,img.rayfile.com/push/*
 5,4,cfpfile.cutv.com/*
+5,4,css.cn.msn.com/right_ad.htm
 5,4,ads*.msn.com/*.js
 5,4,rad.msn.com/*
 5,4,js.auto.msn.com.cn/js/incsearch_a.js
@@ -3061,7 +3065,10 @@
 5,4,pic.xp500.com/img/xitong.gif
 5,4,g.webgame.com.cn/*
 5,4,c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
+5,4,c.pingba.qidian.com/increase.htm?*
 5,4,cj.qidian.com/Flash/*_*.swf
+5,4,*.qidian.com/Javascript/DoublePop.js
+5,4,*.qidian.com/javascript/SNDAADAltern.js
 5,4,*.qidian.com/Javascript/NewSNDAPop.js
 5,4,game.qidian.com/game/sssg/*/index.html
 5,4,uedas.qidian.com/*

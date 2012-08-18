@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-17 13:59:30
+!Updated:2012-08-18 20:39:30
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -11,6 +11,8 @@
 !------元素隐藏规则------
 ##.a_h
 ###topAds
+##[id^="ad_thread"]
+##.ad_footerbanner
 ###ad_box
 ##.topads
 ###ad_5
@@ -792,6 +794,7 @@ bannerad
 /\/sflash\//
 /^http:\/\/.*\/ad\.swf/
 /^http:\/\/.*\/ad\/.*_ad\.jpg/
+/\/banner_ad\./
 /\/float_ad_replay\.gif/
 /\/headnx\.js/
 /\/ad_api\//
@@ -1948,6 +1951,8 @@ bannerad
 /\.xmnn\.cn\/xwzx\/xwyc\//
 /\.xmnn\.cn\/images\//
 /:\/\/([^\/]+\.)?news.xmnn.cn\/xwgg\/nydb\//
+!----威盘网----
+##[href="http://www.adreep.cn"]	$d=vdisk.cn
 !----凤舞文学网----
 /:\/\/([^\/]+\.)?js.fengwu.net\/baidu\//
 !----m1905.com----
@@ -1956,6 +1961,9 @@ bannerad
 ##[class^="aa_"]	$d=v.ku6.com
 ##.gg	$d=my.ku6.com
 ##[class^="a_d0608"]	$d=www.ku6.com
+/:\/\/([^\/]+\.)?my.ku6.com\/resource\/images\/feed_ad1\.jpg/	$w
+/:\/\/([^\/]+\.)?log.*\.ku6\.com\//
+/:\/\/([^\/]+\.)?www.ku6.com\/c.*\/.*\/s.*\/index\.shtml/
 /:\/\/([^\/]+\.)?dwtracking.sdo.com\//
 /\.stat\.ku6\.com\/.*\.xml/
 /:\/\/([^\/]+\.)?ku6afp.allyes.com\//
@@ -2190,6 +2198,9 @@ bannerad
 !----城市联合网络电视台----
 /:\/\/([^\/]+\.)?cfpfile.cutv.com\//
 !----MSN----
+##.topNav	$d=cn.msn.com
+##.advLf	$d=cn.msn.com
+/:\/\/([^\/]+\.)?css.cn.msn.com\/right_ad\.htm/
 /:\/\/([^\/]+\.)?ads.*\.msn\.com\/.*\.js/
 /:\/\/([^\/]+\.)?rad.msn.com\//
 /:\/\/([^\/]+\.)?js.auto.msn.com.cn\/js\/incsearch_a\.js/
@@ -2310,8 +2321,10 @@ bannerad
 !----IT之家&Vista之家&Win7之家&Win8之家----
 ###pop_notice	$d=ithome.com
 ###pop_notice	$d=win7china.com
+##.site_ad	$d=ithome.com
 ##.hl_wrap	$d=ithome.com
 ##bbs_hl	$d=bbs.ithome.com
+##.site-ad-box	$d=win8china.com
 ##.site_ad	$d=win7china.com
 ##.site_ad	$d=win8china.com
 /\.vista123\.com\/notice\.htm/
@@ -2351,6 +2364,11 @@ bannerad
 ##.l1	$d=pcpop.com
 /:\/\/([^\/]+\.)?app.pcpop.com\/PageView\.aspx\?/
 /:\/\/([^\/]+\.)?33.pcpop.com\/.*\..*f/
+##[class^="ad_"]	$d=soufun.com
+##.topbanner	$d=soufun.com
+##.photo03	$d=soufun.com
+##.photo02	$d=soufun.com
+##.adtextlink	$d=soufun.com
 !----114.com.cn网址导航----
 /:\/\/([^\/]+\.)?partner\.114\.com\.cn/
 /:\/\/([^\/]+\.)?u.114.com.cn\//
@@ -3911,7 +3929,15 @@ bannerad
 !----新蛋中国----
 /:\/\/([^\/]+\.)?c1.neweggimages.com.cn\/neweggpic.*\/Marketing\/.*\/bocapple\//
 !----盛大在线&起点中文网----
+##[class^="gg"]	$d=www.qidian.com
+##[style="HEIGHT: 130px"]	$d=qidian.com
+##.RightAD	$d=www.qidian.com
+##[class^="show_ggpic_"]	$d=qidian.com
+##.DH17	$d=www.qidian.com
+/:\/\/([^\/]+\.)?c.pingba.qidian.com\/increase\.htm\?/
 /:\/\/([^\/]+\.)?cj.qidian.com\/Flash\/.*_.*\.swf/
+/\.qidian\.com\/Javascript\/DoublePop\.js/
+/\.qidian\.com\/javascript\/SNDAADAltern\.js/
 /\.qidian\.com\/Javascript\/NewSNDAPop\.js/
 /:\/\/([^\/]+\.)?game.qidian.com\/game\/sssg\/.*\/index\.html/
 /:\/\/([^\/]+\.)?uedas.qidian.com\//
@@ -4087,4 +4113,12 @@ bannerad
 /:\/\/([^\/]+\.)?www.fclub.cn\/affiche\.php\?act=img&ad_id=/
 /:\/\/([^\/]+\.)?www.54new.com\/da\//
 !-------------特殊规则-------------
+!-------------临时规则-------------
+!----百度推广验证码下载----
+/:\/\/([^\/]+\.)?cpro.baidu.com\/cpro\/ui\/uijs\.php\?/	$w
+/:\/\/([^\/]+\.)?cpro.baidu.com\/img\/bg_captchaF\.png/	$w
+/:\/\/([^\/]+\.)?drmcmm.baidu.com\/media\/id=.*&gp=403&time=.*\.jpg/	$w
+/:\/\/([^\/]+\.)?drmcmm.baidu.com\/media\/id=.*&gp=403&time=.*\.swf/	$w
+/:\/\/([^\/]+\.)?cpro.baidu.com\/extra\/text_flash\/AC_RunActiveContent\.js/	$w
+/:\/\/([^\/]+\.)?cpro.baidu.com\/cpro\/ui\/y\.js/	$w
 !-------------待分类-------------

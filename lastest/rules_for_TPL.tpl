@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-17 13:59:30
+#Updated:2012-08-18 20:39:30
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -745,6 +745,7 @@ msFilterList
 - */sflash/
 - http://*/ad.swf
 - http://*/ad/*_ad.jpg
+- */banner_ad.
 - */float_ad_replay.gif
 - */headnx.js
 - */ad_api/
@@ -1871,11 +1872,15 @@ msFilterList
 - *.xmnn.cn/xwzx/xwyc/
 - *.xmnn.cn/images/
 -d news.xmnn.cn /xwgg/nydb/
+#----威盘网----
 #----凤舞文学网----
 -d js.fengwu.net /baidu/
 #----m1905.com----
 -d static.acs86.com
 #----酷6----
++d my.ku6.com /resource/images/feed_ad1.jpg
+- http://log*.ku6.com/
+-d www.ku6.com /c*/*/s*/index.shtml
 -d dwtracking.sdo.com
 - *.stat.ku6.com/*.xml
 -d ku6afp.allyes.com
@@ -2098,6 +2103,7 @@ msFilterList
 #----城市联合网络电视台----
 -d cfpfile.cutv.com
 #----MSN----
+-d css.cn.msn.com /right_ad.htm
 - http://ads*.msn.com/*.js
 -d rad.msn.com
 -d js.auto.msn.com.cn /js/incsearch_a.js
@@ -3767,7 +3773,10 @@ msFilterList
 #----新蛋中国----
 -d c1.neweggimages.com.cn /neweggpic*/Marketing/*/bocapple/
 #----盛大在线&起点中文网----
+-d c.pingba.qidian.com /increase.htm?
 -d cj.qidian.com /Flash/*_*.swf
+- *.qidian.com/Javascript/DoublePop.js
+- *.qidian.com/javascript/SNDAADAltern.js
 - *.qidian.com/Javascript/NewSNDAPop.js
 -d game.qidian.com /game/sssg/*/index.html
 -d uedas.qidian.com
@@ -3943,4 +3952,12 @@ msFilterList
 -d www.fclub.cn /affiche.php?act=img&ad_id=
 -d www.54new.com /da/
 #-------------特殊规则-------------
+#-------------临时规则-------------
+#----百度推广验证码下载----
++d cpro.baidu.com /cpro/ui/uijs.php?
++d cpro.baidu.com /img/bg_captchaF.png
++d drmcmm.baidu.com /media/id=*&gp=403&time=*.jpg
++d drmcmm.baidu.com /media/id=*&gp=403&time=*.swf
++d cpro.baidu.com /extra/text_flash/AC_RunActiveContent.js
++d cpro.baidu.com /cpro/ui/y.js
 #-------------待分类-------------

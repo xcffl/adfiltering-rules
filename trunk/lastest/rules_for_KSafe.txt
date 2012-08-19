@@ -1095,6 +1095,7 @@
 5,4,js*.339.cn/*
 5,4,*.admin6.com/a/*
 5,4,jump.admin6.com/iclk/*
+5,4,irs09.com/*
 5,4,*.union188.com/*
 5,4,*.unionbig.com/*
 5,4,w*ww.blu.livefilestore.com/*.gif
@@ -1689,7 +1690,7 @@
 5,4,notice.ppstream.com/M2006110043/*.swf
 5,4,*.pps.tv/cprtp/*
 5,4,iafp.pptv.com/*
-5,4,player.pplive.cn/*/PPLivePlugin.swf
+5,4,player.pplive.cn/*/PPLivePlugin.swf*
 5,4,ik.synacast.com/*
 5,4,*.synacast.com/*
 5,4,*pp2.pptv.com/*

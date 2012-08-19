@@ -1095,6 +1095,7 @@ www.yceml.net/*
 js*.339.cn/*
 *.admin6.com/a/*
 jump.admin6.com/iclk/*
+irs09.com/*
 *.union188.com/*
 *.unionbig.com/*
 w*ww.blu.livefilestore.com/*.gif
@@ -1689,7 +1690,7 @@ www.PPStream.com/news/*
 notice.ppstream.com/M2006110043/*.swf
 *.pps.tv/cprtp/*
 iafp.pptv.com/*
-player.pplive.cn/*/PPLivePlugin.swf
+player.pplive.cn/*/PPLivePlugin.swf*
 ik.synacast.com/*
 *.synacast.com/*
 *pp2.pptv.com/*
@@ -1996,5 +1997,4 @@ www.hneeb.cn/images/imgAd_*.gif
 www.hneeb.cn/images/FLASH*.swf
 www.hneeb.cn/images/cswszy.gif
 www.hneeb.cn/2010/*.swf
-www.namipan.com/html/un/*
 

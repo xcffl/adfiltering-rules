@@ -1,3 +1,5 @@
+www.hneeb.cn/2010/*.swf
+www.namipan.com/html/un/*
 d.namipan.com/inc_js/*.js
 d.namipan.com/flash/*.swf
 *.wumii.com/images/pixel.png
@@ -399,6 +401,7 @@ cq.takungpao.com/img*/abv/*
 *23sc.cn/andy/*
 www.23sc.cn/007/*
 *cqcpu.com/andy/*
+210.51.33.225*/*.ca
 210.51.33.225/*
 static.jjwxc.net/scripts/richMedia.js*
 *.static.jjwxc.net/sp/*.html
@@ -994,7 +997,7 @@ static.baixing.net/images/newLv/*
 *jisuxz.com/hzy/*
 *pc286.com/other/7148948.gif
 *linkwan.com/gb/images/uploadimages/*
-mail.google.com/support/bin/answer.py?*
+www.googletagservices.com/*
 *114la.com/public/widget/google/*
 *kztechs.com/fromgoogle2.html
 *2tutu.com/THEMES/google/STYLE/google/*

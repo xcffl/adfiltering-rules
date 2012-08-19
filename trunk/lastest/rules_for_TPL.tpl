@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-19 11:08:30
+#Updated:2012-08-19 21:59:43
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -21,7 +21,6 @@ msFilterList
 - *.net/ads/
 - */sidead.
 - */999aadbak.js
-- */google_ads/
 - */adimg.
 - */tanchuang.
 - */banner-ad-
@@ -489,6 +488,7 @@ msFilterList
 - */adver/*.
 - */adver.
 - */s.aspx?spotid=
+- */google_ads/
 - */article_endcontent_google.htm
 - */seo.php?username=
 - */*.swf?url0=
@@ -1157,6 +1157,7 @@ msFilterList
 -d www.0731s.net
 -d www.101860.com
 -d www.18dmm.com
+# ||resmkt.dipan.com^$image,~image,popup,third-party
 -d www.2myad.com
 -d www.52xmm.cn
 -d www.59.cn /*gg/
@@ -1375,6 +1376,7 @@ msFilterList
 #----迅雷&狗狗&快传----
 -d img.kuai.xunlei.com /img/v2/fen/
 - *mtips.xunlei.com/
+-d img.kuai.xunlei.com /js/statistics.js
 - *websts.xunlei.com/
 - *wy.xunlei.com/
 -d stat.xunlei.com
@@ -1587,8 +1589,6 @@ msFilterList
 - *.tudou.com/framepage/
 - *.tudou.com/tdap/
 #----优酷网----
-#||valf.atm.youku.com/crossdomain.xml
--d valf.atm.youku.com /valf?
 -d f.youku.com /player/getFlvPath/fileid/*&yad=1
 -d vhtml.atm.youku.com
 -d t.stat.youku.com
@@ -2010,6 +2010,8 @@ msFilterList
 -d activate.wip3.adobe.com
 -d ereg.adobe.com
 -d activate.adobe.com
+#----电脑技术吧----
+-d www.dnjsb.com /tu/
 #----网页教学网----
 -d www.webjx.com /zanzhushang/
 -d www.webjx.com /upfiles/*-*.gif
@@ -2744,6 +2746,7 @@ msFilterList
 -d www.23sc.cn /007/
 - *cqcpu.com/andy/
 #----晋江文学城----
+- http://210.51.33.225*/*.ca
 -d 210.51.33.225
 -d static.jjwxc.net /scripts/richMedia.js
 - *.static.jjwxc.net/sp/*.html
@@ -3696,7 +3699,7 @@ msFilterList
 - *linkwan.com/gb/images/uploadimages/
 #-------------联盟&本站-------------
 #----Google----
--d mail.google.com /support/bin/answer.py?
+-d www.googletagservices.com
 - *114la.com/public/widget/google/
 - *kztechs.com/fromgoogle2.html
 - *2tutu.com/THEMES/google/STYLE/google/

@@ -10,7 +10,6 @@
 *.net/ads/*
 */sidead.*
 */999aadbak.js*
-*/google_ads/*
 */adimg.*
 */tanchuang.*
 */banner-ad-*
@@ -478,6 +477,7 @@ js.*/code.js
 */adver/*.*
 */adver.*
 */s.aspx?spotid=*
+*/google_ads/*
 */article_endcontent_google.htm
 */seo.php?username=*
 */*.swf?url0=*
@@ -1144,6 +1144,7 @@ u.taotaosou.com/*
 www.0731s.net/*
 www.101860.com/*
 www.18dmm.com/*
+resmkt.dipan.com^
 www.2myad.com/*
 www.52xmm.cn/*
 www.59.cn/*/*gg/*
@@ -1348,6 +1349,7 @@ dr.soso.com/*
 *soso*.*/UploadFiles/2008*.gif
 img.kuai.xunlei.com/img/v2/fen/*
 *mtips.xunlei.com/*
+img.kuai.xunlei.com/js/statistics.js
 *websts.xunlei.com/*
 *wy.xunlei.com/*
 stat.xunlei.com/*
@@ -1551,7 +1553,6 @@ v2.tudou.com/td*/*
 stat*.tudou.com/*
 *.tudou.com/framepage/*
 *.tudou.com/tdap/*
-valf.atm.youku.com/valf?*
 f.youku.com/player/getFlvPath/fileid/*&yad=1*
 vhtml.atm.youku.com/*
 t.stat.youku.com/*
@@ -1893,6 +1894,7 @@ practivate.adobe.com/*
 activate.wip3.adobe.com/*
 ereg.adobe.com/*
 activate.adobe.com/*
+www.dnjsb.com/tu/*
 www.webjx.com/zanzhushang/*
 www.webjx.com/upfiles/*-*.gif
 www.33lc.com/js/banner-*.js
@@ -2399,6 +2401,7 @@ cq.takungpao.com/img*/abv/*
 *23sc.cn/andy/*
 www.23sc.cn/007/*
 *cqcpu.com/andy/*
+210.51.33.225*/*.ca
 210.51.33.225/*
 static.jjwxc.net/scripts/richMedia.js*
 *.static.jjwxc.net/sp/*.html
@@ -2994,7 +2997,7 @@ static.baixing.net/images/newLv/*
 *jisuxz.com/hzy/*
 *pc286.com/other/7148948.gif
 *linkwan.com/gb/images/uploadimages/*
-mail.google.com/support/bin/answer.py?*
+www.googletagservices.com/*
 *114la.com/public/widget/google/*
 *kztechs.com/fromgoogle2.html
 *2tutu.com/THEMES/google/STYLE/google/*

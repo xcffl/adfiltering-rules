@@ -1,3 +1,4 @@
+d.namipan.com/inc_js/*.js
 d.namipan.com/flash/*.swf
 *.wumii.com/images/pixel.png
 *youtube.com/img/youchoose/*

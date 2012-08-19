@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-19 11:08:30
+!Updated:2012-08-19 21:59:43
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -13,6 +13,7 @@
 ###topAds
 ##[id^="ad_thread"]
 ##.ad_footerbanner
+##div[id^="div-gpt-ad-"]
 ###ad_box
 ##.topads
 ###ad_5
@@ -70,7 +71,6 @@ bannerad
 /\.net\/ads\//
 /\/sidead\./
 /\/999aadbak\.js/
-/\/google_ads\//
 /\/adimg\./
 /\/tanchuang\./
 /\/banner-ad-/
@@ -538,6 +538,7 @@ bannerad
 /\/adver\/.*\./
 /\/adver\./
 /\/s\.aspx\?spotid=/
+/\/google_ads\//
 /\/article_endcontent_google\.htm/
 /\/seo\.php\?username=/
 /\/.*\.swf\?url0=/
@@ -1206,6 +1207,7 @@ bannerad
 /:\/\/([^\/]+\.)?www.0731s.net\//
 /:\/\/([^\/]+\.)?www.101860.com\//
 /:\/\/([^\/]+\.)?www.18dmm.com\//
+/:\/\/([^\/]+\.)?resmkt\.dipan\.com\//	$t=image,~image,popup,third-party,$w
 /:\/\/([^\/]+\.)?www.2myad.com\//
 /:\/\/([^\/]+\.)?www.52xmm.cn\//
 /:\/\/([^\/]+\.)?www.59.cn\/.*\/.*gg\//
@@ -1428,6 +1430,7 @@ bannerad
 ##.l_img	$d=kuai.xunlei.com
 /:\/\/([^\/]+\.)?img.kuai.xunlei.com\/img\/v2\/fen\//
 /mtips\.xunlei\.com\//
+/:\/\/([^\/]+\.)?img.kuai.xunlei.com\/js\/statistics\.js/
 /websts\.xunlei\.com\//
 /wy\.xunlei\.com\//
 /:\/\/([^\/]+\.)?stat.xunlei.com\//
@@ -1663,8 +1666,6 @@ bannerad
 ##[id^="ab_"]	$d=soku.com
 ##[id^="ab_"]	$d=youku.com
 ##.sideCol > div[class^="AB"]
-!||valf.atm.youku.com/crossdomain.xml
-/:\/\/([^\/]+\.)?valf.atm.youku.com\/valf\?/
 /:\/\/([^\/]+\.)?f.youku.com\/player\/getFlvPath\/fileid\/.*&yad=1/
 /:\/\/([^\/]+\.)?vhtml.atm.youku.com\//
 /:\/\/([^\/]+\.)?t.stat.youku.com\//
@@ -1725,6 +1726,8 @@ bannerad
 !----悠视网UUsee----
 /:\/\/([^\/]+\.)?sa.uusee.com\/.*\.swf/
 !----115&114啦----
+##.banner-top	$d=115.com
+##.resource-list	$d=115.com
 /:\/\/([^\/]+\.)?www.114la.com\/indexa\.html/
 /114la\.com\/public\/widget\/toptao\//
 /:\/\/([^\/]+\.)?u.115.com\/static\/media\//
@@ -2103,6 +2106,8 @@ bannerad
 /:\/\/([^\/]+\.)?activate.wip3.adobe.com\//
 /:\/\/([^\/]+\.)?ereg.adobe.com\//
 /:\/\/([^\/]+\.)?activate.adobe.com\//
+!----电脑技术吧----
+/:\/\/([^\/]+\.)?www.dnjsb.com\/tu\//
 !----网页教学网----
 /:\/\/([^\/]+\.)?www.webjx.com\/zanzhushang\//
 /:\/\/([^\/]+\.)?www.webjx.com\/upfiles\/.*-.*\.gif/
@@ -2871,6 +2876,10 @@ bannerad
 /:\/\/([^\/]+\.)?www.23sc.cn\/007\//
 /cqcpu\.com\/andy\//
 !----晋江文学城----
+##table[style^="width:984px;"]	$d=jjwxc.net
+##.h8px + div[align="center"]	$d=jjwxc.net
+##[id^="adp_"]	$d=jjwxc.net
+/^http:\/\/210\.51\.33\.225.*\/.*\.ca$/
 /:\/\/([^\/]+\.)?210.51.33.225\//
 /:\/\/([^\/]+\.)?static.jjwxc.net\/scripts\/richMedia\.js/
 /\.static\.jjwxc\.net\/sp\/.*\.html/
@@ -3832,7 +3841,7 @@ bannerad
 /linkwan\.com\/gb\/images\/uploadimages\//
 !-------------联盟&本站-------------
 !----Google----
-/:\/\/([^\/]+\.)?mail.google.com\/support\/bin\/answer\.py\?/
+/:\/\/([^\/]+\.)?www.googletagservices.com\//
 /114la\.com\/public\/widget\/google\//
 /kztechs\.com\/fromgoogle2\.html/
 /2tutu\.com\/THEMES\/google\/STYLE\/google\//

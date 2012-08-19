@@ -10,7 +10,6 @@
 5,4,*.net/ads/*
 5,4,*/sidead.*
 5,4,*/999aadbak.js*
-5,4,*/google_ads/*
 5,4,*/adimg.*
 5,4,*/tanchuang.*
 5,4,*/banner-ad-*
@@ -478,6 +477,7 @@
 5,4,*/adver/*.*
 5,4,*/adver.*
 5,4,*/s.aspx?spotid=*
+5,4,*/google_ads/*
 5,4,*/article_endcontent_google.htm
 5,4,*/seo.php?username=*
 5,4,*/*.swf?url0=*
@@ -1144,6 +1144,7 @@
 5,4,www.0731s.net/*
 5,4,www.101860.com/*
 5,4,www.18dmm.com/*
+5,4,resmkt.dipan.com^$image,~image,popup,third-party
 5,4,www.2myad.com/*
 5,4,www.52xmm.cn/*
 5,4,www.59.cn/*/*gg/*
@@ -1348,6 +1349,7 @@
 5,4,*soso*.*/UploadFiles/2008*.gif
 5,4,img.kuai.xunlei.com/img/v2/fen/*
 5,4,*mtips.xunlei.com/*
+5,4,img.kuai.xunlei.com/js/statistics.js
 5,4,*websts.xunlei.com/*
 5,4,*wy.xunlei.com/*
 5,4,stat.xunlei.com/*
@@ -1551,7 +1553,6 @@
 5,4,stat*.tudou.com/*
 5,4,*.tudou.com/framepage/*
 5,4,*.tudou.com/tdap/*
-5,4,valf.atm.youku.com/valf?*
 5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1*
 5,4,vhtml.atm.youku.com/*
 5,4,t.stat.youku.com/*
@@ -1893,6 +1894,7 @@
 5,4,activate.wip3.adobe.com/*
 5,4,ereg.adobe.com/*
 5,4,activate.adobe.com/*
+5,4,www.dnjsb.com/tu/*
 5,4,www.webjx.com/zanzhushang/*
 5,4,www.webjx.com/upfiles/*-*.gif
 5,4,www.33lc.com/js/banner-*.js
@@ -2399,6 +2401,7 @@
 5,4,*23sc.cn/andy/*
 5,4,www.23sc.cn/007/*
 5,4,*cqcpu.com/andy/*
+5,4,210.51.33.225*/*.ca
 5,4,210.51.33.225/*
 5,4,static.jjwxc.net/scripts/richMedia.js*
 5,4,*.static.jjwxc.net/sp/*.html
@@ -2994,7 +2997,7 @@
 5,4,*jisuxz.com/hzy/*
 5,4,*pc286.com/other/7148948.gif
 5,4,*linkwan.com/gb/images/uploadimages/*
-5,4,mail.google.com/support/bin/answer.py?*
+5,4,www.googletagservices.com/*
 5,4,*114la.com/public/widget/google/*
 5,4,*kztechs.com/fromgoogle2.html
 5,4,*2tutu.com/THEMES/google/STYLE/google/*

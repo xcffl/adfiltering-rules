@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-19 21:59:43
+!Updated:2012-08-20 21:00:46
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -1675,6 +1675,7 @@ bannerad
 /:\/\/([^\/]+\.)?vid.atm.youku.com\//
 /:\/\/([^\/]+\.)?html.atm.youku.com\//
 /:\/\/([^\/]+\.)?static.atm.youku.com\/.*\/popup\.js/
+/:\/\/([^\/]+\.)?valf.atm.youku.com\/valf\?/
 /:\/\/([^\/]+\.)?valf.atm.youku.com\/show\?/
 /:\/\/([^\/]+\.)?fvid.atm.youku.com\//
 /:\/\/([^\/]+\.)?walp.atm.youku.com\//
@@ -3420,6 +3421,9 @@ bannerad
 /cnzz\.cc\/cn888\//
 /cnzz\.cc\/soft\/js\/a_/
 !----电脑上WAP网----
+##.functional-area-left.functional-area	$d=pctowap.com
+##.ad-area-right.dowap_ads	$d=pctowap.com
+##A[href="http://i.doguo.com/pay.php"]	$d=pctowap.com
 /\.pctowap\.com\/img\/bs.*\.jpg/
 !----Speedtest.net----
 /:\/\/([^\/]+\.)?c.speedtest.net\//	$w

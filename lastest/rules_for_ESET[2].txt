@@ -1,3 +1,4 @@
+www.hneeb.cn/images/cswszy.gif
 www.hneeb.cn/2010/*.swf
 www.namipan.com/html/un/*
 d.namipan.com/inc_js/*.js

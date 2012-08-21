@@ -501,12 +501,12 @@ def writeRule(filePath, lines):
             line = re.sub(r'\/$','', line)
             line = re.sub(r'\$w',',$w', line)
             line = re.sub(r'  \$','/  $', line)
-            line = re.sub(r'\/	\$w','  $w', line)
+            line = re.sub(r'\/	\$w','	$w', line)
           if re.search(r'\$(?=.+\$.+\$)', line):
             #把前面是地址的第一个$给替换成 $了
-            line = re.sub(r'\$(?=.+\$.+\$)','/  $', line)
+            line = re.sub(r'\$(?=.+\$.+\$)','/	$', line)
           elif re.search(r'\$(?=.+\$)', origLine):
-            line = re.sub(r'\$(?=.+\$)','/  $', line)
+            line = re.sub(r'\$(?=.+\$)','/	$', line)
 
 
 
@@ -557,13 +557,13 @@ def writeRule(filePath, lines):
           if re.search(r'\$w\/$', line):
             line = re.sub(r'\/$','', line)
             line = re.sub(r'\$w',',$w', line)
-            line = re.sub(r'  \$','/  $', line)
-            line = re.sub(r'\/	\$w','  $w', line)
+            line = re.sub(r'	\$','/	$', line)
+            line = re.sub(r'\/	\$w','	$w', line)
           if re.search(r'\$(?=.+\$.+\$)', line):
             #把前面是地址的第一个$给替换成 $了
-            line = re.sub(r'\$(?=.+\$.+\$)','/  $', line)
+            line = re.sub(r'\$(?=.+\$.+\$)','/	$', line)
           elif re.search(r'\$(?=.+\$)', origLine):
-            line = re.sub(r'\$(?=.+\$)','/  $', line)
+            line = re.sub(r'\$(?=.+\$)','/	$', line)
 
 
           line = re.sub(r'\$(?![(d\=)|(t\=)|(\$w)])','$t=', line)
@@ -3104,13 +3104,13 @@ os.remove(tempfile)
 import os
 os.startfile('http://rules.wd.360.cn/upload_rule_11.html?id=60546')
 
-#===把加入校验的ABP版移回根目录===
+'''#===把加入校验的ABP版移回根目录===
 import shutil
 import os
 if os.path.isfile('.' + 'rules_for_ABP.txt'):
   os.system('rm -fr rules_for_ABP.txt')
 else:
-  shutil.copy('./Temp/rules_for_ABP.txt', '.')  
+  shutil.copy('./Temp/rules_for_ABP.txt', '.') ''' 
 
 
 #===删除临时文件夹===

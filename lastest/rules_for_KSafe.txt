@@ -726,7 +726,6 @@
 5,4,*/popcode.js
 5,4,*.org*/ad-images/*
 5,4,*.cn*/ad-images/*
-5,4,*.com*/ad-images/*
 5,4,*/adFloatPage_*.js
 5,4,*/advman_right_*.jpg
 5,4,*/vpndaili.jpg

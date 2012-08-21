@@ -1,4 +1,3 @@
-www.hneeb.cn/images/imgAd_*.gif
 www.hneeb.cn/images/FLASH*.swf
 www.hneeb.cn/images/cswszy.gif
 www.hneeb.cn/2010/*.swf

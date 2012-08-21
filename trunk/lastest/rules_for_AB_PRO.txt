@@ -734,7 +734,6 @@ ox-d.*/jstag
 */popcode.js
 *.org*/ad-images/*
 *.cn*/ad-images/*
-*.com*/ad-images/*
 */adFloatPage_*.js
 */advman_right_*.jpg
 */vpndaili.jpg

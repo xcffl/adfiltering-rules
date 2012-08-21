@@ -724,7 +724,9 @@ ox-d.*/jstag
 */ad/*=*
 */ad/ad.*
 */popcode.js
-*/ad-images/*
+*.org*/ad-images/*
+*.cn*/ad-images/*
+*.com*/ad-images/*
 */adFloatPage_*.js
 */advman_right_*.jpg
 */vpndaili.jpg
@@ -1995,6 +1997,4 @@ bjdcdv.it.com.cn*
 dict.hudong.com/xml/*.html
 hdad.hudong.com/*
 zt.hudong.com/wid.html
-www.hneeb.cn/images/*201*.gif
-www.hneeb.cn/images/imgAd_*.gif
 

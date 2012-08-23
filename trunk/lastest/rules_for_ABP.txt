@@ -1,14 +1,19 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-08-21 19:18:03
+!Updated:2012-08-23 12:57:48
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.3
 !Copyright 2011 xcffl, Apache License 2.0
-! This list expires after 3 days
+! This list expires after 7 days
 !-------------通用规则-------------
 !------元素隐藏规则------
+##.wide_ads
 ##.a_h
+##.adBanner
+~cvvp.nva.gov.lv##.adbanner
+##.ad300x250
+~jobmail.co.za,~realqwh.cn,~version2.dk,~willhaben.at##.ad-text
 ###topAds
 ##[id^="ad_thread"]
 ~hk-pub.com##.ad_footerbanner
@@ -557,8 +562,10 @@
 |*/s/x.php?u=*
 |*/me_productinfo.asp?id=*
 |*/adfshow?user=*
+|*/guanggao.*
 |*/zhsh?user=*
 |*/s/shadow.js
+|*-300x250.*
 |*/banner-header.*
 |*action=redir*_splash&url=*
 |*/ui.js.php?siteid=*
@@ -623,6 +630,7 @@
 |*/www/*/sx/*/ddt-*.*
 |*/www/*/sx/*/qjp-*.*
 |*/www/*/sx/*/lzzh-*.*
+|*?file=ads&*
 |*/openad.gif
 |*/frame/topright.html
 |*/article_ad_google.htm
@@ -953,6 +961,7 @@
 |*.ete.cn/*
 |*.eteun.cn/*
 |*.gamediad.com*
+||s3.buysellads.com/*
 |*.getiton.com/*
 |*.gogocdn.com/*
 |*.hot200.cn/*
@@ -1088,7 +1097,7 @@
 |*.adkongjian.com*
 ||cpp.ggyad.com*/*
 ||img.shenduchuanmei.com:81/a/*
-|*.wrating.com/*
+!|*.wrating.com/*
 |*inter-focus.cn/*
 |http://*ip686.com*
 |*ivru.moyu.com*
@@ -1482,8 +1491,12 @@ www.sina.com.cn##.att_div
 www.sina.com.cn###PartG > .rightbox
 www.sina.com.cn###PartA > .left > div:not(#sina_house_link9)
 house.sina.com.cn###topBg
+weibo.com##[id^="ads_"]
+weibo.com##.footer_adv
+weibo.com##.tips_player
 @@||api.t.sina.com.cn/statuses/counts.*
 ||v.sina.com.cn/*.html
+|*.sina.com.cn/litong/*
 ||count.kandian.com/*.html
 ||l.you.video.sina.com.cn*_undig&*
 ||l.you.video.sina.com.cn/*.xml
@@ -1559,6 +1572,7 @@ www.sohu.com###ad_TOP
 sohu.com,chinaren.com##sohuadcode
 sohu.com##.adB
 ||a*.itc.cn/pv/js/pvclick.*
+||xls.go.sohu.com/*
 ||his.tv.sohu.com/his/ping.do?*
 ||count.vrs.sohu.com/*.xml
 |*.hd.sohu.com.cn/*.gif?*
@@ -1617,6 +1631,7 @@ www.163.com###g5n1
 ||img3.cache.netease.com/*/ieupdate/update_funcs.js
 ||stat.ws.126.net/*
 ||adgeo.163.com/*
+||163.wrating.com/*
 |*.163.com/special/*_*.xml
 ||img1.126.net/*
 ||img2.126.net/*
@@ -1674,7 +1689,7 @@ soku.com,youku.com##[id^="ab_"]
 ||vid.atm.youku.com/*
 ||html.atm.youku.com/*
 ||static.atm.youku.com/*/popup.js
-||valf.atm.youku.com/valf?*
+!||valf.atm.youku.com/valf?*
 ||valf.atm.youku.com/show?*
 ||fvid.atm.youku.com/*
 ||walp.atm.youku.com/*
@@ -1738,6 +1753,12 @@ soku.com,youku.com##[id^="ab_"]
 ||u.115.com/static/tjj/delivery/*.html
 ||tool.115.com/static/mm/*
 ||u.115.com/static/modules/*
+!----纤手美发网----
+i.qianshou.com##.GG1
+i.qianshou.com##.shopad2012
+i.qianshou.com##DIV[style="width:728px; height:90px; float:left; padding-top:4px; padding-left:10px;"]
+@@||i.qianshou.com/adsJs/logobanner.js
+@@||i.qianshou.com/adsJs/footer.js
 !----人人网----
 ||shaft.jebe.renren.com/*
 ||dj.renren.com/*
@@ -1775,6 +1796,7 @@ soku.com,youku.com##[id^="ab_"]
 ||11.mydrivers.com/myfiles/myfiles100*.js
 |*images.mydrivers.com/*/*x*.gif
 !----爱奇艺----
+||220.181.109.181:8080/tracker?*
 ||afp.qiyi.com/*
 ||jsmsg.video.qiyi.com/*
 ||msg.video.qiyi.com/*
@@ -1831,6 +1853,8 @@ soku.com,youku.com##[id^="ab_"]
 ||www.PPStream.com/news/*
 ||notice.ppstream.com/M2006110043/*.swf
 |*.pps.tv/cprtp/*
+!----淡蓝博客----
+||www.danlan.org/KFC/*.gif
 !----PPTV网络电视----
 pptv.com##[id^="afp_"]
 ||iafp.pptv.com/*
@@ -1844,6 +1868,7 @@ pptv.com##[id^="afp_"]
 !----华军软件园&牛华网----
 newhua.com##[class^="ad_ritht_"]
 ||download.cncmax.js.cn/images/temp/down-banner*.jpg
+||news.newhua.com/newhuagg/news_*
 ||www.onlinedown.net/newhuagg/js_*
 ||www.newhua.com/newhuagg/js_*
 ||www.onlinedown.net/newhuagg/js_*
@@ -1866,6 +1891,11 @@ newhua.com##[class^="ad_ritht_"]
 ||iciba.englishtown.com/Sp/Landing/*
 ||web.iciba.com/ef/*
 ||goto.www.iciba.com/*
+!----发型阁----
+||www.faxingge.com/UpFile/ad/*
+||www.faxingge.com/fxgjs/header-min.js
+||www.faxingge.com/UpFile/hd/134*.gif
+||www.faxingge.com/UpFile/hd/134*.jpg
 !----站长之家ChinaZ----
 ||images.chinaz.com/index_images/A*.htm
 ||images.chinaz.com/index_images/wz.htm
@@ -1982,6 +2012,9 @@ www.ku6.com##[class^="a_d0608"]
 ||image.ku6.com/image/*
 ||image.ku6.com/*888*/*
 !----异次元软件世界&iPc.me----
+ipc.me##.widget.widget_ad_slot_wrapper
+ipc.me##[style="_display:block;height:252px;width:301px;overflow:hidden;margin-bottom:7px"]
+ipc.me##LI.widget
 ipc.me##.post-top-gg
 ||www.iplaysoft.com/plus/static_files/nuffnang.html
 !----中关村在线&中关村在线武汉站----
@@ -2046,6 +2079,8 @@ gc1069.com##EMBED
 ||images.17173.com/*/www/*/wm/*/wm-sm-*.jpg
 |*17173.com/if/*
 ||market.17173.com/*
+!----九六城堡----
+txt96.com##IMG[width="960"][height="90"]
 !----爱尚网----
 ||www.cocoren.com/templets/cocoren/images/flash/*.swf
 !----天府在线----
@@ -2153,6 +2188,7 @@ news.ifeng.com###smExtObjBg
 |*7edown.com/db/*
 |*7edown.com/newbd/*
 !----北青网----
+||ranking.ynet.com:*/*
 ||ranking.ynet.com/*
 ||ads158.ynet.com/*
 ||fun.ynet.com/*
@@ -2205,6 +2241,8 @@ i.firefoxchina.cn###banner_show1
 !----城市联合网络电视台----
 ||cfpfile.cutv.com/*
 !----MSN----
+msn.huanqiu.com##.adMsn
+msn.ynet.com##.ads_topbanner.clearfix
 cn.msn.com##.topNav
 cn.msn.com##.advLf
 ||css.cn.msn.com/right_ad.htm
@@ -2268,6 +2306,7 @@ simplecd.me##HR
 !----同步控----
 |*.wumii.com/images/pixel.png
 !----YouTube----
+youtube.com###search-pva
 |*youtube.com/img/youchoose/*
 !----比克尔（必杀客）----
 |*.bkill.com/css/js/bkill.js
@@ -2277,6 +2316,8 @@ simplecd.me##HR
 |*bkill.net/img/fx.gif
 |*bkill.net/images/dubahesiu.gif
 |*bkill.net/images/3.jpg
+!----The HTML5 test----
+html5test.com##.ads
 !----GayFriendFinder----
 !----站长网----
 ||down.admin5.com/z/*
@@ -2292,8 +2333,12 @@ simplecd.me##HR
 ||www.92wg.com/new/js/A_*.js
 !----哈哈.MX----
 |*.haha.mx/Public/images/banner-*.png
+!----热门杂烩----
+||www.micboy.com/dl2.js
 !----CC网址名录----
 |*.cicih.cn/images/kuaiji.gif
+!----TechWeb----
+||forum.techweb.com.cn/advtcnt.php?*
 !----至顶网----
 ||am.zdnet.com.cn/www/images/*/*_*.swf
 ||icon.zdnet.com.cn/software_zone/pic/utd/ad_*.gif
@@ -2331,6 +2376,7 @@ ithome.com##.site_ad
 ithome.com##.hl_wrap
 bbs.ithome.com###bbs_hl
 win8china.com##.site-ad-box
+ithome.com##.side_products.ulc.ball
 win7china.com,win8china.com##.site_ad
 |*.vista123.com/notice.htm
 ||www.win8china.com/script/*.htm
@@ -2685,9 +2731,13 @@ kdslife.com,pchome.net##[class^="ad"]
 !----奇虎----
 ||img.360.cn/images/2008/360cn/huodong/*x*.jpg
 ||tf.360.cn/*
-||hao.360.cn/css/monitorscript.js
 ||clkstat.qihoo.com/*
 ||click.stat.hao.360.cn/*
+||hao.360.cn/css/monitorscript.js*
+||s.360.cn/*
+||h.qhimg.com/js/iwt-hao360.js*
+||h1.qhimg.com/js/monitor-v1.1.1.min.js*
+bbs.360.cn##.aXd
 !----风暴数码----
 ||attach.fengbao.com/album/*/*/*.gif
 !----叽叽歪歪吧----
@@ -2696,9 +2746,10 @@ kdslife.com,pchome.net##[class^="ad"]
 ||js.pub.tom.com/*
 |tv-static.tom.com/6c6266/20101026/hd16953.flv
 !----bilibili.tv----
+||static.hdslb.com/ad-images/*.swf
 ||bilibili.kankanews.com/html/ads-*
 ||www.bilibili.tv/html/ads-*
-||www.bilibili.tv/html/*.html
+||bilibili.kankanews.com/html/*.html
 !----浦北部落----
 |*pb86.net/sb/images/*
 |*pb86.net/d/*
@@ -3781,6 +3832,7 @@ pctowap.com##A[href="http://i.doguo.com/pay.php"]
 !----盛唐军事网----
 |*junshier.com/data/js/*
 !----环球网----
+|*.huanqiu.com/script/HuanQiuAllBottom.Js
 ||huanqiu.allyes.com/*
 |*huanqiu.com/script/content_js/*
 !----原动力资讯----
@@ -4121,5 +4173,5 @@ www.qidian.com##.DH17
 @@||drmcmm.baidu.com/media/id=*&gp=403&time=*.swf
 @@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
 @@||cpro.baidu.com/cpro/ui/y.js
+||valf.atm.youku.com/crossdomain.xml
 !-------------待分类-------------
-

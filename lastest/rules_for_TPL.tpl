@@ -1,11 +1,11 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-21 19:18:03
+#Updated:2012-08-23 12:57:48
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
-: Expires=3
+: Expires=7
 #-------------通用规则-------------
 #------元素隐藏规则------
 #------广告过滤规则------
@@ -508,8 +508,10 @@ msFilterList
 - */s/x.php?u=
 - */me_productinfo.asp?id=
 - */adfshow?user=
+- */guanggao.
 - */zhsh?user=
 - */s/shadow.js
+- *-300x250.
 - */banner-header.
 - *action=redir*_splash&url=
 - */ui.js.php?siteid=
@@ -574,6 +576,7 @@ msFilterList
 - */www/*/sx/*/ddt-*.
 - */www/*/sx/*/qjp-*.
 - */www/*/sx/*/lzzh-*.
+- *?file=ads&
 - */openad.gif
 - */frame/topright.html
 - */article_ad_google.htm
@@ -904,6 +907,7 @@ msFilterList
 - *.ete.cn/
 - *.eteun.cn/
 - *.gamediad.com
+-d s3.buysellads.com
 - *.getiton.com/
 - *.gogocdn.com/
 - *.hot200.cn/
@@ -1039,7 +1043,7 @@ msFilterList
 - *.adkongjian.com
 - http://cpp.ggyad.com*/
 -d img.shenduchuanmei.com /a/
-- *.wrating.com/
+#|*.wrating.com/*
 - *inter-focus.cn/
 - http://*ip686.com
 - *ivru.moyu.com
@@ -1418,6 +1422,7 @@ msFilterList
 #----新浪网&看点----
 +d api.t.sina.com.cn /statuses/counts.
 -d v.sina.com.cn .html
+- *.sina.com.cn/litong/
 -d count.kandian.com .html
 - http://l.you.video.sina.com.cn*_undig&
 -d l.you.video.sina.com.cn .xml
@@ -1489,6 +1494,7 @@ msFilterList
 -d news.sina.com.cn /pfpnews/js/libweb.js
 #----搜狗&搜狐&搜狐畅游----
 - http://a*.itc.cn/pv/js/pvclick.
+-d xls.go.sohu.com
 -d his.tv.sohu.com /his/ping.do?
 -d count.vrs.sohu.com .xml
 - *.hd.sohu.com.cn/*.gif?
@@ -1545,6 +1551,7 @@ msFilterList
 -d img3.cache.netease.com /ieupdate/update_funcs.js
 -d stat.ws.126.net
 -d adgeo.163.com
+-d 163.wrating.com
 - *.163.com/special/*_*.xml
 -d img1.126.net
 -d img2.126.net
@@ -1600,7 +1607,7 @@ msFilterList
 -d vid.atm.youku.com
 -d html.atm.youku.com
 -d static.atm.youku.com /popup.js
--d valf.atm.youku.com /valf?
+#||valf.atm.youku.com/valf?*
 -d valf.atm.youku.com /show?
 -d fvid.atm.youku.com
 -d walp.atm.youku.com
@@ -1662,6 +1669,9 @@ msFilterList
 -d u.115.com /static/tjj/delivery/*.html
 -d tool.115.com /static/mm/
 -d u.115.com /static/modules/
+#----纤手美发网----
++d i.qianshou.com /adsJs/logobanner.js
++d i.qianshou.com /adsJs/footer.js
 #----人人网----
 -d shaft.jebe.renren.com
 -d dj.renren.com
@@ -1699,6 +1709,7 @@ msFilterList
 -d 11.mydrivers.com /myfiles/myfiles100*.js
 - *images.mydrivers.com/*/*x*.gif
 #----爱奇艺----
+-d 220.181.109.181 /tracker?
 -d afp.qiyi.com
 -d jsmsg.video.qiyi.com
 -d msg.video.qiyi.com
@@ -1755,6 +1766,8 @@ msFilterList
 -d www.PPStream.com /news/
 -d notice.ppstream.com /M2006110043/*.swf
 - *.pps.tv/cprtp/
+#----淡蓝博客----
+-d www.danlan.org /KFC/*.gif
 #----PPTV网络电视----
 -d iafp.pptv.com
 -d player.pplive.cn /PPLivePlugin.swf
@@ -1766,6 +1779,7 @@ msFilterList
 -d img4.ddimg.cn /00074/pic/*_*_*x*_*.jpg
 #----华军软件园&牛华网----
 -d download.cncmax.js.cn /images/temp/down-banner*.jpg
+-d news.newhua.com /newhuagg/news_
 -d www.onlinedown.net /newhuagg/js_
 -d www.newhua.com /newhuagg/js_
 -d www.onlinedown.net /newhuagg/js_
@@ -1788,6 +1802,11 @@ msFilterList
 -d iciba.englishtown.com /Sp/Landing/
 -d web.iciba.com /ef/
 -d goto.www.iciba.com
+#----发型阁----
+-d www.faxingge.com /UpFile/ad/
+-d www.faxingge.com /fxgjs/header-min.js
+-d www.faxingge.com /UpFile/hd/134*.gif
+-d www.faxingge.com /UpFile/hd/134*.jpg
 #----站长之家ChinaZ----
 -d images.chinaz.com /index_images/A*.htm
 -d images.chinaz.com /index_images/wz.htm
@@ -1960,6 +1979,7 @@ msFilterList
 -d images.17173.com /www/*/wm/*/wm-sm-*.jpg
 - *17173.com/if/
 -d market.17173.com
+#----九六城堡----
 #----爱尚网----
 -d www.cocoren.com /templets/cocoren/images/flash/*.swf
 #----天府在线----
@@ -2060,6 +2080,7 @@ msFilterList
 - *7edown.com/db/
 - *7edown.com/newbd/
 #----北青网----
+- http://ranking.ynet.com:*/
 -d ranking.ynet.com
 -d ads158.ynet.com
 -d fun.ynet.com
@@ -2177,6 +2198,7 @@ msFilterList
 - *bkill.net/img/fx.gif
 - *bkill.net/images/dubahesiu.gif
 - *bkill.net/images/3.jpg
+#----The HTML5 test----
 #----GayFriendFinder----
 #----站长网----
 -d down.admin5.com /z/
@@ -2192,8 +2214,12 @@ msFilterList
 -d www.92wg.com /new/js/A_*.js
 #----哈哈.MX----
 - *.haha.mx/Public/images/banner-*.png
+#----热门杂烩----
+-d www.micboy.com /dl2.js
 #----CC网址名录----
 - *.cicih.cn/images/kuaiji.gif
+#----TechWeb----
+-d forum.techweb.com.cn /advtcnt.php?
 #----至顶网----
 -d am.zdnet.com.cn /www/images/*/*_*.swf
 -d icon.zdnet.com.cn /software_zone/pic/utd/ad_*.gif
@@ -2562,9 +2588,12 @@ msFilterList
 #----奇虎----
 -d img.360.cn /images/2008/360cn/huodong/*x*.jpg
 -d tf.360.cn
--d hao.360.cn /css/monitorscript.js
 -d clkstat.qihoo.com
 -d click.stat.hao.360.cn
+-d hao.360.cn /css/monitorscript.js
+-d s.360.cn
+-d h.qhimg.com /js/iwt-hao360.js
+-d h1.qhimg.com /js/monitor-v1.1.1.min.js
 #----风暴数码----
 -d attach.fengbao.com /album/*/*/*.gif
 #----叽叽歪歪吧----
@@ -2573,9 +2602,10 @@ msFilterList
 -d js.pub.tom.com
 - tv-static.tom.com/6c6266/20101026/hd16953.flv
 #----bilibili.tv----
+-d static.hdslb.com /ad-images/*.swf
 -d bilibili.kankanews.com /html/ads-
 -d www.bilibili.tv /html/ads-
--d www.bilibili.tv /html/*.html
+-d bilibili.kankanews.com /html/*.html
 #----浦北部落----
 - *pb86.net/sb/images/
 - *pb86.net/d/
@@ -3643,6 +3673,7 @@ msFilterList
 #----盛唐军事网----
 - *junshier.com/data/js/
 #----环球网----
+- *.huanqiu.com/script/HuanQiuAllBottom.Js
 -d huanqiu.allyes.com
 - *huanqiu.com/script/content_js/
 #----原动力资讯----
@@ -3967,4 +3998,5 @@ msFilterList
 +d drmcmm.baidu.com /media/id=*&gp=403&time=*.swf
 +d cpro.baidu.com /extra/text_flash/AC_RunActiveContent.js
 +d cpro.baidu.com /cpro/ui/y.js
+-d valf.atm.youku.com /crossdomain.xml
 #-------------待分类-------------

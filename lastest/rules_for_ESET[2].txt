@@ -1,3 +1,16 @@
+www.ys168.com/images/*_*.*
+*/ys168/*
+www.ys168.com/images/*.gif
+*adimage.bokee.com*
+*price.cheshi.com.cn*
+*5ccc.net/scripts/*
+img.itbulo.com/js/pic/a*-*.gif
+bjdcdv.it.com.cn*
+dict.hudong.com/xml/*.html
+hdad.hudong.com/*
+zt.hudong.com/wid.html
+www.hneeb.cn/images/*201*.gif
+www.hneeb.cn/images/imgAd_*.gif
 www.hneeb.cn/images/FLASH*.swf
 www.hneeb.cn/images/cswszy.gif
 www.hneeb.cn/2010/*.swf
@@ -24,7 +37,9 @@ down.admin5.com/z/*
 www.92wg.com/Style_litcn/css/ad.css
 www.92wg.com/new/js/A_*.js
 *.haha.mx/Public/images/banner-*.png
+www.micboy.com/dl2.js
 *.cicih.cn/images/kuaiji.gif
+forum.techweb.com.cn/advtcnt.php?*
 am.zdnet.com.cn/www/images/*/*_*.swf
 icon.zdnet.com.cn/software_zone/pic/utd/ad_*.gif
 *.haofoot.net/gif.gif
@@ -283,16 +298,20 @@ www.20ju.com/images/*.swf
 www.20ju.com/images/*.gif
 img.360.cn/images/2008/360cn/huodong/*x*.jpg
 tf.360.cn/*
-hao.360.cn/css/monitorscript.js
 clkstat.qihoo.com/*
 click.stat.hao.360.cn/*
+hao.360.cn/css/monitorscript.js*
+s.360.cn/*
+h.qhimg.com/js/iwt-hao360.js*
+h1.qhimg.com/js/monitor-v1.1.1.min.js*
 attach.fengbao.com/album/*/*/*.gif
 js.ggyy8.cc/1/js/760*
 js.pub.tom.com/*
 tv-static.tom.com/6c6266/20101026/hd16953.flv
+static.hdslb.com/ad-images/*.swf
 bilibili.kankanews.com/html/ads-*
 www.bilibili.tv/html/ads-*
-www.bilibili.tv/html/*.html
+bilibili.kankanews.com/html/*.html
 *pb86.net/sb/images/*
 *pb86.net/d/*
 news.5068.com/z/js/Addme.js
@@ -967,6 +986,7 @@ image.wenweipo.com/*/ad_*
 *newtalk.tw/ad_*
 *mingpao.com/image/banner/adc/*.jpg
 *junshier.com/data/js/*
+*.huanqiu.com/script/HuanQiuAllBottom.Js
 huanqiu.allyes.com/*
 *huanqiu.com/script/content_js/*
 *htpc1.com/newfolder/*
@@ -1243,4 +1263,5 @@ img.kuyundong.com/images/cuxiao/lkt/lkt*/*X*_r*_c*.jpg
 *.drevil.to/*
 www.fclub.cn/affiche.php?act=img&ad_id=*
 www.54new.com/da/*
+valf.atm.youku.com/crossdomain.xml
 

@@ -505,8 +505,10 @@ js.*/code.js
 */s/x.php?u=*
 */me_productinfo.asp?id=*
 */adfshow?user=*
+*/guanggao.*
 */zhsh?user=*
 */s/shadow.js
+*-300x250.*
 */banner-header.*
 *action=redir*_splash&url=*
 */ui.js.php?siteid=*
@@ -571,6 +573,7 @@ js.*/code.js
 */www/*/sx/*/ddt-*.*
 */www/*/sx/*/qjp-*.*
 */www/*/sx/*/lzzh-*.*
+*?file=ads&*
 */openad.gif
 */frame/topright.html
 */article_ad_google.htm
@@ -899,6 +902,7 @@ u.3393.com/*
 *.ete.cn/*
 *.eteun.cn/*
 *.gamediad.com*
+s3.buysellads.com/*
 *.getiton.com/*
 *.gogocdn.com/*
 *.hot200.cn/*
@@ -1033,7 +1037,6 @@ cpm.union.52xiyou.com/*
 *.adkongjian.com*
 cpp.ggyad.com*/*
 img.shenduchuanmei.com/a/*
-*.wrating.com/*
 *inter-focus.cn/*
 *ip686.com*
 *ivru.moyu.com*
@@ -1395,6 +1398,7 @@ www.zhujima.com/tu/*u*.jpg
 www.zhujima.com/tu/*g*.png
 www.zhujima.com/tu/*vps.gif
 v.sina.com.cn/*.html
+*.sina.com.cn/litong/*
 count.kandian.com/*.html
 l.you.video.sina.com.cn*_undig&*
 l.you.video.sina.com.cn/*.xml
@@ -1465,6 +1469,7 @@ sh.sina.com.cn/iframe/391/*
 sh.sina.com.cn/iframe/408/*
 news.sina.com.cn/pfpnews/js/libweb.js
 a*.itc.cn/pv/js/pvclick.*
+xls.go.sohu.com/*
 his.tv.sohu.com/his/ping.do?*
 count.vrs.sohu.com/*.xml
 *.hd.sohu.com.cn/*.gif?*
@@ -1518,6 +1523,7 @@ sdn.kugou.com/*
 img3.cache.netease.com/*/ieupdate/update_funcs.js
 stat.ws.126.net/*
 adgeo.163.com/*
+163.wrating.com/*
 *.163.com/special/*_*.xml
 img1.126.net/*
 img2.126.net/*
@@ -1570,7 +1576,6 @@ static.atm.youku.com/*-*.swf?jsStart=*
 vid.atm.youku.com/*
 html.atm.youku.com/*
 static.atm.youku.com/*/popup.js
-valf.atm.youku.com/valf?*
 valf.atm.youku.com/show?*
 fvid.atm.youku.com/*
 walp.atm.youku.com/*
@@ -1657,6 +1662,7 @@ images.mydrivers.com/*/*x*.swf
 11.mydrivers.com/myfiles/04.js
 11.mydrivers.com/myfiles/myfiles100*.js
 *images.mydrivers.com/*/*x*.gif
+220.181.109.181/tracker?*
 afp.qiyi.com/*
 jsmsg.video.qiyi.com/*
 msg.video.qiyi.com/*
@@ -1700,6 +1706,7 @@ ufile.kuaiche.com/*
 www.PPStream.com/news/*
 notice.ppstream.com/M2006110043/*.swf
 *.pps.tv/cprtp/*
+www.danlan.org/KFC/*.gif
 iafp.pptv.com/*
 player.pplive.cn/*/PPLivePlugin.swf*
 ik.synacast.com/*
@@ -1708,6 +1715,7 @@ ik.synacast.com/*
 a.dangdang.com/*
 img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 download.cncmax.js.cn/images/temp/down-banner*.jpg
+news.newhua.com/newhuagg/news_*
 www.onlinedown.net/newhuagg/js_*
 www.newhua.com/newhuagg/js_*
 www.onlinedown.net/newhuagg/js_*
@@ -1729,6 +1737,10 @@ u.iciba.com/*
 iciba.englishtown.com/Sp/Landing/*
 web.iciba.com/ef/*
 goto.www.iciba.com/*
+www.faxingge.com/UpFile/ad/*
+www.faxingge.com/fxgjs/header-min.js
+www.faxingge.com/UpFile/hd/134*.gif
+www.faxingge.com/UpFile/hd/134*.jpg
 images.chinaz.com/index_images/A*.htm
 images.chinaz.com/index_images/wz.htm
 images.chinaz.com/index_images/index_buttom*.htm
@@ -1935,6 +1947,7 @@ corp.56.com/*
 *.cnchu.com/*/aps/*
 *7edown.com/db/*
 *7edown.com/newbd/*
+ranking.ynet.com:*/*
 ranking.ynet.com/*
 ads158.ynet.com/*
 fun.ynet.com/*
@@ -2032,7 +2045,9 @@ down.admin5.com/z/*
 www.92wg.com/Style_litcn/css/ad.css
 www.92wg.com/new/js/A_*.js
 *.haha.mx/Public/images/banner-*.png
+www.micboy.com/dl2.js
 *.cicih.cn/images/kuaiji.gif
+forum.techweb.com.cn/advtcnt.php?*
 am.zdnet.com.cn/www/images/*/*_*.swf
 icon.zdnet.com.cn/software_zone/pic/utd/ad_*.gif
 *.haofoot.net/gif.gif
@@ -2291,16 +2306,20 @@ www.20ju.com/images/*.swf
 www.20ju.com/images/*.gif
 img.360.cn/images/2008/360cn/huodong/*x*.jpg
 tf.360.cn/*
-hao.360.cn/css/monitorscript.js
 clkstat.qihoo.com/*
 click.stat.hao.360.cn/*
+hao.360.cn/css/monitorscript.js*
+s.360.cn/*
+h.qhimg.com/js/iwt-hao360.js*
+h1.qhimg.com/js/monitor-v1.1.1.min.js*
 attach.fengbao.com/album/*/*/*.gif
 js.ggyy8.cc/1/js/760*
 js.pub.tom.com/*
 tv-static.tom.com/6c6266/20101026/hd16953.flv
+static.hdslb.com/ad-images/*.swf
 bilibili.kankanews.com/html/ads-*
 www.bilibili.tv/html/ads-*
-www.bilibili.tv/html/*.html
+bilibili.kankanews.com/html/*.html
 *pb86.net/sb/images/*
 *pb86.net/d/*
 news.5068.com/z/js/Addme.js
@@ -2975,6 +2994,7 @@ image.wenweipo.com/*/ad_*
 *newtalk.tw/ad_*
 *mingpao.com/image/banner/adc/*.jpg
 *junshier.com/data/js/*
+*.huanqiu.com/script/HuanQiuAllBottom.Js
 huanqiu.allyes.com/*
 *huanqiu.com/script/content_js/*
 *htpc1.com/newfolder/*
@@ -3251,4 +3271,5 @@ img.kuyundong.com/images/cuxiao/lkt/lkt*/*X*_r*_c*.jpg
 *.drevil.to/*
 www.fclub.cn/affiche.php?act=img&ad_id=*
 www.54new.com/da/*
+valf.atm.youku.com/crossdomain.xml
 [Block Object]

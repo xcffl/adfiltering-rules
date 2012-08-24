@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: cp936 -*-
 #!/usr/bin/env python
 # coding: utf-8
 
@@ -49,7 +50,7 @@ def combineSubscriptions(sourceDir, targetDir, timeout=30):
       try:
         processSubscriptionFile(sourceDir, targetDir, file, timeout)
       except:
-        print >>sys.stderr, 'é”™è¯¯å¤„ç†è®¢é˜…æ–‡ä»¶ "%s"' % file
+        print >>sys.stderr, '´íÎó´¦Àí¶©ÔÄÎÄ¼ş "%s"' % file
         traceback.print_exc()
         print >>sys.stderr
       known['rules_for_liebao.txt'] = True
@@ -98,7 +99,7 @@ def processSubscriptionFile(sourceDir, targetDir, file, timeout):
     header = lines[0]
     del lines[0]
   if not re.search(r'\[Adblock(?:\s*Plus\s*([\d\.]+)?)?\]', header, re.I):
-    raise Exception('è¿™æ˜¯ä¸æ˜¯ä¸€ä¸ªæœ‰æ•ˆçš„Adblock Plusçš„è®¢é˜…æ–‡ä»¶ã€‚')
+    raise Exception('ÕâÊÇ²»ÊÇÒ»¸öÓĞĞ§µÄAdblock PlusµÄ¶©ÔÄÎÄ¼ş¡£')
 
   lines = resolveIncludes(filePath, lines, timeout)
   lines = filter(lambda l: l != '' and not re.search(r'!\s*checksum[\s\-:]+([\w\+\/=]+)', l, re.I), lines)
@@ -113,7 +114,7 @@ def processSubscriptionFile(sourceDir, targetDir, file, timeout):
 
 def resolveIncludes(filePath, lines, timeout, level=0):
   if level > 5:
-    raise Exception('æœ‰å¤ªå¤šçš„åµŒå¥—åŒ…å«ï¼Œè¿™å¯èƒ½æ˜¯å¾ªç¯å¼•ç”¨çš„åœ°æ–¹ã€‚')
+    raise Exception('ÓĞÌ«¶àµÄÇ¶Ì×°üº¬£¬Õâ¿ÉÄÜÊÇÑ­»·ÒıÓÃµÄµØ·½¡£')
 
 
   result = []
@@ -141,7 +142,7 @@ def resolveIncludes(filePath, lines, timeout, level=0):
         includePath = os.path.join(parentDir, file)
         relPath = os.path.relpath(includePath, parentDir)
         if len(relPath) == 0 or relPath[0] == '.':
-          raise Exception('æ— æ•ˆåŒ…æ‹¬ "%s", éœ€è¦æ˜¯ä¸€ä¸ª HTTP/HTTPS åœ°å€æˆ–ä¸€ä¸ªç›¸å¯¹æ–‡ä»¶è·¯å¾„' % file)
+          raise Exception('ÎŞĞ§°üÀ¨ "%s", ĞèÒªÊÇÒ»¸ö HTTP/HTTPS µØÖ·»òÒ»¸öÏà¶ÔÎÄ¼şÂ·¾¶' % file)
 
         handle = codecs.open(includePath, 'rb', encoding='utf-8')
         newLines = map(lambda l: re.sub(r'[\r\n]', '', l), handle.readlines())
@@ -175,31 +176,31 @@ def writeRule(filePath, lines):
   lines[6] = ''
   for line in lines:
     if re.search(r'^!', line):
-      #æŠŠå„ç§æ³¨é‡Šå†…å®¹æ›¿æ¢æ‰
+      #°Ñ¸÷ÖÖ×¢ÊÍÄÚÈİÌæ»»µô
       #line = re.sub(r'(#|!)\-+[^\-]*$','', line)
       line = re.sub(r'(.*?)\expires(.*)', '', line)
       line = re.sub('!Title:.*$', '!Title:adfiltering-rules', line)
-      #ç”±äºçŒè±¹æœ‰äº›é—®é¢˜ï¼Œæš‚æ—¶ä½¿ç”¨çŸ­åç§°
+      #ÓÉÓÚÁÔ±ªÓĞĞ©ÎÊÌâ£¬ÔİÊ±Ê¹ÓÃ¶ÌÃû³Æ
       #line = re.sub('for ABP', 'for liebao', line)
       line = re.sub(r'--!$', '--!', line)
-      line = re.sub(u'!Description:ä¸€ä¸ªé€šç”¨ã€å…¨é¢çš„å¹¿å‘Šè¿‡æ»¤è§„åˆ™', u'''!Version:1.0
-!Description:ä¸€ä¸ªé€šç”¨ã€å…¨é¢çš„å¹¿å‘Šè¿‡æ»¤è§„åˆ™/
+      line = re.sub(u'!Description:Ò»¸öÍ¨ÓÃ¡¢È«ÃæµÄ¹ã¸æ¹ıÂË¹æÔò', u'''!Version:1.0
+!Description:Ò»¸öÍ¨ÓÃ¡¢È«ÃæµÄ¹ã¸æ¹ıÂË¹æÔò/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt''', line)
       result.append(line)
     elif line.find('#') >= 0:
-      # å¦‚æœæ˜¯å…ƒç´ éšè—è§„åˆ™
-      #çŒè±¹æµè§ˆå™¨æš‚ä¸æ”¯æŒdomain~çš„æ’é™¤è§„åˆ™ï¼Œåˆ æ‰æ’é™¤
+      # Èç¹ûÊÇÔªËØÒş²Ø¹æÔò
+      #ÁÔ±ªä¯ÀÀÆ÷Ôİ²»Ö§³Ödomain~µÄÅÅ³ı¹æÔò£¬É¾µôÅÅ³ı
       line = re.sub(r',~[^,#]+(?=#)', '', line)
       line = re.sub(r'^~[^,]+,', '', line)
       line = re.sub(r'^~[^,#]+(?=#)', '', line)     
-      #æ²¡åŸŸåçš„å…¨å±€è§„åˆ™ç›´æ¥æ·»åŠ       
+      #Ã»ÓòÃûµÄÈ«¾Ö¹æÔòÖ±½ÓÌí¼Ó      
       if re.search(r'^###', line):
         result.append(line)
       elif re.search(r'^##', line):
         result.append(line)
         
             
-      #æœ‰åŸŸåçš„è°ƒè½¬åŸŸåä½ç½®
+      #ÓĞÓòÃûµÄµ÷×ªÓòÃûÎ»ÖÃ
       elif re.search(r'.+###', line):
         
         l = line.split('###')
@@ -211,7 +212,7 @@ def writeRule(filePath, lines):
         
         
           
-        #å¤šä¸ªåŸŸåçš„å°±åˆ†å‰²æ‰
+        #¶à¸öÓòÃûµÄ¾Í·Ö¸îµô
         if re.search(r'(?<=[^,]),(?=[^,])', dm):
           
           cut = dm.split(',')
@@ -244,13 +245,13 @@ def writeRule(filePath, lines):
         else:
           line = '##%s	$d=%s' %(eh,dm)
         result.append(line)
-      #ä¸¤ä¸ª#çš„è¯
+      #Á½¸ö#µÄ»°
       elif re.search(r'.+##', line):
         l = line.split('##')
         for line in l:
           dm = l[0]
           eh = l[1]
-        #å¤šä¸ªåŸŸååˆ†å‰²æ‰
+        #¶à¸öÓòÃû·Ö¸îµô
         if re.search(r'(?<=[^,]),(?=[^,])', dm):
           cut = dm.split(',')
           times = len(cut)          
@@ -258,7 +259,7 @@ def writeRule(filePath, lines):
             for dm in cut:
               dm1 = cut[0]
               dm2 = cut[1]
-            #ç”Ÿæˆå¤šè¡Œ
+            #Éú³É¶àĞĞ
             line = '''##%s	$d=%s
 ##%s	$d=%s''' %(eh,dm1,eh,dm2)
             
@@ -284,7 +285,7 @@ def writeRule(filePath, lines):
 
 
     else:
-      # æœ‰ä¸€ä¸ªé˜»æŒ¡æˆ–ä¾‹å¤–è§„åˆ™ï¼Œå°è¯•å°†å…¶è½¬æ¢
+      # ÓĞÒ»¸ö×èµ²»òÀıÍâ¹æÔò£¬³¢ÊÔ½«Æä×ª»»
       origLine = line
 
       isException = False
@@ -297,50 +298,50 @@ def writeRule(filePath, lines):
       requiresScript = False
       match = re.search(r'^(.*?)\$(.*)', line)
       if match:
-        # æ­¤è§„åˆ™æœ‰è§„åˆ™ä½œç”¨é€‰é¡¹ï¼Œæ£€æŸ¥ä»–ä»¬æ˜¯å¦æ˜¯é‡è¦çš„
+        # ´Ë¹æÔòÓĞ¹æÔò×÷ÓÃÑ¡Ïî£¬¼ì²éËûÃÇÊÇ·ñÊÇÖØÒªµÄ
         line = match.group(1)
         options = match.group(2).replace('_', '-').lower().split(',')
 
-        # ä¸€äº›é€‰é¡¹åœ¨IEæµè§ˆå™¨ä¸æ”¯æŒï¼Œä½†å¯ä»¥æ”¾å¿ƒåœ°å¿½ç•¥ï¼Œåˆ é™¤å®ƒä»¬
+        # Ò»Ğ©Ñ¡ÏîÔÚIEä¯ÀÀÆ÷²»Ö§³Ö£¬µ«¿ÉÒÔ·ÅĞÄµØºöÂÔ£¬É¾³ıËüÃÇ
         options = filter(lambda o: not o in ('', 'third-party', '~third-party', 'match-case', '~match-case', '~object-subrequest', '~other', '~donottrack'), options)
 
-        # åŒæ—¶å¿½è§†ç™½åå•çš„å¦å®šè§„åˆ™
+        # Í¬Ê±ºöÊÓ°×Ãûµ¥µÄ·ñ¶¨¹æÔò
         if isException:
           options = filter(lambda o: not o.startswith('domain=~'), options)
 
         if 'donottrack' in options:
-          # ä¸è¦è·Ÿè¸ªé€‰é¡¹çš„è§„åˆ™åº”å§‹ç»ˆè¢«åˆ é™¤
+          # ²»Òª¸ú×ÙÑ¡ÏîµÄ¹æÔòÓ¦Ê¼ÖÕ±»É¾³ı
           hasUnsupportedOptions = True
           
         unsupportedOptions = 0
         
         if 'object-subrequest' in options:
-          # è¯¥è§„åˆ™é€‚ç”¨äºå¯¹è±¡çš„å­è¯·æ±‚ï¼Œæ— æ³•è¿‡æ»¤
+          # ¸Ã¹æÔòÊÊÓÃÓÚ¶ÔÏóµÄ×ÓÇëÇó£¬ÎŞ·¨¹ıÂË
           unsupportedOptions += 1
 
         if 'elemhide' in options:
-          # å…ƒç´ éšè—æ’é™¤è§„åˆ™ä¸æ”¯æŒ
+          # ÔªËØÒş²ØÅÅ³ı¹æÔò²»Ö§³Ö
           unsupportedOptions += 1
           
         if unsupportedOptions >= len(options):
-          # è¯¥è§„åˆ™åªé€‚ç”¨äºä¸æ”¯æŒçš„é€‰é¡¹
+          # ¸Ã¹æÔòÖ»ÊÊÓÃÓÚ²»Ö§³ÖµÄÑ¡Ïî
           hasUnsupportedOptions = True
         else:
-          # è§„åˆ™æœ‰å…¶ä»–éœ€è¦è¿›è¡Œè¯„ä¼°çš„é‡è¦é€‰é¡¹
+          # ¹æÔòÓĞÆäËûĞèÒª½øĞĞÆÀ¹ÀµÄÖØÒªÑ¡Ïî
           if 'script' in options and (len(options) - unsupportedOptions) == 1:
-            # è¿‡æ»¤ç±»å‹é€‰é¡¹åªé€‚ç”¨äºè¿‘ä¼¼è½¬æ¢è„šæœ¬
+            # ¹ıÂËÀàĞÍÑ¡ÏîÖ»ÊÊÓÃÓÚ½üËÆ×ª»»½Å±¾
             requiresScript = True
           else:
-            # ä¸æ”¯æŒè¯¥è§„åˆ™çš„è¿›ä¸€æ­¥é€‰é¡¹
-            # é™¤éæ˜¯ç‰¹å®šäºåŸŸçš„ä¸€ä¸ªä¾‹å¤–è§„åˆ™ï¼Œæ‰€æœ‰å‰©ä½™çš„é€‰é¡¹å°†è¢«å¿½ç•¥ï¼Œä»¥é¿å…æ½œåœ¨çš„è¯¯æŠ¥ã€‚
+            # ²»Ö§³Ö¸Ã¹æÔòµÄ½øÒ»²½Ñ¡Ïî
+            # ³ı·ÇÊÇÌØ¶¨ÓÚÓòµÄÒ»¸öÀıÍâ¹æÔò£¬ËùÓĞÊ£ÓàµÄÑ¡Ïî½«±»ºöÂÔ£¬ÒÔ±ÜÃâÇ±ÔÚµÄÎó±¨¡£
            if isException:
               hasUnsupportedOptions = any([o.startswith('domain=') for o in options])
            else:
               hasUnsupportedOptions = True
 
       if hasUnsupportedOptions:        
-        # åŒ…æ‹¬ä¸æ”¯æŒçš„é€‰é¡¹çš„è¿‡æ»¤å™¨ï¼ˆå³åŒ…å«domainçš„è¿‡æ»¤è§„åˆ™)
-        #çŒè±¹æµè§ˆå™¨æš‚ä¸æ”¯æŒdomain~çš„æ’é™¤è§„åˆ™ï¼Œåˆ æ‰æ’é™¤
+        # °üÀ¨²»Ö§³ÖµÄÑ¡ÏîµÄ¹ıÂËÆ÷£¨¼´°üº¬domainµÄ¹ıÂË¹æÔò)
+        #ÁÔ±ªä¯ÀÀÆ÷Ôİ²»Ö§³Ödomain~µÄÅÅ³ı¹æÔò£¬É¾µôÅÅ³ı
         origLine = re.sub(r'\|~[^|]+(?=\|)', '', origLine)
         origLine = re.sub(r'\|~[^|]+$', '', origLine)
         origLine = re.sub(r'\$domain=~[^|]+$', '', origLine)
@@ -353,7 +354,7 @@ def writeRule(filePath, lines):
         origLine = re.sub(r'\*$', '', origLine)
         origLine = re.sub(r'\*\*', '*', origLine)
         origLine = re.sub(r'\*$', '', origLine)
-        #ä¿è¯domainåœ°å€ä¸æ­£åˆ™
+        #±£Ö¤domainµØÖ·²»ÕıÔò
         if re.search(r'\.', origLine):
           if re.search('\$', origLine):
             origLine = re.sub(r'\.(?=.*\S\$)', '\.', origLine)
@@ -378,31 +379,31 @@ def writeRule(filePath, lines):
         
         
         
-        #å¤„ç†å„ç§è§„åˆ™é€‰é¡¹
+        #´¦Àí¸÷ÖÖ¹æÔòÑ¡Ïî
         origLine = re.sub('object_subrequest','object', origLine)
         origLine = re.sub('subdocument','document', origLine)
         if origLine.find('[\$\,]elemhide'):
           pass
         
-        #æŠŠdomainåçš„/æ”¾åˆ°åŸŸåå
+        #°ÑdomainºóµÄ/·Åµ½ÓòÃûºó
         #if re.search(r'\$.*\=|\d', origLine):
           #origLine = re.sub(r'\/$', '', origLine)
           #if re.search(r'  \$',origLine):
             #origLine = re.sub(r'  \$', '/	$', origLine)
           #else:
             #origLine = re.sub(r'\$', '/	$', origLine)
-        #æ·»åŠ ç™½åå•åç¼€æ ‡è¯†
+        #Ìí¼Ó°×Ãûµ¥ºó×º±êÊ¶
         origLine = origLine + '$w'
-        #å¦‚æœdomainå’Œwhitelistæ”¾åœ¨ä¸€èµ·ï¼Œå°±ç”¨,éš”å¼€
-        #å¦‚æœè¿™ä¸€è¡Œæœ‰ä¸‰ä¸ªé€‰é¡¹$çš„è¯
+        #Èç¹ûdomainºÍwhitelist·ÅÔÚÒ»Æğ£¬¾ÍÓÃ,¸ô¿ª
+        #Èç¹ûÕâÒ»ĞĞÓĞÈı¸öÑ¡Ïî$µÄ»°
         
-          #æ¥ç€æ˜¯ç¬¬äºŒä¸‰ä¸ª
+          #½Ó×ÅÊÇµÚ¶şÈı¸ö
           #origLine = re.sub(r'(?<=\,)\$
-        #å¢åŠ æ­£åˆ™æ ‡è¯†
+        #Ôö¼ÓÕıÔò±êÊ¶
         origLine = '/' + origLine + '/'
-        #æŠŠç»“å°¾ç®¡çŠ¶ç¬¦æ¢æˆ$
+        #°Ñ½áÎ²¹Ü×´·û»»³É$
         origLine = re.sub('\|\/', '$/', origLine)
-        #æŠŠé”™è¯¯æ”¾åœ¨æœ€åçš„/æ”¾åˆ°åŸŸåå        
+        #°Ñ´íÎó·ÅÔÚ×îºóµÄ/·Åµ½ÓòÃûºó        
         if re.search(r'\$w\/$', origLine):
           origLine = re.sub(r'\/$','', origLine)
           if re.search(r'\$.*(?=\$)', origLine):
@@ -412,16 +413,16 @@ def writeRule(filePath, lines):
           origLine = re.sub(r'	\$','/	$', origLine)
           origLine = re.sub(r'\/	\$w','	$w', origLine)
         if re.search(r'\$(?=.+\$.+\$)', origLine):
-          #æŠŠå‰é¢æ˜¯åœ°å€çš„ç¬¬ä¸€ä¸ª$ç»™æ›¿æ¢æˆ $äº†
+          #°ÑÇ°ÃæÊÇµØÖ·µÄµÚÒ»¸ö$¸øÌæ»»³É $ÁË
           origLine = re.sub(r'\$(?=.+\$.+\$)','/	$', origLine)
         elif re.search(r'\$(?=.+\$)', origLine):
           origLine = re.sub(r'\$(?=.+\$)','/	$', origLine)
-        #æŠŠ$tåŠ ä¸Šå»
+        #°Ñ$t¼ÓÉÏÈ¥
         origLine = re.sub(r'\$(?![(d\=)|(t\=)|(\$w)])','$t=', origLine)
           
           
           
-          #æŠŠå‰é¢æ˜¯åœ°å€$çš„ç»™æ›¿æ¢æˆ $äº†
+          #°ÑÇ°ÃæÊÇµØÖ·$µÄ¸øÌæ»»³É $ÁË
           #origLine = re.sub(r'(?<=\/)\$','  $', origLine)
           #
           #origLine = re.sub(r'\$',',$', origLine)
@@ -430,17 +431,18 @@ def writeRule(filePath, lines):
         
         result.append(origLine)
       else:
-        line = line.replace('^', '/*') # å‡å®šåˆ†éš”ç¬¦çš„å ä½ç¬¦çš„æ„æ€æ˜¯æ–œçº¿
+        line = line.replace('^', '/*') # ¼Ù¶¨·Ö¸ô·ûµÄÕ¼Î»·ûµÄÒâË¼ÊÇĞ±Ïß
 
-        # å°è¯•æå–åŸŸåä¿¡æ¯
+        # ³¢ÊÔÌáÈ¡ÓòÃûĞÅÏ¢
         domain = None
         match = re.search(r'^(\|\||\|w+://)([^*:/]+)(:\d+)?(/.*)', line)
         if match:
           domain = match.group(2)
           line = match.group(4)
         else:
-          # ä¿®æ”¹å„ç§æ ‡è®°
-          #çŒè±¹æµè§ˆå™¨æš‚ä¸æ”¯æŒdomain~çš„æ’é™¤è§„åˆ™ï¼Œåˆ æ‰æ’é™¤
+          
+          # ĞŞ¸Ä¸÷ÖÖ±ê¼Ç
+          #ÁÔ±ªä¯ÀÀÆ÷Ôİ²»Ö§³Ödomain~µÄÅÅ³ı¹æÔò£¬É¾µôÅÅ³ı
           line = re.sub(r'\|~[^|]+(?=\|)', '', line)
           line = re.sub(r'\|~[^|]+$', '', line)
           line = re.sub(r'\$domain=~[^|]+$', '', line)
@@ -451,12 +453,15 @@ def writeRule(filePath, lines):
           line = re.sub(r'\*$', '', line)
           line = re.sub(r'\*\*', '*', line)
           line = re.sub(r'\*$', '', line)
-          #ä¿è¯domainåœ°å€ä¸æ­£åˆ™
+          #±£Ö¤domainµØÖ·²»ÕıÔò
           if re.search(r'\.', line):
             if re.search('\$', line):
               line = re.sub(r'\.(?=.*\S\$)', '\.', line)
             else:
               line = re.sub(r'\.','\.', line)
+
+         
+          
           line = re.sub(r'\*', '.*', line)          
           line = re.sub(r'\\\.\\\.', '\.', line)
           line = re.sub(r'\?', '\?', line)          
@@ -475,7 +480,7 @@ def writeRule(filePath, lines):
             line = re.sub(r'  \$','/  $', line)
             line = re.sub(r'\/	\$w','	$w', line)
           if re.search(r'\$(?=.+\$.+\$)', line):
-            #æŠŠå‰é¢æ˜¯åœ°å€çš„ç¬¬ä¸€ä¸ª$ç»™æ›¿æ¢æˆ $äº†
+            #°ÑÇ°ÃæÊÇµØÖ·µÄµÚÒ»¸ö$¸øÌæ»»³É $ÁË
             line = re.sub(r'\$(?=.+\$.+\$)','/	$', line)
           elif re.search(r'\$(?=.+\$)', origLine):
             line = re.sub(r'\$(?=.+\$)','/	$', line)
@@ -487,37 +492,36 @@ def writeRule(filePath, lines):
           domain = match.group(2)
           line = match.group(4)
         else:
-          # ä¿®æ”¹å„ç§æ ‡è®°
+          # ĞŞ¸Ä¸÷ÖÖ±ê¼Ç
           line = re.sub(r'@@.*', r'.*	$w', line)'''
-      # åˆ é™¤è§„åˆ™å°¾çš„æ ‡è®°
+      # É¾³ı¹æÔòÎ²µÄ±ê¼Ç
         line = re.sub(r'\|$', '$', line)
-        # åˆ é™¤ä¸å¿…è¦çš„ä¸¤ç«¯çš„ç®¡çŠ¶ç¬¦
-        # æ·»åŠ  *.js åˆ°è§„åˆ™ä»¥æ•ˆä»¿ $script
+        # É¾³ı²»±ØÒªµÄÁ½¶ËµÄ¹Ü×´·û
+        # Ìí¼Ó *.js µ½¹æÔòÒÔĞ§·Â $script
         if requiresScript:
+          
           line += ' $t=script'
-		#çŒè±¹ç‰ˆä¸ç”¨åˆ é™¤http://
-        #if line.startswith('http://'): #è¦åˆ é™¤çš„è§„åˆ™ä¸­çš„å­—ç¬¦ä¸²
-          #line = line[7:] #å‰é¢ä¸€ä¸ªæ•°å­—æ˜¯ä¸Šä¸€è¡Œå­—ç¬¦ä¸²çš„å­—ç¬¦æ•°
+		#ÁÔ±ª°æ²»ÓÃÉ¾³ıhttp://
+        #if line.startswith('http://'): #ÒªÉ¾³ıµÄ¹æÔòÖĞµÄ×Ö·û´®
+          #line = line[7:] #Ç°ÃæÒ»¸öÊı×ÖÊÇÉÏÒ»ĞĞ×Ö·û´®µÄ×Ö·ûÊı
         if domain:
-          #çŒè±¹æµè§ˆå™¨æš‚ä¸æ”¯æŒdomain~çš„æ’é™¤è§„åˆ™ï¼Œåˆ æ‰æ’é™¤
+          #ÁÔ±ªä¯ÀÀÆ÷Ôİ²»Ö§³Ödomain~µÄÅÅ³ı¹æÔò£¬É¾µôÅÅ³ı
           line = re.sub(r'\|~[^|]+(?=\|)', '', line)
           line = re.sub(r'\|~[^|]+$', '', line)
           line = re.sub(r'\$domain=~[^|]+$', '', line)
           
-          line = re.sub(r'\s+/$', '', line) #å»æ‰||è¡Œç¬¦å·
+          line = re.sub(r'\s+/$', '', line) #È¥µô||ĞĞ·ûºÅ
           line = re.sub(r'\/', '\/', line)
           line = re.sub(r'\/\*\/$','\//', line)
           line = re.sub(r'\*\|$', '$', line)
           line = re.sub(r'\*$', '', line)
           line = re.sub(r'\*\*', '*', line)
           line = re.sub(r'\*$', '', line)
-          #ä¿è¯domainåœ°å€ä¸æ­£åˆ™
-          if re.search(r'\.', line):
-            if re.search('\$', line):
-              line = re.sub(r'\.(?=.*\S\$)', '\.', line)
-            else:
-              line = re.sub(r'\.','\.', line)
+          #±£Ö¤domainµØÖ·²»ÕıÔò
+          
               
+          
+          
           line = re.sub(r'\*', '.*', line)          
           line = re.sub(r'\\\.\\\.', '\.', line)
           line = re.sub(r'\?', '\?', line)          
@@ -532,18 +536,26 @@ def writeRule(filePath, lines):
             line = re.sub(r'	\$','/	$', line)
             line = re.sub(r'\/	\$w','	$w', line)
           if re.search(r'\$(?=.+\$.+\$)', line):
-            #æŠŠå‰é¢æ˜¯åœ°å€çš„ç¬¬ä¸€ä¸ª$ç»™æ›¿æ¢æˆ $äº†
+            #°ÑÇ°ÃæÊÇµØÖ·µÄµÚÒ»¸ö$¸øÌæ»»³É $ÁË
             line = re.sub(r'\$(?=.+\$.+\$)','/	$', line)
           elif re.search(r'\$(?=.+\$)', origLine):
             line = re.sub(r'\$(?=.+\$)','/	$', line)
 
 
           line = re.sub(r'\$(?![(d\=)|(t\=)|(\$w)])','$t=', line)
+          #±£Ö¤domainµØÖ·²»ÕıÔò
+          print line
+          if re.search(r'\.', line):
+            if re.search('\$', line):
+              line = re.sub(r'\.(?=.*\S\$)', '\.', line)
+            else:
+              line = re.sub(r'\.','\.', line)
           
           result.append(line)
         elif isException:
-          # æ²¡æœ‰åŸŸçš„ä¾‹å¤–è§„åˆ™
-          #çŒè±¹æµè§ˆå™¨æš‚ä¸æ”¯æŒdomain~çš„æ’é™¤è§„åˆ™ï¼Œåˆ æ‰æ’é™¤
+          # Ã»ÓĞÓòµÄÀıÍâ¹æÔò
+          #ÁÔ±ªä¯ÀÀÆ÷Ôİ²»Ö§³Ödomain~µÄÅÅ³ı¹æÔò£¬É¾µôÅÅ³ı
+          
           origLine = re.sub(r'\|~[^|]+(?=\|)', '', origLine)
           origLine = re.sub(r'\|~[^|]+$', '', origLine)
           origLine = re.sub(r'\$domain=~[^|]+$', '', origLine)
@@ -557,7 +569,7 @@ def writeRule(filePath, lines):
           origLine = re.sub(r'\*$', '', origLine)
           origLine = re.sub(r'\*\*', '*', origLine)
           origLine = re.sub(r'\*$', '', origLine)
-          #ä¿è¯domainåœ°å€ä¸æ­£åˆ™
+          #±£Ö¤domainµØÖ·²»ÕıÔò
           if re.search(r'\.', origLine):
             if re.search('\$', origLine):
               origLine = re.sub(r'\.(?=.*\S\$)', '\.', origLine)
@@ -571,11 +583,11 @@ def writeRule(filePath, lines):
           origLine = re.sub(r'\,d\=', ',$d=', origLine)
           #origLine = re.sub(r'', '$d=', origLine)
           #origLine = re.sub(r'\$d\=', '  $d=', origLine)
-          #æ­£åˆ™æ ‡è¯†
+          #ÕıÔò±êÊ¶
           origLine = '/' + origLine + '/' '	$w'
-          #æŠŠç»“å°¾ç®¡çŠ¶ç¬¦æ¢æˆ$
+          #°Ñ½áÎ²¹Ü×´·û»»³É$
           origLine = re.sub('\|\/', '$/', origLine)
-          #æŠŠé”™è¯¯æ”¾åœ¨æœ€åçš„/æ”¾åˆ°åŸŸåå        
+          #°Ñ´íÎó·ÅÔÚ×îºóµÄ/·Åµ½ÓòÃûºó        
           if re.search(r'\$w\/$', origLine):
             #origLine = re.sub(r'\/$','', origLine)
             if re.search(r'\$.*(?=\$)', origLine):
@@ -590,17 +602,18 @@ def writeRule(filePath, lines):
             origLine = re.sub(r'  \$','/  $', origLine)
             origLine = re.sub(r'\/	\$w','  $w', origLine)
           if re.search(r'\$(?=.+\$.+\$)', origLine):
-            #æŠŠå‰é¢æ˜¯åœ°å€çš„ç¬¬ä¸€ä¸ª$ç»™æ›¿æ¢æˆ $äº†
+            #°ÑÇ°ÃæÊÇµØÖ·µÄµÚÒ»¸ö$¸øÌæ»»³É $ÁË
            origLine = re.sub(r'\$(?=.+\$.+\$)','/  $', origLine)
           elif re.search(r'\$(?=.+\$)', origLine):
             origLine = re.sub(r'\$(?=.+\$)','/  $', origLine)
-          #çŒè±¹æš‚æ—¶ä¸æ”¯æŒdomain=~çš„è§„åˆ™ï¼Œå»æ‰ã€‚  
+          #ÁÔ±ªÔİÊ±²»Ö§³Ödomain=~µÄ¹æÔò£¬È¥µô¡£  
           if re.search(r'((	|,)\$d=~[^,]+$)|((?<=(	|,)\$d=)~[^,]*,)|((?<=,)~[^,]*,)|((?<=,)~[^,]*$)',origLine):
             origLine = re.sub(r'((	|,)\$d=~[^,]+$)|((?<=(	|,)\$d=)~[^,]*,)|((?<=,)~[^,]*,)|((?<=,)~[^,]*$)', '', origLine)
           result.append(origLine)
     
         else:
-          #å¤„ç†åˆ°è¿™é‡ŒåŸºæœ¬å°±æ˜¯ç©ºç™½è¡Œçš„å¤„ç½®äº†
+          #´¦Àíµ½ÕâÀï»ù±¾¾ÍÊÇ¿Õ°×ĞĞµÄ´¦ÖÃÁË
+          
           line = re.sub(r'^\/\/$','', '/' + line + '/')
 
 
@@ -649,16 +662,16 @@ if __name__ == '__main__':
 
   combineSubscriptions(sourceDir, targetDir, timeout)
 
-  #ç¬”è®°ï¼š(#|!)\-+[^\-]*\n    åŒ¹é…æ— æ•ˆåˆ†ç±»
-  #     (#|!)\-+ã€å¹¿å‘Šå¼ºæ•ˆè¿‡æ»¤è§„åˆ™.* åŒ¹é…ç¬¬ä¸€è¡Œè§„åˆ™æ ‡é¢˜
-#æŠŠä¸´æ—¶ç”Ÿæˆçš„æ–‡ä»¶ç§»åŠ¨å›æ ¹ç›®å½•
+  #±Ê¼Ç£º(#|!)\-+[^\-]*\n    Æ¥ÅäÎŞĞ§·ÖÀà
+  #     (#|!)\-+¡¾¹ã¸æÇ¿Ğ§¹ıÂË¹æÔò.* Æ¥ÅäµÚÒ»ĞĞ¹æÔò±êÌâ
+#°ÑÁÙÊ±Éú³ÉµÄÎÄ¼şÒÆ¶¯»Ø¸ùÄ¿Â¼
 '''import shutil
 import os
 if os.path.isfile('.' + 'rules_for_liebao.txt'):
   os.system('rm -fr rules_for_liebao.txt')
 else:
   shutil.copy('./Temp/rules_for_liebao.txt', '.')'''
-#æŠŠä¸´æ—¶ç”Ÿæˆçš„æ–‡ä»¶ç§»åŠ¨å›æ ¹ç›®å½•ï¼ŒåŒæ—¶å»é™¤æ‰€æœ‰çš„ç©ºç™½è¡Œ
+#°ÑÁÙÊ±Éú³ÉµÄÎÄ¼şÒÆ¶¯»Ø¸ùÄ¿Â¼£¬Í¬Ê±È¥³ıËùÓĞµÄ¿Õ°×ĞĞ
 # coding=utf-8
 file1 = open("./Temp/rules_for_liebao.txt","r")
 file2 = open("rules_for_liebao.txt","w")
@@ -672,7 +685,7 @@ file1.close()
 file2.close()
 
 
-#åˆ é™¤ä¸´æ—¶æ–‡ä»¶å¤¹
+#É¾³ıÁÙÊ±ÎÄ¼ş¼Ğ
 import os, stat;  
 root_dir = r'.';  
 def walk(path):  

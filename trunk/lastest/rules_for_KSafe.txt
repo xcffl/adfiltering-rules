@@ -3264,3 +3264,4 @@
 5,4,www.fclub.cn/affiche.php?act=img&ad_id=*
 5,4,www.54new.com/da/*
 5,4,valf.atm.youku.com/crossdomain.xml
+5,4,221.7.244.119/*

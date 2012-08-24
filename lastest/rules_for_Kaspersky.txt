@@ -1028,6 +1028,7 @@ cpm.union.52xiyou.com/*
 *.game3737.com/*
 *.adkongjian.com*
 cpp.ggyad.com*/*
+www.linekong.com/*
 img.shenduchuanmei.com/a/*
 *inter-focus.cn/*
 *ip686.com*
@@ -1330,7 +1331,6 @@ mat1.gtimg.com/ent/flash/*
 adslvfile.qq.com/*
 mat1.gtimg.com/*_ad_*.swf
 l.qq.com/lview?*
-pingjs.qq.com/ping.js
 rh.qq.com/*
 pingfore.qq.com/*
 trace.qq.com/*
@@ -3141,7 +3141,6 @@ mmscode.3bu.com*
 mmscode1.3bu.com*
 mmscode2.3bu.com*
 mmscode3.3bu.com*
-*kunlun.com*
 img.3bu.cn/js/*.js
 js.users.51.la/2256258.js
 *zzshouji.info/*
@@ -3173,6 +3172,7 @@ register.haohaowan.com/adu/cpm?channelId=*
 *61.172.192.73/*
 *221.174.50.131/*
 222.73.227.67/*/dzx/forum/*.jpg
+221.7.244.119/*
 *.100190.com/*
 *.114.my/*
 *.2yt.net*
@@ -3263,4 +3263,3 @@ img.kuyundong.com/images/cuxiao/lkt/lkt*/*X*_r*_c*.jpg
 *.drevil.to/*
 www.fclub.cn/affiche.php?act=img&ad_id=*
 www.54new.com/da/*
-valf.atm.youku.com/crossdomain.xml

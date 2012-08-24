@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-23 12:57:48
+#Updated:2012-08-24 20:42:26
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1042,6 +1042,7 @@ msFilterList
 - *.game3737.com/
 - *.adkongjian.com
 - http://cpp.ggyad.com*/
+-d www.linekong.com
 -d img.shenduchuanmei.com /a/
 #|*.wrating.com/*
 - *inter-focus.cn/
@@ -1356,7 +1357,6 @@ msFilterList
 -d adslvfile.qq.com
 -d mat1.gtimg.com _ad_*.swf
 -d l.qq.com /lview?
--d pingjs.qq.com /ping.js
 -d rh.qq.com
 -d pingfore.qq.com
 -d trace.qq.com
@@ -1607,6 +1607,7 @@ msFilterList
 -d vid.atm.youku.com
 -d html.atm.youku.com
 -d static.atm.youku.com /popup.js
+#||valf.atm.youku.com/crossdomain.xml
 #||valf.atm.youku.com/valf?*
 -d valf.atm.youku.com /show?
 -d fvid.atm.youku.com
@@ -3864,7 +3865,6 @@ msFilterList
 - http://mmscode1.3bu.com
 - http://mmscode2.3bu.com
 - http://mmscode3.3bu.com
-- http://*kunlun.com
 -d img.3bu.cn /js/*.js
 -d js.users.51.la /2256258.js
 - *zzshouji.info/
@@ -3897,6 +3897,8 @@ msFilterList
 - *61.172.192.73/
 - *221.174.50.131/
 -d 222.73.227.67 /dzx/forum/*.jpg
+#----DNS劫持----
+-d 221.7.244.119
 #-------------未知-------------
 - *.100190.com/
 - *.114.my/
@@ -3998,5 +4000,4 @@ msFilterList
 +d drmcmm.baidu.com /media/id=*&gp=403&time=*.swf
 +d cpro.baidu.com /extra/text_flash/AC_RunActiveContent.js
 +d cpro.baidu.com /cpro/ui/y.js
--d valf.atm.youku.com /crossdomain.xml
 #-------------待分类-------------

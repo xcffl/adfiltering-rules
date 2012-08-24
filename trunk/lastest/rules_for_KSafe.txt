@@ -1028,6 +1028,7 @@
 5,4,*.game3737.com/*
 5,4,*.adkongjian.com*
 5,4,cpp.ggyad.com*/*
+5,4,www.linekong.com/*
 5,4,img.shenduchuanmei.com/a/*
 5,4,*inter-focus.cn/*
 5,4,*ip686.com*
@@ -1330,7 +1331,6 @@
 5,4,adslvfile.qq.com/*
 5,4,mat1.gtimg.com/*_ad_*.swf
 5,4,l.qq.com/lview?*
-5,4,pingjs.qq.com/ping.js
 5,4,rh.qq.com/*
 5,4,pingfore.qq.com/*
 5,4,trace.qq.com/*
@@ -3141,7 +3141,6 @@
 5,4,mmscode1.3bu.com*
 5,4,mmscode2.3bu.com*
 5,4,mmscode3.3bu.com*
-5,4,*kunlun.com*
 5,4,img.3bu.cn/js/*.js
 5,4,js.users.51.la/2256258.js
 5,4,*zzshouji.info/*
@@ -3173,6 +3172,7 @@
 5,4,*61.172.192.73/*
 5,4,*221.174.50.131/*
 5,4,222.73.227.67/*/dzx/forum/*.jpg
+5,4,221.7.244.119/*
 5,4,*.100190.com/*
 5,4,*.114.my/*
 5,4,*.2yt.net*
@@ -3263,5 +3263,3 @@
 5,4,*.drevil.to/*
 5,4,www.fclub.cn/affiche.php?act=img&ad_id=*
 5,4,www.54new.com/da/*
-5,4,valf.atm.youku.com/crossdomain.xml
-5,4,221.7.244.119/*

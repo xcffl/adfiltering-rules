@@ -1028,6 +1028,7 @@ cpm.union.52xiyou.com/*
 *.game3737.com/*
 *.adkongjian.com*
 cpp.ggyad.com*/*
+www.linekong.com/*
 img.shenduchuanmei.com/a/*
 *inter-focus.cn/*
 *ip686.com*
@@ -1330,7 +1331,6 @@ mat1.gtimg.com/ent/flash/*
 adslvfile.qq.com/*
 mat1.gtimg.com/*_ad_*.swf
 l.qq.com/lview?*
-pingjs.qq.com/ping.js
 rh.qq.com/*
 pingfore.qq.com/*
 trace.qq.com/*

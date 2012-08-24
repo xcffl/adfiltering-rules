@@ -28,6 +28,8 @@ afrfile.close()
 
 #===猎豹版===
 #!/usr/bin/env python
+# -*- coding: cp936 -*-
+#!/usr/bin/env python
 # coding: utf-8
 
 # The contents of this file are subject to the Mozilla Public License
@@ -467,6 +469,7 @@ def writeRule(filePath, lines):
           domain = match.group(2)
           line = match.group(4)
         else:
+          
           # 修改各种标记
           #猎豹浏览器暂不支持domain~的排除规则，删掉排除
           line = re.sub(r'\|~[^|]+(?=\|)', '', line)
@@ -485,6 +488,9 @@ def writeRule(filePath, lines):
               line = re.sub(r'\.(?=.*\S\$)', '\.', line)
             else:
               line = re.sub(r'\.','\.', line)
+
+         
+          
           line = re.sub(r'\*', '.*', line)          
           line = re.sub(r'\\\.\\\.', '\.', line)
           line = re.sub(r'\?', '\?', line)          
@@ -522,6 +528,7 @@ def writeRule(filePath, lines):
         # 删除不必要的两端的管状符
         # 添加 *.js 到规则以效仿 $script
         if requiresScript:
+          
           line += ' $t=script'
 		#猎豹版不用删除http://
         #if line.startswith('http://'): #要删除的规则中的字符串
@@ -540,12 +547,10 @@ def writeRule(filePath, lines):
           line = re.sub(r'\*\*', '*', line)
           line = re.sub(r'\*$', '', line)
           #保证domain地址不正则
-          if re.search(r'\.', line):
-            if re.search('\$', line):
-              line = re.sub(r'\.(?=.*\S\$)', '\.', line)
-            else:
-              line = re.sub(r'\.','\.', line)
+          
               
+          
+          
           line = re.sub(r'\*', '.*', line)          
           line = re.sub(r'\\\.\\\.', '\.', line)
           line = re.sub(r'\?', '\?', line)          
@@ -567,11 +572,19 @@ def writeRule(filePath, lines):
 
 
           line = re.sub(r'\$(?![(d\=)|(t\=)|(\$w)])','$t=', line)
+          #保证domain地址不正则
+          print line
+          if re.search(r'\.', line):
+            if re.search('\$', line):
+              line = re.sub(r'\.(?=.*\S\$)', '\.', line)
+            else:
+              line = re.sub(r'\.','\.', line)
           
           result.append(line)
         elif isException:
           # 没有域的例外规则
           #猎豹浏览器暂不支持domain~的排除规则，删掉排除
+          
           origLine = re.sub(r'\|~[^|]+(?=\|)', '', origLine)
           origLine = re.sub(r'\|~[^|]+$', '', origLine)
           origLine = re.sub(r'\$domain=~[^|]+$', '', origLine)
@@ -629,6 +642,7 @@ def writeRule(filePath, lines):
     
         else:
           #处理到这里基本就是空白行的处置了
+          
           line = re.sub(r'^\/\/$','', '/' + line + '/')
 
 

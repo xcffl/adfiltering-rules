@@ -572,8 +572,7 @@ def writeRule(filePath, lines):
 
 
           line = re.sub(r'\$(?![(d\=)|(t\=)|(\$w)])','$t=', line)
-          #保证domain地址不正则
-          print line
+          #保证domain地址不正则          
           if re.search(r'\.', line):
             if re.search('\$', line):
               line = re.sub(r'\.(?=.*\S\$)', '\.', line)

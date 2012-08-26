@@ -1,3 +1,6 @@
+*.zhulang.com/game/*
+css.zhulang.net/js/header.js
+zy.ys168.com/adtp/*
 www.ys168.com/images/*_*.*
 */ys168/*
 www.ys168.com/images/*.gif
@@ -473,7 +476,8 @@ www.veryhuo.com/images/gaogao/*x*_*.gif
 *linuxidc.com/linuxren/linuxren*.js
 *liudu9.com/js/read_link*
 www.haoting.com/adad/*
-*imanhua.com/v2/money/*
+*.imanhua.com/*/nmoneys/*
+*.imanhua.com/*/money/*
 static.valu.cn/*x*_*.swf
 www.myrice.com/d/js/*
 www.pashu.org/js/xiaza*.js
@@ -927,6 +931,7 @@ www.weste.net/js/showpagead.js
 *weste.net/js_v2009/ggao*
 *weiphone.com/baidu.html?id=*
 club.tgfcer.com/images/g*
+www.qjwm.com/images/qjwm.gif
 u.qjwm.com/*
 bbs.t56.net/ad*/*
 *so100.cn/images/a*.js
@@ -1033,6 +1038,7 @@ partner.googleadservices.com*
 *.google-analytics.com/*
 www.google.cn/aclk?*
 a.baidu.com/*
+*.baidu.com/ecom*&*_*
 top.baidu.com/js/nsclick.js
 c.baidu.com/*
 sclick.baidu.com/*

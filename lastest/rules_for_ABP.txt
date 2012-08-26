@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-08-24 20:42:26
+!Updated:2012-08-26 19:08:18
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.3
 !Copyright 2011 xcffl, Apache License 2.0
@@ -11,6 +11,7 @@
 ##.wide_ads
 ##.a_h
 ###ad-bottom
+###ad_right_box
 ~blogg.se,~gismeteo.by,~gismeteo.com,~gismeteo.lt,~gismeteo.md,~gismeteo.ru,~gismeteo.ua###ad-top
 ##.adBanner
 ~cvvp.nva.gov.lv##.adbanner
@@ -876,6 +877,7 @@
 ||js.shenduchuanmei.com:81/*
 ||show.k184.com:8080*
 ||code.yy32.com/*
+||jscode.xp3366.com/*
 ||ads.doublemax.net/*
 ||js.7794lm.com/*
 ||s.334700.com/*
@@ -1627,6 +1629,9 @@ sohu.com##.adB
 ||ring.kugou.com/*
 ||links.kugou.com/*
 ||sdn.kugou.com/*
+!----97779资源网----
+97779.com##IMG[height="24"][border="0"]
+||www.xinray.com/page/?s=*
 !----网易&有道----
 www.163.com###g5n1
 163.com##[class^="gg"]
@@ -1816,6 +1821,8 @@ i.qianshou.com##DIV[style="width:728px; height:90px; float:left; padding-top:4px
 |*zymk.cn/Public/upload/img/2010-08-11/20100811132427.jpg
 |*zymk.cn/Public/upload/img/2010-06-30/20100630164523.gif
 |*zymk.cn/Public/upload/img/2010-10-28/20101028144557.jpg
+!----CC图库----
+||www.tuku.cc/js/cg.htm
 !----射手网&射手影音----
 |*.splayer.org/img/*_*_*.jpg
 |*.splayer.org/img/yokou*.jpg
@@ -2357,6 +2364,9 @@ html5test.com##.ads
 !----MXC----
 itmxc.com##IMG[width="962"]
 ||www.itmxc.com/mxc-news/*x*.*
+!----新动漫网----
+xindm.cn##TD[valign="middle"][bgcolor="#FFFFFF"][align="center"]
+xindm.cn##TD[bgcolor="#cdcdcd"]
 !----专门网----
 ||forum.51nb.com/images/*-*.gif
 ||forum.51nb.com/images/post*.gif
@@ -3009,7 +3019,9 @@ jjwxc.net##[id^="adp_"]
 !----好听音乐网----
 ||www.haoting.com/adad/*
 !----爱漫画----
-|*imanhua.com/v2/money/*
+imanhua.com###topmon
+|*.imanhua.com/*/nmoneys/*
+|*.imanhua.com/*/money/*
 !----ICP备案查询网----
 ||static.valu.cn/*x*_*.swf
 !----多米网----
@@ -3725,6 +3737,7 @@ pctowap.com##A[href="http://i.doguo.com/pay.php"]
 !----TGFC俱乐部----
 ||club.tgfcer.com/images/g*
 !----千军万马网络硬盘----
+||www.qjwm.com/images/qjwm.gif
 ||u.qjwm.com/*
 @@||ad.qjwm.com/*
 !----泰无聊----
@@ -3922,6 +3935,7 @@ www.baidu.com,www1.baidu.com##table[cellspacing="0"][cellpadding="0"][align="rig
 www.baidu.com,www1.baidu.com##style + table:nth-child(3)
 www.baidu.com,www1.baidu.com##.EC_mr15
 ||a.baidu.com/*
+|*.baidu.com/ecom*&*_*
 ||top.baidu.com/js/nsclick.js
 ||c.baidu.com/*
 ||sclick.baidu.com/*
@@ -4179,5 +4193,3 @@ www.qidian.com##.DH17
 @@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
 @@||cpro.baidu.com/cpro/ui/y.js
 !-------------待分类-------------
-
-

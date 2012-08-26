@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-24 20:42:26
+#Updated:2012-08-26 19:08:18
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -820,6 +820,7 @@ msFilterList
 -d js.shenduchuanmei.com
 - http://show.k184.com:8080
 -d code.yy32.com
+-d jscode.xp3366.com
 -d ads.doublemax.net
 -d js.7794lm.com
 -d s.334700.com
@@ -1547,6 +1548,8 @@ msFilterList
 -d ring.kugou.com
 -d links.kugou.com
 -d sdn.kugou.com
+#----97779资源网----
+-d www.xinray.com /page/?s=
 #----网易&有道----
 -d img3.cache.netease.com /ieupdate/update_funcs.js
 -d stat.ws.126.net
@@ -1727,6 +1730,8 @@ msFilterList
 - *zymk.cn/Public/upload/img/2010-08-11/20100811132427.jpg
 - *zymk.cn/Public/upload/img/2010-06-30/20100630164523.gif
 - *zymk.cn/Public/upload/img/2010-10-28/20101028144557.jpg
+#----CC图库----
+-d www.tuku.cc /js/cg.htm
 #----射手网&射手影音----
 - *.splayer.org/img/*_*_*.jpg
 - *.splayer.org/img/yokou*.jpg
@@ -2234,6 +2239,7 @@ msFilterList
 -d 174.139.220.155 /pic/*.gif
 #----MXC----
 -d www.itmxc.com /mxc-news/*x*.
+#----新动漫网----
 #----专门网----
 -d forum.51nb.com /images/*-*.gif
 -d forum.51nb.com /images/post*.gif
@@ -2858,7 +2864,8 @@ msFilterList
 #----好听音乐网----
 -d www.haoting.com /adad/
 #----爱漫画----
-- *imanhua.com/v2/money/
+- *.imanhua.com/*/nmoneys/
+- *.imanhua.com/*/money/
 #----ICP备案查询网----
 -d static.valu.cn x*_*.swf
 #----多米网----
@@ -3563,6 +3570,7 @@ msFilterList
 #----TGFC俱乐部----
 -d club.tgfcer.com /images/g
 #----千军万马网络硬盘----
+-d www.qjwm.com /images/qjwm.gif
 -d u.qjwm.com
 +d ad.qjwm.com
 #----泰无聊----
@@ -3749,6 +3757,7 @@ msFilterList
 -d www.google.cn /aclk?
 #----百度&乐居&hao123----
 -d a.baidu.com
+- *.baidu.com/ecom*&*_
 -d top.baidu.com /js/nsclick.js
 -d c.baidu.com
 -d sclick.baidu.com

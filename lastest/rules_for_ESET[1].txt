@@ -807,6 +807,7 @@ js.yoyi.tv/*
 js.shenduchuanmei.com/*
 show.k184.com:8080*
 code.yy32.com/*
+jscode.xp3366.com/*
 ads.doublemax.net/*
 js.7794lm.com/*
 s.334700.com/*
@@ -1512,6 +1513,7 @@ games.kugou.com/mini/*
 ring.kugou.com/*
 links.kugou.com/*
 sdn.kugou.com/*
+www.xinray.com/page/?s=*
 img3.cache.netease.com/*/ieupdate/update_funcs.js
 stat.ws.126.net/*
 adgeo.163.com/*
@@ -1667,6 +1669,7 @@ www.dabaoku.com/js/top*.js
 *zymk.cn/Public/upload/img/2010-08-11/20100811132427.jpg
 *zymk.cn/Public/upload/img/2010-06-30/20100630164523.gif
 *zymk.cn/Public/upload/img/2010-10-28/20101028144557.jpg
+www.tuku.cc/js/cg.htm
 *.splayer.org/img/*_*_*.jpg
 *.splayer.org/img/yokou*.jpg
 statics.*/banner/topic_shooter.png
@@ -1994,7 +1997,4 @@ game.zhulang.com/*
 images.zhulang.com/*.gif
 www.zhulang.com/images/*/*.swf
 images2.zhulang.com/*
-www.zhulang.com/js/pf2.js
-*.zhulang.com/game/*
-css.zhulang.net/js/header.js
 

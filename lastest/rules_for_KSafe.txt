@@ -807,6 +807,7 @@
 5,4,js.shenduchuanmei.com/*
 5,4,show.k184.com:8080*
 5,4,code.yy32.com/*
+5,4,jscode.xp3366.com/*
 5,4,ads.doublemax.net/*
 5,4,js.7794lm.com/*
 5,4,s.334700.com/*
@@ -1512,6 +1513,7 @@
 5,4,ring.kugou.com/*
 5,4,links.kugou.com/*
 5,4,sdn.kugou.com/*
+5,4,www.xinray.com/page/?s=*
 5,4,img3.cache.netease.com/*/ieupdate/update_funcs.js
 5,4,stat.ws.126.net/*
 5,4,adgeo.163.com/*
@@ -1667,6 +1669,7 @@
 5,4,*zymk.cn/Public/upload/img/2010-08-11/20100811132427.jpg
 5,4,*zymk.cn/Public/upload/img/2010-06-30/20100630164523.gif
 5,4,*zymk.cn/Public/upload/img/2010-10-28/20101028144557.jpg
+5,4,www.tuku.cc/js/cg.htm
 5,4,*.splayer.org/img/*_*_*.jpg
 5,4,*.splayer.org/img/yokou*.jpg
 5,4,statics.*/banner/topic_shooter.png
@@ -2473,7 +2476,8 @@
 5,4,*linuxidc.com/linuxren/linuxren*.js
 5,4,*liudu9.com/js/read_link*
 5,4,www.haoting.com/adad/*
-5,4,*imanhua.com/v2/money/*
+5,4,*.imanhua.com/*/nmoneys/*
+5,4,*.imanhua.com/*/money/*
 5,4,static.valu.cn/*x*_*.swf
 5,4,www.myrice.com/d/js/*
 5,4,www.pashu.org/js/xiaza*.js
@@ -2927,6 +2931,7 @@
 5,4,*weste.net/js_v2009/ggao*
 5,4,*weiphone.com/baidu.html?id=*
 5,4,club.tgfcer.com/images/g*
+5,4,www.qjwm.com/images/qjwm.gif
 5,4,u.qjwm.com/*
 5,4,bbs.t56.net/ad*/*
 5,4,*so100.cn/images/a*.js
@@ -3033,6 +3038,7 @@
 5,4,*.google-analytics.com/*
 5,4,www.google.cn/aclk?*
 5,4,a.baidu.com/*
+5,4,*.baidu.com/ecom*&*_*
 5,4,top.baidu.com/js/nsclick.js
 5,4,c.baidu.com/*
 5,4,sclick.baidu.com/*

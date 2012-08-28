@@ -1,14 +1,19 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-08-26 19:08:18
+!Updated:2012-08-28 19:48:42
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.3
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 7 days
 !-------------通用规则-------------
 !------元素隐藏规则------
+~horsemart.co.uk##.top_ad
 ##.wide_ads
+~afro-ninja.com,~autoroden.nl,~henkheikamp.nl###ad_wrap
+###adbottom
+~4sysops.com,~autogidas.lt,~ew.com###adtop
+##.sidead
 ##.a_h
 ###ad-bottom
 ###ad_right_box
@@ -862,6 +867,7 @@
 |*.ipinyou.com.cn/*
 |*.ipinyou.com/*
 ||pub.buzz-time.com.cn/*
+||d.caiyifz.com/*
 |*.100fenlm.cn/*
 |*.adszui.com/*
 ||js.3975.com/*
@@ -876,6 +882,7 @@
 ||js.yoyi.tv/*
 ||js.shenduchuanmei.com:81/*
 ||show.k184.com:8080*
+||p.777wyx.com/*
 ||code.yy32.com/*
 ||jscode.xp3366.com/*
 ||ads.doublemax.net/*
@@ -885,7 +892,7 @@
 |*.chenjingli.com/*
 ||u.mimiduo.com/*
 ||s.tiaosa.cn/*
-||v.1717gs.com/*
+|*v.1717gs.com/*
 ||t.adyun.com/*
 |*.001union.com/*
 |*.77union.cn/*
@@ -922,6 +929,7 @@
 |*.5zon.com/*
 |*.778669.com/*
 |*.779.net*
+|*.1717388.com/*
 |*.7iam.com/*
 |*.7pk.com/*
 |*.8le8le.com/*
@@ -1027,6 +1035,7 @@
 |*.wauee.com/*
 |*.web7k7k.net*
 |*.xxxwebtraffic.com/*
+||union.dianxin.cn/*
 |*.yebai.net/*
 |*.yeeka.com/*
 |*.samboc.com/*
@@ -1038,6 +1047,7 @@
 |*b.todayisp.com*
 |*.dingge.cc/*
 ||bd.yidaba.com*
+|*.cms.grandcloud.cn/*
 ||www.460.com.cn/*/*/*x*-*.htm
 ||adj.yidaba.com/*
 ||www.hoyiad.com/a/*
@@ -1234,6 +1244,8 @@
 ||pic.jdunion.com/excelmedia/*
 ||pic.jdunion.com/mk/*
 ||pic.jdunion.com/jdbbs/flash/*.swf
+||www.union163.com/d.php?*
+||u*.union163.com/*
 |*.tjhggs.com/*
 |*.6788787.com/*
 ||code.game3896.com/*
@@ -1688,6 +1700,7 @@ www.163.com###g5n1
 soku.com,youku.com##[id^="ab_"]
 ##.sideCol > div[class^="AB"]
 ||f.youku.com/player/getFlvPath/fileid/*&yad=1*
+||valb.atm.youku.com/*
 ||vhtml.atm.youku.com/*
 ||t.stat.youku.com/*
 ||hz.youku.com/red/ggnotice.php
@@ -1749,6 +1762,7 @@ soku.com,youku.com##[id^="ab_"]
 !----悠视网UUsee----
 ||sa.uusee.com/*.swf
 !----115&114啦----
+115.com##.random-banner
 115.com##.banner-top
 115.com##.resource-list
 ||www.114la.com/indexa.html
@@ -1767,6 +1781,8 @@ i.qianshou.com##.shopad2012
 i.qianshou.com##DIV[style="width:728px; height:90px; float:left; padding-top:4px; padding-left:10px;"]
 @@||i.qianshou.com/adsJs/logobanner.js
 @@||i.qianshou.com/adsJs/footer.js
+!----翠微居小说网----
+||www.cuiweiju.com/temp/gg*.html
 !----人人网----
 ||shaft.jebe.renren.com/*
 ||dj.renren.com/*
@@ -2342,6 +2358,8 @@ html5test.com##.ads
 !----就爱外挂网----
 ||www.92wg.com/Style_litcn/css/ad.css
 ||www.92wg.com/new/js/A_*.js
+!----云迹----
+yunjii.com##IMG[class][width="660"][height="60"][style="display: inline;"]
 !----哈哈.MX----
 |*.haha.mx/Public/images/banner-*.png
 !----热门杂烩----
@@ -2353,6 +2371,9 @@ html5test.com##.ads
 !----至顶网----
 ||am.zdnet.com.cn/www/images/*/*_*.swf
 ||icon.zdnet.com.cn/software_zone/pic/utd/ad_*.gif
+!----大学生小说网----
+||www.dxsxs.com/js/dd.js
+||www.dxsxs.com/js/dd3.js
 !----国产恋足在线----
 |*.haofoot.net/gif.gif
 !----百性阁----
@@ -2361,6 +2382,8 @@ html5test.com##.ads
 |*huayuanmeng.com/lip/*
 ||img181.poco.cn/mypoco/myphoto/20110216/17/5639799420110216174810040_640.jpg
 ||174.139.220.155/pic/*.gif
+!----MACD----
+||bbs.macd.cn/xc/*.swf
 !----MXC----
 itmxc.com##IMG[width="962"]
 ||www.itmxc.com/mxc-news/*x*.*
@@ -2464,6 +2487,8 @@ soufun.com##.adtextlink
 |*xiaoshuo.com/agent/swf/*
 |*xiaoshuo.com/chuanwen.html
 !----金融界----
+jrj.com.cn##.mw.a1
+jrj.com.cn##.a1.mg0
 ||allyes.jrj.com/*
 !----小说精灵----
 ||js.xiaoshuojingling.com/*
@@ -2843,6 +2868,8 @@ developer.51cto.com###list4
 ||pic*.dler.org/up_img/ven/*
 ||pic.dler.org/up_img/corp/*
 !----有妖气原创漫画梦工厂----
+u17.com##.mylife
+u17.com##.sidepic_40
 ||static.u17.com/*
 ||image.mylife.cdn.u17.com/*/*/*/*_*.gif
 ||static.cdn.u17.com/v2/www/images/comic_info/top_ad_bg*.gif
@@ -4004,6 +4031,8 @@ qidian.com##[style="HEIGHT: 130px"]
 www.qidian.com##.RightAD
 qidian.com##[class^="show_ggpic_"]
 www.qidian.com##.DH17
+||cip.*.sdo.com/*
+||ccc.*.sdo.com/*.js
 ||c.pingba.qidian.com/increase.htm?*
 ||cj.qidian.com/Flash/*_*.swf
 |*.qidian.com/Javascript/DoublePop.js

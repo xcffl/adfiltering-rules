@@ -792,6 +792,7 @@
 5,4,*.ipinyou.com.cn/*
 5,4,*.ipinyou.com/*
 5,4,pub.buzz-time.com.cn/*
+5,4,d.caiyifz.com/*
 5,4,*.100fenlm.cn/*
 5,4,*.adszui.com/*
 5,4,js.3975.com/*
@@ -806,6 +807,7 @@
 5,4,js.yoyi.tv/*
 5,4,js.shenduchuanmei.com/*
 5,4,show.k184.com:8080*
+5,4,p.777wyx.com/*
 5,4,code.yy32.com/*
 5,4,jscode.xp3366.com/*
 5,4,ads.doublemax.net/*
@@ -815,7 +817,7 @@
 5,4,*.chenjingli.com/*
 5,4,u.mimiduo.com/*
 5,4,s.tiaosa.cn/*
-5,4,v.1717gs.com/*
+5,4,*v.1717gs.com/*
 5,4,t.adyun.com/*
 5,4,*.001union.com/*
 5,4,*.77union.cn/*
@@ -852,6 +854,7 @@
 5,4,*.5zon.com/*
 5,4,*.778669.com/*
 5,4,*.779.net*
+5,4,*.1717388.com/*
 5,4,*.7iam.com/*
 5,4,*.7pk.com/*
 5,4,*.8le8le.com/*
@@ -957,6 +960,7 @@
 5,4,*.wauee.com/*
 5,4,*.web7k7k.net*
 5,4,*.xxxwebtraffic.com/*
+5,4,union.dianxin.cn/*
 5,4,*.yebai.net/*
 5,4,*.yeeka.com/*
 5,4,*.samboc.com/*
@@ -968,6 +972,7 @@
 5,4,*b.todayisp.com*
 5,4,*.dingge.cc/*
 5,4,bd.yidaba.com*
+5,4,*.cms.grandcloud.cn/*
 5,4,www.460.com.cn/*/*/*x*-*.htm
 5,4,adj.yidaba.com/*
 5,4,www.hoyiad.com/a/*
@@ -1162,6 +1167,8 @@
 5,4,pic.jdunion.com/excelmedia/*
 5,4,pic.jdunion.com/mk/*
 5,4,pic.jdunion.com/jdbbs/flash/*.swf
+5,4,www.union163.com/d.php?*
+5,4,u*.union163.com/*
 5,4,*.tjhggs.com/*
 5,4,*.6788787.com/*
 5,4,code.game3896.com/*
@@ -1563,6 +1570,7 @@
 5,4,*.tudou.com/framepage/*
 5,4,*.tudou.com/tdap/*
 5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1*
+5,4,valb.atm.youku.com/*
 5,4,vhtml.atm.youku.com/*
 5,4,t.stat.youku.com/*
 5,4,hz.youku.com/red/ggnotice.php
@@ -1624,6 +1632,7 @@
 5,4,u.115.com/static/tjj/delivery/*.html
 5,4,tool.115.com/static/mm/*
 5,4,u.115.com/static/modules/*
+5,4,www.cuiweiju.com/temp/gg*.html
 5,4,shaft.jebe.renren.com/*
 5,4,dj.renren.com/*
 5,4,gg.xiaonei.com/*
@@ -2045,12 +2054,15 @@
 5,4,forum.techweb.com.cn/advtcnt.php?*
 5,4,am.zdnet.com.cn/www/images/*/*_*.swf
 5,4,icon.zdnet.com.cn/software_zone/pic/utd/ad_*.gif
+5,4,www.dxsxs.com/js/dd.js
+5,4,www.dxsxs.com/js/dd3.js
 5,4,*.haofoot.net/gif.gif
 5,4,img181.poco.cn/mypoco/myphoto/20110201/23/5635003420110201232541093_640.jpg
 5,4,www.oneqing.com/lip/ons*.gif
 5,4,*huayuanmeng.com/lip/*
 5,4,img181.poco.cn/mypoco/myphoto/20110216/17/5639799420110216174810040_640.jpg
 5,4,174.139.220.155/pic/*.gif
+5,4,bbs.macd.cn/xc/*.swf
 5,4,www.itmxc.com/mxc-news/*x*.*
 5,4,forum.51nb.com/images/*-*.gif
 5,4,forum.51nb.com/images/post*.gif
@@ -3097,6 +3109,8 @@
 5,4,pic.xp500.com/img/xitong.gif
 5,4,g.webgame.com.cn/*
 5,4,c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
+5,4,cip.*.sdo.com/*
+5,4,ccc.*.sdo.com/*.js
 5,4,c.pingba.qidian.com/increase.htm?*
 5,4,cj.qidian.com/Flash/*_*.swf
 5,4,*.qidian.com/Javascript/DoublePop.js

@@ -792,6 +792,7 @@ code.9buo.com/*
 *.ipinyou.com.cn/*
 *.ipinyou.com/*
 pub.buzz-time.com.cn/*
+d.caiyifz.com/*
 *.100fenlm.cn/*
 *.adszui.com/*
 js.3975.com/*
@@ -806,6 +807,7 @@ union.zhubajie.com/*
 js.yoyi.tv/*
 js.shenduchuanmei.com/*
 show.k184.com:8080*
+p.777wyx.com/*
 code.yy32.com/*
 jscode.xp3366.com/*
 ads.doublemax.net/*
@@ -815,7 +817,7 @@ code.100Goo.com/*
 *.chenjingli.com/*
 u.mimiduo.com/*
 s.tiaosa.cn/*
-v.1717gs.com/*
+*v.1717gs.com/*
 t.adyun.com/*
 *.001union.com/*
 *.77union.cn/*
@@ -852,6 +854,7 @@ d1.yghua.com/code/*
 *.5zon.com/*
 *.778669.com/*
 *.779.net*
+*.1717388.com/*
 *.7iam.com/*
 *.7pk.com/*
 *.8le8le.com/*
@@ -957,6 +960,7 @@ union.gxcms.com/*
 *.wauee.com/*
 *.web7k7k.net*
 *.xxxwebtraffic.com/*
+union.dianxin.cn/*
 *.yebai.net/*
 *.yeeka.com/*
 *.samboc.com/*
@@ -968,6 +972,7 @@ code.129game.com/*
 *b.todayisp.com*
 *.dingge.cc/*
 bd.yidaba.com*
+*.cms.grandcloud.cn/*
 www.460.com.cn/*/*/*x*-*.htm
 adj.yidaba.com/*
 www.hoyiad.com/a/*
@@ -1162,6 +1167,8 @@ new.netgy.com/*
 pic.jdunion.com/excelmedia/*
 pic.jdunion.com/mk/*
 pic.jdunion.com/jdbbs/flash/*.swf
+www.union163.com/d.php?*
+u*.union163.com/*
 *.tjhggs.com/*
 *.6788787.com/*
 code.game3896.com/*
@@ -1563,6 +1570,7 @@ stat*.tudou.com/*
 *.tudou.com/framepage/*
 *.tudou.com/tdap/*
 f.youku.com/player/getFlvPath/fileid/*&yad=1*
+valb.atm.youku.com/*
 vhtml.atm.youku.com/*
 t.stat.youku.com/*
 hz.youku.com/red/ggnotice.php
@@ -1624,6 +1632,7 @@ u.115.com/static/material/*
 u.115.com/static/tjj/delivery/*.html
 tool.115.com/static/mm/*
 u.115.com/static/modules/*
+www.cuiweiju.com/temp/gg*.html
 shaft.jebe.renren.com/*
 dj.renren.com/*
 gg.xiaonei.com/*
@@ -1988,13 +1997,4 @@ js.auto.msn.com.cn/js/incsearch_a.js
 sup.live.com/*
 *.replays.net/*/rnad/*
 *.sitenoo.com/robot/*x*.gif
-*.2y2r.org/data/attachment/forum/*
-*.xs8.cn/data/iframe/*
-*.xxsy.net/sygg/*
-images.xxsy.net/js/jinisi_show.js
-read.xxsy.net/js/menu/bottom.js
-game.zhulang.com/*
-images.zhulang.com/*.gif
-www.zhulang.com/images/*/*.swf
-images2.zhulang.com/*
 

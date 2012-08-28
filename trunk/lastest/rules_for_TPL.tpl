@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-26 19:08:18
+#Updated:2012-08-28 19:48:42
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -805,6 +805,7 @@ msFilterList
 - *.ipinyou.com.cn/
 - *.ipinyou.com/
 -d pub.buzz-time.com.cn
+-d d.caiyifz.com
 - *.100fenlm.cn/
 - *.adszui.com/
 -d js.3975.com
@@ -819,6 +820,7 @@ msFilterList
 -d js.yoyi.tv
 -d js.shenduchuanmei.com
 - http://show.k184.com:8080
+-d p.777wyx.com
 -d code.yy32.com
 -d jscode.xp3366.com
 -d ads.doublemax.net
@@ -828,7 +830,7 @@ msFilterList
 - *.chenjingli.com/
 -d u.mimiduo.com
 -d s.tiaosa.cn
--d v.1717gs.com
+- *v.1717gs.com/
 -d t.adyun.com
 - *.001union.com/
 - *.77union.cn/
@@ -865,6 +867,7 @@ msFilterList
 - *.5zon.com/
 - *.778669.com/
 - *.779.net
+- *.1717388.com/
 - *.7iam.com/
 - *.7pk.com/
 - *.8le8le.com/
@@ -970,6 +973,7 @@ msFilterList
 - *.wauee.com/
 - *.web7k7k.net
 - *.xxxwebtraffic.com/
+-d union.dianxin.cn
 - *.yebai.net/
 - *.yeeka.com/
 - *.samboc.com/
@@ -981,6 +985,7 @@ msFilterList
 - *b.todayisp.com
 - *.dingge.cc/
 - http://bd.yidaba.com
+- *.cms.grandcloud.cn/
 -d www.460.com.cn /*/*x*-*.htm
 -d adj.yidaba.com
 -d www.hoyiad.com /a/
@@ -1177,6 +1182,8 @@ msFilterList
 -d pic.jdunion.com /excelmedia/
 -d pic.jdunion.com /mk/
 -d pic.jdunion.com /jdbbs/flash/*.swf
+-d www.union163.com /d.php?
+- http://u*.union163.com/
 - *.tjhggs.com/
 - *.6788787.com/
 -d code.game3896.com
@@ -1602,6 +1609,7 @@ msFilterList
 - *.tudou.com/tdap/
 #----优酷网----
 -d f.youku.com /player/getFlvPath/fileid/*&yad=1
+-d valb.atm.youku.com
 -d vhtml.atm.youku.com
 -d t.stat.youku.com
 -d hz.youku.com /red/ggnotice.php
@@ -1676,6 +1684,8 @@ msFilterList
 #----纤手美发网----
 +d i.qianshou.com /adsJs/logobanner.js
 +d i.qianshou.com /adsJs/footer.js
+#----翠微居小说网----
+-d www.cuiweiju.com /temp/gg*.html
 #----人人网----
 -d shaft.jebe.renren.com
 -d dj.renren.com
@@ -2218,6 +2228,7 @@ msFilterList
 #----就爱外挂网----
 -d www.92wg.com /Style_litcn/css/ad.css
 -d www.92wg.com /new/js/A_*.js
+#----云迹----
 #----哈哈.MX----
 - *.haha.mx/Public/images/banner-*.png
 #----热门杂烩----
@@ -2229,6 +2240,9 @@ msFilterList
 #----至顶网----
 -d am.zdnet.com.cn /www/images/*/*_*.swf
 -d icon.zdnet.com.cn /software_zone/pic/utd/ad_*.gif
+#----大学生小说网----
+-d www.dxsxs.com /js/dd.js
+-d www.dxsxs.com /js/dd3.js
 #----国产恋足在线----
 - *.haofoot.net/gif.gif
 #----百性阁----
@@ -2237,6 +2251,8 @@ msFilterList
 - *huayuanmeng.com/lip/
 -d img181.poco.cn /mypoco/myphoto/20110216/17/5639799420110216174810040_640.jpg
 -d 174.139.220.155 /pic/*.gif
+#----MACD----
+-d bbs.macd.cn /xc/*.swf
 #----MXC----
 -d www.itmxc.com /mxc-news/*x*.
 #----新动漫网----
@@ -3821,6 +3837,8 @@ msFilterList
 #----新蛋中国----
 -d c1.neweggimages.com.cn /neweggpic*/Marketing/*/bocapple/
 #----盛大在线&起点中文网----
+- http://cip.*.sdo.com/
+- http://ccc.*.sdo.com/*.js
 -d c.pingba.qidian.com /increase.htm?
 -d cj.qidian.com /Flash/*_*.swf
 - *.qidian.com/Javascript/DoublePop.js

@@ -800,6 +800,7 @@ code.9buo.com/*
 *.ipinyou.com.cn/*
 *.ipinyou.com/*
 pub.buzz-time.com.cn/*
+d.caiyifz.com/*
 *.100fenlm.cn/*
 *.adszui.com/*
 js.3975.com/*
@@ -814,6 +815,7 @@ union.zhubajie.com/*
 js.yoyi.tv/*
 js.shenduchuanmei.com/*
 show.k184.com:8080*
+p.777wyx.com/*
 code.yy32.com/*
 jscode.xp3366.com/*
 ads.doublemax.net/*
@@ -823,7 +825,7 @@ code.100Goo.com/*
 *.chenjingli.com/*
 u.mimiduo.com/*
 s.tiaosa.cn/*
-v.1717gs.com/*
+*v.1717gs.com/*
 t.adyun.com/*
 *.001union.com/*
 *.77union.cn/*
@@ -860,6 +862,7 @@ d1.yghua.com/code/*
 *.5zon.com/*
 *.778669.com/*
 *.779.net*
+*.1717388.com/*
 *.7iam.com/*
 *.7pk.com/*
 *.8le8le.com/*
@@ -965,6 +968,7 @@ union.gxcms.com/*
 *.wauee.com/*
 *.web7k7k.net*
 *.xxxwebtraffic.com/*
+union.dianxin.cn/*
 *.yebai.net/*
 *.yeeka.com/*
 *.samboc.com/*
@@ -976,6 +980,7 @@ code.129game.com/*
 *b.todayisp.com*
 *.dingge.cc/*
 bd.yidaba.com*
+*.cms.grandcloud.cn/*
 www.460.com.cn/*/*/*x*-*.htm
 adj.yidaba.com/*
 www.hoyiad.com/a/*
@@ -1170,6 +1175,8 @@ new.netgy.com/*
 pic.jdunion.com/excelmedia/*
 pic.jdunion.com/mk/*
 pic.jdunion.com/jdbbs/flash/*.swf
+www.union163.com/d.php?*
+u*.union163.com/*
 *.tjhggs.com/*
 *.6788787.com/*
 code.game3896.com/*
@@ -1571,6 +1578,7 @@ stat*.tudou.com/*
 *.tudou.com/framepage/*
 *.tudou.com/tdap/*
 f.youku.com/player/getFlvPath/fileid/*&yad=1*
+valb.atm.youku.com/*
 vhtml.atm.youku.com/*
 t.stat.youku.com/*
 hz.youku.com/red/ggnotice.php
@@ -1632,6 +1640,7 @@ u.115.com/static/material/*
 u.115.com/static/tjj/delivery/*.html
 tool.115.com/static/mm/*
 u.115.com/static/modules/*
+www.cuiweiju.com/temp/gg*.html
 shaft.jebe.renren.com/*
 dj.renren.com/*
 gg.xiaonei.com/*
@@ -2053,12 +2062,15 @@ www.micboy.com/dl2.js
 forum.techweb.com.cn/advtcnt.php?*
 am.zdnet.com.cn/www/images/*/*_*.swf
 icon.zdnet.com.cn/software_zone/pic/utd/ad_*.gif
+www.dxsxs.com/js/dd.js
+www.dxsxs.com/js/dd3.js
 *.haofoot.net/gif.gif
 img181.poco.cn/mypoco/myphoto/20110201/23/5635003420110201232541093_640.jpg
 www.oneqing.com/lip/ons*.gif
 *huayuanmeng.com/lip/*
 img181.poco.cn/mypoco/myphoto/20110216/17/5639799420110216174810040_640.jpg
 174.139.220.155/pic/*.gif
+bbs.macd.cn/xc/*.swf
 www.itmxc.com/mxc-news/*x*.*
 forum.51nb.com/images/*-*.gif
 forum.51nb.com/images/post*.gif
@@ -3105,6 +3117,8 @@ po.im.alisoft.com/*
 pic.xp500.com/img/xitong.gif
 g.webgame.com.cn/*
 c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
+cip.*.sdo.com/*
+ccc.*.sdo.com/*.js
 c.pingba.qidian.com/increase.htm?*
 cj.qidian.com/Flash/*_*.swf
 *.qidian.com/Javascript/DoublePop.js

@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-08-28 19:48:42
+!Updated:2012-08-28 20:27:04
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.3
 !Copyright 2011 xcffl, Apache License 2.0
@@ -1700,7 +1700,7 @@ www.163.com###g5n1
 soku.com,youku.com##[id^="ab_"]
 ##.sideCol > div[class^="AB"]
 ||f.youku.com/player/getFlvPath/fileid/*&yad=1*
-||valb.atm.youku.com/*
+||valb.atm.youku.com/valb?*
 ||vhtml.atm.youku.com/*
 ||t.stat.youku.com/*
 ||hz.youku.com/red/ggnotice.php
@@ -1714,12 +1714,13 @@ soku.com,youku.com##[id^="ab_"]
 ||valf.atm.youku.com/show?*
 ||fvid.atm.youku.com/*
 ||walp.atm.youku.com/*
-||valp.atm.youku.com/*
-||valc.atm.youku.com/*
+||valp.atm.youku.com/show?*
+||valp.atm.youku.com/valp?*
+||valc.atm.youku.com/valc?*
 ||static.atm.youku.com/*/*/*_*.jpg
 ||static.atm.youku.com/*/*/*/*-*.jpg
 ||static.atm.youku.com/*/*/*x*.jpg
-||e.stat.youku.com/*
+!||e.stat.youku.com/*
 !----雅虎----
 @@||l.yimg.com/zz/combo?*.js*
 ||l.yimg.com/d/lib/bc/bcr_2.0.5.js
@@ -2785,6 +2786,7 @@ bbs.360.cn##.aXd
 ||js.pub.tom.com/*
 |tv-static.tom.com/6c6266/20101026/hd16953.flv
 !----bilibili.tv----
+bilibili.tv,bilibili.kankanews.com##.ad-f
 ||static.hdslb.com/ad-images/*.swf
 ||bilibili.kankanews.com/html/ads-*
 ||www.bilibili.tv/html/ads-*

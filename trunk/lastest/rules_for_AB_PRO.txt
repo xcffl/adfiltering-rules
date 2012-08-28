@@ -1578,7 +1578,7 @@ stat*.tudou.com/*
 *.tudou.com/framepage/*
 *.tudou.com/tdap/*
 f.youku.com/player/getFlvPath/fileid/*&yad=1*
-valb.atm.youku.com/*
+valb.atm.youku.com/valb?*
 vhtml.atm.youku.com/*
 t.stat.youku.com/*
 hz.youku.com/red/ggnotice.php
@@ -1589,12 +1589,12 @@ static.atm.youku.com/*/popup.js
 valf.atm.youku.com/show?*
 fvid.atm.youku.com/*
 walp.atm.youku.com/*
-valp.atm.youku.com/*
-valc.atm.youku.com/*
+valp.atm.youku.com/show?*
+valp.atm.youku.com/valp?*
+valc.atm.youku.com/valc?*
 static.atm.youku.com/*/*/*_*.jpg
 static.atm.youku.com/*/*/*/*-*.jpg
 static.atm.youku.com/*/*/*x*.jpg
-e.stat.youku.com/*
 l.yimg.com/d/lib/bc/bcr_2.0.5.js
 l.yimg.com/f/a/tw/gif_backup/ad_*.gif
 *.webmaster.yahoo.com/*

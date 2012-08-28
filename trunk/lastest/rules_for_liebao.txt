@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-28 19:48:42
+!Updated:2012-08-28 20:27:04
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -1704,7 +1704,7 @@ bannerad
 ##[id^="ab_"]	$d=youku.com
 ##.sideCol > div[class^="AB"]
 /:\/\/([^\/]+\\.)?f\.youku\.com\/player\/getFlvPath\/fileid\/\.*&yad=1/
-/:\/\/([^\/]+\\.)?valb\.atm\.youku\.com\//
+/:\/\/([^\/]+\\.)?valb\.atm\.youku\.com\/valb\?/
 /:\/\/([^\/]+\\.)?vhtml\.atm\.youku\.com\//
 /:\/\/([^\/]+\\.)?t\.stat\.youku\.com\//
 /:\/\/([^\/]+\\.)?hz\.youku\.com\/red\/ggnotice\.php/
@@ -1718,12 +1718,13 @@ bannerad
 /:\/\/([^\/]+\\.)?valf\.atm\.youku\.com\/show\?/
 /:\/\/([^\/]+\\.)?fvid\.atm\.youku\.com\//
 /:\/\/([^\/]+\\.)?walp\.atm\.youku\.com\//
-/:\/\/([^\/]+\\.)?valp\.atm\.youku\.com\//
-/:\/\/([^\/]+\\.)?valc\.atm\.youku\.com\//
+/:\/\/([^\/]+\\.)?valp\.atm\.youku\.com\/show\?/
+/:\/\/([^\/]+\\.)?valp\.atm\.youku\.com\/valp\?/
+/:\/\/([^\/]+\\.)?valc\.atm\.youku\.com\/valc\?/
 /:\/\/([^\/]+\\.)?static\.atm\.youku\.com\/\.*\/\.*\/\.*_\.*\.jpg/
 /:\/\/([^\/]+\\.)?static\.atm\.youku\.com\/\.*\/\.*\/\.*\/\.*-\.*\.jpg/
 /:\/\/([^\/]+\\.)?static\.atm\.youku\.com\/\.*\/\.*\/\.*x\.*\.jpg/
-/:\/\/([^\/]+\\.)?e\.stat\.youku\.com\//
+!||e.stat.youku.com/*
 !----雅虎----
 /:\/\/([^\/]+\.)?l.yimg.com\/zz\/combo\?.*.js/	$w
 /:\/\/([^\/]+\\.)?l\.yimg\.com\/d\/lib\/bc\/bcr_2\.0\.5\.js/
@@ -2792,6 +2793,8 @@ bannerad
 /:\/\/([^\/]+\\.)?js\.pub\.tom\.com\//
 /^tv-static\.tom\.com\/6c6266\/20101026\/hd16953\.flv/
 !----bilibili.tv----
+##.ad-f	$d=bilibili.tv
+##.ad-f	$d=bilibili.kankanews.com
 /:\/\/([^\/]+\\.)?static\.hdslb\.com\/ad-images\/\.*\.swf/
 /:\/\/([^\/]+\\.)?bilibili\.kankanews\.com\/html\/ads-/
 /:\/\/([^\/]+\\.)?www\.bilibili\.tv\/html\/ads-/

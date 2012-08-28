@@ -1570,7 +1570,7 @@
 5,4,*.tudou.com/framepage/*
 5,4,*.tudou.com/tdap/*
 5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1*
-5,4,valb.atm.youku.com/*
+5,4,valb.atm.youku.com/valb?*
 5,4,vhtml.atm.youku.com/*
 5,4,t.stat.youku.com/*
 5,4,hz.youku.com/red/ggnotice.php
@@ -1581,12 +1581,12 @@
 5,4,valf.atm.youku.com/show?*
 5,4,fvid.atm.youku.com/*
 5,4,walp.atm.youku.com/*
-5,4,valp.atm.youku.com/*
-5,4,valc.atm.youku.com/*
+5,4,valp.atm.youku.com/show?*
+5,4,valp.atm.youku.com/valp?*
+5,4,valc.atm.youku.com/valc?*
 5,4,static.atm.youku.com/*/*/*_*.jpg
 5,4,static.atm.youku.com/*/*/*/*-*.jpg
 5,4,static.atm.youku.com/*/*/*x*.jpg
-5,4,e.stat.youku.com/*
 5,4,l.yimg.com/d/lib/bc/bcr_2.0.5.js
 5,4,l.yimg.com/f/a/tw/gif_backup/ad_*.gif
 5,4,*.webmaster.yahoo.com/*

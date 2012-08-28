@@ -1393,7 +1393,7 @@
 5,4,click.cm.sandai.net/*
 5,4,un.so.gougou.com/*
 5,4,*mcfg.sandai.net/*
-5,4,www.zhujima.com/tupian/*
+5,4,www.zhujima.com/tupian*/*
 5,4,www.zhujima.com/tu/*u*.jpg
 5,4,www.zhujima.com/tu/*g*.png
 5,4,www.zhujima.com/tu/*vps.gif

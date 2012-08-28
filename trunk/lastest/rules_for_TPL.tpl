@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-28 20:27:04
+#Updated:2012-08-28 21:56:23
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1423,7 +1423,7 @@ msFilterList
 -d un.so.gougou.com
 - *mcfg.sandai.net/
 #----主机码----
--d www.zhujima.com /tupian/
+-d www.zhujima.com /tupian*/
 -d www.zhujima.com /tu/*u*.jpg
 -d www.zhujima.com /tu/*g*.png
 -d www.zhujima.com /tu/*vps.gif

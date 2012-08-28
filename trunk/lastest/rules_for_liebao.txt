@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-28 20:27:04
+!Updated:2012-08-28 21:56:23
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -10,6 +10,7 @@
 !-------------通用规则-------------
 !------元素隐藏规则------
 ##.top_ad
+###right_ad
 ##.wide_ads
 ###ad_wrap
 ###adbottom
@@ -1491,7 +1492,7 @@ bannerad
 /:\/\/([^\/]+\\.)?un\.so\.gougou\.com\//
 /mcfg\.sandai\.net\//
 !----主机码----
-/:\/\/([^\/]+\\.)?www\.zhujima\.com\/tupian\//
+/:\/\/([^\/]+\\.)?www\.zhujima\.com\/tupian\.*\//
 /:\/\/([^\/]+\\.)?www\.zhujima\.com\/tu\/\.*u\.*\.jpg/
 /:\/\/([^\/]+\\.)?www\.zhujima\.com\/tu\/\.*g\.*\.png/
 /:\/\/([^\/]+\\.)?www\.zhujima\.com\/tu\/\.*vps\.gif/

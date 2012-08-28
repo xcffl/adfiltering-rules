@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-26 19:08:18
+!Updated:2012-08-28 19:48:42
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -9,7 +9,12 @@
 !Copyright 2011 xcffl, Apache License 2.0
 !-------------通用规则-------------
 !------元素隐藏规则------
+##.top_ad
 ##.wide_ads
+###ad_wrap
+###adbottom
+###adtop
+##.sidead
 ##.a_h
 ###ad-bottom
 ###ad_right_box
@@ -864,6 +869,7 @@ bannerad
 /\.ipinyou\.com\.cn\//
 /\.ipinyou\.com\//
 /:\/\/([^\/]+\\.)?pub\.buzz-time\.com\.cn\//
+/:\/\/([^\/]+\\.)?d\.caiyifz\.com\//
 /\.100fenlm\.cn\//
 /\.adszui\.com\//
 /:\/\/([^\/]+\\.)?js\.3975\.com\//
@@ -878,6 +884,7 @@ bannerad
 /:\/\/([^\/]+\\.)?js\.yoyi\.tv\//
 /:\/\/([^\/]+\\.)?js\.shenduchuanmei\.com\//
 /:\/\/([^\/]+\.)?show\.k184\.com:8080/
+/:\/\/([^\/]+\\.)?p\.777wyx\.com\//
 /:\/\/([^\/]+\\.)?code\.yy32\.com\//
 /:\/\/([^\/]+\\.)?jscode\.xp3366\.com\//
 /:\/\/([^\/]+\\.)?ads\.doublemax\.net\//
@@ -887,7 +894,7 @@ bannerad
 /\.chenjingli\.com\//
 /:\/\/([^\/]+\\.)?u\.mimiduo\.com\//
 /:\/\/([^\/]+\\.)?s\.tiaosa\.cn\//
-/:\/\/([^\/]+\\.)?v\.1717gs\.com\//
+/v\.1717gs\.com\//
 /:\/\/([^\/]+\\.)?t\.adyun\.com\//
 /\.001union\.com\//
 /\.77union\.cn\//
@@ -924,6 +931,7 @@ bannerad
 /\.5zon\.com\//
 /\.778669\.com\//
 /\.779\.net/
+/\.1717388\.com\//
 /\.7iam\.com\//
 /\.7pk\.com\//
 /\.8le8le\.com\//
@@ -1029,6 +1037,7 @@ bannerad
 /\.wauee\.com\//
 /\.web7k7k\.net/
 /\.xxxwebtraffic\.com\//
+/:\/\/([^\/]+\\.)?union\.dianxin\.cn\//
 /\.yebai\.net\//
 /\.yeeka\.com\//
 /\.samboc\.com\//
@@ -1040,6 +1049,7 @@ bannerad
 /b\.todayisp\.com/
 /\.dingge\.cc\//
 /:\/\/([^\/]+\.)?bd\.yidaba\.com/
+/\.cms\.grandcloud\.cn\//
 /:\/\/([^\/]+\\.)?www\.460\.com\.cn\/\.*\/\.*\/\.*x\.*-\.*\.htm/
 /:\/\/([^\/]+\\.)?adj\.yidaba\.com\//
 /:\/\/([^\/]+\\.)?www\.hoyiad\.com\/a\//
@@ -1236,6 +1246,8 @@ bannerad
 /:\/\/([^\/]+\\.)?pic\.jdunion\.com\/excelmedia\//
 /:\/\/([^\/]+\\.)?pic\.jdunion\.com\/mk\//
 /:\/\/([^\/]+\\.)?pic\.jdunion\.com\/jdbbs\/flash\/\.*\.swf/
+/:\/\/([^\/]+\\.)?www\.union163\.com\/d\.php\?/
+/:\/\/([^\/]+\.)?u.*\.union163\.com\//
 /\.tjhggs\.com\//
 /\.6788787\.com\//
 /:\/\/([^\/]+\\.)?code\.game3896\.com\//
@@ -1692,6 +1704,7 @@ bannerad
 ##[id^="ab_"]	$d=youku.com
 ##.sideCol > div[class^="AB"]
 /:\/\/([^\/]+\\.)?f\.youku\.com\/player\/getFlvPath\/fileid\/\.*&yad=1/
+/:\/\/([^\/]+\\.)?valb\.atm\.youku\.com\//
 /:\/\/([^\/]+\\.)?vhtml\.atm\.youku\.com\//
 /:\/\/([^\/]+\\.)?t\.stat\.youku\.com\//
 /:\/\/([^\/]+\\.)?hz\.youku\.com\/red\/ggnotice\.php/
@@ -1753,6 +1766,7 @@ bannerad
 !----悠视网UUsee----
 /:\/\/([^\/]+\\.)?sa\.uusee\.com\/\.*\.swf/
 !----115&114啦----
+##.random-banner	$d=115.com
 ##.banner-top	$d=115.com
 ##.resource-list	$d=115.com
 /:\/\/([^\/]+\\.)?www\.114la\.com\/indexa\.html/
@@ -1771,6 +1785,8 @@ bannerad
 ##DIV[style="width:728px; height:90px; float:left; padding-top:4px; padding-left:10px;"]	$d=i.qianshou.com
 /:\/\/([^\/]+\.)?i.qianshou.com\/adsJs\/logobanner.js/	$w
 /:\/\/([^\/]+\.)?i.qianshou.com\/adsJs\/footer.js/	$w
+!----翠微居小说网----
+/:\/\/([^\/]+\\.)?www\.cuiweiju\.com\/temp\/gg\.*\.html/
 !----人人网----
 /:\/\/([^\/]+\\.)?shaft\.jebe\.renren\.com\//
 /:\/\/([^\/]+\\.)?dj\.renren\.com\//
@@ -2346,6 +2362,8 @@ bannerad
 !----就爱外挂网----
 /:\/\/([^\/]+\\.)?www\.92wg\.com\/Style_litcn\/css\/ad\.css/
 /:\/\/([^\/]+\\.)?www\.92wg\.com\/new\/js\/A_\.*\.js/
+!----云迹----
+##IMG[class][width="660"][height="60"][style="display: inline;"]	$d=yunjii.com
 !----哈哈.MX----
 /\.haha\.mx\/Public\/images\/banner-.*\.png/
 !----热门杂烩----
@@ -2357,6 +2375,9 @@ bannerad
 !----至顶网----
 /:\/\/([^\/]+\\.)?am\.zdnet\.com\.cn\/www\/images\/\.*\/\.*_\.*\.swf/
 /:\/\/([^\/]+\\.)?icon\.zdnet\.com\.cn\/software_zone\/pic\/utd\/ad_\.*\.gif/
+!----大学生小说网----
+/:\/\/([^\/]+\\.)?www\.dxsxs\.com\/js\/dd\.js/
+/:\/\/([^\/]+\\.)?www\.dxsxs\.com\/js\/dd3\.js/
 !----国产恋足在线----
 /\.haofoot\.net\/gif\.gif/
 !----百性阁----
@@ -2365,6 +2386,8 @@ bannerad
 /huayuanmeng\.com\/lip\//
 /:\/\/([^\/]+\\.)?img181\.poco\.cn\/mypoco\/myphoto\/20110216\/17\/5639799420110216174810040_640\.jpg/
 /:\/\/([^\/]+\\.)?174\.139\.220\.155\/pic\/\.*\.gif/
+!----MACD----
+/:\/\/([^\/]+\\.)?bbs\.macd\.cn\/xc\/\.*\.swf/
 !----MXC----
 ##IMG[width="962"]	$d=itmxc.com
 /:\/\/([^\/]+\\.)?www\.itmxc\.com\/mxc-news\/\.*x\.*\./
@@ -2470,6 +2493,8 @@ bannerad
 /xiaoshuo\.com\/agent\/swf\//
 /xiaoshuo\.com\/chuanwen\.html/
 !----金融界----
+##.mw.a1	$d=jrj.com.cn
+##.a1.mg0	$d=jrj.com.cn
 /:\/\/([^\/]+\\.)?allyes\.jrj\.com\//
 !----小说精灵----
 /:\/\/([^\/]+\\.)?js\.xiaoshuojingling\.com\//
@@ -2850,6 +2875,8 @@ bannerad
 /:\/\/([^\/]+\.)?pic.*\.dler\.org\/up_img\/ven\//
 /:\/\/([^\/]+\\.)?pic\.dler\.org\/up_img\/corp\//
 !----有妖气原创漫画梦工厂----
+##.mylife	$d=u17.com
+##.sidepic_40	$d=u17.com
 /:\/\/([^\/]+\\.)?static\.u17\.com\//
 /:\/\/([^\/]+\\.)?image\.mylife\.cdn\.u17\.com\/\.*\/\.*\/\.*\/\.*_\.*\.gif/
 /:\/\/([^\/]+\\.)?static\.cdn\.u17\.com\/v2\/www\/images\/comic_info\/top_ad_bg\.*\.gif/
@@ -4023,6 +4050,8 @@ bannerad
 ##.RightAD	$d=www.qidian.com
 ##[class^="show_ggpic_"]	$d=qidian.com
 ##.DH17	$d=www.qidian.com
+/:\/\/([^\/]+\.)?cip\..*\.sdo\.com\//
+/:\/\/([^\/]+\.)?ccc\..*\.sdo\.com\/.*\.js/
 /:\/\/([^\/]+\\.)?c\.pingba\.qidian\.com\/increase\.htm\?/
 /:\/\/([^\/]+\\.)?cj\.qidian\.com\/Flash\/\.*_\.*\.swf/
 /\.qidian\.com\/Javascript\/DoublePop\.js/

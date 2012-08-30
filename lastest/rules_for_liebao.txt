@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-30 20:53:03
+!Updated:2012-08-30 22:00:41
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.xcffl.tk/trunk/lastest/rules_for_liebao.txt
@@ -1707,8 +1707,10 @@ bannerad
 ##[id^="ab_"]	$d=soku.com
 ##[id^="ab_"]	$d=youku.com
 ##.sideCol > div[class^="AB"]
-/:\/\/([^\/]+\\.)?f\.youku\.com\/player\/getFlvPath\/fileid\/\.*&yad=1/
+/:\/\/([^\/]+\\.)?f\.youku\.com\/player\/get\.*\/fileid\/\.*&yad=1/
 /:\/\/([^\/]+\\.)?t\.stat\.youku\.com\//
+/:\/\/([^\/]+\\.)?static\.atm\.youku\.com\/\.*\/allyes\.html/
+/:\/\/([^\/]+\\.)?static\.atm\.youku\.com\/\.*ouku2012\/\.*\.swf/
 /:\/\/([^\/]+\\.)?hz\.youku\.com\/red\/ggnotice\.php/
 !atm.youku.com
 !||vid.atm.youku.com/*

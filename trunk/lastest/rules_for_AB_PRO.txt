@@ -1578,8 +1578,10 @@ v2.tudou.com/td*/*
 stat*.tudou.com/*
 *.tudou.com/framepage/*
 *.tudou.com/tdap/*
-f.youku.com/player/getFlvPath/fileid/*&yad=1*
+f.youku.com/player/get*/fileid/*&yad=1*
 t.stat.youku.com/*
+static.atm.youku.com/*/allyes.html
+static.atm.youku.com/*ouku2012/*.swf*
 hz.youku.com/red/ggnotice.php
 static.atm.youku.com/*/popup.js
 static.atm.youku.com/*taobao*

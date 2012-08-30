@@ -1,11 +1,12 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-30 19:28:06
+#Updated:2012-08-30 19:52:02
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
 : Expires=7
+# Redirect: http://rules.xcffl.tk/trunk/lastest/rules_for_ABP.txt
 #-------------通用规则-------------
 #------元素隐藏规则------
 #------广告过滤规则------

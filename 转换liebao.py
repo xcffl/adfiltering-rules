@@ -173,11 +173,12 @@ def writeRule(filePath, lines):
   result = []
   top = u'![Liebao Adblock Rule]'
   result.append(top)
-  lines[6] = ''
   for line in lines:
     if re.search(r'^!', line):
       #把各种注释内容替换掉
       #line = re.sub(r'(#|!)\-+[^\-]*$','', line)
+      line = re.sub('^\s*!.*?\bExpires\s*(?::|after)\s*(\d+)\s*(h)?', '', line)
+      line = re.sub('^! Redirect:.*$','', line)
       line = re.sub(r'(.*?)\expires(.*)', '', line)
       line = re.sub('!Title:.*$', '!Title:adfiltering-rules', line)
       #由于猎豹有些问题，暂时使用短名称
@@ -185,7 +186,7 @@ def writeRule(filePath, lines):
       line = re.sub(r'--!$', '--!', line)
       line = re.sub(u'!Description:一个通用、全面的广告过滤规则', u'''!Version:1.0
 !Description:一个通用、全面的广告过滤规则/
-!Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt''', line)
+!Url:http://rules.xcffl.tk/trunk/lastest/rules_for_liebao.txt''', line)
       result.append(line)
     elif line.find('#') >= 0:
       # 如果是元素隐藏规则

@@ -26,6 +26,7 @@ afr = re.sub(r'(?<=!Updated:).*', time ,afr)
 afrfile.close()
 afrfile = open('rules_for_ABP.txt', 'w')
 print >> afrfile, afr
+print afr
 afrfile.close()
 
 '''#分割规则

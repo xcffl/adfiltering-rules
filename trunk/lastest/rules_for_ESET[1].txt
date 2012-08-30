@@ -862,6 +862,8 @@ d1.yghua.com/code/*
 *.565882.com/*
 *.91sanguo.cn*
 *.6dad.com/*
+smcommon.allyes.com/*
+smarttrade.allyes.com/*
 *allyes.*/ad*
 *.9elm.cn/*
 *.9v.cn/*
@@ -1995,6 +1997,4 @@ game.zhulang.com/*
 images.zhulang.com/*.gif
 www.zhulang.com/images/*/*.swf
 images2.zhulang.com/*
-www.zhulang.com/js/pf2.js
-*.zhulang.com/game/*
 

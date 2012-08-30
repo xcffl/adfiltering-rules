@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-28 21:56:23
+!Updated:2012-08-30 19:28:06
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -964,7 +964,6 @@ bannerad
 /\.chitika\.com\//
 /^http:\/\/.*\.clickeye.*\.cn\//
 /\.cnxad\.com\//
-/\.cnzz\.com\/api\/.*\.js/
 /\.counter\.dudu\.com\//
 /:\/\/([^\/]+\\.)?u\.3393\.com\//
 /\.diyad\.cn\//
@@ -1200,7 +1199,6 @@ bannerad
 /:\/\/([^\/]+\\.)?ads\.revsci\.net\//
 /:\/\/([^\/]+\\.)?ulinkdir\.tom\.com\//
 /:\/\/([^\/]+\\.)?ulinkjs\.tom\.com\//
-/:\/\/([^\/]+\.)?online.*\.cnzz\.com\/img\//
 /:\/\/([^\/]+\\.)?uimg\.unionli\.com\//
 /\.pagechoice\.net\//
 /:\/\/([^\/]+\\.)?www\.lf-lm\.com\//
@@ -1410,6 +1408,8 @@ bannerad
 !----莲山课件----
 !----我要课件----
 /\.5ykj\.cn\/950\.jpg/
+!----返现网----
+/:\/\/([^\/]+\\.)?s1\.fanxian\.com\/images\/event\/\.*_fanxian\.gif/
 !----99770漫画----
 /\.99770\.cc\/g\//
 /\.99770\.cc\/haodm\/dmjsc\/.*\.js/
@@ -1701,27 +1701,33 @@ bannerad
 /\.tudou\.com\/framepage\//
 /\.tudou\.com\/tdap\//
 !----优酷网----
+##[id^="youku_ad_"]
 ##[id^="ab_"]	$d=soku.com
 ##[id^="ab_"]	$d=youku.com
 ##.sideCol > div[class^="AB"]
 /:\/\/([^\/]+\\.)?f\.youku\.com\/player\/getFlvPath\/fileid\/\.*&yad=1/
-/:\/\/([^\/]+\\.)?valb\.atm\.youku\.com\/valb\?/
-/:\/\/([^\/]+\\.)?vhtml\.atm\.youku\.com\//
 /:\/\/([^\/]+\\.)?t\.stat\.youku\.com\//
 /:\/\/([^\/]+\\.)?hz\.youku\.com\/red\/ggnotice\.php/
-/:\\/\\/([^\\/]+\\.)\?static\.atm\.youku\.com.*jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=http:\/\/count\.atm\.youku/	$w
-/:\/\/([^\/]+\\.)?static\.atm\.youku\.com\/\.*-\.*\.swf\?jsStart=/
-/:\/\/([^\/]+\\.)?vid\.atm\.youku\.com\//
-/:\/\/([^\/]+\\.)?html\.atm\.youku\.com\//
+!atm.youku.com
+!||vid.atm.youku.com/*
+!||vhtml.atm.youku.com/*
+!||html.atm.youku.com/*
 /:\/\/([^\/]+\\.)?static\.atm\.youku\.com\/\.*\/popup\.js/
+/:\/\/([^\/]+\\.)?static\.atm\.youku\.com\/\.*taobao/
+!@@||static.atm.youku.com*jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=http://count.atm.youku*
+!||static.atm.youku.com/*-*.swf?jsStart=*
 !||valf.atm.youku.com/crossdomain.xml
 !||valf.atm.youku.com/valf?*
-/:\/\/([^\/]+\\.)?valf\.atm\.youku\.com\/show\?/
-/:\/\/([^\/]+\\.)?fvid\.atm\.youku\.com\//
-/:\/\/([^\/]+\\.)?walp\.atm\.youku\.com\//
-/:\/\/([^\/]+\\.)?valp\.atm\.youku\.com\/show\?/
-/:\/\/([^\/]+\\.)?valp\.atm\.youku\.com\/valp\?/
-/:\/\/([^\/]+\\.)?valc\.atm\.youku\.com\/valc\?/
+!||valf.atm.youku.com/show?*
+!||fvid.atm.youku.com/*
+!||walp.atm.youku.com/*
+!||valb.atm.youku.com/*
+!||valb.atm.youku.com/valb?*
+!||valp.atm.youku.com/*
+!||valp.atm.youku.com/show?*
+!||valp.atm.youku.com/valp?*
+!||valc.atm.youku.com/*
+!||valc.atm.youku.com/valc?*
 /:\/\/([^\/]+\\.)?static\.atm\.youku\.com\/\.*\/\.*\/\.*_\.*\.jpg/
 /:\/\/([^\/]+\\.)?static\.atm\.youku\.com\/\.*\/\.*\/\.*\/\.*-\.*\.jpg/
 /:\/\/([^\/]+\\.)?static\.atm\.youku\.com\/\.*\/\.*\/\.*x\.*\.jpg/
@@ -1983,10 +1989,11 @@ bannerad
 /:\/\/([^\/]+\\.)?img\.cnbeta\.com\/tongbu\.*\./
 /:\/\/([^\/]+\\.)?img\.cnbeta\.com\/\.*336\.gif/
 /:\/\/([^\/]+\\.)?img\.cnbeta\.com\/app\.*\.gif/
+!----Godaddy域名解析DNS服务器状态----
+/:\/\/([^\/]+\\.)?www\.dnsgua\.com\/image\/namecheap\.png/
+/:\/\/([^\/]+\\.)?www\.dnsgua\.com\/image\/dnspod\.png/
 !----999宝藏网----
 /:\/\/([^\/]+\\.)?www\.rin9\.com\/js\/t1\.js\?/
-!----DNSPod----
-/:\/\/([^\/]+\.)?statics.dnspod.cn\/yantai\/js\//	$w
 !----卡巴一族----
 /:\/\/([^\/]+\\.)?bbs\.kaspersky\.com\.cn\/images\/bbs\//
 !----Norm Team----
@@ -2031,10 +2038,8 @@ bannerad
 /:\/\/([^\/]+\.)?my.ku6.com\/resource\/images\/feed_ad1.jpg/	$w
 /:\/\/([^\/]+\.)?log.*\.ku6\.com\//
 /:\/\/([^\/]+\\.)?www\.ku6\.com\/c\.*\/\.*\/s\.*\/index\.shtml/
-/:\/\/([^\/]+\\.)?dwtracking\.sdo\.com\//
 /\.stat\.ku6\.com\/.*\.xml/
 /:\/\/([^\/]+\\.)?ku6afp\.allyes\.com\//
-/:\/\/([^\/]+\\.)?stat\.aa\.sdo\.com\//
 /stat\.ku6\.com\/.*\.do\?/
 /:\/\/([^\/]+\\.)?gug\.ku6cdn\.com\//
 /:\/\/([^\/]+\\.)?i3\.ku6img\.com\/cms\/index\/\.*\/\.*\/ad\.*\.png/
@@ -3515,7 +3520,14 @@ bannerad
 !----分贝网----
 /fenbei\.com\/ssad5\.gif/
 !----站长.中国----
-/:\/\/([^\/]+\\.)?down\.cnzz\.cn\/zanzhu\//
+##.txt_show	$d=down.cnzz.cn
+##.show_right2.fr.ml20.mt20	$d=down.cnzz.cn
+##.txt_show_right.mb20	$d=down.cnzz.cn
+##B	$d=down.cnzz.cn
+/:\/\/([^\/]+\\.)?down\.cnzz\.cn\/js\/YlFloat\.js/
+/\.cnzz\.cn\/.*zanzhu/
+/\.cnzz\.com\/api\/.*\.js/
+/:\/\/([^\/]+\.)?online.*\.cnzz\.com\/img\//
 /s\.vipcnzz\.com\/api\/s\.php\?/
 /cnzz\.cn\/upload\/.*\.gif/
 /cnzz\.cn\/upload\/.*\/.*\.jpg/
@@ -3590,6 +3602,7 @@ bannerad
 /:\/\/([^\/]+\\.)?zyypva\.blu\.livefilestore\.com\//
 /:\/\/([^\/]+\\.)?zyylva\.blu\.livefilestore\.com\//
 !----免费资源部落----
+/:\/\/([^\/]+\\.)?www\.freehao123\.com\/wp-content\/uploads\/\.*\/uqc\.gif/
 /\.freehao123\.com\/wp-content\/themes\/inews-v2\/image\/y\.gif/
 !----wz05我爱网赚----
 /\.wz05\.com\/wp-content\/themes\/inews-v2\/image\/ads.*x/
@@ -3956,7 +3969,7 @@ bannerad
 /:\/\/([^\/]+\\.)?google\.mmjq\.com\//
 /\.googlesyndication\.com\//
 /\.googleadservices\.com\//
-/\/google\.js/
+!|*/google.js*
 /^https:\/\/.*\/google.*ad.*js/
 /^http:\/\/.*\/google.*ad.*js/
 /:\/\/([^\/]+\.)?partner\.googleadservices\.com/
@@ -4054,6 +4067,9 @@ bannerad
 ##.RightAD	$d=www.qidian.com
 ##[class^="show_ggpic_"]	$d=qidian.com
 ##.DH17	$d=www.qidian.com
+/:\/\/([^\/]+\.)?money.9292wan.com\/money\/js\/money.js/	$w
+/:\/\/([^\/]+\\.)?dwtracking\.sdo\.com\//
+/:\/\/([^\/]+\\.)?stat\.aa\.sdo\.com\//
 /:\/\/([^\/]+\.)?cip\..*\.sdo\.com\//
 /:\/\/([^\/]+\.)?ccc\..*\.sdo\.com\/.*\.js/
 /:\/\/([^\/]+\\.)?c\.pingba\.qidian\.com\/increase\.htm\?/

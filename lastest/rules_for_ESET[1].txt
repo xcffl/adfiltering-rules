@@ -886,7 +886,6 @@ t.yigouw.com/*
 *.chitika.com/*
 *.clickeye*.cn/*
 *.cnxad.com/*
-*.cnzz.com/api/*.js
 *.counter.dudu.com/*
 u.3393.com/*
 *.diyad.cn/*
@@ -1120,7 +1119,6 @@ js.a3p4.com/*
 ads.revsci.net/*
 ulinkdir.tom.com/*
 ulinkjs.tom.com/*
-online*.cnzz.com/img/*
 uimg.unionli.com/*
 *.pagechoice.net/*
 www.lf-lm.com/*
@@ -1322,6 +1320,7 @@ media.fastclick.net*
 *image.j-a-net.jp/*
 *.guruonline.com.hk/*
 *.5ykj.cn/950.jpg
+s1.fanxian.com/images/event/*_fanxian.gif
 *.99770.cc/g/*
 *.99770.cc/haodm/dmjsc/*.js
 *.i99770.com/haodm/dmjsc/*.js
@@ -1570,20 +1569,10 @@ stat*.tudou.com/*
 *.tudou.com/framepage/*
 *.tudou.com/tdap/*
 f.youku.com/player/getFlvPath/fileid/*&yad=1*
-valb.atm.youku.com/valb?*
-vhtml.atm.youku.com/*
 t.stat.youku.com/*
 hz.youku.com/red/ggnotice.php
-static.atm.youku.com/*-*.swf?jsStart=*
-vid.atm.youku.com/*
-html.atm.youku.com/*
 static.atm.youku.com/*/popup.js
-valf.atm.youku.com/show?*
-fvid.atm.youku.com/*
-walp.atm.youku.com/*
-valp.atm.youku.com/show?*
-valp.atm.youku.com/valp?*
-valc.atm.youku.com/valc?*
+static.atm.youku.com/*taobao*
 static.atm.youku.com/*/*/*_*.jpg
 static.atm.youku.com/*/*/*/*-*.jpg
 static.atm.youku.com/*/*/*x*.jpg
@@ -1790,6 +1779,8 @@ img.cnbeta.com/sundns*.*
 img.cnbeta.com/tongbu*.*
 img.cnbeta.com/*336.gif
 img.cnbeta.com/app*.gif
+www.dnsgua.com/image/namecheap.png
+www.dnsgua.com/image/dnspod.png
 www.rin9.com/js/t1.js?*
 bbs.kaspersky.com.cn/images/bbs/*
 img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
@@ -1815,10 +1806,8 @@ js.fengwu.net/baidu/*
 static.acs86.com/*
 log*.ku6.com/*
 www.ku6.com/c*/*/s*/index.shtml
-dwtracking.sdo.com/*
 *.stat.ku6.com/*.xml
 ku6afp.allyes.com/*
-stat.aa.sdo.com/*
 *stat.ku6.com/*.do?*
 gug.ku6cdn.com/*
 i3.ku6img.com/cms/index/*/*/ad*.png
@@ -1997,4 +1986,15 @@ js.auto.msn.com.cn/js/incsearch_a.js
 sup.live.com/*
 *.replays.net/*/rnad/*
 *.sitenoo.com/robot/*x*.gif
+*.2y2r.org/data/attachment/forum/*
+*.xs8.cn/data/iframe/*
+*.xxsy.net/sygg/*
+images.xxsy.net/js/jinisi_show.js
+read.xxsy.net/js/menu/bottom.js
+game.zhulang.com/*
+images.zhulang.com/*.gif
+www.zhulang.com/images/*/*.swf
+images2.zhulang.com/*
+www.zhulang.com/js/pf2.js
+*.zhulang.com/game/*
 

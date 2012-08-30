@@ -1,3 +1,5 @@
+*.zhulang.com/game/*
+css.zhulang.net/js/header.js
 zy.ys168.com/adtp/*
 www.ys168.com/images/*_*.*
 */ys168/*

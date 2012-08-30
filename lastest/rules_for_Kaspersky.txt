@@ -862,6 +862,8 @@ d1.yghua.com/code/*
 *.565882.com/*
 *.91sanguo.cn*
 *.6dad.com/*
+smcommon.allyes.com/*
+smarttrade.allyes.com/*
 *allyes.*/ad*
 *.9elm.cn/*
 *.9v.cn/*

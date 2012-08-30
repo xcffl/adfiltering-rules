@@ -862,6 +862,8 @@
 5,4,*.565882.com/*
 5,4,*.91sanguo.cn*
 5,4,*.6dad.com/*
+5,4,smcommon.allyes.com/*
+5,4,smarttrade.allyes.com/*
 5,4,*allyes.*/ad*
 5,4,*.9elm.cn/*
 5,4,*.9v.cn/*

@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-28 21:56:23
+#Updated:2012-08-30 19:28:06
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -899,7 +899,6 @@ msFilterList
 - *.chitika.com/
 - http://*.clickeye*.cn/
 - *.cnxad.com/
-- *.cnzz.com/api/*.js
 - *.counter.dudu.com/
 -d u.3393.com
 - *.diyad.cn/
@@ -1135,7 +1134,6 @@ msFilterList
 -d ads.revsci.net
 -d ulinkdir.tom.com
 -d ulinkjs.tom.com
-- http://online*.cnzz.com/img/
 -d uimg.unionli.com
 - *.pagechoice.net/
 -d www.lf-lm.com
@@ -1345,6 +1343,8 @@ msFilterList
 #----莲山课件----
 #----我要课件----
 - *.5ykj.cn/950.jpg
+#----返现网----
+-d s1.fanxian.com /images/event/*_fanxian.gif
 #----99770漫画----
 - *.99770.cc/g/
 - *.99770.cc/haodm/dmjsc/*.js
@@ -1609,23 +1609,28 @@ msFilterList
 - *.tudou.com/tdap/
 #----优酷网----
 -d f.youku.com /player/getFlvPath/fileid/*&yad=1
--d valb.atm.youku.com /valb?
--d vhtml.atm.youku.com
 -d t.stat.youku.com
 -d hz.youku.com /red/ggnotice.php
-# @@||static.atm.youku.com*jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=http://count.atm.youku*
--d static.atm.youku.com -*.swf?jsStart=
--d vid.atm.youku.com
--d html.atm.youku.com
+#atm.youku.com
+#||vid.atm.youku.com/*
+#||vhtml.atm.youku.com/*
+#||html.atm.youku.com/*
 -d static.atm.youku.com /popup.js
+-d static.atm.youku.com taobao
+#@@||static.atm.youku.com*jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=http://count.atm.youku*
+#||static.atm.youku.com/*-*.swf?jsStart=*
 #||valf.atm.youku.com/crossdomain.xml
 #||valf.atm.youku.com/valf?*
--d valf.atm.youku.com /show?
--d fvid.atm.youku.com
--d walp.atm.youku.com
--d valp.atm.youku.com /show?
--d valp.atm.youku.com /valp?
--d valc.atm.youku.com /valc?
+#||valf.atm.youku.com/show?*
+#||fvid.atm.youku.com/*
+#||walp.atm.youku.com/*
+#||valb.atm.youku.com/*
+#||valb.atm.youku.com/valb?*
+#||valp.atm.youku.com/*
+#||valp.atm.youku.com/show?*
+#||valp.atm.youku.com/valp?*
+#||valc.atm.youku.com/*
+#||valc.atm.youku.com/valc?*
 -d static.atm.youku.com /*/*_*.jpg
 -d static.atm.youku.com /*/*/*-*.jpg
 -d static.atm.youku.com /*/*x*.jpg
@@ -1879,10 +1884,11 @@ msFilterList
 -d img.cnbeta.com /tongbu*.
 -d img.cnbeta.com 336.gif
 -d img.cnbeta.com /app*.gif
+#----Godaddy域名解析DNS服务器状态----
+-d www.dnsgua.com /image/namecheap.png
+-d www.dnsgua.com /image/dnspod.png
 #----999宝藏网----
 -d www.rin9.com /js/t1.js?
-#----DNSPod----
-+d statics.dnspod.cn /yantai/js/
 #----卡巴一族----
 -d bbs.kaspersky.com.cn /images/bbs/
 #----Norm Team----
@@ -1921,10 +1927,8 @@ msFilterList
 +d my.ku6.com /resource/images/feed_ad1.jpg
 - http://log*.ku6.com/
 -d www.ku6.com /c*/*/s*/index.shtml
--d dwtracking.sdo.com
 - *.stat.ku6.com/*.xml
 -d ku6afp.allyes.com
--d stat.aa.sdo.com
 - *stat.ku6.com/*.do?
 -d gug.ku6cdn.com
 -d i3.ku6img.com /cms/index/*/*/ad*.png
@@ -3330,7 +3334,10 @@ msFilterList
 #----分贝网----
 - *fenbei.com/ssad5.gif
 #----站长.中国----
--d down.cnzz.cn /zanzhu/
+-d down.cnzz.cn /js/YlFloat.js
+- *.cnzz.cn/*zanzhu
+- *.cnzz.com/api/*.js
+- http://online*.cnzz.com/img/
 - *s.vipcnzz.com/api/s.php?
 - *cnzz.cn/upload/*.gif
 - *cnzz.cn/upload/*/*.jpg
@@ -3402,6 +3409,7 @@ msFilterList
 -d zyypva.blu.livefilestore.com
 -d zyylva.blu.livefilestore.com
 #----免费资源部落----
+-d www.freehao123.com /wp-content/uploads/*/uqc.gif
 - *.freehao123.com/wp-content/themes/inews-v2/image/y.gif
 #----wz05我爱网赚----
 - *.wz05.com/wp-content/themes/inews-v2/image/ads*x
@@ -3766,7 +3774,7 @@ msFilterList
 -d google.mmjq.com
 - *.googlesyndication.com/
 - *.googleadservices.com/
-- */google.js
+#|*/google.js*
 - https://*/google*ad*js
 - http://*/google*ad*js
 - http://partner.googleadservices.com
@@ -3838,6 +3846,9 @@ msFilterList
 #----新蛋中国----
 -d c1.neweggimages.com.cn /neweggpic*/Marketing/*/bocapple/
 #----盛大在线&起点中文网----
++d money.9292wan.com /money/js/money.js
+-d dwtracking.sdo.com
+-d stat.aa.sdo.com
 - http://cip.*.sdo.com/
 - http://ccc.*.sdo.com/*.js
 -d c.pingba.qidian.com /increase.htm?

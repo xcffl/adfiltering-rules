@@ -894,7 +894,6 @@ t.yigouw.com/*
 *.chitika.com/*
 *.clickeye*.cn/*
 *.cnxad.com/*
-*.cnzz.com/api/*.js
 *.counter.dudu.com/*
 u.3393.com/*
 *.diyad.cn/*
@@ -1128,7 +1127,6 @@ js.a3p4.com/*
 ads.revsci.net/*
 ulinkdir.tom.com/*
 ulinkjs.tom.com/*
-online*.cnzz.com/img/*
 uimg.unionli.com/*
 *.pagechoice.net/*
 www.lf-lm.com/*
@@ -1330,6 +1328,7 @@ media.fastclick.net*
 *image.j-a-net.jp/*
 *.guruonline.com.hk/*
 *.5ykj.cn/950.jpg
+s1.fanxian.com/images/event/*_fanxian.gif
 *.99770.cc/g/*
 *.99770.cc/haodm/dmjsc/*.js
 *.i99770.com/haodm/dmjsc/*.js
@@ -1578,20 +1577,10 @@ stat*.tudou.com/*
 *.tudou.com/framepage/*
 *.tudou.com/tdap/*
 f.youku.com/player/getFlvPath/fileid/*&yad=1*
-valb.atm.youku.com/valb?*
-vhtml.atm.youku.com/*
 t.stat.youku.com/*
 hz.youku.com/red/ggnotice.php
-static.atm.youku.com/*-*.swf?jsStart=*
-vid.atm.youku.com/*
-html.atm.youku.com/*
 static.atm.youku.com/*/popup.js
-valf.atm.youku.com/show?*
-fvid.atm.youku.com/*
-walp.atm.youku.com/*
-valp.atm.youku.com/show?*
-valp.atm.youku.com/valp?*
-valc.atm.youku.com/valc?*
+static.atm.youku.com/*taobao*
 static.atm.youku.com/*/*/*_*.jpg
 static.atm.youku.com/*/*/*/*-*.jpg
 static.atm.youku.com/*/*/*x*.jpg
@@ -1798,6 +1787,8 @@ img.cnbeta.com/sundns*.*
 img.cnbeta.com/tongbu*.*
 img.cnbeta.com/*336.gif
 img.cnbeta.com/app*.gif
+www.dnsgua.com/image/namecheap.png
+www.dnsgua.com/image/dnspod.png
 www.rin9.com/js/t1.js?*
 bbs.kaspersky.com.cn/images/bbs/*
 img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
@@ -1823,10 +1814,8 @@ js.fengwu.net/baidu/*
 static.acs86.com/*
 log*.ku6.com/*
 www.ku6.com/c*/*/s*/index.shtml
-dwtracking.sdo.com/*
 *.stat.ku6.com/*.xml
 ku6afp.allyes.com/*
-stat.aa.sdo.com/*
 *stat.ku6.com/*.do?*
 gug.ku6cdn.com/*
 i3.ku6img.com/cms/index/*/*/ad*.png
@@ -2797,7 +2786,10 @@ counter.pixplug.in/count.php
 www.yindaoxian.com/*up-pic/*
 my.wmvpn.com/images/*
 *fenbei.com/ssad5.gif
-down.cnzz.cn/zanzhu/*
+down.cnzz.cn/js/YlFloat.js
+*.cnzz.cn/*zanzhu*
+*.cnzz.com/api/*.js
+online*.cnzz.com/img/*
 *s.vipcnzz.com/api/s.php?*
 *cnzz.cn/upload/*.gif
 *cnzz.cn/upload/*/*.jpg
@@ -2843,6 +2835,7 @@ img170.poco.cn/mypoco/myphoto/20120319/18/6442645220120319181917096.gif
 tuan.cnscg.com/img/3dtv.jpg
 zyypva.blu.livefilestore.com/*
 zyylva.blu.livefilestore.com/*
+www.freehao123.com/wp-content/uploads/*/uqc.gif
 *.freehao123.com/wp-content/themes/inews-v2/image/y.gif
 *.wz05.com/wp-content/themes/inews-v2/image/ads*x*
 *.zhujiwu.com/js/*
@@ -3051,7 +3044,6 @@ www.googletagservices.com/*
 google.mmjq.com/*
 *.googlesyndication.com/*
 *.googleadservices.com/*
-*/google.js*
 https://*/google*ad*js*
 */google*ad*js*
 partner.googleadservices.com*
@@ -3117,6 +3109,8 @@ po.im.alisoft.com/*
 pic.xp500.com/img/xitong.gif
 g.webgame.com.cn/*
 c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
+dwtracking.sdo.com/*
+stat.aa.sdo.com/*
 cip.*.sdo.com/*
 ccc.*.sdo.com/*.js
 c.pingba.qidian.com/increase.htm?*

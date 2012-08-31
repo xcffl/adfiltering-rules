@@ -1155,7 +1155,7 @@
 5,4,www.0731s.net/*
 5,4,www.101860.com/*
 5,4,www.18dmm.com/*
-5,4,resmkt.dipan.com^$image,~image,popup,third-party
+5,4,resmkt.dipan.com/*
 5,4,www.2myad.com/*
 5,4,www.52xmm.cn/*
 5,4,www.59.cn/*/*gg/*
@@ -1749,6 +1749,8 @@
 5,4,bbs.ruian.com/img/c*-*-*_*x*.gif
 5,4,bbs.ruian.com/img/gd_*x*.gif
 5,4,www.downyi.com/css/ad.css
+5,4,www.jdcjsr.com/picture/jdcgg/*
+5,4,www.jdcjsr.com/images/0.gif
 5,4,*cnenf.com/images/*.jpg
 5,4,*cnenf.com/images/ad*.gif
 5,4,*.safeba.net/images/a*.jpg
@@ -1758,6 +1760,7 @@
 5,4,dm.sxcnw.net/pic/*.jpg
 5,4,www.3chu.com/salegm/files/images/*/*/*-*-*-*.gif
 5,4,www.3chu.com/salegm/files/images/*/*/*-*-*-*.jpg
+5,4,*.gfan.com/press/*
 5,4,*.flvcd.com/image/partner/*
 5,4,img.cnbeta.com/*300.gif
 5,4,img.cnbeta.com/*336.jpg
@@ -1853,6 +1856,7 @@
 5,4,*.kafan.cn/static/kafan_bd/*
 5,4,static.ikafan.com/kafan_bd/*
 5,4,static.ikafan.com/kafan_img/*
+5,4,www.rayli.com.cn/newdcy/*fushijs/yhjads*.js
 5,4,images.17173.com/*/www/*/*/*-*-*.swf
 5,4,i1.17173.itc.cn/*/www/*/*/*-*-*.*
 5,4,i3.17173.itc.cn/*/www/*/*/*-*-*.*

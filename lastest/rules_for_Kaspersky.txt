@@ -1155,7 +1155,7 @@ u.taotaosou.com/*
 www.0731s.net/*
 www.101860.com/*
 www.18dmm.com/*
-resmkt.dipan.com^
+resmkt.dipan.com/*
 www.2myad.com/*
 www.52xmm.cn/*
 www.59.cn/*/*gg/*
@@ -1749,6 +1749,8 @@ images.chinaz.com/newindex_images/*
 bbs.ruian.com/img/c*-*-*_*x*.gif
 bbs.ruian.com/img/gd_*x*.gif
 www.downyi.com/css/ad.css
+www.jdcjsr.com/picture/jdcgg/*
+www.jdcjsr.com/images/0.gif
 *cnenf.com/images/*.jpg
 *cnenf.com/images/ad*.gif
 *.safeba.net/images/a*.jpg
@@ -1758,6 +1760,7 @@ dm.sxcnw.net/pic/*.gif
 dm.sxcnw.net/pic/*.jpg
 www.3chu.com/salegm/files/images/*/*/*-*-*-*.gif
 www.3chu.com/salegm/files/images/*/*/*-*-*-*.jpg
+*.gfan.com/press/*
 *.flvcd.com/image/partner/*
 img.cnbeta.com/*300.gif
 img.cnbeta.com/*336.jpg
@@ -1853,6 +1856,7 @@ static.ikafan.com/a/yuekan.js
 *.kafan.cn/static/kafan_bd/*
 static.ikafan.com/kafan_bd/*
 static.ikafan.com/kafan_img/*
+www.rayli.com.cn/newdcy/*fushijs/yhjads*.js
 images.17173.com/*/www/*/*/*-*-*.swf
 i1.17173.itc.cn/*/www/*/*/*-*-*.*
 i3.17173.itc.cn/*/www/*/*/*-*-*.*

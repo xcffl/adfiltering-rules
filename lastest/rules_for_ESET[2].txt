@@ -1,3 +1,7 @@
+read.xxsy.net/js/menu/bottom.js
+game.zhulang.com/*
+images.zhulang.com/*.gif
+www.zhulang.com/images/*/*.swf
 images2.zhulang.com/*
 www.zhulang.com/js/pf2.js
 *.zhulang.com/game/*

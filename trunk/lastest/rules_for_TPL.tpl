@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-08-30 22:00:41
+#Updated:2012-08-31 11:23:40
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1171,7 +1171,7 @@ msFilterList
 -d www.0731s.net
 -d www.101860.com
 -d www.18dmm.com
-# ||resmkt.dipan.com^$image,~image,popup,third-party
+-d resmkt.dipan.com
 -d www.2myad.com
 -d www.52xmm.cn
 -d www.59.cn /*gg/
@@ -1848,6 +1848,9 @@ msFilterList
 -d bbs.ruian.com /img/gd_*x*.gif
 #----当易网----
 -d www.downyi.com /css/ad.css
+#----机动车驾驶人信息服务网----
+-d www.jdcjsr.com /picture/jdcgg/
+-d www.jdcjsr.com /images/0.gif
 #----免费中国----
 - *cnenf.com/images/*.jpg
 - *cnenf.com/images/ad*.gif
@@ -1862,6 +1865,8 @@ msFilterList
 #----三楚网----
 -d www.3chu.com /salegm/files/images/*/*/*-*-*-*.gif
 -d www.3chu.com /salegm/files/images/*/*/*-*-*-*.jpg
+#----机锋----
+- *.gfan.com/press/
 #----FLvcd----
 - *.flvcd.com/image/partner/
 #----cnBeta----
@@ -1988,6 +1993,8 @@ msFilterList
 - *.kafan.cn/static/kafan_bd/
 -d static.ikafan.com /kafan_bd/
 -d static.ikafan.com /kafan_img/
+#----瑞丽网----
+-d www.rayli.com.cn /newdcy/*fushijs/yhjads*.js
 #----17173----
 -d images.17173.com /www/*/*/*-*-*.swf
 -d i1.17173.itc.cn /www/*/*/*-*-*.

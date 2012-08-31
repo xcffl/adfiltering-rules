@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-08-30 22:00:41
+!Updated:2012-08-31 11:23:40
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.xcffl.tk/trunk/lastest/rules_for_liebao.txt
@@ -1235,7 +1235,7 @@ bannerad
 /:\/\/([^\/]+\\.)?www\.0731s\.net\//
 /:\/\/([^\/]+\\.)?www\.101860\.com\//
 /:\/\/([^\/]+\\.)?www\.18dmm\.com\//
-/:\/\/([^\/]+\.)?resmkt\.dipan\.com\//	$t=image,~image,popup,third-party,$w
+/:\/\/([^\/]+\\.)?resmkt\.dipan\.com\//
 /:\/\/([^\/]+\\.)?www\.2myad\.com\//
 /:\/\/([^\/]+\\.)?www\.52xmm\.cn\//
 /:\/\/([^\/]+\\.)?www\.59\.cn\/\.*\/\.*gg\//
@@ -1952,6 +1952,12 @@ bannerad
 /:\/\/([^\/]+\\.)?bbs\.ruian\.com\/img\/gd_\.*x\.*\.gif/
 !----当易网----
 /:\/\/([^\/]+\\.)?www\.downyi\.com\/css\/ad\.css/
+!----机动车驾驶人信息服务网----
+##.gg1	$d=jdcjsr.com
+##DIV[onclick^="ad_clicked"]	$d=jdcjsr.com
+##.clearfix.mt10	$d=jdcjsr.com
+/:\/\/([^\/]+\\.)?www\.jdcjsr\.com\/picture\/jdcgg\//
+/:\/\/([^\/]+\\.)?www\.jdcjsr\.com\/images\/0\.gif/
 !----免费中国----
 /cnenf\.com\/images\/.*\.jpg/
 /cnenf\.com\/images\/ad.*\.gif/
@@ -1966,6 +1972,10 @@ bannerad
 !----三楚网----
 /:\/\/([^\/]+\\.)?www\.3chu\.com\/salegm\/files\/images\/\.*\/\.*\/\.*-\.*-\.*-\.*\.gif/
 /:\/\/([^\/]+\\.)?www\.3chu\.com\/salegm\/files\/images\/\.*\/\.*\/\.*-\.*-\.*-\.*\.jpg/
+!----机锋----
+##.banner	$d=www.gfan.com
+##floatAd	$d=gfan.com
+/\.gfan\.com\/press\//
 !----FLvcd----
 /\.flvcd\.com\/image\/partner\//
 !----cnBeta----
@@ -2103,6 +2113,8 @@ bannerad
 /\.kafan\.cn\/static\/kafan_bd\//
 /:\/\/([^\/]+\\.)?static\.ikafan\.com\/kafan_bd\//
 /:\/\/([^\/]+\\.)?static\.ikafan\.com\/kafan_img\//
+!----瑞丽网----
+/:\/\/([^\/]+\\.)?www\.rayli\.com\.cn\/newdcy\/\.*fushijs\/yhjads\.*\.js/
 !----17173----
 /:\/\/([^\/]+\\.)?images\.17173\.com\/\.*\/www\/\.*\/\.*\/\.*-\.*-\.*\.swf/
 /:\/\/([^\/]+\\.)?i1\.17173\.itc\.cn\/\.*\/www\/\.*\/\.*\/\.*-\.*-\.*\./

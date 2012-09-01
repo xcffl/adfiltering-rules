@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-01 16:41:06
+#Updated:2012-09-01 20:37:38
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1512,6 +1512,8 @@ msFilterList
 -d 220.181.61.231 /get.gif?
 -d gm.changyou.com /css/ads-slide.css
 -d gm.changyou.com /js/ADSlide.js
+- *.sogou.com/js/pb_*.js
+-d pb.sogou.com .gif
 -d image.p4p.sogou.com /picad/
 -d brand.sogou.com
 - *sogou.com/textlink
@@ -1596,7 +1598,6 @@ msFilterList
 -d istat.tudou.com /play.srv?
 -d player.pb.ops.tudou.com /info.php?
 - http://stat*.tudou.com/
--d player.lstat.youku.com /log.gif
 -d erreport.tudou.com
 - */tui/*js
 - *.tudou.com/service/outside.php
@@ -1611,6 +1612,7 @@ msFilterList
 -d v2.tudou.com /td*/
 - *.tudou.com/framepage/
 #----优酷网----
+-d player.lstat.youku.com /log.gif
 -d f.youku.com /player/get*/fileid/*&yad=1
 -d t.stat.youku.com
 -d static.atm.youku.com /allyes.html
@@ -1950,6 +1952,9 @@ msFilterList
 #----异次元软件世界&iPc.me----
 -d www.iplaysoft.com /plus/static_files/nuffnang.html
 #----中关村在线&中关村在线武汉站----
+-d icon.zol-img.com.cn /public/js/web_foot.js
+-d p.zol-img.com.cn
+-d dw.cbsi.com.cn /clear/*c.gif?
 - *.zol.com.cn/js/setcook.js
 -d stat.zol.com.cn /ol.js
 -d js.zol.com.cn /p.ht?
@@ -2919,6 +2924,7 @@ msFilterList
 #----网赚信息站----
 - *pc152.cn/upload_files/article/
 - *pc152.cn/upload_files/label/
+#----免费集中营----
 #----中国站长天空----
 - *zzsky.cn/images/huangjinlian.gif
 - *zzsky.cn/images/jiboli.gif

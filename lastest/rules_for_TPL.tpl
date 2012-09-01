@@ -1,12 +1,11 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-01 15:21:29
+#Updated:2012-09-01 16:05:33
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
 : Expires=7
-# Redirect: http://rules.xcffl.tk/trunk/lastest/rules_for_ABP.txt
 #-------------通用规则-------------
 #------元素隐藏规则------
 #------广告过滤规则------
@@ -2129,6 +2128,7 @@ msFilterList
 -d img.hexun.com /hx_news/hx_news_finalpage.js
 -d hxjs.tool.hexun.com /homeway/pagemediacontrol*.js
 -d blog.hexun.com /inc/popbox.aspx
+#----MyException.cn----
 #----皇马球迷俱乐部论坛----
 -d img.rmfans.cn /g/
 -d ww2.sinaimg.cn /large/70aeb54ejw1dne8ifzz7ig.gif
@@ -2805,6 +2805,7 @@ msFilterList
 #----无忧冒险岛----
 -d bbs.51mxd.com /business/
 #----慧聪网----
+-d www.it.hc360.com /js/endpage/endpage_*.js
 -d www.hc360.com /js/*public.js
 #----东莞网盟----
 - *dgwblm.com/amoney/

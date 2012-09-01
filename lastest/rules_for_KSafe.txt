@@ -2425,6 +2425,7 @@
 5,4,*.cnhubei.com/gg_*/sptlggz_*/tlfyb_*/*/*.jpg
 5,4,*.lqdown.com/baobao/*
 5,4,bbs.51mxd.com/business/*
+5,4,www.it.hc360.com/js/endpage/endpage_*.js
 5,4,www.hc360.com/js/*public.js
 5,4,*dgwblm.com/amoney/*
 5,4,www.bai68.com/top/*

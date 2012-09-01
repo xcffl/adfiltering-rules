@@ -2433,6 +2433,7 @@ www.beautyfuns.com/wp-content/uploads/*/yiyeqing.gif
 *.cnhubei.com/gg_*/sptlggz_*/tlfyb_*/*/*.jpg
 *.lqdown.com/baobao/*
 bbs.51mxd.com/business/*
+www.it.hc360.com/js/endpage/endpage_*.js
 www.hc360.com/js/*public.js
 *dgwblm.com/amoney/*
 www.bai68.com/top/*

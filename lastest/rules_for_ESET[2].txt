@@ -1,3 +1,8 @@
+*.replays.net/*/rnad/*
+*.sitenoo.com/robot/*x*.gif
+*.2y2r.org/data/attachment/forum/*
+*.xs8.cn/data/iframe/*
+*.xxsy.net/sygg/*
 images.xxsy.net/js/jinisi_show.js
 read.xxsy.net/js/menu/bottom.js
 game.zhulang.com/*

@@ -1478,6 +1478,8 @@
 5,4,220.181.61.231/get.gif?*
 5,4,gm.changyou.com/css/ads-slide.css
 5,4,gm.changyou.com/js/ADSlide.js
+5,4,*.sogou.com/js/pb_*.js
+5,4,pb.sogou.com/*.gif*
 5,4,image.p4p.sogou.com/picad/*
 5,4,brand.sogou.com/*
 5,4,*sogou.com/textlink*
@@ -1557,7 +1559,6 @@
 5,4,istat.tudou.com/play.srv?*
 5,4,player.pb.ops.tudou.com/info.php?*
 5,4,stat*.tudou.com/*
-5,4,player.lstat.youku.com/log.gif
 5,4,erreport.tudou.com/*
 5,4,*/tui/*js*
 5,4,*.tudou.com/service/outside.php
@@ -1571,6 +1572,7 @@
 5,4,js.tudouui.com/bin/tudoumini/tudoumini_*.swf
 5,4,v2.tudou.com/td*/*
 5,4,*.tudou.com/framepage/*
+5,4,player.lstat.youku.com/log.gif*
 5,4,f.youku.com/player/get*/fileid/*&yad=1*
 5,4,t.stat.youku.com/*
 5,4,static.atm.youku.com/*/allyes.html
@@ -1825,6 +1827,9 @@
 5,4,image.ku6.com/image/*
 5,4,image.ku6.com/*888*/*
 5,4,www.iplaysoft.com/plus/static_files/nuffnang.html
+5,4,icon.zol-img.com.cn/public/js/web_foot.js
+5,4,p.zol-img.com.cn/*
+5,4,dw.cbsi.com.cn/clear/*c.gif?*
 5,4,*.zol.com.cn/js/setcook.js
 5,4,stat.zol.com.cn/ol.js
 5,4,js.zol.com.cn/p.ht?*

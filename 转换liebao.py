@@ -523,13 +523,13 @@ def writeRule(filePath, lines):
               
           
           
-          line = re.sub(r'\*', '.*', line)          
+                    
           line = re.sub(r'\\\.\\\.', '\.', line)
           line = re.sub(r'\?', '\?', line)          
           line = re.sub(r'domain\=', 'd=', line)
           line = re.sub(r'\,d\=', ',$d=', line)
           line = re.sub(r'\^','\/', line)
-          #line = re.sub(r'\$d\=', '  $d=', line)
+          #line = re.sub(r'\$d\=', '  $d=', line)          
           line = '/:\/\/([^\/]+\.)?%s%s/%s' % ( domain, line, '	$w' if  isException  else '')         
           if re.search(r'\$w\/$', line):
             line = re.sub(r'\/$','', line)
@@ -550,7 +550,7 @@ def writeRule(filePath, lines):
               line = re.sub(r'\.(?=.*\S\$)', '\.', line)
             else:
               line = re.sub(r'\.','\.', line)
-          
+          line = re.sub(r'\*', '.*', line)
           result.append(line)
         elif isException:
           # 没有域的例外规则

@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-09-01 15:21:29
+!Updated:2012-09-01 16:05:33
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.xcffl.tk/trunk/lastest/rules_for_liebao.txt
@@ -2259,6 +2259,8 @@ bannerad
 /:\/\/([^\/]+\\.)?img\.hexun\.com\/hx_news\/hx_news_finalpage\.js/
 /:\/\/([^\/]+\\.)?hxjs\.tool\.hexun\.com\/homeway\/pagemediacontrol.*\.js/
 /:\/\/([^\/]+\\.)?blog\.hexun\.com\/inc\/popbox\.aspx/
+!----MyException.cn----
+##[class^="c_r_a c_r_"]	$d=myexception.cn
 !----皇马球迷俱乐部论坛----
 /:\/\/([^\/]+\\.)?img\.rmfans\.cn\/g\//
 /:\/\/([^\/]+\\.)?ww2\.sinaimg\.cn\/large\/70aeb54ejw1dne8ifzz7ig\.gif/
@@ -2983,6 +2985,8 @@ bannerad
 !----无忧冒险岛----
 /:\/\/([^\/]+\\.)?bbs\.51mxd\.com\/business\//
 !----慧聪网----
+##endAdBanner	$d=info.it.hc360.com
+/:\/\/([^\/]+\\.)?www\.it\.hc360\.com\/js\/endpage\/endpage_.*\.js/
 /:\/\/([^\/]+\\.)?www\.hc360\.com\/js\/.*public\.js/
 !----东莞网盟----
 /dgwblm\.com\/amoney\//

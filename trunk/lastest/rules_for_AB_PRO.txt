@@ -1,7 +1,7 @@
 [General]
 version=513
 name=广告过滤软件通用强效广告过滤规则 for AB Pro
-updateUrl=http://rules.xcffl.tk/trunk/lastest/rules_for_AB_PRO.txt
+updateUrl=http://rules.xcffl.tk/svn/trunk/lastest/rules_for_AB_PRO.txt
 updateTime=1
 [Whitelist]
 [Block Address]

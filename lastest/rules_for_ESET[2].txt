@@ -1,3 +1,4 @@
+images.xxsy.net/js/jinisi_show.js
 read.xxsy.net/js/menu/bottom.js
 game.zhulang.com/*
 images.zhulang.com/*.gif
@@ -1071,6 +1072,7 @@ cbjs.baidu.com/*
 utk.baidu.com/usv/*
 eiv.baidu.com/*
 nsclick.baidu.com/*
+cpro.baidustatic.com/*
 cpro.baidu.com/*
 chunjie.baidu.com/img/nsmb*
 chunjie.baidu.com/img/nbigb*

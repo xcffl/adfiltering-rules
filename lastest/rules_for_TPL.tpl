@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-01 16:05:33
+#Updated:2012-09-01 16:41:06
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.3
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1590,25 +1590,26 @@ msFilterList
 - *.union.youdao.com/
 - http://impservice*.youdao.com/
 #----土豆网----
--d td.atm.youku.com /tdcm/adcontrol
-- http://tdap.tudou.com
+- */pos?act=dur&dk=
+- */pos?f=*.f4v&
+-d td.atm.youku.com /tdap/adcommon?
+-d istat.tudou.com /play.srv?
+-d player.pb.ops.tudou.com /info.php?
+- http://stat*.tudou.com/
+-d player.lstat.youku.com /log.gif
+-d erreport.tudou.com
 - */tui/*js
+- *.tudou.com/service/outside.php
 -d stat.tudou.com /play.srv
 - *.p2v.tudou.com
--d tdcm.tudou.com
 -d adcontorl.tudou.com
 -d js.tudouui.com /bin/tmp/
 -d js.tudouui.com /bin/other/channelad_*.swf
 -d js.tudouui.com /bin/player_online/renhe_*.swf
 -d js.tudouui.com /bin/seedplayer_*.swf
 -d js.tudouui.com /bin/tudoumini/tudoumini_*.swf
-- *.tudou.com/tdcm/
-- *.tdimg.com/sales/
 -d v2.tudou.com /td*/
-- *.tudou.com/*/outside.php?
-- http://stat*.tudou.com/
 - *.tudou.com/framepage/
-- *.tudou.com/tdap/
 #----优酷网----
 -d f.youku.com /player/get*/fileid/*&yad=1
 -d t.stat.youku.com
@@ -3815,6 +3816,7 @@ msFilterList
 -d utk.baidu.com /usv/
 -d eiv.baidu.com
 -d nsclick.baidu.com
+-d cpro.baidustatic.com
 -d cpro.baidu.com
 -d chunjie.baidu.com /img/nsmb
 -d chunjie.baidu.com /img/nbigb

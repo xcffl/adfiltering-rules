@@ -2253,7 +2253,6 @@
 5,4,log.17k.com/*
 5,4,img.17k.com/js/jquery*.js
 5,4,img3.douban.com/js/boomerang.js*
-5,4,img3.douban.com/js/packed_ad*
 5,4,erebor.douban.com/?unit=*
 5,4,erebor.douban.com/count/?ad=*
 5,4,erebor.douban.com/redirect/?ad=*

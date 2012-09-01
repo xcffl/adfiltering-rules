@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-09-01 16:05:33
+!Updated:2012-09-01 16:41:06
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.xcffl.tk/trunk/lastest/rules_for_liebao.txt
@@ -11,6 +11,7 @@
 !------元素隐藏规则------
 ##.top_ad
 ###right_ad
+##.ad_banner
 ##.wide_ads
 ###ad_wrap
 ###adbottom
@@ -1683,25 +1684,27 @@ bannerad
 /\.union\.youdao\.com\//
 /:\/\/([^\/]+\.)?impservice.*\.youdao\.com\//
 !----土豆网----
-/:\/\/([^\/]+\\.)?td\.atm\.youku\.com\/tdcm\/adcontrol/
-/:\/\/([^\/]+\.)?tdap\.tudou\.com/
+##adex_board	$d=tudou.com
+/\/pos\?act=dur&dk=/
+/\/pos\?f=.*\.f4v&/
+/:\/\/([^\/]+\\.)?td\.atm\.youku\.com\/tdap\/adcommon\?/
+/:\/\/([^\/]+\\.)?istat\.tudou\.com\/play\.srv\?/
+/:\/\/([^\/]+\\.)?player\.pb\.ops\.tudou\.com\/info\.php\?/
+/:\/\/([^\/]+\.)?stat.*\.tudou\.com\//
+/:\/\/([^\/]+\\.)?player\.lstat\.youku\.com\/log\.gif/
+/:\/\/([^\/]+\\.)?erreport\.tudou\.com\//
 /\/tui\/.*js/
+/\.tudou\.com\/service\/outside\.php/
 /:\/\/([^\/]+\\.)?stat\.tudou\.com\/play\.srv/
 /\.p2v\.tudou\.com/
-/:\/\/([^\/]+\\.)?tdcm\.tudou\.com\//
 /:\/\/([^\/]+\\.)?adcontorl\.tudou\.com\//
 /:\/\/([^\/]+\\.)?js\.tudouui\.com\/bin\/tmp\//
 /:\/\/([^\/]+\\.)?js\.tudouui\.com\/bin\/other\/channelad_.*\.swf/
 /:\/\/([^\/]+\\.)?js\.tudouui\.com\/bin\/player_online\/renhe_.*\.swf/
 /:\/\/([^\/]+\\.)?js\.tudouui\.com\/bin\/seedplayer_.*\.swf/
 /:\/\/([^\/]+\\.)?js\.tudouui\.com\/bin\/tudoumini\/tudoumini_.*\.swf/
-/\.tudou\.com\/tdcm\//
-/\.tdimg\.com\/sales\//
 /:\/\/([^\/]+\\.)?v2\.tudou\.com\/td.*\//
-/\.tudou\.com\/.*\/outside\.php\?/
-/:\/\/([^\/]+\.)?stat.*\.tudou\.com\//
 /\.tudou\.com\/framepage\//
-/\.tudou\.com\/tdap\//
 !----优酷网----
 ##[id^="youku_ad_"]
 ##[id^="ab_"]	$d=soku.com
@@ -4038,6 +4041,7 @@ bannerad
 /:\/\/([^\/]+\\.)?utk\.baidu\.com\/usv\//
 /:\/\/([^\/]+\\.)?eiv\.baidu\.com\//
 /:\/\/([^\/]+\\.)?nsclick\.baidu\.com\//
+/:\/\/([^\/]+\\.)?cpro\.baidustatic\.com\//
 /:\/\/([^\/]+\\.)?cpro\.baidu\.com\//
 /:\/\/([^\/]+\\.)?chunjie\.baidu\.com\/img\/nsmb/
 /:\/\/([^\/]+\\.)?chunjie\.baidu\.com\/img\/nbigb/

@@ -2253,7 +2253,6 @@ img.17k.com/channel/flash/*.swf
 log.17k.com/*
 img.17k.com/js/jquery*.js
 img3.douban.com/js/boomerang.js*
-img3.douban.com/js/packed_ad*
 erebor.douban.com/?unit=*
 erebor.douban.com/count/?ad=*
 erebor.douban.com/redirect/?ad=*

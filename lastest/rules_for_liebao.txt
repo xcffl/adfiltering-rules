@@ -1,11 +1,11 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-09-01 21:23:45
+!Updated:2012-09-01 22:22:07
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.xcffl.tk/svn/trunk/lastest/rules_for_liebao.txt
-!版本_5.1.3
+!版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
 !-------------通用规则-------------
 !------元素隐藏规则------
@@ -3735,6 +3735,8 @@ bannerad
 /:\/\/([^\/]+\.)?bbs\.a9vg\.com\/shop\/js\.php/
 /:\/\/([^\/]+\.)?bbs\.a9vg\.com\/showit\/img_show\.php/
 !----游侠网----
+##.bannergg_all	$d=ali213.net
+##.newright	$d=ali213.net
 /:\/\/([^\/]+\.)?bmp\.ali213\.net\//
 !----wg818小游戏----
 /wg818\.com\/468x60\.gif/

@@ -125,7 +125,7 @@ h2
 	width:100% !important;
 	height:40px;
 	margin-bottom:-1px;
-	overflow:hidden;
+	overflow:auto;
 }
 
 .st_horizontal .st_slide_container { /* Tabs slide-container */
@@ -192,13 +192,13 @@ h2
 	padding:20px 20px 23px; /* Set the padding for the content here */
 	border:1px solid #d4d4d4;
 	background-color:#fff;
-	overflow:hidden; /* To make the content scroll if Javascript is disabled, set to: auto */
+	overflow:auto; /* To make the content scroll if Javascript is disabled, set to: auto */
 }
 
 .st_horizontal .st_view { /* Slide-container for the content */
 	position:relative;
 	height:100%;
-	overflow:hidden;
+	overflow:auto;
 }
 
 .st_horizontal .st_tab_view { /* Individual content containers */
@@ -285,40 +285,37 @@ var g_actionurl="/";</script>
   <blockquote>
     <p> 在本页可订阅广告强效过滤规则。这是一个通用、全面的广告过滤规则，适用于大多数广告过滤软件。在每个标签页中都有详尽的订阅教程，请选择您使用的广告过滤软件进行获取。</p>
     <p>  本次获取后，订阅的规则将持续自动更新到最新版，无需重新订阅；下载的规则在每次更新后需要手动重新下载以更新。</p>
-    <p>  让使用更加方便、简单，网页浏览更加清爽。<em>如果您也喜欢它，就请支持我们并分享这个规则吧。</em>
-<!-- Baidu Button BEGIN -->
-    <div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
-        <a class="bds_qzone"></a>
-        <a class="bds_tsina"></a>
-        <a class="bds_tqq"></a>
-        <a class="bds_renren"></a>
-        <span class="bds_more">更多</span>
-		<a class="shareCount"></a>
-    </div>
-<script type="text/javascript" id="bdshare_js" data="type=tools&amp;mini=1&amp;uid=448586" ></script>
-<script type="text/javascript" id="bdshell_js"></script>
-<script type="text/javascript">
-	document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+    <p>  <em>如果您也喜欢它，就请支持我们并分享这个规则吧。</em></p>
+<script type="text/javascript" src="http://www.sojump.com/Js/ZheZhao.js"></script>
+    <p>  如果你发现无法正常获取，请<a href="javascript:PDF_launch('http://www.sojump.com/jq/1801373,i,t.aspx?width=996&source=openWin',1024,768);" title="问卷星-专业的在线问卷调查、测评、投票平台">点击这里填写一个问卷</a>，帮助我们改进该问题。</p>
+<!-- 将此标记放在您希望显示like按钮的位置 -->
+<div class="bdlikebutton"></div>
+
+<!-- 将此代码放在适当的位置，建议在body结束前 -->
+<script id="bdlike_shell"></script>
+<script>
+var bdShare_config = {
+	"type":"large",
+	"color":"blue",
+	"uid":"448586",
+	"share":"yes"
+};
+document.getElementById("bdlike_shell").src="http://bdimg.share.baidu.com/static/js/like_shell.js?t=" + new Date().getHours();
 </script>
-<!-- Baidu Button END -->
-<IFRAME src="https://plusone.google.com/_/+1/fastbutton?bsv=pr&url=https%3A%2F%2Fcode.google.com%2Fp%2Fadfiltering-rules%2F&width=180&size=large&count=true&annotation=inline&hl=zh-cn&jsh=m%3B%2F_%2Fapps-static%2F_%2Fjs%2Fgapi%2F__features__%2Frt%3Dj%2Fver%3DuiiZL-9y1Qw.zh_CN.%2Fsv%3D1%2Fam%3D!gFuVl93svF6I1poz5g%2Fd%3D1%2Frs%3DAItRSTMPsbDoDrM42iGHFYbcDRm23CiYYw#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart&id=I0_1338210481067&parent=https%3A%2F%2Fcode.google.com" frameBorder=0 marginwidth=0 marginheight=0 scrolling=no style="width168:px;height:50px;" scrolling=no ALLOWTRANSPARENCY="true"></IFRAME>
-<!-- UJian Button BEGIN -->
-<script type="text/javascript" src="http://v1.ujian.cc/code/ujian.js?type=slide&icon=2&uid=1624556"></script>
-<!-- UJian Button END -->
   </blockquote>
 </div>
 
 <div id="tabs" class="st_horizontal">
   <div class="st_tabs_container">
     <a href="#prev" class="st_prev"></a>
-    <div style="overflow: hidden;" class="st_slide_container">
+    <div style="overflow: auto;" class="st_slide_container">
       <ul class="st_tabs">
-        <li><a href="#recommend" rel="tab_1" class="st_tab st_first_tab st_tab_active">下载</a></li>
-        <li><a href="#report" rel="tab_2" class="st_tab">Firefox</a></li>                                     
-        <li><a href="#help" rel="tab_3" class="st_tab">Chrome</a></li>
-        <li><a href="#translate" rel="tab_4" class="st_tab">枫树浏览器(CoolNovo)</a></li>
-        <li><a href="#suggest" rel="tab_5" class="st_tab">搜狗浏览器</a></li>
-        <li><a href="#donate" rel="tab_5" class="st_tab">TPL(IE9+)</a></li>
+        <li><a href="#download" rel="tab_1" class="st_tab st_first_tab st_tab_active">下载</a></li>
+        <li><a href="#firefox" rel="tab_2" class="st_tab">Firefox</a></li>                                     
+        <li><a href="#chrome" rel="tab_3" class="st_tab">Chrome</a></li>
+        <li><a href="#coolnovo" rel="tab_4" class="st_tab">枫树浏览器(CoolNovo)</a></li>
+        <li><a href="#sogou" rel="tab_5" class="st_tab">搜狗浏览器</a></li>
+        <li><a href="#ie" rel="tab_5" class="st_tab">TPL(IE9+)</a></li>
       </ul>
     </div>
     <a href="#next" class="st_next"></a>
@@ -326,62 +323,57 @@ var g_actionurl="/";</script>
 
   <div class="st_view_container">                    
     <div class="st_view">                 
-      <div style="position: absolute; font-family: '微软雅黑';" id="recommend" class="st_tab_view st_first_tab_view st_active_view">
-        <p class="Tips">请在下面的“下载”按钮上右键→另存为以下载（不同浏览器可能操作略有不同）。
-        <ol>
-          <p><a href="http://ref.so/2xw1"><img src="index_files/箭头.png" alt="" width="10" height="12" /></a>金山：<a href="https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_KSafe.txt">下载</a></p>
-          
-          <p><a href="http://ref.so/tesp"><img src="index_files/箭头.png" alt="" width="10" height="12" /></a>卡巴斯基：<a href="https://adfiltering-rules.googlecode.com/svn/trunk/lastest/genera_rules.txt">下载</a></p>
-          
-          <p><a href="http://ref.so/47wv"><img src="index_files/箭头.png" alt="" width="10" height="12" /></a>ESET Nod32：<a href="https://adfiltering-rules.googlecode.com/svn/trunk/lastest/genera_rules.txt">下载</a></p>
-          
-          <p><a href="http://ref.so/hbnb"><img src="index_files/箭头.png" alt="" width="10" height="12" /></a>Avast!：<a href="https://adfiltering-rules.googlecode.com/svn/trunk/lastest/WebShield.ini">下载</a></p>
-          
-          <p><a href="http://ref.so/b5ml"><img src="index_files/箭头.png" alt="" width="10" height="12" /></a>Opera：<a href="https://adfiltering-rules.googlecode.com/svn/trunk/lastest/urlfilter.ini">下载</a></p>
-          <p><a href="http://ref.so/b5ml"><img src="index_files/箭头.png" alt="" width="10" height="12" /></a>360网盾：<a href="http://rules.wd.360.cn/tmpdata/rule.php?id=60546">下载</a></p>
-          
-          <p><img src="index_files/箭头.png" alt="" width="10" height="12" />Adblock Pro：<a href="https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_AB_PRO.txt">下载</a></p>
+<div style="position: absolute; font-family: '微软雅黑';" id="download" class="st_tab_view st_first_tab_view st_active_view">
+       <p class="Tips">如果是要下载的请在下面的“下载”按钮上右键→另存为以下载（不同浏览器可能操作略有不同）。
+        </p><ol>
+          <p>金山：<a href="http://rules.xcffl.tk/svn/trunk/lastest/rules_for_KSafe.txt">下载</a>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 猎豹浏览器：<a href="http://bbs.liebao.cn/thread-34399-1-1.html">获取</a>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <p>卡巴斯基：<a href="http://rules.xcffl.tk/svn/trunk/lastest/rules_for_Kaspersky.txt">下载</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  ESET Nod32：<a href="http://rules.xcffl.tk/svn/trunk/lastest/rules_for_ESET[1].txt">下载[1]</a>&nbsp; <a href="http://rules.xcffl.tk/svn/trunk/lastest/rules_for_ESET[2].txt">下载[2]</a>&nbsp;<em>注意：由于ESET限制而分成2个包，请都下载并导入。</em>
+          <p>Avast!：<a href="http://rules.xcffl.tk/svn/trunk/lastest/WebShield.ini">下载</a>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Opera：<a href="http://rules.xcffl.tk/svn/trunk/lastest/urlfilter.ini">下载</a></p>
+          <p>360网盾：<a href="http://rules.wd.360.cn/tmpdata/rule.php?id=60546">下载</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Adblock Pro：<a href="http://rules.xcffl.tk/svn/trunk/lastest/rules_for_AB_PRO.txt">下载</a></p>
           
         </ol>
-        </p>
-      </div>                            
+        <p></p>
+      </div>
             
-      <div style="position: absolute; display: none;" id="report" class="st_tab_view">
-        <p>使用火狐浏览器，只需<a href="abp:subscribe?location=https%3A%2F%2Fadfiltering-rules.googlecode.com%2Fsvn%2Ftrunk%2Flastest%2Frules_for_ABP.txt&amp;title=%E5%B9%BF%E5%91%8A%E5%BC%BA%E6%95%88%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99%20for%20ABP&amp;requiresLocation=https%3A%2F%2Fadfiltering-rules.googlecode.com%2Fsvn%2Ftrunk%2Flastest%2FPlus_Rules.txt&amp;requiresTitle=%E5%B9%BF%E5%91%8A%E5%BC%BA%E6%95%88%E5%A2%9E%E5%BC%BA%E5%8C%85%20for%20ABP">点击这里</a>即可订阅。</p>
+      <div style="position: absolute; display: none;" id="firefox" class="st_tab_view">
+        <p>使用火狐浏览器，只需<a href="abp:subscribe?location=http%3A%2F%2Frules.xcffl.tk%2Fsvn%2Ftrunk%2Flastest%2Frules_for_ABP.txt&amp;title=%E5%B9%BF%E5%91%8A%E5%BC%BA%E6%95%88%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99%20for%20ABP">点击这里</a>即可订阅。</p>
         <p><img src="index_files/dingyue_firefox.png"></p>
 
   
       </div>
 
-      <div style="position: absolute; display: none;" id="help" class="st_tab_view">
-	   <p>点击订阅：</p>
-        <p><a href="abp:subscribe?location=https%3A%2F%2Fadfiltering-rules.googlecode.com%2Fsvn%2Ftrunk%2Flastest%2Frules_for_ABP.txt&amp;title=%E5%B9%BF%E5%91%8A%E5%BC%BA%E6%95%88%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99%20for%20ABP">广告强效过滤规则 for ABP</a>               
-<a href="abp:subscribe?location=https%3A%2F%2Fadfiltering-rules.googlecode.com%2Fsvn%2Ftrunk%2Flastest%2FPlus_Rules.txt&amp;title=%E5%B9%BF%E5%91%8A%E5%BC%BA%E6%95%88%E5%A2%9E%E5%BC%BA%E5%8C%85%20for%20ABP">广告强效增强包 for ABP</a>
-<p><img src="index_files/chrome.jpg" alt=""/></div>
+      <div style="position: absolute; display: none;" id="chrome" class="st_tab_view">
+	    <p><b>使用Adblock Plus</b></p>
+<p>点击订阅：</p>
+        <p><a href="abp:subscribe?location=http%3A%2F%2Frules.xcffl.tk%2Fsvn%2Ftrunk%2Flastest%2Frules_for_ABP.txt&amp;title=%E5%B9%BF%E5%91%8A%E5%BC%BA%E6%95%88%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99%20for%20ABP">广告强效过滤规则 for ABP</a>               
+<p><img src="index_files/dingyue_chrome.png" alt=""/>
+<p><b>使用Adblock </b></p>
+<p>复制广告强效过滤规则的订阅地址<textarea style="width: 319px; height: 40px;" name="rules" cols="" rows="">http://rules.xcffl.tk/svn/trunk/lastest/rules_for_ABP.txt</textarea>并粘贴到相应位置订阅。</p>
 
-      <div style="position: absolute; display: none;" id="translate" class="st_tab_view">
+</div>
+
+      <div style="position: absolute; display: none;" id="coolnovo" class="st_tab_view">
         <p>枫树浏览器（CoolNovo）自带了广告过滤功能。按照以下步骤即可订阅：
         </p><p>1.向右拖动<a href="chrome://settings/addAddblockListPage">这里</a>，
 打开广告过滤规则订阅窗口。
-</p><p>2.选择最下方的”自定义“，分两次复制<span class="规则">广告强效过滤规则</span><textarea style="width: 319px; height: 40px;" name="rules" cols="" rows="">https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_ABP.txt</textarea>
-和<span class="规则">元素隐藏增强包</span><textarea style="width: 423px; height: 38px;" name="plus" cols="" rows="">https://adfiltering-rules.googlecode.com/svn/trunk/lastest/Plus_Rules.txt</textarea>的订阅地址，并分别粘贴到“自定义”右边的文本框中。
+</p><p>2.选择最下方的”自定义“，复制广告强效过滤规则的订阅地址<textarea style="width: 319px; height: 40px;" name="rules" cols="" rows="">http://rules.xcffl.tk/svn/trunk/lastest/rules_for_ABP.txt</textarea>
+，并粘贴到“自定义”右边的文本框中。
 </p><p>3.点击”下载订阅“即可</p>
-<a href="index_files/dingyue_chromeplus.png"><p><img src="index_files/dingyue_chromeplus.png" alt="" width="29" height="24" />点击这里查看图片示例<p></a>
+<p><img src="index_files/dingyue_chromeplus.png" alt="" width="800" height="" />
       </div>
 
-      <div style="position: absolute; display: none;" id="suggest" class="st_tab_view">
+      <div style="position: absolute; display: none;" id="sogou" class="st_tab_view">
         <p>1.点击搜狗浏览器工具栏中的”工具箱“，选择”广告过滤“，再选择”订阅过滤规则库“。
-        </p><p>2.在弹出的标签页中的“ 订阅Firefox 
-Adblock Plus的过滤清单: 
-”中复制粘贴入<span class="规则">广告强效过滤规则<textarea style="width: 324px; height: 40px;" name="rules" cols="" rows="">https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_ABP.txt</textarea>
-和<span class="规则">广告强效增强包</span><textarea style="width: 328px; height: 40px;" name="plus" cols="" rows="">https://adfiltering-rules.googlecode.com/svn/trunk/lastest/Plus_Rules.txt</textarea>的订阅地址。
+        </p><p>2.在弹出的标签页中的“ 订阅Firefox Adblock Plus的过滤清单: 
+”中复制粘贴入广告强效过滤规则的订阅地址<textarea style="width: 324px; height: 40px;" name="rules" cols="" rows="">http://rules.xcffl.tk/svn/trunk/lastest/rules_for_ABP.txt</textarea>。
 </span></p><p>3.点击“添加URL”即可。</p>
-<a href="index_files/dingyue_sogouie.png"><img src="index_files/dingyue_sogouie.png" alt="" width="29" height="24" />点击这里查看图片示例</a></div>
+<img src="index_files/dingyue_sogouie.png" alt="" width="800" height="" /></div>
 
-      <div style="position: absolute; display: none;" id="donate" class="st_tab_view">
-        如果你使用的是Internet Explorer 9以上的Internet Explorer浏览器则可
-<input type="button" value="点击这里" onclick="window.external.msAddTrackingProtectionList('https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_TPL.tpl','广告强效过滤规则 for TPL');">添加订阅到TPL（跟踪保护）中。
-<img src="index_files/dingyue_TPL.png" alt="" width="354" height="250" />
+      <div style="position: absolute; display: none;" id="ie" class="st_tab_view">
+<p class="Tips"><em>注意：这个版本只能过滤第三方广告。</em></p>        
+<p>如果你使用的是Internet Explorer 9以上的Internet Explorer浏览器则可
+<input type="button" value="点击这里" onclick="window.external.msAddTrackingProtectionList('http://rules.xcffl.tk/svn/trunk/lastest/rules_for_TPL.tpl','广告强效过滤规则 for TPL');">添加订阅到TPL（跟踪保护）中。</p>
+<p><img src="index_files/dingyue_TPL.png" alt="" width="354" height="250" />
 </p>
       </div>
     </div>
@@ -392,10 +384,8 @@ Adblock Plus的过滤清单:
   </div><!-- end content --> 
 
 </div><!-- end container -->
-<!-- UY BEGIN -->
-<div id="uyan_frame"></div>
-<script type="text/javascript" id="UYScript" src="http://v1.uyan.cc/js/iframe.js?UYUserId=0" async=""></script>
-<!-- UY END -->
 
-
+<script type='text/javascript' charset='utf-8' src='http://open.denglu.cc/connect/commentcode?appid=27067denrBBRjc7zV1aj9deP00Wmr3'></script>
+<img src="http://img.tongji.linezing.com/2826140/tongji.gif"/>
+<script type="text/javascript" src="http://js.tongji.linezing.com/2952428/tongji.js"></script><noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2952428/tongji.gif"/></a></noscript>
 </body></html>

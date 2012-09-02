@@ -1346,7 +1346,6 @@
 5,4,go.ae.tenpay.com/cgi-bin/*
 5,4,v.t.qq.com/follow/widget.js
 5,4,*.trafficjunky.net/*
-5,4,tcss.qq.com/ping.js
 5,4,j.wit.qq.com/sc/*
 5,4,fodder.qq.com/*
 5,4,mini.group.qq.com/*

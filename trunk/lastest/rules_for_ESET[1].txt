@@ -1346,7 +1346,6 @@ trace.qq.com/*
 go.ae.tenpay.com/cgi-bin/*
 v.t.qq.com/follow/widget.js
 *.trafficjunky.net/*
-tcss.qq.com/ping.js
 j.wit.qq.com/sc/*
 fodder.qq.com/*
 mini.group.qq.com/*
@@ -1997,4 +1996,5 @@ css.cn.msn.com/right_ad.htm
 ads*.msn.com/*.js
 rad.msn.com/*
 js.auto.msn.com.cn/js/incsearch_a.js
+sup.live.com/*
 

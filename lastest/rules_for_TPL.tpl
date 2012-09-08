@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-08 13:55:54
+#Updated:2012-09-08 15:49:22
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -307,6 +307,7 @@ msFilterList
 - *c.*/code_img/
 - http://c.*/img_
 - http://*code.*/iclk
+- */gg2.
 - *code.*/show.php?
 - */adfile/
 - *uijs.php?*=
@@ -1395,6 +1396,7 @@ msFilterList
 - *soso*.*/UploadFiles/2008*.gif
 #----迅雷&狗狗&快传----
 -d img.kuai.xunlei.com /img/v2/fen/
+-d misc.web.xunlei.com /kankan_click*.js
 - *mtips.xunlei.com/
 -d img.kuai.xunlei.com /js/statistics.js
 - *websts.xunlei.com/
@@ -1601,6 +1603,8 @@ msFilterList
 #----土豆网----
 - */pos?act=dur&dk=
 - */pos?f=*.f4v&
+-d td.atm.youku.com /tdap/adclose
+-d static.atm.youku.com udou2012/*.swf
 -d td.atm.youku.com /tdap/adcommon?
 -d istat.tudou.com /play.srv?
 -d player.pb.ops.tudou.com /info.php?
@@ -2468,7 +2472,8 @@ msFilterList
 -d trace.enet.com.cn
 - *enet.com.cn/enetshow.shtml?
 -d images.enet.com.cn /consumer/
-#----中国电信----
+#----中国电信&天翼----
++d cloud.189.cn /zhuanti/protection/images/adv.jpg
 +d c.oooxm.com
 #----请看小说网----
 -d www.qingkan.net /js/list.html
@@ -3928,7 +3933,7 @@ msFilterList
 +d pv.5211game.com
 -d www.doudou.com /scripts/recom/*x*.gif
 -d www.gaywang.com /images/friend*.gif
--d raymond315.xiazaia.net
+#||raymond315.xiazaia.net/*
 -d stat.wiseie.com
 -d script2.pingan.com /app_js/pingan/
 -d www.godnav.net /MAPS/LE*.gif

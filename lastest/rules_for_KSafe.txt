@@ -296,6 +296,7 @@
 5,4,*c.*/code_img/*
 5,4,c.*/img_*
 5,4,*code.*/iclk*
+5,4,*/gg2.*
 5,4,*code.*/show.php?*
 5,4,*/adfile/*
 5,4,*uijs.php?*=*
@@ -1365,6 +1366,7 @@
 5,4,dr.soso.com/*
 5,4,*soso*.*/UploadFiles/2008*.gif
 5,4,img.kuai.xunlei.com/img/v2/fen/*
+5,4,misc.web.xunlei.com/*/kankan_click*.js*
 5,4,*mtips.xunlei.com/*
 5,4,img.kuai.xunlei.com/js/statistics.js
 5,4,*websts.xunlei.com/*
@@ -1562,6 +1564,8 @@
 5,4,impservice*.youdao.com/*
 5,4,*/pos?act=dur&dk=*
 5,4,*/pos?f=*.f4v&*
+5,4,td.atm.youku.com/tdap/adclose
+5,4,static.atm.youku.com/*udou2012/*.swf*
 5,4,td.atm.youku.com/tdap/adcommon?*
 5,4,istat.tudou.com/play.srv?*
 5,4,player.pb.ops.tudou.com/info.php?*
@@ -3174,7 +3178,6 @@
 5,4,*gaomm.in/*
 5,4,www.doudou.com/scripts/recom/*x*.gif
 5,4,www.gaywang.com/images/friend*.gif
-5,4,raymond315.xiazaia.net/*
 5,4,stat.wiseie.com/*
 5,4,script2.pingan.com/app_js/pingan/*
 5,4,www.godnav.net/MAPS/LE*.gif

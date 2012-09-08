@@ -296,6 +296,7 @@ un*js.php*
 *c.*/code_img/*
 c.*/img_*
 *code.*/iclk*
+*/gg2.*
 *code.*/show.php?*
 */adfile/*
 *uijs.php?*=*
@@ -1365,6 +1366,7 @@ zhidao.ikaka.com/images/game_*.gif
 dr.soso.com/*
 *soso*.*/UploadFiles/2008*.gif
 img.kuai.xunlei.com/img/v2/fen/*
+misc.web.xunlei.com/*/kankan_click*.js*
 *mtips.xunlei.com/*
 img.kuai.xunlei.com/js/statistics.js
 *websts.xunlei.com/*
@@ -1562,6 +1564,8 @@ st1.yxp.126.net/img/photo/*
 impservice*.youdao.com/*
 */pos?act=dur&dk=*
 */pos?f=*.f4v&*
+td.atm.youku.com/tdap/adclose
+static.atm.youku.com/*udou2012/*.swf*
 td.atm.youku.com/tdap/adcommon?*
 istat.tudou.com/play.srv?*
 player.pb.ops.tudou.com/info.php?*
@@ -1993,8 +1997,4 @@ download.it168.com/txt/*
 download.it168.com/2009images/ucweb_conew1.jpg
 img.hexun.com/hx_news/hx_news_finalpage.js
 hxjs.tool.hexun.com/homeway/pagemediacontrol*.js
-blog.hexun.com/inc/popbox.aspx
-img.rmfans.cn/g/*
-ww2.sinaimg.cn/large/70aeb54ejw1dne8ifzz7ig.gif
-ww2.sinaimg.cn/large/4090c584jw1dn5uzkybzog.gif
 

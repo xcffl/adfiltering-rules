@@ -285,7 +285,7 @@ def writeRule(filePath, lines):
   top = u'[General]'
   
   #规则头
-  head = u'''name=广告过滤软件通用强效广告过滤规则 for AB Pro\r\nupdateUrl=http://rules.xcffl.tk/svn/trunk/lastest/rules_for_AB_PRO.txt\r\nupdateTime=1\r\n[Whitelist]\r\n[Block Address]\r\nCopyright 2011 xcffl, Apache License 2.0\r\n'''
+  head = u'''name=广告过滤软件通用强效广告过滤规则 for AB Pro\r\nupdateUrl=https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_AB_PRO.txt\r\nupdateTime=1\r\n[Whitelist]\r\n[Block Address]\r\nCopyright 2011 xcffl, Apache License 2.0\r\n'''
   #规则尾
   bottom = '[Block Object]'
   #输出到文件  

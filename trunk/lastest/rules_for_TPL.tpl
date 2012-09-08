@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-08 21:57:37
+#Updated:2012-09-08 22:43:38
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1638,7 +1638,7 @@ msFilterList
 #@@||static.atm.youku.com*jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=http://count.atm.youku*
 -d static.atm.youku.com -*.swf?jsStart=
 #||valf.atm.youku.com/crossdomain.xml
--d valf.atm.youku.com /valf?
+#||valf.atm.youku.com/valf?*
 -d valf.atm.youku.com /show?
 #||fvid.atm.youku.com/*
 -d walp.atm.youku.com

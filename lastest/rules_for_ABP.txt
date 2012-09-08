@@ -1,15 +1,21 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-09-02 11:50:31
+!Updated:2012-09-08 12:56:17
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 7 days
 !-------------通用规则-------------
 !------元素隐藏规则------
+##.sponsor_links
 ~superbikeplanet.com##.adlink
+##.box-ad
+##a[href^="http://ad-apac.doubleclick.net/"]
+##.sb_adsW
+###mbEnd[cellspacing="0"][cellpadding="0"]
 ~horsemart.co.uk##.top_ad
+~kingsofchaos.com##.textad
 ~muz.ru###right_ad
 ##.ad_banner
 ##.wide_ads
@@ -209,7 +215,7 @@
 |*.adpolestar.*
 |*/adphoto/*
 |http://*clink.*
-|http://*.ad.*
+|http://*.ad.*.js*
 |*.ad1.*
 |*.ads.*
 |*/ads/*.ico*
@@ -425,6 +431,7 @@
 |http://*/gg.js
 |*/js/index-1.js
 |*/foot.js*
+|*/affiliates/*
 |http://*/c_2/*
 |http://a-m-s.*
 |*/adcontrol/*
@@ -724,7 +731,8 @@
 |*/webafp?*
 |*/tanchuang/*
 |*/images/gg/*
-|http://*www*/gg/*
+|http://*/gg/*.jpg
+|http://*/gg/*.png
 |*.com/gg/*
 |*.com.cn/gg/*
 |*.net/gg/*
@@ -881,6 +889,7 @@
 ||pub.htwisdom.com/*
 ||union.zhubajie.com/*
 |*.jugao.com/*
+||c.atdmt.com/c.gif?*
 |*.100tone.com/*
 ||js.yoyi.tv/*
 ||js.shenduchuanmei.com:81/*
@@ -1358,6 +1367,7 @@
 |*.cpm9v.cn/*
 |*.heima8.com/*
 |*.ad-plus.cn/*
+||secure-cn.imrworldwide.com/*
 ||a12.alphagodaddy.com/?*
 |*axill.com/banners/*
 |*.afdads.com/*
@@ -1383,6 +1393,7 @@
 ||pic.loliso.com:99/*
 |*bitian8g.com/gif/*
 ||cp.5228167.com/*
+|*.yeeunion.com/page/*
 |*p012.com/Image/TaoBaoAd/*
 ||img.img18.com/img/unimages/ys2012/images/cr/*
 ||c*.uk.jf26.com/show.php?*
@@ -1513,13 +1524,17 @@ www.sina.com.cn###PartA > .left > div:not(#sina_house_link9)
 house.sina.com.cn###topBg
 weibo.com##[id^="ads_"]
 weibo.com##.footer_adv
+sina.com.cn##.topAD
 weibo.com##.tips_player
 @@||api.t.sina.com.cn/statuses/counts.*
 ||v.sina.com.cn/*.html
+||news.sina.com.cn/js/792/*
 |*.sina.com.cn/litong/*
 ||count.kandian.com/*.html
+||beacon.sina.com.cn/*
 ||l.you.video.sina.com.cn*_undig&*
 ||l.you.video.sina.com.cn/*.xml
+||sina.wrating.com/*
 ||dcads.sina.com.cn/*
 ||pfp.sina.com.cn/jczs.html
 ||pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
@@ -1811,6 +1826,8 @@ i.qianshou.com##DIV[style="width:728px; height:90px; float:left; padding-top:4px
 ||jebe.xnimg.cn/*php*
 |*xnimg.cn/imgpro/share/*
 ||jebe.xnimg.cn/*swf
+!----DreamHost----
+||images.dreamhost.com/rewards/*
 !----太平洋电脑网&太平洋游戏网----
 |*.pconline.com.cn/images/lmt/area_lmt.js
 ||ivy.pconline.com.cn/*
@@ -1868,6 +1885,12 @@ iqiyi.com##[id^="div_theatre"]
 ||v4.vcimg.com/sq/*.swf*
 ||sp.vcimg.com/*
 !----天涯社区----
+tianya.cn###adsp_content_top_banner
+tianya.cn###adsp_list_top_banner
+||global.tianyaui.com/global/wizard/js/wizard.js
+||static.tianyaui.com/js/2010/ContClick.js
+||pinpai.tianya.cn/*.shtml
+||static.tianyaui.com/js/2011/bbsclk.js
 ||static.tianyaui.com/*/stat_20080313.js
 ||ebook.tianya.cn/js/stat.js
 ||wenda.tianya.cn/wenda/images/*X*.swf
@@ -1943,6 +1966,7 @@ newhua.com##[class^="ad_ritht_"]
 ||www.faxingge.com/UpFile/hd/134*.gif
 ||www.faxingge.com/UpFile/hd/134*.jpg
 !----站长之家ChinaZ----
+||images.chinaz.com/bbs_images/*
 ||images.chinaz.com/index_images/A*.htm
 ||images.chinaz.com/index_images/wz.htm
 ||images.chinaz.com/index_images/index_buttom*.htm
@@ -2007,6 +2031,10 @@ gfan.com###floatAd
 ||img.cnbeta.com/tongbu*.*
 ||img.cnbeta.com/*336.gif
 ||img.cnbeta.com/app*.gif
+!----Godaddy----
+||affiliate.godaddy.com/ads/*
+!----HostGator----
+||tracking.hostgator.com/img/Penny_Discounts/*-banners-*x*.gif
 !----Godaddy域名解析DNS服务器状态----
 ||www.dnsgua.com/image/namecheap.png
 ||www.dnsgua.com/image/dnspod.png
@@ -2017,6 +2045,8 @@ gfan.com###floatAd
 !----Norm Team----
 ||img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 |*normteam.com/usepic/*
+!----ASP300源码下载----
+||www.asp300.com/*adjs/*
 !----天维网----
 ||ads.skykiwi.com/*
 ||www.gcemedia.co.nz/www/images/*.swf
@@ -2072,6 +2102,10 @@ ipc.me##[style="_display:block;height:252px;width:301px;overflow:hidden;margin-b
 ipc.me##LI.widget
 ipc.me##.post-top-gg
 ||www.iplaysoft.com/plus/static_files/nuffnang.html
+!----19楼----
+19lou.com,ihome99.com##.ad-cycle
+19lou.com,ihome99.com##.float-ad
+19lou.com##.head-ad
 !----中关村在线&中关村在线武汉站----
 ||icon.zol-img.com.cn/public/js/web_foot.js
 ||p.zol-img.com.cn/*
@@ -2213,6 +2247,8 @@ news.ifeng.com###smExtObjBg
 ||www.33lc.com/soft/UploadPic/2012-5/201251814224916797.jpg
 !----若人网&若人论坛----
 ||mu.ruoren.com/*
+!----央广广播电视网络台----
+cnr.cn##DIV[style="POSITION:fixed;TOP:30px;right:13px;"]
 !----纵横中文网----
 ||log.zongheng.com/*
 ||static.zongheng.com/v2_0/js/adClickStat.js
@@ -2268,6 +2304,9 @@ it168.com##[id^="ADV"]
 ||blog.hexun.com/inc/popbox.aspx
 !----MyException.cn----
 myexception.cn##[class^="c_r_a c_r_"]
+!----必上网盘----
+bego.cc##TBODY
+bego.cc##A[href="/adv.php"]
 !----皇马球迷俱乐部论坛----
 ||img.rmfans.cn/g/*
 ||ww2.sinaimg.cn/large/70aeb54ejw1dne8ifzz7ig.gif
@@ -2400,6 +2439,8 @@ yunjii.com##IMG[class][width="660"][height="60"][style="display: inline;"]
 |*.haha.mx/Public/images/banner-*.png
 !----热门杂烩----
 ||www.micboy.com/dl2.js
+!----网赚恋吧----
+||www.bzlba.com/wp-content/uploads/*.jpg
 !----CC网址名录----
 |*.cicih.cn/images/kuaiji.gif
 !----TechWeb----
@@ -2612,6 +2653,8 @@ saesky.net##FONT[color="#0000FF"]
 ||trace.enet.com.cn/*
 |*enet.com.cn/enetshow.shtml?*
 ||images.enet.com.cn/consumer/*
+!----中国电信----
+@@||c.oooxm.com/*
 !----请看小说网----
 ||www.qingkan.net/js/list.html
 !----世纪文学网----
@@ -2726,6 +2769,9 @@ engadget.com##.medrect
 ||img.17k.com/channel/flash/*.swf
 ||log.17k.com/*
 ||img.17k.com/js/jquery*.js
+!----红浪药品网----
+||www.3156.cn/js/float_ads.*.js
+||www.3156.cn/images/fdgg.css
 !----豆瓣----
 ||img3.douban.com/js/boomerang.js*
 ||erebor.douban.com/?unit=*
@@ -3257,6 +3303,8 @@ appinn.com##.ads
 !----飞鸟网----
 ||img.hdbird.com/langzi/*
 !----城通网盘----
+ctdisk.com##TBODY
+ctdisk.com##A[href="/adv.php"]
 ||static.ctdisk.com/510.js?*
 !----我的网址导航----
 |*.456t.com/taobao/*
@@ -3536,6 +3584,8 @@ you85.cn##TABLE[align="center"]
 ||counter.pixplug.in/count.php
 |*pixanalytics.com/*
 !----全球免费中心----
+free789.com##.t2wfxgg
+free789.com###t5wfxgg
 |*free789.com/images/*
 !----引导线网页制作网----
 ||www.yindaoxian.com/*up-pic/*
@@ -4013,6 +4063,7 @@ baike.baidu.com###mabox
 www.baidu.com,www1.baidu.com##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]
 www.baidu.com,www1.baidu.com##style + table:nth-child(3)
 www.baidu.com,www1.baidu.com##.EC_mr15
+||cb.baidu.com/*
 ||a.baidu.com/*
 |*.baidu.com/ecom*&*_*
 ||top.baidu.com/js/nsclick.js
@@ -4091,7 +4142,7 @@ www.qidian.com##.DH17
 ||ccc.*.sdo.com/*.js
 ||c.pingba.qidian.com/increase.htm?*
 ||cj.qidian.com/Flash/*_*.swf
-|*.qidian.com/Javascript/DoublePop.js
+|*.qidian.com/Javascript/DoublePop.js*
 |*.qidian.com/javascript/SNDAADAltern.js
 |*.qidian.com/Javascript/NewSNDAPop.js
 ||game.qidian.com/game/sssg/*/index.html

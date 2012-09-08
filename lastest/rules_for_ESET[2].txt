@@ -1,3 +1,20 @@
+i.firefoxchina.cn/iframes/*
+*.coolnovo.com/temp/images/elong.jpg
+coolnovo.com/temp/images/elong.jpg
+*.coolnovo.com/temp/images/*_*x*.*
+coolnovo.com/temp/images/*_*x*.*
+www.51saier.cn/images/*
+*51saier.cn/uploads/allimg/100912/*
+*51saier.cn/4399/*
+*.rayfile.com/scr/*
+img.rayfile.com/push/*
+cfpfile.cutv.com/*
+css.cn.msn.com/right_ad.htm
+ads*.msn.com/*.js
+rad.msn.com/*
+js.auto.msn.com.cn/js/incsearch_a.js
+sup.live.com/*
+*.replays.net/*/rnad/*
 *.sitenoo.com/robot/*x*.gif
 *.2y2r.org/data/attachment/forum/*
 *.xs8.cn/data/iframe/*
@@ -52,6 +69,7 @@ www.92wg.com/Style_litcn/css/ad.css
 www.92wg.com/new/js/A_*.js
 *.haha.mx/Public/images/banner-*.png
 www.micboy.com/dl2.js
+www.bzlba.com/wp-content/uploads/*.jpg
 *.cicih.cn/images/kuaiji.gif
 forum.techweb.com.cn/advtcnt.php?*
 am.zdnet.com.cn/www/images/*/*_*.swf
@@ -257,6 +275,8 @@ photo.erji.com/*
 img.17k.com/channel/flash/*.swf
 log.17k.com/*
 img.17k.com/js/jquery*.js
+www.3156.cn/js/float_ads.*.js
+www.3156.cn/images/fdgg.css
 img3.douban.com/js/boomerang.js*
 erebor.douban.com/?unit=*
 erebor.douban.com/count/?ad=*
@@ -1054,6 +1074,7 @@ https://*/google*ad*js*
 partner.googleadservices.com*
 *.google-analytics.com/*
 www.google.cn/aclk?*
+cb.baidu.com/*
 a.baidu.com/*
 *.baidu.com/ecom*&*_*
 top.baidu.com/js/nsclick.js
@@ -1121,7 +1142,7 @@ cip.*.sdo.com/*
 ccc.*.sdo.com/*.js
 c.pingba.qidian.com/increase.htm?*
 cj.qidian.com/Flash/*_*.swf
-*.qidian.com/Javascript/DoublePop.js
+*.qidian.com/Javascript/DoublePop.js*
 *.qidian.com/javascript/SNDAADAltern.js
 *.qidian.com/Javascript/NewSNDAPop.js
 game.qidian.com/game/sssg/*/index.html

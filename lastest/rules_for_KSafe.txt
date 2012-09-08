@@ -133,7 +133,7 @@
 5,4,*.adpolestar.*
 5,4,*/adphoto/*
 5,4,*clink.*
-5,4,*.ad.*
+5,4,*.ad.*.js*
 5,4,*.ad1.*
 5,4,*.ads.*
 5,4,*/ads/*.ico*
@@ -349,6 +349,7 @@
 5,4,*/gg.js
 5,4,*/js/index-1.js
 5,4,*/foot.js*
+5,4,*/affiliates/*
 5,4,*/c_2/*
 5,4,a-m-s.*
 5,4,*/adcontrol/*
@@ -648,7 +649,8 @@
 5,4,*/webafp?*
 5,4,*/tanchuang/*
 5,4,*/images/gg/*
-5,4,*www*/gg/*
+5,4,*/gg/*.jpg
+5,4,*/gg/*.png
 5,4,*.com/gg/*
 5,4,*.com.cn/gg/*
 5,4,*.net/gg/*
@@ -803,6 +805,7 @@
 5,4,pub.htwisdom.com/*
 5,4,union.zhubajie.com/*
 5,4,*.jugao.com/*
+5,4,c.atdmt.com/c.gif?*
 5,4,*.100tone.com/*
 5,4,js.yoyi.tv/*
 5,4,js.shenduchuanmei.com/*
@@ -1273,6 +1276,7 @@
 5,4,*.cpm9v.cn/*
 5,4,*.heima8.com/*
 5,4,*.ad-plus.cn/*
+5,4,secure-cn.imrworldwide.com/*
 5,4,a12.alphagodaddy.com/?*
 5,4,*axill.com/banners/*
 5,4,*.afdads.com/*
@@ -1298,6 +1302,7 @@
 5,4,pic.loliso.com/*
 5,4,*bitian8g.com/gif/*
 5,4,cp.5228167.com/*
+5,4,*.yeeunion.com/page/*
 5,4,*p012.com/Image/TaoBaoAd/*
 5,4,img.img18.com/img/unimages/ys2012/images/cr/*
 5,4,c*.uk.jf26.com/show.php?*
@@ -1398,10 +1403,13 @@
 5,4,www.zhujima.com/tu/*g*.png
 5,4,www.zhujima.com/tu/*vps.gif
 5,4,v.sina.com.cn/*.html
+5,4,news.sina.com.cn/js/792/*
 5,4,*.sina.com.cn/litong/*
 5,4,count.kandian.com/*.html
+5,4,beacon.sina.com.cn/*
 5,4,l.you.video.sina.com.cn*_undig&*
 5,4,l.you.video.sina.com.cn/*.xml
+5,4,sina.wrating.com/*
 5,4,dcads.sina.com.cn/*
 5,4,pfp.sina.com.cn/jczs.html
 5,4,pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
@@ -1638,6 +1646,7 @@
 5,4,jebe.xnimg.cn/*php*
 5,4,*xnimg.cn/imgpro/share/*
 5,4,jebe.xnimg.cn/*swf
+5,4,images.dreamhost.com/rewards/*
 5,4,*.pconline.com.cn/images/lmt/area_lmt.js
 5,4,ivy.pconline.com.cn/*
 5,4,*pconline.com.cn/js/ivy.js
@@ -1680,6 +1689,10 @@
 5,4,sponsor.verycd.com/*
 5,4,v4.vcimg.com/sq/*.swf*
 5,4,sp.vcimg.com/*
+5,4,global.tianyaui.com/global/wizard/js/wizard.js
+5,4,static.tianyaui.com/js/2010/ContClick.js
+5,4,pinpai.tianya.cn/*.shtml
+5,4,static.tianyaui.com/js/2011/bbsclk.js
 5,4,static.tianyaui.com/*/stat_20080313.js
 5,4,ebook.tianya.cn/js/stat.js
 5,4,wenda.tianya.cn/wenda/images/*X*.swf
@@ -1740,6 +1753,7 @@
 5,4,www.faxingge.com/fxgjs/header-min.js
 5,4,www.faxingge.com/UpFile/hd/134*.gif
 5,4,www.faxingge.com/UpFile/hd/134*.jpg
+5,4,images.chinaz.com/bbs_images/*
 5,4,images.chinaz.com/index_images/A*.htm
 5,4,images.chinaz.com/index_images/wz.htm
 5,4,images.chinaz.com/index_images/index_buttom*.htm
@@ -1788,12 +1802,15 @@
 5,4,img.cnbeta.com/tongbu*.*
 5,4,img.cnbeta.com/*336.gif
 5,4,img.cnbeta.com/app*.gif
+5,4,affiliate.godaddy.com/ads/*
+5,4,tracking.hostgator.com/img/Penny_Discounts/*-banners-*x*.gif
 5,4,www.dnsgua.com/image/namecheap.png
 5,4,www.dnsgua.com/image/dnspod.png
 5,4,www.rin9.com/js/t1.js?*
 5,4,bbs.kaspersky.com.cn/images/bbs/*
 5,4,img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 5,4,*normteam.com/usepic/*
+5,4,www.asp300.com/*adjs/*
 5,4,ads.skykiwi.com/*
 5,4,www.gcemedia.co.nz/www/images/*.swf
 5,4,bbs.xmfish.com/images/atm/*
@@ -2052,6 +2069,7 @@
 5,4,www.92wg.com/new/js/A_*.js
 5,4,*.haha.mx/Public/images/banner-*.png
 5,4,www.micboy.com/dl2.js
+5,4,www.bzlba.com/wp-content/uploads/*.jpg
 5,4,*.cicih.cn/images/kuaiji.gif
 5,4,forum.techweb.com.cn/advtcnt.php?*
 5,4,am.zdnet.com.cn/www/images/*/*_*.swf
@@ -2257,6 +2275,8 @@
 5,4,img.17k.com/channel/flash/*.swf
 5,4,log.17k.com/*
 5,4,img.17k.com/js/jquery*.js
+5,4,www.3156.cn/js/float_ads.*.js
+5,4,www.3156.cn/images/fdgg.css
 5,4,img3.douban.com/js/boomerang.js*
 5,4,erebor.douban.com/?unit=*
 5,4,erebor.douban.com/count/?ad=*
@@ -3054,6 +3074,7 @@
 5,4,partner.googleadservices.com*
 5,4,*.google-analytics.com/*
 5,4,www.google.cn/aclk?*
+5,4,cb.baidu.com/*
 5,4,a.baidu.com/*
 5,4,*.baidu.com/ecom*&*_*
 5,4,top.baidu.com/js/nsclick.js
@@ -3121,7 +3142,7 @@
 5,4,ccc.*.sdo.com/*.js
 5,4,c.pingba.qidian.com/increase.htm?*
 5,4,cj.qidian.com/Flash/*_*.swf
-5,4,*.qidian.com/Javascript/DoublePop.js
+5,4,*.qidian.com/Javascript/DoublePop.js*
 5,4,*.qidian.com/javascript/SNDAADAltern.js
 5,4,*.qidian.com/Javascript/NewSNDAPop.js
 5,4,game.qidian.com/game/sssg/*/index.html

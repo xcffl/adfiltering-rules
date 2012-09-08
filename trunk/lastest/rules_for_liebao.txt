@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-09-08 15:49:22
+!Updated:2012-09-08 18:24:54
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -2540,7 +2540,7 @@ bannerad
 ##pt + div[style] > div[style^="clear:both;"]	$d=bbs.pcbeta.com
 /:\/\/([^\/]+\.)?bbs\.pcbeta\.com\/static\/image\/biz\//
 !----泡泡网----
-##.l1	$d=pcpop.com
+##.Content > .l1:first-child	$d=www.pcpop.com
 /:\/\/([^\/]+\.)?app\.pcpop\.com\/PageView\.aspx\?/
 /:\/\/([^\/]+\.)?33\.pcpop\.com\/.*\..*f/
 ##[class^="ad_"]	$d=soufun.com

@@ -1595,6 +1595,7 @@
 5,4,static.atm.youku.com/*/popup.js
 5,4,static.atm.youku.com/*taobao*
 5,4,static.atm.youku.com/*-*.swf?jsStart=*
+5,4,valf.atm.youku.com/valf?*
 5,4,valf.atm.youku.com/show?*
 5,4,walp.atm.youku.com/*
 5,4,valb.atm.youku.com/*

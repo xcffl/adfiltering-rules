@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-09-08 13:55:54
+!Updated:2012-09-08 15:49:22
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -378,6 +378,7 @@
 |*c.*/code_img/*
 ||c.*/img_*
 |http://*code.*/iclk*
+|*/gg2.*
 |*code.*/show.php?*
 |*/adfile/*
 |*uijs.php?*=*
@@ -1467,9 +1468,12 @@ qq.com##.l_qq_com
 ||dr.soso.com/*
 |*soso*.*/UploadFiles/2008*.gif
 !----迅雷&狗狗&快传----
+xunlei.com##.topic_center
+xunlei.com##[id^="cm"].banner
 xunlei.com##.playad
 kuai.xunlei.com##.l_img
 ||img.kuai.xunlei.com/img/v2/fen/*
+||misc.web.xunlei.com/*/kankan_click*.js*
 |*mtips.xunlei.com/*
 ||img.kuai.xunlei.com/js/statistics.js
 |*websts.xunlei.com/*
@@ -1701,6 +1705,8 @@ www.163.com###g5n1
 tudou.com###adex_board
 |*/pos?act=dur&dk=*
 |*/pos?f=*.f4v&*
+||td.atm.youku.com/tdap/adclose
+||static.atm.youku.com/*udou2012/*.swf*
 ||td.atm.youku.com/tdap/adcommon?*
 ||istat.tudou.com/play.srv?*
 ||player.pb.ops.tudou.com/info.php?*
@@ -2653,7 +2659,8 @@ saesky.net##FONT[color="#0000FF"]
 ||trace.enet.com.cn/*
 |*enet.com.cn/enetshow.shtml?*
 ||images.enet.com.cn/consumer/*
-!----中国电信----
+!----中国电信&天翼----
+@@||cloud.189.cn/zhuanti/protection/images/adv.jpg
 @@||c.oooxm.com/*
 !----请看小说网----
 ||www.qingkan.net/js/list.html
@@ -4166,7 +4173,7 @@ www.qidian.com##.DH17
 @@||pv.5211game.com/*
 ||www.doudou.com/scripts/recom/*x*.gif
 ||www.gaywang.com/images/friend*.gif
-||raymond315.xiazaia.net/*
+!||raymond315.xiazaia.net/*
 ||stat.wiseie.com/*
 ||script2.pingan.com/app_js/pingan/*
 ||www.godnav.net/MAPS/LE*.gif

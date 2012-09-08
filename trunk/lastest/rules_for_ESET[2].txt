@@ -1,3 +1,7 @@
+img.rmfans.cn/g/*
+ww2.sinaimg.cn/large/70aeb54ejw1dne8ifzz7ig.gif
+ww2.sinaimg.cn/large/4090c584jw1dn5uzkybzog.gif
+ww2.sinaimg.cn/large/70aeb54ejw1dmb1du466sg.gif
 ww2.sinaimg.cn/large/70aeb54ejw1dlx69pf2qug.gif
 ww2.sinaimg.cn/large/70aeb54ejw1dnmxrldc7rg.gif
 ww2.sinaimg.cn/large/70aeb54ejw1dnmxwf4awag.gif
@@ -1174,7 +1178,6 @@ ipic.staticsdo.com/*
 *gaomm.in/*
 www.doudou.com/scripts/recom/*x*.gif
 www.gaywang.com/images/friend*.gif
-raymond315.xiazaia.net/*
 stat.wiseie.com/*
 script2.pingan.com/app_js/pingan/*
 www.godnav.net/MAPS/LE*.gif

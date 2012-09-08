@@ -133,7 +133,7 @@ c.*/*.js*
 *.adpolestar.*
 */adphoto/*
 *clink.*
-*.ad.*
+*.ad.*.js*
 *.ad1.*
 *.ads.*
 */ads/*.ico*
@@ -349,6 +349,7 @@ c.*/img_*
 */gg.js
 */js/index-1.js
 */foot.js*
+*/affiliates/*
 */c_2/*
 a-m-s.*
 */adcontrol/*
@@ -648,7 +649,8 @@ acs.*
 */webafp?*
 */tanchuang/*
 */images/gg/*
-*www*/gg/*
+*/gg/*.jpg
+*/gg/*.png
 *.com/gg/*
 *.com.cn/gg/*
 *.net/gg/*
@@ -803,6 +805,7 @@ js.3975.com/*
 pub.htwisdom.com/*
 union.zhubajie.com/*
 *.jugao.com/*
+c.atdmt.com/c.gif?*
 *.100tone.com/*
 js.yoyi.tv/*
 js.shenduchuanmei.com/*
@@ -1273,6 +1276,7 @@ static.hhzw.5pk.com/*
 *.cpm9v.cn/*
 *.heima8.com/*
 *.ad-plus.cn/*
+secure-cn.imrworldwide.com/*
 a12.alphagodaddy.com/?*
 *axill.com/banners/*
 *.afdads.com/*
@@ -1298,6 +1302,7 @@ u.adbutler.com.cn/allsites/*
 pic.loliso.com/*
 *bitian8g.com/gif/*
 cp.5228167.com/*
+*.yeeunion.com/page/*
 *p012.com/Image/TaoBaoAd/*
 img.img18.com/img/unimages/ys2012/images/cr/*
 c*.uk.jf26.com/show.php?*
@@ -1398,10 +1403,13 @@ www.zhujima.com/tu/*u*.jpg
 www.zhujima.com/tu/*g*.png
 www.zhujima.com/tu/*vps.gif
 v.sina.com.cn/*.html
+news.sina.com.cn/js/792/*
 *.sina.com.cn/litong/*
 count.kandian.com/*.html
+beacon.sina.com.cn/*
 l.you.video.sina.com.cn*_undig&*
 l.you.video.sina.com.cn/*.xml
+sina.wrating.com/*
 dcads.sina.com.cn/*
 pfp.sina.com.cn/jczs.html
 pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
@@ -1638,6 +1646,7 @@ jebe.xnimg.cn/*js*
 jebe.xnimg.cn/*php*
 *xnimg.cn/imgpro/share/*
 jebe.xnimg.cn/*swf
+images.dreamhost.com/rewards/*
 *.pconline.com.cn/images/lmt/area_lmt.js
 ivy.pconline.com.cn/*
 *pconline.com.cn/js/ivy.js
@@ -1680,6 +1689,10 @@ statics.*/banner/topic_shooter.png
 sponsor.verycd.com/*
 v4.vcimg.com/sq/*.swf*
 sp.vcimg.com/*
+global.tianyaui.com/global/wizard/js/wizard.js
+static.tianyaui.com/js/2010/ContClick.js
+pinpai.tianya.cn/*.shtml
+static.tianyaui.com/js/2011/bbsclk.js
 static.tianyaui.com/*/stat_20080313.js
 ebook.tianya.cn/js/stat.js
 wenda.tianya.cn/wenda/images/*X*.swf
@@ -1740,6 +1753,7 @@ www.faxingge.com/UpFile/ad/*
 www.faxingge.com/fxgjs/header-min.js
 www.faxingge.com/UpFile/hd/134*.gif
 www.faxingge.com/UpFile/hd/134*.jpg
+images.chinaz.com/bbs_images/*
 images.chinaz.com/index_images/A*.htm
 images.chinaz.com/index_images/wz.htm
 images.chinaz.com/index_images/index_buttom*.htm
@@ -1788,12 +1802,15 @@ img.cnbeta.com/sundns*.*
 img.cnbeta.com/tongbu*.*
 img.cnbeta.com/*336.gif
 img.cnbeta.com/app*.gif
+affiliate.godaddy.com/ads/*
+tracking.hostgator.com/img/Penny_Discounts/*-banners-*x*.gif
 www.dnsgua.com/image/namecheap.png
 www.dnsgua.com/image/dnspod.png
 www.rin9.com/js/t1.js?*
 bbs.kaspersky.com.cn/images/bbs/*
 img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 *normteam.com/usepic/*
+www.asp300.com/*adjs/*
 ads.skykiwi.com/*
 www.gcemedia.co.nz/www/images/*.swf
 bbs.xmfish.com/images/atm/*
@@ -2052,6 +2069,7 @@ www.92wg.com/Style_litcn/css/ad.css
 www.92wg.com/new/js/A_*.js
 *.haha.mx/Public/images/banner-*.png
 www.micboy.com/dl2.js
+www.bzlba.com/wp-content/uploads/*.jpg
 *.cicih.cn/images/kuaiji.gif
 forum.techweb.com.cn/advtcnt.php?*
 am.zdnet.com.cn/www/images/*/*_*.swf
@@ -2257,6 +2275,8 @@ photo.erji.com/*
 img.17k.com/channel/flash/*.swf
 log.17k.com/*
 img.17k.com/js/jquery*.js
+www.3156.cn/js/float_ads.*.js
+www.3156.cn/images/fdgg.css
 img3.douban.com/js/boomerang.js*
 erebor.douban.com/?unit=*
 erebor.douban.com/count/?ad=*
@@ -3054,6 +3074,7 @@ https://*/google*ad*js*
 partner.googleadservices.com*
 *.google-analytics.com/*
 www.google.cn/aclk?*
+cb.baidu.com/*
 a.baidu.com/*
 *.baidu.com/ecom*&*_*
 top.baidu.com/js/nsclick.js
@@ -3121,7 +3142,7 @@ cip.*.sdo.com/*
 ccc.*.sdo.com/*.js
 c.pingba.qidian.com/increase.htm?*
 cj.qidian.com/Flash/*_*.swf
-*.qidian.com/Javascript/DoublePop.js
+*.qidian.com/Javascript/DoublePop.js*
 *.qidian.com/javascript/SNDAADAltern.js
 *.qidian.com/Javascript/NewSNDAPop.js
 game.qidian.com/game/sssg/*/index.html

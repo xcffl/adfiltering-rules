@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-02 11:50:31
+#Updated:2012-09-08 12:56:17
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -144,7 +144,7 @@ msFilterList
 - *.adpolestar.
 - */adphoto/
 - http://*clink.
-- http://*.ad.
+- http://*.ad.*.js
 - *.ad1.
 - *.ads.
 - */ads/*.ico
@@ -360,6 +360,7 @@ msFilterList
 - http://*/gg.js
 - */js/index-1.js
 - */foot.js
+- */affiliates/
 - http://*/c_2/
 - http://a-m-s.
 - */adcontrol/
@@ -659,7 +660,8 @@ msFilterList
 - */webafp?
 - */tanchuang/
 - */images/gg/
-- http://*www*/gg/
+- http://*/gg/*.jpg
+- http://*/gg/*.png
 - *.com/gg/
 - *.com.cn/gg/
 - *.net/gg/
@@ -816,6 +818,7 @@ msFilterList
 -d pub.htwisdom.com
 -d union.zhubajie.com
 - *.jugao.com/
+-d c.atdmt.com /c.gif?
 - *.100tone.com/
 -d js.yoyi.tv
 -d js.shenduchuanmei.com
@@ -1293,6 +1296,7 @@ msFilterList
 - *.cpm9v.cn/
 - *.heima8.com/
 - *.ad-plus.cn/
+-d secure-cn.imrworldwide.com
 -d a12.alphagodaddy.com /?
 - *axill.com/banners/
 - *.afdads.com/
@@ -1318,6 +1322,7 @@ msFilterList
 -d pic.loliso.com
 - *bitian8g.com/gif/
 -d cp.5228167.com
+- *.yeeunion.com/page/
 - *p012.com/Image/TaoBaoAd/
 -d img.img18.com /img/unimages/ys2012/images/cr/
 - http://c*.uk.jf26.com/show.php?
@@ -1431,10 +1436,13 @@ msFilterList
 #----新浪网&看点----
 +d api.t.sina.com.cn /statuses/counts.
 -d v.sina.com.cn .html
+-d news.sina.com.cn /js/792/
 - *.sina.com.cn/litong/
 -d count.kandian.com .html
+-d beacon.sina.com.cn
 - http://l.you.video.sina.com.cn*_undig&
 -d l.you.video.sina.com.cn .xml
+-d sina.wrating.com
 -d dcads.sina.com.cn
 -d pfp.sina.com.cn /jczs.html
 -d pfp.sina.com.cn /iframe/2012nonghangguanggaotest1.html
@@ -1709,6 +1717,8 @@ msFilterList
 -d jebe.xnimg.cn php
 - *xnimg.cn/imgpro/share/
 -d jebe.xnimg.cn swf
+#----DreamHost----
+-d images.dreamhost.com /rewards/
 #----太平洋电脑网&太平洋游戏网----
 - *.pconline.com.cn/images/lmt/area_lmt.js
 -d ivy.pconline.com.cn
@@ -1763,6 +1773,10 @@ msFilterList
 -d v4.vcimg.com /sq/*.swf
 -d sp.vcimg.com
 #----天涯社区----
+-d global.tianyaui.com /global/wizard/js/wizard.js
+-d static.tianyaui.com /js/2010/ContClick.js
+-d pinpai.tianya.cn .shtml
+-d static.tianyaui.com /js/2011/bbsclk.js
 -d static.tianyaui.com /stat_20080313.js
 -d ebook.tianya.cn /js/stat.js
 -d wenda.tianya.cn /wenda/images/*X*.swf
@@ -1836,6 +1850,7 @@ msFilterList
 -d www.faxingge.com /UpFile/hd/134*.gif
 -d www.faxingge.com /UpFile/hd/134*.jpg
 #----站长之家ChinaZ----
+-d images.chinaz.com /bbs_images/
 -d images.chinaz.com /index_images/A*.htm
 -d images.chinaz.com /index_images/wz.htm
 -d images.chinaz.com /index_images/index_buttom*.htm
@@ -1895,6 +1910,10 @@ msFilterList
 -d img.cnbeta.com /tongbu*.
 -d img.cnbeta.com 336.gif
 -d img.cnbeta.com /app*.gif
+#----Godaddy----
+-d affiliate.godaddy.com /ads/
+#----HostGator----
+-d tracking.hostgator.com /img/Penny_Discounts/*-banners-*x*.gif
 #----Godaddy域名解析DNS服务器状态----
 -d www.dnsgua.com /image/namecheap.png
 -d www.dnsgua.com /image/dnspod.png
@@ -1905,6 +1924,8 @@ msFilterList
 #----Norm Team----
 -d img03.taobaocdn.com /imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 - *normteam.com/usepic/
+#----ASP300源码下载----
+-d www.asp300.com adjs/
 #----天维网----
 -d ads.skykiwi.com
 -d www.gcemedia.co.nz /www/images/*.swf
@@ -1950,6 +1971,7 @@ msFilterList
 -d image.ku6.com 888*/
 #----异次元软件世界&iPc.me----
 -d www.iplaysoft.com /plus/static_files/nuffnang.html
+#----19楼----
 #----中关村在线&中关村在线武汉站----
 -d icon.zol-img.com.cn /public/js/web_foot.js
 -d p.zol-img.com.cn
@@ -2082,6 +2104,7 @@ msFilterList
 -d www.33lc.com /soft/UploadPic/2012-5/201251814224916797.jpg
 #----若人网&若人论坛----
 -d mu.ruoren.com
+#----央广广播电视网络台----
 #----纵横中文网----
 -d log.zongheng.com
 -d static.zongheng.com /v2_0/js/adClickStat.js
@@ -2134,6 +2157,7 @@ msFilterList
 -d hxjs.tool.hexun.com /homeway/pagemediacontrol*.js
 -d blog.hexun.com /inc/popbox.aspx
 #----MyException.cn----
+#----必上网盘----
 #----皇马球迷俱乐部论坛----
 -d img.rmfans.cn /g/
 -d ww2.sinaimg.cn /large/70aeb54ejw1dne8ifzz7ig.gif
@@ -2255,6 +2279,8 @@ msFilterList
 - *.haha.mx/Public/images/banner-*.png
 #----热门杂烩----
 -d www.micboy.com /dl2.js
+#----网赚恋吧----
+-d www.bzlba.com /wp-content/uploads/*.jpg
 #----CC网址名录----
 - *.cicih.cn/images/kuaiji.gif
 #----TechWeb----
@@ -2442,6 +2468,8 @@ msFilterList
 -d trace.enet.com.cn
 - *enet.com.cn/enetshow.shtml?
 -d images.enet.com.cn /consumer/
+#----中国电信----
++d c.oooxm.com
 #----请看小说网----
 -d www.qingkan.net /js/list.html
 #----世纪文学网----
@@ -2555,6 +2583,9 @@ msFilterList
 -d img.17k.com /channel/flash/*.swf
 -d log.17k.com
 -d img.17k.com /js/jquery*.js
+#----红浪药品网----
+-d www.3156.cn /js/float_ads.*.js
+-d www.3156.cn /images/fdgg.css
 #----豆瓣----
 -d img3.douban.com /js/boomerang.js
 -d erebor.douban.com /?unit=
@@ -3799,6 +3830,7 @@ msFilterList
 - *.google-analytics.com/
 -d www.google.cn /aclk?
 #----百度&乐居&hao123----
+-d cb.baidu.com
 -d a.baidu.com
 - *.baidu.com/ecom*&*_
 -d top.baidu.com /js/nsclick.js

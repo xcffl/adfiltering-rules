@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-09-08 22:43:38
+!Updated:2012-09-08 23:16:29
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -1748,7 +1748,7 @@ bannerad
 !@@||static.atm.youku.com*jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=http://count.atm.youku*
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*-.*\.swf\?jsStart=/
 !||valf.atm.youku.com/crossdomain.xml
-!||valf.atm.youku.com/valf?*
+/:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/valf\?/
 /:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/show\?/
 !||fvid.atm.youku.com/*
 /:\/\/([^\/]+\.)?walp\.atm\.youku\.com\//

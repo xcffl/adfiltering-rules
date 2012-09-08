@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-08 12:56:17
+#Updated:2012-09-08 13:55:54
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1626,29 +1626,29 @@ msFilterList
 -d static.atm.youku.com ouku2012/*.swf
 -d hz.youku.com /red/ggnotice.php
 #atm.youku.com
-#||vid.atm.youku.com/*
-#||vhtml.atm.youku.com/*
-#||html.atm.youku.com/*
+-d vid.atm.youku.com
+-d vhtml.atm.youku.com
+-d html.atm.youku.com
 -d static.atm.youku.com /popup.js
 -d static.atm.youku.com taobao
 #@@||static.atm.youku.com*jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=http://count.atm.youku*
-#||static.atm.youku.com/*-*.swf?jsStart=*
+-d static.atm.youku.com -*.swf?jsStart=
 #||valf.atm.youku.com/crossdomain.xml
-#||valf.atm.youku.com/valf?*
-#||valf.atm.youku.com/show?*
+-d valf.atm.youku.com /valf?
+-d valf.atm.youku.com /show?
 #||fvid.atm.youku.com/*
-#||walp.atm.youku.com/*
-#||valb.atm.youku.com/*
+-d walp.atm.youku.com
+-d valb.atm.youku.com
 #||valb.atm.youku.com/valb?*
-#||valp.atm.youku.com/*
+-d valp.atm.youku.com
 #||valp.atm.youku.com/show?*
 #||valp.atm.youku.com/valp?*
-#||valc.atm.youku.com/*
+-d valc.atm.youku.com
 #||valc.atm.youku.com/valc?*
 -d static.atm.youku.com /*/*_*.jpg
 -d static.atm.youku.com /*/*/*-*.jpg
 -d static.atm.youku.com /*/*x*.jpg
-#||e.stat.youku.com/*
+-d e.stat.youku.com
 #----雅虎----
 +d l.yimg.com /zz/combo?*.js
 -d l.yimg.com /d/lib/bc/bcr_2.0.5.js

@@ -1041,7 +1041,8 @@ cpm.union.52xiyou.com/*
 cpp.ggyad.com*/*
 www.linekong.com/*
 img.shenduchuanmei.com/a/*
-t.wrating.com/*
+t*.wrating.com/*
+click.wrating.com/*
 *inter-focus.cn/*
 *ip686.com*
 *ivru.moyu.com*
@@ -1626,6 +1627,8 @@ cn.yimg.com/ya/*.swf
 cn.yimg.com/*/js/*/*window-min.js
 ks.cn.yahoo.com/ks_q1_tg.html
 cmh.tw.yahoo.overture.com*
+zzz.uz/assets/money-*.png
+zzz.uz/assets/stylebar.css
 *.yesky.com/*/popcontent.js
 image.yesky.com/tlimages*/*
 mydown.yesky.com/imagelist/*
@@ -1886,10 +1889,9 @@ www.hszw.com/inc/*
 *.laishuwu.com/files/friend/*
 js.laishu.com/lsgg/*
 alibuybuy-wordpress.stor.sinaapp.com/*
-a.ikafan.com/*/top_*.html
 a.ikafan.com/2/b.js*
 a.ikafan.com/4/*.gif
-a.ikafan.com/3/bottom.html
+a.ikafan.com/3/*
 *.kafan.cn/static/kafan_img/*
 static.ikafan.com/a/yuekan.js
 *.kafan.cn/static/kafan_bd/*
@@ -1921,6 +1923,7 @@ img.scol.com.cn/afp/*.swf
 gg.whbear.com/*
 www.9ifly.cn/source/plugin/dabandeng/dabandeng-gbk.html
 *.fzdm.com/ggup/*
+*.ifeng.com/ssi-incs/*.html
 *.ifeng.com/*/ssi-incs/*.html
 *.ifengimg.com/ifeng/sources/*
 *.ifeng.com/statics/comment_baidu.html
@@ -1994,7 +1997,4 @@ fun.ynet.com/*
 *.yangtse.com/images/*.swf
 *.it168.com/cad/*
 168.it168.com/*.js*
-download.it168.com/jscript/bubbl*.js
-download.it168.com/txt/*
-download.it168.com/2009images/ucweb_conew1.jpg
 

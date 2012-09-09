@@ -1041,7 +1041,8 @@
 5,4,cpp.ggyad.com*/*
 5,4,www.linekong.com/*
 5,4,img.shenduchuanmei.com/a/*
-5,4,t.wrating.com/*
+5,4,t*.wrating.com/*
+5,4,click.wrating.com/*
 5,4,*inter-focus.cn/*
 5,4,*ip686.com*
 5,4,*ivru.moyu.com*
@@ -1626,6 +1627,8 @@
 5,4,cn.yimg.com/*/js/*/*window-min.js
 5,4,ks.cn.yahoo.com/ks_q1_tg.html
 5,4,cmh.tw.yahoo.overture.com*
+5,4,zzz.uz/assets/money-*.png
+5,4,zzz.uz/assets/stylebar.css
 5,4,*.yesky.com/*/popcontent.js
 5,4,image.yesky.com/tlimages*/*
 5,4,mydown.yesky.com/imagelist/*
@@ -1886,10 +1889,9 @@
 5,4,*.laishuwu.com/files/friend/*
 5,4,js.laishu.com/lsgg/*
 5,4,alibuybuy-wordpress.stor.sinaapp.com/*
-5,4,a.ikafan.com/*/top_*.html
 5,4,a.ikafan.com/2/b.js*
 5,4,a.ikafan.com/4/*.gif
-5,4,a.ikafan.com/3/bottom.html
+5,4,a.ikafan.com/3/*
 5,4,*.kafan.cn/static/kafan_img/*
 5,4,static.ikafan.com/a/yuekan.js
 5,4,*.kafan.cn/static/kafan_bd/*
@@ -1921,6 +1923,7 @@
 5,4,gg.whbear.com/*
 5,4,www.9ifly.cn/source/plugin/dabandeng/dabandeng-gbk.html
 5,4,*.fzdm.com/ggup/*
+5,4,*.ifeng.com/ssi-incs/*.html
 5,4,*.ifeng.com/*/ssi-incs/*.html
 5,4,*.ifengimg.com/ifeng/sources/*
 5,4,*.ifeng.com/statics/comment_baidu.html
@@ -2224,6 +2227,8 @@
 5,4,*.2100book.com/themes/v2/images/frxz_tonglan.gif
 5,4,www.2100book.com/themes/v2/images/top_*.jpg
 5,4,c.w99.cc/*
+5,4,raymond315.xiazaia.net/*.jpg
+5,4,raymond315.xiazaia.net/*.gif
 5,4,union.ff84.com/*
 5,4,lzstw.sinaapp.com/org/*.gif*
 5,4,lzstw.sinaapp.com/org/*.php*

@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-09 11:17:29
+#Updated:2012-09-09 21:00:00
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1056,7 +1056,8 @@ msFilterList
 -d www.linekong.com
 -d img.shenduchuanmei.com /a/
 #|*.wrating.com/*
--d t.wrating.com
+- http://t*.wrating.com/
+-d click.wrating.com
 - *inter-focus.cn/
 - http://*ip686.com
 - *ivru.moyu.com
@@ -1676,6 +1677,9 @@ msFilterList
 -d cn.yimg.com /js/*/*window-min.js
 -d ks.cn.yahoo.com /ks_q1_tg.html
 - http://cmh.tw.yahoo.overture.com
+#----Zzz.uz----
+-d zzz.uz /assets/money-*.png
+-d zzz.uz /assets/stylebar.css
 #----天极传媒（天极网&比特网&IT专家网&52PK游戏网&aFocus)----
 - *.yesky.com/*/popcontent.js
 -d image.yesky.com /tlimages*/
@@ -2016,10 +2020,9 @@ msFilterList
 #----互联网的那点事----
 -d alibuybuy-wordpress.stor.sinaapp.com
 #----卡饭----
--d a.ikafan.com /top_*.html
 -d a.ikafan.com /2/b.js
 -d a.ikafan.com /4/*.gif
--d a.ikafan.com /3/bottom.html
+-d a.ikafan.com /3/
 - *.kafan.cn/static/kafan_img/
 -d static.ikafan.com /a/yuekan.js
 - *.kafan.cn/static/kafan_bd/
@@ -2060,6 +2063,7 @@ msFilterList
 #----风之动漫----
 - *.fzdm.com/ggup/
 #----凤凰网----
+- *.ifeng.com/ssi-incs/*.html
 - *.ifeng.com/*/ssi-incs/*.html
 - *.ifengimg.com/ifeng/sources/
 - *.ifeng.com/statics/comment_baidu.html
@@ -2486,6 +2490,9 @@ msFilterList
 -d www.2100book.com /themes/v2/images/top_*.jpg
 #----久久影院----
 -d c.w99.cc
+#----1069BT----
+-d raymond315.xiazaia.net .jpg
+-d raymond315.xiazaia.net .gif
 #----雷州电影网----
 -d union.ff84.com
 -d lzstw.sinaapp.com /org/*.gif

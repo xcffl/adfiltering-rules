@@ -1,3 +1,6 @@
+download.it168.com/txt/*
+download.it168.com/2009images/ucweb_conew1.jpg
+img.hexun.com/hx_news/hx_news_finalpage.js
 hxjs.tool.hexun.com/homeway/pagemediacontrol*.js
 blog.hexun.com/inc/popbox.aspx
 img.rmfans.cn/g/*
@@ -224,6 +227,8 @@ www.qingkan.net/js/list.html
 *.2100book.com/themes/v2/images/frxz_tonglan.gif
 www.2100book.com/themes/v2/images/top_*.jpg
 c.w99.cc/*
+raymond315.xiazaia.net/*.jpg
+raymond315.xiazaia.net/*.gif
 union.ff84.com/*
 lzstw.sinaapp.com/org/*.gif*
 lzstw.sinaapp.com/org/*.php*

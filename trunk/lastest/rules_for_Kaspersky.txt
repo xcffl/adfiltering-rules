@@ -1041,6 +1041,7 @@ cpm.union.52xiyou.com/*
 cpp.ggyad.com*/*
 www.linekong.com/*
 img.shenduchuanmei.com/a/*
+t.wrating.com/*
 *inter-focus.cn/*
 *ip686.com*
 *ivru.moyu.com*
@@ -1533,7 +1534,8 @@ ring.kugou.com/*
 links.kugou.com/*
 sdn.kugou.com/*
 www.xinray.com/page/?s=*
-img3.cache.netease.com/*/ieupdate/update_funcs.js
+img*.cache.netease.com/*/ieupdate/*
+top.baidu.com/none/163.html
 stat.ws.126.net/*
 adgeo.163.com/*
 163.wrating.com/*
@@ -2726,6 +2728,7 @@ www.docin.net/js/adwz*.js
 images.dayoo.com/dywimg/*
 club.dayoo.com/banner/*
 sta.dayoo.com/*
+*.upaiyun.com/js/tts-media.js
 pic.yupoo.com/leoxuan/ANy7yxF8/F0yP5.jpg
 www.you85.cn/2/*
 www.cyzone.cn/bian/pic/top_banner.swf

@@ -1041,6 +1041,7 @@
 5,4,cpp.ggyad.com*/*
 5,4,www.linekong.com/*
 5,4,img.shenduchuanmei.com/a/*
+5,4,t.wrating.com/*
 5,4,*inter-focus.cn/*
 5,4,*ip686.com*
 5,4,*ivru.moyu.com*
@@ -1533,7 +1534,8 @@
 5,4,links.kugou.com/*
 5,4,sdn.kugou.com/*
 5,4,www.xinray.com/page/?s=*
-5,4,img3.cache.netease.com/*/ieupdate/update_funcs.js
+5,4,img*.cache.netease.com/*/ieupdate/*
+5,4,top.baidu.com/none/163.html
 5,4,stat.ws.126.net/*
 5,4,adgeo.163.com/*
 5,4,163.wrating.com/*
@@ -2726,6 +2728,7 @@
 5,4,images.dayoo.com/dywimg/*
 5,4,club.dayoo.com/banner/*
 5,4,sta.dayoo.com/*
+5,4,*.upaiyun.com/js/tts-media.js
 5,4,pic.yupoo.com/leoxuan/ANy7yxF8/F0yP5.jpg
 5,4,www.you85.cn/2/*
 5,4,www.cyzone.cn/bian/pic/top_banner.swf

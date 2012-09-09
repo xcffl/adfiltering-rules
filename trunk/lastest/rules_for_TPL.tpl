@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-08 23:16:29
+#Updated:2012-09-09 11:17:29
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1056,6 +1056,7 @@ msFilterList
 -d www.linekong.com
 -d img.shenduchuanmei.com /a/
 #|*.wrating.com/*
+-d t.wrating.com
 - *inter-focus.cn/
 - http://*ip686.com
 - *ivru.moyu.com
@@ -1571,7 +1572,8 @@ msFilterList
 #----97779资源网----
 -d www.xinray.com /page/?s=
 #----网易&有道----
--d img3.cache.netease.com /ieupdate/update_funcs.js
+- http://img*.cache.netease.com/*/ieupdate/
+-d top.baidu.com /none/163.html
 -d stat.ws.126.net
 -d adgeo.163.com
 -d 163.wrating.com
@@ -3231,6 +3233,7 @@ msFilterList
 -d club.dayoo.com /banner/
 -d sta.dayoo.com
 #----yoPoo又拍网----
+- *.upaiyun.com/js/tts-media.js
 -d pic.yupoo.com /leoxuan/ANy7yxF8/F0yP5.jpg
 #----中华网赚论坛----
 -d www.you85.cn /2/

@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-09-09 11:17:29
+!Updated:2012-09-09 21:00:00
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -10,6 +10,9 @@
 !------元素隐藏规则------
 ##.sponsor_links
 ~superbikeplanet.com##.adlink
+###flashad
+~leboncoin.fr##.ad_text
+~bigtracker.ru,~kin0.org##.block_ad
 ##.box-ad
 ##a[href^="http://ad-apac.doubleclick.net/"]
 ##.sb_adsW
@@ -1128,7 +1131,8 @@
 ||www.linekong.com/*
 ||img.shenduchuanmei.com:81/a/*
 !|*.wrating.com/*
-||t.wrating.com/*
+||t*.wrating.com/*
+||click.wrating.com/*
 |*inter-focus.cn/*
 |http://*ip686.com*
 |*ivru.moyu.com*
@@ -1783,6 +1787,9 @@ soku.com,youku.com##[id^="ab_"]
 ||cn.yimg.com/*/js/*/*window-min.js
 ||ks.cn.yahoo.com/ks_q1_tg.html
 ||cmh.tw.yahoo.overture.com*
+!----Zzz.uz----
+||zzz.uz/assets/money-*.png
+||zzz.uz/assets/stylebar.css
 !----天极传媒（天极网&比特网&IT专家网&52PK游戏网&aFocus)----
 |*.yesky.com/*/popcontent.js
 ||image.yesky.com/tlimages*/*
@@ -2155,10 +2162,9 @@ gc1069.com##EMBED
 !----互联网的那点事----
 ||alibuybuy-wordpress.stor.sinaapp.com/*
 !----卡饭----
-||a.ikafan.com/*/top_*.html
 ||a.ikafan.com/2/b.js*
 ||a.ikafan.com/4/*.gif
-||a.ikafan.com/3/bottom.html
+||a.ikafan.com/3/*
 |*.kafan.cn/static/kafan_img/*
 ||static.ikafan.com/a/yuekan.js
 |*.kafan.cn/static/kafan_bd/*
@@ -2200,6 +2206,8 @@ txt96.com##IMG[width="960"][height="90"]
 !----风之动漫----
 |*.fzdm.com/ggup/*
 !----凤凰网----
+ifeng.com##.adbox
+ifeng.com##[id^="couplet3_"]
 ifeng.com##.label_3
 ifeng.com##[id^="flash_outer_"]
 ifeng.com##[class^="adList"]
@@ -2207,6 +2215,7 @@ ifeng.com###StreamMediaWrap
 news.ifeng.com###smExtObjFlash
 news.ifeng.com###smExtObjBgIfm
 news.ifeng.com###smExtObjBg
+|*.ifeng.com/ssi-incs/*.html
 |*.ifeng.com/*/ssi-incs/*.html
 |*.ifengimg.com/ifeng/sources/*
 |*.ifeng.com/statics/comment_baidu.html
@@ -2675,6 +2684,12 @@ saesky.net##FONT[color="#0000FF"]
 ||www.2100book.com/themes/v2/images/top_*.jpg
 !----久久影院----
 ||c.w99.cc/*
+!----1069BT----
+||raymond315.xiazaia.net/*.jpg
+||raymond315.xiazaia.net/*.gif
+51rushboy.com###wpcontent_slider
+51rushboy.com###wpcontent_slider_container
+51rushboy.com##IMG[width="640"]
 !----雷州电影网----
 ||union.ff84.com/*
 ||lzstw.sinaapp.com/org/*.gif*

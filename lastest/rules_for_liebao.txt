@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-09-09 11:17:29
+!Updated:2012-09-09 21:00:00
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -11,6 +11,9 @@
 !------元素隐藏规则------
 ##.sponsor_links
 ##.adlink
+###flashad
+##.ad_text
+##.block_ad
 ##.box-ad
 ##a[href^="http://ad-apac.doubleclick.net/"]
 ##.sb_adsW
@@ -1130,7 +1133,8 @@ bannerad
 /:\/\/([^\/]+\.)?www\.linekong\.com\//
 /:\/\/([^\/]+\.)?img\.shenduchuanmei\.com\/a\//
 !|*.wrating.com/*
-/:\/\/([^\/]+\.)?t\.wrating\.com\//
+/:\/\/([^\/]+\.)?t.*\.wrating\.com\//
+/:\/\/([^\/]+\.)?click\.wrating\.com\//
 /inter-focus\.cn\//
 /^http:\/\/.*ip686\.com/
 /ivru\.moyu\.com/
@@ -1787,6 +1791,9 @@ bannerad
 /:\/\/([^\/]+\.)?cn\.yimg\.com\/.*\/js\/.*\/.*window-min\.js/
 /:\/\/([^\/]+\.)?ks\.cn\.yahoo\.com\/ks_q1_tg\.html/
 /:\/\/([^\/]+\.)?cmh\.tw\.yahoo\.overture\.com/
+!----Zzz.uz----
+/:\/\/([^\/]+\.)?zzz\.uz\/assets\/money-.*\.png/
+/:\/\/([^\/]+\.)?zzz\.uz\/assets\/stylebar\.css/
 !----天极传媒（天极网&比特网&IT专家网&52PK游戏网&aFocus)----
 /\.yesky\.com\/.*\/popcontent\.js/
 /:\/\/([^\/]+\.)?image\.yesky\.com\/tlimages.*\//
@@ -2161,10 +2168,9 @@ bannerad
 !----互联网的那点事----
 /:\/\/([^\/]+\.)?alibuybuy-wordpress\.stor\.sinaapp\.com\//
 !----卡饭----
-/:\/\/([^\/]+\.)?a\.ikafan\.com\/.*\/top_.*\.html/
 /:\/\/([^\/]+\.)?a\.ikafan\.com\/2\/b\.js/
 /:\/\/([^\/]+\.)?a\.ikafan\.com\/4\/.*\.gif/
-/:\/\/([^\/]+\.)?a\.ikafan\.com\/3\/bottom\.html/
+/:\/\/([^\/]+\.)?a\.ikafan\.com\/3\//
 /\.kafan\.cn\/static\/kafan_img\//
 /:\/\/([^\/]+\.)?static\.ikafan\.com\/a\/yuekan\.js/
 /\.kafan\.cn\/static\/kafan_bd\//
@@ -2206,6 +2212,8 @@ bannerad
 !----风之动漫----
 /\.fzdm\.com\/ggup\//
 !----凤凰网----
+##.adbox	$d=ifeng.com
+##[id^="couplet3_"]	$d=ifeng.com
 ##.label_3	$d=ifeng.com
 ##[id^="flash_outer_"]	$d=ifeng.com
 ##[class^="adList"]	$d=ifeng.com
@@ -2213,6 +2221,7 @@ bannerad
 ##smExtObjFlash	$d=news.ifeng.com
 ##smExtObjBgIfm	$d=news.ifeng.com
 ##smExtObjBg	$d=news.ifeng.com
+/\.ifeng\.com\/ssi-incs\/.*\.html/
 /\.ifeng\.com\/.*\/ssi-incs\/.*\.html/
 /\.ifengimg\.com\/ifeng\/sources\//
 /\.ifeng\.com\/statics\/comment_baidu\.html/
@@ -2683,6 +2692,12 @@ bannerad
 /:\/\/([^\/]+\.)?www\.2100book\.com\/themes\/v2\/images\/top_.*\.jpg/
 !----久久影院----
 /:\/\/([^\/]+\.)?c\.w99\.cc\//
+!----1069BT----
+/:\/\/([^\/]+\.)?raymond315\.xiazaia\.net\/.*\.jpg/
+/:\/\/([^\/]+\.)?raymond315\.xiazaia\.net\/.*\.gif/
+##wpcontent_slider	$d=51rushboy.com
+##wpcontent_slider_container	$d=51rushboy.com
+##IMG[width="640"]	$d=51rushboy.com
 !----雷州电影网----
 /:\/\/([^\/]+\.)?union\.ff84\.com\//
 /:\/\/([^\/]+\.)?lzstw\.sinaapp\.com\/org\/.*\.gif/

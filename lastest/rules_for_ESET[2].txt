@@ -1,3 +1,5 @@
+hxjs.tool.hexun.com/homeway/pagemediacontrol*.js
+blog.hexun.com/inc/popbox.aspx
 img.rmfans.cn/g/*
 ww2.sinaimg.cn/large/70aeb54ejw1dne8ifzz7ig.gif
 ww2.sinaimg.cn/large/4090c584jw1dn5uzkybzog.gif
@@ -726,6 +728,7 @@ www.docin.net/js/adwz*.js
 images.dayoo.com/dywimg/*
 club.dayoo.com/banner/*
 sta.dayoo.com/*
+*.upaiyun.com/js/tts-media.js
 pic.yupoo.com/leoxuan/ANy7yxF8/F0yP5.jpg
 www.you85.cn/2/*
 www.cyzone.cn/bian/pic/top_banner.swf

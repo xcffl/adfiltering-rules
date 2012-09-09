@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-09-08 23:16:29
+!Updated:2012-09-09 11:17:29
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -1128,6 +1128,7 @@
 ||www.linekong.com/*
 ||img.shenduchuanmei.com:81/a/*
 !|*.wrating.com/*
+||t.wrating.com/*
 |*inter-focus.cn/*
 |http://*ip686.com*
 |*ivru.moyu.com*
@@ -1672,8 +1673,10 @@ sohu.com##.adB
 ||www.xinray.com/page/?s=*
 !----网易&有道----
 www.163.com###g5n1
+163.com##.news_h123.clearfix
 163.com##[class^="gg"]
-||img3.cache.netease.com/*/ieupdate/update_funcs.js
+||img*.cache.netease.com/*/ieupdate/*
+||top.baidu.com/none/163.html
 ||stat.ws.126.net/*
 ||adgeo.163.com/*
 ||163.wrating.com/*
@@ -3438,6 +3441,7 @@ down.qiannao.com###PageRigntAds
 ||club.dayoo.com/banner/*
 ||sta.dayoo.com/*
 !----yoPoo又拍网----
+|*.upaiyun.com/js/tts-media.js
 ||pic.yupoo.com/leoxuan/ANy7yxF8/F0yP5.jpg
 !----中华网赚论坛----
 you85.cn##TABLE[align="center"]

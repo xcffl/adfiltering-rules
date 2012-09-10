@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-09-10 20:21:41
+!Updated:2012-09-10 20:48:52
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -1091,6 +1091,7 @@ bannerad
 /dw-cn\.com\.com\//
 /:\/\/([^\/]+\.)?ec\.131377\.com/
 /:\/\/([^\/]+\.)?file\.chanet\.com\.cn/
+/:\/\/([^\/]+\.)?ww\.xt918\.com\/i\.js/
 /:\/\/([^\/]+\.)?gg\.12354\.com/
 /:\/\/([^\/]+\.)?h1\.untang\.com\//
 /:\/\/([^\/]+\.)?y\.taolai\.cn/
@@ -2582,6 +2583,9 @@ bannerad
 /:\/\/([^\/]+\.)?www\.tujiw\.com\/tuijs\//
 !----爆米花网----
 /:\/\/([^\/]+\.)?a\.pomoho\.com\//
+!----如果墨客----
+##[class^="adw"]	$d=ifmoc.com
+/:\/\/([^\/]+\.)?www\.ifmoc\.com\/sites\/default\/files\/defaultAdImages\//
 !----下载吧----
 /xiazaiba\.com\/js\//
 /\/tg\/xiazaiba\/index\.html/
@@ -2646,6 +2650,8 @@ bannerad
 /:\/\/([^\/]+\.)?www\.zhubajie\.com\/img\//
 /:\/\/([^\/]+\.)?p4\.zbjimg\.com\/task\/.*-.*\/11\/pub\/.*\.jpg/
 /:\/\/([^\/]+\.)?p4\.zbjimg\.com\/task\/.*-.*\/11\/pub\/.*\.gif/
+!----人大经济论坛----
+/:\/\/([^\/]+\.)?gg\.pinggu\.name\//
 !----激网----
 /:\/\/([^\/]+\.)?www\.jetwang\.org\/ad\//
 !----可可英语----

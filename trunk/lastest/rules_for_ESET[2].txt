@@ -1,3 +1,4 @@
+*.yangtse.com/images/*.swf
 *.it168.com/cad/*
 168.it168.com/*.js*
 download.it168.com/jscript/bubbl*.js
@@ -153,6 +154,7 @@ down.x6x8.com/good/*
 bbs.txtbbs.com/data/*.swf
 www.tujiw.com/tuijs/*
 a.pomoho.com/*
+www.ifmoc.com/sites/default/files/defaultAdImages/*
 *xiazaiba.com/js/*
 */tg/xiazaiba/index.html
 *xiazaiba.com/uploadfiles/xert_img/*
@@ -197,6 +199,7 @@ www.sdbeta.com/templets/images/*
 www.zhubajie.com/img/*
 p4.zbjimg.com/task/*-*/11/pub/*.jpg
 p4.zbjimg.com/task/*-*/11/pub/*.gif
+gg.pinggu.name/*
 www.jetwang.org/ad/*
 union.koolearn.com/*
 old.kekenet.com/html/images/tom640X40.gif

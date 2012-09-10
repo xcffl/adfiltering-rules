@@ -1000,6 +1000,7 @@ display.xpresssyndication.com*
 *dw-cn.com.com/*
 ec.131377.com*
 file.chanet.com.cn*
+ww.xt918.com/i.js
 gg.12354.com*
 h1.untang.com/*
 y.taolai.cn*
@@ -1996,5 +1997,4 @@ corp.56.com/*
 ranking.ynet.com:*/*
 ranking.ynet.com/*
 ads158.ynet.com/*
-fun.ynet.com/*
 

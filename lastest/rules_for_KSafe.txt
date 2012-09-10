@@ -1000,6 +1000,7 @@
 5,4,*dw-cn.com.com/*
 5,4,ec.131377.com*
 5,4,file.chanet.com.cn*
+5,4,ww.xt918.com/i.js
 5,4,gg.12354.com*
 5,4,h1.untang.com/*
 5,4,y.taolai.cn*
@@ -2153,6 +2154,7 @@
 5,4,bbs.txtbbs.com/data/*.swf
 5,4,www.tujiw.com/tuijs/*
 5,4,a.pomoho.com/*
+5,4,www.ifmoc.com/sites/default/files/defaultAdImages/*
 5,4,*xiazaiba.com/js/*
 5,4,*/tg/xiazaiba/index.html
 5,4,*xiazaiba.com/uploadfiles/xert_img/*
@@ -2197,6 +2199,7 @@
 5,4,www.zhubajie.com/img/*
 5,4,p4.zbjimg.com/task/*-*/11/pub/*.jpg
 5,4,p4.zbjimg.com/task/*-*/11/pub/*.gif
+5,4,gg.pinggu.name/*
 5,4,www.jetwang.org/ad/*
 5,4,union.koolearn.com/*
 5,4,old.kekenet.com/html/images/tom640X40.gif

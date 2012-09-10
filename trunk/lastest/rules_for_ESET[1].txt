@@ -1764,6 +1764,8 @@ www.onlinedown.net/newhuagg/daohang.js
 */js_newhua_right_picshow*.js
 */js_newhua_txtshow*.js
 */newhuagg/*.swf*
+*.dm8.cc/s/*
+*.dm8.cc/javascript/xshow.js
 u.iciba.com/*
 *.iciba.com/images/toef.jpg
 iciba.englishtown.com/Sp/Landing/*
@@ -1947,6 +1949,7 @@ sta.ifeng.com/*
 sc.ifeng.com/*
 survey.news.ifeng.com/resultjson.php?*
 www.57dj.com/js/bd.shtml?id=*
+mat.zdface.com/Controls/ChannelHot/ChannelHotTypeID*ClassID*.aspx
 pic.duowan.com/news/*/*/*.jpg
 *duowan.com/public/s/market_count.js
 *duowan.com/s/i/notice.js
@@ -1994,7 +1997,4 @@ ranking.ynet.com:*/*
 ranking.ynet.com/*
 ads158.ynet.com/*
 fun.ynet.com/*
-*.yangtse.com/images/*.swf
-*.it168.com/cad/*
-168.it168.com/*.js*
 

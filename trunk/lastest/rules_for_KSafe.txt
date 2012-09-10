@@ -1764,6 +1764,8 @@
 5,4,*/js_newhua_right_picshow*.js
 5,4,*/js_newhua_txtshow*.js
 5,4,*/newhuagg/*.swf*
+5,4,*.dm8.cc/s/*
+5,4,*.dm8.cc/javascript/xshow.js
 5,4,u.iciba.com/*
 5,4,*.iciba.com/images/toef.jpg
 5,4,iciba.englishtown.com/Sp/Landing/*
@@ -1947,6 +1949,7 @@
 5,4,sc.ifeng.com/*
 5,4,survey.news.ifeng.com/resultjson.php?*
 5,4,www.57dj.com/js/bd.shtml?id=*
+5,4,mat.zdface.com/Controls/ChannelHot/ChannelHotTypeID*ClassID*.aspx
 5,4,pic.duowan.com/news/*/*/*.jpg
 5,4,*duowan.com/public/s/market_count.js
 5,4,*duowan.com/s/i/notice.js

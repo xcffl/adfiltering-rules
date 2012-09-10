@@ -1,3 +1,6 @@
+*.it168.com/cad/*
+168.it168.com/*.js*
+download.it168.com/jscript/bubbl*.js
 download.it168.com/txt/*
 download.it168.com/2009images/ucweb_conew1.jpg
 img.hexun.com/hx_news/hx_news_finalpage.js

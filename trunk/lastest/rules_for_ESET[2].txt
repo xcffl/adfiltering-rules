@@ -1,3 +1,5 @@
+ads158.ynet.com/*
+fun.ynet.com/*
 *.yangtse.com/images/*.swf
 *.it168.com/cad/*
 168.it168.com/*.js*
@@ -439,6 +441,8 @@ www.xiazaix.com/js/nbanner.js
 www.naiertj.com/images/ad*.gif
 www.naiertj.com/js/nbanner.js
 *xuegao.com/pub/img/u/*
+*.hotsk.com/js/asp.js
+*.hotsk.com/gg/*
 *96693.com/tg/tom365/a*-*/*
 *.ayxz.com/images/*banner.gif
 *ayxz.com/images/huhuk.jpg

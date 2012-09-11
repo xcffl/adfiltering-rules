@@ -789,6 +789,8 @@
 5,4,*.198game.com/*
 5,4,*.198game.net/*
 5,4,*.allthelyrics.com/*/popup.js
+5,4,dm.zdy.cc/a/*
+5,4,www.huahuaka.com/page/*
 5,4,code.9buo.com/*
 5,4,*.y2126.com/*
 5,4,*.union009.com/*
@@ -1880,7 +1882,7 @@
 5,4,pic.zol.com.cn/*/*hp*_*_*.swf
 5,4,*pc3w.com/jS/*
 5,4,graphics.streamray.com/images/cams/flash/cams_live.swf
-5,4,www.77119.com/js/bd/*x*.htm
+5,4,*.77119.com/js/*
 5,4,www.vancl.com/WebSource/*
 5,4,images.vancl.com/Others/*/*/*/search_vt_*.jpg
 5,4,www.hszw.com/inc/*
@@ -2439,6 +2441,8 @@
 5,4,www.naiertj.com/images/ad*.gif
 5,4,www.naiertj.com/js/nbanner.js
 5,4,*xuegao.com/pub/img/u/*
+5,4,*.hotsk.com/js/asp.js
+5,4,*.hotsk.com/gg/*
 5,4,*96693.com/tg/tom365/a*-*/*
 5,4,*.ayxz.com/images/*banner.gif
 5,4,*ayxz.com/images/huhuk.jpg

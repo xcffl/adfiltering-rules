@@ -797,6 +797,8 @@ js.juandou.com/a.js?*
 *.198game.com/*
 *.198game.net/*
 *.allthelyrics.com/*/popup.js
+dm.zdy.cc/a/*
+www.huahuaka.com/page/*
 code.9buo.com/*
 *.y2126.com/*
 *.union009.com/*
@@ -1888,7 +1890,7 @@ pic.zol-img.com.cn/*/*_*.*
 pic.zol.com.cn/*/*hp*_*_*.swf
 *pc3w.com/jS/*
 graphics.streamray.com/images/cams/flash/cams_live.swf
-www.77119.com/js/bd/*x*.htm
+*.77119.com/js/*
 www.vancl.com/WebSource/*
 images.vancl.com/Others/*/*/*/search_vt_*.jpg
 www.hszw.com/inc/*
@@ -2447,6 +2449,8 @@ www.xiazaix.com/js/nbanner.js
 www.naiertj.com/images/ad*.gif
 www.naiertj.com/js/nbanner.js
 *xuegao.com/pub/img/u/*
+*.hotsk.com/js/asp.js
+*.hotsk.com/gg/*
 *96693.com/tg/tom365/a*-*/*
 *.ayxz.com/images/*banner.gif
 *ayxz.com/images/huhuk.jpg

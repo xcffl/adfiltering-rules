@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-09-10 20:48:52
+!Updated:2012-09-11 22:20:23
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -879,6 +879,8 @@ bannerad
 /\.198game\.com\//
 /\.198game\.net\//
 /\.allthelyrics\.com\/.*\/popup\.js/
+/:\/\/([^\/]+\.)?dm\.zdy\.cc\/a\//
+/:\/\/([^\/]+\.)?www\.huahuaka\.com\/page\//
 /:\/\/([^\/]+\.)?code\.9buo\.com\//
 /\.y2126\.com\//
 /\.union009\.com\//
@@ -2148,10 +2150,10 @@ bannerad
 /:\/\/([^\/]+\.)?pic\.zol\.com\.cn\/.*\/.*hp.*_.*_.*\.swf/
 /pc3w\.com\/jS\//
 !----GC1069----
-/:\/\/([^\/]+\.)?graphics\.streamray\.com\/images\/cams\/flash\/cams_live\.swf/
 ##EMBED	$d=gc1069.com
+/:\/\/([^\/]+\.)?graphics\.streamray\.com\/images\/cams\/flash\/cams_live\.swf/
 !----77119TXT小说----
-/:\/\/([^\/]+\.)?www\.77119\.com\/js\/bd\/.*x.*\.htm/
+/\.77119\.com\/js\//
 !----凡客诚品----
 /:\/\/([^\/]+\.)?www\.vancl\.com\/WebSource\//
 /:\/\/([^\/]+\.)?images\.vancl\.com\/Others\/.*\/.*\/.*\/search_vt_.*\.jpg/
@@ -3019,6 +3021,10 @@ bannerad
 /:\/\/([^\/]+\.)?www\.naiertj\.com\/js\/nbanner\.js/
 !----雪糕网----
 /xuegao\.com\/pub\/img\/u\//
+!----热点书库----
+/\.hotsk\.com\/js\/asp\.js/
+/\.hotsk\.com\/gg\//
+##FIELDSET[style="width:730;height:80;border:1px dashed #a6ccf9"]	$d=hotsk.com
 !----96693网址导航----
 /96693\.com\/tg\/tom365\/a.*-.*\//
 !----俺要下载----

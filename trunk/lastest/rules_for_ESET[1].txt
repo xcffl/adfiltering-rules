@@ -1572,6 +1572,7 @@ impservice*.youdao.com/*
 */pos?f=*.f4v&*
 td.atm.youku.com/tdap/adclose
 static.atm.youku.com/*udou2012/*.swf*
+td.atm.youku.com/tdap/adplay
 td.atm.youku.com/tdap/adcommon?*
 istat.tudou.com/play.srv?*
 player.pb.ops.tudou.com/info.php?*
@@ -1589,12 +1590,16 @@ js.tudouui.com/bin/seedplayer_*.swf
 js.tudouui.com/bin/tudoumini/tudoumini_*.swf
 v2.tudou.com/td*/*
 *.tudou.com/framepage/*
-player.lstat.youku.com/log.gif*
 f.youku.com/player/get*/fileid/*&yad=1*
 t.stat.youku.com/*
 static.atm.youku.com/*/allyes.html
+t.lstat.youku.com/*
+static.atm.youku.com/crossdomain.xml
 static.atm.youku.com/*ouku2012/*.swf*
-hz.youku.com/red/ggnotice.php
+static.youku.com/*/index/js/cps.js
+static.youku.com/*/index/js/hzClick.js
+static.youku.com/*/index/js/iresearch.js
+hz.youku.com/red/*
 vid.atm.youku.com/*
 vhtml.atm.youku.com/*
 html.atm.youku.com/*
@@ -1992,9 +1997,4 @@ lisbon.6rooms.com/*
 *6.cn/mdfor/index_new.js
 *.pojiezhan.com/vivi/*
 *.tiyuba.tv/app/js/common.js
-corp.56.com/*
-*.cnchu.com/*/aps/*
-*7edown.com/db/*
-*7edown.com/newbd/*
-ranking.ynet.com:*/*
 

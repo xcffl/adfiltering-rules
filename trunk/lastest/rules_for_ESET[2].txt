@@ -1,3 +1,8 @@
+*.cnchu.com/*/aps/*
+*7edown.com/db/*
+*7edown.com/newbd/*
+ranking.ynet.com:*/*
+ranking.ynet.com/*
 ads158.ynet.com/*
 fun.ynet.com/*
 *.yangtse.com/images/*.swf
@@ -929,6 +934,7 @@ www.gy778tv.cn/UBB/uploadfile/News/20090411/20090411103618800.gif
 *.jpwave.net/*
 www.riju.com/pr/koi.gif
 www.riju.com/img/ouen.gif
+*.riju.com/uranai.htm
 *.jpunion.com/*
 img.kaixin001.com.cn/js/cpm*.js
 *.ktxp.com/javascripts/nmjui/*

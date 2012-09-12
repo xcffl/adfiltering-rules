@@ -1572,6 +1572,7 @@ impservice*.youdao.com/*
 */pos?f=*.f4v&*
 td.atm.youku.com/tdap/adclose
 static.atm.youku.com/*udou2012/*.swf*
+td.atm.youku.com/tdap/adplay
 td.atm.youku.com/tdap/adcommon?*
 istat.tudou.com/play.srv?*
 player.pb.ops.tudou.com/info.php?*
@@ -1589,12 +1590,16 @@ js.tudouui.com/bin/seedplayer_*.swf
 js.tudouui.com/bin/tudoumini/tudoumini_*.swf
 v2.tudou.com/td*/*
 *.tudou.com/framepage/*
-player.lstat.youku.com/log.gif*
 f.youku.com/player/get*/fileid/*&yad=1*
 t.stat.youku.com/*
 static.atm.youku.com/*/allyes.html
+t.lstat.youku.com/*
+static.atm.youku.com/crossdomain.xml
 static.atm.youku.com/*ouku2012/*.swf*
-hz.youku.com/red/ggnotice.php
+static.youku.com/*/index/js/cps.js
+static.youku.com/*/index/js/hzClick.js
+static.youku.com/*/index/js/iresearch.js
+hz.youku.com/red/*
 vid.atm.youku.com/*
 vhtml.atm.youku.com/*
 html.atm.youku.com/*
@@ -2929,6 +2934,7 @@ www.gy778tv.cn/UBB/uploadfile/News/20090411/20090411103618800.gif
 *.jpwave.net/*
 www.riju.com/pr/koi.gif
 www.riju.com/img/ouen.gif
+*.riju.com/uranai.htm
 *.jpunion.com/*
 img.kaixin001.com.cn/js/cpm*.js
 *.ktxp.com/javascripts/nmjui/*

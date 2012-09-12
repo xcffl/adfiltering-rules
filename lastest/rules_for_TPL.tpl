@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-11 22:20:23
+#Updated:2012-09-12 21:55:57
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1611,6 +1611,7 @@ msFilterList
 - */pos?f=*.f4v&
 -d td.atm.youku.com /tdap/adclose
 -d static.atm.youku.com udou2012/*.swf
+-d td.atm.youku.com /tdap/adplay
 -d td.atm.youku.com /tdap/adcommon?
 -d istat.tudou.com /play.srv?
 -d player.pb.ops.tudou.com /info.php?
@@ -1629,12 +1630,16 @@ msFilterList
 -d v2.tudou.com /td*/
 - *.tudou.com/framepage/
 #----优酷网----
--d player.lstat.youku.com /log.gif
 -d f.youku.com /player/get*/fileid/*&yad=1
 -d t.stat.youku.com
 -d static.atm.youku.com /allyes.html
+-d t.lstat.youku.com
+-d static.atm.youku.com /crossdomain.xml
 -d static.atm.youku.com ouku2012/*.swf
--d hz.youku.com /red/ggnotice.php
+-d static.youku.com /index/js/cps.js
+-d static.youku.com /index/js/hzClick.js
+-d static.youku.com /index/js/iresearch.js
+-d hz.youku.com /red/
 #atm.youku.com
 -d vid.atm.youku.com
 -d vhtml.atm.youku.com
@@ -3546,6 +3551,7 @@ msFilterList
 - *.jpwave.net/
 -d www.riju.com /pr/koi.gif
 -d www.riju.com /img/ouen.gif
+- *.riju.com/uranai.htm
 - *.jpunion.com/
 #----开心网----
 -d img.kaixin001.com.cn /js/cpm*.js

@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-09-11 22:20:23
+!Updated:2012-09-12 21:55:57
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -1721,6 +1721,7 @@ bannerad
 /\/pos\?f=.*\.f4v&/
 /:\/\/([^\/]+\.)?td\.atm\.youku\.com\/tdap\/adclose/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*udou2012\/.*\.swf/
+/:\/\/([^\/]+\.)?td\.atm\.youku\.com\/tdap\/adplay/
 /:\/\/([^\/]+\.)?td\.atm\.youku\.com\/tdap\/adcommon\?/
 /:\/\/([^\/]+\.)?istat\.tudou\.com\/play\.srv\?/
 /:\/\/([^\/]+\.)?player\.pb\.ops\.tudou\.com\/info\.php\?/
@@ -1742,13 +1743,20 @@ bannerad
 ##[id^="youku_ad_"]
 ##[id^="ab_"]	$d=soku.com
 ##[id^="ab_"]	$d=youku.com
+##ab_282	$d=soku.com
+##ab_26	$d=youku.com
+##.AB240	$d=youku.com
 ##.sideCol > div[class^="AB"]
-/:\/\/([^\/]+\.)?player\.lstat\.youku\.com\/log\.gif/
 /:\/\/([^\/]+\.)?f\.youku\.com\/player\/get.*\/fileid\/.*&yad=1/
 /:\/\/([^\/]+\.)?t\.stat\.youku\.com\//
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/allyes\.html/
+/:\/\/([^\/]+\.)?t\.lstat\.youku\.com\//
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/crossdomain\.xml/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*ouku2012\/.*\.swf/
-/:\/\/([^\/]+\.)?hz\.youku\.com\/red\/ggnotice\.php/
+/:\/\/([^\/]+\.)?static\.youku\.com\/.*\/index\/js\/cps\.js/
+/:\/\/([^\/]+\.)?static\.youku\.com\/.*\/index\/js\/hzClick\.js/
+/:\/\/([^\/]+\.)?static\.youku\.com\/.*\/index\/js\/iresearch\.js/
+/:\/\/([^\/]+\.)?hz\.youku\.com\/red\//
 !atm.youku.com
 /:\/\/([^\/]+\.)?vid\.atm\.youku\.com\//
 /:\/\/([^\/]+\.)?vhtml\.atm\.youku\.com\//
@@ -3790,6 +3798,7 @@ bannerad
 /\.jpwave\.net\//
 /:\/\/([^\/]+\.)?www\.riju\.com\/pr\/koi\.gif/
 /:\/\/([^\/]+\.)?www\.riju\.com\/img\/ouen\.gif/
+/\.riju\.com\/uranai\.htm/
 /\.jpunion\.com\//
 !----开心网----
 /:\/\/([^\/]+\.)?img\.kaixin001\.com\.cn\/js\/cpm.*\.js/

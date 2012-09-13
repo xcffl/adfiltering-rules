@@ -1569,7 +1569,7 @@ st1.yxp.126.net/img/photo/*
 *.union.youdao.com/*
 impservice*.youdao.com/*
 */pos?act=dur&dk=*
-*/pos?f=*.f4v&*
+*/pos?f=f4v*
 td.atm.youku.com/tdap/adclose
 static.atm.youku.com/*udou2012/*.swf*
 td.atm.youku.com/tdap/adplay

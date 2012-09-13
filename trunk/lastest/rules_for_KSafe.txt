@@ -1569,7 +1569,7 @@
 5,4,*.union.youdao.com/*
 5,4,impservice*.youdao.com/*
 5,4,*/pos?act=dur&dk=*
-5,4,*/pos?f=*.f4v&*
+5,4,*/pos?f=f4v*
 5,4,td.atm.youku.com/tdap/adclose
 5,4,static.atm.youku.com/*udou2012/*.swf*
 5,4,td.atm.youku.com/tdap/adplay

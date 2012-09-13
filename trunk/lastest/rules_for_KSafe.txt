@@ -3031,6 +3031,7 @@
 5,4,eap.enorth.com.cn/*
 5,4,static.doyouhike.net/partner/*
 5,4,*bitscn.com/pic2009/a*.js
+5,4,union.51.com/*
 5,4,v3.apic.51.com/vda09.js
 5,4,*360doc.com/js/albb3.js
 5,4,*2500sz.com/site/*

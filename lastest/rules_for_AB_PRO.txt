@@ -876,6 +876,7 @@ d1.yghua.com/code/*
 *.565882.com/*
 *.91sanguo.cn*
 *.6dad.com/*
+idigger.allyes.com/*
 smcommon.allyes.com/*
 smarttrade.allyes.com/*
 *allyes.*/ad*
@@ -2297,6 +2298,11 @@ att.3dmgame.com/att/forum/201207/20/2357438m3eem8mebm888bm.jpg
 *duotegame.com/images/*5c*.gif
 ad*.6to23.com/*
 poster.weather.com.cn/*
+gimg.bitauto.com/ResourceFiles/city/*
+g.bitauto.com/*.ashx?*
+gimg.bitauto.com/js/sense.js
+image.bitauto.com/uploadpic/Block/*.swf
+g.bitauto.com/*.js
 *.xdowns.com/new/ggdown.html
 cc.153.xdowns.com/*
 bbs.xdowns.com/jump.js
@@ -2751,6 +2757,7 @@ topic.csdn.net/u/t5/include/*
 act.chinatimes.com/aimg/*
 news.chinatimes.com/2009Cti/*Ads-Right*.shtml
 *chinatimes.com/2007Cti/*
+fsdfeer.any2000.com/f/s/fsdfeer/fh/*.swf
 www.docin.net/js/adwz*.js
 *dayoo.com/sta/da.js*
 images.dayoo.com/dywimg/*
@@ -3077,6 +3084,7 @@ image.wenweipo.com/*/ad_*
 *newtalk.tw/ad_*
 *mingpao.com/image/banner/adc/*.jpg
 *junshier.com/data/js/*
+app.v.huanqiu.com/vv.html?*
 *.huanqiu.com/script/HuanQiuAllBottom.Js
 huanqiu.allyes.com/*
 *huanqiu.com/script/content_js/*

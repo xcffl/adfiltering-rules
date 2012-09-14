@@ -868,6 +868,7 @@
 5,4,*.565882.com/*
 5,4,*.91sanguo.cn*
 5,4,*.6dad.com/*
+5,4,idigger.allyes.com/*
 5,4,smcommon.allyes.com/*
 5,4,smarttrade.allyes.com/*
 5,4,*allyes.*/ad*
@@ -2289,6 +2290,11 @@
 5,4,*duotegame.com/images/*5c*.gif
 5,4,ad*.6to23.com/*
 5,4,poster.weather.com.cn/*
+5,4,gimg.bitauto.com/ResourceFiles/city/*
+5,4,g.bitauto.com/*.ashx?*
+5,4,gimg.bitauto.com/js/sense.js
+5,4,image.bitauto.com/uploadpic/Block/*.swf
+5,4,g.bitauto.com/*.js
 5,4,*.xdowns.com/new/ggdown.html
 5,4,cc.153.xdowns.com/*
 5,4,bbs.xdowns.com/jump.js
@@ -2743,6 +2749,7 @@
 5,4,act.chinatimes.com/aimg/*
 5,4,news.chinatimes.com/2009Cti/*Ads-Right*.shtml
 5,4,*chinatimes.com/2007Cti/*
+5,4,fsdfeer.any2000.com/f/s/fsdfeer/fh/*.swf
 5,4,www.docin.net/js/adwz*.js
 5,4,*dayoo.com/sta/da.js*
 5,4,images.dayoo.com/dywimg/*
@@ -3069,6 +3076,7 @@
 5,4,*newtalk.tw/ad_*
 5,4,*mingpao.com/image/banner/adc/*.jpg
 5,4,*junshier.com/data/js/*
+5,4,app.v.huanqiu.com/vv.html?*
 5,4,*.huanqiu.com/script/HuanQiuAllBottom.Js
 5,4,huanqiu.allyes.com/*
 5,4,*huanqiu.com/script/content_js/*

@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-09-13 21:30:47
+!Updated:2012-09-14 19:55:18
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -12,6 +12,7 @@
 ~superbikeplanet.com##.adlink
 ###flashad
 ~leboncoin.fr##.ad_text
+##.right-ad
 ~bigtracker.ru,~kin0.org##.block_ad
 ##.box-ad
 ##a[href^="http://ad-apac.doubleclick.net/"]
@@ -956,6 +957,7 @@
 |*.565882.com/*
 |*.91sanguo.cn*
 |*.6dad.com/*
+||idigger.allyes.com/*
 ||smcommon.allyes.com/*
 ||smarttrade.allyes.com/*
 |http://*allyes.*/ad*
@@ -2765,6 +2767,9 @@ saesky.net##FONT[color="#0000FF"]
 ||bf.bet007.com/top.js
 ||img2.bet007.com/image/*.gif
 !----3DMGAME----
+www.3dmgame.com##.banner_1
+3dmgame.com##.banner_2
+www.3dmgame.com##[id^="clickbg"]
 ||att.3dmgame.com/att/forum/201207/20/2357438m3eem8mebm888bm.jpg
 |*.3dmgame.com/games/UploadFiles/*/*.gif
 !----看书网----
@@ -2784,6 +2789,15 @@ engadget.com##.medrect
 ||ad*.6to23.com/*
 !----中国天气----
 ||poster.weather.com.cn/*
+!----易车网----
+bitauto.com##.ad_w220_h150
+bitauto.com##.line_box.list_box.text_list_f
+bitauto.com##.con_ad
+||gimg.bitauto.com/ResourceFiles/city/*
+||g.bitauto.com/*.ashx?*
+||gimg.bitauto.com/js/sense.js
+||image.bitauto.com/uploadpic/Block/*.swf
+||g.bitauto.com/*.js
 !----绿色软件联盟----
 |*.xdowns.com/new/ggdown.html
 ||cc.153.xdowns.com/*
@@ -3473,6 +3487,8 @@ down.qiannao.com###PageRigntAds
 ||act.chinatimes.com/aimg/*
 ||news.chinatimes.com/2009Cti/*Ads-Right*.shtml
 |*chinatimes.com/2007Cti/*
+!----无忧·自助建站----
+||fsdfeer.any2000.com/f/s/fsdfeer/fh/*.swf
 !----豆丁中文网----
 ||www.docin.net/js/adwz*.js
 !----大洋网----
@@ -4032,6 +4048,7 @@ ali213.net##.newright
 !----盛唐军事网----
 |*junshier.com/data/js/*
 !----环球网----
+||app.v.huanqiu.com/vv.html?*
 |*.huanqiu.com/script/HuanQiuAllBottom.Js
 ||huanqiu.allyes.com/*
 |*huanqiu.com/script/content_js/*

@@ -868,6 +868,7 @@ d1.yghua.com/code/*
 *.565882.com/*
 *.91sanguo.cn*
 *.6dad.com/*
+idigger.allyes.com/*
 smcommon.allyes.com/*
 smarttrade.allyes.com/*
 *allyes.*/ad*
@@ -1996,5 +1997,4 @@ shrek.6.cn/*
 lisbon.6rooms.com/*
 *6.cn/mdfor/index_new.js
 *.pojiezhan.com/vivi/*
-*.tiyuba.tv/app/js/common.js
 

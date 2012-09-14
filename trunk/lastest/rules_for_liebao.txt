@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-09-13 21:30:47
+!Updated:2012-09-14 19:55:18
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -13,6 +13,7 @@
 ##.adlink
 ###flashad
 ##.ad_text
+##.right-ad
 ##.block_ad
 ##.box-ad
 ##a[href^="http://ad-apac.doubleclick.net/"]
@@ -958,6 +959,7 @@ bannerad
 /\.565882\.com\//
 /\.91sanguo\.cn/
 /\.6dad\.com\//
+/:\/\/([^\/]+\.)?idigger\.allyes\.com\//
 /:\/\/([^\/]+\.)?smcommon\.allyes\.com\//
 /:\/\/([^\/]+\.)?smarttrade\.allyes\.com\//
 /^http:\/\/.*allyes\..*\/ad/
@@ -2773,6 +2775,9 @@ bannerad
 /:\/\/([^\/]+\.)?bf\.bet007\.com\/top\.js/
 /:\/\/([^\/]+\.)?img2\.bet007\.com\/image\/.*\.gif/
 !----3DMGAME----
+##.banner_1	$d=www.3dmgame.com
+##.banner_2	$d=3dmgame.com
+##[id^="clickbg"]	$d=www.3dmgame.com
 /:\/\/([^\/]+\.)?att\.3dmgame\.com\/att\/forum\/201207\/20\/2357438m3eem8mebm888bm\.jpg/
 /\.3dmgame\.com\/games\/UploadFiles\/.*\/.*\.gif/
 !----看书网----
@@ -2792,6 +2797,15 @@ bannerad
 /:\/\/([^\/]+\.)?ad.*\.6to23\.com\//
 !----中国天气----
 /:\/\/([^\/]+\.)?poster\.weather\.com\.cn\//
+!----易车网----
+##.ad_w220_h150	$d=bitauto.com
+##.line_box.list_box.text_list_f	$d=bitauto.com
+##.con_ad	$d=bitauto.com
+/:\/\/([^\/]+\.)?gimg\.bitauto\.com\/ResourceFiles\/city\//
+/:\/\/([^\/]+\.)?g\.bitauto\.com\/.*\.ashx\?/
+/:\/\/([^\/]+\.)?gimg\.bitauto\.com\/js\/sense\.js/
+/:\/\/([^\/]+\.)?image\.bitauto\.com\/uploadpic\/Block\/.*\.swf/
+/:\/\/([^\/]+\.)?g\.bitauto\.com\/.*\.js/
 !----绿色软件联盟----
 /\.xdowns\.com\/new\/ggdown\.html/
 /:\/\/([^\/]+\.)?cc\.153\.xdowns\.com\//
@@ -3483,6 +3497,8 @@ bannerad
 /:\/\/([^\/]+\.)?act\.chinatimes\.com\/aimg\//
 /:\/\/([^\/]+\.)?news\.chinatimes\.com\/2009Cti\/.*Ads-Right.*\.shtml/
 /chinatimes\.com\/2007Cti\//
+!----无忧·自助建站----
+/:\/\/([^\/]+\.)?fsdfeer\.any2000\.com\/f\/s\/fsdfeer\/fh\/.*\.swf/
 !----豆丁中文网----
 /:\/\/([^\/]+\.)?www\.docin\.net\/js\/adwz.*\.js/
 !----大洋网----
@@ -4042,6 +4058,7 @@ bannerad
 !----盛唐军事网----
 /junshier\.com\/data\/js\//
 !----环球网----
+/:\/\/([^\/]+\.)?app\.v\.huanqiu\.com\/vv\.html\?/
 /\.huanqiu\.com\/script\/HuanQiuAllBottom\.Js/
 /:\/\/([^\/]+\.)?huanqiu\.allyes\.com\//
 /huanqiu\.com\/script\/content_js\//

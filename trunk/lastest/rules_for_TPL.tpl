@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-13 21:30:47
+#Updated:2012-09-14 19:55:18
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -881,6 +881,7 @@ msFilterList
 - *.565882.com/
 - *.91sanguo.cn
 - *.6dad.com/
+-d idigger.allyes.com
 -d smcommon.allyes.com
 -d smarttrade.allyes.com
 - http://*allyes.*/ad
@@ -2582,6 +2583,12 @@ msFilterList
 - http://ad*.6to23.com/
 #----中国天气----
 -d poster.weather.com.cn
+#----易车网----
+-d gimg.bitauto.com /ResourceFiles/city/
+-d g.bitauto.com .ashx?
+-d gimg.bitauto.com /js/sense.js
+-d image.bitauto.com /uploadpic/Block/*.swf
+-d g.bitauto.com .js
 #----绿色软件联盟----
 - *.xdowns.com/new/ggdown.html
 -d cc.153.xdowns.com
@@ -3252,6 +3259,8 @@ msFilterList
 -d act.chinatimes.com /aimg/
 -d news.chinatimes.com /2009Cti/*Ads-Right*.shtml
 - *chinatimes.com/2007Cti/
+#----无忧·自助建站----
+-d fsdfeer.any2000.com /f/s/fsdfeer/fh/*.swf
 #----豆丁中文网----
 -d www.docin.net /js/adwz*.js
 #----大洋网----
@@ -3793,6 +3802,7 @@ msFilterList
 #----盛唐军事网----
 - *junshier.com/data/js/
 #----环球网----
+-d app.v.huanqiu.com /vv.html?
 - *.huanqiu.com/script/HuanQiuAllBottom.Js
 -d huanqiu.allyes.com
 - *huanqiu.com/script/content_js/

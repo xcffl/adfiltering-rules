@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-09-14 19:55:18
+!Updated:2012-09-15 15:19:08
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
@@ -11,6 +11,7 @@
 !------元素隐藏规则------
 ##.sponsor_links
 ##.adlink
+##.sidebar-ads
 ###flashad
 ##.ad_text
 ##.right-ad
@@ -2099,6 +2100,8 @@ bannerad
 /:\/\/([^\/]+\.)?img\.duote\.com\/images\/gg_bbs_/
 /:\/\/([^\/]+\.)?img\.duote\.com\/duotehtml\//
 /:\/\/([^\/]+\.)?img\.duote\.com\/images\/cop\//
+!----北京美食网----
+/:\/\/([^\/]+\.)?www\.bj100\.com\/zhuanti\/video\//
 !----烟桥社区----
 /yanqiao\.com\/duote\.js/
 /yanqiao\.com\/yanqiao\//
@@ -2145,6 +2148,8 @@ bannerad
 ##.float-ad	$d=19lou.com
 ##.float-ad	$d=ihome99.com
 ##.head-ad	$d=19lou.com
+!----微视频----
+/:\/\/([^\/]+\.)?www\.wewehot\.com\/googlevideoadslibraryas.*\.swf/
 !----中关村在线&中关村在线武汉站----
 /:\/\/([^\/]+\.)?icon\.zol-img\.com\.cn\/public\/js\/web_foot\.js/
 /:\/\/([^\/]+\.)?p\.zol-img\.com\.cn\//
@@ -3582,6 +3587,7 @@ bannerad
 !----免费网络----
 /freewl\.com\/js\//
 !----煎蛋网----
+/:\/\/([^\/]+\.)?jdstatic\.tankr\.net\/s\//
 /:\/\/([^\/]+\.)?jdstatic\.tankr\.net\/side\//
 /\/jandan\.jpg/
 /\/jiandan\.jpg/

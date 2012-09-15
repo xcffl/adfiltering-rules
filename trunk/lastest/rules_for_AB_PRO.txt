@@ -1859,6 +1859,7 @@ img.xmfish.com/attachment/Mon_1104/*
 img.duote.com/images/gg_bbs_*
 img.duote.com/duotehtml/*
 img.duote.com/images/cop/*
+www.bj100.com/zhuanti/video/*
 *yanqiao.com/duote.js
 *yanqiao.com/yanqiao/*
 *xue5.com/itedu/js/DIVit_QQ.js
@@ -1882,6 +1883,7 @@ st.vq.ku6.cn/*
 image.ku6.com/image/*
 image.ku6.com/*888*/*
 www.iplaysoft.com/plus/static_files/nuffnang.html
+www.wewehot.com/googlevideoadslibraryas*.swf
 icon.zol-img.com.cn/public/js/web_foot.js
 p.zol-img.com.cn/*
 dw.cbsi.com.cn/clear/*c.gif?*
@@ -2806,6 +2808,7 @@ www.cc222.com/_javascript/popupWin.js
 *010dz.com/images/content_login*.htm
 *010dz.com/images/content_undertitle_insert.htm
 *freewl.com/js/*
+jdstatic.tankr.net/s/*
 jdstatic.tankr.net/side/*
 */jandan.jpg
 */jiandan.jpg

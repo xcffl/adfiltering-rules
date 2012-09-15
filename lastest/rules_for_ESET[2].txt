@@ -1,3 +1,8 @@
+*6.cn/mdfor/watch_new11.js
+*6.cn/csjs10/tan_*.js
+shrek.6.cn/*
+lisbon.6rooms.com/*
+*6.cn/mdfor/index_new.js
 *.pojiezhan.com/vivi/*
 *.tiyuba.tv/app/js/common.js
 corp.56.com/*

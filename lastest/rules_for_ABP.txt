@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-09-15 15:19:08
+!Updated:2012-09-15 22:52:45
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -806,16 +806,21 @@
 |*/image/ad/*
 |*/html/ad/*
 |*/bbs_list/ad/*
-|http://*/ad/*X*.jpg
+|http://*.cn*/ad/*X*.jpg
+!|http://*/ad/*X*.jpg
 ||ox-d.*/jstag|
-|http://*/ad/*.js*
-|http://*/ad/*.gif*
+|http://*.cn*/ad/*.js*
+|http://*.cn*/ad/*.gif*
 |http://*/ad/*.css*
 |http://*/ad/*.bmp*
 |*.com.tw/ad/*
 |*.com.cn/ad/*
 |http://*com*/ad/*.swf*
-|http://*/ad/*=*
+|http://*.org*/ad/*=*
+!|http://*.org*/ad/*X*.jpg
+|http://*.org*/ad/*.js*
+|http://*.org*/ad/*.gif*
+|http://*.org*/ad/*=*
 |http://*/ad/ad.*
 |*/popcode.js
 |*.org*/ad-images/*
@@ -1750,7 +1755,9 @@ youku.com##.AB240
 ||t.stat.youku.com/*
 ||static.atm.youku.com/*/allyes.html
 ||t.lstat.youku.com/*
+||static.youku.com/*/index/js/popup.js
 ||static.atm.youku.com/crossdomain.xml
+||static.atm.youku.com/*ouku2012/*.jpg*
 ||static.atm.youku.com/*ouku2012/*.swf*
 ||static.youku.com/*/index/js/cps.js
 ||static.youku.com/*/index/js/hzClick.js
@@ -1765,7 +1772,7 @@ youku.com##.AB240
 !@@||static.atm.youku.com*jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=http://count.atm.youku*
 ||static.atm.youku.com/*-*.swf?jsStart=*
 !||valf.atm.youku.com/crossdomain.xml
-||valf.atm.youku.com/valf?*
+!||valf.atm.youku.com/valf?*
 ||valf.atm.youku.com/show?*
 !||fvid.atm.youku.com/*
 ||walp.atm.youku.com/*
@@ -2134,9 +2141,13 @@ www.ku6.com##[class^="a_d0608"]
 ||image.ku6.com/*888*/*
 !----异次元软件世界&iPc.me----
 ipc.me##.widget.widget_ad_slot_wrapper
+ipc.me###crumb_r
+ipc.me##.widget_ad_slot_wrapper + .widget
+ipc.me##li[style="_display:block;height:252px;width:301px;overflow:hidden;margin-bottom:7px"]
 ipc.me##[style="_display:block;height:252px;width:301px;overflow:hidden;margin-bottom:7px"]
 ipc.me##LI.widget
 ipc.me##.post-top-gg
+||www.ipc.me/plus/static_files/nuffnang.html
 ||www.iplaysoft.com/plus/static_files/nuffnang.html
 !----19楼----
 19lou.com,ihome99.com##.ad-cycle

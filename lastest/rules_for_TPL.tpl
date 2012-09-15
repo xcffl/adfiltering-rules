@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-14 19:55:18
+#Updated:2012-09-15 15:19:08
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1961,6 +1961,8 @@ msFilterList
 -d img.duote.com /images/gg_bbs_
 -d img.duote.com /duotehtml/
 -d img.duote.com /images/cop/
+#----北京美食网----
+-d www.bj100.com /zhuanti/video/
 #----烟桥社区----
 - *yanqiao.com/duote.js
 - *yanqiao.com/yanqiao/
@@ -1994,6 +1996,8 @@ msFilterList
 #----异次元软件世界&iPc.me----
 -d www.iplaysoft.com /plus/static_files/nuffnang.html
 #----19楼----
+#----微视频----
+-d www.wewehot.com /googlevideoadslibraryas*.swf
 #----中关村在线&中关村在线武汉站----
 -d icon.zol-img.com.cn /public/js/web_foot.js
 -d p.zol-img.com.cn
@@ -3339,6 +3343,7 @@ msFilterList
 #----免费网络----
 - *freewl.com/js/
 #----煎蛋网----
+-d jdstatic.tankr.net /s/
 -d jdstatic.tankr.net /side/
 - */jandan.jpg
 - */jiandan.jpg

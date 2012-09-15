@@ -1851,6 +1851,7 @@
 5,4,img.duote.com/images/gg_bbs_*
 5,4,img.duote.com/duotehtml/*
 5,4,img.duote.com/images/cop/*
+5,4,www.bj100.com/zhuanti/video/*
 5,4,*yanqiao.com/duote.js
 5,4,*yanqiao.com/yanqiao/*
 5,4,*xue5.com/itedu/js/DIVit_QQ.js
@@ -1874,6 +1875,7 @@
 5,4,image.ku6.com/image/*
 5,4,image.ku6.com/*888*/*
 5,4,www.iplaysoft.com/plus/static_files/nuffnang.html
+5,4,www.wewehot.com/googlevideoadslibraryas*.swf
 5,4,icon.zol-img.com.cn/public/js/web_foot.js
 5,4,p.zol-img.com.cn/*
 5,4,dw.cbsi.com.cn/clear/*c.gif?*
@@ -2798,6 +2800,7 @@
 5,4,*010dz.com/images/content_login*.htm
 5,4,*010dz.com/images/content_undertitle_insert.htm
 5,4,*freewl.com/js/*
+5,4,jdstatic.tankr.net/s/*
 5,4,jdstatic.tankr.net/side/*
 5,4,*/jandan.jpg
 5,4,*/jiandan.jpg

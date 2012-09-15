@@ -718,16 +718,19 @@ a.*/scripts/common.js
 */image/ad/*
 */html/ad/*
 */bbs_list/ad/*
-*/ad/*X*.jpg
+*.cn*/ad/*X*.jpg
 ox-d.*/jstag
-*/ad/*.js*
-*/ad/*.gif*
+*.cn*/ad/*.js*
+*.cn*/ad/*.gif*
 */ad/*.css*
 */ad/*.bmp*
 *.com.tw/ad/*
 *.com.cn/ad/*
 *com*/ad/*.swf*
-*/ad/*=*
+*.org*/ad/*=*
+*.org*/ad/*.js*
+*.org*/ad/*.gif*
+*.org*/ad/*=*
 */ad/ad.*
 */popcode.js
 *.org*/ad-images/*
@@ -1595,7 +1598,9 @@ f.youku.com/player/get*/fileid/*&yad=1*
 t.stat.youku.com/*
 static.atm.youku.com/*/allyes.html
 t.lstat.youku.com/*
+static.youku.com/*/index/js/popup.js
 static.atm.youku.com/crossdomain.xml
+static.atm.youku.com/*ouku2012/*.jpg*
 static.atm.youku.com/*ouku2012/*.swf*
 static.youku.com/*/index/js/cps.js
 static.youku.com/*/index/js/hzClick.js
@@ -1607,7 +1612,6 @@ html.atm.youku.com/*
 static.atm.youku.com/*/popup.js
 static.atm.youku.com/*taobao*
 static.atm.youku.com/*-*.swf?jsStart=*
-valf.atm.youku.com/valf?*
 valf.atm.youku.com/show?*
 walp.atm.youku.com/*
 valb.atm.youku.com/*
@@ -1874,6 +1878,7 @@ css.ku6cdn.com/podcast/img/bg_ad.gif
 st.vq.ku6.cn/*
 image.ku6.com/image/*
 image.ku6.com/*888*/*
+www.ipc.me/plus/static_files/nuffnang.html
 www.iplaysoft.com/plus/static_files/nuffnang.html
 www.wewehot.com/googlevideoadslibraryas*.swf
 icon.zol-img.com.cn/public/js/web_foot.js
@@ -1992,9 +1997,4 @@ www.tietai.com/file/upload/*/*/*-*-*-*-*.jpg
 *.orsoon.com/orsoon/img/*x*.jpg
 *.d9soft.com/images/ad*.gif
 *.39.net/gy/arthot/hz/*
-i.6.cn/cvbnm/99/18/a3/4478ff78d6c6565d9fc6a635ad173121.jpg
-*6.cn/mdfor/watch_new11.js
-*6.cn/csjs10/tan_*.js
-shrek.6.cn/*
-lisbon.6rooms.com/*
 

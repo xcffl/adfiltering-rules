@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-15 15:19:08
+#Updated:2012-09-15 22:52:45
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -729,16 +729,21 @@ msFilterList
 - */image/ad/
 - */html/ad/
 - */bbs_list/ad/
-- http://*/ad/*X*.jpg
+- http://*.cn*/ad/*X*.jpg
+#|http://*/ad/*X*.jpg
 - http://ox-d.*/jstag
-- http://*/ad/*.js
-- http://*/ad/*.gif
+- http://*.cn*/ad/*.js
+- http://*.cn*/ad/*.gif
 - http://*/ad/*.css
 - http://*/ad/*.bmp
 - *.com.tw/ad/
 - *.com.cn/ad/
 - http://*com*/ad/*.swf
-- http://*/ad/*=
+- http://*.org*/ad/*=
+#|http://*.org*/ad/*X*.jpg
+- http://*.org*/ad/*.js
+- http://*.org*/ad/*.gif
+- http://*.org*/ad/*=
 - http://*/ad/ad.
 - */popcode.js
 - *.org*/ad-images/
@@ -1635,7 +1640,9 @@ msFilterList
 -d t.stat.youku.com
 -d static.atm.youku.com /allyes.html
 -d t.lstat.youku.com
+-d static.youku.com /index/js/popup.js
 -d static.atm.youku.com /crossdomain.xml
+-d static.atm.youku.com ouku2012/*.jpg
 -d static.atm.youku.com ouku2012/*.swf
 -d static.youku.com /index/js/cps.js
 -d static.youku.com /index/js/hzClick.js
@@ -1650,7 +1657,7 @@ msFilterList
 #@@||static.atm.youku.com*jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=http://count.atm.youku*
 -d static.atm.youku.com -*.swf?jsStart=
 #||valf.atm.youku.com/crossdomain.xml
--d valf.atm.youku.com /valf?
+#||valf.atm.youku.com/valf?*
 -d valf.atm.youku.com /show?
 #||fvid.atm.youku.com/*
 -d walp.atm.youku.com
@@ -1994,6 +2001,7 @@ msFilterList
 -d image.ku6.com /image/
 -d image.ku6.com 888*/
 #----异次元软件世界&iPc.me----
+-d www.ipc.me /plus/static_files/nuffnang.html
 -d www.iplaysoft.com /plus/static_files/nuffnang.html
 #----19楼----
 #----微视频----

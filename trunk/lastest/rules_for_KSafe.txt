@@ -1603,7 +1603,7 @@
 5,4,static.atm.youku.com/*ouku2012/*.jpg*
 5,4,static.atm.youku.com/*ouku2012/*.swf*
 5,4,static.youku.com/*/index/js/cps.js
-5,4,static.youku.com/*/index/js/hzClick.js
+5,4,static.youku.com/*/index/js/hz*lick.js
 5,4,static.youku.com/*/index/js/iresearch.js
 5,4,hz.youku.com/red/*
 5,4,vid.atm.youku.com/*

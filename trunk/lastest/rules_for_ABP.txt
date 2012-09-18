@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-09-16 15:17:37
+!Updated:2012-09-18 20:53:01
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -11,6 +11,7 @@
 ##.sponsor_links
 ~superbikeplanet.com##.adlink
 ##.sidebar-ads
+###ad-sidebar
 ###flashad
 ~leboncoin.fr##.ad_text
 ##.right-ad
@@ -1755,7 +1756,7 @@ youku.com##.AB240
 ||t.stat.youku.com/*
 ||static.atm.youku.com/*/allyes.html
 ||t.lstat.youku.com/*
-||static.youku.com/*/index/js/popup.js
+!||static.youku.com/*/index/js/popup.js
 ||static.atm.youku.com/crossdomain.xml
 ||static.atm.youku.com/*ouku2012/*.jpg*
 ||static.atm.youku.com/*ouku2012/*.swf*
@@ -1895,6 +1896,7 @@ i.qianshou.com##DIV[style="width:728px; height:90px; float:left; padding-top:4px
 iqiyi.com###adflash
 iqiyi.com##.first_adv
 iqiyi.com##[id^="div_theatre"]
+||202.108.14.72/ts.swf
 ||220.181.109.181:8080/tracker?*
 ||afp.qiyi.com/*
 ||jsmsg.video.qiyi.com/*
@@ -2205,6 +2207,7 @@ gc1069.com##EMBED
 !----瑞丽网----
 ||www.rayli.com.cn/newdcy/*fushijs/yhjads*.js
 !----17173----
+||818.17173.com/js/818ad01.js
 ||images.17173.com/*/www/*/*/*-*-*.swf
 ||i1.17173.itc.cn/*/www/*/*/*-*-*.*
 ||i3.17173.itc.cn/*/www/*/*/*-*-*.*
@@ -2945,9 +2948,8 @@ bbs.360.cn##.aXd
 !----bilibili.tv----
 bilibili.tv,bilibili.kankanews.com##.ad-f
 ||static.hdslb.com/ad-images/*.swf
-||bilibili.kankanews.com/html/ads-*
-||www.bilibili.tv/html/ads-*
-||bilibili.kankanews.com/html/*.html
+|*bilibili.*/html/ads-*
+|*bilibili.*/html/*.html
 !----浦北部落----
 |*pb86.net/sb/images/*
 |*pb86.net/d/*
@@ -2978,6 +2980,7 @@ bilibili.tv,bilibili.kankanews.com##.ad-f
 |*autohome.com.cn/33*
 ||33.autohome.com.cn*
 !----AcFun.tv----
+|*.acfun.tv/api/count.aspx
 |*.acfun.tv/json/newad.xml
 !----大纪元----
 ||ads3.epochtimes.com/*
@@ -4015,6 +4018,7 @@ ali213.net##.newright
 !----3E高清电影网----
 |*0595jx.com/images/41.gif
 !----乐视网----
+||letv.allyes.com/*
 ||dc.letv.com/*
 ||js.letvcdn.com/js/*/stats/*
 |*pro.letv.com/*

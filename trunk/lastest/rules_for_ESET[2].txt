@@ -1,3 +1,4 @@
+i.6.cn/cvbnm/99/18/a3/4478ff78d6c6565d9fc6a635ad173121.jpg
 *6.cn/mdfor/watch_new11.js
 *6.cn/csjs10/tan_*.js
 shrek.6.cn/*
@@ -393,9 +394,8 @@ js.ggyy8.cc/1/js/760*
 js.pub.tom.com/*
 tv-static.tom.com/6c6266/20101026/hd16953.flv
 static.hdslb.com/ad-images/*.swf
-bilibili.kankanews.com/html/ads-*
-www.bilibili.tv/html/ads-*
-bilibili.kankanews.com/html/*.html
+*bilibili.*/html/ads-*
+*bilibili.*/html/*.html
 *pb86.net/sb/images/*
 *pb86.net/d/*
 news.5068.com/z/js/Addme.js
@@ -417,6 +417,7 @@ click1.game.131.com/*
 res.files.131.com/script/notif.js
 *autohome.com.cn/33*
 33.autohome.com.cn*
+*.acfun.tv/api/count.aspx
 *.acfun.tv/json/newad.xml
 ads3.epochtimes.com/*
 gc1069.com/bbs/images/default/*X*.gif
@@ -1056,6 +1057,7 @@ v3.apic.51.com/vda09.js
 luckstatic.v1.cn/st/10000/*
 *pipi.cn/player/*
 *0595jx.com/images/41.gif
+letv.allyes.com/*
 dc.letv.com/*
 js.letvcdn.com/js/*/stats/*
 *pro.letv.com/*

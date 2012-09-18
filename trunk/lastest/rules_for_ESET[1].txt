@@ -1598,7 +1598,6 @@ f.youku.com/player/get*/fileid/*&yad=1*
 t.stat.youku.com/*
 static.atm.youku.com/*/allyes.html
 t.lstat.youku.com/*
-static.youku.com/*/index/js/popup.js
 static.atm.youku.com/crossdomain.xml
 static.atm.youku.com/*ouku2012/*.jpg*
 static.atm.youku.com/*ouku2012/*.swf*
@@ -1702,6 +1701,7 @@ images.mydrivers.com/*/*x*.swf
 11.mydrivers.com/myfiles/04.js
 11.mydrivers.com/myfiles/myfiles100*.js
 *images.mydrivers.com/*/*x*.gif
+202.108.14.72/ts.swf
 220.181.109.181/tracker?*
 afp.qiyi.com/*
 jsmsg.video.qiyi.com/*
@@ -1916,6 +1916,7 @@ static.ikafan.com/a/yuekan.js
 static.ikafan.com/kafan_bd/*
 static.ikafan.com/kafan_img/*
 www.rayli.com.cn/newdcy/*fushijs/yhjads*.js
+818.17173.com/js/818ad01.js
 images.17173.com/*/www/*/*/*-*-*.swf
 i1.17173.itc.cn/*/www/*/*/*-*-*.*
 i3.17173.itc.cn/*/www/*/*/*-*-*.*
@@ -1996,5 +1997,4 @@ www.tietai.com/file/upload/*/*/*-*-*-*-*.jpg
 */orsoon/img/donwpf.gif
 *.orsoon.com/orsoon/img/*x*.jpg
 *.d9soft.com/images/ad*.gif
-*.39.net/gy/arthot/hz/*
 

@@ -1598,7 +1598,6 @@
 5,4,t.stat.youku.com/*
 5,4,static.atm.youku.com/*/allyes.html
 5,4,t.lstat.youku.com/*
-5,4,static.youku.com/*/index/js/popup.js
 5,4,static.atm.youku.com/crossdomain.xml
 5,4,static.atm.youku.com/*ouku2012/*.jpg*
 5,4,static.atm.youku.com/*ouku2012/*.swf*
@@ -1702,6 +1701,7 @@
 5,4,11.mydrivers.com/myfiles/04.js
 5,4,11.mydrivers.com/myfiles/myfiles100*.js
 5,4,*images.mydrivers.com/*/*x*.gif
+5,4,202.108.14.72/ts.swf
 5,4,220.181.109.181/tracker?*
 5,4,afp.qiyi.com/*
 5,4,jsmsg.video.qiyi.com/*
@@ -1916,6 +1916,7 @@
 5,4,static.ikafan.com/kafan_bd/*
 5,4,static.ikafan.com/kafan_img/*
 5,4,www.rayli.com.cn/newdcy/*fushijs/yhjads*.js
+5,4,818.17173.com/js/818ad01.js
 5,4,images.17173.com/*/www/*/*/*-*-*.swf
 5,4,i1.17173.itc.cn/*/www/*/*/*-*-*.*
 5,4,i3.17173.itc.cn/*/www/*/*/*-*-*.*
@@ -2393,9 +2394,8 @@
 5,4,js.pub.tom.com/*
 5,4,tv-static.tom.com/6c6266/20101026/hd16953.flv
 5,4,static.hdslb.com/ad-images/*.swf
-5,4,bilibili.kankanews.com/html/ads-*
-5,4,www.bilibili.tv/html/ads-*
-5,4,bilibili.kankanews.com/html/*.html
+5,4,*bilibili.*/html/ads-*
+5,4,*bilibili.*/html/*.html
 5,4,*pb86.net/sb/images/*
 5,4,*pb86.net/d/*
 5,4,news.5068.com/z/js/Addme.js
@@ -2417,6 +2417,7 @@
 5,4,res.files.131.com/script/notif.js
 5,4,*autohome.com.cn/33*
 5,4,33.autohome.com.cn*
+5,4,*.acfun.tv/api/count.aspx
 5,4,*.acfun.tv/json/newad.xml
 5,4,ads3.epochtimes.com/*
 5,4,gc1069.com/bbs/images/default/*X*.gif
@@ -3056,6 +3057,7 @@
 5,4,luckstatic.v1.cn/st/10000/*
 5,4,*pipi.cn/player/*
 5,4,*0595jx.com/images/41.gif
+5,4,letv.allyes.com/*
 5,4,dc.letv.com/*
 5,4,js.letvcdn.com/js/*/stats/*
 5,4,*pro.letv.com/*

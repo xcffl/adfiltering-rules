@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-16 15:17:37
+#Updated:2012-09-18 20:53:01
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1640,7 +1640,7 @@ msFilterList
 -d t.stat.youku.com
 -d static.atm.youku.com /allyes.html
 -d t.lstat.youku.com
--d static.youku.com /index/js/popup.js
+#||static.youku.com/*/index/js/popup.js
 -d static.atm.youku.com /crossdomain.xml
 -d static.atm.youku.com ouku2012/*.jpg
 -d static.atm.youku.com ouku2012/*.swf
@@ -1771,6 +1771,7 @@ msFilterList
 -d 11.mydrivers.com /myfiles/myfiles100*.js
 - *images.mydrivers.com/*/*x*.gif
 #----爱奇艺----
+-d 202.108.14.72 /ts.swf
 -d 220.181.109.181 /tracker?
 -d afp.qiyi.com
 -d jsmsg.video.qiyi.com
@@ -2055,6 +2056,7 @@ msFilterList
 #----瑞丽网----
 -d www.rayli.com.cn /newdcy/*fushijs/yhjads*.js
 #----17173----
+-d 818.17173.com /js/818ad01.js
 -d images.17173.com /www/*/*/*-*-*.swf
 -d i1.17173.itc.cn /www/*/*/*-*-*.
 -d i3.17173.itc.cn /www/*/*/*-*-*.
@@ -2728,9 +2730,8 @@ msFilterList
 - tv-static.tom.com/6c6266/20101026/hd16953.flv
 #----bilibili.tv----
 -d static.hdslb.com /ad-images/*.swf
--d bilibili.kankanews.com /html/ads-
--d www.bilibili.tv /html/ads-
--d bilibili.kankanews.com /html/*.html
+- *bilibili.*/html/ads-
+- *bilibili.*/html/*.html
 #----浦北部落----
 - *pb86.net/sb/images/
 - *pb86.net/d/
@@ -2761,6 +2762,7 @@ msFilterList
 - *autohome.com.cn/33
 - http://33.autohome.com.cn
 #----AcFun.tv----
+- *.acfun.tv/api/count.aspx
 - *.acfun.tv/json/newad.xml
 #----大纪元----
 -d ads3.epochtimes.com
@@ -3765,6 +3767,7 @@ msFilterList
 #----3E高清电影网----
 - *0595jx.com/images/41.gif
 #----乐视网----
+-d letv.allyes.com
 -d dc.letv.com
 -d js.letvcdn.com /js/*/stats/
 - *pro.letv.com/

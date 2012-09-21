@@ -786,6 +786,7 @@ i.uu06.com/*
 *.irs09.com/*
 *.topfriv.com/popup.js
 code.ilepai.com/*
+p.49ko.com/*
 *.securitymattersmag.com/scripts/popup.js
 a*.q150.com/*
 js.juandou.com/a.js?*
@@ -1996,5 +1997,4 @@ www.tietai.com/file/upload/*/*/*-*-*-*-*.jpg
 */orsoon/img/gg.gif
 */orsoon/img/donwpf.gif
 *.orsoon.com/orsoon/img/*x*.jpg
-*.d9soft.com/images/ad*.gif
 

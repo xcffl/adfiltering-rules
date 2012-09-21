@@ -786,6 +786,7 @@
 5,4,*.irs09.com/*
 5,4,*.topfriv.com/popup.js
 5,4,code.ilepai.com/*
+5,4,p.49ko.com/*
 5,4,*.securitymattersmag.com/scripts/popup.js
 5,4,a*.q150.com/*
 5,4,js.juandou.com/a.js?*
@@ -2475,7 +2476,7 @@
 5,4,dl.dydao.com/taobao*.gif
 5,4,dl.dydao.com/daikao*.gif
 5,4,tbphoto.bababian.com/upload2/%E7%BB%BF%E7%BB%BF%E6%88%91%E7%88%B1/710_90.gif
-5,4,copy.ousns.com/*.jpg
+5,4,copy.ousns.com/*
 5,4,img.uu1001.cn/wrappler_swf2/2011-12-27/19/1b/27403090_cb427d45b6c6ae9f46b0ad3ceb2060db_268x90.swf
 5,4,res.yyets.com/images/close-ad.gif
 5,4,*.yyets.com/forumid_*/*.gif
@@ -3196,6 +3197,8 @@
 5,4,c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
 5,4,dwtracking.sdo.com/*
 5,4,stat.aa.sdo.com/*
+5,4,*.sdo.com/redo004/fb.php
+5,4,g.*.sdo.com/?method=GetAd&*
 5,4,cip.*.sdo.com/*
 5,4,ccc.*.sdo.com/*.js
 5,4,c.pingba.qidian.com/increase.htm?*
@@ -3264,6 +3267,8 @@
 5,4,*119.167.222.*mp4*
 5,4,*60.217.245.*mp4*
 5,4,61.147.113.170/*
+5,4,173.208.166.162/*
+5,4,63.141.248.130/*
 5,4,202.109.129.248/*
 5,4,218.44.31.45/*
 5,4,114.247.19.164*

@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-09-18 20:53:01
+!Updated:2012-09-21 21:49:01
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -879,6 +879,7 @@
 |*.irs09.com/*
 |*.topfriv.com/popup.js
 ||code.ilepai.com/*
+||p.49ko.com/*
 |*.securitymattersmag.com/scripts/popup.js
 ||a*.q150.com/*
 ||js.juandou.com/a.js?*
@@ -1974,6 +1975,10 @@ pptv.com##[id^="afp_"]
 !----当当网----
 ||a.dangdang.com/*
 ||img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
+!----零点看书网----
+@@||www.lingdiankanshu.com/Skin/*
+lingdiankanshu.com##FIELDSET[style$="#a6ccf9"]
+lingdiankanshu.com##TD[width="301"]
 !----华军软件园&牛华网----
 newhua.com##[class^="ad_ritht_"]
 ||download.cncmax.js.cn/images/temp/down-banner*.jpg
@@ -2474,6 +2479,8 @@ youtube.com###search-pva
 |*bkill.net/img/fx.gif
 |*bkill.net/images/dubahesiu.gif
 |*bkill.net/images/3.jpg
+!----炫浪网络社区----
+ncs.xvna.com##.Cad1
 !----The HTML5 test----
 html5test.com##.ads
 !----GayFriendFinder----
@@ -3076,8 +3083,10 @@ hotsk.com##FIELDSET[style="width:730;height:80;border:1px dashed #a6ccf9"]
 ||dl.dydao.com/taobao*.gif
 ||dl.dydao.com/daikao*.gif
 !----人人影视----
+yyets.com###upad
+yyets.com##.couplet
 ||tbphoto.bababian.com/upload2/%E7%BB%BF%E7%BB%BF%E6%88%91%E7%88%B1/710_90.gif
-||copy.ousns.com/*.jpg
+||copy.ousns.com/*
 ||img.uu1001.cn/wrappler_swf2/2011-12-27/19/1b/27403090_cb427d45b6c6ae9f46b0ad3ceb2060db_268x90.swf
 ||res.yyets.com/images/close-ad.gif
 |*.yyets.com/forumid_*/*.gif
@@ -4230,6 +4239,8 @@ www.qidian.com##.DH17
 @@||money.9292wan.com/money/js/money.js
 ||dwtracking.sdo.com/*
 ||stat.aa.sdo.com/*
+|*.sdo.com/redo004/fb.php
+||g.*.sdo.com/?method=GetAd&*
 ||cip.*.sdo.com/*
 ||ccc.*.sdo.com/*.js
 ||c.pingba.qidian.com/increase.htm?*
@@ -4303,6 +4314,8 @@ www.qidian.com##.DH17
 |*119.167.222.*mp4*
 |*60.217.245.*mp4*
 ||61.147.113.170:88/*
+||173.208.166.162/*
+||63.141.248.130/*
 ||202.109.129.248/*
 ||218.44.31.45/*
 ||114.247.19.164*

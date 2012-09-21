@@ -786,6 +786,7 @@ i.uu06.com/*
 *.irs09.com/*
 *.topfriv.com/popup.js
 code.ilepai.com/*
+p.49ko.com/*
 *.securitymattersmag.com/scripts/popup.js
 a*.q150.com/*
 js.juandou.com/a.js?*
@@ -2475,7 +2476,7 @@ global.mso.com.cn/html/a/*
 dl.dydao.com/taobao*.gif
 dl.dydao.com/daikao*.gif
 tbphoto.bababian.com/upload2/%E7%BB%BF%E7%BB%BF%E6%88%91%E7%88%B1/710_90.gif
-copy.ousns.com/*.jpg
+copy.ousns.com/*
 img.uu1001.cn/wrappler_swf2/2011-12-27/19/1b/27403090_cb427d45b6c6ae9f46b0ad3ceb2060db_268x90.swf
 res.yyets.com/images/close-ad.gif
 *.yyets.com/forumid_*/*.gif
@@ -3196,6 +3197,8 @@ g.webgame.com.cn/*
 c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
 dwtracking.sdo.com/*
 stat.aa.sdo.com/*
+*.sdo.com/redo004/fb.php
+g.*.sdo.com/?method=GetAd&*
 cip.*.sdo.com/*
 ccc.*.sdo.com/*.js
 c.pingba.qidian.com/increase.htm?*
@@ -3264,6 +3267,8 @@ register.haohaowan.com/adu/cpm?channelId=*
 *119.167.222.*mp4*
 *60.217.245.*mp4*
 61.147.113.170/*
+173.208.166.162/*
+63.141.248.130/*
 202.109.129.248/*
 218.44.31.45/*
 114.247.19.164*

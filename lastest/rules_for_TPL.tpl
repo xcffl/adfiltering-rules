@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-18 20:53:01
+#Updated:2012-09-21 21:49:01
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -801,6 +801,7 @@ msFilterList
 - *.irs09.com/
 - *.topfriv.com/popup.js
 -d code.ilepai.com
+-d p.49ko.com
 - *.securitymattersmag.com/scripts/popup.js
 - http://a*.q150.com/
 -d js.juandou.com /a.js?
@@ -1846,6 +1847,8 @@ msFilterList
 #----当当网----
 -d a.dangdang.com
 -d img4.ddimg.cn /00074/pic/*_*_*x*_*.jpg
+#----零点看书网----
++d www.lingdiankanshu.com /Skin/
 #----华军软件园&牛华网----
 -d download.cncmax.js.cn /images/temp/down-banner*.jpg
 -d news.newhua.com /newhuagg/news_
@@ -2298,6 +2301,7 @@ msFilterList
 - *bkill.net/img/fx.gif
 - *bkill.net/images/dubahesiu.gif
 - *bkill.net/images/3.jpg
+#----炫浪网络社区----
 #----The HTML5 test----
 #----GayFriendFinder----
 #----站长网----
@@ -2855,7 +2859,7 @@ msFilterList
 -d dl.dydao.com /daikao*.gif
 #----人人影视----
 -d tbphoto.bababian.com /upload2/%E7%BB%BF%E7%BB%BF%E6%88%91%E7%88%B1/710_90.gif
--d copy.ousns.com .jpg
+-d copy.ousns.com
 -d img.uu1001.cn /wrappler_swf2/2011-12-27/19/1b/27403090_cb427d45b6c6ae9f46b0ad3ceb2060db_268x90.swf
 -d res.yyets.com /images/close-ad.gif
 - *.yyets.com/forumid_*/*.gif
@@ -3963,6 +3967,8 @@ msFilterList
 +d money.9292wan.com /money/js/money.js
 -d dwtracking.sdo.com
 -d stat.aa.sdo.com
+- *.sdo.com/redo004/fb.php
+- http://g.*.sdo.com/?method=GetAd&
 - http://cip.*.sdo.com/
 - http://ccc.*.sdo.com/*.js
 -d c.pingba.qidian.com /increase.htm?
@@ -4036,6 +4042,8 @@ msFilterList
 - *119.167.222.*mp4
 - *60.217.245.*mp4
 -d 61.147.113.170
+-d 173.208.166.162
+-d 63.141.248.130
 -d 202.109.129.248
 -d 218.44.31.45
 - http://114.247.19.164

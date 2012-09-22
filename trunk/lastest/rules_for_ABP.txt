@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-09-21 21:49:01
+!Updated:2012-09-22 15:47:19
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -13,6 +13,11 @@
 ##.sidebar-ads
 ###ad-sidebar
 ###flashad
+##.ad-banner
+##.ad-head
+##.ad-link
+##.tab_ad
+~amonis.be##.text-ad
 ~leboncoin.fr##.ad_text
 ##.right-ad
 ~bigtracker.ru,~kin0.org##.block_ad
@@ -259,6 +264,7 @@
 |http://*footad.js*
 |http://*waitad.js*
 |http://*showad.js*
+|*.adm.*/*
 ||adm.*/*
 ||adk.*/*
 |http://ad.*/*
@@ -594,6 +600,7 @@
 |*-300x250.*
 |*/banner-header.*
 |*action=redir*_splash&url=*
+|*/scripts/ad/*
 |*/ui.js.php?siteid=*
 |*/at_tan.php?*
 |http://*/pv?s=*
@@ -875,6 +882,8 @@
 |*/zbxxg2009b/ggw/dmtgg/*
 !-------------广告联盟-------------
 |*.0252.com/*
+||p*.aidaicn.com/*
+||js.ssrj.net/p/*
 ||i.uu06.com/*
 |*.irs09.com/*
 |*.topfriv.com/popup.js
@@ -1458,6 +1467,7 @@ qq.com##.l_qq_com
 ||mat1.gtimg.com/2012/images/ay12/*ad*.jpg
 ||mat1.gtimg.com/cq/*
 ||mat1.gtimg.com/sports/*.swf
+||isdspeed.qq.com/*
 ||tajs.qq.com/*
 ||adsrich.qq.com/*/crystal-min.js
 ||l.qq.com/p?*
@@ -1973,6 +1983,7 @@ pptv.com##[id^="afp_"]
 |*.synacast.com/*
 |*pp2.pptv.com/*
 !----当当网----
+||union.dangdang.com/*
 ||a.dangdang.com/*
 ||img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 !----零点看书网----
@@ -2048,6 +2059,9 @@ jdcjsr.com##.clearfix.mt10
 !----三楚网----
 ||www.3chu.com/salegm/files/images/*/*/*-*-*-*.gif
 ||www.3chu.com/salegm/files/images/*/*/*-*-*-*.jpg
+!----Major Geeks----
+majorgeeks.com##a[href^="http://www.uniblue.com/cm/"]
+majorgeeks.com##a[href^="https://secure.avangate.com/affiliate.php"]
 !----机锋----
 www.gfan.com##.banner
 gfan.com###floatAd
@@ -2163,6 +2177,7 @@ ipc.me##.post-top-gg
 !----微视频----
 ||www.wewehot.com/googlevideoadslibraryas*.swf
 !----中关村在线&中关村在线武汉站----
+zol.com.cn##[id^="ad_"]
 ||icon.zol-img.com.cn/public/js/web_foot.js
 ||p.zol-img.com.cn/*
 ||dw.cbsi.com.cn/clear/*c.gif?*
@@ -2558,6 +2573,7 @@ win7china.com,win8china.com##.site_ad
 |*.vista123.com/notice.htm
 ||www.win8china.com/script/*.htm
 ||www.win7china.com/script/*.htm
+||img.win7china.com/images/300_80_*.gif
 |*.vista123.com/script/popup_win.js
 ||img.vista123.com/images/*3*x*.
 ||img.vista123.com/images/355_80_cd.gif
@@ -2856,6 +2872,8 @@ bitauto.com##.con_ad
 ||img.17k.com/channel/flash/*.swf
 ||log.17k.com/*
 ||img.17k.com/js/jquery*.js
+!----战略网----
+|*.chinaiiss.com/include/js/function.ad.js
 !----红浪药品网----
 ||www.3156.cn/js/float_ads.*.js
 ||www.3156.cn/images/fdgg.css
@@ -2912,6 +2930,9 @@ bitauto.com##.con_ad
 ||www.ztlt.org/*ztad*
 !----江城足球网----
 ||img1.jczqw.com/img/*
+!----微博通----
+wbto.cn##[class^="vip_close"]
+||www.wbto.cn/images/*_ad.jpg
 !----电脑之家PChome----
 article.pchome.net###lenovo
 kdslife.com,pchome.net##[class^="ad"]

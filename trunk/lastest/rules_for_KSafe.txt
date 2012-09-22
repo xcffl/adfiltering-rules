@@ -170,6 +170,7 @@
 5,4,*footad.js*
 5,4,*waitad.js*
 5,4,*showad.js*
+5,4,*.adm.*/*
 5,4,adm.*/*
 5,4,adk.*/*
 5,4,ad.*/*
@@ -505,6 +506,7 @@
 5,4,*-300x250.*
 5,4,*/banner-header.*
 5,4,*action=redir*_splash&url=*
+5,4,*/scripts/ad/*
 5,4,*/ui.js.php?siteid=*
 5,4,*/at_tan.php?*
 5,4,*/pv?s=*
@@ -782,6 +784,8 @@
 5,4,*/gg_ad/*
 5,4,*/zbxxg2009b/ggw/dmtgg/*
 5,4,*.0252.com/*
+5,4,p*.aidaicn.com/*
+5,4,js.ssrj.net/p/*
 5,4,i.uu06.com/*
 5,4,*.irs09.com/*
 5,4,*.topfriv.com/popup.js
@@ -1349,6 +1353,7 @@
 5,4,mat1.gtimg.com/2012/images/ay12/*ad*.jpg
 5,4,mat1.gtimg.com/cq/*
 5,4,mat1.gtimg.com/sports/*.swf
+5,4,isdspeed.qq.com/*
 5,4,tajs.qq.com/*
 5,4,adsrich.qq.com/*/crystal-min.js
 5,4,l.qq.com/p?*
@@ -1758,6 +1763,7 @@
 5,4,ik.synacast.com/*
 5,4,*.synacast.com/*
 5,4,*pp2.pptv.com/*
+5,4,union.dangdang.com/*
 5,4,a.dangdang.com/*
 5,4,img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 5,4,download.cncmax.js.cn/images/temp/down-banner*.jpg
@@ -2139,6 +2145,7 @@
 5,4,*.vista123.com/notice.htm
 5,4,www.win8china.com/script/*.htm
 5,4,www.win7china.com/script/*.htm
+5,4,img.win7china.com/images/300_80_*.gif
 5,4,*.vista123.com/script/popup_win.js
 5,4,img.vista123.com/images/*3*x*.
 5,4,img.vista123.com/images/355_80_cd.gif
@@ -2325,6 +2332,7 @@
 5,4,img.17k.com/channel/flash/*.swf
 5,4,log.17k.com/*
 5,4,img.17k.com/js/jquery*.js
+5,4,*.chinaiiss.com/include/js/function.ad.js
 5,4,www.3156.cn/js/float_ads.*.js
 5,4,www.3156.cn/images/fdgg.css
 5,4,img3.douban.com/js/boomerang.js*
@@ -2365,6 +2373,7 @@
 5,4,*.younet.com/images/*.swf
 5,4,www.ztlt.org/*ztad*
 5,4,img1.jczqw.com/img/*
+5,4,www.wbto.cn/images/*_ad.jpg
 5,4,images.pchome.net/global/js2/f_right.js?*
 5,4,js-1.pchome.net/*.js
 5,4,btn.pchome.net/*

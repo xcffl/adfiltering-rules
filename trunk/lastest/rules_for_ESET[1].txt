@@ -170,6 +170,7 @@ adimg.*
 *footad.js*
 *waitad.js*
 *showad.js*
+*.adm.*/*
 adm.*/*
 adk.*/*
 ad.*/*
@@ -505,6 +506,7 @@ js.*/code.js
 *-300x250.*
 */banner-header.*
 *action=redir*_splash&url=*
+*/scripts/ad/*
 */ui.js.php?siteid=*
 */at_tan.php?*
 */pv?s=*
@@ -782,6 +784,8 @@ ox-d.*/jstag
 */gg_ad/*
 */zbxxg2009b/ggw/dmtgg/*
 *.0252.com/*
+p*.aidaicn.com/*
+js.ssrj.net/p/*
 i.uu06.com/*
 *.irs09.com/*
 *.topfriv.com/popup.js
@@ -1349,6 +1353,7 @@ mat1.gtimg.com/2012/images/ay12/*AD*.png
 mat1.gtimg.com/2012/images/ay12/*ad*.jpg
 mat1.gtimg.com/cq/*
 mat1.gtimg.com/sports/*.swf
+isdspeed.qq.com/*
 tajs.qq.com/*
 adsrich.qq.com/*/crystal-min.js
 l.qq.com/p?*
@@ -1758,6 +1763,7 @@ player.pplive.cn/*/PPLivePlugin.swf*
 ik.synacast.com/*
 *.synacast.com/*
 *pp2.pptv.com/*
+union.dangdang.com/*
 a.dangdang.com/*
 img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 download.cncmax.js.cn/images/temp/down-banner*.jpg
@@ -1991,10 +1997,4 @@ mu.ruoren.com/*
 log.zongheng.com/*
 static.zongheng.com/v2_0/js/adClickStat.js
 book.zongheng.com/inc/add/zhad.html
-www.tietai.com/file/upload/*/*/*-*-*-*-*.jpg
-*.orsoon.com/orsoon/img/zz*.gif
-*/orsoon/img/ad*.gif
-*/orsoon/img/gg.gif
-*/orsoon/img/donwpf.gif
-*.orsoon.com/orsoon/img/*x*.jpg
 

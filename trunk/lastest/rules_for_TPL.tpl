@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-21 21:49:01
+#Updated:2012-09-22 15:47:19
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -181,6 +181,7 @@ msFilterList
 - http://*footad.js
 - http://*waitad.js
 - http://*showad.js
+- *.adm.*/
 - http://adm.*/
 - http://adk.*/
 - http://ad.*/
@@ -516,6 +517,7 @@ msFilterList
 - *-300x250.
 - */banner-header.
 - *action=redir*_splash&url=
+- */scripts/ad/
 - */ui.js.php?siteid=
 - */at_tan.php?
 - http://*/pv?s=
@@ -797,6 +799,8 @@ msFilterList
 - */zbxxg2009b/ggw/dmtgg/
 #-------------广告联盟-------------
 - *.0252.com/
+- http://p*.aidaicn.com/
+-d js.ssrj.net /p/
 -d i.uu06.com
 - *.irs09.com/
 - *.topfriv.com/popup.js
@@ -1378,6 +1382,7 @@ msFilterList
 -d mat1.gtimg.com /2012/images/ay12/*ad*.jpg
 -d mat1.gtimg.com /cq/
 -d mat1.gtimg.com /sports/*.swf
+-d isdspeed.qq.com
 -d tajs.qq.com
 -d adsrich.qq.com /crystal-min.js
 -d l.qq.com /p?
@@ -1845,6 +1850,7 @@ msFilterList
 - *.synacast.com/
 - *pp2.pptv.com/
 #----当当网----
+-d union.dangdang.com
 -d a.dangdang.com
 -d img4.ddimg.cn /00074/pic/*_*_*x*_*.jpg
 #----零点看书网----
@@ -1914,6 +1920,7 @@ msFilterList
 #----三楚网----
 -d www.3chu.com /salegm/files/images/*/*/*-*-*-*.gif
 -d www.3chu.com /salegm/files/images/*/*/*-*-*-*.jpg
+#----Major Geeks----
 #----机锋----
 - *.gfan.com/press/
 #----FLvcd----
@@ -2367,6 +2374,7 @@ msFilterList
 - *.vista123.com/notice.htm
 -d www.win8china.com /script/*.htm
 -d www.win7china.com /script/*.htm
+-d img.win7china.com /images/300_80_*.gif
 - *.vista123.com/script/popup_win.js
 -d img.vista123.com /images/*3*x*.
 -d img.vista123.com /images/355_80_cd.gif
@@ -2639,6 +2647,8 @@ msFilterList
 -d img.17k.com /channel/flash/*.swf
 -d log.17k.com
 -d img.17k.com /js/jquery*.js
+#----战略网----
+- *.chinaiiss.com/include/js/function.ad.js
 #----红浪药品网----
 -d www.3156.cn /js/float_ads.*.js
 -d www.3156.cn /images/fdgg.css
@@ -2695,6 +2705,8 @@ msFilterList
 -d www.ztlt.org ztad
 #----江城足球网----
 -d img1.jczqw.com /img/
+#----微博通----
+-d www.wbto.cn /images/*_ad.jpg
 #----电脑之家PChome----
 -d images.pchome.net /global/js2/f_right.js?
 -d js-1.pchome.net .js

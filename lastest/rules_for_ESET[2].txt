@@ -1,3 +1,9 @@
+*.orsoon.com/orsoon/img/zz*.gif
+*/orsoon/img/ad*.gif
+*/orsoon/img/gg.gif
+*/orsoon/img/donwpf.gif
+*.orsoon.com/orsoon/img/*x*.jpg
+*.d9soft.com/images/ad*.gif
 *.39.net/gy/arthot/hz/*
 i.6.cn/cvbnm/99/18/a3/4478ff78d6c6565d9fc6a635ad173121.jpg
 *6.cn/mdfor/watch_new11.js
@@ -139,6 +145,7 @@ www.fbook.net/fbookad/*
 *.vista123.com/notice.htm
 www.win8china.com/script/*.htm
 www.win7china.com/script/*.htm
+img.win7china.com/images/300_80_*.gif
 *.vista123.com/script/popup_win.js
 img.vista123.com/images/*3*x*.
 img.vista123.com/images/355_80_cd.gif
@@ -325,6 +332,7 @@ photo.erji.com/*
 img.17k.com/channel/flash/*.swf
 log.17k.com/*
 img.17k.com/js/jquery*.js
+*.chinaiiss.com/include/js/function.ad.js
 www.3156.cn/js/float_ads.*.js
 www.3156.cn/images/fdgg.css
 img3.douban.com/js/boomerang.js*
@@ -365,6 +373,7 @@ www.ddooo.com/js/*
 *.younet.com/images/*.swf
 www.ztlt.org/*ztad*
 img1.jczqw.com/img/*
+www.wbto.cn/images/*_ad.jpg
 images.pchome.net/global/js2/f_right.js?*
 js-1.pchome.net/*.js
 btn.pchome.net/*

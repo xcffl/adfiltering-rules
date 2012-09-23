@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-09-23 14:50:13
+!Updated:2012-09-23 15:11:52
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -12,6 +12,7 @@
 ##.sponsor_links
 ##.ad_side
 ##.adlink
+##.bannerad
 ##.sidebar-ads
 ###ad-sidebar
 ###flashad
@@ -898,6 +899,8 @@ bannerad
 /\.securitymattersmag\.com\/scripts\/popup\.js/
 /:\/\/([^\/]+\.)?a.*\.q150\.com\//
 /:\/\/([^\/]+\.)?js\.juandou\.com\/a\.js\?/
+/:\/\/([^\/]+\.)?www.198game.com\/images\//	$w
+/:\/\/([^\/]+\.)?pay.198game.com\//	$w
 /\.198game\.com\//
 /\.198game\.net\//
 /\.allthelyrics\.com\/.*\/popup\.js/
@@ -1743,6 +1746,7 @@ bannerad
 /\.union\.youdao\.com\//
 /:\/\/([^\/]+\.)?impservice.*\.youdao\.com\//
 !----土豆网----
+##.b.seed	$d=tudou.com
 ##adex_board	$d=tudou.com
 /\/pos\?act=dur&dk=/
 /\/pos\?f=f4v/
@@ -2870,6 +2874,7 @@ bannerad
 !----亿忆网----
 /:\/\/([^\/]+\.)?bbs\.yeeyi\.com\/bbs\/api\//
 !----电玩巴士----
+/:\/\/([^\/]+\.)?vista\.tgbusdata\.cn\/s\.js/
 /:\/\/([^\/]+\.)?bill\.tgbus\.com\/html\//
 /:\/\/([^\/]+\.)?inc\.tgbus\.com\/frame\//
 /:\/\/([^\/]+\.)?pic\.tgbus\.com\/.*\.shtml/

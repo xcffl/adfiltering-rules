@@ -34,7 +34,8 @@
 *.net/*/*_ad.js
 *.com/*/*_ad.js
 */banner*.htm
-c.*/*.js*
+c.*org*/*.js*
+c.*cn*/*.js*
 */adpage/*
 */adv760.js*
 */advall.js*
@@ -164,6 +165,7 @@ adimg.*
 *adrotator.*
 */ads.php*
 */ads_*
+*/show_ads.js
 */AdsImages/*
 *999ad.js*
 *copyrightad.js*
@@ -723,6 +725,7 @@ a.*/scripts/common.js
 *.cn*/ad/*X*.jpg
 ox-d.*/jstag
 *.cn*/ad/*.js*
+*.net/ads-*
 *.cn*/ad/*.gif*
 */ad/*.css*
 */ad/*.bmp*
@@ -787,7 +790,6 @@ ox-d.*/jstag
 p*.aidaicn.com/*
 js.ssrj.net/p/*
 i.uu06.com/*
-*.irs09.com/*
 *.topfriv.com/popup.js
 code.ilepai.com/*
 p.49ko.com/*
@@ -1380,6 +1382,7 @@ f.qstatic.com/*
 zhidao.ikaka.com/images/game_*.gif
 dr.soso.com/*
 *soso*.*/UploadFiles/2008*.gif
+record.kuai.xunlei.com/*
 img.kuai.xunlei.com/img/v2/fen/*
 misc.web.xunlei.com/*/kankan_click*.js*
 *mtips.xunlei.com/*
@@ -1611,17 +1614,8 @@ static.youku.com/*/index/js/cps.js
 static.youku.com/*/index/js/hz*lick.js
 static.youku.com/*/index/js/iresearch.js
 hz.youku.com/red/*
-vid.atm.youku.com/*
-vhtml.atm.youku.com/*
-html.atm.youku.com/*
-static.atm.youku.com/*/popup.js
 static.atm.youku.com/*taobao*
 static.atm.youku.com/*-*.swf?jsStart=*
-valf.atm.youku.com/show?*
-walp.atm.youku.com/*
-valb.atm.youku.com/*
-valp.atm.youku.com/*
-valc.atm.youku.com/*
 static.atm.youku.com/*/*/*_*.jpg
 static.atm.youku.com/*/*/*/*-*.jpg
 static.atm.youku.com/*/*/*x*.jpg
@@ -1806,6 +1800,8 @@ alexa.chinaz.com/ip_gadsense.asp
 images.chinaz.com/newindex_images/*
 bbs.ruian.com/img/c*-*-*_*x*.gif
 bbs.ruian.com/img/gd_*x*.gif
+www.raybt.com/js/topwz/close.gif
+www.raybt.com/2d/raybt*a.gif
 www.downyi.com/css/ad.css
 www.jdcjsr.com/picture/jdcgg/*
 www.jdcjsr.com/images/0.gif
@@ -2690,6 +2686,7 @@ js.973.com/gjs/383.js
 image.songtaste.com/*/songpic1*.jpg
 *lunwen119.com/js/gg_*.js
 img.hdbird.com/langzi/*
+clientclick.tv002.com/*
 static.ctdisk.com/510.js?*
 *.456t.com/taobao/*
 res.get.766.com/cateid_*
@@ -3176,6 +3173,8 @@ house.leju.com/js/cooperate/leju_bitauto_search.js
 log.mmstat.com/*
 log.mm.vip.cnz.alimama.com/*
 img.alimama.cn/cms/images/*.swf
+s.click.taobao.com/*
+t.alimama.com/alimama.php?*
 cb.alimama.cn/*
 p.tanx.com/ex?i=mm_*_*_*
 a.alimama.cn/*
@@ -3205,6 +3204,9 @@ pic.xp500.com/img/xitong.gif
 g.webgame.com.cn/*
 c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
 dwtracking.sdo.com/*
+uedas.qdmm.com/*
+o.if.qdmm.com/js/o.js
+cj.qidian.com/*.swf
 stat.aa.sdo.com/*
 *.sdo.com/redo004/fb.php
 g.*.sdo.com/?method=GetAd&*

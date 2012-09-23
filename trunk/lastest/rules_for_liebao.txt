@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-09-23 11:26:39
+!Updated:2012-09-23 14:42:35
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -10,6 +10,7 @@
 !-------------通用规则-------------
 !------元素隐藏规则------
 ##.sponsor_links
+##.ad_side
 ##.adlink
 ##.sidebar-ads
 ###ad-sidebar
@@ -130,7 +131,9 @@ bannerad
 /\.net\/.*\/.*_ad\.js/
 /\.com\/.*\/.*_ad\.js/
 /\/banner.*\.htm$/
-/^http:\/\/c\..*\/.*\.js/
+!|http://c.*/*.js*
+/^http:\/\/c\..*org.*\/.*\.js/
+/^http:\/\/c\..*cn.*\/.*\.js/
 /\/adpage\//
 /\/adv760\.js/
 /\/advall\.js/
@@ -260,6 +263,7 @@ bannerad
 /^http:\/\/.*adrotator\./
 /\/ads\.php/
 /\/ads_/
+/\/show_ads\.js/
 /\/AdsImages\//
 /^http:\/\/.*999ad\.js/
 /^http:\/\/.*copyrightad\.js/
@@ -820,6 +824,7 @@ bannerad
 !|http://*/ad/*X*.jpg
 /:\/\/([^\/]+\.)?ox-d\..*\/jstag$/
 /^http:\/\/.*\.cn.*\/ad\/.*\.js/
+/\.net\/ads-/
 /^http:\/\/.*\.cn.*\/ad\/.*\.gif/
 /^http:\/\/.*\/ad\/.*\.css/
 /^http:\/\/.*\/ad\/.*\.bmp/
@@ -887,7 +892,6 @@ bannerad
 /:\/\/([^\/]+\.)?p.*\.aidaicn\.com\//
 /:\/\/([^\/]+\.)?js\.ssrj\.net\/p\//
 /:\/\/([^\/]+\.)?i\.uu06\.com\//
-/\.irs09\.com\//
 /\.topfriv\.com\/popup\.js/
 /:\/\/([^\/]+\.)?code\.ilepai\.com\//
 /:\/\/([^\/]+\.)?p\.49ko\.com\//
@@ -1503,6 +1507,9 @@ bannerad
 ##[id^="cm"].banner	$d=xunlei.com
 ##.playad	$d=xunlei.com
 ##.l_img	$d=kuai.xunlei.com
+##.bot_tips	$d=kuai.xunlei.com
+##.lahuan	$d=kuai.xunlei.com
+/:\/\/([^\/]+\.)?record\.kuai\.xunlei\.com\//
 /:\/\/([^\/]+\.)?img\.kuai\.xunlei\.com\/img\/v2\/fen\//
 /:\/\/([^\/]+\.)?misc\.web\.xunlei\.com\/.*\/kankan_click.*\.js/
 /mtips\.xunlei\.com\//
@@ -1780,24 +1787,24 @@ bannerad
 /:\/\/([^\/]+\.)?static\.youku\.com\/.*\/index\/js\/iresearch\.js/
 /:\/\/([^\/]+\.)?hz\.youku\.com\/red\//
 !atm.youku.com
-/:\/\/([^\/]+\.)?vid\.atm\.youku\.com\//
-/:\/\/([^\/]+\.)?vhtml\.atm\.youku\.com\//
-/:\/\/([^\/]+\.)?html\.atm\.youku\.com\//
-/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/popup\.js/
+!||vid.atm.youku.com/*
+!||vhtml.atm.youku.com/*
+!||html.atm.youku.com/*
+!||static.atm.youku.com/*/popup.js
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao/
 !@@||static.atm.youku.com*jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=http://count.atm.youku*
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*-.*\.swf\?jsStart=/
 !||valf.atm.youku.com/crossdomain.xml
 !||valf.atm.youku.com/valf?*
-/:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/show\?/
+!||valf.atm.youku.com/show?*
 !||fvid.atm.youku.com/*
-/:\/\/([^\/]+\.)?walp\.atm\.youku\.com\//
-/:\/\/([^\/]+\.)?valb\.atm\.youku\.com\//
+!||walp.atm.youku.com/*
+!||valb.atm.youku.com/*
 !||valb.atm.youku.com/valb?*
-/:\/\/([^\/]+\.)?valp\.atm\.youku\.com\//
+!||valp.atm.youku.com/*
 !||valp.atm.youku.com/show?*
 !||valp.atm.youku.com/valp?*
-/:\/\/([^\/]+\.)?valc\.atm\.youku\.com\//
+!||valc.atm.youku.com/*
 !||valc.atm.youku.com/valc?*
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/.*\/.*_.*\.jpg/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/.*\/.*\/.*-.*\.jpg/
@@ -1920,6 +1927,8 @@ bannerad
 /:\/\/([^\/]+\.)?policy\.cupid\.qiyi\.com\//
 /:\/\/([^\/]+\.)?uestat\.video\.qiyi\.com\//
 /\.iqiyi\.com\/player\/.*\/theatre.*\.swf/
+!----adf.ly----
+##bottom	$d=adf.ly
 !----中国移动----
 /:\/\/([^\/]+\.)?gd.10086.cn\//	$w
 !----网页制作大宝库----
@@ -2041,6 +2050,10 @@ bannerad
 !----瑞安论坛----
 /:\/\/([^\/]+\.)?bbs\.ruian\.com\/img\/c.*-.*-.*_.*x.*\.gif/
 /:\/\/([^\/]+\.)?bbs\.ruian\.com\/img\/gd_.*x.*\.gif/
+!----Raybt----
+##FONT[color^="#"]:first-child:last-child	$d=raybt.com
+/:\/\/([^\/]+\.)?www\.raybt\.com\/js\/topwz\/close\.gif/
+/:\/\/([^\/]+\.)?www\.raybt\.com\/2d\/raybt.*a\.gif/
 !----当易网----
 /:\/\/([^\/]+\.)?www\.downyi\.com\/css\/ad\.css/
 !----机动车驾驶人信息服务网----
@@ -3429,6 +3442,7 @@ bannerad
 !----城通网盘----
 ##TBODY	$d=ctdisk.com
 ##A[href="/adv.php"]	$d=ctdisk.com
+/:\/\/([^\/]+\.)?clientclick\.tv002\.com\//
 /:\/\/([^\/]+\.)?static\.ctdisk\.com\/510\.js\?/
 !----我的网址导航----
 /\.456t\.com\/taobao\//
@@ -3589,6 +3603,7 @@ bannerad
 /:\/\/([^\/]+\.)?b\.now\.cn\/data\/NOWA\//
 /:\/\/([^\/]+\.)?p\.tnet\.hk\/share\/images\/.*x.*\.gif/
 !----Facebook----
+##pagelet_side_ads	$d=facebook.com
 /:\/\/([^\/]+\.)?creative\.ak\.fbcdn\.net\/.*\/flyers\/.*\.gif/
 /:\/\/([^\/]+\.)?creative\.ak\.fbcdn\.net\/.*\/flyers\/.*\.png/
 /:\/\/([^\/]+\.)?creative\.ak\.fbcdn\.net\/.*\/flyers\/.*\.jpg/
@@ -4242,6 +4257,8 @@ bannerad
 /:\/\/([^\/]+\.)?log\.mmstat\.com\//
 /:\/\/([^\/]+\.)?log\.mm\.vip\.cnz\.alimama\.com\//
 /:\/\/([^\/]+\.)?img\.alimama\.cn\/cms\/images\/.*\.swf/
+/:\/\/([^\/]+\.)?s\.click\.taobao\.com\//
+/:\/\/([^\/]+\.)?t\.alimama\.com\/alimama\.php\?/
 /:\/\/([^\/]+\.)?cb\.alimama\.cn\//
 /:\/\/([^\/]+\.)?p\.tanx\.com\/ex\?i=mm_.*_.*_/
 /:\/\/([^\/]+\.)?a\.alimama\.cn\//
@@ -4281,6 +4298,9 @@ bannerad
 ##.DH17	$d=www.qidian.com
 /:\/\/([^\/]+\.)?money.9292wan.com\/money\/js\/money.js/	$w
 /:\/\/([^\/]+\.)?dwtracking\.sdo\.com\//
+/:\/\/([^\/]+\.)?uedas\.qdmm\.com\//
+/:\/\/([^\/]+\.)?o\.if\.qdmm\.com\/js\/o\.js/
+/:\/\/([^\/]+\.)?cj\.qidian\.com\/.*\.swf/
 /:\/\/([^\/]+\.)?stat\.aa\.sdo\.com\//
 /\.sdo\.com\/redo004\/fb\.php/
 /:\/\/([^\/]+\.)?g\..*\.sdo\.com\/\?method=GetAd&/

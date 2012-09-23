@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-22 15:47:19
+#Updated:2012-09-23 14:42:35
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -45,7 +45,9 @@ msFilterList
 - *.net/*/*_ad.js
 - *.com/*/*_ad.js
 - */banner*.htm
-- http://c.*/*.js
+#|http://c.*/*.js*
+- http://c.*org*/*.js
+- http://c.*cn*/*.js
 - */adpage/
 - */adv760.js
 - */advall.js
@@ -175,6 +177,7 @@ msFilterList
 - http://*adrotator.
 - */ads.php
 - */ads_
+- */show_ads.js
 - */AdsImages/
 - http://*999ad.js
 - http://*copyrightad.js
@@ -735,6 +738,7 @@ msFilterList
 #|http://*/ad/*X*.jpg
 - http://ox-d.*/jstag
 - http://*.cn*/ad/*.js
+- *.net/ads-
 - http://*.cn*/ad/*.gif
 - http://*/ad/*.css
 - http://*/ad/*.bmp
@@ -802,7 +806,6 @@ msFilterList
 - http://p*.aidaicn.com/
 -d js.ssrj.net /p/
 -d i.uu06.com
-- *.irs09.com/
 - *.topfriv.com/popup.js
 -d code.ilepai.com
 -d p.49ko.com
@@ -1412,6 +1415,7 @@ msFilterList
 -d dr.soso.com
 - *soso*.*/UploadFiles/2008*.gif
 #----迅雷&狗狗&快传----
+-d record.kuai.xunlei.com
 -d img.kuai.xunlei.com /img/v2/fen/
 -d misc.web.xunlei.com /kankan_click*.js
 - *mtips.xunlei.com/
@@ -1655,24 +1659,24 @@ msFilterList
 -d static.youku.com /index/js/iresearch.js
 -d hz.youku.com /red/
 #atm.youku.com
--d vid.atm.youku.com
--d vhtml.atm.youku.com
--d html.atm.youku.com
--d static.atm.youku.com /popup.js
+#||vid.atm.youku.com/*
+#||vhtml.atm.youku.com/*
+#||html.atm.youku.com/*
+#||static.atm.youku.com/*/popup.js
 -d static.atm.youku.com taobao
 #@@||static.atm.youku.com*jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=http://count.atm.youku*
 -d static.atm.youku.com -*.swf?jsStart=
 #||valf.atm.youku.com/crossdomain.xml
 #||valf.atm.youku.com/valf?*
--d valf.atm.youku.com /show?
+#||valf.atm.youku.com/show?*
 #||fvid.atm.youku.com/*
--d walp.atm.youku.com
--d valb.atm.youku.com
+#||walp.atm.youku.com/*
+#||valb.atm.youku.com/*
 #||valb.atm.youku.com/valb?*
--d valp.atm.youku.com
+#||valp.atm.youku.com/*
 #||valp.atm.youku.com/show?*
 #||valp.atm.youku.com/valp?*
--d valc.atm.youku.com
+#||valc.atm.youku.com/*
 #||valc.atm.youku.com/valc?*
 -d static.atm.youku.com /*/*_*.jpg
 -d static.atm.youku.com /*/*/*-*.jpg
@@ -1786,6 +1790,7 @@ msFilterList
 -d policy.cupid.qiyi.com
 -d uestat.video.qiyi.com
 - *.iqiyi.com/player/*/theatre*.swf
+#----adf.ly----
 #----中国移动----
 +d gd.10086.cn
 #----网页制作大宝库----
@@ -1901,6 +1906,9 @@ msFilterList
 #----瑞安论坛----
 -d bbs.ruian.com /img/c*-*-*_*x*.gif
 -d bbs.ruian.com /img/gd_*x*.gif
+#----Raybt----
+-d www.raybt.com /js/topwz/close.gif
+-d www.raybt.com /2d/raybt*a.gif
 #----当易网----
 -d www.downyi.com /css/ad.css
 #----机动车驾驶人信息服务网----
@@ -3174,6 +3182,7 @@ msFilterList
 #----飞鸟网----
 -d img.hdbird.com /langzi/
 #----城通网盘----
+-d clientclick.tv002.com
 -d static.ctdisk.com /510.js?
 #----我的网址导航----
 - *.456t.com/taobao/
@@ -3944,6 +3953,8 @@ msFilterList
 -d log.mmstat.com
 -d log.mm.vip.cnz.alimama.com
 -d img.alimama.cn /cms/images/*.swf
+-d s.click.taobao.com
+-d t.alimama.com /alimama.php?
 -d cb.alimama.cn
 -d p.tanx.com /ex?i=mm_*_*_
 -d a.alimama.cn
@@ -3978,6 +3989,9 @@ msFilterList
 #----盛大在线&起点中文网----
 +d money.9292wan.com /money/js/money.js
 -d dwtracking.sdo.com
+-d uedas.qdmm.com
+-d o.if.qdmm.com /js/o.js
+-d cj.qidian.com .swf
 -d stat.aa.sdo.com
 - *.sdo.com/redo004/fb.php
 - http://g.*.sdo.com/?method=GetAd&

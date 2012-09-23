@@ -215,7 +215,7 @@ def writeRule(filePath, lines):
       line = re.sub(r'--!$', '--!', line)
       line = re.sub(u'!Description:一个通用、全面的广告过滤规则', u'''!Version:1.0
 !Description:一个通用、全面的广告过滤规则/
-!Url:https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt''', line)
+!Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt''', line)
       result.append(line)
     elif line.find('#') >= 0:
       # 如果是元素隐藏规则
@@ -2349,7 +2349,7 @@ def writeRule(filePath, lines):
   top = u'[General]'
   
   #规则头
-  head = u'''name=广告过滤软件通用强效广告过滤规则 for AB Pro\r\nupdateUrl=https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_AB_PRO.txt\r\nupdateTime=1\r\n[Whitelist]\r\n[Block Address]\r\nCopyright 2011 xcffl, Apache License 2.0\r\n'''
+  head = u'''name=广告过滤软件通用强效广告过滤规则 for AB Pro\r\nupdateUrl=http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt\r\nupdateTime=1\r\n[Whitelist]\r\n[Block Address]\r\nCopyright 2011 xcffl, Apache License 2.0\r\n'''
   #规则尾
   bottom = '[Block Object]'
   #输出到文件  

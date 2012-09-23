@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-23 14:50:13
+#Updated:2012-09-23 15:11:52
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -812,6 +812,8 @@ msFilterList
 - *.securitymattersmag.com/scripts/popup.js
 - http://a*.q150.com/
 -d js.juandou.com /a.js?
++d www.198game.com /images/
++d pay.198game.com
 - *.198game.com/
 - *.198game.net/
 - *.allthelyrics.com/*/popup.js
@@ -2632,6 +2634,7 @@ msFilterList
 #----亿忆网----
 -d bbs.yeeyi.com /bbs/api/
 #----电玩巴士----
+-d vista.tgbusdata.cn /s.js
 -d bill.tgbus.com /html/
 -d inc.tgbus.com /frame/
 -d pic.tgbus.com .shtml

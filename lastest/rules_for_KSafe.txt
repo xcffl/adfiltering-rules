@@ -2312,6 +2312,7 @@
 5,4,bbs.xdowns.com/jump.js
 5,4,*7xdown.com/ggaotp/*
 5,4,bbs.yeeyi.com/bbs/api/*
+5,4,vista.tgbusdata.cn/s.js
 5,4,bill.tgbus.com/html/*
 5,4,inc.tgbus.com/frame/*
 5,4,pic.tgbus.com/*.shtml

@@ -312,6 +312,7 @@ cc.153.xdowns.com/*
 bbs.xdowns.com/jump.js
 *7xdown.com/ggaotp/*
 bbs.yeeyi.com/bbs/api/*
+vista.tgbusdata.cn/s.js
 bill.tgbus.com/html/*
 inc.tgbus.com/frame/*
 pic.tgbus.com/*.shtml

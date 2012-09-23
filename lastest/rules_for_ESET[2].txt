@@ -1,7 +1,3 @@
-*.orsoon.com/orsoon/img/zz*.gif
-*/orsoon/img/ad*.gif
-*/orsoon/img/gg.gif
-*/orsoon/img/donwpf.gif
 *.orsoon.com/orsoon/img/*x*.jpg
 *.d9soft.com/images/ad*.gif
 *.39.net/gy/arthot/hz/*
@@ -690,6 +686,7 @@ js.973.com/gjs/383.js
 image.songtaste.com/*/songpic1*.jpg
 *lunwen119.com/js/gg_*.js
 img.hdbird.com/langzi/*
+clientclick.tv002.com/*
 static.ctdisk.com/510.js?*
 *.456t.com/taobao/*
 res.get.766.com/cateid_*
@@ -1176,6 +1173,8 @@ house.leju.com/js/cooperate/leju_bitauto_search.js
 log.mmstat.com/*
 log.mm.vip.cnz.alimama.com/*
 img.alimama.cn/cms/images/*.swf
+s.click.taobao.com/*
+t.alimama.com/alimama.php?*
 cb.alimama.cn/*
 p.tanx.com/ex?i=mm_*_*_*
 a.alimama.cn/*
@@ -1205,6 +1204,9 @@ pic.xp500.com/img/xitong.gif
 g.webgame.com.cn/*
 c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
 dwtracking.sdo.com/*
+uedas.qdmm.com/*
+o.if.qdmm.com/js/o.js
+cj.qidian.com/*.swf
 stat.aa.sdo.com/*
 *.sdo.com/redo004/fb.php
 g.*.sdo.com/?method=GetAd&*

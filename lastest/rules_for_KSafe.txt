@@ -34,7 +34,8 @@
 5,4,*.net/*/*_ad.js
 5,4,*.com/*/*_ad.js
 5,4,*/banner*.htm
-5,4,c.*/*.js*
+5,4,c.*org*/*.js*
+5,4,c.*cn*/*.js*
 5,4,*/adpage/*
 5,4,*/adv760.js*
 5,4,*/advall.js*
@@ -164,6 +165,7 @@
 5,4,*adrotator.*
 5,4,*/ads.php*
 5,4,*/ads_*
+5,4,*/show_ads.js
 5,4,*/AdsImages/*
 5,4,*999ad.js*
 5,4,*copyrightad.js*
@@ -723,6 +725,7 @@
 5,4,*.cn*/ad/*X*.jpg
 5,4,ox-d.*/jstag
 5,4,*.cn*/ad/*.js*
+5,4,*.net/ads-*
 5,4,*.cn*/ad/*.gif*
 5,4,*/ad/*.css*
 5,4,*/ad/*.bmp*
@@ -787,7 +790,6 @@
 5,4,p*.aidaicn.com/*
 5,4,js.ssrj.net/p/*
 5,4,i.uu06.com/*
-5,4,*.irs09.com/*
 5,4,*.topfriv.com/popup.js
 5,4,code.ilepai.com/*
 5,4,p.49ko.com/*
@@ -1380,6 +1382,7 @@
 5,4,zhidao.ikaka.com/images/game_*.gif
 5,4,dr.soso.com/*
 5,4,*soso*.*/UploadFiles/2008*.gif
+5,4,record.kuai.xunlei.com/*
 5,4,img.kuai.xunlei.com/img/v2/fen/*
 5,4,misc.web.xunlei.com/*/kankan_click*.js*
 5,4,*mtips.xunlei.com/*
@@ -1611,17 +1614,8 @@
 5,4,static.youku.com/*/index/js/hz*lick.js
 5,4,static.youku.com/*/index/js/iresearch.js
 5,4,hz.youku.com/red/*
-5,4,vid.atm.youku.com/*
-5,4,vhtml.atm.youku.com/*
-5,4,html.atm.youku.com/*
-5,4,static.atm.youku.com/*/popup.js
 5,4,static.atm.youku.com/*taobao*
 5,4,static.atm.youku.com/*-*.swf?jsStart=*
-5,4,valf.atm.youku.com/show?*
-5,4,walp.atm.youku.com/*
-5,4,valb.atm.youku.com/*
-5,4,valp.atm.youku.com/*
-5,4,valc.atm.youku.com/*
 5,4,static.atm.youku.com/*/*/*_*.jpg
 5,4,static.atm.youku.com/*/*/*/*-*.jpg
 5,4,static.atm.youku.com/*/*/*x*.jpg
@@ -1806,6 +1800,8 @@
 5,4,images.chinaz.com/newindex_images/*
 5,4,bbs.ruian.com/img/c*-*-*_*x*.gif
 5,4,bbs.ruian.com/img/gd_*x*.gif
+5,4,www.raybt.com/js/topwz/close.gif
+5,4,www.raybt.com/2d/raybt*a.gif
 5,4,www.downyi.com/css/ad.css
 5,4,www.jdcjsr.com/picture/jdcgg/*
 5,4,www.jdcjsr.com/images/0.gif
@@ -2690,6 +2686,7 @@
 5,4,image.songtaste.com/*/songpic1*.jpg
 5,4,*lunwen119.com/js/gg_*.js
 5,4,img.hdbird.com/langzi/*
+5,4,clientclick.tv002.com/*
 5,4,static.ctdisk.com/510.js?*
 5,4,*.456t.com/taobao/*
 5,4,res.get.766.com/cateid_*
@@ -3176,6 +3173,8 @@
 5,4,log.mmstat.com/*
 5,4,log.mm.vip.cnz.alimama.com/*
 5,4,img.alimama.cn/cms/images/*.swf
+5,4,s.click.taobao.com/*
+5,4,t.alimama.com/alimama.php?*
 5,4,cb.alimama.cn/*
 5,4,p.tanx.com/ex?i=mm_*_*_*
 5,4,a.alimama.cn/*
@@ -3205,6 +3204,9 @@
 5,4,g.webgame.com.cn/*
 5,4,c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
 5,4,dwtracking.sdo.com/*
+5,4,uedas.qdmm.com/*
+5,4,o.if.qdmm.com/js/o.js
+5,4,cj.qidian.com/*.swf
 5,4,stat.aa.sdo.com/*
 5,4,*.sdo.com/redo004/fb.php
 5,4,g.*.sdo.com/?method=GetAd&*

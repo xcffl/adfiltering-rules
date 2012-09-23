@@ -1,7 +1,7 @@
 [General]
 version=514
 name=广告过滤软件通用强效广告过滤规则 for AB Pro
-updateUrl=https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_AB_PRO.txt
+updateUrl=http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
 updateTime=1
 [Whitelist]
 [Block Address]

@@ -3137,7 +3137,6 @@ google.mmjq.com/*
 https://*/google*ad*js*
 */google*ad*js*
 partner.googleadservices.com*
-*.google-analytics.com/*
 www.google.cn/aclk?*
 cb.baidu.com/*
 a.baidu.com/*

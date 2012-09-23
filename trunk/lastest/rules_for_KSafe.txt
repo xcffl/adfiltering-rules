@@ -3137,7 +3137,6 @@
 5,4,https://*/google*ad*js*
 5,4,*/google*ad*js*
 5,4,partner.googleadservices.com*
-5,4,*.google-analytics.com/*
 5,4,www.google.cn/aclk?*
 5,4,cb.baidu.com/*
 5,4,a.baidu.com/*

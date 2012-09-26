@@ -352,6 +352,7 @@ photo.erji.com/*
 img.17k.com/channel/flash/*.swf
 log.17k.com/*
 img.17k.com/js/jquery*.js
+sc.chinaiiss.com/do.php?do=ad&*
 *.chinaiiss.com/include/js/function.ad.js
 www.3156.cn/js/float_ads.*.js
 www.3156.cn/images/fdgg.css
@@ -422,6 +423,9 @@ h1.qhimg.com/js/monitor-v1.1.1.min.js*
 attach.fengbao.com/album/*/*/*.gif
 js.ggyy8.cc/1/js/760*
 js.pub.tom.com/*
+news.tom.com/v2008.js*
+sc.tom.com/*
+post.weiqi.tom.com/pfprt.php*
 tv-static.tom.com/6c6266/20101026/hd16953.flv
 static.hdslb.com/ad-images/*.swf
 *bilibili.*/html/ads-*

@@ -2352,6 +2352,7 @@
 5,4,img.17k.com/channel/flash/*.swf
 5,4,log.17k.com/*
 5,4,img.17k.com/js/jquery*.js
+5,4,sc.chinaiiss.com/do.php?do=ad&*
 5,4,*.chinaiiss.com/include/js/function.ad.js
 5,4,www.3156.cn/js/float_ads.*.js
 5,4,www.3156.cn/images/fdgg.css
@@ -2422,6 +2423,9 @@
 5,4,attach.fengbao.com/album/*/*/*.gif
 5,4,js.ggyy8.cc/1/js/760*
 5,4,js.pub.tom.com/*
+5,4,news.tom.com/v2008.js*
+5,4,sc.tom.com/*
+5,4,post.weiqi.tom.com/pfprt.php*
 5,4,tv-static.tom.com/6c6266/20101026/hd16953.flv
 5,4,static.hdslb.com/ad-images/*.swf
 5,4,*bilibili.*/html/ads-*

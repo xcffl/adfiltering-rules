@@ -351,6 +351,7 @@
 5,4,*/adjs/*
 5,4,*/js/playhd.js
 5,4,*/gg.js
+5,4,*/advertising_*
 5,4,*/js/index-1.js
 5,4,*/foot.js*
 5,4,*/affiliates/*
@@ -1087,6 +1088,7 @@
 5,4,popunder.adsrevenue.net*
 5,4,popunder.paypopup.com/popup.php*
 5,4,ppntv.033.com/*
+5,4,*.feedsportal.com/r/*
 5,4,pv.tom.com*
 5,4,qq1.moyu.com*
 5,4,*qqmms.net/adlink/*
@@ -1580,6 +1582,7 @@
 5,4,st.yxp.126.net/h/action/*
 5,4,st1.yxp.126.net/img/photo/*
 5,4,*.union.youdao.com/*
+5,4,oimagea2.ydstatic.com/image?*&product=adpublish
 5,4,impservice*.youdao.com/*
 5,4,*/pos?act=dur&dk=*
 5,4,*/pos?f=f4v*
@@ -1613,9 +1616,23 @@
 5,4,static.youku.com/*/index/js/cps.js
 5,4,static.youku.com/*/index/js/hz*lick.js
 5,4,static.youku.com/*/index/js/iresearch.js
-5,4,hz.youku.com/red/*
+5,4,hz.youku.com/red/ggnotice.php*
+5,4,vid.atm.youku.com/*
+5,4,vhtml.atm.youku.com/*
+5,4,html.atm.youku.com/*
 5,4,static.atm.youku.com/*taobao*
 5,4,static.atm.youku.com/*-*.swf?jsStart=*
+5,4,valf.atm.youku.com/valf?*
+5,4,valf.atm.youku.com/show?*
+5,4,fvid.atm.youku.com/*
+5,4,walp.atm.youku.com/*
+5,4,valb.atm.youku.com/*
+5,4,valb.atm.youku.com/valb?*
+5,4,valp.atm.youku.com/*
+5,4,valp.atm.youku.com/show?*
+5,4,valp.atm.youku.com/valp?*
+5,4,valc.atm.youku.com/*
+5,4,valc.atm.youku.com/valc?*
 5,4,static.atm.youku.com/*/*/*_*.jpg
 5,4,static.atm.youku.com/*/*/*/*-*.jpg
 5,4,static.atm.youku.com/*/*/*x*.jpg
@@ -1911,7 +1928,7 @@
 5,4,js.laishu.com/lsgg/*
 5,4,alibuybuy-wordpress.stor.sinaapp.com/*
 5,4,a.ikafan.com/2/b.js*
-5,4,a.ikafan.com/4/*.gif
+5,4,a.ikafan.com/4/*.gif*
 5,4,a.ikafan.com/3/*
 5,4,*.kafan.cn/static/kafan_img/*
 5,4,static.ikafan.com/a/yuekan.js
@@ -1968,6 +1985,7 @@
 5,4,sta.ifeng.com/*
 5,4,sc.ifeng.com/*
 5,4,survey.news.ifeng.com/resultjson.php?*
+5,4,img01.5173cdn.com/fed/build/1.00/js/fed-min.js?*
 5,4,www.57dj.com/js/bd.shtml?id=*
 5,4,mat.zdface.com/Controls/ChannelHot/ChannelHotTypeID*ClassID*.aspx
 5,4,pic.duowan.com/news/*/*/*.jpg
@@ -1991,7 +2009,10 @@
 5,4,www.33lc.com/soft/UploadPic/2012-5/201251814224916797.jpg
 5,4,mu.ruoren.com/*
 5,4,log.zongheng.com/*
-5,4,static.zongheng.com/v2_0/js/adClickStat.js
+5,4,static.zongheng.com/v2012/cooperate/index_r_b.js
+5,4,static.zongheng.com/v2012/js/adClickStat.js
+5,4,static.zongheng.com/upload/ad/*
+5,4,static.zongheng.com/v2012/js/ad_click.js
 5,4,book.zongheng.com/inc/add/zhad.html
 5,4,www.tietai.com/file/upload/*/*/*-*-*-*-*.jpg
 5,4,*.orsoon.com/orsoon/img/zz*.gif
@@ -2217,6 +2238,7 @@
 5,4,86mms.megajoy.com/uploadfiles/fiv/*.swf?strurl=*
 5,4,www.sdbeta.com/templets/images/*
 5,4,www.zhubajie.com/img/*
+5,4,s.zbjimg.com/p/union/guangglm/*
 5,4,p4.zbjimg.com/task/*-*/11/pub/*.jpg
 5,4,p4.zbjimg.com/task/*-*/11/pub/*.gif
 5,4,gg.pinggu.name/*
@@ -2247,6 +2269,7 @@
 5,4,trace.enet.com.cn/*
 5,4,*enet.com.cn/enetshow.shtml?*
 5,4,images.enet.com.cn/consumer/*
+5,4,gd.189.cn/push/*
 5,4,www.qingkan.net/js/list.html
 5,4,*.2100book.com/scripts/open/*.js
 5,4,*.2100book.com/you/*.js
@@ -3045,6 +3068,8 @@
 5,4,*p5w.net/pfgg/*
 5,4,*needpop.com/jvc.jpg
 5,4,secret.moumentei.com/images/ac/x.gif
+5,4,tracking.cat898.com/*
+5,4,super.kdnet.net/*
 5,4,panda.kdnet.net/*
 5,4,*imp3.net/data/js/*
 5,4,*infoq.com/resource/skyscraper/*
@@ -3239,6 +3264,7 @@
 5,4,script2.pingan.com/app_js/pingan/*
 5,4,www.godnav.net/MAPS/LE*.gif
 5,4,www.roadrover.cn/images/luchang.swf
+5,4,hr.jlvc.cn/ad/*
 5,4,www.xieche.net/imgs/SOSAW.gif
 5,4,www.eshop8.com/images/*i*.gif
 5,4,www.2apay.com/2apay.gif

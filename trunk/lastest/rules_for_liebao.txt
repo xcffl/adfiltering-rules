@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-09-23 15:11:52
+!Updated:2012-09-26 21:39:33
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -450,6 +450,7 @@ bannerad
 /\/adjs\//
 /\/js\/playhd\.js/
 /^http:\/\/.*\/gg\.js/
+/\/advertising_/
 /\/js\/index-1\.js/
 /\/foot\.js/
 /\/affiliates\//
@@ -1194,6 +1195,7 @@ bannerad
 /:\/\/([^\/]+\.)?popunder\.adsrevenue\.net/
 /:\/\/([^\/]+\.)?popunder\.paypopup\.com\/popup\.php/
 /:\/\/([^\/]+\.)?ppntv\.033\.com\//
+/\.feedsportal\.com\/r\//
 /:\/\/([^\/]+\.)?pv\.tom\.com/
 /:\/\/([^\/]+\.)?qq1\.moyu\.com/
 /qqmms\.net\/adlink\//
@@ -1744,6 +1746,7 @@ bannerad
 /:\/\/([^\/]+\.)?st\.yxp\.126\.net\/h\/action\//
 /:\/\/([^\/]+\.)?st1\.yxp\.126\.net\/img\/photo\//
 /\.union\.youdao\.com\//
+/:\/\/([^\/]+\.)?oimagea2\.ydstatic\.com\/image\?.*&product=adpublish/
 /:\/\/([^\/]+\.)?impservice.*\.youdao\.com\//
 !----土豆网----
 ##.b.seed	$d=tudou.com
@@ -1782,34 +1785,31 @@ bannerad
 /:\/\/([^\/]+\.)?t\.stat\.youku\.com\//
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/allyes\.html/
 /:\/\/([^\/]+\.)?t\.lstat\.youku\.com\//
-!||static.youku.com/*/index/js/popup.js
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/crossdomain\.xml/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*ouku2012\/.*\.jpg/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*ouku2012\/.*\.swf/
 /:\/\/([^\/]+\.)?static\.youku\.com\/.*\/index\/js\/cps\.js/
 /:\/\/([^\/]+\.)?static\.youku\.com\/.*\/index\/js\/hz.*lick\.js/
 /:\/\/([^\/]+\.)?static\.youku\.com\/.*\/index\/js\/iresearch\.js/
-/:\/\/([^\/]+\.)?hz\.youku\.com\/red\//
+/:\/\/([^\/]+\.)?hz\.youku\.com\/red\/ggnotice\.php/
 !atm.youku.com
-!||vid.atm.youku.com/*
-!||vhtml.atm.youku.com/*
-!||html.atm.youku.com/*
-!||static.atm.youku.com/*/popup.js
+/:\/\/([^\/]+\.)?vid\.atm\.youku\.com\//
+/:\/\/([^\/]+\.)?vhtml\.atm\.youku\.com\//
+/:\/\/([^\/]+\.)?html\.atm\.youku\.com\//
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao/
-!@@||static.atm.youku.com*jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=http://count.atm.youku*
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*-.*\.swf\?jsStart=/
 !||valf.atm.youku.com/crossdomain.xml
-!||valf.atm.youku.com/valf?*
-!||valf.atm.youku.com/show?*
-!||fvid.atm.youku.com/*
-!||walp.atm.youku.com/*
-!||valb.atm.youku.com/*
-!||valb.atm.youku.com/valb?*
-!||valp.atm.youku.com/*
-!||valp.atm.youku.com/show?*
-!||valp.atm.youku.com/valp?*
-!||valc.atm.youku.com/*
-!||valc.atm.youku.com/valc?*
+/:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/valf\?/
+/:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/show\?/
+/:\/\/([^\/]+\.)?fvid\.atm\.youku\.com\//
+/:\/\/([^\/]+\.)?walp\.atm\.youku\.com\//
+/:\/\/([^\/]+\.)?valb\.atm\.youku\.com\//
+/:\/\/([^\/]+\.)?valb\.atm\.youku\.com\/valb\?/
+/:\/\/([^\/]+\.)?valp\.atm\.youku\.com\//
+/:\/\/([^\/]+\.)?valp\.atm\.youku\.com\/show\?/
+/:\/\/([^\/]+\.)?valp\.atm\.youku\.com\/valp\?/
+/:\/\/([^\/]+\.)?valc\.atm\.youku\.com\//
+/:\/\/([^\/]+\.)?valc\.atm\.youku\.com\/valc\?/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/.*\/.*_.*\.jpg/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/.*\/.*\/.*-.*\.jpg/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/.*\/.*x.*\.jpg/
@@ -2316,6 +2316,9 @@ bannerad
 /:\/\/([^\/]+\.)?sta\.ifeng\.com\//
 /:\/\/([^\/]+\.)?sc\.ifeng\.com\//
 /:\/\/([^\/]+\.)?survey\.news\.ifeng\.com\/resultjson\.php\?/
+!----5173.com----
+##.gg_list_230	$d=5173.com
+/:\/\/([^\/]+\.)?img01\.5173cdn\.com\/fed\/build\/1\.00\/js\/fed-min\.js\?/
 !----57DJ----
 /:\/\/([^\/]+\.)?www\.57dj\.com\/js\/bd\.shtml\?id=/
 !----FACE妆点网----
@@ -2350,7 +2353,10 @@ bannerad
 ##DIV[style="POSITION:fixed;TOP:30px;right:13px;"]	$d=cnr.cn
 !----纵横中文网----
 /:\/\/([^\/]+\.)?log\.zongheng\.com\//
-/:\/\/([^\/]+\.)?static\.zongheng\.com\/v2_0\/js\/adClickStat\.js/
+/:\/\/([^\/]+\.)?static\.zongheng\.com\/v2012\/cooperate\/index_r_b\.js/
+/:\/\/([^\/]+\.)?static\.zongheng\.com\/v2012\/js\/adClickStat\.js/
+/:\/\/([^\/]+\.)?static\.zongheng\.com\/upload\/ad\//
+/:\/\/([^\/]+\.)?static\.zongheng\.com\/v2012\/js\/ad_click\.js/
 /:\/\/([^\/]+\.)?book\.zongheng\.com\/inc\/add\/zhad\.html/
 !----铁泰参考----
 /:\/\/([^\/]+\.)?www\.tietai\.com\/file\/upload\/.*\/.*\/.*-.*-.*-.*-.*\.jpg/
@@ -2719,6 +2725,7 @@ bannerad
 /:\/\/([^\/]+\.)?www\.sdbeta\.com\/templets\/images\//
 !----威客-猪八戒网----
 /:\/\/([^\/]+\.)?www\.zhubajie\.com\/img\//
+/:\/\/([^\/]+\.)?s\.zbjimg\.com\/p\/union\/guangglm\//
 /:\/\/([^\/]+\.)?p4\.zbjimg\.com\/task\/.*-.*\/11\/pub\/.*\.jpg/
 /:\/\/([^\/]+\.)?p4\.zbjimg\.com\/task\/.*-.*\/11\/pub\/.*\.gif/
 !----人大经济论坛----
@@ -2763,6 +2770,7 @@ bannerad
 /enet\.com\.cn\/enetshow\.shtml\?/
 /:\/\/([^\/]+\.)?images\.enet\.com\.cn\/consumer\//
 !----中国电信&天翼----
+/:\/\/([^\/]+\.)?gd\.189\.cn\/push\//
 /:\/\/([^\/]+\.)?cloud.189.cn\/zhuanti\/protection\/images\/adv.jpg/	$w
 /:\/\/([^\/]+\.)?c.oooxm.com\//	$w
 !----请看小说网----
@@ -3568,6 +3576,7 @@ bannerad
 !----无忧·自助建站----
 /:\/\/([^\/]+\.)?fsdfeer\.any2000\.com\/f\/s\/fsdfeer\/fh\/.*\.swf/
 !----豆丁中文网----
+##[id^="adsy"]	$d=docin.net
 /:\/\/([^\/]+\.)?www\.docin\.net\/js\/adwz.*\.js/
 !----大洋网----
 /dayoo\.com\/sta\/da\.js/
@@ -4040,6 +4049,8 @@ bannerad
 !----绝对冇问题----
 /:\/\/([^\/]+\.)?secret\.moumentei\.com\/images\/ac\/x\.gif/
 !----凯迪网络----
+/:\/\/([^\/]+\.)?tracking\.cat898\.com\//
+/:\/\/([^\/]+\.)?super\.kdnet\.net\//
 /:\/\/([^\/]+\.)?panda\.kdnet\.net\//
 !----iMP3随身数码影音----
 /imp3\.net\/data\/js\//
@@ -4129,6 +4140,8 @@ bannerad
 !----盛唐军事网----
 /junshier\.com\/data\/js\//
 !----环球网----
+##.ad250x250.fLeft.marRig10	$d=huanqiu.com
+##adDt	$d=huanqiu.com
 /:\/\/([^\/]+\.)?app\.v\.huanqiu\.com\/vv\.html\?/
 /\.huanqiu\.com\/script\/HuanQiuAllBottom\.Js/
 /:\/\/([^\/]+\.)?huanqiu\.allyes\.com\//
@@ -4342,6 +4355,7 @@ bannerad
 /:\/\/([^\/]+\.)?script2\.pingan\.com\/app_js\/pingan\//
 /:\/\/([^\/]+\.)?www\.godnav\.net\/MAPS\/LE.*\.gif/
 /:\/\/([^\/]+\.)?www\.roadrover\.cn\/images\/luchang\.swf/
+/:\/\/([^\/]+\.)?hr\.jlvc\.cn\/ad\//
 /:\/\/([^\/]+\.)?www\.xieche\.net\/imgs\/SOSAW\.gif/
 /:\/\/([^\/]+\.)?www\.eshop8\.com\/images\/.*i.*\.gif/
 /:\/\/([^\/]+\.)?www\.2apay\.com\/2apay\.gif/

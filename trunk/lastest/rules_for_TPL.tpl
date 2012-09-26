@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-23 15:11:52
+#Updated:2012-09-26 21:39:33
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -363,6 +363,7 @@ msFilterList
 - */adjs/
 - */js/playhd.js
 - http://*/gg.js
+- */advertising_
 - */js/index-1.js
 - */foot.js
 - */affiliates/
@@ -1107,6 +1108,7 @@ msFilterList
 - http://popunder.adsrevenue.net
 -d popunder.paypopup.com /popup.php
 -d ppntv.033.com
+- *.feedsportal.com/r/
 - http://pv.tom.com
 - http://qq1.moyu.com
 - *qqmms.net/adlink/
@@ -1623,6 +1625,7 @@ msFilterList
 -d st.yxp.126.net /h/action/
 -d st1.yxp.126.net /img/photo/
 - *.union.youdao.com/
+-d oimagea2.ydstatic.com /image?*&product=adpublish
 - http://impservice*.youdao.com/
 #----土豆网----
 - */pos?act=dur&dk=
@@ -1652,34 +1655,31 @@ msFilterList
 -d t.stat.youku.com
 -d static.atm.youku.com /allyes.html
 -d t.lstat.youku.com
-#||static.youku.com/*/index/js/popup.js
 -d static.atm.youku.com /crossdomain.xml
 -d static.atm.youku.com ouku2012/*.jpg
 -d static.atm.youku.com ouku2012/*.swf
 -d static.youku.com /index/js/cps.js
 -d static.youku.com /index/js/hz*lick.js
 -d static.youku.com /index/js/iresearch.js
--d hz.youku.com /red/
+-d hz.youku.com /red/ggnotice.php
 #atm.youku.com
-#||vid.atm.youku.com/*
-#||vhtml.atm.youku.com/*
-#||html.atm.youku.com/*
-#||static.atm.youku.com/*/popup.js
+-d vid.atm.youku.com
+-d vhtml.atm.youku.com
+-d html.atm.youku.com
 -d static.atm.youku.com taobao
-#@@||static.atm.youku.com*jsStart=execCrazyStart&jsEnd=execCrazyEnd&url=http://count.atm.youku*
 -d static.atm.youku.com -*.swf?jsStart=
 #||valf.atm.youku.com/crossdomain.xml
-#||valf.atm.youku.com/valf?*
-#||valf.atm.youku.com/show?*
-#||fvid.atm.youku.com/*
-#||walp.atm.youku.com/*
-#||valb.atm.youku.com/*
-#||valb.atm.youku.com/valb?*
-#||valp.atm.youku.com/*
-#||valp.atm.youku.com/show?*
-#||valp.atm.youku.com/valp?*
-#||valc.atm.youku.com/*
-#||valc.atm.youku.com/valc?*
+-d valf.atm.youku.com /valf?
+-d valf.atm.youku.com /show?
+-d fvid.atm.youku.com
+-d walp.atm.youku.com
+-d valb.atm.youku.com
+-d valb.atm.youku.com /valb?
+-d valp.atm.youku.com
+-d valp.atm.youku.com /show?
+-d valp.atm.youku.com /valp?
+-d valc.atm.youku.com
+-d valc.atm.youku.com /valc?
 -d static.atm.youku.com /*/*_*.jpg
 -d static.atm.youku.com /*/*/*-*.jpg
 -d static.atm.youku.com /*/*x*.jpg
@@ -2132,6 +2132,8 @@ msFilterList
 -d sta.ifeng.com
 -d sc.ifeng.com
 -d survey.news.ifeng.com /resultjson.php?
+#----5173.com----
+-d img01.5173cdn.com /fed/build/1.00/js/fed-min.js?
 #----57DJ----
 -d www.57dj.com /js/bd.shtml?id=
 #----FACE妆点网----
@@ -2165,7 +2167,10 @@ msFilterList
 #----央广广播电视网络台----
 #----纵横中文网----
 -d log.zongheng.com
--d static.zongheng.com /v2_0/js/adClickStat.js
+-d static.zongheng.com /v2012/cooperate/index_r_b.js
+-d static.zongheng.com /v2012/js/adClickStat.js
+-d static.zongheng.com /upload/ad/
+-d static.zongheng.com /v2012/js/ad_click.js
 -d book.zongheng.com /inc/add/zhad.html
 #----铁泰参考----
 -d www.tietai.com /file/upload/*/*/*-*-*-*-*.jpg
@@ -2491,6 +2496,7 @@ msFilterList
 -d www.sdbeta.com /templets/images/
 #----威客-猪八戒网----
 -d www.zhubajie.com /img/
+-d s.zbjimg.com /p/union/guangglm/
 -d p4.zbjimg.com /task/*-*/11/pub/*.jpg
 -d p4.zbjimg.com /task/*-*/11/pub/*.gif
 #----人大经济论坛----
@@ -2533,6 +2539,7 @@ msFilterList
 - *enet.com.cn/enetshow.shtml?
 -d images.enet.com.cn /consumer/
 #----中国电信&天翼----
+-d gd.189.cn /push/
 +d cloud.189.cn /zhuanti/protection/images/adv.jpg
 +d c.oooxm.com
 #----请看小说网----
@@ -3757,6 +3764,8 @@ msFilterList
 #----绝对冇问题----
 -d secret.moumentei.com /images/ac/x.gif
 #----凯迪网络----
+-d tracking.cat898.com
+-d super.kdnet.net
 -d panda.kdnet.net
 #----iMP3随身数码影音----
 - *imp3.net/data/js/
@@ -4031,6 +4040,7 @@ msFilterList
 -d script2.pingan.com /app_js/pingan/
 -d www.godnav.net /MAPS/LE*.gif
 -d www.roadrover.cn /images/luchang.swf
+-d hr.jlvc.cn /ad/
 -d www.xieche.net /imgs/SOSAW.gif
 -d www.eshop8.com /images/*i*.gif
 -d www.2apay.com /2apay.gif

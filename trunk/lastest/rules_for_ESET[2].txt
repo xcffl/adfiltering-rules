@@ -1,3 +1,10 @@
+pic1.duowan.com/webgame/*
+www.duowan.com/*/notice.js
+market.duowan.com/*
+*.duowan.com/duowan.js
+www.gg1z.com/pic/b.jpg
+practivate.adobe.com/*
+activate.wip3.adobe.com/*
 ereg.adobe.com/*
 activate.adobe.com/*
 www.dnjsb.com/tu/*
@@ -380,6 +387,7 @@ img.jiayuan.com/w4/html/index*.html
 *e666.cn/db/*
 *e666.cn/images/ztwan.gif
 *filebase.to/images/bg.png
+www.duoduo.cn/images/ask/picban/ask*.jpg
 www.ddooo.com/ad_logo/*
 www.ddooo.com/js/*
 *co.cc/outside_search/*

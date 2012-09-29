@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-09-26 22:06:54
+!Updated:2012-09-29 22:39:46
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -10,7 +10,9 @@
 !-------------通用规则-------------
 !------元素隐藏规则------
 ##.sponsor_links
+###ads_c_tpc
 ##.ad_side
+##.sidebarad
 ##.adlink
 ##.bannerad
 ##.sidebar-ads
@@ -1163,6 +1165,7 @@ bannerad
 /:\/\/([^\/]+\.)?www\.linekong\.com\//
 /:\/\/([^\/]+\.)?img\.shenduchuanmei\.com\/a\//
 !|*.wrating.com/*
+/:\/\/([^\/]+\.)?c\.wrating\.com\//
 /:\/\/([^\/]+\.)?t.*\.wrating\.com\//
 /:\/\/([^\/]+\.)?click\.wrating\.com\//
 /inter-focus\.cn\//
@@ -1730,7 +1733,7 @@ bannerad
 /\/163ad\//
 /:\/\/([^\/]+\.)?images.*\.cache\.netease\.com\/channel/
 /:\/\/([^\/]+\.)?v\.163\.com\/special\/open_adv\//
-/:\/\/([^\/]+\.)?v\.163\.com\/special\/008547FN\/gg20091116\.xml/
+/:\/\/([^\/]+\.)?v\.163\.com\/special\/.*\/gg.*\.xml/
 /:\/\/([^\/]+\.)?analytics\.163\.com\//
 /:\/\/([^\/]+\.)?swf\.ws\.126\.net\/.*\.flv/
 /:\/\/([^\/]+\.)?images\.163\.com\//
@@ -1798,19 +1801,19 @@ bannerad
 /:\/\/([^\/]+\.)?vhtml\.atm\.youku\.com\//
 /:\/\/([^\/]+\.)?html\.atm\.youku\.com\//
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao/
-/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*-.*\.swf\?jsStart=/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*-.*\.swf\?js.*tart=/
 !||valf.atm.youku.com/crossdomain.xml
 /:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/valf\?/
 /:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/show\?/
 /:\/\/([^\/]+\.)?fvid\.atm\.youku\.com\//
 /:\/\/([^\/]+\.)?walp\.atm\.youku\.com\//
 /:\/\/([^\/]+\.)?valb\.atm\.youku\.com\//
-/:\/\/([^\/]+\.)?valb\.atm\.youku\.com\/valb\?/
+!||valb.atm.youku.com/valb?*
 /:\/\/([^\/]+\.)?valp\.atm\.youku\.com\//
-/:\/\/([^\/]+\.)?valp\.atm\.youku\.com\/show\?/
-/:\/\/([^\/]+\.)?valp\.atm\.youku\.com\/valp\?/
+!||valp.atm.youku.com/show?*
+!||valp.atm.youku.com/valp?*
 /:\/\/([^\/]+\.)?valc\.atm\.youku\.com\//
-/:\/\/([^\/]+\.)?valc\.atm\.youku\.com\/valc\?/
+!||valc.atm.youku.com/valc?*
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/.*\/.*_.*\.jpg/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/.*\/.*\/.*-.*\.jpg/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/.*\/.*x.*\.jpg/
@@ -1851,6 +1854,7 @@ bannerad
 /:\/\/([^\/]+\.)?image\.tianjimedia\.com\/uploadImages\/2011\/007\/D9KY6F6BT701\.gif/
 !----中华网----
 /:\/\/([^\/]+\.)?dvs\.china\.com\//
+/:\/\/([^\/]+\.)?military\.china\.com\/zh_cn\/etc\/gghead950\.html/
 /:\/\/([^\/]+\.)?dvsend\.china\.com\//
 /:\/\/([^\/]+\.)?club\.china\.com\/data\/littlewindow\/js\/littlewindow\.js/
 !----UUeasy&phpwind----
@@ -2124,6 +2128,18 @@ bannerad
 /:\/\/([^\/]+\.)?www\.dnsgua\.com\/image\/dnspod\.png/
 !----999宝藏网----
 /:\/\/([^\/]+\.)?www\.rin9\.com\/js\/t1\.js\?/
+!----火影忍者中文网----
+##itaTop2	$d=narutom.com
+##itaTop	$d=narutom.com
+##[class^="wrap2 vtg"]	$d=narutom.com
+##naruto_desk	$d=narutom.com
+/\.zerodm\.cn\/js\/ads\/zxdmxz\.js/	$w
+/:\/\/([^\/]+\.)?www.narutom.com\/d\/js\/acmsd\//	$w
+/\.narutom\.com\/js\/jsg2\.js/
+/\.narutom\.com\/js\/comicjs\.js/
+/\.narutom\.com\/js\/myl\.js/
+/\.narutom\.com\/stat\.js/
+/\.narutom\.com\/v2\/js\/198game_Lt\.js/
 !----卡巴一族----
 /:\/\/([^\/]+\.)?bbs\.kaspersky\.com\.cn\/images\/bbs\//
 !----Norm Team----
@@ -2223,6 +2239,10 @@ bannerad
 !----凡客诚品----
 /:\/\/([^\/]+\.)?www\.vancl\.com\/WebSource\//
 /:\/\/([^\/]+\.)?images\.vancl\.com\/Others\/.*\/.*\/.*\/search_vt_.*\.jpg/
+!----石狮团购网&石狮生活论坛----
+##.tac.mb5	$d=bbs.qzss.cn
+/:\/\/([^\/]+\.)?p.*\.mmstat\.com\//
+/\.qzss\.cn\/ssad.*\//
 !----幻世中文----
 /:\/\/([^\/]+\.)?www\.hszw\.com\/inc\//
 !----SafeBeta----
@@ -2237,6 +2257,10 @@ bannerad
 /\.laishu\.com\/lsgg\//
 /\.laishuwu\.com\/files\/friend\//
 /:\/\/([^\/]+\.)?js\.laishu\.com\/lsgg\//
+!----中国反诈骗联盟----
+##bad	$d=ocucn.com
+##[class^="getGold c"]	$d=ocucn.com
+/:\/\/([^\/]+\.)?www\.ocucn\.com\/images\/.*\.gif/
 !----互联网的那点事----
 /:\/\/([^\/]+\.)?alibuybuy-wordpress\.stor\.sinaapp\.com\//
 !----卡饭----
@@ -2333,6 +2357,8 @@ bannerad
 /:\/\/([^\/]+\.)?www\.duowan\.com\/.*\/notice\.js/
 /:\/\/([^\/]+\.)?market\.duowan\.com\//
 /\.duowan\.com\/duowan\.js/
+!----挂挂一族软件站----
+/:\/\/([^\/]+\.)?www\.gg1z\.com\/pic\/b\.jpg/
 !----Adobe----
 /:\/\/([^\/]+\.)?practivate\.adobe\.com\//
 /:\/\/([^\/]+\.)?activate\.wip3\.adobe\.com\//
@@ -2950,6 +2976,8 @@ bannerad
 /e666\.cn\/images\/ztwan\.gif/
 !----FileBase.to----
 /filebase\.to\/images\/bg\.png/
+!----多多育儿网----
+/:\/\/([^\/]+\.)?www\.duoduo\.cn\/images\/ask\/picban\/ask.*\.jpg/
 !----多多软件站----
 /:\/\/([^\/]+\.)?www\.ddooo\.com\/ad_logo\//
 /:\/\/([^\/]+\.)?www\.ddooo\.com\/js\//
@@ -2991,6 +3019,8 @@ bannerad
 /wmzhe\.com\/attachments\/show\/top_fzl\.jpg/
 /:\/\/([^\/]+\.)?bbs\.wmzhe\.com\/api\//
 /wmzhe\.com\/attachments\/other\//
+!----天空下载----
+##.l.top7.bd	$d=skycn.com
 !----草根网----
 /20ju\.com\/js\/caogen\.js/
 /20ju\.com\/js\/leftbottom\.js/

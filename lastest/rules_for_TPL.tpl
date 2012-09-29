@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-26 22:06:54
+#Updated:2012-09-29 22:39:46
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1076,6 +1076,7 @@ msFilterList
 -d www.linekong.com
 -d img.shenduchuanmei.com /a/
 #|*.wrating.com/*
+-d c.wrating.com
 - http://t*.wrating.com/
 -d click.wrating.com
 - *inter-focus.cn/
@@ -1608,7 +1609,7 @@ msFilterList
 - */163ad/
 - http://images*.cache.netease.com/channel
 -d v.163.com /special/open_adv/
--d v.163.com /special/008547FN/gg20091116.xml
+-d v.163.com /special/*/gg*.xml
 -d analytics.163.com
 -d swf.ws.126.net .flv
 -d images.163.com
@@ -1667,19 +1668,19 @@ msFilterList
 -d vhtml.atm.youku.com
 -d html.atm.youku.com
 -d static.atm.youku.com taobao
--d static.atm.youku.com -*.swf?jsStart=
+-d static.atm.youku.com -*.swf?js*tart=
 #||valf.atm.youku.com/crossdomain.xml
 -d valf.atm.youku.com /valf?
 -d valf.atm.youku.com /show?
 -d fvid.atm.youku.com
 -d walp.atm.youku.com
 -d valb.atm.youku.com
--d valb.atm.youku.com /valb?
+#||valb.atm.youku.com/valb?*
 -d valp.atm.youku.com
--d valp.atm.youku.com /show?
--d valp.atm.youku.com /valp?
+#||valp.atm.youku.com/show?*
+#||valp.atm.youku.com/valp?*
 -d valc.atm.youku.com
--d valc.atm.youku.com /valc?
+#||valc.atm.youku.com/valc?*
 -d static.atm.youku.com /*/*_*.jpg
 -d static.atm.youku.com /*/*/*-*.jpg
 -d static.atm.youku.com /*/*x*.jpg
@@ -1720,6 +1721,7 @@ msFilterList
 -d image.tianjimedia.com /uploadImages/2011/007/D9KY6F6BT701.gif
 #----中华网----
 -d dvs.china.com
+-d military.china.com /zh_cn/etc/gghead950.html
 -d dvsend.china.com
 -d club.china.com /data/littlewindow/js/littlewindow.js
 #----UUeasy&phpwind----
@@ -1969,6 +1971,14 @@ msFilterList
 -d www.dnsgua.com /image/dnspod.png
 #----999宝藏网----
 -d www.rin9.com /js/t1.js?
+#----火影忍者中文网----
+# @@|*.zerodm.cn/js/ads/zxdmxz.js
++d www.narutom.com /d/js/acmsd/
+- *.narutom.com/js/jsg2.js
+- *.narutom.com/js/comicjs.js
+- *.narutom.com/js/myl.js
+- *.narutom.com/stat.js
+- *.narutom.com/v2/js/198game_Lt.js
 #----卡巴一族----
 -d bbs.kaspersky.com.cn /images/bbs/
 #----Norm Team----
@@ -2048,6 +2058,9 @@ msFilterList
 #----凡客诚品----
 -d www.vancl.com /WebSource/
 -d images.vancl.com /Others/*/*/*/search_vt_*.jpg
+#----石狮团购网&石狮生活论坛----
+- http://p*.mmstat.com/
+- *.qzss.cn/ssad*/
 #----幻世中文----
 -d www.hszw.com /inc/
 #----SafeBeta----
@@ -2062,6 +2075,8 @@ msFilterList
 - *.laishu.com/lsgg/
 - *.laishuwu.com/files/friend/
 -d js.laishu.com /lsgg/
+#----中国反诈骗联盟----
+-d www.ocucn.com /images/*.gif
 #----互联网的那点事----
 -d alibuybuy-wordpress.stor.sinaapp.com
 #----卡饭----
@@ -2147,6 +2162,8 @@ msFilterList
 -d www.duowan.com /notice.js
 -d market.duowan.com
 - *.duowan.com/duowan.js
+#----挂挂一族软件站----
+-d www.gg1z.com /pic/b.jpg
 #----Adobe----
 -d practivate.adobe.com
 -d activate.wip3.adobe.com
@@ -2705,6 +2722,8 @@ msFilterList
 - *e666.cn/images/ztwan.gif
 #----FileBase.to----
 - *filebase.to/images/bg.png
+#----多多育儿网----
+-d www.duoduo.cn /images/ask/picban/ask*.jpg
 #----多多软件站----
 -d www.ddooo.com /ad_logo/
 -d www.ddooo.com /js/
@@ -2742,6 +2761,7 @@ msFilterList
 - *wmzhe.com/attachments/show/top_fzl.jpg
 -d bbs.wmzhe.com /api/
 - *wmzhe.com/attachments/other/
+#----天空下载----
 #----草根网----
 - *20ju.com/js/caogen.js
 - *20ju.com/js/leftbottom.js

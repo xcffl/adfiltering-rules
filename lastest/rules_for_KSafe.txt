@@ -1664,6 +1664,7 @@
 5,4,media.yesky.com/*
 5,4,*/yeskyadroller.swf
 5,4,image.tianjimedia.com/uploadImages/2011/007/D9KY6F6BT701.gif
+5,4,*.111cn.net/pic/*.gif
 5,4,dvs.china.com/*
 5,4,military.china.com/zh_cn/etc/gghead950.html
 5,4,dvsend.china.com/*
@@ -3210,7 +3211,6 @@
 5,4,log.mmstat.com/*
 5,4,log.mm.vip.cnz.alimama.com/*
 5,4,img.alimama.cn/cms/images/*.swf
-5,4,s.click.taobao.com/*
 5,4,t.alimama.com/alimama.php?*
 5,4,cb.alimama.cn/*
 5,4,p.tanx.com/ex?i=mm_*_*_*

@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 !Author:xcffl
-!Updated:2012-09-29 22:39:46
+!Updated:2012-10-01 13:03:48
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -1848,6 +1848,9 @@ youku.com##.AB240
 ||media.yesky.com/*
 |*/yeskyadroller.swf
 ||image.tianjimedia.com/uploadImages/2011/007/D9KY6F6BT701.gif
+!----壹聚教程----
+111cn.net##[id^="c_ads"]
+|*.111cn.net/pic/*.gif
 !----中华网----
 ||dvs.china.com/*
 ||military.china.com/zh_cn/etc/gghead950.html
@@ -1909,6 +1912,8 @@ i.qianshou.com##DIV[style="width:728px; height:90px; float:left; padding-top:4px
 ||www.pcgames.com.cn/*/hzh/index.html
 ||www.pcgames.com.cn/*/fz/*
 |*3conline.com/ivy/*
+!----爱微课网----
+iiwnet.com##[id^="ads"]
 !----游讯网----
 ||gg.yxdown.com/*
 !----驱动之家----
@@ -1971,6 +1976,8 @@ tianya.cn###adsp_list_top_banner
 ||8*.tianya.cn/*
 ||blog.tianya.cn/tuijian/tanchu.js
 ||advertisement.tianya.cn/*
+!----登封网&登封论坛----
+bbs.dengfeng.cn###diy1
 !----TV650----
 ||www.tv650.com/sq3.gif
 ||www.tv650.com/itv/index.htm
@@ -2655,14 +2662,10 @@ bbs.pcbeta.com##.forum_top + div[style]:nth-child(3)
 bbs.pcbeta.com###pt + div[style] > div[style^="clear:both;"]
 ||bbs.pcbeta.com/static/image/biz/*
 !----泡泡网----
+pcpop.com##[id^="ad_word_t"]
 www.pcpop.com##.Content > .l1:first-child
 ||app.pcpop.com/PageView.aspx?*
 ||33.pcpop.com/*.*f
-soufun.com##[class^="ad_"]
-soufun.com##.topbanner
-soufun.com##.photo03
-soufun.com##.photo02
-soufun.com##.adtextlink
 !----114.com.cn网址导航----
 ||partner.114.com.cn*
 ||u.114.com.cn/*
@@ -2918,6 +2921,11 @@ bitauto.com##.con_ad
 !----中原硅谷网----
 ||gg.zzit.com.cn/js/*.js
 !----搜房房地产网----
+soufun.com##[class^="ad_"]
+soufun.com##.topbanner
+soufun.com##.photo03
+soufun.com##.photo02
+soufun.com##.adtextlink
 ||home.soufun.com/html/*
 !----耳机网----
 ||photo.erji.com/*
@@ -4302,7 +4310,6 @@ ipv6.baidu.com##.EC_ppim2
 ||log.mmstat.com/*
 ||log.mm.vip.cnz.alimama.com/*
 ||img.alimama.cn/cms/images/*.swf
-||s.click.taobao.com/*
 ||t.alimama.com/alimama.php?*
 ||cb.alimama.cn/*
 ||p.tanx.com/ex?i=mm_*_*_*

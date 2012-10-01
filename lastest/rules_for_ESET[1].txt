@@ -1664,6 +1664,7 @@ mydown.yesky.com/uploadImages/*
 media.yesky.com/*
 */yeskyadroller.swf
 image.tianjimedia.com/uploadImages/2011/007/D9KY6F6BT701.gif
+*.111cn.net/pic/*.gif
 dvs.china.com/*
 military.china.com/zh_cn/etc/gghead950.html
 dvsend.china.com/*
@@ -1996,5 +1997,4 @@ www.57dj.com/js/bd.shtml?id=*
 mat.zdface.com/Controls/ChannelHot/ChannelHotTypeID*ClassID*.aspx
 pic.duowan.com/news/*/*/*.jpg
 *duowan.com/public/s/market_count.js
-*duowan.com/s/i/notice.js
 

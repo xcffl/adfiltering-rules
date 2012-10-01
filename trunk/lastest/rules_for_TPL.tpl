@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
 #Author:xcffl
-#Updated:2012-09-29 22:39:46
+#Updated:2012-10-01 13:03:48
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1719,6 +1719,8 @@ msFilterList
 -d media.yesky.com
 - */yeskyadroller.swf
 -d image.tianjimedia.com /uploadImages/2011/007/D9KY6F6BT701.gif
+#----壹聚教程----
+- *.111cn.net/pic/*.gif
 #----中华网----
 -d dvs.china.com
 -d military.china.com /zh_cn/etc/gghead950.html
@@ -1774,6 +1776,7 @@ msFilterList
 -d www.pcgames.com.cn /hzh/index.html
 -d www.pcgames.com.cn /fz/
 - *3conline.com/ivy/
+#----爱微课网----
 #----游讯网----
 -d gg.yxdown.com
 #----驱动之家----
@@ -1830,6 +1833,7 @@ msFilterList
 - http://8*.tianya.cn/
 -d blog.tianya.cn /tuijian/tanchu.js
 -d advertisement.tianya.cn
+#----登封网&登封论坛----
 #----TV650----
 -d www.tv650.com /sq3.gif
 -d www.tv650.com /itv/index.htm
@@ -3990,7 +3994,6 @@ msFilterList
 -d log.mmstat.com
 -d log.mm.vip.cnz.alimama.com
 -d img.alimama.cn /cms/images/*.swf
--d s.click.taobao.com
 -d t.alimama.com /alimama.php?
 -d cb.alimama.cn
 -d p.tanx.com /ex?i=mm_*_*_

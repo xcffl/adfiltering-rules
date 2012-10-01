@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-09-29 22:39:46
+!Updated:2012-10-01 13:03:48
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -1852,6 +1852,9 @@ bannerad
 /:\/\/([^\/]+\.)?media\.yesky\.com\//
 /\/yeskyadroller\.swf/
 /:\/\/([^\/]+\.)?image\.tianjimedia\.com\/uploadImages\/2011\/007\/D9KY6F6BT701\.gif/
+!----壹聚教程----
+##[id^="c_ads"]	$d=111cn.net
+/\.111cn\.net\/pic\/.*\.gif/
 !----中华网----
 /:\/\/([^\/]+\.)?dvs\.china\.com\//
 /:\/\/([^\/]+\.)?military\.china\.com\/zh_cn\/etc\/gghead950\.html/
@@ -1913,6 +1916,8 @@ bannerad
 /:\/\/([^\/]+\.)?www\.pcgames\.com\.cn\/.*\/hzh\/index\.html/
 /:\/\/([^\/]+\.)?www\.pcgames\.com\.cn\/.*\/fz\//
 /3conline\.com\/ivy\//
+!----爱微课网----
+##[id^="ads"]	$d=iiwnet.com
 !----游讯网----
 /:\/\/([^\/]+\.)?gg\.yxdown\.com\//
 !----驱动之家----
@@ -1975,6 +1980,8 @@ bannerad
 /:\/\/([^\/]+\.)?8.*\.tianya\.cn\//
 /:\/\/([^\/]+\.)?blog\.tianya\.cn\/tuijian\/tanchu\.js/
 /:\/\/([^\/]+\.)?advertisement\.tianya\.cn\//
+!----登封网&登封论坛----
+##diy1	$d=bbs.dengfeng.cn
 !----TV650----
 /:\/\/([^\/]+\.)?www\.tv650\.com\/sq3\.gif/
 /:\/\/([^\/]+\.)?www\.tv650\.com\/itv\/index\.htm/
@@ -2663,14 +2670,10 @@ bannerad
 ##pt + div[style] > div[style^="clear:both;"]	$d=bbs.pcbeta.com
 /:\/\/([^\/]+\.)?bbs\.pcbeta\.com\/static\/image\/biz\//
 !----泡泡网----
+##[id^="ad_word_t"]	$d=pcpop.com
 ##.Content > .l1:first-child	$d=www.pcpop.com
 /:\/\/([^\/]+\.)?app\.pcpop\.com\/PageView\.aspx\?/
 /:\/\/([^\/]+\.)?33\.pcpop\.com\/.*\..*f/
-##[class^="ad_"]	$d=soufun.com
-##.topbanner	$d=soufun.com
-##.photo03	$d=soufun.com
-##.photo02	$d=soufun.com
-##.adtextlink	$d=soufun.com
 !----114.com.cn网址导航----
 /:\/\/([^\/]+\.)?partner\.114\.com\.cn/
 /:\/\/([^\/]+\.)?u\.114\.com\.cn\//
@@ -2926,6 +2929,11 @@ bannerad
 !----中原硅谷网----
 /:\/\/([^\/]+\.)?gg\.zzit\.com\.cn\/js\/.*\.js/
 !----搜房房地产网----
+##[class^="ad_"]	$d=soufun.com
+##.topbanner	$d=soufun.com
+##.photo03	$d=soufun.com
+##.photo02	$d=soufun.com
+##.adtextlink	$d=soufun.com
 /:\/\/([^\/]+\.)?home\.soufun\.com\/html\//
 !----耳机网----
 /:\/\/([^\/]+\.)?photo\.erji\.com\//
@@ -4324,7 +4332,6 @@ bannerad
 /:\/\/([^\/]+\.)?log\.mmstat\.com\//
 /:\/\/([^\/]+\.)?log\.mm\.vip\.cnz\.alimama\.com\//
 /:\/\/([^\/]+\.)?img\.alimama\.cn\/cms\/images\/.*\.swf/
-/:\/\/([^\/]+\.)?s\.click\.taobao\.com\//
 /:\/\/([^\/]+\.)?t\.alimama\.com\/alimama\.php\?/
 /:\/\/([^\/]+\.)?cb\.alimama\.cn\//
 /:\/\/([^\/]+\.)?p\.tanx\.com\/ex\?i=mm_.*_.*_/

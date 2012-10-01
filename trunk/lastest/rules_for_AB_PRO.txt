@@ -1672,6 +1672,7 @@ mydown.yesky.com/uploadImages/*
 media.yesky.com/*
 */yeskyadroller.swf
 image.tianjimedia.com/uploadImages/2011/007/D9KY6F6BT701.gif
+*.111cn.net/pic/*.gif
 dvs.china.com/*
 military.china.com/zh_cn/etc/gghead950.html
 dvsend.china.com/*
@@ -3218,7 +3219,6 @@ house.leju.com/js/cooperate/leju_bitauto_search.js
 log.mmstat.com/*
 log.mm.vip.cnz.alimama.com/*
 img.alimama.cn/cms/images/*.swf
-s.click.taobao.com/*
 t.alimama.com/alimama.php?*
 cb.alimama.cn/*
 p.tanx.com/ex?i=mm_*_*_*

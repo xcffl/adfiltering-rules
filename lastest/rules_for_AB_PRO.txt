@@ -822,8 +822,6 @@ d.caiyifz.com/*
 js.3975.com/*
 *.ooaaoo.com/*
 *.1133.cc/*
-*irs01.net/*
-*irs01.com/*
 pub.htwisdom.com/*
 union.zhubajie.com/*
 *.jugao.com/*
@@ -1777,7 +1775,7 @@ notice.ppstream.com/M2006110043/*.swf
 *.pps.tv/cprtp/*
 www.danlan.org/KFC/*.gif
 iafp.pptv.com/*
-player.pplive.cn/*/PPLivePlugin.swf*
+player.pplive.cn/*/*ive*lugin.swf*
 ik.synacast.com/*
 *.synacast.com/*
 *pp2.pptv.com/*

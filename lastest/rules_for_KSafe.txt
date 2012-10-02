@@ -814,8 +814,6 @@
 5,4,js.3975.com/*
 5,4,*.ooaaoo.com/*
 5,4,*.1133.cc/*
-5,4,*irs01.net/*
-5,4,*irs01.com/*
 5,4,pub.htwisdom.com/*
 5,4,union.zhubajie.com/*
 5,4,*.jugao.com/*
@@ -1769,7 +1767,7 @@
 5,4,*.pps.tv/cprtp/*
 5,4,www.danlan.org/KFC/*.gif
 5,4,iafp.pptv.com/*
-5,4,player.pplive.cn/*/PPLivePlugin.swf*
+5,4,player.pplive.cn/*/*ive*lugin.swf*
 5,4,ik.synacast.com/*
 5,4,*.synacast.com/*
 5,4,*pp2.pptv.com/*

@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-10-01 13:03:48
+!Updated:2012-10-02 20:47:43
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -921,8 +921,8 @@ bannerad
 /:\/\/([^\/]+\.)?js\.3975\.com\//
 /\.ooaaoo\.com\//
 /\.1133\.cc\//
-/irs01\.net\//
-/irs01\.com\//
+!|*irs01.net/*
+!|*irs01.com/*
 /:\/\/([^\/]+\.)?pub\.htwisdom\.com\//
 /:\/\/([^\/]+\.)?union\.zhubajie\.com\//
 /\.jugao\.com\//
@@ -2007,7 +2007,7 @@ bannerad
 !----PPTV网络电视----
 ##[id^="afp_"]	$d=pptv.com
 /:\/\/([^\/]+\.)?iafp\.pptv\.com\//
-/:\/\/([^\/]+\.)?player\.pplive\.cn\/.*\/PPLivePlugin\.swf/
+/:\/\/([^\/]+\.)?player\.pplive\.cn\/.*\/.*ive.*lugin\.swf/
 /:\/\/([^\/]+\.)?ik\.synacast\.com\//
 /\.synacast\.com\//
 /pp2\.pptv\.com\//
@@ -3189,6 +3189,7 @@ bannerad
 /:\/\/([^\/]+\.)?dl\.dydao\.com\/daikao.*\.gif/
 !----人人影视----
 ##upad	$d=yyets.com
+##[class^="ad"]	$d=yyets.com
 ##.couplet	$d=yyets.com
 /:\/\/([^\/]+\.)?tbphoto\.bababian\.com\/upload2\/%E7%BB%BF%E7%BB%BF%E6%88%91%E7%88%B1\/710_90\.gif/
 /:\/\/([^\/]+\.)?copy\.ousns\.com\//

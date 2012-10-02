@@ -1,5 +1,3 @@
-web.duowan.com/public/*
-pic1.duowan.com/webgame/*
 www.duowan.com/*/notice.js
 market.duowan.com/*
 *.duowan.com/duowan.js

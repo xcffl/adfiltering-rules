@@ -1,3 +1,5 @@
+web.duowan.com/public/*
+pic1.duowan.com/webgame/*
 www.duowan.com/*/notice.js
 market.duowan.com/*
 *.duowan.com/duowan.js
@@ -139,6 +141,7 @@ www.92wg.com/Style_litcn/css/ad.css
 www.92wg.com/new/js/A_*.js
 *.haha.mx/Public/images/banner-*.png
 www.micboy.com/dl2.js
+www.fx120.net/disease0/ptt/images/banner.jpg
 www.bzlba.com/wp-content/uploads/*.jpg
 *.cicih.cn/images/kuaiji.gif
 forum.techweb.com.cn/advtcnt.php?*

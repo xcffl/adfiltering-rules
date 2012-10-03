@@ -1,7 +1,7 @@
 msFilterList
-#Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
+#Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-10-02 20:47:43
+#Updated:2012-10-03 17:53:22
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -772,6 +772,7 @@ msFilterList
 - */AImageDs/
 - */jsocket.advanced.swf
 - */images/Bdvertisement/
+- http://pvstat.
 - */UploadADPic/
 - */playertopad.htm
 - */playerright360.htm
@@ -964,6 +965,7 @@ msFilterList
 - *.mr66.com/
 - *.myiee.com/
 - *.na7.cc/
+-d swt.zoosnet.net
 - *.no3.com.cn/
 - *.oadz.com/
 - *.ok8848.com/
@@ -2364,6 +2366,8 @@ msFilterList
 - *.haha.mx/Public/images/banner-*.png
 #----热门杂烩----
 -d www.micboy.com /dl2.js
+#----放心医苑网----
+-d www.fx120.net /disease0/ptt/images/banner.jpg
 #----网赚恋吧----
 -d www.bzlba.com /wp-content/uploads/*.jpg
 #----CC网址名录----
@@ -4024,6 +4028,8 @@ msFilterList
 -d pic.xp500.com /img/xitong.gif
 #----叶网----
 -d g.webgame.com.cn
+#----Apple----
++d km.support.apple.com /includes/darwin/*/footer.js
 #----新蛋中国----
 -d c1.neweggimages.com.cn /neweggpic*/Marketing/*/bocapple/
 #----盛大在线&起点中文网----

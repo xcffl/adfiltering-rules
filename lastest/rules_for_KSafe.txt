@@ -757,6 +757,7 @@
 5,4,*/AImageDs/*
 5,4,*/jsocket.advanced.swf*
 5,4,*/images/Bdvertisement/*
+5,4,pvstat.*
 5,4,*/UploadADPic/*
 5,4,*/playertopad.htm
 5,4,*/playerright360.htm
@@ -944,6 +945,7 @@
 5,4,*.mr66.com/*
 5,4,*.myiee.com/*
 5,4,*.na7.cc/*
+5,4,swt.zoosnet.net/*
 5,4,*.no3.com.cn/*
 5,4,*.oadz.com/*
 5,4,*.ok8848.com/*
@@ -2139,6 +2141,7 @@
 5,4,www.92wg.com/new/js/A_*.js
 5,4,*.haha.mx/Public/images/banner-*.png
 5,4,www.micboy.com/dl2.js
+5,4,www.fx120.net/disease0/ptt/images/banner.jpg
 5,4,www.bzlba.com/wp-content/uploads/*.jpg
 5,4,*.cicih.cn/images/kuaiji.gif
 5,4,forum.techweb.com.cn/advtcnt.php?*

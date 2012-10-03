@@ -209,7 +209,7 @@ def writeRule(filePath, lines):
       line = re.sub('^\s*!.*?\bExpires\s*(?::|after)\s*(\d+)\s*(h)?', '', line)
       line = re.sub('^! Redirect:.*$','', line)
       line = re.sub(r'(.*?)\expires(.*)', '', line)
-      line = re.sub('!Title:.*$', '!Title:adfiltering-rules', line)
+      line = re.sub('!Title:.*$', '!Title:广告强效过滤规则', line)
       #由于猎豹有些问题，暂时使用短名称
       #line = re.sub('for ABP', 'for liebao', line)
       line = re.sub(r'--!$', '--!', line)

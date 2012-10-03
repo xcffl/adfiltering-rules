@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
-!Title:广告强效过滤规则 + 广告强效过滤增强包 for ABP
+!Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-10-02 20:47:43
+!Updated:2012-10-03 17:53:22
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -859,6 +859,7 @@
 |*/AImageDs/*
 |*/jsocket.advanced.swf*
 |*/images/Bdvertisement/*
+|http://pvstat.*
 |*/UploadADPic/*
 |*/playertopad.htm
 |*/playerright360.htm
@@ -1051,6 +1052,7 @@
 |*.mr66.com/*
 |*.myiee.com/*
 |*.na7.cc/*
+||swt.zoosnet.net/*
 |*.no3.com.cn/*
 |*.oadz.com/*
 |*.ok8848.com/*
@@ -2574,6 +2576,8 @@ yunjii.com##IMG[class][width="660"][height="60"][style="display: inline;"]
 |*.haha.mx/Public/images/banner-*.png
 !----热门杂烩----
 ||www.micboy.com/dl2.js
+!----放心医苑网----
+||www.fx120.net/disease0/ptt/images/banner.jpg
 !----网赚恋吧----
 ||www.bzlba.com/wp-content/uploads/*.jpg
 !----CC网址名录----
@@ -4341,6 +4345,8 @@ ipv6.baidu.com##.EC_ppim2
 ||pic.xp500.com/img/xitong.gif
 !----叶网----
 ||g.webgame.com.cn/*
+!----Apple----
+@@||km.support.apple.com/includes/darwin/*/footer.js
 !----新蛋中国----
 ||c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
 !----盛大在线&起点中文网----

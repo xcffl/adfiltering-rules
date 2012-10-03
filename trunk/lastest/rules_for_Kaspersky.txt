@@ -757,6 +757,7 @@ ox-d.*/jstag
 */AImageDs/*
 */jsocket.advanced.swf*
 */images/Bdvertisement/*
+pvstat.*
 */UploadADPic/*
 */playertopad.htm
 */playerright360.htm
@@ -944,6 +945,7 @@ b.scorecardresearch.com/*
 *.mr66.com/*
 *.myiee.com/*
 *.na7.cc/*
+swt.zoosnet.net/*
 *.no3.com.cn/*
 *.oadz.com/*
 *.ok8848.com/*
@@ -2139,6 +2141,7 @@ www.92wg.com/Style_litcn/css/ad.css
 www.92wg.com/new/js/A_*.js
 *.haha.mx/Public/images/banner-*.png
 www.micboy.com/dl2.js
+www.fx120.net/disease0/ptt/images/banner.jpg
 www.bzlba.com/wp-content/uploads/*.jpg
 *.cicih.cn/images/kuaiji.gif
 forum.techweb.com.cn/advtcnt.php?*

@@ -1,16 +1,3 @@
-web.duowan.com/public/*
-pic1.duowan.com/webgame/*
-www.duowan.com/*/notice.js
-market.duowan.com/*
-*.duowan.com/duowan.js
-www.gg1z.com/pic/b.jpg
-practivate.adobe.com/*
-activate.wip3.adobe.com/*
-ereg.adobe.com/*
-activate.adobe.com/*
-www.dnjsb.com/tu/*
-www.webjx.com/zanzhushang/*
-www.webjx.com/upfiles/*-*.gif
 www.33lc.com/js/banner-*.js
 www.33lc.com/soft/UploadPic/*-*/dnxx_*
 www.33lc.com/js/*_*.js
@@ -20,7 +7,6 @@ log.zongheng.com/*
 static.zongheng.com/v2012/cooperate/index_r_b.js
 static.zongheng.com/v2012/js/adClickStat.js
 static.zongheng.com/upload/ad/*
-static.zongheng.com/v2012/js/ad_click.js
 book.zongheng.com/inc/add/zhad.html
 www.tietai.com/file/upload/*/*/*-*-*-*-*.jpg
 *.orsoon.com/orsoon/img/zz*.gif
@@ -305,6 +291,7 @@ b.mysteelcdn.com/mall/web/tg/mysteel_*.png
 *videoinfo.baofeng.com/adp/*
 *.cxdq.com/flash/*.gif
 *.cxdq.com/flash/*.jpg
+ftp2.verypsp.com/55qp.jpg
 ftp3.verypsp.com/ben.gif
 bbs.verypsp.com/*.js*
 s.verypsp.com/pic/*ad.gif
@@ -505,7 +492,6 @@ www.naiertj.com/images/ad*.gif
 www.naiertj.com/js/nbanner.js
 *xuegao.com/pub/img/u/*
 *.hotsk.com/js/asp.js
-*.hotsk.com/gg/*
 *96693.com/tg/tom365/a*-*/*
 *.ayxz.com/images/*banner.gif
 *ayxz.com/images/huhuk.jpg
@@ -558,7 +544,6 @@ www.23sc.cn/007/*
 210.51.33.225/*
 static.jjwxc.net/scripts/richMedia.js*
 *.static.jjwxc.net/sp/*.html
-static.jjwxc.net/scripts/richMedia.js
 *.99d.com/images/99d_*x*_*.gif
 s1.cjdaili.com/images/vpn.jpg
 ny.sxrb.com/configuration/js/*
@@ -716,7 +701,6 @@ js.973.com/gjs/178.js
 js.973.com/gjs/268.js
 js.973.com/gjs/230.js
 js.973.com/gjs/257.js
-js.973.com/gjs/268.js
 js.973.com/gjs/294.js
 js.973.com/gjs/334.js
 js.973.com/gjs/383.js
@@ -780,7 +764,6 @@ count.qiannao.com/*
 *.yunfile.com/images/offline_banner/*x*.gif
 howfile.com/templates/howfile/res/*
 down.qiannao.com/tomos/ui/*.html
-count.qiannao.com/*
 *.howfile.com/templates/howfile/res/*
 *120ask.com/player/*
 *jsduba.net/460x60.gif
@@ -1189,7 +1172,6 @@ gimg.baidu.com/img/*pic/*
 duiwai.baidu.com/*
 bar.baidu.com/*
 baidutv.baidu.com/*
-cb.baidu.com/*
 hi.baidu.com/ui/scripts/refer/refer.js
 hm.baidu.com/*
 www.baidu.com/baidu.php?url=*-*_*_*_*-*.*_*_*_*&ck=*.*
@@ -1251,7 +1233,6 @@ g.*.sdo.com/?method=GetAd&*
 cip.*.sdo.com/*
 ccc.*.sdo.com/*.js
 c.pingba.qidian.com/increase.htm?*
-cj.qidian.com/Flash/*_*.swf
 *.qidian.com/Javascript/DoublePop.js*
 *.qidian.com/javascript/SNDAADAltern.js
 *.qidian.com/Javascript/NewSNDAPop.js
@@ -1366,7 +1347,6 @@ weikush.elinkhost.net/*
 *.docpm.com/*
 *.1autopay.com/*
 a.lt378.com/*
-*intdisk.com/advertising/*
 *.91super.com*
 *.9vsms.cn/*
 *.ad2you.com/*

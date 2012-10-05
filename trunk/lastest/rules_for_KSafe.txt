@@ -422,7 +422,6 @@
 5,4,*/guangao/js/*.js
 5,4,*/ipush_jsp/server.jsp*
 5,4,*/js/tan2/
-5,4,*/js/tanchuang.js
 5,4,*/ad.files/*
 5,4,*/adclick.php*
 5,4,*/float_bar.js
@@ -670,7 +669,6 @@
 5,4,*/hiido.js*
 5,4,*/adtrack.*
 5,4,*/easyadstrack.*
-5,4,*/track.php?uid=*.*&d=*
 5,4,track.*/*
 5,4,*/images/ikuaishou.jpg
 5,4,*/AgfD/*
@@ -733,7 +731,6 @@
 5,4,*.com.tw/ad/*
 5,4,*.com.cn/ad/*
 5,4,*com*/ad/*.swf*
-5,4,*.org*/ad/*=*
 5,4,*.org*/ad/*.js*
 5,4,*.org*/ad/*.gif*
 5,4,*.org*/ad/*=*
@@ -790,7 +787,6 @@
 5,4,*/zbxxg2009b/ggw/dmtgg/*
 5,4,*.0252.com/*
 5,4,p*.aidaicn.com/*
-5,4,js.ssrj.net/p/*
 5,4,i.uu06.com/*
 5,4,*.topfriv.com/popup.js
 5,4,code.ilepai.com/*
@@ -933,7 +929,6 @@
 5,4,*.gs307.com/*
 5,4,*.400or800.com/*
 5,4,*.itsun.com/*
-5,4,p.zhanzhang.net/*
 5,4,*.junnew.com/indexad/*
 5,4,*.kfwan.com/*
 5,4,b.scorecardresearch.com/*
@@ -1049,6 +1044,7 @@
 5,4,t.iloveyouxi.com/*
 5,4,*.cpm360.com/*
 5,4,*.ssrj.net/*
+5,4,yingoad.com/page/*
 5,4,cpm.union.52xiyou.com/*
 5,4,*.s2d6.com/x/?*
 5,4,*.game3737.com/*
@@ -1106,7 +1102,6 @@
 5,4,c.sfilm.com/*
 5,4,cache.51go.com/*
 5,4,cache.blogads.com/*
-5,4,copy.ousns.com/new/*.swf
 5,4,cm.p4p.cn/*
 5,4,code.345ads.com/*
 5,4,code.345ads.com:*/*
@@ -1149,7 +1144,6 @@
 5,4,www.lf-lm.com/*
 5,4,*.innity.net/*
 5,4,jsa*.733.com/*
-5,4,resmkt.dipan.com/*
 5,4,s.vdoing.com/*
 5,4,js.yuunion.com/*
 5,4,play.unionsky2.cn/*
@@ -1279,7 +1273,6 @@
 5,4,uimg.xiaoangel.com/jsorigin/*
 5,4,*rd.apmebf.com/*
 5,4,js.xsu.cc/*
-5,4,cs.twcczhu.com/*
 5,4,cdn.udmserve.net/mid858/*
 5,4,*.admaster.com.cn/*
 5,4,code.aizhuanlove.cn/loveimages/*
@@ -1311,7 +1304,6 @@
 5,4,v.9vcpp.cn/*
 5,4,vtechweb.adsame.com/s?*
 5,4,*.flunion.cn/*
-5,4,www.1717388.com/i.js
 5,4,*.ubcpm.com/*
 5,4,un.22w.com/show.php?*
 5,4,*.ad18.com.cn/new2010/11z/*
@@ -1406,6 +1398,7 @@
 5,4,p4pstatic.xunlei.com*
 5,4,*.cpm.cm.sandai.net/*
 5,4,leiyanstatic.xunlei.com*
+5,4,misc.web.xunlei.com/kkpv/*
 5,4,*211.94.190.80/*
 5,4,biz*.sandai.net/*
 5,4,mpv.sandai.net/*
@@ -1416,7 +1409,6 @@
 5,4,*ub.dphub.sandai.net/*
 5,4,*pubstat.sandai.net/*
 5,4,analytics-union.sandai.net/*
-5,4,logic.cpm.cm.sandai.net/*
 5,4,gvod.union.sandai.net/*
 5,4,click.cm.sandai.net/*
 5,4,un.so.gougou.com/*
@@ -1502,7 +1494,6 @@
 5,4,a*.itc.cn/pv/js/pvclick.*
 5,4,xls.go.sohu.com/*
 5,4,his.tv.sohu.com/his/ping.do?*
-5,4,count.vrs.sohu.com/*.xml
 5,4,*.hd.sohu.com.cn/*.gif?*
 5,4,images.sohu.com/ytv/*
 5,4,220.181.61.231/get.gif?*
@@ -1570,7 +1561,7 @@
 5,4,analytics.163.com/*
 5,4,swf.ws.126.net/*.flv
 5,4,images.163.com/*
-5,4,g.163.com/*
+5,4,g.163.com/*&affiliate=*
 5,4,pro.163.com/*
 5,4,img*.126.net/channel*/*.html
 5,4,popme.163.com*
@@ -1597,7 +1588,6 @@
 5,4,erreport.tudou.com/*
 5,4,*/tui/*js*
 5,4,*.tudou.com/service/outside.php
-5,4,stat.tudou.com/play.srv*
 5,4,*.p2v.tudou.com*
 5,4,adcontorl.tudou.com/*
 5,4,js.tudouui.com/bin/tmp/*
@@ -1770,7 +1760,6 @@
 5,4,www.danlan.org/KFC/*.gif
 5,4,iafp.pptv.com/*
 5,4,player.pplive.cn/*/*ive*lugin.swf*
-5,4,ik.synacast.com/*
 5,4,*.synacast.com/*
 5,4,*pp2.pptv.com/*
 5,4,union.dangdang.com/*
@@ -1778,8 +1767,6 @@
 5,4,img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 5,4,download.cncmax.js.cn/images/temp/down-banner*.jpg
 5,4,news.newhua.com/newhuagg/news_*
-5,4,www.onlinedown.net/newhuagg/js_*
-5,4,www.newhua.com/newhuagg/js_*
 5,4,www.onlinedown.net/newhuagg/js_*
 5,4,www.newhua.com/newhuagg/js_*
 5,4,count.newhua.com/*
@@ -1889,7 +1876,6 @@
 5,4,*.xmnn.cn/images/*
 5,4,news.xmnn.cn/xwgg/nydb/*
 5,4,js.fengwu.net/baidu/*
-5,4,static.acs86.com/*
 5,4,log*.ku6.com/*
 5,4,www.ku6.com/c*/*/s*/index.shtml
 5,4,*.stat.ku6.com/*.xml
@@ -1931,7 +1917,6 @@
 5,4,*.99manga.com/haodm/dmjsc/*.js
 5,4,*.laishu.com/lsgg/*
 5,4,*.laishuwu.com/files/friend/*
-5,4,js.laishu.com/lsgg/*
 5,4,www.ocucn.com/images/*.gif
 5,4,alibuybuy-wordpress.stor.sinaapp.com/*
 5,4,a.ikafan.com/2/b.js*
@@ -1971,6 +1956,7 @@
 5,4,*.fzdm.com/ggup/*
 5,4,*.ifeng.com/ssi-incs/*.html
 5,4,*.ifeng.com/*/ssi-incs/*.html
+5,4,y1.ifengimg.com/**/rdn_*.js*
 5,4,*.ifengimg.com/ifeng/sources/*
 5,4,*.ifeng.com/statics/comment_baidu.html
 5,4,y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
@@ -1979,6 +1965,7 @@
 5,4,bc.ifeng.com/*
 5,4,*.ifengimg.com/tres/recommend/*
 5,4,*.ifengimg.com/mappa/*
+5,4,games.ifeng.com/webgame/*
 5,4,*/ifengRotatorAd.js
 5,4,img.ifeng.com/tres/recommended/*
 5,4,img.ifeng.com/tres/recommend/*
@@ -2020,7 +2007,6 @@
 5,4,static.zongheng.com/v2012/cooperate/index_r_b.js
 5,4,static.zongheng.com/v2012/js/adClickStat.js
 5,4,static.zongheng.com/upload/ad/*
-5,4,static.zongheng.com/v2012/js/ad_click.js
 5,4,book.zongheng.com/inc/add/zhad.html
 5,4,www.tietai.com/file/upload/*/*/*-*-*-*-*.jpg
 5,4,*.orsoon.com/orsoon/img/zz*.gif
@@ -2305,6 +2291,7 @@
 5,4,*videoinfo.baofeng.com/adp/*
 5,4,*.cxdq.com/flash/*.gif
 5,4,*.cxdq.com/flash/*.jpg
+5,4,ftp2.verypsp.com/55qp.jpg
 5,4,ftp3.verypsp.com/ben.gif
 5,4,bbs.verypsp.com/*.js*
 5,4,s.verypsp.com/pic/*ad.gif
@@ -2505,7 +2492,6 @@
 5,4,www.naiertj.com/js/nbanner.js
 5,4,*xuegao.com/pub/img/u/*
 5,4,*.hotsk.com/js/asp.js
-5,4,*.hotsk.com/gg/*
 5,4,*96693.com/tg/tom365/a*-*/*
 5,4,*.ayxz.com/images/*banner.gif
 5,4,*ayxz.com/images/huhuk.jpg
@@ -2558,7 +2544,6 @@
 5,4,210.51.33.225/*
 5,4,static.jjwxc.net/scripts/richMedia.js*
 5,4,*.static.jjwxc.net/sp/*.html
-5,4,static.jjwxc.net/scripts/richMedia.js
 5,4,*.99d.com/images/99d_*x*_*.gif
 5,4,s1.cjdaili.com/images/vpn.jpg
 5,4,ny.sxrb.com/configuration/js/*
@@ -2716,7 +2701,6 @@
 5,4,js.973.com/gjs/268.js
 5,4,js.973.com/gjs/230.js
 5,4,js.973.com/gjs/257.js
-5,4,js.973.com/gjs/268.js
 5,4,js.973.com/gjs/294.js
 5,4,js.973.com/gjs/334.js
 5,4,js.973.com/gjs/383.js
@@ -2780,7 +2764,6 @@
 5,4,*.yunfile.com/images/offline_banner/*x*.gif
 5,4,howfile.com/templates/howfile/res/*
 5,4,down.qiannao.com/tomos/ui/*.html
-5,4,count.qiannao.com/*
 5,4,*.howfile.com/templates/howfile/res/*
 5,4,*120ask.com/player/*
 5,4,*jsduba.net/460x60.gif
@@ -3189,7 +3172,6 @@
 5,4,duiwai.baidu.com/*
 5,4,bar.baidu.com/*
 5,4,baidutv.baidu.com/*
-5,4,cb.baidu.com/*
 5,4,hi.baidu.com/ui/scripts/refer/refer.js
 5,4,hm.baidu.com/*
 5,4,www.baidu.com/baidu.php?url=*-*_*_*_*-*.*_*_*_*&ck=*.*
@@ -3251,7 +3233,6 @@
 5,4,cip.*.sdo.com/*
 5,4,ccc.*.sdo.com/*.js
 5,4,c.pingba.qidian.com/increase.htm?*
-5,4,cj.qidian.com/Flash/*_*.swf
 5,4,*.qidian.com/Javascript/DoublePop.js*
 5,4,*.qidian.com/javascript/SNDAADAltern.js
 5,4,*.qidian.com/Javascript/NewSNDAPop.js
@@ -3366,7 +3347,6 @@
 5,4,*.docpm.com/*
 5,4,*.1autopay.com/*
 5,4,a.lt378.com/*
-5,4,*intdisk.com/advertising/*
 5,4,*.91super.com*
 5,4,*.9vsms.cn/*
 5,4,*.ad2you.com/*

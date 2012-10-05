@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-10-03 17:53:22
+!Updated:2012-10-05 22:33:52
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -521,7 +521,6 @@
 |*/guangao/js/*.js
 |*/ipush_jsp/server.jsp*
 |*/js/tan2/
-|*/js/tanchuang.js
 |*/ad.files/*
 |*/adclick.php*
 |*/float_bar.js
@@ -769,7 +768,6 @@
 |*/hiido.js*
 |*/adtrack.*
 |*/easyadstrack.*
-|*/track.php?uid=*.*&d=*
 ||track.*/*
 |*/images/ikuaishou.jpg
 |*/AgfD/*
@@ -833,7 +831,6 @@
 |*.com.tw/ad/*
 |*.com.cn/ad/*
 |http://*com*/ad/*.swf*
-|http://*.org*/ad/*=*
 !|http://*.org*/ad/*X*.jpg
 |http://*.org*/ad/*.js*
 |http://*.org*/ad/*.gif*
@@ -893,7 +890,6 @@
 !-------------广告联盟-------------
 |*.0252.com/*
 ||p*.aidaicn.com/*
-||js.ssrj.net/p/*
 ||i.uu06.com/*
 |*.topfriv.com/popup.js
 ||code.ilepai.com/*
@@ -1040,7 +1036,6 @@
 |*.gs307.com/*
 |*.400or800.com/*
 |*.itsun.com/*
-||p.zhanzhang.net/*
 |*.junnew.com/indexad/*
 |*.kfwan.com/*
 ||b.scorecardresearch.com/*
@@ -1157,6 +1152,7 @@
 ||t.iloveyouxi.com/*
 |*.cpm360.com/*
 |*.ssrj.net/*
+||yingoad.com/page/*
 ||cpm.union.52xiyou.com/*
 |*.s2d6.com/x/?*
 |*.game3737.com/*
@@ -1215,7 +1211,6 @@
 ||c.sfilm.com/*
 ||cache.51go.com/*
 ||cache.blogads.com/*
-||copy.ousns.com/new/*.swf
 ||cm.p4p.cn/*
 ||code.345ads.com/*
 ||code.345ads.com:*/*
@@ -1258,7 +1253,6 @@
 ||www.lf-lm.com/*
 |*.innity.net/*
 ||jsa*.733.com/*
-||resmkt.dipan.com/*
 ||s.vdoing.com/*
 ||js.yuunion.com/*
 ||play.unionsky2.cn/*
@@ -1388,7 +1382,6 @@
 ||uimg.xiaoangel.com/jsorigin/*
 |*rd.apmebf.com/*
 ||js.xsu.cc/*
-||cs.twcczhu.com/*
 ||cdn.udmserve.net/mid858/*
 |*.admaster.com.cn/*
 ||code.aizhuanlove.cn/loveimages/*
@@ -1425,7 +1418,6 @@
 ||v.9vcpp.cn/*
 ||vtechweb.adsame.com/s?*
 |*.flunion.cn/*
-||www.1717388.com/i.js
 |*.ubcpm.com/*
 ||un.22w.com/show.php?*
 |*.ad18.com.cn/new2010/11z/*
@@ -1539,6 +1531,7 @@ kuai.xunlei.com##.lahuan
 ||p4pstatic.xunlei.com*
 |*.cpm.cm.sandai.net/*
 ||leiyanstatic.xunlei.com*
+||misc.web.xunlei.com/kkpv/*
 |*211.94.190.80/*
 ||biz*.sandai.net/*
 ||mpv.sandai.net/*
@@ -1549,7 +1542,6 @@ kuai.xunlei.com##.lahuan
 |*ub.dphub.sandai.net/*
 |*pubstat.sandai.net/*
 ||analytics-union.sandai.net/*
-||logic.cpm.cm.sandai.net/*
 ||gvod.union.sandai.net/*
 ||click.cm.sandai.net/*
 ||un.so.gougou.com/*
@@ -1660,7 +1652,6 @@ sohu.com##.adB
 ||a*.itc.cn/pv/js/pvclick.*
 ||xls.go.sohu.com/*
 ||his.tv.sohu.com/his/ping.do?*
-||count.vrs.sohu.com/*.xml
 |*.hd.sohu.com.cn/*.gif?*
 ||images.sohu.com/ytv/*
 ||220.181.61.231/get.gif?*
@@ -1736,7 +1727,7 @@ www.163.com###g5n1
 ||analytics.163.com/*
 ||swf.ws.126.net/*.flv
 ||images.163.com/*
-||g.163.com/*
+||g.163.com/*&affiliate=*
 ||pro.163.com/*
 ||img*.126.net/channel*/*.html
 ||popme.163.com*
@@ -1766,7 +1757,6 @@ tudou.com###adex_board
 ||erreport.tudou.com/*
 |*/tui/*js*
 |*.tudou.com/service/outside.php
-||stat.tudou.com/play.srv*
 |*.p2v.tudou.com*
 ||adcontorl.tudou.com/*
 ||js.tudouui.com/bin/tmp/*
@@ -2006,7 +1996,6 @@ bbs.dengfeng.cn###diy1
 pptv.com##[id^="afp_"]
 ||iafp.pptv.com/*
 ||player.pplive.cn/*/*ive*lugin.swf*
-||ik.synacast.com/*
 |*.synacast.com/*
 |*pp2.pptv.com/*
 !----当当网----
@@ -2021,8 +2010,6 @@ lingdiankanshu.com##TD[width="301"]
 newhua.com##[class^="ad_ritht_"]
 ||download.cncmax.js.cn/images/temp/down-banner*.jpg
 ||news.newhua.com/newhuagg/news_*
-||www.onlinedown.net/newhuagg/js_*
-||www.newhua.com/newhuagg/js_*
 ||www.onlinedown.net/newhuagg/js_*
 ||www.newhua.com/newhuagg/js_*
 ||count.newhua.com/*
@@ -2184,8 +2171,6 @@ tesoon.com##TD[valign="top"]
 vdisk.cn##[href="http://www.adreep.cn"]
 !----凤舞文学网----
 ||js.fengwu.net/baidu/*
-!----m1905.com----
-||static.acs86.com/*
 !----酷6----
 v.ku6.com##[class^="aa_"]
 my.ku6.com##.gg
@@ -2259,7 +2244,6 @@ bbs.qzss.cn##.tac.mb5
 !----来书小说网----
 |*.laishu.com/lsgg/*
 |*.laishuwu.com/files/friend/*
-||js.laishu.com/lsgg/*
 !----中国反诈骗联盟----
 ocucn.com###bad
 ocucn.com##[class^="getGold c"]
@@ -2323,6 +2307,7 @@ news.ifeng.com###smExtObjBgIfm
 news.ifeng.com###smExtObjBg
 |*.ifeng.com/ssi-incs/*.html
 |*.ifeng.com/*/ssi-incs/*.html
+||y1.ifengimg.com^*/rdn_*.js*
 |*.ifengimg.com/ifeng/sources/*
 |*.ifeng.com/statics/comment_baidu.html
 ||y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
@@ -2331,6 +2316,7 @@ news.ifeng.com###smExtObjBg
 ||bc.ifeng.com/*
 |*.ifengimg.com/tres/recommend/*
 |*.ifengimg.com/mappa/*
+||games.ifeng.com/webgame/*
 |*/ifengRotatorAd.js
 ||img.ifeng.com/tres/recommended/*
 ||img.ifeng.com/tres/recommend/*
@@ -2386,7 +2372,6 @@ cnr.cn##DIV[style="POSITION:fixed;TOP:30px;right:13px;"]
 ||static.zongheng.com/v2012/cooperate/index_r_b.js
 ||static.zongheng.com/v2012/js/adClickStat.js
 ||static.zongheng.com/upload/ad/*
-||static.zongheng.com/v2012/js/ad_click.js
 ||book.zongheng.com/inc/add/zhad.html
 !----铁泰参考----
 ||www.tietai.com/file/upload/*/*/*-*-*-*-*.jpg
@@ -2729,6 +2714,10 @@ jrj.com.cn##.a1.mg0
 |*taoguba.com.cn/gbimg/2010/11/04/*
 !----400Disk网络硬盘----
 ||www1.400disk.com/downimg/8f1.jpg
+!----中南财经政法大学----
+@@||202.114.224.190*/show.aspx?*
+!----育儿网----
+@@||box.ci123.com/adv.php?*
 !----6868le网址导航----
 ||u.6868le.com/images/pptv.gif
 ||u.6868le.com/images/ie.gif
@@ -2840,6 +2829,8 @@ saesky.net##FONT[color="#0000FF"]
 |*.cxdq.com/flash/*.gif
 |*.cxdq.com/flash/*.jpg
 !----V游网----
+verypsp.com##table[width="960"]
+||ftp2.verypsp.com/55qp.jpg
 ||ftp3.verypsp.com/ben.gif
 ||bbs.verypsp.com/*.js*
 ||s.verypsp.com:808/pic/*ad.gif
@@ -3160,7 +3151,6 @@ u17.com##.sidepic_40
 |*xuegao.com/pub/img/u/*
 !----热点书库----
 |*.hotsk.com/js/asp.js
-|*.hotsk.com/gg/*
 hotsk.com##FIELDSET[style="width:730;height:80;border:1px dashed #a6ccf9"]
 !----96693网址导航----
 |*96693.com/tg/tom365/a*-*/*
@@ -3249,7 +3239,6 @@ jjwxc.net##[id^="adp_"]
 ||210.51.33.225/*
 ||static.jjwxc.net/scripts/richMedia.js*
 |*.static.jjwxc.net/sp/*.html
-||static.jjwxc.net/scripts/richMedia.js
 !----99d软件园----
 |*.99d.com/images/99d_*x*_*.gif
 !----CJDdaiLi超级在线代理----
@@ -3483,7 +3472,6 @@ appinn.com##.ads
 ||js.973.com/gjs/268.js
 ||js.973.com/gjs/230.js
 ||js.973.com/gjs/257.js
-||js.973.com/gjs/268.js
 ||js.973.com/gjs/294.js
 ||js.973.com/gjs/334.js
 ||js.973.com/gjs/383.js
@@ -3587,7 +3575,6 @@ down.qiannao.com###PageRigntAds
 !----HowFile----
 ||howfile.com/templates/howfile/res/*
 ||down.qiannao.com/tomos/ui/*.html
-||count.qiannao.com/*
 |*.howfile.com/templates/howfile/res/*
 !----有问必答健康网----
 |*120ask.com/player/*
@@ -4291,7 +4278,6 @@ ipv6.baidu.com##.EC_ppim2
 ||duiwai.baidu.com/*
 ||bar.baidu.com/*
 ||baidutv.baidu.com/*
-||cb.baidu.com/*
 ||hi.baidu.com/ui/scripts/refer/refer.js
 ||hm.baidu.com/*
 ||www.baidu.com/baidu.php?url=*-*_*_*_*-*.*_*_*_*&ck=*.*
@@ -4366,7 +4352,6 @@ www.qidian.com##.DH17
 ||cip.*.sdo.com/*
 ||ccc.*.sdo.com/*.js
 ||c.pingba.qidian.com/increase.htm?*
-||cj.qidian.com/Flash/*_*.swf
 |*.qidian.com/Javascript/DoublePop.js*
 |*.qidian.com/javascript/SNDAADAltern.js
 |*.qidian.com/Javascript/NewSNDAPop.js
@@ -4489,7 +4474,6 @@ www.qidian.com##.DH17
 |*.1autopay.com/*
 ||a.lt378.com/*
 !-------------可能失效-------------
-|*intdisk.com/advertising/*
 |*.91super.com*
 |*.9vsms.cn/*
 |*.ad2you.com/*
@@ -4557,3 +4541,5 @@ www.qidian.com##.DH17
 @@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
 @@||cpro.baidu.com/cpro/ui/y.js
 !-------------待分类-------------
+
+

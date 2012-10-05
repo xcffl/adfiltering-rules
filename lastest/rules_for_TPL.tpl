@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-10-03 17:53:22
+#Updated:2012-10-05 22:33:52
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -434,7 +434,6 @@ msFilterList
 - */guangao/js/*.js
 - */ipush_jsp/server.jsp
 - */js/tan2/
-- */js/tanchuang.js
 - */ad.files/
 - */adclick.php
 - */float_bar.js
@@ -682,7 +681,6 @@ msFilterList
 - */hiido.js
 - */adtrack.
 - */easyadstrack.
-- */track.php?uid=*.*&d=
 - http://track.*/
 - */images/ikuaishou.jpg
 - */AgfD/
@@ -746,7 +744,6 @@ msFilterList
 - *.com.tw/ad/
 - *.com.cn/ad/
 - http://*com*/ad/*.swf
-- http://*.org*/ad/*=
 #|http://*.org*/ad/*X*.jpg
 - http://*.org*/ad/*.js
 - http://*.org*/ad/*.gif
@@ -806,7 +803,6 @@ msFilterList
 #-------------广告联盟-------------
 - *.0252.com/
 - http://p*.aidaicn.com/
--d js.ssrj.net /p/
 -d i.uu06.com
 - *.topfriv.com/popup.js
 -d code.ilepai.com
@@ -953,7 +949,6 @@ msFilterList
 - *.gs307.com/
 - *.400or800.com/
 - *.itsun.com/
--d p.zhanzhang.net
 - *.junnew.com/indexad/
 - *.kfwan.com/
 -d b.scorecardresearch.com
@@ -1070,6 +1065,7 @@ msFilterList
 -d t.iloveyouxi.com
 - *.cpm360.com/
 - *.ssrj.net/
+-d yingoad.com /page/
 -d cpm.union.52xiyou.com
 - *.s2d6.com/x/?
 - *.game3737.com/
@@ -1128,7 +1124,6 @@ msFilterList
 -d c.sfilm.com
 -d cache.51go.com
 -d cache.blogads.com
--d copy.ousns.com /new/*.swf
 -d cm.p4p.cn
 -d code.345ads.com
 - http://code.345ads.com:*/
@@ -1171,7 +1166,6 @@ msFilterList
 -d www.lf-lm.com
 - *.innity.net/
 - http://jsa*.733.com/
--d resmkt.dipan.com
 -d s.vdoing.com
 -d js.yuunion.com
 -d play.unionsky2.cn
@@ -1301,7 +1295,6 @@ msFilterList
 -d uimg.xiaoangel.com /jsorigin/
 - *rd.apmebf.com/
 -d js.xsu.cc
--d cs.twcczhu.com
 -d cdn.udmserve.net /mid858/
 - *.admaster.com.cn/
 -d code.aizhuanlove.cn /loveimages/
@@ -1338,7 +1331,6 @@ msFilterList
 -d v.9vcpp.cn
 -d vtechweb.adsame.com /s?
 - *.flunion.cn/
--d www.1717388.com /i.js
 - *.ubcpm.com/
 -d un.22w.com /show.php?
 - *.ad18.com.cn/new2010/11z/
@@ -1443,6 +1435,7 @@ msFilterList
 - http://p4pstatic.xunlei.com
 - *.cpm.cm.sandai.net/
 - http://leiyanstatic.xunlei.com
+-d misc.web.xunlei.com /kkpv/
 - *211.94.190.80/
 - http://biz*.sandai.net/
 -d mpv.sandai.net
@@ -1453,7 +1446,6 @@ msFilterList
 - *ub.dphub.sandai.net/
 - *pubstat.sandai.net/
 -d analytics-union.sandai.net
--d logic.cpm.cm.sandai.net
 -d gvod.union.sandai.net
 -d click.cm.sandai.net
 -d un.so.gougou.com
@@ -1543,7 +1535,6 @@ msFilterList
 - http://a*.itc.cn/pv/js/pvclick.
 -d xls.go.sohu.com
 -d his.tv.sohu.com /his/ping.do?
--d count.vrs.sohu.com .xml
 - *.hd.sohu.com.cn/*.gif?
 -d images.sohu.com /ytv/
 -d 220.181.61.231 /get.gif?
@@ -1615,7 +1606,7 @@ msFilterList
 -d analytics.163.com
 -d swf.ws.126.net .flv
 -d images.163.com
--d g.163.com
+-d g.163.com &affiliate=
 -d pro.163.com
 - http://img*.126.net/channel*/*.html
 - http://popme.163.com
@@ -1643,7 +1634,6 @@ msFilterList
 -d erreport.tudou.com
 - */tui/*js
 - *.tudou.com/service/outside.php
--d stat.tudou.com /play.srv
 - *.p2v.tudou.com
 -d adcontorl.tudou.com
 -d js.tudouui.com /bin/tmp/
@@ -1861,7 +1851,6 @@ msFilterList
 #----PPTV网络电视----
 -d iafp.pptv.com
 -d player.pplive.cn /*ive*lugin.swf
--d ik.synacast.com
 - *.synacast.com/
 - *pp2.pptv.com/
 #----当当网----
@@ -1873,8 +1862,6 @@ msFilterList
 #----华军软件园&牛华网----
 -d download.cncmax.js.cn /images/temp/down-banner*.jpg
 -d news.newhua.com /newhuagg/news_
--d www.onlinedown.net /newhuagg/js_
--d www.newhua.com /newhuagg/js_
 -d www.onlinedown.net /newhuagg/js_
 -d www.newhua.com /newhuagg/js_
 -d count.newhua.com
@@ -2021,8 +2008,6 @@ msFilterList
 #----威盘网----
 #----凤舞文学网----
 -d js.fengwu.net /baidu/
-#----m1905.com----
--d static.acs86.com
 #----酷6----
 +d my.ku6.com /resource/images/feed_ad1.jpg
 - http://log*.ku6.com/
@@ -2080,7 +2065,6 @@ msFilterList
 #----来书小说网----
 - *.laishu.com/lsgg/
 - *.laishuwu.com/files/friend/
--d js.laishu.com /lsgg/
 #----中国反诈骗联盟----
 -d www.ocucn.com /images/*.gif
 #----互联网的那点事----
@@ -2132,6 +2116,7 @@ msFilterList
 #----凤凰网----
 - *.ifeng.com/ssi-incs/*.html
 - *.ifeng.com/*/ssi-incs/*.html
+-d y1.ifengimg.com /rdn_*.js
 - *.ifengimg.com/ifeng/sources/
 - *.ifeng.com/statics/comment_baidu.html
 -d y3.ifengimg.com /06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
@@ -2140,6 +2125,7 @@ msFilterList
 -d bc.ifeng.com
 - *.ifengimg.com/tres/recommend/
 - *.ifengimg.com/mappa/
+-d games.ifeng.com /webgame/
 - */ifengRotatorAd.js
 -d img.ifeng.com /tres/recommended/
 -d img.ifeng.com /tres/recommend/
@@ -2193,7 +2179,6 @@ msFilterList
 -d static.zongheng.com /v2012/cooperate/index_r_b.js
 -d static.zongheng.com /v2012/js/adClickStat.js
 -d static.zongheng.com /upload/ad/
--d static.zongheng.com /v2012/js/ad_click.js
 -d book.zongheng.com /inc/add/zhad.html
 #----铁泰参考----
 -d www.tietai.com /file/upload/*/*/*-*-*-*-*.jpg
@@ -2499,6 +2484,10 @@ msFilterList
 - *taoguba.com.cn/gbimg/2010/11/04/
 #----400Disk网络硬盘----
 -d www1.400disk.com /downimg/8f1.jpg
+#----中南财经政法大学----
+# @@||202.114.224.190*/show.aspx?*
+#----育儿网----
++d box.ci123.com /adv.php?
 #----6868le网址导航----
 -d u.6868le.com /images/pptv.gif
 -d u.6868le.com /images/ie.gif
@@ -2605,6 +2594,7 @@ msFilterList
 - *.cxdq.com/flash/*.gif
 - *.cxdq.com/flash/*.jpg
 #----V游网----
+-d ftp2.verypsp.com /55qp.jpg
 -d ftp3.verypsp.com /ben.gif
 -d bbs.verypsp.com .js
 -d s.verypsp.com /pic/*ad.gif
@@ -2900,7 +2890,6 @@ msFilterList
 - *xuegao.com/pub/img/u/
 #----热点书库----
 - *.hotsk.com/js/asp.js
-- *.hotsk.com/gg/
 #----96693网址导航----
 - *96693.com/tg/tom365/a*-*/
 #----俺要下载----
@@ -2981,7 +2970,6 @@ msFilterList
 -d 210.51.33.225
 -d static.jjwxc.net /scripts/richMedia.js
 - *.static.jjwxc.net/sp/*.html
--d static.jjwxc.net /scripts/richMedia.js
 #----99d软件园----
 - *.99d.com/images/99d_*x*_*.gif
 #----CJDdaiLi超级在线代理----
@@ -3212,7 +3200,6 @@ msFilterList
 -d js.973.com /gjs/268.js
 -d js.973.com /gjs/230.js
 -d js.973.com /gjs/257.js
--d js.973.com /gjs/268.js
 -d js.973.com /gjs/294.js
 -d js.973.com /gjs/334.js
 -d js.973.com /gjs/383.js
@@ -3312,7 +3299,6 @@ msFilterList
 #----HowFile----
 -d howfile.com /templates/howfile/res/
 -d down.qiannao.com /tomos/ui/*.html
--d count.qiannao.com
 - *.howfile.com/templates/howfile/res/
 #----有问必答健康网----
 - *120ask.com/player/
@@ -3974,7 +3960,6 @@ msFilterList
 -d duiwai.baidu.com
 -d bar.baidu.com
 -d baidutv.baidu.com
--d cb.baidu.com
 -d hi.baidu.com /ui/scripts/refer/refer.js
 -d hm.baidu.com
 -d www.baidu.com /baidu.php?url=*-*_*_*_*-*.*_*_*_*&ck=*.
@@ -4044,7 +4029,6 @@ msFilterList
 - http://cip.*.sdo.com/
 - http://ccc.*.sdo.com/*.js
 -d c.pingba.qidian.com /increase.htm?
--d cj.qidian.com /Flash/*_*.swf
 - *.qidian.com/Javascript/DoublePop.js
 - *.qidian.com/javascript/SNDAADAltern.js
 - *.qidian.com/Javascript/NewSNDAPop.js
@@ -4167,7 +4151,6 @@ msFilterList
 - *.1autopay.com/
 -d a.lt378.com
 #-------------可能失效-------------
-- *intdisk.com/advertising/
 - *.91super.com
 - *.9vsms.cn/
 - *.ad2you.com/

@@ -422,7 +422,6 @@ js.*/code.js
 */guangao/js/*.js
 */ipush_jsp/server.jsp*
 */js/tan2/
-*/js/tanchuang.js
 */ad.files/*
 */adclick.php*
 */float_bar.js
@@ -670,7 +669,6 @@ acs.*
 */hiido.js*
 */adtrack.*
 */easyadstrack.*
-*/track.php?uid=*.*&d=*
 track.*/*
 */images/ikuaishou.jpg
 */AgfD/*
@@ -733,7 +731,6 @@ ox-d.*/jstag
 *.com.tw/ad/*
 *.com.cn/ad/*
 *com*/ad/*.swf*
-*.org*/ad/*=*
 *.org*/ad/*.js*
 *.org*/ad/*.gif*
 *.org*/ad/*=*
@@ -790,7 +787,6 @@ pvstat.*
 */zbxxg2009b/ggw/dmtgg/*
 *.0252.com/*
 p*.aidaicn.com/*
-js.ssrj.net/p/*
 i.uu06.com/*
 *.topfriv.com/popup.js
 code.ilepai.com/*
@@ -933,7 +929,6 @@ c*.keytui.com/*
 *.gs307.com/*
 *.400or800.com/*
 *.itsun.com/*
-p.zhanzhang.net/*
 *.junnew.com/indexad/*
 *.kfwan.com/*
 b.scorecardresearch.com/*
@@ -1049,6 +1044,7 @@ adportal.cbsi.com.cn/*
 t.iloveyouxi.com/*
 *.cpm360.com/*
 *.ssrj.net/*
+yingoad.com/page/*
 cpm.union.52xiyou.com/*
 *.s2d6.com/x/?*
 *.game3737.com/*
@@ -1106,7 +1102,6 @@ c.91wan.com/*
 c.sfilm.com/*
 cache.51go.com/*
 cache.blogads.com/*
-copy.ousns.com/new/*.swf
 cm.p4p.cn/*
 code.345ads.com/*
 code.345ads.com:*/*
@@ -1149,7 +1144,6 @@ uimg.unionli.com/*
 www.lf-lm.com/*
 *.innity.net/*
 jsa*.733.com/*
-resmkt.dipan.com/*
 s.vdoing.com/*
 js.yuunion.com/*
 play.unionsky2.cn/*
@@ -1279,7 +1273,6 @@ p.gocsgo.com/*
 uimg.xiaoangel.com/jsorigin/*
 *rd.apmebf.com/*
 js.xsu.cc/*
-cs.twcczhu.com/*
 cdn.udmserve.net/mid858/*
 *.admaster.com.cn/*
 code.aizhuanlove.cn/loveimages/*
@@ -1311,7 +1304,6 @@ code.178gg.com/*
 v.9vcpp.cn/*
 vtechweb.adsame.com/s?*
 *.flunion.cn/*
-www.1717388.com/i.js
 *.ubcpm.com/*
 un.22w.com/show.php?*
 *.ad18.com.cn/new2010/11z/*
@@ -1406,6 +1398,7 @@ cop.my.xunlei.com/*
 p4pstatic.xunlei.com*
 *.cpm.cm.sandai.net/*
 leiyanstatic.xunlei.com*
+misc.web.xunlei.com/kkpv/*
 *211.94.190.80/*
 biz*.sandai.net/*
 mpv.sandai.net/*
@@ -1416,7 +1409,6 @@ mpv.sandai.net/*
 *ub.dphub.sandai.net/*
 *pubstat.sandai.net/*
 analytics-union.sandai.net/*
-logic.cpm.cm.sandai.net/*
 gvod.union.sandai.net/*
 click.cm.sandai.net/*
 un.so.gougou.com/*
@@ -1502,7 +1494,6 @@ news.sina.com.cn/pfpnews/js/libweb.js
 a*.itc.cn/pv/js/pvclick.*
 xls.go.sohu.com/*
 his.tv.sohu.com/his/ping.do?*
-count.vrs.sohu.com/*.xml
 *.hd.sohu.com.cn/*.gif?*
 images.sohu.com/ytv/*
 220.181.61.231/get.gif?*
@@ -1570,7 +1561,7 @@ v.163.com/special/*/gg*.xml
 analytics.163.com/*
 swf.ws.126.net/*.flv
 images.163.com/*
-g.163.com/*
+g.163.com/*&affiliate=*
 pro.163.com/*
 img*.126.net/channel*/*.html
 popme.163.com*
@@ -1597,7 +1588,6 @@ stat*.tudou.com/*
 erreport.tudou.com/*
 */tui/*js*
 *.tudou.com/service/outside.php
-stat.tudou.com/play.srv*
 *.p2v.tudou.com*
 adcontorl.tudou.com/*
 js.tudouui.com/bin/tmp/*
@@ -1770,7 +1760,6 @@ notice.ppstream.com/M2006110043/*.swf
 www.danlan.org/KFC/*.gif
 iafp.pptv.com/*
 player.pplive.cn/*/*ive*lugin.swf*
-ik.synacast.com/*
 *.synacast.com/*
 *pp2.pptv.com/*
 union.dangdang.com/*
@@ -1778,8 +1767,6 @@ a.dangdang.com/*
 img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 download.cncmax.js.cn/images/temp/down-banner*.jpg
 news.newhua.com/newhuagg/news_*
-www.onlinedown.net/newhuagg/js_*
-www.newhua.com/newhuagg/js_*
 www.onlinedown.net/newhuagg/js_*
 www.newhua.com/newhuagg/js_*
 count.newhua.com/*
@@ -1889,7 +1876,6 @@ www.bj100.com/zhuanti/video/*
 *.xmnn.cn/images/*
 news.xmnn.cn/xwgg/nydb/*
 js.fengwu.net/baidu/*
-static.acs86.com/*
 log*.ku6.com/*
 www.ku6.com/c*/*/s*/index.shtml
 *.stat.ku6.com/*.xml
@@ -1931,7 +1917,6 @@ www.hszw.com/inc/*
 *.99manga.com/haodm/dmjsc/*.js
 *.laishu.com/lsgg/*
 *.laishuwu.com/files/friend/*
-js.laishu.com/lsgg/*
 www.ocucn.com/images/*.gif
 alibuybuy-wordpress.stor.sinaapp.com/*
 a.ikafan.com/2/b.js*
@@ -1971,6 +1956,7 @@ www.9ifly.cn/source/plugin/dabandeng/dabandeng-gbk.html
 *.fzdm.com/ggup/*
 *.ifeng.com/ssi-incs/*.html
 *.ifeng.com/*/ssi-incs/*.html
+y1.ifengimg.com/**/rdn_*.js*
 *.ifengimg.com/ifeng/sources/*
 *.ifeng.com/statics/comment_baidu.html
 y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
@@ -1979,6 +1965,7 @@ y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 bc.ifeng.com/*
 *.ifengimg.com/tres/recommend/*
 *.ifengimg.com/mappa/*
+games.ifeng.com/webgame/*
 */ifengRotatorAd.js
 img.ifeng.com/tres/recommended/*
 img.ifeng.com/tres/recommend/*
@@ -1997,4 +1984,17 @@ www.57dj.com/js/bd.shtml?id=*
 mat.zdface.com/Controls/ChannelHot/ChannelHotTypeID*ClassID*.aspx
 pic.duowan.com/news/*/*/*.jpg
 *duowan.com/public/s/market_count.js
+*duowan.com/s/i/notice.js
+web.duowan.com/public/*
+pic1.duowan.com/webgame/*
+www.duowan.com/*/notice.js
+market.duowan.com/*
+*.duowan.com/duowan.js
+www.gg1z.com/pic/b.jpg
+practivate.adobe.com/*
+activate.wip3.adobe.com/*
+ereg.adobe.com/*
+activate.adobe.com/*
+www.dnjsb.com/tu/*
+www.webjx.com/zanzhushang/*
 

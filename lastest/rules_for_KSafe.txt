@@ -874,6 +874,7 @@
 5,4,*.565882.com/*
 5,4,*.91sanguo.cn*
 5,4,*.6dad.com/*
+5,4,cpm.feike5.com/*
 5,4,idigger.allyes.com/*
 5,4,smcommon.allyes.com/*
 5,4,smarttrade.allyes.com/*
@@ -926,6 +927,7 @@
 5,4,c*.keytui.com/*
 5,4,*.insenz.com/*
 5,4,*.arpg2.com/*
+5,4,*.tenoad.com/show/*
 5,4,*.gs307.com/*
 5,4,*.400or800.com/*
 5,4,*.itsun.com/*
@@ -1757,6 +1759,7 @@
 5,4,www.PPStream.com/news/*
 5,4,notice.ppstream.com/M2006110043/*.swf
 5,4,*.pps.tv/cprtp/*
+5,4,a.freewebhostingarea.com/*
 5,4,www.danlan.org/KFC/*.gif
 5,4,iafp.pptv.com/*
 5,4,player.pplive.cn/*/*ive*lugin.swf*
@@ -1857,6 +1860,7 @@
 5,4,img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 5,4,*normteam.com/usepic/*
 5,4,www.asp300.com/*adjs/*
+5,4,*.kenwen.com/scripts/ctc.js
 5,4,ads.skykiwi.com/*
 5,4,www.gcemedia.co.nz/www/images/*.swf
 5,4,bbs.xmfish.com/images/atm/*
@@ -2313,6 +2317,7 @@
 5,4,bf.bet007.com/top.js
 5,4,img2.bet007.com/image/*.gif
 5,4,att.3dmgame.com/att/forum/201207/20/2357438m3eem8mebm888bm.jpg
+5,4,bbs.3dmgame.com/static/image/common/top_*_ad.gif
 5,4,*.3dmgame.com/games/UploadFiles/*/*.gif
 5,4,80.qukanshu.com/*
 5,4,*.youxiaxiazai.com/db_top/index_top.htm
@@ -2859,6 +2864,7 @@
 5,4,*myfrfr.com/images/logo/fayuwang.jpg
 5,4,*myfrfr.com/images/bienvenue/top*01.gif
 5,4,*kkkmh.com/iframe/*
+5,4,*.05sun.com/*.js*
 5,4,*qqread.com/swf/*
 5,4,www.ozchinese.com/img/*.gif
 5,4,www.ozchinese.com/img/*.jpg
@@ -3056,6 +3062,7 @@
 5,4,u.qjwm.com/*
 5,4,bbs.t56.net/ad*/*
 5,4,*so100.cn/images/a*.js
+5,4,www.bxwx.org/js/downad*.html
 5,4,*sccnn.com/zz/*
 5,4,*qvodhd.com/template/kankan_2/qq/72q.js
 5,4,*qqjia.com/images/ad*

@@ -1,3 +1,7 @@
+activate.adobe.com/*
+www.dnjsb.com/tu/*
+www.webjx.com/zanzhushang/*
+www.webjx.com/upfiles/*-*.gif
 www.33lc.com/js/banner-*.js
 www.33lc.com/soft/UploadPic/*-*/dnxx_*
 www.33lc.com/js/*_*.js
@@ -313,6 +317,7 @@ pmm.people.com.cn/main/s?*
 bf.bet007.com/top.js
 img2.bet007.com/image/*.gif
 att.3dmgame.com/att/forum/201207/20/2357438m3eem8mebm888bm.jpg
+bbs.3dmgame.com/static/image/common/top_*_ad.gif
 *.3dmgame.com/games/UploadFiles/*/*.gif
 80.qukanshu.com/*
 *.youxiaxiazai.com/db_top/index_top.htm
@@ -859,6 +864,7 @@ a.shm.com.cn/up/loc/*
 *myfrfr.com/images/logo/fayuwang.jpg
 *myfrfr.com/images/bienvenue/top*01.gif
 *kkkmh.com/iframe/*
+*.05sun.com/*.js*
 *qqread.com/swf/*
 www.ozchinese.com/img/*.gif
 www.ozchinese.com/img/*.jpg
@@ -1056,6 +1062,7 @@ www.qjwm.com/images/qjwm.gif
 u.qjwm.com/*
 bbs.t56.net/ad*/*
 *so100.cn/images/a*.js
+www.bxwx.org/js/downad*.html
 *sccnn.com/zz/*
 *qvodhd.com/template/kankan_2/qq/72q.js
 *qqjia.com/images/ad*

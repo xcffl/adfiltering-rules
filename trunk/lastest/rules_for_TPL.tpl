@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-10-05 22:33:52
+#Updated:2012-10-10 21:46:52
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -894,6 +894,7 @@ msFilterList
 - *.565882.com/
 - *.91sanguo.cn
 - *.6dad.com/
+-d cpm.feike5.com
 -d idigger.allyes.com
 -d smcommon.allyes.com
 -d smarttrade.allyes.com
@@ -946,6 +947,7 @@ msFilterList
 - http://c*.keytui.com/
 - *.insenz.com/
 - *.arpg2.com/
+- *.tenoad.com/show/
 - *.gs307.com/
 - *.400or800.com/
 - *.itsun.com/
@@ -1662,6 +1664,7 @@ msFilterList
 -d static.atm.youku.com taobao
 -d static.atm.youku.com -*.swf?js*tart=
 #||valf.atm.youku.com/crossdomain.xml
++d valf.atm.youku.com /valf?
 -d valf.atm.youku.com /valf?
 -d valf.atm.youku.com /show?
 -d fvid.atm.youku.com
@@ -1735,6 +1738,7 @@ msFilterList
 -d u.115.com /static/tjj/delivery/*.html
 -d tool.115.com /static/mm/
 -d u.115.com /static/modules/
+#----耽美中文网----
 #----纤手美发网----
 +d i.qianshou.com /adsJs/logobanner.js
 +d i.qianshou.com /adsJs/footer.js
@@ -1846,6 +1850,8 @@ msFilterList
 -d www.PPStream.com /news/
 -d notice.ppstream.com /M2006110043/*.swf
 - *.pps.tv/cprtp/
+#----Free Web Hosting Area.com----
+-d a.freewebhostingarea.com
 #----淡蓝博客----
 -d www.danlan.org /KFC/*.gif
 #----PPTV网络电视----
@@ -1979,6 +1985,8 @@ msFilterList
 - *normteam.com/usepic/
 #----ASP300源码下载----
 -d www.asp300.com adjs/
+#----啃文书库----
+- *.kenwen.com/scripts/ctc.js
 #----天维网----
 -d ads.skykiwi.com
 -d www.gcemedia.co.nz /www/images/*.swf
@@ -2624,6 +2632,7 @@ msFilterList
 -d img2.bet007.com /image/*.gif
 #----3DMGAME----
 -d att.3dmgame.com /att/forum/201207/20/2357438m3eem8mebm888bm.jpg
+-d bbs.3dmgame.com /static/image/common/top_*_ad.gif
 - *.3dmgame.com/games/UploadFiles/*/*.gif
 #----看书网----
 -d 80.qukanshu.com
@@ -3442,6 +3451,8 @@ msFilterList
 - *myfrfr.com/images/bienvenue/top*01.gif
 #----看漫画----
 - *kkkmh.com/iframe/
+#----零度软件园----
+- *.05sun.com/*.js
 #----巧巧读书----
 - *qqread.com/swf/
 #----澳洲中文网----
@@ -3764,6 +3775,8 @@ msFilterList
 #----泰无聊----
 -d bbs.t56.net /ad*/
 - *so100.cn/images/a*.js
+#----笔下文学----
+-d www.bxwx.org /js/downad*.html
 #----素材中国----
 - *sccnn.com/zz/
 #----快播盒----

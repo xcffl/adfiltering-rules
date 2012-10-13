@@ -814,7 +814,7 @@
 5,4,*.ooaaoo.com/*
 5,4,*.1133.cc/*
 5,4,*irs01.net/*
-5,4,*irs01.com/*
+5,4,*irs01.com/irt?*
 5,4,pub.htwisdom.com/*
 5,4,union.zhubajie.com/*
 5,4,*.jugao.com/*
@@ -1604,6 +1604,7 @@
 5,4,v2.tudou.com/td*/*
 5,4,*.tudou.com/framepage/*
 5,4,f.youku.com/player/get*/fileid/*&yad=1*
+5,4,*lstat.youku.com/crossdomain.xml
 5,4,t.stat.youku.com/*
 5,4,static.atm.youku.com/*/allyes.html
 5,4,t.lstat.youku.com/*

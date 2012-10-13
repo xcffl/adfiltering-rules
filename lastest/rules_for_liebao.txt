@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-10-13 16:09:42
+!Updated:2012-10-13 17:35:50
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -923,7 +923,7 @@ bannerad
 /\.ooaaoo\.com\//
 /\.1133\.cc\//
 /irs01\.net\//
-/irs01\.com\//
+/irs01\.com\/irt\?/
 /:\/\/([^\/]+\.)?pub\.htwisdom\.com\//
 /:\/\/([^\/]+\.)?union\.zhubajie\.com\//
 /\.jugao\.com\//
@@ -1784,6 +1784,7 @@ bannerad
 ##.AB240	$d=youku.com
 ##.sideCol > div[class^="AB"]
 /:\/\/([^\/]+\.)?f\.youku\.com\/player\/get.*\/fileid\/.*&yad=1/
+/lstat\.youku\.com\/crossdomain\.xml/
 /:\/\/([^\/]+\.)?t\.stat\.youku\.com\//
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/allyes\.html/
 /:\/\/([^\/]+\.)?t\.lstat\.youku\.com\//
@@ -3732,6 +3733,7 @@ bannerad
 !----免费网络----
 /freewl\.com\/js\//
 !----煎蛋网----
+##.xy	$d=jandan.net
 /:\/\/([^\/]+\.)?jdstatic\.tankr\.net\/s\//
 /:\/\/([^\/]+\.)?jdstatic\.tankr\.net\/side\//
 /\/jandan\.jpg/
@@ -4599,3 +4601,5 @@ bannerad
 /:\/\/([^\/]+\.)?cpro.baidu.com\/extra\/text_flash\/AC_RunActiveContent.js/	$w
 /:\/\/([^\/]+\.)?cpro.baidu.com\/cpro\/ui\/y.js/	$w
 !-------------待分类-------------
+/:\/\/([^\/]+\.)?h.irs01.com\/crossdomain.xml/	$w
+/:\/\/([^\/]+\.)?h.irs01.com\//	$w

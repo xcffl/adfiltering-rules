@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-10-13 16:09:42
+#Updated:2012-10-13 17:35:50
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -832,7 +832,7 @@ msFilterList
 - *.ooaaoo.com/
 - *.1133.cc/
 - *irs01.net/
-- *irs01.com/
+- *irs01.com/irt?
 -d pub.htwisdom.com
 -d union.zhubajie.com
 - *.jugao.com/
@@ -1649,6 +1649,7 @@ msFilterList
 - *.tudou.com/framepage/
 #----优酷网----
 -d f.youku.com /player/get*/fileid/*&yad=1
+- *lstat.youku.com/crossdomain.xml
 -d t.stat.youku.com
 -d static.atm.youku.com /allyes.html
 -d t.lstat.youku.com
@@ -4242,3 +4243,5 @@ msFilterList
 +d cpro.baidu.com /extra/text_flash/AC_RunActiveContent.js
 +d cpro.baidu.com /cpro/ui/y.js
 #-------------待分类-------------
++d h.irs01.com /crossdomain.xml
++d h.irs01.com

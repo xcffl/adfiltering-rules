@@ -1827,6 +1827,7 @@
 5,4,*.gfan.com/press/*
 5,4,*.flvcd.com/image/partner/*
 5,4,img.cnbeta.com/*300.gif
+5,4,img.cnbeta.com/wy.gif
 5,4,img.cnbeta.com/*336.jpg
 5,4,*cnbeta.com/images/tw*.jpg
 5,4,img.cnbeta.com/*576.*
@@ -1855,6 +1856,7 @@
 5,4,www.dnsgua.com/image/namecheap.png
 5,4,www.dnsgua.com/image/dnspod.png
 5,4,www.rin9.com/js/t1.js?*
+5,4,*.hupu.com/d/file/*.swf
 5,4,*.narutom.com/js/jsg2.js
 5,4,*.narutom.com/js/comicjs.js
 5,4,*.narutom.com/js/myl.js

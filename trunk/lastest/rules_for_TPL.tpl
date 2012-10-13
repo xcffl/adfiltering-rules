@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-10-13 13:22:25
+#Updated:2012-10-13 16:09:42
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1940,6 +1940,7 @@ msFilterList
 - *.flvcd.com/image/partner/
 #----cnBeta----
 -d img.cnbeta.com 300.gif
+-d img.cnbeta.com /wy.gif
 -d img.cnbeta.com 336.jpg
 - *cnbeta.com/images/tw*.jpg
 -d img.cnbeta.com 576.
@@ -1972,6 +1973,8 @@ msFilterList
 -d www.dnsgua.com /image/dnspod.png
 #----999宝藏网----
 -d www.rin9.com /js/t1.js?
+#----虎扑----
+- *.hupu.com/d/file/*.swf
 #----火影忍者中文网----
 # @@|*.zerodm.cn/js/ads/zxdmxz.js
 +d www.narutom.com /d/js/acmsd/

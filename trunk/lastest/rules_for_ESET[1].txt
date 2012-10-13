@@ -1827,6 +1827,7 @@ www.3chu.com/salegm/files/images/*/*/*-*-*-*.jpg
 *.gfan.com/press/*
 *.flvcd.com/image/partner/*
 img.cnbeta.com/*300.gif
+img.cnbeta.com/wy.gif
 img.cnbeta.com/*336.jpg
 *cnbeta.com/images/tw*.jpg
 img.cnbeta.com/*576.*
@@ -1855,6 +1856,7 @@ tracking.hostgator.com/img/Penny_Discounts/*-banners-*x*.gif
 www.dnsgua.com/image/namecheap.png
 www.dnsgua.com/image/dnspod.png
 www.rin9.com/js/t1.js?*
+*.hupu.com/d/file/*.swf
 *.narutom.com/js/jsg2.js
 *.narutom.com/js/comicjs.js
 *.narutom.com/js/myl.js
@@ -1995,6 +1997,4 @@ img01.5173cdn.com/fed/build/1.00/js/fed-min.js?*
 www.57dj.com/js/bd.shtml?id=*
 mat.zdface.com/Controls/ChannelHot/ChannelHotTypeID*ClassID*.aspx
 pic.duowan.com/news/*/*/*.jpg
-*duowan.com/public/s/market_count.js
-*duowan.com/s/i/notice.js
 

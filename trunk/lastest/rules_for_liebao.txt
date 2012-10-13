@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-10-13 13:22:25
+!Updated:2012-10-13 16:09:42
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -11,6 +11,8 @@
 !------元素隐藏规则------
 ##.sponsor_links
 ###ads_c_tpc
+###ad01
+###ad02
 ##.ad_side
 ##.sidebarad
 ##.adlink
@@ -2104,6 +2106,7 @@ bannerad
 ##fm_r	$d=cnbeta.com
 ##votes	$d=cnbeta.com
 /:\/\/([^\/]+\.)?img\.cnbeta\.com\/.*300\.gif/
+/:\/\/([^\/]+\.)?img\.cnbeta\.com\/wy\.gif/
 /:\/\/([^\/]+\.)?img\.cnbeta\.com\/.*336\.jpg/
 /cnbeta\.com\/images\/tw.*\.jpg/
 /:\/\/([^\/]+\.)?img\.cnbeta\.com\/.*576\./
@@ -2136,6 +2139,10 @@ bannerad
 /:\/\/([^\/]+\.)?www\.dnsgua\.com\/image\/dnspod\.png/
 !----999宝藏网----
 /:\/\/([^\/]+\.)?www\.rin9\.com\/js\/t1\.js\?/
+!----虎扑----
+##HCFull	$d=hupu.com
+##[id^="ad"][class^="ad"]	$d=hupu.com
+/\.hupu\.com\/d\/file\/.*\.swf/
 !----火影忍者中文网----
 ##itaTop2	$d=narutom.com
 ##itaTop	$d=narutom.com
@@ -3343,6 +3350,7 @@ bannerad
 !----好听音乐网----
 /:\/\/([^\/]+\.)?www\.haoting\.com\/adad\//
 !----爱漫画----
+##[id^="imh-"][class^="imh-"]	$d=imanhua.com
 ##topmon	$d=imanhua.com
 /\.imanhua\.com\/.*\/nmoneys\//
 /\.imanhua\.com\/.*\/money\//

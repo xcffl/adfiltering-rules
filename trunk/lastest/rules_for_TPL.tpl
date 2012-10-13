@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-10-10 21:46:52
+#Updated:2012-10-13 13:22:25
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -320,6 +320,7 @@ msFilterList
 - */aspnet_client/
 - http://*/dd/*.exe
 - http://*/aa/*.exe
+- */300-250.
 - *client-get-data
 - http://*sex8.exe
 - http://*newads
@@ -616,6 +617,7 @@ msFilterList
 - */pageMediaControl_
 - */adtest/
 - */PauseAd.xml
+- */300-250-
 - */AdLinkList.php
 - */adlogo/
 - */ad_tab.js
@@ -829,8 +831,8 @@ msFilterList
 -d js.3975.com
 - *.ooaaoo.com/
 - *.1133.cc/
-#|*irs01.net/*
-#|*irs01.com/*
+- *irs01.net/
+- *irs01.com/
 -d pub.htwisdom.com
 -d union.zhubajie.com
 - *.jugao.com/
@@ -2147,6 +2149,11 @@ msFilterList
 -d sta.ifeng.com
 -d sc.ifeng.com
 -d survey.news.ifeng.com /resultjson.php?
+#----263汽车----
+-d www.263car.net /top.html
+-d www.263car.net /950-90.js
+-d www.263car.net /top.js
+-d www.263car.net /ad.
 #----5173.com----
 -d img01.5173cdn.com /fed/build/1.00/js/fed-min.js?
 #----57DJ----
@@ -3384,6 +3391,7 @@ msFilterList
 - *facebook.com/extern/login_status.php?
 - *facebook.com/plugins/like.php?
 - *facebook.com/widgets/
+#----红黑联盟----
 #----Taorar----
 - *88591.com/hy/
 #----REF.SO&他找----

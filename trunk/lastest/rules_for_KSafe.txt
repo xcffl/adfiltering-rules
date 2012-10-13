@@ -308,6 +308,7 @@
 5,4,*/aspnet_client/*
 5,4,*/dd/*.exe
 5,4,*/aa/*.exe
+5,4,*/300-250.*
 5,4,*client-get-data*
 5,4,*sex8.exe*
 5,4,*newads*
@@ -604,6 +605,7 @@
 5,4,*/pageMediaControl_*
 5,4,*/adtest/*
 5,4,*/PauseAd.xml
+5,4,*/300-250-*
 5,4,*/AdLinkList.php
 5,4,*/adlogo/
 5,4,*/ad_tab.js
@@ -811,6 +813,8 @@
 5,4,js.3975.com/*
 5,4,*.ooaaoo.com/*
 5,4,*.1133.cc/*
+5,4,*irs01.net/*
+5,4,*irs01.com/*
 5,4,pub.htwisdom.com/*
 5,4,union.zhubajie.com/*
 5,4,*.jugao.com/*
@@ -1983,6 +1987,10 @@
 5,4,sta.ifeng.com/*
 5,4,sc.ifeng.com/*
 5,4,survey.news.ifeng.com/resultjson.php?*
+5,4,www.263car.net/top.html
+5,4,www.263car.net/950-90.js
+5,4,www.263car.net/top.js
+5,4,www.263car.net/ad.*
 5,4,img01.5173cdn.com/fed/build/1.00/js/fed-min.js?*
 5,4,www.57dj.com/js/bd.shtml?id=*
 5,4,mat.zdface.com/Controls/ChannelHot/ChannelHotTypeID*ClassID*.aspx

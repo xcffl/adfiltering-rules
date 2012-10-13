@@ -1,3 +1,5 @@
+*duowan.com/s/i/notice.js
+web.duowan.com/public/*
 pic1.duowan.com/webgame/*
 www.duowan.com/*/notice.js
 market.duowan.com/*

@@ -1,3 +1,4 @@
+*duowan.com/public/s/market_count.js
 *duowan.com/s/i/notice.js
 web.duowan.com/public/*
 pic1.duowan.com/webgame/*

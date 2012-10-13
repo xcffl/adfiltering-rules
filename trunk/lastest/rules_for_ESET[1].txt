@@ -814,7 +814,7 @@ js.3975.com/*
 *.ooaaoo.com/*
 *.1133.cc/*
 *irs01.net/*
-*irs01.com/*
+*irs01.com/irt?*
 pub.htwisdom.com/*
 union.zhubajie.com/*
 *.jugao.com/*
@@ -1604,6 +1604,7 @@ js.tudouui.com/bin/tudoumini/tudoumini_*.swf
 v2.tudou.com/td*/*
 *.tudou.com/framepage/*
 f.youku.com/player/get*/fileid/*&yad=1*
+*lstat.youku.com/crossdomain.xml
 t.stat.youku.com/*
 static.atm.youku.com/*/allyes.html
 t.lstat.youku.com/*
@@ -1996,5 +1997,4 @@ www.263car.net/ad.*
 img01.5173cdn.com/fed/build/1.00/js/fed-min.js?*
 www.57dj.com/js/bd.shtml?id=*
 mat.zdface.com/Controls/ChannelHot/ChannelHotTypeID*ClassID*.aspx
-pic.duowan.com/news/*/*/*.jpg
 

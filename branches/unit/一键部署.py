@@ -209,7 +209,7 @@ def writeRule(filePath, lines):
       line = re.sub('^\s*!.*?\bExpires\s*(?::|after)\s*(\d+)\s*(h)?', '', line)
       line = re.sub('^! Redirect:.*$','', line)
       line = re.sub(r'(.*?)\expires(.*)', '', line)
-      line = re.sub('!Title:.*$', '!Title:广告强效过滤规则', line)
+      line = re.sub('!Title:.*$', '!Title:adfiltering-rules', line)
       #由于猎豹有些问题，暂时使用短名称
       #line = re.sub('for ABP', 'for liebao', line)
       line = re.sub(r'--!$', '--!', line)
@@ -3126,7 +3126,7 @@ tempfile ='rules_for_360.txt'
 os.remove(tempfile)
 #打开360更新网站
 import os
-os.startfile('http://rules.wd.360.cn/upload_rule_11.html?id=60546')
+os.startfile('firefox.exe http://rules.wd.360.cn/upload_rule_11.html?id=60546')
 
 '''#===把加入校验的ABP版移回根目录===
 import shutil

@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-10-16 21:41:19
+#Updated:2012-10-16 22:18:55
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -2325,6 +2325,13 @@ msFilterList
 - *5ccc.net/scripts/
 #----itBulo.com----
 -d img.itbulo.com /js/pic/a*-*.gif
+#----飘花资源网----
+- *.piaohua.com/pic/*banner.
+- http://img.piaohua.com*/*banner.
+- *.piaohua.com/js/yzad/
+- *.piaohua.com/js/yzz/39040.js
+- *.piaohua.com/js/yzz/index.js
+- *.piaohua.com/js/yzz/piaohu*.js
 #----IT世界网----
 - http://bjdcdv.it.com.cn
 #----互动百科----

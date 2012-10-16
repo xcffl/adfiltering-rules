@@ -843,6 +843,7 @@
 5,4,*.369456.com/*
 5,4,serve.popads.net/*
 5,4,*popadscdn.net/*
+5,4,adcpm.234y.com/*
 5,4,api.yucmedia.com/script/script.js?*
 5,4,mcc.chinauma.net/*
 5,4,*.tuite8.com/*
@@ -872,6 +873,7 @@
 5,4,*.779.net*
 5,4,*.1717388.com/*
 5,4,*.7iam.com/*
+5,4,ad*.ctrmi.com/*
 5,4,*.7pk.com/*
 5,4,*.8le8le.com/*
 5,4,*.91ivr.com/*
@@ -1604,7 +1606,6 @@
 5,4,v2.tudou.com/td*/*
 5,4,*.tudou.com/framepage/*
 5,4,f.youku.com/player/get*/fileid/*&yad=1*
-5,4,*lstat.youku.com/crossdomain.xml
 5,4,t.stat.youku.com/*
 5,4,static.atm.youku.com/*/allyes.html
 5,4,t.lstat.youku.com/*
@@ -2072,6 +2073,7 @@
 5,4,i.firefoxchina.cn/images/upload/*_*.gif
 5,4,www.firefoxchina.cn/cooperation/header_image_huanqiu.html
 5,4,i.firefoxchina.cn/iframes/*
+5,4,*/img_v1/utf8_global_v*.js
 5,4,*.coolnovo.com/temp/images/elong.jpg
 5,4,coolnovo.com/temp/images/elong.jpg
 5,4,*.coolnovo.com/temp/images/*_*x*.*
@@ -2361,6 +2363,8 @@
 5,4,gg.zzit.com.cn/js/*.js
 5,4,home.soufun.com/html/*
 5,4,photo.erji.com/*
+5,4,img.17k.com/channel/qita/*
+5,4,stat.17k.com/*
 5,4,img.17k.com/channel/flash/*.swf
 5,4,log.17k.com/*
 5,4,img.17k.com/js/jquery*.js

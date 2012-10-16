@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-10-13 17:35:50
+!Updated:2012-10-16 21:41:19
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -950,6 +950,7 @@
 |*.369456.com/*
 ||serve.popads.net/*
 |*popadscdn.net/*
+||adcpm.234y.com/*
 ||api.yucmedia.com/script/script.js?*
 ||mcc.chinauma.net/*
 |*.tuite8.com/*
@@ -979,6 +980,7 @@
 |*.779.net*
 |*.1717388.com/*
 |*.7iam.com/*
+||ad*.ctrmi.com/*
 |*.7pk.com/*
 |*.8le8le.com/*
 |*.91ivr.com/*
@@ -1780,7 +1782,6 @@ youku.com###ab_26
 youku.com##.AB240
 ##.sideCol > div[class^="AB"]
 ||f.youku.com/player/get*/fileid/*&yad=1*
-|*lstat.youku.com/crossdomain.xml
 ||t.stat.youku.com/*
 ||static.atm.youku.com/*/allyes.html
 ||t.lstat.youku.com/*
@@ -2475,6 +2476,8 @@ i.firefoxchina.cn###banner_show1
 ||i.firefoxchina.cn/images/upload/*_*.gif
 ||www.firefoxchina.cn/cooperation/header_image_huanqiu.html
 ||i.firefoxchina.cn/iframes/*
+!----新新漫画----
+|*/img_v1/utf8_global_v*.js
 !----枫树浏览器----
 |*.coolnovo.com/temp/images/elong.jpg
 ||coolnovo.com/temp/images/elong.jpg
@@ -2954,6 +2957,10 @@ soufun.com##.adtextlink
 !----耳机网----
 ||photo.erji.com/*
 !----17K（一起看）小说网&四月天言情小说网----
+17k.com##[id^="ad"].c6[style="text-align:center; width:200px; height:200px"]
+17k.com##.b950
+||img.17k.com/channel/qita/*
+||stat.17k.com/*
 ||img.17k.com/channel/flash/*.swf
 ||log.17k.com/*
 ||img.17k.com/js/jquery*.js
@@ -3150,6 +3157,7 @@ developer.51cto.com###list4
 |*onlylady.com/kds/thread.html
 ||btn.onlylady.com/*.swf
 !----河源下载站----
+cngr.cn###topadbox
 ||www.cngr.cn/youxi/UploadPic/*-*/*.jpg
 ||www.cngr.cn/youxi/UploadPic/*-*/*.gif
 !----昨日小筑----
@@ -4579,5 +4587,3 @@ www.qidian.com##.DH17
 @@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
 @@||cpro.baidu.com/cpro/ui/y.js
 !-------------待分类-------------
-@@||h.irs01.com/crossdomain.xml
-@@||h.irs01.com^

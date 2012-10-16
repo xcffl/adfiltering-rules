@@ -1,3 +1,4 @@
+pic.duowan.com/news/*/*/*.jpg
 *duowan.com/public/s/market_count.js
 *duowan.com/s/i/notice.js
 web.duowan.com/public/*
@@ -72,6 +73,7 @@ i.firefoxchina.cn/alimama_banner_f.html*
 i.firefoxchina.cn/images/upload/*_*.gif
 www.firefoxchina.cn/cooperation/header_image_huanqiu.html
 i.firefoxchina.cn/iframes/*
+*/img_v1/utf8_global_v*.js
 *.coolnovo.com/temp/images/elong.jpg
 coolnovo.com/temp/images/elong.jpg
 *.coolnovo.com/temp/images/*_*x*.*
@@ -361,6 +363,8 @@ www.hackp.com/images/*
 gg.zzit.com.cn/js/*.js
 home.soufun.com/html/*
 photo.erji.com/*
+img.17k.com/channel/qita/*
+stat.17k.com/*
 img.17k.com/channel/flash/*.swf
 log.17k.com/*
 img.17k.com/js/jquery*.js

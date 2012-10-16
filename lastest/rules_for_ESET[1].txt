@@ -843,6 +843,7 @@ c.xsu.cc/*
 *.369456.com/*
 serve.popads.net/*
 *popadscdn.net/*
+adcpm.234y.com/*
 api.yucmedia.com/script/script.js?*
 mcc.chinauma.net/*
 *.tuite8.com/*
@@ -872,6 +873,7 @@ d1.yghua.com/code/*
 *.779.net*
 *.1717388.com/*
 *.7iam.com/*
+ad*.ctrmi.com/*
 *.7pk.com/*
 *.8le8le.com/*
 *.91ivr.com/*
@@ -1604,7 +1606,6 @@ js.tudouui.com/bin/tudoumini/tudoumini_*.swf
 v2.tudou.com/td*/*
 *.tudou.com/framepage/*
 f.youku.com/player/get*/fileid/*&yad=1*
-*lstat.youku.com/crossdomain.xml
 t.stat.youku.com/*
 static.atm.youku.com/*/allyes.html
 t.lstat.youku.com/*
@@ -1996,5 +1997,4 @@ www.263car.net/top.js
 www.263car.net/ad.*
 img01.5173cdn.com/fed/build/1.00/js/fed-min.js?*
 www.57dj.com/js/bd.shtml?id=*
-mat.zdface.com/Controls/ChannelHot/ChannelHotTypeID*ClassID*.aspx
 

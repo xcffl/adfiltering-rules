@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-10-13 17:35:50
+#Updated:2012-10-16 21:41:19
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -861,6 +861,7 @@ msFilterList
 - *.369456.com/
 -d serve.popads.net
 - *popadscdn.net/
+-d adcpm.234y.com
 -d api.yucmedia.com /script/script.js?
 -d mcc.chinauma.net
 - *.tuite8.com/
@@ -890,6 +891,7 @@ msFilterList
 - *.779.net
 - *.1717388.com/
 - *.7iam.com/
+- http://ad*.ctrmi.com/
 - *.7pk.com/
 - *.8le8le.com/
 - *.91ivr.com/
@@ -1649,7 +1651,6 @@ msFilterList
 - *.tudou.com/framepage/
 #----优酷网----
 -d f.youku.com /player/get*/fileid/*&yad=1
-- *lstat.youku.com/crossdomain.xml
 -d t.stat.youku.com
 -d static.atm.youku.com /allyes.html
 -d t.lstat.youku.com
@@ -2267,6 +2268,8 @@ msFilterList
 -d i.firefoxchina.cn /images/upload/*_*.gif
 -d www.firefoxchina.cn /cooperation/header_image_huanqiu.html
 -d i.firefoxchina.cn /iframes/
+#----新新漫画----
+- */img_v1/utf8_global_v*.js
 #----枫树浏览器----
 - *.coolnovo.com/temp/images/elong.jpg
 -d coolnovo.com /temp/images/elong.jpg
@@ -2697,6 +2700,8 @@ msFilterList
 #----耳机网----
 -d photo.erji.com
 #----17K（一起看）小说网&四月天言情小说网----
+-d img.17k.com /channel/qita/
+-d stat.17k.com
 -d img.17k.com /channel/flash/*.swf
 -d log.17k.com
 -d img.17k.com /js/jquery*.js
@@ -4243,5 +4248,3 @@ msFilterList
 +d cpro.baidu.com /extra/text_flash/AC_RunActiveContent.js
 +d cpro.baidu.com /cpro/ui/y.js
 #-------------待分类-------------
-+d h.irs01.com /crossdomain.xml
-+d h.irs01.com

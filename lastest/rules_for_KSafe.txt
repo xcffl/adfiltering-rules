@@ -2111,6 +2111,12 @@
 5,4,*price.cheshi.com.cn*
 5,4,*5ccc.net/scripts/*
 5,4,img.itbulo.com/js/pic/a*-*.gif
+5,4,*.piaohua.com/pic/*banner.*
+5,4,img.piaohua.com*/*banner.*
+5,4,*.piaohua.com/js/yzad/*
+5,4,*.piaohua.com/js/yzz/39040.js
+5,4,*.piaohua.com/js/yzz/index.js
+5,4,*.piaohua.com/js/yzz/piaohu*.js
 5,4,bjdcdv.it.com.cn*
 5,4,dict.hudong.com/xml/*.html
 5,4,hdad.hudong.com/*

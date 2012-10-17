@@ -1595,7 +1595,7 @@
 5,4,stat*.tudou.com/*
 5,4,erreport.tudou.com/*
 5,4,*/tui/*js*
-5,4,*.tudou.com/service/outside.php
+5,4,*.tudou.com/service/outside.php*
 5,4,*.p2v.tudou.com*
 5,4,adcontorl.tudou.com/*
 5,4,js.tudouui.com/bin/tmp/*

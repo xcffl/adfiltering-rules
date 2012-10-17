@@ -2344,6 +2344,7 @@
 5,4,*duotegame.com/img/*.gif
 5,4,*duotegame.com/images/*5c*.gif
 5,4,ad*.6to23.com/*
+5,4,m.weather.com.cn/a1.js
 5,4,poster.weather.com.cn/*
 5,4,gimg.bitauto.com/ResourceFiles/city/*
 5,4,g.bitauto.com/*.ashx?*
@@ -2812,6 +2813,8 @@
 5,4,news.chinatimes.com/2009Cti/*Ads-Right*.shtml
 5,4,*chinatimes.com/2007Cti/*
 5,4,fsdfeer.any2000.com/f/s/fsdfeer/fh/*.swf
+5,4,pics.wanlibo.com/js/pagemodulestat.js*
+5,4,*.docin.com/app/playerLoadLog/*
 5,4,www.docin.net/js/adwz*.js
 5,4,*dayoo.com/sta/da.js*
 5,4,images.dayoo.com/dywimg/*

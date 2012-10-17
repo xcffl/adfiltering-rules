@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-10-17 21:24:36
+#Updated:2012-10-17 22:04:02
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -2670,6 +2670,7 @@ msFilterList
 #----中国学生网----
 - http://ad*.6to23.com/
 #----中国天气----
+-d m.weather.com.cn /a1.js
 -d poster.weather.com.cn
 #----易车网----
 -d gimg.bitauto.com /ResourceFiles/city/
@@ -3361,7 +3362,10 @@ msFilterList
 - *chinatimes.com/2007Cti/
 #----无忧·自助建站----
 -d fsdfeer.any2000.com /f/s/fsdfeer/fh/*.swf
+#----理想论坛----
 #----豆丁中文网----
+-d pics.wanlibo.com /js/pagemodulestat.js
+- *.docin.com/app/playerLoadLog/
 -d www.docin.net /js/adwz*.js
 #----大洋网----
 - *dayoo.com/sta/da.js

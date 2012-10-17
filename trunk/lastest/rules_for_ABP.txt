@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-10-17 21:24:36
+!Updated:2012-10-17 22:04:02
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -9,9 +9,11 @@
 !-------------通用规则-------------
 !------元素隐藏规则------
 ##.sponsor_links
+##.ad-column
 ~xdjz.net###ads_c_tpc
 ###ad01
 ###ad02
+##.content_ad
 ##.ad_side
 ##.sidebarad
 ~superbikeplanet.com##.adlink
@@ -2921,6 +2923,9 @@ engadget.com##.medrect
 !----中国学生网----
 ||ad*.6to23.com/*
 !----中国天气----
+weather.com.cn##.post_st
+weather.com.cn##[class^="adpos"]
+||m.weather.com.cn/a1.js
 ||poster.weather.com.cn/*
 !----易车网----
 bitauto.com##.ad_w220_h150
@@ -3652,8 +3657,12 @@ down.qiannao.com###PageRigntAds
 |*chinatimes.com/2007Cti/*
 !----无忧·自助建站----
 ||fsdfeer.any2000.com/f/s/fsdfeer/fh/*.swf
+!----理想论坛----
+55188.com##[class^="nei"]
 !----豆丁中文网----
 docin.net##[id^="adsy"]
+||pics.wanlibo.com/js/pagemodulestat.js*
+|*.docin.com/app/playerLoadLog/*
 ||www.docin.net/js/adwz*.js
 !----大洋网----
 |*dayoo.com/sta/da.js*

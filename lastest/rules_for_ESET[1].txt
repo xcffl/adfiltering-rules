@@ -1585,6 +1585,7 @@ st1.yxp.126.net/img/photo/*
 oimagea2.ydstatic.com/image?*&product=adpublish
 impservice*.youdao.com/*
 */pos?act=dur&dk=*
+*/cv/pl?*&file=*f4v*
 */pos?f=f4v*
 td.atm.youku.com/tdap/adclose
 static.atm.youku.com/*udou2012/*.swf*
@@ -1760,6 +1761,11 @@ is.kuaibo.com/uploadfile/*
 *ad*.qvod.com*
 ufile.kuaiche.com/*
 *client.kuaiche.com*
+www.123du.net/dudu*-*/*.html*width=*
+www.123du.net/SiteFiles/js/ExpFuMeiTi.js
+www.123du.net/SiteFiles/GG*.html?*
+www.123du.net/SiteFiles/InPage*.html?*
+www.123du.net/SiteFiles/js/Exp*.js
 *pps.tv/js_a2d/*
 *pps_banner.gif*
 www.PPStream.com/news/*
@@ -1991,10 +1997,4 @@ img.ifeng.com/tres/html/*
 sta.ifeng.com/*
 sc.ifeng.com/*
 survey.news.ifeng.com/resultjson.php?*
-www.263car.net/top.html
-www.263car.net/950-90.js
-www.263car.net/top.js
-www.263car.net/ad.*
-img01.5173cdn.com/fed/build/1.00/js/fed-min.js?*
-www.57dj.com/js/bd.shtml?id=*
 

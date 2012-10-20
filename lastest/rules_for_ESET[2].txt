@@ -1,3 +1,9 @@
+www.263car.net/950-90.js
+www.263car.net/top.js
+www.263car.net/ad.*
+img01.5173cdn.com/fed/build/1.00/js/fed-min.js?*
+www.57dj.com/js/bd.shtml?id=*
+mat.zdface.com/Controls/ChannelHot/ChannelHotTypeID*ClassID*.aspx
 pic.duowan.com/news/*/*/*.jpg
 *duowan.com/public/s/market_count.js
 *duowan.com/s/i/notice.js

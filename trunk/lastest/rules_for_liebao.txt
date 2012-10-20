@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-10-17 22:04:02
+!Updated:2012-10-20 17:14:41
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -1759,6 +1759,7 @@ bannerad
 ##.b.seed	$d=tudou.com
 ##adex_board	$d=tudou.com
 /\/pos\?act=dur&dk=/
+/\/cv\/pl\?.*&file=.*f4v/
 /\/pos\?f=f4v/
 /:\/\/([^\/]+\.)?td\.atm\.youku\.com\/tdap\/adclose/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*udou2012\/.*\.swf/
@@ -1926,6 +1927,7 @@ bannerad
 !----游讯网----
 /:\/\/([^\/]+\.)?gg\.yxdown\.com\//
 !----驱动之家----
+##[id^="ad_"]	$d=mydrivers.com
 /:\/\/([^\/]+\.)?images\.mydrivers\.com\/.*\/.*x.*\.swf/
 /:\/\/([^\/]+\.)?11\.mydrivers\.com\/.*\.htm/
 /:\/\/([^\/]+\.)?11\.mydrivers\.com\/www\/.*_.*\.js/
@@ -2001,6 +2003,13 @@ bannerad
 !----快车----
 /:\/\/([^\/]+\.)?ufile\.kuaiche\.com\//
 /client\.kuaiche\.com/
+!----123读----
+##[id^="float_"]	$d=123du.net
+/:\/\/([^\/]+\.)?www\.123du\.net\/dudu.*-.*\/.*\.html.*width=/
+/:\/\/([^\/]+\.)?www\.123du\.net\/SiteFiles\/js\/ExpFuMeiTi\.js/
+/:\/\/([^\/]+\.)?www\.123du\.net\/SiteFiles\/GG.*\.html\?/
+/:\/\/([^\/]+\.)?www\.123du\.net\/SiteFiles\/InPage.*\.html\?/
+/:\/\/([^\/]+\.)?www\.123du\.net\/SiteFiles\/js\/Exp.*\.js/
 !----PPS网络电视----
 /pps\.tv\/js_a2d\//
 /pps_banner\.gif/

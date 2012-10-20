@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-10-17 22:04:02
+#Updated:2012-10-20 17:14:41
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1629,6 +1629,7 @@ msFilterList
 - http://impservice*.youdao.com/
 #----土豆网----
 - */pos?act=dur&dk=
+- */cv/pl?*&file=*f4v
 - */pos?f=f4v
 -d td.atm.youku.com /tdap/adclose
 -d static.atm.youku.com udou2012/*.swf
@@ -1848,6 +1849,12 @@ msFilterList
 #----快车----
 -d ufile.kuaiche.com
 - *client.kuaiche.com
+#----123读----
+-d www.123du.net /dudu*-*/*.html*width=
+-d www.123du.net /SiteFiles/js/ExpFuMeiTi.js
+-d www.123du.net /SiteFiles/GG*.html?
+-d www.123du.net /SiteFiles/InPage*.html?
+-d www.123du.net /SiteFiles/js/Exp*.js
 #----PPS网络电视----
 - *pps.tv/js_a2d/
 - *pps_banner.gif

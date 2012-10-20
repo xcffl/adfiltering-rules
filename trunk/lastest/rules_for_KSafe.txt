@@ -1585,6 +1585,7 @@
 5,4,oimagea2.ydstatic.com/image?*&product=adpublish
 5,4,impservice*.youdao.com/*
 5,4,*/pos?act=dur&dk=*
+5,4,*/cv/pl?*&file=*f4v*
 5,4,*/pos?f=f4v*
 5,4,td.atm.youku.com/tdap/adclose
 5,4,static.atm.youku.com/*udou2012/*.swf*
@@ -1760,6 +1761,11 @@
 5,4,*ad*.qvod.com*
 5,4,ufile.kuaiche.com/*
 5,4,*client.kuaiche.com*
+5,4,www.123du.net/dudu*-*/*.html*width=*
+5,4,www.123du.net/SiteFiles/js/ExpFuMeiTi.js
+5,4,www.123du.net/SiteFiles/GG*.html?*
+5,4,www.123du.net/SiteFiles/InPage*.html?*
+5,4,www.123du.net/SiteFiles/js/Exp*.js
 5,4,*pps.tv/js_a2d/*
 5,4,*pps_banner.gif*
 5,4,www.PPStream.com/news/*

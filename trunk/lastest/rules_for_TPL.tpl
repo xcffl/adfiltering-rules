@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-10-20 17:14:41
+#Updated:2012-10-21 11:54:17
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -856,6 +856,7 @@ msFilterList
 - *.001union.com/
 - *.77union.cn/
 -d s.svem.cc
+-d notice.uchome.manyou.com
 -d c.xsu.cc
 - *.07171.com/
 - *.369456.com/
@@ -1466,6 +1467,8 @@ msFilterList
 -d v.sina.com.cn .html
 -d news.sina.com.cn /js/792/
 - *.sina.com.cn/litong/
+-d d1.sina.com.cn /20*/*/*.jpg
+-d d2.sina.com.cn /20*/*/*.jpg
 -d count.kandian.com .html
 -d beacon.sina.com.cn
 - http://l.you.video.sina.com.cn*_undig&
@@ -1843,6 +1846,7 @@ msFilterList
 #----推一把----
 -d bbs.tui18.com /js/bbstop.htm
 #----快播&快玩&hahabei----
+- *op*.web.kuaiwan.com/
 -d web.kuaiwan.com /js/
 -d is.kuaibo.com /uploadfile/
 - *ad*.qvod.com
@@ -1947,6 +1951,7 @@ msFilterList
 - *.gfan.com/press/
 #----FLvcd----
 - *.flvcd.com/image/partner/
+#----软件盒子----
 #----cnBeta----
 -d img.cnbeta.com 300.gif
 -d img.cnbeta.com /wy.gif

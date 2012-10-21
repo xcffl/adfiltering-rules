@@ -1,3 +1,7 @@
+sta.ifeng.com/*
+sc.ifeng.com/*
+survey.news.ifeng.com/resultjson.php?*
+www.263car.net/top.html
 www.263car.net/950-90.js
 www.263car.net/top.js
 www.263car.net/ad.*

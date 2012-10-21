@@ -838,6 +838,7 @@
 5,4,*.001union.com/*
 5,4,*.77union.cn/*
 5,4,s.svem.cc/*
+5,4,notice.uchome.manyou.com/*
 5,4,c.xsu.cc/*
 5,4,*.07171.com/*
 5,4,*.369456.com/*
@@ -1428,6 +1429,8 @@
 5,4,v.sina.com.cn/*.html
 5,4,news.sina.com.cn/js/792/*
 5,4,*.sina.com.cn/litong/*
+5,4,d1.sina.com.cn/20*/*/*.jpg
+5,4,d2.sina.com.cn/20*/*/*.jpg
 5,4,count.kandian.com/*.html
 5,4,beacon.sina.com.cn/*
 5,4,l.you.video.sina.com.cn*_undig&*
@@ -1756,6 +1759,7 @@
 5,4,www.tv650.com/itv/index.htm
 5,4,*.people.com.cn/mediafile/*.swf
 5,4,bbs.tui18.com/js/bbstop.htm
+5,4,*op*.web.kuaiwan.com/*
 5,4,web.kuaiwan.com/js/*
 5,4,is.kuaibo.com/uploadfile/*
 5,4,*ad*.qvod.com*
@@ -1974,7 +1978,7 @@
 5,4,*.fzdm.com/ggup/*
 5,4,*.ifeng.com/ssi-incs/*.html
 5,4,*.ifeng.com/*/ssi-incs/*.html
-5,4,y1.ifengimg.com/**/rdn_*.js*
+5,4,y1.ifengimg.com/*/rdn_*.js*
 5,4,*.ifengimg.com/ifeng/sources/*
 5,4,*.ifeng.com/statics/comment_baidu.html
 5,4,y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif

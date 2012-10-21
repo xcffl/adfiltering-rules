@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-10-20 17:14:41
+!Updated:2012-10-21 11:54:17
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -949,6 +949,7 @@ bannerad
 /\.001union\.com\//
 /\.77union\.cn\//
 /:\/\/([^\/]+\.)?s\.svem\.cc\//
+/:\/\/([^\/]+\.)?notice\.uchome\.manyou\.com\//
 /:\/\/([^\/]+\.)?c\.xsu\.cc\//
 /\.07171\.com\//
 /\.369456\.com\//
@@ -1585,6 +1586,8 @@ bannerad
 /:\/\/([^\/]+\.)?v\.sina\.com\.cn\/.*\.html/
 /:\/\/([^\/]+\.)?news\.sina\.com\.cn\/js\/792\//
 /\.sina\.com\.cn\/litong\//
+/:\/\/([^\/]+\.)?d1\.sina\.com\.cn\/20.*\/.*\/.*\.jpg/
+/:\/\/([^\/]+\.)?d2\.sina\.com\.cn\/20.*\/.*\/.*\.jpg/
 /:\/\/([^\/]+\.)?count\.kandian\.com\/.*\.html/
 /:\/\/([^\/]+\.)?beacon\.sina\.com\.cn\//
 /:\/\/([^\/]+\.)?l\.you\.video\.sina\.com\.cn.*_undig&/
@@ -1997,6 +2000,7 @@ bannerad
 !----推一把----
 /:\/\/([^\/]+\.)?bbs\.tui18\.com\/js\/bbstop\.htm/
 !----快播&快玩&hahabei----
+/op.*\.web\.kuaiwan\.com\//
 /:\/\/([^\/]+\.)?web\.kuaiwan\.com\/js\//
 /:\/\/([^\/]+\.)?is\.kuaibo\.com\/uploadfile\//
 /ad.*\.qvod\.com/
@@ -2114,6 +2118,8 @@ bannerad
 /\.gfan\.com\/press\//
 !----FLvcd----
 /\.flvcd\.com\/image\/partner\//
+!----软件盒子----
+##[class^="ad"]	$d=itopdog.cn
 !----cnBeta----
 ##EM	$d=cnbeta.com
 ##fm_r	$d=cnbeta.com
@@ -2336,6 +2342,8 @@ bannerad
 !----风之动漫----
 /\.fzdm\.com\/ggup\//
 !----凤凰网----
+##adbest	$d=v.ifeng.com
+##.tit_ad	$d=v.ifeng.com
 ##.adbox	$d=ifeng.com
 ##[id^="couplet3_"]	$d=ifeng.com
 ##.label_3	$d=ifeng.com

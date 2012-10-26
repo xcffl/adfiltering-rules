@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-10-21 11:54:17
+#Updated:2012-10-26 19:15:04
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -698,6 +698,7 @@ msFilterList
 - */js/showads_*.js
 - */upload/images/ad_*x*_*.gif
 - */site/images/zol.gif
+- */textad.
 - */site/images/xiangmu2.jpg
 - */ad04.htm
 - */img/500.gif
@@ -2090,6 +2091,7 @@ msFilterList
 - *.99manga.com/g/
 - *.99manga.com/haodm/dmjsc/*.js
 #----来书小说网----
+-d cdn.laishu.com /images/puguo.gif
 - *.laishu.com/lsgg/
 - *.laishuwu.com/files/friend/
 #----中国反诈骗联盟----
@@ -2203,6 +2205,8 @@ msFilterList
 -d www.33lc.com /soft/UploadPic/*-*/dnxx_
 -d www.33lc.com /js/*_*.js
 -d www.33lc.com /soft/UploadPic/2012-5/201251814224916797.jpg
+#----中国时刻网----
+- *.s1979.com/html/ad_js/
 #----若人网&若人论坛----
 -d mu.ruoren.com
 #----央广广播电视网络台----
@@ -2504,6 +2508,8 @@ msFilterList
 -d allyes.jrj.com
 #----小说精灵----
 -d js.xiaoshuojingling.com
+#----酷吧音乐盒----
+- http://djbox.ku8box.com*/*_AD.swf
 #----猫扑----
 - http://*mopimg.cn/tj/
 -d pub.mop.com
@@ -2805,6 +2811,7 @@ msFilterList
 -d bbs.wmzhe.com /api/
 - *wmzhe.com/attachments/other/
 #----天空下载----
+- *.skycn.com/js/soft_*.js
 #----草根网----
 - *20ju.com/js/caogen.js
 - *20ju.com/js/leftbottom.js
@@ -2966,7 +2973,6 @@ msFilterList
 -d www.ranwen.net /ssi/
 #----华彩软件园----
 - *.huacolor.com/soft/UploadPic/*.gif
-- *.huacolor.com/soft/UploadPic/*-*/*.jpg
 #----呱呱视频社区----
 -d a.17guagua.com
 #----文游台----
@@ -3331,6 +3337,10 @@ msFilterList
 - *315ts.net/partner/
 #----合肥热线----
 - *ad.hefei.cc/
+#----对路----
+- *.dui.lu/index.php/ad/
+- *.dui.lu/index.php/stat/
+- *.dui.lu/staticts.html
 #----DiyPDA----
 -d t.diypda.com /publicize/
 #----盛大网盘EverBox----

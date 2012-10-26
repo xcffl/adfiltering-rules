@@ -686,6 +686,7 @@ track.*/*
 */js/showads_*.js
 */upload/images/ad_*x*_*.gif
 */site/images/zol.gif
+*/textad.*
 */site/images/xiangmu2.jpg
 */ad04.htm
 */img/500.gif
@@ -1937,6 +1938,7 @@ www.hszw.com/inc/*
 *.99comic.com/g/*
 *.99manga.com/g/*
 *.99manga.com/haodm/dmjsc/*.js
+cdn.laishu.com/images/puguo.gif
 *.laishu.com/lsgg/*
 *.laishuwu.com/files/friend/*
 www.ocucn.com/images/*.gif
@@ -1995,6 +1997,4 @@ comment.ifeng.com/count_*
 img.ifeng.com/tres/xgyy/yk/*
 img.ifeng.com/tres/ifeng/*
 img.ifeng.com/tres/ylgm/*
-stadig.ifeng.com/*
-img.ifeng.com/tres/market/*
 

@@ -686,6 +686,7 @@
 5,4,*/js/showads_*.js
 5,4,*/upload/images/ad_*x*_*.gif
 5,4,*/site/images/zol.gif
+5,4,*/textad.*
 5,4,*/site/images/xiangmu2.jpg
 5,4,*/ad04.htm
 5,4,*/img/500.gif
@@ -1937,6 +1938,7 @@
 5,4,*.99comic.com/g/*
 5,4,*.99manga.com/g/*
 5,4,*.99manga.com/haodm/dmjsc/*.js
+5,4,cdn.laishu.com/images/puguo.gif
 5,4,*.laishu.com/lsgg/*
 5,4,*.laishuwu.com/files/friend/*
 5,4,www.ocucn.com/images/*.gif
@@ -2028,6 +2030,7 @@
 5,4,www.33lc.com/soft/UploadPic/*-*/dnxx_*
 5,4,www.33lc.com/js/*_*.js
 5,4,www.33lc.com/soft/UploadPic/2012-5/201251814224916797.jpg
+5,4,*.s1979.com/html/ad_js/*
 5,4,mu.ruoren.com/*
 5,4,log.zongheng.com/*
 5,4,static.zongheng.com/v2012/cooperate/index_r_b.js
@@ -2235,6 +2238,7 @@
 5,4,*xiaoshuo.com/chuanwen.html
 5,4,allyes.jrj.com/*
 5,4,js.xiaoshuojingling.com/*
+5,4,djbox.ku8box.com*/*_AD.swf
 5,4,*mopimg.cn/tj/*
 5,4,pub.mop.com/*
 5,4,*mopimg.cn/dc/*
@@ -2441,6 +2445,7 @@
 5,4,*wmzhe.com/attachments/show/top_fzl.jpg
 5,4,bbs.wmzhe.com/api/*
 5,4,*wmzhe.com/attachments/other/*
+5,4,*.skycn.com/js/soft_*.js
 5,4,*20ju.com/js/caogen.js
 5,4,*20ju.com/js/leftbottom.js
 5,4,*20ju.com/js/RightJs1.js
@@ -2549,7 +2554,6 @@
 5,4,*.creatives.livejasmin.com/*
 5,4,www.ranwen.net/ssi/*
 5,4,*.huacolor.com/soft/UploadPic/*.gif
-5,4,*.huacolor.com/soft/UploadPic/*-*/*.jpg
 5,4,a.17guagua.com/*
 5,4,bbs.wenyoutai.com/ly/*
 5,4,u.wenyoutai.com/*
@@ -2793,6 +2797,9 @@
 5,4,www.haokan123.com/attachments/*.swf
 5,4,*315ts.net/partner/*
 5,4,*ad.hefei.cc/*
+5,4,*.dui.lu/index.php/ad/*
+5,4,*.dui.lu/index.php/stat/*
+5,4,*.dui.lu/staticts.html
 5,4,t.diypda.com/publicize/*
 5,4,dl.everbox.com/www/images/coop/*.jpg
 5,4,*.everbox.com/images/*_ad.*

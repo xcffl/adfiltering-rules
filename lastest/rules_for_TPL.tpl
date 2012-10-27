@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-10-26 19:15:04
+#Updated:2012-10-27 22:18:05
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1605,7 +1605,7 @@ msFilterList
 -d stat.ws.126.net
 -d adgeo.163.com
 -d 163.wrating.com
-- *.163.com/special/*_*.xml
+#|*.163.com/special/*_*.xml
 -d img1.126.net
 -d img2.126.net
 -d flv.bn.netease.com
@@ -2438,6 +2438,9 @@ msFilterList
 -d xfiles.myspace.cn mstg/image/yunying/*/*_*.gif
 #----好看的小说网址----
 - *hkwxc.com/t/g/
+#----网络营销教学网站----
+-d abc.wm23.com /uploadfile/2012101415623_97e9ed60-b91e-42ed-bbb9-6de751c02890.gif
+-d img1.lishiwuyu.com /2012/10/19/r_0-0_1_beac1f9d-2b5c-4dda-81df-864af4223afd.jpg
 #----天下书盟网----
 -d www.fbook.net /fbookad/
 #----IT之家&Vista之家&Win7之家&Win8之家----
@@ -3887,7 +3890,7 @@ msFilterList
 - *0595jx.com/images/41.gif
 #----乐视网----
 -d letv.allyes.com
--d dc.letv.com
+-d dc.letv.com =
 -d js.letvcdn.com /js/*/stats/
 - *pro.letv.com/
 #----FriendFinder&AsiaFriendFinder----
@@ -4274,10 +4277,15 @@ msFilterList
 #-------------特殊规则-------------
 #-------------临时规则-------------
 #----百度推广验证码下载----
+#vdisk.cn
 +d cpro.baidu.com /cpro/ui/uijs.php?
 +d cpro.baidu.com /img/bg_captchaF.png
 +d drmcmm.baidu.com /media/id=*&gp=403&time=*.jpg
 +d drmcmm.baidu.com /media/id=*&gp=403&time=*.swf
 +d cpro.baidu.com /extra/text_flash/AC_RunActiveContent.js
 +d cpro.baidu.com /cpro/ui/y.js
+#9es.cn
++d cpro.baidu.com /cpro/ui/f.js
++d pos.baidu.com /ecom?
++d cpro.baidu.com /cpro/ui/c.js
 #-------------待分类-------------

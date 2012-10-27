@@ -1,4 +1,3 @@
-img.ifeng.com/tres/market/*
 img.ifeng.com/tres/html/*
 sta.ifeng.com/*
 sc.ifeng.com/*
@@ -189,6 +188,8 @@ gg.blueidea.com*
 gg.un.myspace.cn*
 xfiles.myspace.cn/*mstg/image/yunying/*/*_*.gif
 *hkwxc.com/t/g/*
+abc.wm23.com/uploadfile/2012101415623_97e9ed60-b91e-42ed-bbb9-6de751c02890.gif
+img1.lishiwuyu.com/2012/10/19/r_0-0_1_beac1f9d-2b5c-4dda-81df-864af4223afd.jpg
 www.fbook.net/fbookad/*
 *.vista123.com/notice.htm
 www.win8china.com/script/*.htm
@@ -1136,7 +1137,7 @@ luckstatic.v1.cn/st/10000/*
 *pipi.cn/player/*
 *0595jx.com/images/41.gif
 letv.allyes.com/*
-dc.letv.com/*
+dc.letv.com/*=*
 js.letvcdn.com/js/*/stats/*
 *pro.letv.com/*
 geobanner.asiafriendfinder.com/go/page/iframe_geobanner_custom?*

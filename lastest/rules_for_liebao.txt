@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-10-26 19:15:04
+!Updated:2012-10-27 22:18:05
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -1736,7 +1736,7 @@ bannerad
 /:\/\/([^\/]+\.)?stat\.ws\.126\.net\//
 /:\/\/([^\/]+\.)?adgeo\.163\.com\//
 /:\/\/([^\/]+\.)?163\.wrating\.com\//
-/\.163\.com\/special\/.*_.*\.xml/
+!|*.163.com/special/*_*.xml
 /:\/\/([^\/]+\.)?img1\.126\.net\//
 /:\/\/([^\/]+\.)?img2\.126\.net\//
 /:\/\/([^\/]+\.)?flv\.bn\.netease\.com\//
@@ -2678,6 +2678,10 @@ bannerad
 /:\/\/([^\/]+\.)?xfiles\.myspace\.cn\/.*mstg\/image\/yunying\/.*\/.*_.*\.gif/
 !----好看的小说网址----
 /hkwxc\.com\/t\/g\//
+!----网络营销教学网站----
+##.banner	$d=wm23.com
+/:\/\/([^\/]+\.)?abc\.wm23\.com\/uploadfile\/2012101415623_97e9ed60-b91e-42ed-bbb9-6de751c02890\.gif/
+/:\/\/([^\/]+\.)?img1\.lishiwuyu\.com\/2012\/10\/19\/r_0-0_1_beac1f9d-2b5c-4dda-81df-864af4223afd\.jpg/
 !----天下书盟网----
 /:\/\/([^\/]+\.)?www\.fbook\.net\/fbookad\//
 !----IT之家&Vista之家&Win7之家&Win8之家----
@@ -3021,6 +3025,7 @@ bannerad
 /:\/\/([^\/]+\.)?www\.3156\.cn\/js\/float_ads\..*\.js/
 /:\/\/([^\/]+\.)?www\.3156\.cn\/images\/fdgg\.css/
 !----豆瓣----
+##.clickable_ad	$d=douban.fm
 /:\/\/([^\/]+\.)?img3\.douban\.com\/js\/boomerang\.js/
 /:\/\/([^\/]+\.)?erebor\.douban\.com\/\?unit=/
 /:\/\/([^\/]+\.)?erebor\.douban\.com\/count\/\?ad=/
@@ -4227,7 +4232,7 @@ bannerad
 /0595jx\.com\/images\/41\.gif/
 !----乐视网----
 /:\/\/([^\/]+\.)?letv\.allyes\.com\//
-/:\/\/([^\/]+\.)?dc\.letv\.com\//
+/:\/\/([^\/]+\.)?dc\.letv\.com\/.*=/
 /:\/\/([^\/]+\.)?js\.letvcdn\.com\/js\/.*\/stats\//
 /pro\.letv\.com\//
 !----FriendFinder&AsiaFriendFinder----
@@ -4652,10 +4657,15 @@ bannerad
 !-------------特殊规则-------------
 !-------------临时规则-------------
 !----百度推广验证码下载----
-/:\/\/([^\/]+\.)?cpro.baidu.com\/cpro\/ui\/uijs.php\?/	$w
+!vdisk.cn
+/:\/\/([^\/]+\.)?cpro\.baidu\.com\/cpro\/ui\/uijs\.php\?.*/	$d=vdisk.cn,$w
 /:\/\/([^\/]+\.)?cpro.baidu.com\/img\/bg_captchaF.png/	$w
 /:\/\/([^\/]+\.)?drmcmm.baidu.com\/media\/id=.*&gp=403&time=.*.jpg/	$w
-/:\/\/([^\/]+\.)?drmcmm.baidu.com\/media\/id=.*&gp=403&time=.*.swf/	$w
+/:\/\/([^\/]+\.)?drmcmm\.baidu\.com\/media\/id=.*&gp=403&time=.*\.swf/	$d=vdisk.cn,$w
 /:\/\/([^\/]+\.)?cpro.baidu.com\/extra\/text_flash\/AC_RunActiveContent.js/	$w
 /:\/\/([^\/]+\.)?cpro.baidu.com\/cpro\/ui\/y.js/	$w
+!9es.cn
+/:\/\/([^\/]+\.)?cpro\.baidu\.com\/cpro\/ui\/f\.js/	$d=up.9es.cn,$w
+/:\/\/([^\/]+\.)?pos\.baidu\.com\/ecom\?.*/	$d=up.9es.cn,$w
+/:\/\/([^\/]+\.)?cpro\.baidu\.com\/cpro\/ui\/c\.js/	$d=up.9es.cn,$w
 !-------------待分类-------------

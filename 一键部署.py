@@ -209,7 +209,7 @@ def writeRule(filePath, lines):
       line = re.sub('^\s*!.*?\bExpires\s*(?::|after)\s*(\d+)\s*(h)?', '', line)
       line = re.sub('^! Redirect:.*$','', line)
       line = re.sub(r'(.*?)\expires(.*)', '', line)
-      line = re.sub('!Title:.*$', '!Title:广告强效过滤规则', line)
+      line = re.sub('!Title:.*$', '!Title:adfiltering-rules', line)
       #由于猎豹有些问题，暂时使用短名称
       #line = re.sub('for ABP', 'for liebao', line)
       line = re.sub(r'--!$', '--!', line)
@@ -2115,7 +2115,7 @@ def combineSubscriptions(sourceDir, targetDir, timeout=30):
         print >>sys.stderr, '错误处理订阅文件 "%s"' % file
         traceback.print_exc()
         print >>sys.stderr
-      known['rules_for_AB_PRO.txt'] = True
+      known['rules_for_AB_PRO.ini'] = True
     known[file] = True
 
   for file in os.listdir(targetDir):
@@ -2166,7 +2166,7 @@ def processSubscriptionFile(sourceDir, targetDir, file, timeout):
   lines = resolveIncludes(filePath, lines, timeout)
   lines = filter(lambda l: l != '' and not re.search(r'!\s*checksum[\s\-:]+([\w\+\/=]+)', l, re.I), lines)
 
-  writeRule(os.path.join(targetDir, 'rules_for_AB_PRO.txt'), lines)
+  writeRule(os.path.join(targetDir, 'rules_for_AB_PRO.ini'), lines)
 
   checksum = hashlib.md5()
   checksum.update((header + '\n' + '\n'.join(lines) + '\n').encode('utf-8'))
@@ -2399,15 +2399,15 @@ if __name__ == '__main__':
 #把换行符替换为;并把临时生成的文件移动回根目录
 
 '''#读取文件
-file1 = open("./Temp/rules_for_AB_PRO.txt","r")
-#file2 = open("rules_for_AB_PRO.txt","w")
+file1 = open("./Temp/rules_for_AB_PRO.ini","r")
+#file2 = open("rules_for_AB_PRO.ini","w")
 #把换行符替换为;
 #sp = re.compile('\n+') 
 rules = file1.readlines() #读取全部内容
 rules = ';'.join(rules)
 rules = rules ,
 
-file1 = open("./Temp/rules_for_AB_PRO.txt","w")
+file1 = open("./Temp/rules_for_AB_PRO.ini","w")
 
 file1.write(rules)
 file1.close()
@@ -2416,10 +2416,10 @@ file1.close()
 #把临时生成的文件移动回根目录
 import shutil
 import os
-if os.path.isfile('.' + 'rules_for_AB_PRO.txt'):
-  os.system('rm -fr rules_for_AB_PRO.txt')
+if os.path.isfile('.' + 'rules_for_AB_PRO.ini'):
+  os.system('rm -fr rules_for_AB_PRO.ini')
 else:
-  shutil.copy('./Temp/rules_for_AB_PRO.txt', '.')
+  shutil.copy('./Temp/rules_for_AB_PRO.ini', '.')
 
 #===ESET+Kaspersky===
 #!/usr/bin/env python

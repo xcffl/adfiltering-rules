@@ -1562,7 +1562,6 @@
 5,4,stat.ws.126.net/*
 5,4,adgeo.163.com/*
 5,4,163.wrating.com/*
-5,4,*.163.com/special/*_*.xml
 5,4,img1.126.net/*
 5,4,img2.126.net/*
 5,4,flv.bn.netease.com/*
@@ -2189,6 +2188,8 @@
 5,4,gg.un.myspace.cn*
 5,4,xfiles.myspace.cn/*mstg/image/yunying/*/*_*.gif
 5,4,*hkwxc.com/t/g/*
+5,4,abc.wm23.com/uploadfile/2012101415623_97e9ed60-b91e-42ed-bbb9-6de751c02890.gif
+5,4,img1.lishiwuyu.com/2012/10/19/r_0-0_1_beac1f9d-2b5c-4dda-81df-864af4223afd.jpg
 5,4,www.fbook.net/fbookad/*
 5,4,*.vista123.com/notice.htm
 5,4,www.win8china.com/script/*.htm
@@ -3136,7 +3137,7 @@
 5,4,*pipi.cn/player/*
 5,4,*0595jx.com/images/41.gif
 5,4,letv.allyes.com/*
-5,4,dc.letv.com/*
+5,4,dc.letv.com/*=*
 5,4,js.letvcdn.com/js/*/stats/*
 5,4,*pro.letv.com/*
 5,4,geobanner.asiafriendfinder.com/go/page/iframe_geobanner_custom?*

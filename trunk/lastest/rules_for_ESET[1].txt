@@ -1562,7 +1562,6 @@ top.baidu.com/none/163.html
 stat.ws.126.net/*
 adgeo.163.com/*
 163.wrating.com/*
-*.163.com/special/*_*.xml
 img1.126.net/*
 img2.126.net/*
 flv.bn.netease.com/*
@@ -1997,4 +1996,5 @@ comment.ifeng.com/count_*
 img.ifeng.com/tres/xgyy/yk/*
 img.ifeng.com/tres/ifeng/*
 img.ifeng.com/tres/ylgm/*
+stadig.ifeng.com/*
 

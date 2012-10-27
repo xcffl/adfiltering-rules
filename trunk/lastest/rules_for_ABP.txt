@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-10-26 19:15:04
+!Updated:2012-10-27 22:18:05
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -1733,7 +1733,7 @@ www.163.com###g5n1
 ||stat.ws.126.net/*
 ||adgeo.163.com/*
 ||163.wrating.com/*
-|*.163.com/special/*_*.xml
+!|*.163.com/special/*_*.xml
 ||img1.126.net/*
 ||img2.126.net/*
 ||flv.bn.netease.com/*
@@ -2672,6 +2672,10 @@ xindm.cn##TD[bgcolor="#cdcdcd"]
 ||xfiles.myspace.cn/*mstg/image/yunying/*/*_*.gif
 !----好看的小说网址----
 |*hkwxc.com/t/g/*
+!----网络营销教学网站----
+wm23.com##.banner
+||abc.wm23.com/uploadfile/2012101415623_97e9ed60-b91e-42ed-bbb9-6de751c02890.gif
+||img1.lishiwuyu.com/2012/10/19/r_0-0_1_beac1f9d-2b5c-4dda-81df-864af4223afd.jpg
 !----天下书盟网----
 ||www.fbook.net/fbookad/*
 !----IT之家&Vista之家&Win7之家&Win8之家----
@@ -3013,6 +3017,7 @@ chinaiiss.com##.nav_r:nth-child(6)
 ||www.3156.cn/js/float_ads.*.js
 ||www.3156.cn/images/fdgg.css
 !----豆瓣----
+douban.fm##.clickable_ad
 ||img3.douban.com/js/boomerang.js*
 ||erebor.douban.com/?unit=*
 ||erebor.douban.com/count/?ad=*
@@ -4217,7 +4222,7 @@ ali213.net##.newright
 |*0595jx.com/images/41.gif
 !----乐视网----
 ||letv.allyes.com/*
-||dc.letv.com/*
+||dc.letv.com/*=*
 ||js.letvcdn.com/js/*/stats/*
 |*pro.letv.com/*
 !----FriendFinder&AsiaFriendFinder----
@@ -4630,10 +4635,15 @@ www.qidian.com##.DH17
 !-------------特殊规则-------------
 !-------------临时规则-------------
 !----百度推广验证码下载----
-@@||cpro.baidu.com/cpro/ui/uijs.php?*
+!vdisk.cn
+@@||cpro.baidu.com/cpro/ui/uijs.php?*$domain=vdisk.cn
 @@||cpro.baidu.com/img/bg_captchaF.png
 @@||drmcmm.baidu.com/media/id=*&gp=403&time=*.jpg
-@@||drmcmm.baidu.com/media/id=*&gp=403&time=*.swf
+@@||drmcmm.baidu.com/media/id=*&gp=403&time=*.swf$domain=vdisk.cn
 @@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
 @@||cpro.baidu.com/cpro/ui/y.js
+!9es.cn
+@@||cpro.baidu.com/cpro/ui/f.js$domain=up.9es.cn
+@@||pos.baidu.com/ecom?*$domain=up.9es.cn
+@@||cpro.baidu.com/cpro/ui/c.js$domain=up.9es.cn
 !-------------待分类-------------

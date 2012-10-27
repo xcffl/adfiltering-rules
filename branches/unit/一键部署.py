@@ -209,7 +209,7 @@ def writeRule(filePath, lines):
       line = re.sub('^\s*!.*?\bExpires\s*(?::|after)\s*(\d+)\s*(h)?', '', line)
       line = re.sub('^! Redirect:.*$','', line)
       line = re.sub(r'(.*?)\expires(.*)', '', line)
-      line = re.sub('!Title:.*$', '!Title:adfiltering-rules', line)
+      line = re.sub('!Title:.*$', '!Title:广告强效过滤规则', line)
       #由于猎豹有些问题，暂时使用短名称
       #line = re.sub('for ABP', 'for liebao', line)
       line = re.sub(r'--!$', '--!', line)
@@ -2349,7 +2349,7 @@ def writeRule(filePath, lines):
   top = u'[General]'
   
   #规则头
-  head = u'''name=广告过滤软件通用强效广告过滤规则 for AB Pro\r\nupdateUrl=http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt\r\nupdateTime=1\r\n[Whitelist]\r\n[Block Address]\r\nCopyright 2011 xcffl, Apache License 2.0\r\n'''
+  head = u'''name=adfiltering-rules for AB Pro\r\nupdateUrl=http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt\r\nupdateTime=1\r\n[Whitelist]\r\n[Block Address]\r\nCopyright 2011 xcffl, Apache License 2.0\r\n'''
   #规则尾
   bottom = '[Block Object]'
   #输出到文件  
@@ -3126,7 +3126,7 @@ tempfile ='rules_for_360.txt'
 os.remove(tempfile)
 #打开360更新网站
 import os
-os.startfile('firefox.exe http://rules.wd.360.cn/upload_rule_11.html?id=60546')
+os.startfile('http://rules.wd.360.cn/upload_rule_11.html?id=60546')
 
 '''#===把加入校验的ABP版移回根目录===
 import shutil

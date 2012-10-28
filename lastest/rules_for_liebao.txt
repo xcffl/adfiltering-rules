@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-10-27 22:18:05
+!Updated:2012-10-28 20:20:52
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -77,6 +77,11 @@ ad-top
 ###ad_D
 ###ad_C
 ###ad_B
+###ad_A
+###ad_I
+###ad_J
+##.adWrapper	$d=~smh.com.au
+##.adWrapper	$d=~theage.com.au
 ##.top_ad
 bannerad
 ##.boxad
@@ -1813,7 +1818,7 @@ bannerad
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*-.*\.swf\?js.*tart=/
 !||valf.atm.youku.com/crossdomain.xml
-/:\/\/([^\/]+\.)?valf.atm.youku.com\/valf\?/	$w
+/:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/valf\?.*/	$d=u.youku.com,$w
 /:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/valf\?/
 /:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/show\?/
 /:\/\/([^\/]+\.)?fvid\.atm\.youku\.com\//
@@ -2064,6 +2069,8 @@ bannerad
 /\.dm8\.cc\/s\//
 /\.dm8\.cc\/javascript\/xshow\.js/
 !----金山词霸----
+/:\/\/([^\/]+\.)?cdn\.iciba\.com\/web\/co\/fy\/.*\.gif/
+/:\/\/([^\/]+\.)?cdn\.iciba\.com\/web\/co\/ci\/.*\.gif/
 /:\/\/([^\/]+\.)?u\.iciba\.com\//
 /\.iciba\.com\/images\/toef\.jpg/
 /:\/\/([^\/]+\.)?iciba\.englishtown\.com\/Sp\/Landing\//
@@ -2269,6 +2276,8 @@ bannerad
 /zol\.com\.cn\/imphit0.*\.gif\?/
 /:\/\/([^\/]+\.)?pic\.zol\.com\.cn\/.*\/.*hp.*_.*_.*\.swf/
 /pc3w\.com\/jS\//
+!----巨鲸音乐在线----
+/:\/\/([^\/]+\.)?www.top100.cn\/script\/header.js\?/	$w
 !----GC1069----
 ##EMBED	$d=gc1069.com
 /:\/\/([^\/]+\.)?graphics\.streamray\.com\/images\/cams\/flash\/cams_live\.swf/
@@ -2302,6 +2311,7 @@ bannerad
 !----互联网的那点事----
 /:\/\/([^\/]+\.)?alibuybuy-wordpress\.stor\.sinaapp\.com\//
 !----卡饭----
+##[class^="wp header_gg"]	$d=kafan.cn
 /:\/\/([^\/]+\.)?a\.ikafan\.com\/2\/b\.js/
 /:\/\/([^\/]+\.)?a\.ikafan\.com\/4\/.*\.gif/
 /:\/\/([^\/]+\.)?a\.ikafan\.com\/3\//
@@ -3106,6 +3116,8 @@ bannerad
 !----天空下载----
 ##.l.top7.bd	$d=skycn.com
 /\.skycn\.com\/js\/soft_.*\.js/
+!----华为网盘----
+##filelist_marker	$d=dl.vmall.com
 !----草根网----
 /20ju\.com\/js\/caogen\.js/
 /20ju\.com\/js\/leftbottom\.js/
@@ -4086,6 +4098,8 @@ bannerad
 !----Wangye2游戏门户----
 /wangye2\.com\/templets\/default\/spec\/seh\/images\//
 !----爱拍游戏----
+/:\/\/([^\/]+\.)?www\.aipai\.com\/app\/www\/templates\/videos\/.*\/video_gg\.js/
+/:\/\/([^\/]+\.)?121\.10\.241\.110.*\//
 /:\/\/([^\/]+\.)?apas\.aipai\.com\/www\/api\/aipaiPlayFull2\.js\?0\./
 /:\/\/([^\/]+\.)?web\.aipai\.com\/bbt\//
 /:\/\/([^\/]+\.)?apas\.aipai\.com\/www\/images\//
@@ -4231,8 +4245,9 @@ bannerad
 !----3E高清电影网----
 /0595jx\.com\/images\/41\.gif/
 !----乐视网----
+/:\/\/([^\/]+\.)?www.letv.com\/zt\/tuiguang\/playerapi\/pccs.*.xml/	$w
 /:\/\/([^\/]+\.)?letv\.allyes\.com\//
-/:\/\/([^\/]+\.)?dc\.letv\.com\/.*=/
+/:\/\/([^\/]+\.)?dc\.letv\.com\//
 /:\/\/([^\/]+\.)?js\.letvcdn\.com\/js\/.*\/stats\//
 /pro\.letv\.com\//
 !----FriendFinder&AsiaFriendFinder----
@@ -4658,10 +4673,11 @@ bannerad
 !-------------临时规则-------------
 !----百度推广验证码下载----
 !vdisk.cn
-/:\/\/([^\/]+\.)?cpro\.baidu\.com\/cpro\/ui\/uijs\.php\?.*/	$d=vdisk.cn,$w
+/:\/\/([^\/]+\.)?cpro\.baidu\.com\/cpro\/ui\/uijs\.php\?.*/	$d=vdisk.cn|vmall.com,$w
 /:\/\/([^\/]+\.)?cpro.baidu.com\/img\/bg_captchaF.png/	$w
 /:\/\/([^\/]+\.)?drmcmm.baidu.com\/media\/id=.*&gp=403&time=.*.jpg/	$w
-/:\/\/([^\/]+\.)?drmcmm\.baidu\.com\/media\/id=.*&gp=403&time=.*\.swf/	$d=vdisk.cn,$w
+/:\/\/([^\/]+\.)?drmcmm\.baidu\.com\/media\/id=.*&gp=403&time=.*\.swf/	$d=vdisk.cn|vmall.com,$w
+/:\/\/([^\/]+\.)?drmcmm\.baidu\.com\/media\/id=.*\.gif/	$d=cpro.baidu.com,$w
 /:\/\/([^\/]+\.)?cpro.baidu.com\/extra\/text_flash\/AC_RunActiveContent.js/	$w
 /:\/\/([^\/]+\.)?cpro.baidu.com\/cpro\/ui\/y.js/	$w
 !9es.cn

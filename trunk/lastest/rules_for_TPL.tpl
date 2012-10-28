@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-10-27 22:18:05
+#Updated:2012-10-28 20:20:52
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1902,6 +1902,8 @@ msFilterList
 - *.dm8.cc/s/
 - *.dm8.cc/javascript/xshow.js
 #----金山词霸----
+-d cdn.iciba.com /web/co/fy/*.gif
+-d cdn.iciba.com /web/co/ci/*.gif
 -d u.iciba.com
 - *.iciba.com/images/toef.jpg
 -d iciba.englishtown.com /Sp/Landing/
@@ -2070,6 +2072,8 @@ msFilterList
 - *zol.com.cn/imphit0*.gif?
 -d pic.zol.com.cn /*hp*_*_*.swf
 - *pc3w.com/jS/
+#----巨鲸音乐在线----
++d www.top100.cn /script/header.js?
 #----GC1069----
 -d graphics.streamray.com /images/cams/flash/cams_live.swf
 #----77119TXT小说----
@@ -2815,6 +2819,7 @@ msFilterList
 - *wmzhe.com/attachments/other/
 #----天空下载----
 - *.skycn.com/js/soft_*.js
+#----华为网盘----
 #----草根网----
 - *20ju.com/js/caogen.js
 - *20ju.com/js/leftbottom.js
@@ -3744,6 +3749,8 @@ msFilterList
 #----Wangye2游戏门户----
 - *wangye2.com/templets/default/spec/seh/images/
 #----爱拍游戏----
+-d www.aipai.com /app/www/templates/videos/*/video_gg.js
+- http://121.10.241.110*/
 -d apas.aipai.com /www/api/aipaiPlayFull2.js?0.
 -d web.aipai.com /bbt/
 -d apas.aipai.com /www/images/
@@ -3889,8 +3896,9 @@ msFilterList
 #----3E高清电影网----
 - *0595jx.com/images/41.gif
 #----乐视网----
++d www.letv.com /zt/tuiguang/playerapi/pccs*.xml
 -d letv.allyes.com
--d dc.letv.com =
+-d dc.letv.com
 -d js.letvcdn.com /js/*/stats/
 - *pro.letv.com/
 #----FriendFinder&AsiaFriendFinder----
@@ -4282,6 +4290,7 @@ msFilterList
 +d cpro.baidu.com /img/bg_captchaF.png
 +d drmcmm.baidu.com /media/id=*&gp=403&time=*.jpg
 +d drmcmm.baidu.com /media/id=*&gp=403&time=*.swf
++d drmcmm.baidu.com /media/id=*.gif
 +d cpro.baidu.com /extra/text_flash/AC_RunActiveContent.js
 +d cpro.baidu.com /cpro/ui/y.js
 #9es.cn

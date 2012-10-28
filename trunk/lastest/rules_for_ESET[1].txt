@@ -1802,6 +1802,8 @@ www.onlinedown.net/newhuagg/daohang.js
 */newhuagg/*.swf*
 *.dm8.cc/s/*
 *.dm8.cc/javascript/xshow.js
+cdn.iciba.com/web/co/fy/*.gif
+cdn.iciba.com/web/co/ci/*.gif
 u.iciba.com/*
 *.iciba.com/images/toef.jpg
 iciba.englishtown.com/Sp/Landing/*
@@ -1995,6 +1997,4 @@ img.ifeng.com/tres/recommend/*
 comment.ifeng.com/count_*
 img.ifeng.com/tres/xgyy/yk/*
 img.ifeng.com/tres/ifeng/*
-img.ifeng.com/tres/ylgm/*
-stadig.ifeng.com/*
 

@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-10-27 22:18:05
+!Updated:2012-10-28 20:20:52
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -75,6 +75,10 @@
 ###ad_D
 ###ad_C
 ###ad_B
+###ad_A
+###ad_I
+###ad_J
+~brisbanetimes.com.au,~smh.com.au,~theage.com.au,~watoday.com.au##.adWrapper
 ##.top_ad
 ~alltimesgames.com,~comedycentral.de,~comedycentral.nl,~go.com,~modernmedicine.com,~shareapic.net,~viva.tv###bannerad
 ##.boxad
@@ -1809,7 +1813,7 @@ youku.com##.AB240
 ||static.atm.youku.com/*taobao*
 ||static.atm.youku.com/*-*.swf?js*tart=*
 !||valf.atm.youku.com/crossdomain.xml
-@@||valf.atm.youku.com/valf?*
+@@||valf.atm.youku.com/valf?*$domain=u.youku.com
 ||valf.atm.youku.com/valf?*
 ||valf.atm.youku.com/show?*
 ||fvid.atm.youku.com/*
@@ -2060,6 +2064,8 @@ newhua.com##[class^="ad_ritht_"]
 |*.dm8.cc/s/*
 |*.dm8.cc/javascript/xshow.js
 !----金山词霸----
+||cdn.iciba.com/web/co/fy/*.gif
+||cdn.iciba.com/web/co/ci/*.gif
 ||u.iciba.com/*
 |*.iciba.com/images/toef.jpg
 ||iciba.englishtown.com/Sp/Landing/*
@@ -2263,6 +2269,8 @@ zol.com.cn##[id^="ad_"]
 |*zol.com.cn/imphit0*.gif?*
 ||pic.zol.com.cn/*/*hp*_*_*.swf
 |*pc3w.com/jS/*
+!----巨鲸音乐在线----
+@@||www.top100.cn/script/header.js?*
 !----GC1069----
 gc1069.com##EMBED
 ||graphics.streamray.com/images/cams/flash/cams_live.swf
@@ -2296,6 +2304,7 @@ ocucn.com##[class^="getGold c"]
 !----互联网的那点事----
 ||alibuybuy-wordpress.stor.sinaapp.com/*
 !----卡饭----
+kafan.cn##[class^="wp header_gg"]
 ||a.ikafan.com/2/b.js*
 ||a.ikafan.com/4/*.gif*
 ||a.ikafan.com/3/*
@@ -3097,6 +3106,8 @@ kdslife.com,pchome.net##[class^="ad"]
 !----天空下载----
 skycn.com##.l.top7.bd
 |*.skycn.com/js/soft_*.js
+!----华为网盘----
+dl.vmall.com###filelist_marker
 !----草根网----
 |*20ju.com/js/caogen.js
 |*20ju.com/js/leftbottom.js
@@ -4076,6 +4087,8 @@ ali213.net##.newright
 !----Wangye2游戏门户----
 |*wangye2.com/templets/default/spec/seh/images/*
 !----爱拍游戏----
+||www.aipai.com/app/www/templates/videos/*/video_gg.js
+||121.10.241.110*/*
 ||apas.aipai.com/www/api/aipaiPlayFull2.js?0.*
 ||web.aipai.com/bbt/*
 ||apas.aipai.com/www/images/*
@@ -4221,8 +4234,9 @@ ali213.net##.newright
 !----3E高清电影网----
 |*0595jx.com/images/41.gif
 !----乐视网----
+@@||www.letv.com/zt/tuiguang/playerapi/pccs*.xml
 ||letv.allyes.com/*
-||dc.letv.com/*=*
+||dc.letv.com/*
 ||js.letvcdn.com/js/*/stats/*
 |*pro.letv.com/*
 !----FriendFinder&AsiaFriendFinder----
@@ -4636,10 +4650,11 @@ www.qidian.com##.DH17
 !-------------临时规则-------------
 !----百度推广验证码下载----
 !vdisk.cn
-@@||cpro.baidu.com/cpro/ui/uijs.php?*$domain=vdisk.cn
+@@||cpro.baidu.com/cpro/ui/uijs.php?*$domain=vdisk.cn|vmall.com
 @@||cpro.baidu.com/img/bg_captchaF.png
 @@||drmcmm.baidu.com/media/id=*&gp=403&time=*.jpg
-@@||drmcmm.baidu.com/media/id=*&gp=403&time=*.swf$domain=vdisk.cn
+@@||drmcmm.baidu.com/media/id=*&gp=403&time=*.swf$domain=vdisk.cn|vmall.com
+@@||drmcmm.baidu.com/media/id=*.gif$domain=cpro.baidu.com
 @@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
 @@||cpro.baidu.com/cpro/ui/y.js
 !9es.cn

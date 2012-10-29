@@ -1770,6 +1770,8 @@ www.123du.net/SiteFiles/js/ExpFuMeiTi.js
 www.123du.net/SiteFiles/GG*.html?*
 www.123du.net/SiteFiles/InPage*.html?*
 www.123du.net/SiteFiles/js/Exp*.js
+stat.ppstream.com/*
+ugcad.pps.tv/*
 *pps.tv/js_a2d/*
 *pps_banner.gif*
 www.PPStream.com/news/*
@@ -1995,6 +1997,4 @@ games.ifeng.com/webgame/*
 img.ifeng.com/tres/recommended/*
 img.ifeng.com/tres/recommend/*
 comment.ifeng.com/count_*
-img.ifeng.com/tres/xgyy/yk/*
-img.ifeng.com/tres/ifeng/*
 

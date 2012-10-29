@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-10-28 20:20:52
+#Updated:2012-10-29 21:46:55
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1861,6 +1861,8 @@ msFilterList
 -d www.123du.net /SiteFiles/InPage*.html?
 -d www.123du.net /SiteFiles/js/Exp*.js
 #----PPS网络电视----
+-d stat.ppstream.com
+-d ugcad.pps.tv
 - *pps.tv/js_a2d/
 - *pps_banner.gif
 -d www.PPStream.com /news/

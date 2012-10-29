@@ -1,3 +1,5 @@
+img.ifeng.com/tres/ifeng/*
+img.ifeng.com/tres/ylgm/*
 stadig.ifeng.com/*
 img.ifeng.com/tres/market/*
 img.ifeng.com/tres/html/*

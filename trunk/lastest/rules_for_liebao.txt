@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-10-28 20:20:52
+!Updated:2012-10-29 21:46:55
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -2024,6 +2024,8 @@ bannerad
 /:\/\/([^\/]+\.)?www\.123du\.net\/SiteFiles\/InPage.*\.html\?/
 /:\/\/([^\/]+\.)?www\.123du\.net\/SiteFiles\/js\/Exp.*\.js/
 !----PPS网络电视----
+/:\/\/([^\/]+\.)?stat\.ppstream\.com\//
+/:\/\/([^\/]+\.)?ugcad\.pps\.tv\//
 /pps\.tv\/js_a2d\//
 /pps_banner\.gif/
 /:\/\/([^\/]+\.)?www\.PPStream\.com\/news\//

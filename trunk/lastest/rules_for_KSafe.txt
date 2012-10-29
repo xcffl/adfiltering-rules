@@ -1770,6 +1770,8 @@
 5,4,www.123du.net/SiteFiles/GG*.html?*
 5,4,www.123du.net/SiteFiles/InPage*.html?*
 5,4,www.123du.net/SiteFiles/js/Exp*.js
+5,4,stat.ppstream.com/*
+5,4,ugcad.pps.tv/*
 5,4,*pps.tv/js_a2d/*
 5,4,*pps_banner.gif*
 5,4,www.PPStream.com/news/*

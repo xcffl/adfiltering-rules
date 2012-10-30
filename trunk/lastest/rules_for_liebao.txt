@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-10-29 21:46:55
+!Updated:2012-10-30 21:26:17
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -2673,6 +2673,8 @@ bannerad
 ##IMG[width="962"]	$d=itmxc.com
 /:\/\/([^\/]+\.)?www\.itmxc\.com\/mxc-news\/.*x.*\./
 !----新动漫网----
+##TABLE[background="/image/04/line2.gif"]	$d=xindm.cn
+##TABLE[width="976"][height="96"]	$d=xindm.cn
 ##TD[valign="middle"][bgcolor="#FFFFFF"][align="center"]	$d=xindm.cn
 ##TD[bgcolor="#cdcdcd"]	$d=xindm.cn
 !----专门网----

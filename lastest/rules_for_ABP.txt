@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-10-29 21:46:55
+!Updated:2012-10-30 21:26:17
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -2666,6 +2666,8 @@ yunjii.com##IMG[class][width="660"][height="60"][style="display: inline;"]
 itmxc.com##IMG[width="962"]
 ||www.itmxc.com/mxc-news/*x*.*
 !----新动漫网----
+xindm.cn##TABLE[background="/image/04/line2.gif"]
+xindm.cn##TABLE[width="976"][height="96"]
 xindm.cn##TD[valign="middle"][bgcolor="#FFFFFF"][align="center"]
 xindm.cn##TD[bgcolor="#cdcdcd"]
 !----专门网----

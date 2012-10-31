@@ -263,7 +263,8 @@
 5,4,*linkpage.js*
 5,4,*/showwindow/*
 5,4,*/unipro/*
-5,4,cl.*.*/*
+5,4,cl.*.*org*/*
+5,4,cl.*.*cn*/*
 5,4,*banners.*
 5,4,*/ads.js*
 5,4,*click.aspx?id=*
@@ -1012,13 +1013,12 @@
 5,4,code.52qiangming.com*
 5,4,code.comuce.com/bdcode/*
 5,4,cpv.channelray.com*
-5,4,98.126.54.107/*.gif
 5,4,dhcode.cn3.cn*
 5,4,display.xpresssyndication.com*
 5,4,*dotmore.cn*
 5,4,*dw-cn.com.com/*
 5,4,ec.131377.com*
-5,4,file.chanet.com.cn*
+5,4,file.chanet.com.cn/*
 5,4,ww.xt918.com/i.js
 5,4,gg.12354.com*
 5,4,h1.untang.com/*
@@ -1591,6 +1591,7 @@
 5,4,*/cv/pl?*&file=*f4v*
 5,4,*/pos?f=f4v*
 5,4,td.atm.youku.com/tdap/adclose
+5,4,static.atm.youku.com/*udou2012/*.jpg
 5,4,static.atm.youku.com/*udou2012/*.swf*
 5,4,td.atm.youku.com/tdap/adplay
 5,4,td.atm.youku.com/tdap/adcommon?*
@@ -2591,6 +2592,7 @@
 5,4,static.jjwxc.net/scripts/richMedia.js*
 5,4,*.static.jjwxc.net/sp/*.html
 5,4,*.99d.com/images/99d_*x*_*.gif
+5,4,98.126.54.107/*.gif
 5,4,s1.cjdaili.com/images/vpn.jpg
 5,4,ny.sxrb.com/configuration/js/*
 5,4,images.daynews.com.cn/zzbframe/2010daynews/js/*

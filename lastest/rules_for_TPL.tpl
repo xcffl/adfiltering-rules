@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-10-29 21:46:55
+#Updated:2012-10-31 21:52:32
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -275,7 +275,8 @@ msFilterList
 - http://*linkpage.js
 - */showwindow/
 - */unipro/
-- http://cl.*.*/
+- http://cl.*.*org*/
+- http://cl.*.*cn*/
 - http://*banners.
 - */ads.js
 - *click.aspx?id=
@@ -1030,14 +1031,12 @@ msFilterList
 - http://code.52qiangming.com
 -d code.comuce.com /bdcode/
 - http://cpv.channelray.com
-#----十八和谐综合色区----
--d 98.126.54.107 .gif
 - http://dhcode.cn3.cn
 - http://display.xpresssyndication.com
 - http://*dotmore.cn
 - *dw-cn.com.com/
 - http://ec.131377.com
-- http://file.chanet.com.cn
+-d file.chanet.com.cn
 -d ww.xt918.com /i.js
 - http://gg.12354.com
 -d h1.untang.com
@@ -1636,6 +1635,7 @@ msFilterList
 - */cv/pl?*&file=*f4v
 - */pos?f=f4v
 -d td.atm.youku.com /tdap/adclose
+-d static.atm.youku.com udou2012/*.jpg
 -d static.atm.youku.com udou2012/*.swf
 -d td.atm.youku.com /tdap/adplay
 -d td.atm.youku.com /tdap/adcommon?
@@ -2494,6 +2494,7 @@ msFilterList
 -d down.x6x8.com /good/
 #----txt论坛----
 -d bbs.txtbbs.com /data/*.swf
+#----携程----
 #----图集网----
 -d www.tujiw.com /tuijs/
 #----爆米花网----
@@ -3033,6 +3034,8 @@ msFilterList
 - *.static.jjwxc.net/sp/*.html
 #----99d软件园----
 - *.99d.com/images/99d_*x*_*.gif
+#----十八和谐综合色区----
+-d 98.126.54.107 .gif
 #----CJDdaiLi超级在线代理----
 -d s1.cjdaili.com /images/vpn.jpg
 #----山西新闻网----

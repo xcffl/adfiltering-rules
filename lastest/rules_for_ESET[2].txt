@@ -1,3 +1,4 @@
+img.ifeng.com/tres/xgyy/yk/*
 img.ifeng.com/tres/ifeng/*
 img.ifeng.com/tres/ylgm/*
 stadig.ifeng.com/*
@@ -591,6 +592,7 @@ www.23sc.cn/007/*
 static.jjwxc.net/scripts/richMedia.js*
 *.static.jjwxc.net/sp/*.html
 *.99d.com/images/99d_*x*_*.gif
+98.126.54.107/*.gif
 s1.cjdaili.com/images/vpn.jpg
 ny.sxrb.com/configuration/js/*
 images.daynews.com.cn/zzbframe/2010daynews/js/*

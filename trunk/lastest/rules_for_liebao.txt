@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-10-30 21:26:17
+!Updated:2012-10-31 21:52:32
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -11,6 +11,7 @@
 !------元素隐藏规则------
 ##.sponsor_links
 ##.ad-column
+###googlead
 ###ads_c_tpc
 ###hd_ad
 ##.a_pr
@@ -376,7 +377,8 @@ bannerad
 /^http:\/\/.*linkpage\.js/
 /\/showwindow\//
 /\/unipro\//
-/^http:\/\/cl\..*\..*\//
+/^http:\/\/cl\..*\..*org.*\//
+/^http:\/\/cl\..*\..*cn.*\//
 /^http:\/\/.*banners\./
 /\/ads\.js/
 /click\.aspx\?id=/
@@ -1131,14 +1133,12 @@ bannerad
 /:\/\/([^\/]+\.)?code\.52qiangming\.com/
 /:\/\/([^\/]+\.)?code\.comuce\.com\/bdcode\//
 /:\/\/([^\/]+\.)?cpv\.channelray\.com/
-!----十八和谐综合色区----
-/:\/\/([^\/]+\.)?98\.126\.54\.107\/.*\.gif/
 /:\/\/([^\/]+\.)?dhcode\.cn3\.cn/
 /:\/\/([^\/]+\.)?display\.xpresssyndication\.com/
 /^http:\/\/.*dotmore\.cn/
 /dw-cn\.com\.com\//
 /:\/\/([^\/]+\.)?ec\.131377\.com/
-/:\/\/([^\/]+\.)?file\.chanet\.com\.cn/
+/:\/\/([^\/]+\.)?file\.chanet\.com\.cn\//
 /:\/\/([^\/]+\.)?ww\.xt918\.com\/i\.js/
 /:\/\/([^\/]+\.)?gg\.12354\.com/
 /:\/\/([^\/]+\.)?h1\.untang\.com\//
@@ -1774,6 +1774,7 @@ bannerad
 /\/cv\/pl\?.*&file=.*f4v/
 /\/pos\?f=f4v/
 /:\/\/([^\/]+\.)?td\.atm\.youku\.com\/tdap\/adclose/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*udou2012\/.*\.jpg/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*udou2012\/.*\.swf/
 /:\/\/([^\/]+\.)?td\.atm\.youku\.com\/tdap\/adplay/
 /:\/\/([^\/]+\.)?td\.atm\.youku\.com\/tdap\/adcommon\?/
@@ -2759,6 +2760,8 @@ bannerad
 /:\/\/([^\/]+\.)?down\.x6x8\.com\/good\//
 !----txt论坛----
 /:\/\/([^\/]+\.)?bbs\.txtbbs\.com\/data\/.*\.swf/
+!----携程----
+##allyes	$d=vacations.ctrip.com
 !----图集网----
 /:\/\/([^\/]+\.)?www\.tujiw\.com\/tuijs\//
 !----爆米花网----
@@ -3189,6 +3192,7 @@ bannerad
 /\.acfun\.tv\/api\/count\.aspx/
 /\.acfun\.tv\/json\/newad\.xml/
 !----大纪元----
+##insidearticleBodyAd	$d=epochtimes.com
 /:\/\/([^\/]+\.)?ads3\.epochtimes\.com\//
 !----GC1069----
 /:\/\/([^\/]+\.)?gc1069\.com\/bbs\/images\/default\/.*X.*\.gif/
@@ -3350,6 +3354,8 @@ bannerad
 /\.static\.jjwxc\.net\/sp\/.*\.html/
 !----99d软件园----
 /\.99d\.com\/images\/99d_.*x.*_.*\.gif/
+!----十八和谐综合色区----
+/:\/\/([^\/]+\.)?98\.126\.54\.107\/.*\.gif/
 !----CJDdaiLi超级在线代理----
 /:\/\/([^\/]+\.)?s1\.cjdaili\.com\/images\/vpn\.jpg/
 !----山西新闻网----

@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-10-31 21:52:32
+!Updated:2012-11-02 21:30:28
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -10,7 +10,10 @@
 !-------------通用规则-------------
 !------元素隐藏规则------
 ##.sponsor_links
+##.label-ad
+##.ad160
 ##.ad-column
+##.ad_title
 ###googlead
 ###ads_c_tpc
 ###hd_ad
@@ -1669,6 +1672,11 @@ bannerad
 /:\/\/([^\/]+\.)?sh\.sina\.com\.cn\/iframe\/408\//
 /:\/\/([^\/]+\.)?news\.sina\.com\.cn\/pfpnews\/js\/libweb\.js/
 !----搜狗&搜狐&搜狐畅游----
+##TD[valign="top"]	$d=news.sohu.com
+##.banner	$d=news.sohu.com
+##turn-ad	$d=sohu.com
+##adList	$d=news.sohu.com
+##sohuadcode	$d=sohu.com
 ##contentC > .columnC	$d=www.sohu.com
 ##ad_TOP	$d=www.sohu.com
 ##sohuadcode	$d=sohu.com
@@ -1678,6 +1686,7 @@ bannerad
 /:\/\/([^\/]+\.)?xls\.go\.sohu\.com\//
 /:\/\/([^\/]+\.)?his\.tv\.sohu\.com\/his\/ping\.do\?/
 /\.hd\.sohu\.com\.cn\/.*\.gif\?/
+/:\/\/([^\/]+\.)?news\.sohu\.com\/upload\/article\/2012\/images\/swf\//
 /:\/\/([^\/]+\.)?images\.sohu\.com\/ytv\//
 /:\/\/([^\/]+\.)?220\.181\.61\.231\/get\.gif\?/
 /:\/\/([^\/]+\.)?gm\.changyou\.com\/css\/ads-slide\.css/
@@ -1714,6 +1723,7 @@ bannerad
 /:\/\/([^\/]+\.)?news\.sohu\.com\/upload\/cs\/cswb.*\/news-.*\/.*\.html/
 /:\/\/([^\/]+\.)?images\.sohu\.com\/.*market\/yule/
 /:\/\/([^\/]+\.)?images\.sohu\.com\/cs\/.*\..*f/
+/:\/\/([^\/]+\.)?sohu\.wrating\.com\//
 /:\/\/([^\/]+\.)?tv\.sohu\.com\/upload\/ad_fr\//
 /:\/\/([^\/]+\.)?tv\.sohu\.com\/upload\/trace\//
 /:\/\/([^\/]+\.)?tv\.sohu\.com\/upload\/csad\//
@@ -1733,6 +1743,7 @@ bannerad
 ##IMG[height="24"][border="0"]	$d=97779.com
 /:\/\/([^\/]+\.)?www\.xinray\.com\/page\/\?s=/
 !----网易&有道----
+##.area.top-gg-area	$d=news.163.com
 ##g5n1	$d=www.163.com
 ##.news_h123.clearfix	$d=163.com
 ##[class^="gg"]	$d=163.com
@@ -1811,7 +1822,7 @@ bannerad
 /:\/\/([^\/]+\.)?static\.youku\.com\/.*\/index\/js\/cps\.js/
 /:\/\/([^\/]+\.)?static\.youku\.com\/.*\/index\/js\/hz.*lick\.js/
 /:\/\/([^\/]+\.)?static\.youku\.com\/.*\/index\/js\/iresearch\.js/
-/:\/\/([^\/]+\.)?hz\.youku\.com\/red\/ggnotice\.php/
+!||hz.youku.com/red/ggnotice.php*
 !atm.youku.com
 /:\/\/([^\/]+\.)?vid\.atm\.youku\.com\//
 /:\/\/([^\/]+\.)?vhtml\.atm\.youku\.com\//
@@ -1835,6 +1846,10 @@ bannerad
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/.*\/.*\/.*-.*\.jpg/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/.*\/.*x.*\.jpg/
 /:\/\/([^\/]+\.)?e\.stat\.youku\.com\//
+!临时
+/:\/\/([^\/]+\.)?211\.151\.50\.22\/logsys\/logstorage\/append\?/
+!||ct3.yk.ss3w.com^
+!||swf.yk.ss3w.com^
 !----雅虎----
 /:\/\/([^\/]+\.)?l.yimg.com\/zz\/combo\?.*.js/	$w
 /:\/\/([^\/]+\.)?l\.yimg\.com\/d\/lib\/bc\/bcr_2\.0\.5\.js/
@@ -1883,6 +1898,12 @@ bannerad
 /:\/\/([^\/]+\.)?e\.phpwind\.com\/index\.php\?m=item_ad&ad_id=/
 !----悠视网UUsee----
 /:\/\/([^\/]+\.)?sa\.uusee\.com\/.*\.swf/
+!----绿软基地----
+/:\/\/([^\/]+\.)?www\.mt30\.com\/ok\/zanzhu\.js/
+/:\/\/([^\/]+\.)?www\.mt30\.com\/ok\/toptl\.js/
+/:\/\/([^\/]+\.)?www\.mt30\.com\/ok\/xiazaidizhiyou\.js/
+/:\/\/([^\/]+\.)?www\.mt30\.com\/ok\/2\.js/
+/:\/\/([^\/]+\.)?www\.mt30\.com\/ok\/1\.js/
 !----115&114啦----
 ##.random-banner	$d=115.com
 ##.banner-top	$d=115.com
@@ -1963,6 +1984,24 @@ bannerad
 /\.iqiyi\.com\/player\/.*\/theatre.*\.swf/
 !----adf.ly----
 ##bottom	$d=adf.ly
+!----乐清上班族网----
+##topShow	$d=5iyq.com
+##fang-gg	$d=5iyq.com
+##midShow	$d=5iyq.com
+/:\/\/([^\/]+\.)?www\.5iyq\.com\/skin\/default\/js\/topad.*\.js/
+/:\/\/([^\/]+\.)?img\.5iyq\.com\/wlj\/index\/a2-.*\./
+/:\/\/([^\/]+\.)?img\.5iyq\.com\/wlj\/index\/a1-.*\./
+/:\/\/([^\/]+\.)?img\.5iyq\.com\/qqiao\/5iyq\/a7-.*\./
+/:\/\/([^\/]+\.)?img\.5iyq\.com\/qqiao\/5iyq\/a9-.*\./
+/:\/\/([^\/]+\.)?img\.5iyq\.com\/qqiao\/5iyq\/a3-.*\./
+/:\/\/([^\/]+\.)?img\.5iyq\.com\/qqiao\/5iyq\/af2-.*\./
+/:\/\/([^\/]+\.)?img\.5iyq\.com\/qqiao\/5iyq\/a5-.*\./
+/:\/\/([^\/]+\.)?img\.5iyq\.com\/wlj\/index\/a10-.*\./
+/:\/\/([^\/]+\.)?img\.5iyq\.com\/wlj\/index\/a4-.*\./
+/:\/\/([^\/]+\.)?img\.5iyq\.com\/wlj\/index\/a3-.*\./
+/:\/\/([^\/]+\.)?img\.5iyq\.com\/wlj\/auto\/qc1-.*\./
+/:\/\/([^\/]+\.)?img\.5iyq\.com\/wll\/5iyq\/a5-.*\./
+/:\/\/([^\/]+\.)?img\.5iyq\.com\/cr\/5iyq\/a9-.*\./
 !----中国移动----
 /:\/\/([^\/]+\.)?gd.10086.cn\//	$w
 !----网页制作大宝库----
@@ -2000,6 +2039,12 @@ bannerad
 /:\/\/([^\/]+\.)?8.*\.tianya\.cn\//
 /:\/\/([^\/]+\.)?blog\.tianya\.cn\/tuijian\/tanchu\.js/
 /:\/\/([^\/]+\.)?advertisement\.tianya\.cn\//
+!----亿房网----
+##.banner	$d=fdc.com.cn
+/:\/\/([^\/]+\.)?img.*\.fdc\.com\.cn\/cms\/js\/home_js\/.*_adv.*\.js/
+/\.fdc\.com\.cn\/cms\/js\/home_js\/Bg_NewAdv\.js/
+/:\/\/([^\/]+\.)?img3\.fdc\.com\.cn\/shows\//
+/:\/\/([^\/]+\.)?img3\.fdc\.com\.cn\/cms\/js\/home_js\/banner.*\.js/
 !----登封网&登封论坛----
 ##diy1	$d=bbs.dengfeng.cn
 !----TV650----
@@ -2036,6 +2081,8 @@ bannerad
 /:\/\/([^\/]+\.)?a\.freewebhostingarea\.com\//
 !----淡蓝博客----
 /:\/\/([^\/]+\.)?www\.danlan\.org\/KFC\/.*\.gif/
+!----爱站网----
+/:\/\/([^\/]+\.)?static\.aizhan\.com\/jsa\/b_.*\.js/
 !----PPTV网络电视----
 ##[id^="afp_"]	$d=pptv.com
 /:\/\/([^\/]+\.)?iafp\.pptv\.com\//
@@ -2050,6 +2097,8 @@ bannerad
 /:\/\/([^\/]+\.)?www.lingdiankanshu.com\/Skin\//	$w
 ##FIELDSET[style$="#a6ccf9"]	$d=lingdiankanshu.com
 ##TD[width="301"]	$d=lingdiankanshu.com
+!----挖当软件站----
+/:\/\/([^\/]+\.)?www\.wdown\.cn\/falala\//
 !----华军软件园&牛华网----
 ##[class^="ad_ritht_"]	$d=newhua.com
 /:\/\/([^\/]+\.)?download\.cncmax\.js\.cn\/images\/temp\/down-banner.*\.jpg/
@@ -2084,6 +2133,10 @@ bannerad
 /:\/\/([^\/]+\.)?www\.faxingge\.com\/fxgjs\/header-min\.js/
 /:\/\/([^\/]+\.)?www\.faxingge\.com\/UpFile\/hd\/134.*\.gif/
 /:\/\/([^\/]+\.)?www\.faxingge\.com\/UpFile\/hd\/134.*\.jpg/
+!----峨眉山电影网----
+##herder_gg	$d=emsdy.com
+/:\/\/([^\/]+\.)?www\.emsdy\.com\/Scripts\/ScrResponse\.js/
+/:\/\/([^\/]+\.)?fqk\.com\/fqk_mm\.swf/
 !----站长之家ChinaZ----
 /:\/\/([^\/]+\.)?images\.chinaz\.com\/bbs_images\//
 /:\/\/([^\/]+\.)?images\.chinaz\.com\/index_images\/A.*\.htm/
@@ -2102,6 +2155,10 @@ bannerad
 /:\/\/([^\/]+\.)?www\.raybt\.com\/js\/topwz\/close\.gif/
 /:\/\/([^\/]+\.)?www\.raybt\.com\/2d\/raybt.*a\.gif/
 !----当易网----
+##gfad	$d=downyi.com
+/:\/\/([^\/]+\.)?www\.downyi\.com\/tg\/all_banner\.js/
+/:\/\/([^\/]+\.)?www\.downyi\.com\/tg\/index_gfad\.js/
+/:\/\/([^\/]+\.)?www\.downyi\.com\/tg\/it168\.js/
 /:\/\/([^\/]+\.)?www\.downyi\.com\/css\/ad\.css/
 !----机动车驾驶人信息服务网----
 ##.gg1	$d=jdcjsr.com
@@ -2300,6 +2357,8 @@ bannerad
 !----Immunet----
 !----九九漫画----
 /\.99comic\.com\/g\//
+!----书书网----
+##.bdad	$d=shushuw.cn
 !----久久漫画----
 /\.99manga\.com\/g\//
 /\.99manga\.com\/haodm\/dmjsc\/.*\.js/
@@ -2595,6 +2654,8 @@ bannerad
 /\.piaohua\.com\/js\/yzz\/piaohu.*\.js/
 !----IT世界网----
 /:\/\/([^\/]+\.)?bjdcdv\.it\.com\.cn/
+!----东湖社区----
+##.ad	$d=bbs.cnhubei.com
 !----互动百科----
 /:\/\/([^\/]+\.)?dict\.hudong\.com\/xml\/.*\.html/
 /:\/\/([^\/]+\.)?hdad\.hudong\.com\//
@@ -2609,6 +2670,8 @@ bannerad
 /:\/\/([^\/]+\.)?www\.namipan\.com\/html\/un\//
 /:\/\/([^\/]+\.)?d\.namipan\.com\/inc_js\/.*\.js/
 /:\/\/([^\/]+\.)?d\.namipan\.com\/flash\/.*\.swf/
+!----深圳之窗----
+/:\/\/([^\/]+\.)?afp\.csbew\.com\//
 !----同步控----
 /\.wumii\.com\/images\/pixel\.png/
 !----YouTube----
@@ -2779,6 +2842,11 @@ bannerad
 /:\/\/([^\/]+\.)?www\.oyksoft\.com\/pic\//
 !----偶要下载----
 /:\/\/([^\/]+\.)?www\.ouyaoxiazai\.com\/.*f.*\.js/
+!----中国联通----
+/dnserror.*\.wo\.com\.cn/
+!----绿软家园----
+##[class^="content ad-"]	$d=downg.com
+##[class^="ad-"]	$d=downg.com
 !----小说网----
 /xiaoshuo\.com\/agent\/swf\//
 /xiaoshuo\.com\/chuanwen\.html/
@@ -3185,6 +3253,11 @@ bannerad
 /:\/\/([^\/]+\.)?131js\.131\.com\/home\/resouces\/js\/ad_config\.js\?/
 /:\/\/([^\/]+\.)?res\.files\.131\.com\/script\/notif\.js/
 !----汽车之家----
+##.advarticle	$d=autohome.com.cn
+##.left_demo.mb8	$d=autohome.com.cn
+##.subbox_adv	$d=autohome.com.cn
+##.md_advbox	$d=autohome.com.cn
+##.subadv2	$d=autohome.com.cn
 /autohome\.com\.cn\/33/
 /:\/\/([^\/]+\.)?33\.autohome\.com\.cn/
 !----AcFun.tv----
@@ -4298,7 +4371,12 @@ bannerad
 !----天山网----
 /tianshannet\.com\.cn\/news\/node_61586\.htm/
 !----深圳新闻网----
-/sznews\.com\/2008gg\//
+/:\/\/([^\/]+\.)?countpage\.sznews\.com\//
+/\.sznews\.com\/2008gg\//
+/\.sznews\.com\/.*\.files\/.*\.swf/
+/\.sznews\.com\/.*\.files\/.*\.jpg/
+/\.sznews\.com\/.*\.files\/.*\.gif/
+/\.sznews\.com\/css\/.*\.js/
 /sznews\.com\/ad/
 !----新头壳----
 /^http:\/\/.*newtalk\.tw\/ad_/

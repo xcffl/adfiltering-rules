@@ -1507,6 +1507,7 @@
 5,4,xls.go.sohu.com/*
 5,4,his.tv.sohu.com/his/ping.do?*
 5,4,*.hd.sohu.com.cn/*.gif?*
+5,4,news.sohu.com/upload/article/2012/images/swf/*
 5,4,images.sohu.com/ytv/*
 5,4,220.181.61.231/get.gif?*
 5,4,gm.changyou.com/css/ads-slide.css
@@ -1543,6 +1544,7 @@
 5,4,news.sohu.com/upload/cs/cswb*/news-*/*.html
 5,4,images.sohu.com/*market/yule*
 5,4,images.sohu.com/cs/*.*f
+5,4,sohu.wrating.com/*
 5,4,tv.sohu.com/upload/ad_fr/*
 5,4,tv.sohu.com/upload/trace/*
 5,4,tv.sohu.com/upload/csad/*
@@ -1620,7 +1622,6 @@
 5,4,static.youku.com/*/index/js/cps.js
 5,4,static.youku.com/*/index/js/hz*lick.js
 5,4,static.youku.com/*/index/js/iresearch.js
-5,4,hz.youku.com/red/ggnotice.php*
 5,4,vid.atm.youku.com/*
 5,4,vhtml.atm.youku.com/*
 5,4,html.atm.youku.com/*
@@ -1637,6 +1638,7 @@
 5,4,static.atm.youku.com/*/*/*/*-*.jpg
 5,4,static.atm.youku.com/*/*/*x*.jpg
 5,4,e.stat.youku.com/*
+5,4,211.151.50.22/logsys/logstorage/append?*
 5,4,l.yimg.com/d/lib/bc/bcr_2.0.5.js
 5,4,l.yimg.com/f/a/tw/gif_backup/ad_*.gif
 5,4,*.webmaster.yahoo.com/*
@@ -1676,6 +1678,11 @@
 5,4,*.uueasy.com/js/tao123.js
 5,4,e.phpwind.com/index.php?m=item_ad&ad_id=*
 5,4,sa.uusee.com/*.swf
+5,4,www.mt30.com/ok/zanzhu.js
+5,4,www.mt30.com/ok/toptl.js
+5,4,www.mt30.com/ok/xiazaidizhiyou.js
+5,4,www.mt30.com/ok/2.js
+5,4,www.mt30.com/ok/1.js
 5,4,www.114la.com/indexa.html
 5,4,*114la.com/public/widget/toptao/*
 5,4,u.115.com/static/media/*
@@ -1729,6 +1736,20 @@
 5,4,policy.cupid.qiyi.com/*
 5,4,uestat.video.qiyi.com/*
 5,4,*.iqiyi.com/player/*/theatre*.swf
+5,4,www.5iyq.com/skin/default/js/topad*.js
+5,4,img.5iyq.com/wlj/index/a2-*.*
+5,4,img.5iyq.com/wlj/index/a1-*.*
+5,4,img.5iyq.com/qqiao/5iyq/a7-*.*
+5,4,img.5iyq.com/qqiao/5iyq/a9-*.*
+5,4,img.5iyq.com/qqiao/5iyq/a3-*.*
+5,4,img.5iyq.com/qqiao/5iyq/af2-*.*
+5,4,img.5iyq.com/qqiao/5iyq/a5-*.*
+5,4,img.5iyq.com/wlj/index/a10-*.*
+5,4,img.5iyq.com/wlj/index/a4-*.*
+5,4,img.5iyq.com/wlj/index/a3-*.*
+5,4,img.5iyq.com/wlj/auto/qc1-*.*
+5,4,img.5iyq.com/wll/5iyq/a5-*.*
+5,4,img.5iyq.com/cr/5iyq/a9-*.*
 5,4,images.dabaoku.com/*.gif
 5,4,www.dabaoku.com/js/top*.js
 5,4,*zymk.cn/Public/upload/img/2010-08-11/20100811132427.jpg
@@ -1756,6 +1777,10 @@
 5,4,8*.tianya.cn/*
 5,4,blog.tianya.cn/tuijian/tanchu.js
 5,4,advertisement.tianya.cn/*
+5,4,img*.fdc.com.cn/cms/js/home_js/*_adv*.js
+5,4,*.fdc.com.cn/cms/js/home_js/Bg_NewAdv.js
+5,4,img3.fdc.com.cn/shows/*
+5,4,img3.fdc.com.cn/cms/js/home_js/banner*.js
 5,4,www.tv650.com/sq3.gif
 5,4,www.tv650.com/itv/index.htm
 5,4,*.people.com.cn/mediafile/*.swf
@@ -1780,6 +1805,7 @@
 5,4,*.pps.tv/cprtp/*
 5,4,a.freewebhostingarea.com/*
 5,4,www.danlan.org/KFC/*.gif
+5,4,static.aizhan.com/jsa/b_*.js
 5,4,iafp.pptv.com/*
 5,4,player.pplive.cn/*/*ive*lugin.swf*
 5,4,*.synacast.com/*
@@ -1787,6 +1813,7 @@
 5,4,union.dangdang.com/*
 5,4,a.dangdang.com/*
 5,4,img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
+5,4,www.wdown.cn/falala/*
 5,4,download.cncmax.js.cn/images/temp/down-banner*.jpg
 5,4,news.newhua.com/newhuagg/news_*
 5,4,www.onlinedown.net/newhuagg/js_*
@@ -1816,6 +1843,8 @@
 5,4,www.faxingge.com/fxgjs/header-min.js
 5,4,www.faxingge.com/UpFile/hd/134*.gif
 5,4,www.faxingge.com/UpFile/hd/134*.jpg
+5,4,www.emsdy.com/Scripts/ScrResponse.js
+5,4,fqk.com/fqk_mm.swf
 5,4,images.chinaz.com/bbs_images/*
 5,4,images.chinaz.com/index_images/A*.htm
 5,4,images.chinaz.com/index_images/wz.htm
@@ -1829,6 +1858,9 @@
 5,4,bbs.ruian.com/img/gd_*x*.gif
 5,4,www.raybt.com/js/topwz/close.gif
 5,4,www.raybt.com/2d/raybt*a.gif
+5,4,www.downyi.com/tg/all_banner.js
+5,4,www.downyi.com/tg/index_gfad.js
+5,4,www.downyi.com/tg/it168.js
 5,4,www.downyi.com/css/ad.css
 5,4,www.jdcjsr.com/picture/jdcgg/*
 5,4,www.jdcjsr.com/images/0.gif
@@ -2146,6 +2178,7 @@
 5,4,www.namipan.com/html/un/*
 5,4,d.namipan.com/inc_js/*.js
 5,4,d.namipan.com/flash/*.swf
+5,4,afp.csbew.com/*
 5,4,*.wumii.com/images/pixel.png
 5,4,*youtube.com/img/youchoose/*
 5,4,*.bkill.com/css/js/bkill.js
@@ -2240,6 +2273,7 @@
 5,4,*oyksoft.com/oyksoft_js/*
 5,4,www.oyksoft.com/pic/*
 5,4,www.ouyaoxiazai.com/*f*.js
+5,4,*dnserror*.wo.com.cn*
 5,4,*xiaoshuo.com/agent/swf/*
 5,4,*xiaoshuo.com/chuanwen.html
 5,4,allyes.jrj.com/*
@@ -3168,7 +3202,12 @@
 5,4,*singtao.com/js/ecard.js
 5,4,image.wenweipo.com/*/ad_*
 5,4,*tianshannet.com.cn/news/node_61586.htm
-5,4,*sznews.com/2008gg/*
+5,4,countpage.sznews.com/*
+5,4,*.sznews.com/2008gg/*
+5,4,*.sznews.com/*.files/*.swf
+5,4,*.sznews.com/*.files/*.jpg
+5,4,*.sznews.com/*.files/*.gif
+5,4,*.sznews.com/css/*.js
 5,4,*sznews.com/ad*
 5,4,*newtalk.tw/ad_*
 5,4,*mingpao.com/image/banner/adc/*.jpg

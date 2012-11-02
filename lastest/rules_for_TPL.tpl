@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-10-31 21:52:32
+#Updated:2012-11-02 21:30:28
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1545,6 +1545,7 @@ msFilterList
 -d xls.go.sohu.com
 -d his.tv.sohu.com /his/ping.do?
 - *.hd.sohu.com.cn/*.gif?
+-d news.sohu.com /upload/article/2012/images/swf/
 -d images.sohu.com /ytv/
 -d 220.181.61.231 /get.gif?
 -d gm.changyou.com /css/ads-slide.css
@@ -1581,6 +1582,7 @@ msFilterList
 -d news.sohu.com /upload/cs/cswb*/news-*/*.html
 -d images.sohu.com market/yule
 -d images.sohu.com /cs/*.*f
+-d sohu.wrating.com
 -d tv.sohu.com /upload/ad_fr/
 -d tv.sohu.com /upload/trace/
 -d tv.sohu.com /upload/csad/
@@ -1665,7 +1667,7 @@ msFilterList
 -d static.youku.com /index/js/cps.js
 -d static.youku.com /index/js/hz*lick.js
 -d static.youku.com /index/js/iresearch.js
--d hz.youku.com /red/ggnotice.php
+#||hz.youku.com/red/ggnotice.php*
 #atm.youku.com
 -d vid.atm.youku.com
 -d vhtml.atm.youku.com
@@ -1689,6 +1691,10 @@ msFilterList
 -d static.atm.youku.com /*/*/*-*.jpg
 -d static.atm.youku.com /*/*x*.jpg
 -d e.stat.youku.com
+#临时
+-d 211.151.50.22 /logsys/logstorage/append?
+#||ct3.yk.ss3w.com^
+#||swf.yk.ss3w.com^
 #----雅虎----
 +d l.yimg.com /zz/combo?*.js
 -d l.yimg.com /d/lib/bc/bcr_2.0.5.js
@@ -1736,6 +1742,12 @@ msFilterList
 -d e.phpwind.com /index.php?m=item_ad&ad_id=
 #----悠视网UUsee----
 -d sa.uusee.com .swf
+#----绿软基地----
+-d www.mt30.com /ok/zanzhu.js
+-d www.mt30.com /ok/toptl.js
+-d www.mt30.com /ok/xiazaidizhiyou.js
+-d www.mt30.com /ok/2.js
+-d www.mt30.com /ok/1.js
 #----115&114啦----
 -d www.114la.com /indexa.html
 - *114la.com/public/widget/toptao/
@@ -1803,6 +1815,21 @@ msFilterList
 -d uestat.video.qiyi.com
 - *.iqiyi.com/player/*/theatre*.swf
 #----adf.ly----
+#----乐清上班族网----
+-d www.5iyq.com /skin/default/js/topad*.js
+-d img.5iyq.com /wlj/index/a2-*.
+-d img.5iyq.com /wlj/index/a1-*.
+-d img.5iyq.com /qqiao/5iyq/a7-*.
+-d img.5iyq.com /qqiao/5iyq/a9-*.
+-d img.5iyq.com /qqiao/5iyq/a3-*.
+-d img.5iyq.com /qqiao/5iyq/af2-*.
+-d img.5iyq.com /qqiao/5iyq/a5-*.
+-d img.5iyq.com /wlj/index/a10-*.
+-d img.5iyq.com /wlj/index/a4-*.
+-d img.5iyq.com /wlj/index/a3-*.
+-d img.5iyq.com /wlj/auto/qc1-*.
+-d img.5iyq.com /wll/5iyq/a5-*.
+-d img.5iyq.com /cr/5iyq/a9-*.
 #----中国移动----
 +d gd.10086.cn
 #----网页制作大宝库----
@@ -1838,6 +1865,11 @@ msFilterList
 - http://8*.tianya.cn/
 -d blog.tianya.cn /tuijian/tanchu.js
 -d advertisement.tianya.cn
+#----亿房网----
+- http://img*.fdc.com.cn/cms/js/home_js/*_adv*.js
+- *.fdc.com.cn/cms/js/home_js/Bg_NewAdv.js
+-d img3.fdc.com.cn /shows/
+-d img3.fdc.com.cn /cms/js/home_js/banner*.js
 #----登封网&登封论坛----
 #----TV650----
 -d www.tv650.com /sq3.gif
@@ -1872,6 +1904,8 @@ msFilterList
 -d a.freewebhostingarea.com
 #----淡蓝博客----
 -d www.danlan.org /KFC/*.gif
+#----爱站网----
+-d static.aizhan.com /jsa/b_*.js
 #----PPTV网络电视----
 -d iafp.pptv.com
 -d player.pplive.cn /*ive*lugin.swf
@@ -1883,6 +1917,8 @@ msFilterList
 -d img4.ddimg.cn /00074/pic/*_*_*x*_*.jpg
 #----零点看书网----
 +d www.lingdiankanshu.com /Skin/
+#----挖当软件站----
+-d www.wdown.cn /falala/
 #----华军软件园&牛华网----
 -d download.cncmax.js.cn /images/temp/down-banner*.jpg
 -d news.newhua.com /newhuagg/news_
@@ -1916,6 +1952,9 @@ msFilterList
 -d www.faxingge.com /fxgjs/header-min.js
 -d www.faxingge.com /UpFile/hd/134*.gif
 -d www.faxingge.com /UpFile/hd/134*.jpg
+#----峨眉山电影网----
+-d www.emsdy.com /Scripts/ScrResponse.js
+-d fqk.com /fqk_mm.swf
 #----站长之家ChinaZ----
 -d images.chinaz.com /bbs_images/
 -d images.chinaz.com /index_images/A*.htm
@@ -1933,6 +1972,9 @@ msFilterList
 -d www.raybt.com /js/topwz/close.gif
 -d www.raybt.com /2d/raybt*a.gif
 #----当易网----
+-d www.downyi.com /tg/all_banner.js
+-d www.downyi.com /tg/index_gfad.js
+-d www.downyi.com /tg/it168.js
 -d www.downyi.com /css/ad.css
 #----机动车驾驶人信息服务网----
 -d www.jdcjsr.com /picture/jdcgg/
@@ -2093,6 +2135,7 @@ msFilterList
 #----Immunet----
 #----九九漫画----
 - *.99comic.com/g/
+#----书书网----
 #----久久漫画----
 - *.99manga.com/g/
 - *.99manga.com/haodm/dmjsc/*.js
@@ -2356,6 +2399,7 @@ msFilterList
 - *.piaohua.com/js/yzz/piaohu*.js
 #----IT世界网----
 - http://bjdcdv.it.com.cn
+#----东湖社区----
 #----互动百科----
 -d dict.hudong.com /xml/*.html
 -d hdad.hudong.com
@@ -2370,6 +2414,8 @@ msFilterList
 -d www.namipan.com /html/un/
 -d d.namipan.com /inc_js/*.js
 -d d.namipan.com /flash/*.swf
+#----深圳之窗----
+-d afp.csbew.com
 #----同步控----
 - *.wumii.com/images/pixel.png
 #----YouTube----
@@ -2511,6 +2557,9 @@ msFilterList
 -d www.oyksoft.com /pic/
 #----偶要下载----
 -d www.ouyaoxiazai.com f*.js
+#----中国联通----
+- *dnserror*.wo.com.cn
+#----绿软家园----
 #----小说网----
 - *xiaoshuo.com/agent/swf/
 - *xiaoshuo.com/chuanwen.html
@@ -3944,7 +3993,12 @@ msFilterList
 #----天山网----
 - *tianshannet.com.cn/news/node_61586.htm
 #----深圳新闻网----
-- *sznews.com/2008gg/
+-d countpage.sznews.com
+- *.sznews.com/2008gg/
+- *.sznews.com/*.files/*.swf
+- *.sznews.com/*.files/*.jpg
+- *.sznews.com/*.files/*.gif
+- *.sznews.com/css/*.js
 - *sznews.com/ad
 #----新头壳----
 - http://*newtalk.tw/ad_

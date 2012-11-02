@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-10-31 21:52:32
+!Updated:2012-11-02 21:30:28
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -9,7 +9,10 @@
 !-------------通用规则-------------
 !------元素隐藏规则------
 ##.sponsor_links
+##.label-ad
+~pcper.com##.ad160
 ##.ad-column
+~fastseeksite.com,~njuskalo.hr##.ad_title
 ~pescorner.net###googlead
 ~xdjz.net###ads_c_tpc
 ###hd_ad
@@ -1666,6 +1669,11 @@ weibo.com##.tips_player
 ||sh.sina.com.cn/iframe/408/*
 ||news.sina.com.cn/pfpnews/js/libweb.js
 !----搜狗&搜狐&搜狐畅游----
+news.sohu.com##TD[valign="top"]
+news.sohu.com##.banner
+sohu.com###turn-ad
+news.sohu.com###adList
+sohu.com,~cbachina.sports.sohu.com##sohuadcode
 www.sohu.com###contentC > .columnC
 www.sohu.com###ad_TOP
 sohu.com,chinaren.com##sohuadcode
@@ -1674,6 +1682,7 @@ sohu.com##.adB
 ||xls.go.sohu.com/*
 ||his.tv.sohu.com/his/ping.do?*
 |*.hd.sohu.com.cn/*.gif?*
+||news.sohu.com/upload/article/2012/images/swf/*
 ||images.sohu.com/ytv/*
 ||220.181.61.231/get.gif?*
 ||gm.changyou.com/css/ads-slide.css
@@ -1710,6 +1719,7 @@ sohu.com##.adB
 ||news.sohu.com/upload/cs/cswb*/news-*/*.html
 ||images.sohu.com/*market/yule*
 ||images.sohu.com/cs/*.*f
+||sohu.wrating.com/*
 ||tv.sohu.com/upload/ad_fr/*
 ||tv.sohu.com/upload/trace/*
 ||tv.sohu.com/upload/csad/*
@@ -1729,6 +1739,7 @@ sohu.com##.adB
 97779.com##IMG[height="24"][border="0"]
 ||www.xinray.com/page/?s=*
 !----网易&有道----
+news.163.com##.area.top-gg-area
 www.163.com###g5n1
 163.com##.news_h123.clearfix
 163.com##[class^="gg"]
@@ -1806,7 +1817,7 @@ youku.com##.AB240
 ||static.youku.com/*/index/js/cps.js
 ||static.youku.com/*/index/js/hz*lick.js
 ||static.youku.com/*/index/js/iresearch.js
-||hz.youku.com/red/ggnotice.php*
+!||hz.youku.com/red/ggnotice.php*
 !atm.youku.com
 ||vid.atm.youku.com/*
 ||vhtml.atm.youku.com/*
@@ -1830,6 +1841,10 @@ youku.com##.AB240
 ||static.atm.youku.com/*/*/*/*-*.jpg
 ||static.atm.youku.com/*/*/*x*.jpg
 ||e.stat.youku.com/*
+!临时
+||211.151.50.22/logsys/logstorage/append?*
+!||ct3.yk.ss3w.com^
+!||swf.yk.ss3w.com^
 !----雅虎----
 @@||l.yimg.com/zz/combo?*.js*
 ||l.yimg.com/d/lib/bc/bcr_2.0.5.js
@@ -1878,6 +1893,12 @@ youku.com##.AB240
 ||e.phpwind.com/index.php?m=item_ad&ad_id=*
 !----悠视网UUsee----
 ||sa.uusee.com/*.swf
+!----绿软基地----
+||www.mt30.com/ok/zanzhu.js
+||www.mt30.com/ok/toptl.js
+||www.mt30.com/ok/xiazaidizhiyou.js
+||www.mt30.com/ok/2.js
+||www.mt30.com/ok/1.js
 !----115&114啦----
 115.com##.random-banner
 115.com##.banner-top
@@ -1958,6 +1979,24 @@ iqiyi.com##[id^="div_theatre"]
 |*.iqiyi.com/player/*/theatre*.swf
 !----adf.ly----
 adf.ly###bottom
+!----乐清上班族网----
+5iyq.com###topShow
+5iyq.com###fang-gg
+5iyq.com###midShow
+||www.5iyq.com/skin/default/js/topad*.js
+||img.5iyq.com/wlj/index/a2-*.*
+||img.5iyq.com/wlj/index/a1-*.*
+||img.5iyq.com/qqiao/5iyq/a7-*.*
+||img.5iyq.com/qqiao/5iyq/a9-*.*
+||img.5iyq.com/qqiao/5iyq/a3-*.*
+||img.5iyq.com/qqiao/5iyq/af2-*.*
+||img.5iyq.com/qqiao/5iyq/a5-*.*
+||img.5iyq.com/wlj/index/a10-*.*
+||img.5iyq.com/wlj/index/a4-*.*
+||img.5iyq.com/wlj/index/a3-*.*
+||img.5iyq.com/wlj/auto/qc1-*.*
+||img.5iyq.com/wll/5iyq/a5-*.*
+||img.5iyq.com/cr/5iyq/a9-*.*
 !----中国移动----
 @@||gd.10086.cn/*
 !----网页制作大宝库----
@@ -1995,6 +2034,12 @@ tianya.cn###adsp_list_top_banner
 ||8*.tianya.cn/*
 ||blog.tianya.cn/tuijian/tanchu.js
 ||advertisement.tianya.cn/*
+!----亿房网----
+fdc.com.cn##.banner
+||img*.fdc.com.cn/cms/js/home_js/*_adv*.js
+|*.fdc.com.cn/cms/js/home_js/Bg_NewAdv.js
+||img3.fdc.com.cn/shows/*
+||img3.fdc.com.cn/cms/js/home_js/banner*.js
 !----登封网&登封论坛----
 bbs.dengfeng.cn###diy1
 !----TV650----
@@ -2031,6 +2076,8 @@ bbs.dengfeng.cn###diy1
 ||a.freewebhostingarea.com/*
 !----淡蓝博客----
 ||www.danlan.org/KFC/*.gif
+!----爱站网----
+||static.aizhan.com/jsa/b_*.js
 !----PPTV网络电视----
 pptv.com##[id^="afp_"]
 ||iafp.pptv.com/*
@@ -2045,6 +2092,8 @@ pptv.com##[id^="afp_"]
 @@||www.lingdiankanshu.com/Skin/*
 lingdiankanshu.com##FIELDSET[style$="#a6ccf9"]
 lingdiankanshu.com##TD[width="301"]
+!----挖当软件站----
+||www.wdown.cn/falala/*
 !----华军软件园&牛华网----
 newhua.com##[class^="ad_ritht_"]
 ||download.cncmax.js.cn/images/temp/down-banner*.jpg
@@ -2079,6 +2128,10 @@ newhua.com##[class^="ad_ritht_"]
 ||www.faxingge.com/fxgjs/header-min.js
 ||www.faxingge.com/UpFile/hd/134*.gif
 ||www.faxingge.com/UpFile/hd/134*.jpg
+!----峨眉山电影网----
+emsdy.com###herder_gg
+||www.emsdy.com/Scripts/ScrResponse.js
+||fqk.com/fqk_mm.swf
 !----站长之家ChinaZ----
 ||images.chinaz.com/bbs_images/*
 ||images.chinaz.com/index_images/A*.htm
@@ -2097,6 +2150,10 @@ raybt.com##FONT[color^="#"]:first-child:last-child
 ||www.raybt.com/js/topwz/close.gif
 ||www.raybt.com/2d/raybt*a.gif
 !----当易网----
+downyi.com###gfad
+||www.downyi.com/tg/all_banner.js
+||www.downyi.com/tg/index_gfad.js
+||www.downyi.com/tg/it168.js
 ||www.downyi.com/css/ad.css
 !----机动车驾驶人信息服务网----
 jdcjsr.com##.gg1
@@ -2293,6 +2350,8 @@ bbs.qzss.cn##.tac.mb5
 !----Immunet----
 !----九九漫画----
 |*.99comic.com/g/*
+!----书书网----
+shushuw.cn##.bdad
 !----久久漫画----
 |*.99manga.com/g/*
 |*.99manga.com/haodm/dmjsc/*.js
@@ -2588,6 +2647,8 @@ piaohua.com##.mtbanner.clearfix
 |*.piaohua.com/js/yzz/piaohu*.js
 !----IT世界网----
 ||bjdcdv.it.com.cn*
+!----东湖社区----
+bbs.cnhubei.com##.ad
 !----互动百科----
 ||dict.hudong.com/xml/*.html
 ||hdad.hudong.com/*
@@ -2602,6 +2663,8 @@ piaohua.com##.mtbanner.clearfix
 ||www.namipan.com/html/un/*
 ||d.namipan.com/inc_js/*.js
 ||d.namipan.com/flash/*.swf
+!----深圳之窗----
+||afp.csbew.com/*
 !----同步控----
 |*.wumii.com/images/pixel.png
 !----YouTube----
@@ -2770,6 +2833,11 @@ ifmoc.com##[class^="adw"]
 ||www.oyksoft.com/pic/*
 !----偶要下载----
 ||www.ouyaoxiazai.com/*f*.js
+!----中国联通----
+|*dnserror*.wo.com.cn*
+!----绿软家园----
+downg.com##[class^="content ad-"]
+downg.com##[class^="ad-"]
 !----小说网----
 |*xiaoshuo.com/agent/swf/*
 |*xiaoshuo.com/chuanwen.html
@@ -3174,6 +3242,11 @@ bilibili.tv,bilibili.kankanews.com##.ad-f
 ||131js.131.com/home/resouces/js/ad_config.js?*
 ||res.files.131.com/script/notif.js
 !----汽车之家----
+autohome.com.cn##.advarticle
+autohome.com.cn##.left_demo.mb8
+autohome.com.cn##.subbox_adv
+autohome.com.cn##.md_advbox
+autohome.com.cn##.subadv2
 |*autohome.com.cn/33*
 ||33.autohome.com.cn*
 !----AcFun.tv----
@@ -4287,7 +4360,12 @@ ali213.net##.newright
 !----天山网----
 |*tianshannet.com.cn/news/node_61586.htm
 !----深圳新闻网----
-|*sznews.com/2008gg/*
+||countpage.sznews.com/*
+|*.sznews.com/2008gg/*
+|*.sznews.com/*.files/*.swf
+|*.sznews.com/*.files/*.jpg
+|*.sznews.com/*.files/*.gif
+|*.sznews.com/css/*.js
 |*sznews.com/ad*
 !----新头壳----
 |http://*newtalk.tw/ad_*

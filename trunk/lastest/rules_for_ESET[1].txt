@@ -540,6 +540,7 @@ js.*/code.js
 */images/a/*
 *aclk?sa=*
 *click_*.jsp*
+*.com/adx/*
 *lady.php?pid=*
 */shouyeguanggao/*
 */AD.gif
@@ -824,6 +825,7 @@ c.atdmt.com/c.gif?*
 *.100tone.com/*
 js.yoyi.tv/*
 js.shenduchuanmei.com/*
+*.11l11.net/*
 show.k184.com:8080*
 p.777wyx.com/*
 code.yy32.com/*
@@ -955,6 +957,7 @@ swt.zoosnet.net/*
 *.no3.com.cn/*
 *.oadz.com/*
 *.ok8848.com/*
+*.admaster.com.cn*/*
 *.onetad.com/*
 *.pee.cn/*
 *.pointroll.com/*
@@ -977,6 +980,8 @@ union.gxcms.com/*
 *.shurumedia.com/*
 *.tribalfusion.com/*
 *.tuigoo.com/*
+pix*.revsci.net/*
+cdn.krxd.net/*
 *.tx8688.com/*
 *.tx908.com/*
 *.uinicall.com/*
@@ -1627,7 +1632,7 @@ vhtml.atm.youku.com/*
 html.atm.youku.com/*
 static.atm.youku.com/*taobao*
 static.atm.youku.com/*-*.swf?js*tart=*
-valf.atm.youku.com/valf?*
+valf.atm.youku.com/crossdomain.xml
 valf.atm.youku.com/show?*
 fvid.atm.youku.com/*
 walp.atm.youku.com/*
@@ -1639,6 +1644,10 @@ static.atm.youku.com/*/*/*/*-*.jpg
 static.atm.youku.com/*/*/*x*.jpg
 e.stat.youku.com/*
 211.151.50.22/logsys/logstorage/append?*
+vhtml.youku.com/*
+121.9.20*.*/*
+f.youku.com/crossdomain.xml
+h.irs01.com/*
 l.yimg.com/d/lib/bc/bcr_2.0.5.js
 l.yimg.com/f/a/tw/gif_backup/ad_*.gif
 *.webmaster.yahoo.com/*
@@ -1750,6 +1759,7 @@ img.5iyq.com/wlj/index/a3-*.*
 img.5iyq.com/wlj/auto/qc1-*.*
 img.5iyq.com/wll/5iyq/a5-*.*
 img.5iyq.com/cr/5iyq/a9-*.*
+www.27txt.com/da/*
 images.dabaoku.com/*.gif
 www.dabaoku.com/js/top*.js
 *zymk.cn/Public/upload/img/2010-08-11/20100811132427.jpg
@@ -1987,14 +1997,4 @@ static.ikafan.com/a/yuekan.js
 *.kafan.cn/static/kafan_bd/*
 static.ikafan.com/kafan_bd/*
 static.ikafan.com/kafan_img/*
-www.rayli.com.cn/newdcy/*fushijs/yhjads*.js
-818.17173.com/js/818ad01.js
-images.17173.com/*/www/*/*/*-*-*.swf
-i1.17173.itc.cn/*/www/*/*/*-*-*.*
-i3.17173.itc.cn/*/www/*/*/*-*-*.*
-i2.17173.itc.cn/*/www/*/*/*-*-*.*
-www.17173.com/script/ggcommon.js
-book.17173.com/17k/xct/*
-media.17173.com/09gonggao.js
-images.17173.com/*/sx/*
 

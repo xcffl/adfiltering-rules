@@ -1,13 +1,18 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-11-02 21:30:28
+!Updated:2012-11-03 21:39:54
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
 ! This list expires after 7 days
 !-------------通用规则-------------
 !------元素隐藏规则------
+###adxBigAd
+###adxMiddle5
+###adxSponLink
+###adxSponLinkA
+##.advertisementColumnGroup
 ##.sponsor_links
 ##.label-ad
 ~pcper.com##.ad160
@@ -654,6 +659,7 @@
 |*/images/a/*
 |http://*aclk?sa=*
 |http://*click_*.jsp*
+|*.com/adx/*
 |*lady.php?pid=*
 |*/shouyeguanggao/*
 |http://*/AD.gif
@@ -944,6 +950,7 @@
 |*.100tone.com/*
 ||js.yoyi.tv/*
 ||js.shenduchuanmei.com:81/*
+|*.11l11.net/*
 ||show.k184.com:8080*
 ||p.777wyx.com/*
 ||code.yy32.com/*
@@ -1075,6 +1082,7 @@
 |*.no3.com.cn/*
 |*.oadz.com/*
 |*.ok8848.com/*
+|*.admaster.com.cn*/*
 |*.onetad.com/*
 |*.pee.cn/*
 |*.pointroll.com/*
@@ -1097,6 +1105,8 @@
 |*.shurumedia.com/*
 |*.tribalfusion.com/*
 |*.tuigoo.com/*
+||pix*.revsci.net/*
+||cdn.krxd.net/*
 |*.tx8688.com/*
 |*.tx908.com/*
 |*.uinicall.com/*
@@ -1824,9 +1834,9 @@ youku.com##.AB240
 ||html.atm.youku.com/*
 ||static.atm.youku.com/*taobao*
 ||static.atm.youku.com/*-*.swf?js*tart=*
-!||valf.atm.youku.com/crossdomain.xml
+||valf.atm.youku.com/crossdomain.xml
 @@||valf.atm.youku.com/valf?*$domain=u.youku.com
-||valf.atm.youku.com/valf?*
+!||valf.atm.youku.com/valf?*
 ||valf.atm.youku.com/show?*
 ||fvid.atm.youku.com/*
 ||walp.atm.youku.com/*
@@ -1845,6 +1855,10 @@ youku.com##.AB240
 ||211.151.50.22/logsys/logstorage/append?*
 !||ct3.yk.ss3w.com^
 !||swf.yk.ss3w.com^
+||vhtml.youku.com/*
+||121.9.20*.*/*
+||f.youku.com/crossdomain.xml
+||h.irs01.com/*
 !----雅虎----
 @@||l.yimg.com/zz/combo?*.js*
 ||l.yimg.com/d/lib/bc/bcr_2.0.5.js
@@ -1999,6 +2013,8 @@ adf.ly###bottom
 ||img.5iyq.com/cr/5iyq/a9-*.*
 !----中国移动----
 @@||gd.10086.cn/*
+!----爱去小说网----
+||www.27txt.com/da/*
 !----网页制作大宝库----
 ||images.dabaoku.com/*.gif
 ||www.dabaoku.com/js/top*.js
@@ -2566,7 +2582,10 @@ bego.cc##A[href="/adv.php"]
 !----互联星空----
 ||game1.zj.vnet.cn/popup_*.js
 !----火狐中文网&火狐主页----
+i.firefoxchina.cn###advBlock
 i.firefoxchina.cn###banner_show1
+i.firefoxchina.cn###taobaoFocus
+|*firefoxchina.cn/images/money/*
 ||i.firefoxchina.cn/images/upload/a*_*_*.jpg
 ||i.firefoxchina.cn/images/upload/3*_*_*.jpg
 ||i.firefoxchina.cn/alimama_banner_f.html*
@@ -3337,8 +3356,6 @@ hotsk.com##FIELDSET[style="width:730;height:80;border:1px dashed #a6ccf9"]
 ||www.ayxz.com/images/*_*.htm
 !----博客园----
 ||static.cnblogs.com/images/a*/*.jpg
-!----火狐中文网----
-|*firefoxchina.cn/images/money/*
 !----爱百谷网址大全----
 |*.ibaigu.com/*taobao.html
 |*.ibaigu.com/tb/*
@@ -4250,6 +4267,9 @@ ali213.net##.newright
 !----TGFC俱乐部----
 ||club.tgfcer.com/images/g*
 !----千军万马网络硬盘----
+||www.qjwm.com/qjwmtop.js
+||www.qjwm.com/j/bbscpv.js
+||www.qjwm.com/j/bbs.js
 ||www.qjwm.com/images/qjwm.gif
 ||u.qjwm.com/*
 @@||ad.qjwm.com/*
@@ -4433,6 +4453,8 @@ chinanews.com###adhzh
 |*hk-pub.com/forum/images/banner/*
 !----极速下载站----
 |*jisuxz.com/hzy/*
+!----迅播影院----
+2tu.cc##.banner-top
 !----PC资讯网----
 |*pc286.com/other/7148948.gif
 !----世界网络----

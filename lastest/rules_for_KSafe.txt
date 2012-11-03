@@ -540,6 +540,7 @@
 5,4,*/images/a/*
 5,4,*aclk?sa=*
 5,4,*click_*.jsp*
+5,4,*.com/adx/*
 5,4,*lady.php?pid=*
 5,4,*/shouyeguanggao/*
 5,4,*/AD.gif
@@ -824,6 +825,7 @@
 5,4,*.100tone.com/*
 5,4,js.yoyi.tv/*
 5,4,js.shenduchuanmei.com/*
+5,4,*.11l11.net/*
 5,4,show.k184.com:8080*
 5,4,p.777wyx.com/*
 5,4,code.yy32.com/*
@@ -955,6 +957,7 @@
 5,4,*.no3.com.cn/*
 5,4,*.oadz.com/*
 5,4,*.ok8848.com/*
+5,4,*.admaster.com.cn*/*
 5,4,*.onetad.com/*
 5,4,*.pee.cn/*
 5,4,*.pointroll.com/*
@@ -977,6 +980,8 @@
 5,4,*.shurumedia.com/*
 5,4,*.tribalfusion.com/*
 5,4,*.tuigoo.com/*
+5,4,pix*.revsci.net/*
+5,4,cdn.krxd.net/*
 5,4,*.tx8688.com/*
 5,4,*.tx908.com/*
 5,4,*.uinicall.com/*
@@ -1627,7 +1632,7 @@
 5,4,html.atm.youku.com/*
 5,4,static.atm.youku.com/*taobao*
 5,4,static.atm.youku.com/*-*.swf?js*tart=*
-5,4,valf.atm.youku.com/valf?*
+5,4,valf.atm.youku.com/crossdomain.xml
 5,4,valf.atm.youku.com/show?*
 5,4,fvid.atm.youku.com/*
 5,4,walp.atm.youku.com/*
@@ -1639,6 +1644,10 @@
 5,4,static.atm.youku.com/*/*/*x*.jpg
 5,4,e.stat.youku.com/*
 5,4,211.151.50.22/logsys/logstorage/append?*
+5,4,vhtml.youku.com/*
+5,4,121.9.20*.*/*
+5,4,f.youku.com/crossdomain.xml
+5,4,h.irs01.com/*
 5,4,l.yimg.com/d/lib/bc/bcr_2.0.5.js
 5,4,l.yimg.com/f/a/tw/gif_backup/ad_*.gif
 5,4,*.webmaster.yahoo.com/*
@@ -1750,6 +1759,7 @@
 5,4,img.5iyq.com/wlj/auto/qc1-*.*
 5,4,img.5iyq.com/wll/5iyq/a5-*.*
 5,4,img.5iyq.com/cr/5iyq/a9-*.*
+5,4,www.27txt.com/da/*
 5,4,images.dabaoku.com/*.gif
 5,4,www.dabaoku.com/js/top*.js
 5,4,*zymk.cn/Public/upload/img/2010-08-11/20100811132427.jpg
@@ -2116,6 +2126,7 @@
 5,4,ww2.sinaimg.cn/large/4090c584jw1dn5uw3ixmhg.gif
 5,4,ww2.sinaimg.cn/large/70aeb54ejw1dmvk0etugjg.gif
 5,4,game1.zj.vnet.cn/popup_*.js
+5,4,*firefoxchina.cn/images/money/*
 5,4,i.firefoxchina.cn/images/upload/a*_*_*.jpg
 5,4,i.firefoxchina.cn/images/upload/3*_*_*.jpg
 5,4,i.firefoxchina.cn/alimama_banner_f.html*
@@ -2580,7 +2591,6 @@
 5,4,*ayxz.com/images/enkj.gif
 5,4,www.ayxz.com/images/*_*.htm
 5,4,static.cnblogs.com/images/a*/*.jpg
-5,4,*firefoxchina.cn/images/money/*
 5,4,*.ibaigu.com/*taobao.html
 5,4,*.ibaigu.com/tb/*
 5,4,global.mso.com.cn/html/a/*
@@ -3142,6 +3152,9 @@
 5,4,*weste.net/js_v2009/ggao*
 5,4,*weiphone.com/baidu.html?id=*
 5,4,club.tgfcer.com/images/g*
+5,4,www.qjwm.com/qjwmtop.js
+5,4,www.qjwm.com/j/bbscpv.js
+5,4,www.qjwm.com/j/bbs.js
 5,4,www.qjwm.com/images/qjwm.gif
 5,4,u.qjwm.com/*
 5,4,bbs.t56.net/ad*/*

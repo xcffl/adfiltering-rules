@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-11-02 21:30:28
+#Updated:2012-11-03 21:39:54
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -552,6 +552,7 @@ msFilterList
 - */images/a/
 - http://*aclk?sa=
 - http://*click_*.jsp
+- *.com/adx/
 - *lady.php?pid=
 - */shouyeguanggao/
 - http://*/AD.gif
@@ -842,6 +843,7 @@ msFilterList
 - *.100tone.com/
 -d js.yoyi.tv
 -d js.shenduchuanmei.com
+- *.11l11.net/
 - http://show.k184.com:8080
 -d p.777wyx.com
 -d code.yy32.com
@@ -973,6 +975,7 @@ msFilterList
 - *.no3.com.cn/
 - *.oadz.com/
 - *.ok8848.com/
+- *.admaster.com.cn*/
 - *.onetad.com/
 - *.pee.cn/
 - *.pointroll.com/
@@ -995,6 +998,8 @@ msFilterList
 - *.shurumedia.com/
 - *.tribalfusion.com/
 - *.tuigoo.com/
+- http://pix*.revsci.net/
+-d cdn.krxd.net
 - *.tx8688.com/
 - *.tx908.com/
 - *.uinicall.com/
@@ -1674,9 +1679,9 @@ msFilterList
 -d html.atm.youku.com
 -d static.atm.youku.com taobao
 -d static.atm.youku.com -*.swf?js*tart=
-#||valf.atm.youku.com/crossdomain.xml
+-d valf.atm.youku.com /crossdomain.xml
 +d valf.atm.youku.com /valf?
--d valf.atm.youku.com /valf?
+#||valf.atm.youku.com/valf?*
 -d valf.atm.youku.com /show?
 -d fvid.atm.youku.com
 -d walp.atm.youku.com
@@ -1695,6 +1700,10 @@ msFilterList
 -d 211.151.50.22 /logsys/logstorage/append?
 #||ct3.yk.ss3w.com^
 #||swf.yk.ss3w.com^
+-d vhtml.youku.com
+- http://121.9.20*.*/
+-d f.youku.com /crossdomain.xml
+-d h.irs01.com
 #----雅虎----
 +d l.yimg.com /zz/combo?*.js
 -d l.yimg.com /d/lib/bc/bcr_2.0.5.js
@@ -1832,6 +1841,8 @@ msFilterList
 -d img.5iyq.com /cr/5iyq/a9-*.
 #----中国移动----
 +d gd.10086.cn
+#----爱去小说网----
+-d www.27txt.com /da/
 #----网页制作大宝库----
 -d images.dabaoku.com .gif
 -d www.dabaoku.com /js/top*.js
@@ -2327,6 +2338,7 @@ msFilterList
 #----互联星空----
 -d game1.zj.vnet.cn /popup_*.js
 #----火狐中文网&火狐主页----
+- *firefoxchina.cn/images/money/
 -d i.firefoxchina.cn /images/upload/a*_*_*.jpg
 -d i.firefoxchina.cn /images/upload/3*_*_*.jpg
 -d i.firefoxchina.cn /alimama_banner_f.html
@@ -3011,8 +3023,6 @@ msFilterList
 -d www.ayxz.com /images/*_*.htm
 #----博客园----
 -d static.cnblogs.com /images/a*/*.jpg
-#----火狐中文网----
-- *firefoxchina.cn/images/money/
 #----爱百谷网址大全----
 - *.ibaigu.com/*taobao.html
 - *.ibaigu.com/tb/
@@ -3883,6 +3893,9 @@ msFilterList
 #----TGFC俱乐部----
 -d club.tgfcer.com /images/g
 #----千军万马网络硬盘----
+-d www.qjwm.com /qjwmtop.js
+-d www.qjwm.com /j/bbscpv.js
+-d www.qjwm.com /j/bbs.js
 -d www.qjwm.com /images/qjwm.gif
 -d u.qjwm.com
 +d ad.qjwm.com
@@ -4062,6 +4075,7 @@ msFilterList
 - *hk-pub.com/forum/images/banner/
 #----极速下载站----
 - *jisuxz.com/hzy/
+#----迅播影院----
 #----PC资讯网----
 - *pc286.com/other/7148948.gif
 #----世界网络----

@@ -1,3 +1,13 @@
+818.17173.com/js/818ad01.js
+images.17173.com/*/www/*/*/*-*-*.swf
+i1.17173.itc.cn/*/www/*/*/*-*-*.*
+i3.17173.itc.cn/*/www/*/*/*-*-*.*
+i2.17173.itc.cn/*/www/*/*/*-*-*.*
+www.17173.com/script/ggcommon.js
+book.17173.com/17k/xct/*
+media.17173.com/09gonggao.js
+images.17173.com/*/sx/*
+media.17173.com/x/*
 js.17173.com/ping.js
 images.17173.com/*/www/*/lgzx/*-a.jpg
 images.17173.com/*/www/*/hd/*-a.jpg
@@ -116,6 +126,7 @@ ww2.sinaimg.cn/large/70aeb54ejw1dnmxwf4awag.gif
 ww2.sinaimg.cn/large/4090c584jw1dn5uw3ixmhg.gif
 ww2.sinaimg.cn/large/70aeb54ejw1dmvk0etugjg.gif
 game1.zj.vnet.cn/popup_*.js
+*firefoxchina.cn/images/money/*
 i.firefoxchina.cn/images/upload/a*_*_*.jpg
 i.firefoxchina.cn/images/upload/3*_*_*.jpg
 i.firefoxchina.cn/alimama_banner_f.html*
@@ -580,7 +591,6 @@ www.naiertj.com/js/nbanner.js
 *ayxz.com/images/enkj.gif
 www.ayxz.com/images/*_*.htm
 static.cnblogs.com/images/a*/*.jpg
-*firefoxchina.cn/images/money/*
 *.ibaigu.com/*taobao.html
 *.ibaigu.com/tb/*
 global.mso.com.cn/html/a/*
@@ -1142,6 +1152,9 @@ www.weste.net/js/showpagead.js
 *weste.net/js_v2009/ggao*
 *weiphone.com/baidu.html?id=*
 club.tgfcer.com/images/g*
+www.qjwm.com/qjwmtop.js
+www.qjwm.com/j/bbscpv.js
+www.qjwm.com/j/bbs.js
 www.qjwm.com/images/qjwm.gif
 u.qjwm.com/*
 bbs.t56.net/ad*/*

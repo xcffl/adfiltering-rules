@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-11-03 21:39:54
+!Updated:2012-11-03 22:19:51
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -45,7 +45,6 @@
 ##a[href^="http://ad-apac.doubleclick.net/"]
 ##.sb_adsW
 ###mbEnd[cellspacing="0"][cellpadding="0"]
-~horsemart.co.uk##.top_ad
 ~kingsofchaos.com##.textad
 ~muz.ru###right_ad
 ##.sb_adsN
@@ -1415,7 +1414,6 @@
 |*rd.apmebf.com/*
 ||js.xsu.cc/*
 ||cdn.udmserve.net/mid858/*
-|*.admaster.com.cn/*
 ||code.aizhuanlove.cn/loveimages/*
 ||code.aizhuanlove.cn/code/*
 |*snyu.com/*
@@ -1540,7 +1538,6 @@ xunlei.com##[id^="cm"].banner
 xunlei.com##.playad
 kuai.xunlei.com##.l_img
 kuai.xunlei.com##.bot_tips
-kuai.xunlei.com##.bot_tips
 kuai.xunlei.com##.lahuan
 ||record.kuai.xunlei.com/*
 ||img.kuai.xunlei.com/img/v2/fen/*
@@ -1654,7 +1651,6 @@ weibo.com##.tips_player
 |*d1.sina.com.cn/*.swf
 |*d5.sina.com.cn/*_*x*.jpg
 |*d1.sina.com.cn/*_*x*.jpg
-||d1.sina.com.cn/201103/04/*_hg_*.jpg
 ||i3.sinaimg.cn/home/2011/*/U*DT*.gif
 ||i0.sinaimg.cn/hs/*/U*DT*.jpg
 |*sina.com/rm/*
@@ -1686,7 +1682,6 @@ news.sohu.com###adList
 sohu.com,~cbachina.sports.sohu.com##sohuadcode
 www.sohu.com###contentC > .columnC
 www.sohu.com###ad_TOP
-sohu.com,chinaren.com##sohuadcode
 sohu.com##.adB
 ||a*.itc.cn/pv/js/pvclick.*
 ||xls.go.sohu.com/*
@@ -1812,7 +1807,6 @@ tudou.com###adex_board
 |*.tudou.com/framepage/*
 !----优酷网----
 ##[id^="youku_ad_"]
-soku.com,youku.com##[id^="ab_"]
 soku.com###ab_282
 youku.com###ab_26
 youku.com##.AB240
@@ -2076,7 +2070,6 @@ bbs.dengfeng.cn###diy1
 !----123读----
 123du.net##[id^="float_"]
 ||www.123du.net/dudu*-*/*.html*width=*
-||www.123du.net/SiteFiles/js/ExpFuMeiTi.js
 ||www.123du.net/SiteFiles/GG*.html?*
 ||www.123du.net/SiteFiles/InPage*.html?*
 ||www.123du.net/SiteFiles/js/Exp*.js
@@ -2318,7 +2311,6 @@ www.ku6.com##[class^="a_d0608"]
 ipc.me##.widget.widget_ad_slot_wrapper
 ipc.me###crumb_r
 ipc.me##.widget_ad_slot_wrapper + .widget
-ipc.me##li[style="_display:block;height:252px;width:301px;overflow:hidden;margin-bottom:7px"]
 ipc.me##[style="_display:block;height:252px;width:301px;overflow:hidden;margin-bottom:7px"]
 ipc.me##LI.widget
 ipc.me##.post-top-gg
@@ -3202,6 +3194,7 @@ skycn.com##.l.top7.bd
 |*.skycn.com/js/soft_*.js
 !----华为网盘----
 dl.vmall.com###filelist_marker
+||acd*.hiad.vmall.com/*
 !----草根网----
 |*20ju.com/js/caogen.js
 |*20ju.com/js/leftbottom.js
@@ -3820,9 +3813,6 @@ docin.net##[id^="adsy"]
 !----yoPoo又拍网----
 |*.upaiyun.com/js/tts-media.js
 ||pic.yupoo.com/leoxuan/ANy7yxF8/F0yP5.jpg
-!----中华网赚论坛----
-you85.cn##TABLE[align="center"]
-||www.you85.cn/2/*
 !----创业邦----
 ||www.cyzone.cn/bian/pic/top_banner.swf
 ||img.cyzone.cn/ad/*
@@ -3873,6 +3863,7 @@ ref.so##TABLE[width="300"]
 !----中国网赚论坛----
 you85.cn##TABLE[bordercolor="#000000"]
 you85.cn##TABLE[align="center"]
+||www.you85.cn/2/*
 |http://*you85.cn/1/*
 !----西西外挂网----
 ||www.xixibbs.com/1.jpg

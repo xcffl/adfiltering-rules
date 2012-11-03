@@ -1289,7 +1289,6 @@
 5,4,*rd.apmebf.com/*
 5,4,js.xsu.cc/*
 5,4,cdn.udmserve.net/mid858/*
-5,4,*.admaster.com.cn/*
 5,4,code.aizhuanlove.cn/loveimages/*
 5,4,code.aizhuanlove.cn/code/*
 5,4,*snyu.com/*
@@ -1484,7 +1483,6 @@
 5,4,*d1.sina.com.cn/*.swf
 5,4,*d5.sina.com.cn/*_*x*.jpg
 5,4,*d1.sina.com.cn/*_*x*.jpg
-5,4,d1.sina.com.cn/201103/04/*_hg_*.jpg
 5,4,i3.sinaimg.cn/home/2011/*/U*DT*.gif
 5,4,i0.sinaimg.cn/hs/*/U*DT*.jpg
 5,4,*sina.com/rm/*
@@ -1802,7 +1800,6 @@
 5,4,ufile.kuaiche.com/*
 5,4,*client.kuaiche.com*
 5,4,www.123du.net/dudu*-*/*.html*width=*
-5,4,www.123du.net/SiteFiles/js/ExpFuMeiTi.js
 5,4,www.123du.net/SiteFiles/GG*.html?*
 5,4,www.123du.net/SiteFiles/InPage*.html?*
 5,4,www.123du.net/SiteFiles/js/Exp*.js
@@ -2497,6 +2494,7 @@
 5,4,bbs.wmzhe.com/api/*
 5,4,*wmzhe.com/attachments/other/*
 5,4,*.skycn.com/js/soft_*.js
+5,4,acd*.hiad.vmall.com/*
 5,4,*20ju.com/js/caogen.js
 5,4,*20ju.com/js/leftbottom.js
 5,4,*20ju.com/js/RightJs1.js
@@ -2890,7 +2888,6 @@
 5,4,sta.dayoo.com/*
 5,4,*.upaiyun.com/js/tts-media.js
 5,4,pic.yupoo.com/leoxuan/ANy7yxF8/F0yP5.jpg
-5,4,www.you85.cn/2/*
 5,4,www.cyzone.cn/bian/pic/top_banner.swf
 5,4,img.cyzone.cn/ad/*
 5,4,*3lian.com/888/*
@@ -2917,6 +2914,7 @@
 5,4,wzw.la/new.php?action=article&fidin=*&digest=0&postdate=0&author=0&fname=0&hits=0&replies=0&pre=2&num=8&length=*&order=2
 5,4,pic.filec2c.com/img/483793ea/*
 5,4,bbs.tazhao.com/api.php?*
+5,4,www.you85.cn/2/*
 5,4,*you85.cn/1/*
 5,4,www.xixibbs.com/1.jpg
 5,4,www.321youxi.com/js/*

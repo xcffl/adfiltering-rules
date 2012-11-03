@@ -1289,7 +1289,6 @@ uimg.xiaoangel.com/jsorigin/*
 *rd.apmebf.com/*
 js.xsu.cc/*
 cdn.udmserve.net/mid858/*
-*.admaster.com.cn/*
 code.aizhuanlove.cn/loveimages/*
 code.aizhuanlove.cn/code/*
 *snyu.com/*
@@ -1484,7 +1483,6 @@ d4.sina.com.cn/201012/24/*
 *d1.sina.com.cn/*.swf
 *d5.sina.com.cn/*_*x*.jpg
 *d1.sina.com.cn/*_*x*.jpg
-d1.sina.com.cn/201103/04/*_hg_*.jpg
 i3.sinaimg.cn/home/2011/*/U*DT*.gif
 i0.sinaimg.cn/hs/*/U*DT*.jpg
 *sina.com/rm/*
@@ -1802,7 +1800,6 @@ is.kuaibo.com/uploadfile/*
 ufile.kuaiche.com/*
 *client.kuaiche.com*
 www.123du.net/dudu*-*/*.html*width=*
-www.123du.net/SiteFiles/js/ExpFuMeiTi.js
 www.123du.net/SiteFiles/GG*.html?*
 www.123du.net/SiteFiles/InPage*.html?*
 www.123du.net/SiteFiles/js/Exp*.js
@@ -2497,6 +2494,7 @@ btm.pchome.net*
 bbs.wmzhe.com/api/*
 *wmzhe.com/attachments/other/*
 *.skycn.com/js/soft_*.js
+acd*.hiad.vmall.com/*
 *20ju.com/js/caogen.js
 *20ju.com/js/leftbottom.js
 *20ju.com/js/RightJs1.js
@@ -2890,7 +2888,6 @@ club.dayoo.com/banner/*
 sta.dayoo.com/*
 *.upaiyun.com/js/tts-media.js
 pic.yupoo.com/leoxuan/ANy7yxF8/F0yP5.jpg
-www.you85.cn/2/*
 www.cyzone.cn/bian/pic/top_banner.swf
 img.cyzone.cn/ad/*
 *3lian.com/888/*
@@ -2917,6 +2914,7 @@ www.ref.so/*shortCounter.jsp?*
 wzw.la/new.php?action=article&fidin=*&digest=0&postdate=0&author=0&fname=0&hits=0&replies=0&pre=2&num=8&length=*&order=2
 pic.filec2c.com/img/483793ea/*
 bbs.tazhao.com/api.php?*
+www.you85.cn/2/*
 *you85.cn/1/*
 www.xixibbs.com/1.jpg
 www.321youxi.com/js/*

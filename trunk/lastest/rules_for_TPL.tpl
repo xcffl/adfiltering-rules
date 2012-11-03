@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-11-03 21:39:54
+#Updated:2012-11-03 22:19:51
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1308,7 +1308,6 @@ msFilterList
 - *rd.apmebf.com/
 -d js.xsu.cc
 -d cdn.udmserve.net /mid858/
-- *.admaster.com.cn/
 -d code.aizhuanlove.cn /loveimages/
 -d code.aizhuanlove.cn /code/
 - *snyu.com/
@@ -1521,7 +1520,6 @@ msFilterList
 - *d1.sina.com.cn/*.swf
 - *d5.sina.com.cn/*_*x*.jpg
 - *d1.sina.com.cn/*_*x*.jpg
--d d1.sina.com.cn /201103/04/*_hg_*.jpg
 -d i3.sinaimg.cn /home/2011/*/U*DT*.gif
 -d i0.sinaimg.cn /hs/*/U*DT*.jpg
 - *sina.com/rm/
@@ -1899,7 +1897,6 @@ msFilterList
 - *client.kuaiche.com
 #----123读----
 -d www.123du.net /dudu*-*/*.html*width=
--d www.123du.net /SiteFiles/js/ExpFuMeiTi.js
 -d www.123du.net /SiteFiles/GG*.html?
 -d www.123du.net /SiteFiles/InPage*.html?
 -d www.123du.net /SiteFiles/js/Exp*.js
@@ -2884,6 +2881,7 @@ msFilterList
 #----天空下载----
 - *.skycn.com/js/soft_*.js
 #----华为网盘----
+- http://acd*.hiad.vmall.com/
 #----草根网----
 - *20ju.com/js/caogen.js
 - *20ju.com/js/leftbottom.js
@@ -3469,8 +3467,6 @@ msFilterList
 #----yoPoo又拍网----
 - *.upaiyun.com/js/tts-media.js
 -d pic.yupoo.com /leoxuan/ANy7yxF8/F0yP5.jpg
-#----中华网赚论坛----
--d www.you85.cn /2/
 #----创业邦----
 -d www.cyzone.cn /bian/pic/top_banner.swf
 -d img.cyzone.cn /ad/
@@ -3514,6 +3510,7 @@ msFilterList
 -d pic.filec2c.com /img/483793ea/
 -d bbs.tazhao.com /api.php?
 #----中国网赚论坛----
+-d www.you85.cn /2/
 - http://*you85.cn/1/
 #----西西外挂网----
 -d www.xixibbs.com /1.jpg

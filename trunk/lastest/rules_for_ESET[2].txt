@@ -1,6 +1,3 @@
-818.17173.com/js/818ad01.js
-images.17173.com/*/www/*/*/*-*-*.swf
-i1.17173.itc.cn/*/www/*/*/*-*-*.*
 i3.17173.itc.cn/*/www/*/*/*-*-*.*
 i2.17173.itc.cn/*/www/*/*/*-*-*.*
 www.17173.com/script/ggcommon.js
@@ -497,6 +494,7 @@ btm.pchome.net*
 bbs.wmzhe.com/api/*
 *wmzhe.com/attachments/other/*
 *.skycn.com/js/soft_*.js
+acd*.hiad.vmall.com/*
 *20ju.com/js/caogen.js
 *20ju.com/js/leftbottom.js
 *20ju.com/js/RightJs1.js
@@ -890,7 +888,6 @@ club.dayoo.com/banner/*
 sta.dayoo.com/*
 *.upaiyun.com/js/tts-media.js
 pic.yupoo.com/leoxuan/ANy7yxF8/F0yP5.jpg
-www.you85.cn/2/*
 www.cyzone.cn/bian/pic/top_banner.swf
 img.cyzone.cn/ad/*
 *3lian.com/888/*
@@ -917,6 +914,7 @@ www.ref.so/*shortCounter.jsp?*
 wzw.la/new.php?action=article&fidin=*&digest=0&postdate=0&author=0&fname=0&hits=0&replies=0&pre=2&num=8&length=*&order=2
 pic.filec2c.com/img/483793ea/*
 bbs.tazhao.com/api.php?*
+www.you85.cn/2/*
 *you85.cn/1/*
 www.xixibbs.com/1.jpg
 www.321youxi.com/js/*

@@ -1289,7 +1289,6 @@ uimg.xiaoangel.com/jsorigin/*
 *rd.apmebf.com/*
 js.xsu.cc/*
 cdn.udmserve.net/mid858/*
-*.admaster.com.cn/*
 code.aizhuanlove.cn/loveimages/*
 code.aizhuanlove.cn/code/*
 *snyu.com/*
@@ -1484,7 +1483,6 @@ d4.sina.com.cn/201012/24/*
 *d1.sina.com.cn/*.swf
 *d5.sina.com.cn/*_*x*.jpg
 *d1.sina.com.cn/*_*x*.jpg
-d1.sina.com.cn/201103/04/*_hg_*.jpg
 i3.sinaimg.cn/home/2011/*/U*DT*.gif
 i0.sinaimg.cn/hs/*/U*DT*.jpg
 *sina.com/rm/*
@@ -1802,7 +1800,6 @@ is.kuaibo.com/uploadfile/*
 ufile.kuaiche.com/*
 *client.kuaiche.com*
 www.123du.net/dudu*-*/*.html*width=*
-www.123du.net/SiteFiles/js/ExpFuMeiTi.js
 www.123du.net/SiteFiles/GG*.html?*
 www.123du.net/SiteFiles/InPage*.html?*
 www.123du.net/SiteFiles/js/Exp*.js
@@ -1997,4 +1994,7 @@ static.ikafan.com/a/yuekan.js
 *.kafan.cn/static/kafan_bd/*
 static.ikafan.com/kafan_bd/*
 static.ikafan.com/kafan_img/*
+www.rayli.com.cn/newdcy/*fushijs/yhjads*.js
+818.17173.com/js/818ad01.js
+images.17173.com/*/www/*/*/*-*-*.swf
 

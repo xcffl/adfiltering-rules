@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-11-03 22:19:51
+!Updated:2012-11-08 21:48:42
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -1791,7 +1791,8 @@ bannerad
 /:\/\/([^\/]+\.)?td\.atm\.youku\.com\/tdap\/adclose/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*udou2012\/.*\.jpg/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*udou2012\/.*\.swf/
-/:\/\/([^\/]+\.)?td\.atm\.youku\.com\/tdap\/adplay/
+/^http:\/\/.*\/adplay/
+/^http:\/\/.*\/adcontrol/
 /:\/\/([^\/]+\.)?td\.atm\.youku\.com\/tdap\/adcommon\?/
 /:\/\/([^\/]+\.)?istat\.tudou\.com\/play\.srv\?/
 /:\/\/([^\/]+\.)?player\.pb\.ops\.tudou\.com\/info\.php\?/
@@ -1814,47 +1815,14 @@ bannerad
 ##ab_26	$d=youku.com
 ##.AB240	$d=youku.com
 ##.sideCol > div[class^="AB"]
-/:\/\/([^\/]+\.)?f\.youku\.com\/player\/get.*\/fileid\/.*&yad=1/
-/:\/\/([^\/]+\.)?t\.stat\.youku\.com\//
-/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/allyes\.html/
-/:\/\/([^\/]+\.)?t\.lstat\.youku\.com\//
-/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/crossdomain\.xml/
-/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*ouku2012\/.*\.jpg/
-/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*ouku2012\/.*\.swf/
-/:\/\/([^\/]+\.)?static\.youku\.com\/.*\/index\/js\/cps\.js/
-/:\/\/([^\/]+\.)?static\.youku\.com\/.*\/index\/js\/hz.*lick\.js/
-/:\/\/([^\/]+\.)?static\.youku\.com\/.*\/index\/js\/iresearch\.js/
-!||hz.youku.com/red/ggnotice.php*
-!atm.youku.com
-/:\/\/([^\/]+\.)?vid\.atm\.youku\.com\//
-/:\/\/([^\/]+\.)?vhtml\.atm\.youku\.com\//
-/:\/\/([^\/]+\.)?html\.atm\.youku\.com\//
-/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao/
-/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*-.*\.swf\?js.*tart=/
-/:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/crossdomain\.xml/
-/:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/valf\?.*/	$d=u.youku.com,$w
-!||valf.atm.youku.com/valf?*
-/:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/show\?/
-/:\/\/([^\/]+\.)?fvid\.atm\.youku\.com\//
-/:\/\/([^\/]+\.)?walp\.atm\.youku\.com\//
-/:\/\/([^\/]+\.)?valb\.atm\.youku\.com\//
-!||valb.atm.youku.com/valb?*
-/:\/\/([^\/]+\.)?valp\.atm\.youku\.com\//
-!||valp.atm.youku.com/show?*
-!||valp.atm.youku.com/valp?*
-/:\/\/([^\/]+\.)?valc\.atm\.youku\.com\//
-!||valc.atm.youku.com/valc?*
-/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/.*\/.*_.*\.jpg/
-/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/.*\/.*\/.*-.*\.jpg/
-/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*\/.*\/.*x.*\.jpg/
-/:\/\/([^\/]+\.)?e\.stat\.youku\.com\//
-!临时
-/:\/\/([^\/]+\.)?211\.151\.50\.22\/logsys\/logstorage\/append\?/
-!||ct3.yk.ss3w.com^
-!||swf.yk.ss3w.com^
-/:\/\/([^\/]+\.)?vhtml\.youku\.com\//
-/:\/\/([^\/]+\.)?121\.9\.20.*\..*\//
-/:\/\/([^\/]+\.)?f\.youku\.com\/crossdomain\.xml/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao.*\.html/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao.*\.jpg/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao.*\.swf/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/Youku2012\/.*\.swf/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/Youku2012\/.*\.gif/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/Youku2012\/.*\.jpg/
+/:\/\/([^\/]+\.)?f\.youku\.com\/player\/getFlvPath\/fileid\/.*&yad=1/
+/:\/\/([^\/]+\.)?val.*\.atm\.youku\.com\//
 /:\/\/([^\/]+\.)?h\.irs01\.com\//
 !----雅虎----
 /:\/\/([^\/]+\.)?l.yimg.com\/zz\/combo\?.*.js/	$w
@@ -2129,6 +2097,7 @@ bannerad
 /\.dm8\.cc\/javascript\/xshow\.js/
 !----金山词霸----
 /:\/\/([^\/]+\.)?cdn\.iciba\.com\/web\/co\/fy\/.*\.gif/
+/:\/\/([^\/]+\.)?cdn\.iciba\.com\/web\/co\/ci\/.*\.jpg/
 /:\/\/([^\/]+\.)?cdn\.iciba\.com\/web\/co\/ci\/.*\.gif/
 /:\/\/([^\/]+\.)?u\.iciba\.com\//
 /\.iciba\.com\/images\/toef\.jpg/
@@ -2987,6 +2956,9 @@ bannerad
 /\.lanfw\.com\/uploadfile\/.*\.gif/
 !----眼睛卫士----
 /eyefoo\.com\/images\//
+!----58小说----
+/:\/\/([^\/]+\.)?117\.25\.130\.43.*\/hot\//
+/:\/\/([^\/]+\.)?t\.58xs\.com\/hot\//
 !----我的钢铁网----
 /:\/\/([^\/]+\.)?61\.129\.113\.104\/onesteel\//
 /:\/\/([^\/]+\.)?ojsteel\.mysteel\.com\.cn\/mysteel\//
@@ -4611,6 +4583,7 @@ bannerad
 /^http:\/\/.*gaomm\.in\//
 !-------------推广本站-------------
 /:\/\/([^\/]+\.)?pv.5211game.com\//	$w
+/:\/\/([^\/]+\.)?www\.dajiawan\.com\/fmt\.php/
 /:\/\/([^\/]+\.)?www\.doudou\.com\/scripts\/recom\/.*x.*\.gif/
 /:\/\/([^\/]+\.)?www\.gaywang\.com\/images\/friend.*\.gif/
 !||raymond315.xiazaia.net/*

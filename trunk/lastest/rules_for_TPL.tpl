@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-11-03 22:19:51
+#Updated:2012-11-08 21:48:42
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1642,7 +1642,8 @@ msFilterList
 -d td.atm.youku.com /tdap/adclose
 -d static.atm.youku.com udou2012/*.jpg
 -d static.atm.youku.com udou2012/*.swf
--d td.atm.youku.com /tdap/adplay
+- http://*/adplay
+- http://*/adcontrol
 -d td.atm.youku.com /tdap/adcommon?
 -d istat.tudou.com /play.srv?
 -d player.pb.ops.tudou.com /info.php?
@@ -1660,47 +1661,14 @@ msFilterList
 -d v2.tudou.com /td*/
 - *.tudou.com/framepage/
 #----优酷网----
--d f.youku.com /player/get*/fileid/*&yad=1
--d t.stat.youku.com
--d static.atm.youku.com /allyes.html
--d t.lstat.youku.com
--d static.atm.youku.com /crossdomain.xml
--d static.atm.youku.com ouku2012/*.jpg
--d static.atm.youku.com ouku2012/*.swf
--d static.youku.com /index/js/cps.js
--d static.youku.com /index/js/hz*lick.js
--d static.youku.com /index/js/iresearch.js
-#||hz.youku.com/red/ggnotice.php*
-#atm.youku.com
--d vid.atm.youku.com
--d vhtml.atm.youku.com
--d html.atm.youku.com
--d static.atm.youku.com taobao
--d static.atm.youku.com -*.swf?js*tart=
--d valf.atm.youku.com /crossdomain.xml
-+d valf.atm.youku.com /valf?
-#||valf.atm.youku.com/valf?*
--d valf.atm.youku.com /show?
--d fvid.atm.youku.com
--d walp.atm.youku.com
--d valb.atm.youku.com
-#||valb.atm.youku.com/valb?*
--d valp.atm.youku.com
-#||valp.atm.youku.com/show?*
-#||valp.atm.youku.com/valp?*
--d valc.atm.youku.com
-#||valc.atm.youku.com/valc?*
--d static.atm.youku.com /*/*_*.jpg
--d static.atm.youku.com /*/*/*-*.jpg
--d static.atm.youku.com /*/*x*.jpg
--d e.stat.youku.com
-#临时
--d 211.151.50.22 /logsys/logstorage/append?
-#||ct3.yk.ss3w.com^
-#||swf.yk.ss3w.com^
--d vhtml.youku.com
-- http://121.9.20*.*/
--d f.youku.com /crossdomain.xml
+-d static.atm.youku.com taobao*.html
+-d static.atm.youku.com taobao*.jpg
+-d static.atm.youku.com taobao*.swf
+-d static.atm.youku.com /Youku2012/*.swf
+-d static.atm.youku.com /Youku2012/*.gif
+-d static.atm.youku.com /Youku2012/*.jpg
+-d f.youku.com /player/getFlvPath/fileid/*&yad=1
+- http://val*.atm.youku.com/
 -d h.irs01.com
 #----雅虎----
 +d l.yimg.com /zz/combo?*.js
@@ -1949,6 +1917,7 @@ msFilterList
 - *.dm8.cc/javascript/xshow.js
 #----金山词霸----
 -d cdn.iciba.com /web/co/fy/*.gif
+-d cdn.iciba.com /web/co/ci/*.jpg
 -d cdn.iciba.com /web/co/ci/*.gif
 -d u.iciba.com
 - *.iciba.com/images/toef.jpg
@@ -2693,6 +2662,9 @@ msFilterList
 - *.lanfw.com/uploadfile/*.gif
 #----眼睛卫士----
 - *eyefoo.com/images/
+#----58小说----
+- http://117.25.130.43*/hot/
+-d t.58xs.com /hot/
 #----我的钢铁网----
 -d 61.129.113.104 /onesteel/
 -d ojsteel.mysteel.com.cn /mysteel/
@@ -4195,6 +4167,7 @@ msFilterList
 - http://*gaomm.in/
 #-------------推广本站-------------
 +d pv.5211game.com
+-d www.dajiawan.com /fmt.php
 -d www.doudou.com /scripts/recom/*x*.gif
 -d www.gaywang.com /images/friend*.gif
 #||raymond315.xiazaia.net/*

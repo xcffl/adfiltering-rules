@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-11-08 21:48:42
+#Updated:2012-11-09 21:06:10
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -508,7 +508,7 @@ msFilterList
 - */srp-p4p-min.js?
 - */index.html?source=
 - */Happy.aspx?hmsr=
-- */show.aspx?id=
+#|*/show.aspx?id=*
 - *dlxx.asp?id=
 - */comment-ypk.aspx?bid=
 - */show_hdr.php?xname=
@@ -1425,6 +1425,9 @@ msFilterList
 -d dr.soso.com
 - *soso*.*/UploadFiles/2008*.gif
 #----迅雷&狗狗&快传----
++d res.stat.xunlei.com /pv.js
++d web.stat.xunlei.com /pv?
++d hm.baidu.com /h.js?
 -d record.kuai.xunlei.com
 -d img.kuai.xunlei.com /img/v2/fen/
 -d misc.web.xunlei.com /kankan_click*.js
@@ -2093,6 +2096,8 @@ msFilterList
 - *zol.com.cn/imphit0*.gif?
 -d pic.zol.com.cn /*hp*_*_*.swf
 - *pc3w.com/jS/
+#----星云搜盟----
+- *.bookcu.com/pop.js
 #----巨鲸音乐在线----
 +d www.top100.cn /script/header.js?
 #----GC1069----
@@ -2410,6 +2415,9 @@ msFilterList
 #----The HTML5 test----
 #----GayFriendFinder----
 #----站长网----
+- *.admin5.com/extras/zz/inner.*.js
+- *.admin5.com/extras/zz/common.*.js
+-d tuan.admin5.com /windex.php
 -d down.admin5.com /z/
 - *admin5.com/extras/*images/*x*.swf
 - *admin5.com/extras/zz/images/*-*.jpg

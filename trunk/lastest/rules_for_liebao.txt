@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-11-08 21:48:42
+!Updated:2012-11-09 21:06:10
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -617,7 +617,7 @@ bannerad
 /\/srp-p4p-min\.js\?/
 /\/index\.html\?source=/
 /\/Happy\.aspx\?hmsr=/
-/\/show\.aspx\?id=/
+!|*/show.aspx?id=*
 /dlxx\.asp\?id=/
 /\/comment-ypk\.aspx\?bid=/
 /\/show_hdr\.php\?xname=/
@@ -1541,7 +1541,11 @@ bannerad
 ##.playad	$d=xunlei.com
 ##.l_img	$d=kuai.xunlei.com
 ##.bot_tips	$d=kuai.xunlei.com
+##.adv_area	$d=kuai.xunlei.com
 ##.lahuan	$d=kuai.xunlei.com
+/:\/\/([^\/]+\.)?res.stat.xunlei.com\/pv.js/	$w
+/:\/\/([^\/]+\.)?web.stat.xunlei.com\/pv\?/	$w
+/:\/\/([^\/]+\.)?hm\.baidu\.com\/h\.js\?.*/	$d=dynamic.cloud.vip.xunlei.com,$w
 /:\/\/([^\/]+\.)?record\.kuai\.xunlei\.com\//
 /:\/\/([^\/]+\.)?img\.kuai\.xunlei\.com\/img\/v2\/fen\//
 /:\/\/([^\/]+\.)?misc\.web\.xunlei\.com\/.*\/kankan_click.*\.js/
@@ -2311,6 +2315,8 @@ bannerad
 /zol\.com\.cn\/imphit0.*\.gif\?/
 /:\/\/([^\/]+\.)?pic\.zol\.com\.cn\/.*\/.*hp.*_.*_.*\.swf/
 /pc3w\.com\/jS\//
+!----星云搜盟----
+/\.bookcu\.com\/pop\.js/
 !----巨鲸音乐在线----
 /:\/\/([^\/]+\.)?www.top100.cn\/script\/header.js\?/	$w
 !----GC1069----
@@ -2670,6 +2676,11 @@ bannerad
 ##.ads	$d=html5test.com
 !----GayFriendFinder----
 !----站长网----
+##.notice	$d=admin5.com
+##.banner	$d=admin5.com
+/\.admin5\.com\/extras\/zz\/inner\..*\.js/
+/\.admin5\.com\/extras\/zz\/common\..*\.js/
+/:\/\/([^\/]+\.)?tuan\.admin5\.com\/windex\.php/
 /:\/\/([^\/]+\.)?down\.admin5\.com\/z\//
 /admin5\.com\/extras\/.*images\/.*x.*\.swf/
 /admin5\.com\/extras\/zz\/images\/.*-.*\.jpg/

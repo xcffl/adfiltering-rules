@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-11-08 21:48:42
+!Updated:2012-11-09 21:06:10
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -614,7 +614,7 @@
 |*/srp-p4p-min.js?*
 |*/index.html?source=*
 |*/Happy.aspx?hmsr=*
-|*/show.aspx?id=*
+!|*/show.aspx?id=*
 |*dlxx.asp?id=*
 |*/comment-ypk.aspx?bid=*
 |*/show_hdr.php?xname=*
@@ -1538,7 +1538,11 @@ xunlei.com##[id^="cm"].banner
 xunlei.com##.playad
 kuai.xunlei.com##.l_img
 kuai.xunlei.com##.bot_tips
+kuai.xunlei.com##.adv_area
 kuai.xunlei.com##.lahuan
+@@||res.stat.xunlei.com/pv.js
+@@||web.stat.xunlei.com/pv?*
+@@||hm.baidu.com/h.js?*$domain=dynamic.cloud.vip.xunlei.com
 ||record.kuai.xunlei.com/*
 ||img.kuai.xunlei.com/img/v2/fen/*
 ||misc.web.xunlei.com/*/kankan_click*.js*
@@ -2306,6 +2310,8 @@ zol.com.cn##[id^="ad_"]
 |*zol.com.cn/imphit0*.gif?*
 ||pic.zol.com.cn/*/*hp*_*_*.swf
 |*pc3w.com/jS/*
+!----星云搜盟----
+|*.bookcu.com/pop.js
 !----巨鲸音乐在线----
 @@||www.top100.cn/script/header.js?*
 !----GC1069----
@@ -2665,6 +2671,11 @@ ncs.xvna.com##.Cad1
 html5test.com##.ads
 !----GayFriendFinder----
 !----站长网----
+admin5.com##.notice
+admin5.com##.banner
+|*.admin5.com/extras/zz/inner.*.js
+|*.admin5.com/extras/zz/common.*.js
+||tuan.admin5.com/windex.php
 ||down.admin5.com/z/*
 |*admin5.com/extras/*images/*x*.swf
 |*admin5.com/extras/zz/images/*-*.jpg

@@ -496,7 +496,6 @@ js.*/code.js
 */srp-p4p-min.js?*
 */index.html?source=*
 */Happy.aspx?hmsr=*
-*/show.aspx?id=*
 *dlxx.asp?id=*
 */comment-ypk.aspx?bid=*
 */show_hdr.php?xname=*
@@ -1950,6 +1949,7 @@ pic.zol-img.com.cn/*/*_*.*
 *zol.com.cn/imphit0*.gif?*
 pic.zol.com.cn/*/*hp*_*_*.swf
 *pc3w.com/jS/*
+*.bookcu.com/pop.js
 graphics.streamray.com/images/cams/flash/cams_live.swf
 *.77119.com/js/*
 www.vancl.com/WebSource/*

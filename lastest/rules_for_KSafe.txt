@@ -496,7 +496,6 @@
 5,4,*/srp-p4p-min.js?*
 5,4,*/index.html?source=*
 5,4,*/Happy.aspx?hmsr=*
-5,4,*/show.aspx?id=*
 5,4,*dlxx.asp?id=*
 5,4,*/comment-ypk.aspx?bid=*
 5,4,*/show_hdr.php?xname=*
@@ -1950,6 +1949,7 @@
 5,4,*zol.com.cn/imphit0*.gif?*
 5,4,pic.zol.com.cn/*/*hp*_*_*.swf
 5,4,*pc3w.com/jS/*
+5,4,*.bookcu.com/pop.js
 5,4,graphics.streamray.com/images/cams/flash/cams_live.swf
 5,4,*.77119.com/js/*
 5,4,www.vancl.com/WebSource/*
@@ -2176,6 +2176,9 @@
 5,4,*bkill.net/img/fx.gif
 5,4,*bkill.net/images/dubahesiu.gif
 5,4,*bkill.net/images/3.jpg
+5,4,*.admin5.com/extras/zz/inner.*.js
+5,4,*.admin5.com/extras/zz/common.*.js
+5,4,tuan.admin5.com/windex.php
 5,4,down.admin5.com/z/*
 5,4,*admin5.com/extras/*images/*x*.swf
 5,4,*admin5.com/extras/zz/images/*-*.jpg

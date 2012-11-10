@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-11-09 21:06:10
+#Updated:2012-11-10 18:04:32
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -931,6 +931,7 @@ msFilterList
 - *.chitika.com/
 - http://*.clickeye*.cn/
 - *.cnxad.com/
+-d media.ze5.com
 - *.counter.dudu.com/
 -d u.3393.com
 - *.diyad.cn/
@@ -1547,6 +1548,7 @@ msFilterList
 -d sh.sina.com.cn /iframe/408/
 -d news.sina.com.cn /pfpnews/js/libweb.js
 #----搜狗&搜狐&搜狐畅游----
+-d tv.sohu.com /upload/static/global/hdpv.js
 - http://a*.itc.cn/pv/js/pvclick.
 -d xls.go.sohu.com
 -d his.tv.sohu.com /his/ping.do?
@@ -1667,10 +1669,10 @@ msFilterList
 -d static.atm.youku.com taobao*.html
 -d static.atm.youku.com taobao*.jpg
 -d static.atm.youku.com taobao*.swf
--d static.atm.youku.com /Youku2012/*.swf
--d static.atm.youku.com /Youku2012/*.gif
--d static.atm.youku.com /Youku2012/*.jpg
--d f.youku.com /player/getFlvPath/fileid/*&yad=1
+-d static.atm.youku.com ouku2012/*.swf
+-d static.atm.youku.com ouku2012/*.gif
+-d static.atm.youku.com ouku2012/*.jpg
+-d f.youku.com /player/get*lv*ath/fileid/*&yad=1
 - http://val*.atm.youku.com/
 -d h.irs01.com
 #----雅虎----
@@ -2029,6 +2031,8 @@ msFilterList
 #----Norm Team----
 -d img03.taobaocdn.com /imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 - *normteam.com/usepic/
+#----2144小游戏----
+-d act.2144.cn /adv_img/
 #----ASP300源码下载----
 -d www.asp300.com adjs/
 #----啃文书库----
@@ -4147,6 +4151,8 @@ msFilterList
 -d uedas.qdmm.com
 -d o.if.qdmm.com /js/o.js
 -d cj.qidian.com .swf
+-d uedas.qdwenxue.com
+- *.qdwenxue.com/js/o.js
 -d stat.aa.sdo.com
 - *.sdo.com/redo004/fb.php
 - http://g.*.sdo.com/?method=GetAd&

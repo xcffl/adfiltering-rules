@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-11-09 21:06:10
+!Updated:2012-11-10 18:04:32
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -17,6 +17,7 @@
 ##.sponsor_links
 ##.label-ad
 ##.ad160
+###ad-top
 ##.ad-column
 ##.ad_title
 ###googlead
@@ -1040,6 +1041,7 @@ bannerad
 /\.chitika\.com\//
 /^http:\/\/.*\.clickeye.*\.cn\//
 /\.cnxad\.com\//
+/:\/\/([^\/]+\.)?media\.ze5\.com\//
 /\.counter\.dudu\.com\//
 /:\/\/([^\/]+\.)?u\.3393\.com\//
 /\.diyad\.cn\//
@@ -1690,6 +1692,9 @@ bannerad
 ##contentC > .columnC	$d=www.sohu.com
 ##ad_TOP	$d=www.sohu.com
 ##.adB	$d=sohu.com
+##sohuadcode	$d=sohu.com
+##miaozhenad	$d=tv.sohu.com
+/:\/\/([^\/]+\.)?tv\.sohu\.com\/upload\/static\/global\/hdpv\.js/
 /:\/\/([^\/]+\.)?a.*\.itc\.cn\/pv\/js\/pvclick\./
 /:\/\/([^\/]+\.)?xls\.go\.sohu\.com\//
 /:\/\/([^\/]+\.)?his\.tv\.sohu\.com\/his\/ping\.do\?/
@@ -1787,6 +1792,7 @@ bannerad
 /:\/\/([^\/]+\.)?oimagea2\.ydstatic\.com\/image\?.*&product=adpublish/
 /:\/\/([^\/]+\.)?impservice.*\.youdao\.com\//
 !----土豆网----
+##.seed	$d=tudou.com
 ##.b.seed	$d=tudou.com
 ##adex_board	$d=tudou.com
 /\/pos\?act=dur&dk=/
@@ -1822,10 +1828,10 @@ bannerad
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao.*\.html/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao.*\.jpg/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao.*\.swf/
-/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/Youku2012\/.*\.swf/
-/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/Youku2012\/.*\.gif/
-/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/Youku2012\/.*\.jpg/
-/:\/\/([^\/]+\.)?f\.youku\.com\/player\/getFlvPath\/fileid\/.*&yad=1/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*ouku2012\/.*\.swf/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*ouku2012\/.*\.gif/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*ouku2012\/.*\.jpg/
+/:\/\/([^\/]+\.)?f\.youku\.com\/player\/get.*lv.*ath\/fileid\/.*&yad=1/
 /:\/\/([^\/]+\.)?val.*\.atm\.youku\.com\//
 /:\/\/([^\/]+\.)?h\.irs01\.com\//
 !----雅虎----
@@ -1998,6 +2004,7 @@ bannerad
 /\.splayer\.org\/img\/yokou.*\.jpg/
 /:\/\/([^\/]+\.)?statics\..*\/banner\/topic_shooter\.png/
 !----VeryCD电驴大全----
+##BAIDU_PAGE_AD_3	$d=verycd.com
 /:\/\/([^\/]+\.)?sponsor\.verycd\.com\//
 /:\/\/([^\/]+\.)?v4\.vcimg\.com\/sq\/.*\.swf/
 /:\/\/([^\/]+\.)?sp\.vcimg\.com\//
@@ -2230,6 +2237,8 @@ bannerad
 !----Norm Team----
 /:\/\/([^\/]+\.)?img03\.taobaocdn\.com\/imgextra\/i3\/16214655\/T2fKBHXotaXXXXXXXX_!!16214655\.gif/
 /normteam\.com\/usepic\//
+!----2144小游戏----
+/:\/\/([^\/]+\.)?act\.2144\.cn\/adv_img\//
 !----ASP300源码下载----
 /:\/\/([^\/]+\.)?www\.asp300\.com\/.*adjs\//
 !----啃文书库----
@@ -2603,6 +2612,7 @@ bannerad
 /:\/\/([^\/]+\.)?images\.xxsy\.net\/js\/jinisi_show\.js/
 /:\/\/([^\/]+\.)?read\.xxsy\.net\/js\/menu\/bottom\.js/
 !----Simplecd----
+##[class^="ad-"]	$d=simplecd.me
 ##[style="vertical-align:middle;margin:5px;font-size:16px;"]	$d=simplecd.me
 ##HR	$d=simplecd.me
 !----逐浪小说网----
@@ -3254,6 +3264,7 @@ bannerad
 /autohome\.com\.cn\/33/
 /:\/\/([^\/]+\.)?33\.autohome\.com\.cn/
 !----AcFun.tv----
+##position_rad	$d=acfun.tv
 ##ad-comment	$d=acfun.tv
 /\.acfun\.tv\/api\/count\.aspx/
 /\.acfun\.tv\/json\/newad\.xml/
@@ -4566,6 +4577,8 @@ bannerad
 /:\/\/([^\/]+\.)?uedas\.qdmm\.com\//
 /:\/\/([^\/]+\.)?o\.if\.qdmm\.com\/js\/o\.js/
 /:\/\/([^\/]+\.)?cj\.qidian\.com\/.*\.swf/
+/:\/\/([^\/]+\.)?uedas\.qdwenxue\.com\//
+/\.qdwenxue\.com\/js\/o\.js/
 /:\/\/([^\/]+\.)?stat\.aa\.sdo\.com\//
 /\.sdo\.com\/redo004\/fb\.php/
 /:\/\/([^\/]+\.)?g\..*\.sdo\.com\/\?method=GetAd&/

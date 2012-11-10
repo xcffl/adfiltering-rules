@@ -1,3 +1,6 @@
+125.64.41.142/afp/door/*
+img.scol.com.cn/afp/*.swf
+*.beareyes.com.cn/*/pub/*
 gg.whbear.com/*
 www.9ifly.cn/source/plugin/dabandeng/dabandeng-gbk.html
 *.fzdm.com/ggup/*
@@ -1319,6 +1322,8 @@ dwtracking.sdo.com/*
 uedas.qdmm.com/*
 o.if.qdmm.com/js/o.js
 cj.qidian.com/*.swf
+uedas.qdwenxue.com/*
+*.qdwenxue.com/js/o.js
 stat.aa.sdo.com/*
 *.sdo.com/redo004/fb.php
 g.*.sdo.com/?method=GetAd&*

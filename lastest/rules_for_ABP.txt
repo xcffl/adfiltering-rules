@@ -1,7 +1,7 @@
 ﻿[AdblockPlus]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-11-09 21:06:10
+!Updated:2012-11-10 18:04:32
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -16,6 +16,7 @@
 ##.sponsor_links
 ##.label-ad
 ~pcper.com##.ad160
+~blogg.se###ad-top
 ##.ad-column
 ~fastseeksite.com,~njuskalo.hr##.ad_title
 ~pescorner.net###googlead
@@ -1037,6 +1038,7 @@
 |*.chitika.com/*
 |http://*.clickeye*.cn/*
 |*.cnxad.com/*
+||media.ze5.com/*
 |*.counter.dudu.com/*
 ||u.3393.com/*
 |*.diyad.cn/*
@@ -1687,6 +1689,9 @@ sohu.com,~cbachina.sports.sohu.com##sohuadcode
 www.sohu.com###contentC > .columnC
 www.sohu.com###ad_TOP
 sohu.com##.adB
+sohu.com,~cbachina.sports.sohu.com##sohuadcode
+tv.sohu.com###miaozhenad
+||tv.sohu.com/upload/static/global/hdpv.js
 ||a*.itc.cn/pv/js/pvclick.*
 ||xls.go.sohu.com/*
 ||his.tv.sohu.com/his/ping.do?*
@@ -1784,6 +1789,7 @@ www.163.com###g5n1
 ||oimagea2.ydstatic.com/image?*&product=adpublish
 ||impservice*.youdao.com/*
 !----土豆网----
+tudou.com##.seed
 tudou.com##.b.seed
 tudou.com###adex_board
 |*/pos?act=dur&dk=*
@@ -1819,10 +1825,10 @@ youku.com##.AB240
 ||static.atm.youku.com/*taobao*.html*
 ||static.atm.youku.com/*taobao*.jpg*
 ||static.atm.youku.com/*taobao*.swf*
-||static.atm.youku.com/Youku2012/*.swf*
-||static.atm.youku.com/Youku2012/*.gif*
-||static.atm.youku.com/Youku2012/*.jpg*
-||f.youku.com/player/getFlvPath/fileid/*&yad=1*
+||static.atm.youku.com/*ouku2012/*.swf*
+||static.atm.youku.com/*ouku2012/*.gif*
+||static.atm.youku.com/*ouku2012/*.jpg*
+||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
 ||val*.atm.youku.com/*
 ||h.irs01.com/*
 !----雅虎----
@@ -1995,6 +2001,7 @@ adf.ly###bottom
 |*.splayer.org/img/yokou*.jpg
 ||statics.*/banner/topic_shooter.png
 !----VeryCD电驴大全----
+verycd.com###BAIDU_PAGE_AD_3
 ||sponsor.verycd.com/*
 ||v4.vcimg.com/sq/*.swf*
 ||sp.vcimg.com/*
@@ -2227,6 +2234,8 @@ narutom.com###naruto_desk
 !----Norm Team----
 ||img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 |*normteam.com/usepic/*
+!----2144小游戏----
+||act.2144.cn/adv_img/*
 !----ASP300源码下载----
 ||www.asp300.com/*adjs/*
 !----啃文书库----
@@ -2598,6 +2607,7 @@ cn.msn.com##.advLf
 ||images.xxsy.net/js/jinisi_show.js
 ||read.xxsy.net/js/menu/bottom.js
 !----Simplecd----
+simplecd.me##[class^="ad-"]
 simplecd.me##[style="vertical-align:middle;margin:5px;font-size:16px;"]
 simplecd.me##HR
 !----逐浪小说网----
@@ -3245,6 +3255,7 @@ autohome.com.cn##.subadv2
 |*autohome.com.cn/33*
 ||33.autohome.com.cn*
 !----AcFun.tv----
+acfun.tv###position_rad
 acfun.tv###ad-comment
 |*.acfun.tv/api/count.aspx
 |*.acfun.tv/json/newad.xml
@@ -4545,6 +4556,8 @@ www.qidian.com##.DH17
 ||uedas.qdmm.com/*
 ||o.if.qdmm.com/js/o.js
 ||cj.qidian.com/*.swf
+||uedas.qdwenxue.com/*
+|*.qdwenxue.com/js/o.js
 ||stat.aa.sdo.com/*
 |*.sdo.com/redo004/fb.php
 ||g.*.sdo.com/?method=GetAd&*

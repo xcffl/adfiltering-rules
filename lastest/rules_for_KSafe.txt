@@ -912,6 +912,7 @@
 5,4,*.chitika.com/*
 5,4,*.clickeye*.cn/*
 5,4,*.cnxad.com/*
+5,4,media.ze5.com/*
 5,4,*.counter.dudu.com/*
 5,4,u.3393.com/*
 5,4,*.diyad.cn/*
@@ -1505,6 +1506,7 @@
 5,4,sh.sina.com.cn/iframe/391/*
 5,4,sh.sina.com.cn/iframe/408/*
 5,4,news.sina.com.cn/pfpnews/js/libweb.js
+5,4,tv.sohu.com/upload/static/global/hdpv.js
 5,4,a*.itc.cn/pv/js/pvclick.*
 5,4,xls.go.sohu.com/*
 5,4,his.tv.sohu.com/his/ping.do?*
@@ -1618,10 +1620,10 @@
 5,4,static.atm.youku.com/*taobao*.html*
 5,4,static.atm.youku.com/*taobao*.jpg*
 5,4,static.atm.youku.com/*taobao*.swf*
-5,4,static.atm.youku.com/Youku2012/*.swf*
-5,4,static.atm.youku.com/Youku2012/*.gif*
-5,4,static.atm.youku.com/Youku2012/*.jpg*
-5,4,f.youku.com/player/getFlvPath/fileid/*&yad=1*
+5,4,static.atm.youku.com/*ouku2012/*.swf*
+5,4,static.atm.youku.com/*ouku2012/*.gif*
+5,4,static.atm.youku.com/*ouku2012/*.jpg*
+5,4,f.youku.com/player/get*lv*ath/fileid/*&yad=1*
 5,4,val*.atm.youku.com/*
 5,4,h.irs01.com/*
 5,4,l.yimg.com/d/lib/bc/bcr_2.0.5.js
@@ -1900,6 +1902,7 @@
 5,4,bbs.kaspersky.com.cn/images/bbs/*
 5,4,img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 5,4,*normteam.com/usepic/*
+5,4,act.2144.cn/adv_img/*
 5,4,www.asp300.com/*adjs/*
 5,4,*.kenwen.com/scripts/ctc.js
 5,4,ads.skykiwi.com/*
@@ -3319,6 +3322,8 @@
 5,4,uedas.qdmm.com/*
 5,4,o.if.qdmm.com/js/o.js
 5,4,cj.qidian.com/*.swf
+5,4,uedas.qdwenxue.com/*
+5,4,*.qdwenxue.com/js/o.js
 5,4,stat.aa.sdo.com/*
 5,4,*.sdo.com/redo004/fb.php
 5,4,g.*.sdo.com/?method=GetAd&*

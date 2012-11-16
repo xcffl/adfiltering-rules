@@ -1,3 +1,10 @@
+i*.17173.itc.cn/*/www/*/sx/*/*.JPG
+images.17173.com/*/www/*/wm/*/wm-sm-*.jpg
+*17173.com/if/*
+market.17173.com/*
+www.cocoren.com/templets/cocoren/images/flash/*.swf
+*.scol.com.cn/js/def_*
+*.scol.com.cn/scol-3/js/08scol_text_*
 125.64.41.142/afp/door/*
 img.scol.com.cn/afp/*.swf
 *.beareyes.com.cn/*/pub/*
@@ -171,6 +178,7 @@ d.namipan.com/inc_js/*.js
 d.namipan.com/flash/*.swf
 afp.csbew.com/*
 *.wumii.com/images/pixel.png
+s.ytimg.com/yts/jsbin/www-feather-ads-*.js
 *youtube.com/img/youchoose/*
 *.bkill.com/css/js/bkill.js
 *.bkill.com/css/ajs/*
@@ -246,6 +254,7 @@ www.ej38.com/css/images/bbs.gif
 img.koowo.com*
 wa.kuwo.cn/lyrics/img/kwgg/*
 cw002.kuaikuai.cn/website/subject/editor_recommend2/*
+www.pcbeta.com/static/image/biz/*
 bbs.pcbeta.com/static/image/biz/*
 app.pcpop.com/PageView.aspx?*
 33.pcpop.com/*.*f
@@ -328,6 +337,9 @@ qiye.cctv.com/js/*
 *.cctv.com/Library/a2.js
 d.cntv.cn/*
 *.uuu9.com/code/tool_netgame/*
+img1.ijinshan.com/static/js/dh.js
+*.union.ijinshan.com/*
+123.duba.net/static/images/pop/*
 www.ijinshan.com/images/gk/game-*.jpg
 ruanjian.pc120.com/images/x*
 rcm-cn.amazon.cn/*
@@ -1255,6 +1267,7 @@ google.mmjq.com/*
 https://*/google*ad*js*
 */google*ad*js*
 partner.googleadservices.com*
+*.google.com/jsapi?autoload=*%22ads%22*function*
 www.google.cn/aclk?*
 cb.baidu.com/*
 a.baidu.com/*

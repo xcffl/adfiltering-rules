@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-11-10 18:04:32
+#Updated:2012-11-16 20:51:28
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -219,7 +219,7 @@ msFilterList
 - */icast/
 - http://*.*icast.
 - */icost/
-- */js/html/
+#|*/js/html/*
 - */jsfile/*.htm
 - */jsgg/
 - http://*/keyrun
@@ -840,6 +840,7 @@ msFilterList
 -d union.zhubajie.com
 - *.jugao.com/
 -d c.atdmt.com /c.gif?
+- */swfbin/ad3-
 - *.100tone.com/
 -d js.yoyi.tv
 -d js.shenduchuanmei.com
@@ -1142,7 +1143,6 @@ msFilterList
 - http://code.345ads.com:*/
 -d code.158ad.com
 -d code.qqgou.com
--d j.union.ijinshan.com
 -d www.xixianad.com
 - *.linkbucksmedia.com/director/
 - http://d*.zedo.com/
@@ -1594,6 +1594,11 @@ msFilterList
 -d tv.sohu.com /upload/ad_fr/
 -d tv.sohu.com /upload/trace/
 -d tv.sohu.com /upload/csad/
+#----纵横书海----
+-d www.dodbook.com /js/4.js
+-d www.dodbook.com /js/2.js
+-d www.dodbook.com /js/3.js
+-d www.dodbook.com /js/1.js
 #----51看电影----
 -d www.51kdy.com /js/yzz/banner_*.js
 -d www.51kdy.com /js/yzz/top_*.html
@@ -1648,7 +1653,7 @@ msFilterList
 -d static.atm.youku.com udou2012/*.jpg
 -d static.atm.youku.com udou2012/*.swf
 - http://*/adplay
-- http://*/adcontrol
+#|http://*/adcontrol*
 -d td.atm.youku.com /tdap/adcommon?
 -d istat.tudou.com /play.srv?
 -d player.pb.ops.tudou.com /info.php?
@@ -1665,16 +1670,26 @@ msFilterList
 -d js.tudouui.com /bin/tudoumini/tudoumini_*.swf
 -d v2.tudou.com /td*/
 - *.tudou.com/framepage/
+- *.tudou.com/tdap/
+- *.tudou.com/tdcm/
 #----优酷网----
 -d static.atm.youku.com taobao*.html
 -d static.atm.youku.com taobao*.jpg
 -d static.atm.youku.com taobao*.swf
--d static.atm.youku.com ouku2012/*.swf
+#||static.atm.youku.com/*ouku2012/*.swf*
 -d static.atm.youku.com ouku2012/*.gif
 -d static.atm.youku.com ouku2012/*.jpg
--d f.youku.com /player/get*lv*ath/fileid/*&yad=1
-- http://val*.atm.youku.com/
--d h.irs01.com
+-d html.atm.youku.com
+-d vhtml.atm.youku.com
+-d valc.atm.youku.com
+-d vid.atm.youku.com
+-d valp.atm.youku.com
+-d cps.youku.com
+#||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
+-d f.youku.com /player/getFlvPath/fileid/0*?K=
+#||valf.atm.youku.com/valf?*
+#||val*.atm.youku.com/*
+#||h.irs01.com/*
 #----雅虎----
 +d l.yimg.com /zz/combo?*.js
 -d l.yimg.com /d/lib/bc/bcr_2.0.5.js
@@ -2406,6 +2421,7 @@ msFilterList
 #----同步控----
 - *.wumii.com/images/pixel.png
 #----YouTube----
+-d s.ytimg.com /yts/jsbin/www-feather-ads-*.js
 - *youtube.com/img/youchoose/
 #----比克尔（必杀客）----
 - *.bkill.com/css/js/bkill.js
@@ -2514,7 +2530,9 @@ msFilterList
 #----金山快快----
 -d cw002.kuaikuai.cn /website/subject/editor_recommend2/
 #----远景在线----
+-d www.pcbeta.com /static/image/biz/
 -d bbs.pcbeta.com /static/image/biz/
+#----多维新闻----
 #----泡泡网----
 -d app.pcpop.com /PageView.aspx?
 -d 33.pcpop.com .*f
@@ -2639,6 +2657,9 @@ msFilterList
 - *.uuu9.com/code/tool_netgame/
 #----天珠变----
 #----金山网络----
+-d img1.ijinshan.com /static/js/dh.js
+- *.union.ijinshan.com/
+-d 123.duba.net /static/images/pop/
 -d www.ijinshan.com /images/gk/game-*.jpg
 -d ruanjian.pc120.com /images/x
 #----卓越亚马逊----
@@ -4075,6 +4096,7 @@ msFilterList
 - http://*/google*ad*js
 - http://partner.googleadservices.com
 #|*.google-analytics.com/*
+- *.google.com/jsapi?autoload=*%22ads%22*function
 -d www.google.cn /aclk?
 #----百度&乐居&hao123----
 -d cb.baidu.com

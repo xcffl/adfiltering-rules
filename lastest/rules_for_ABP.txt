@@ -1,7 +1,7 @@
-﻿[AdblockPlus]
+﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-11-10 18:04:32
+!Updated:2012-11-16 20:51:28
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -9,9 +9,11 @@
 !-------------通用规则-------------
 !------元素隐藏规则------
 ###adxBigAd
+###ad_box
 ###adxMiddle5
 ###adxSponLink
 ###adxSponLinkA
+###rhs_block > #mbEnd
 ##.advertisementColumnGroup
 ##.sponsor_links
 ##.label-ad
@@ -326,7 +328,7 @@
 |*/icast/*
 |http://*.*icast.*
 |*/icost/*
-|*/js/html/*
+!|*/js/html/*
 |*/jsfile/*.htm
 |*/jsgg/*
 |http://*/keyrun*
@@ -947,6 +949,7 @@
 ||union.zhubajie.com/*
 |*.jugao.com/*
 ||c.atdmt.com/c.gif?*
+|*/swfbin/ad3-*
 |*.100tone.com/*
 ||js.yoyi.tv/*
 ||js.shenduchuanmei.com:81/*
@@ -1249,7 +1252,6 @@
 ||code.345ads.com:*/*
 ||code.158ad.com/*
 ||code.qqgou.com/*
-||j.union.ijinshan.com/*
 ||www.xixianad.com/*
 |*.linkbucksmedia.com/director/*
 ||d*.zedo.com/*
@@ -1737,6 +1739,13 @@ tv.sohu.com###miaozhenad
 ||tv.sohu.com/upload/ad_fr/*
 ||tv.sohu.com/upload/trace/*
 ||tv.sohu.com/upload/csad/*
+!----纵横书海----
+dodbook.com##TABLE[width="750"]
+dodbook.com###AdsE
+||www.dodbook.com/js/4.js
+||www.dodbook.com/js/2.js
+||www.dodbook.com/js/3.js
+||www.dodbook.com/js/1.js
 !----51看电影----
 ||www.51kdy.com/js/yzz/banner_*.js
 ||www.51kdy.com/js/yzz/top_*.html
@@ -1799,7 +1808,7 @@ tudou.com###adex_board
 ||static.atm.youku.com/*udou2012/*.jpg
 ||static.atm.youku.com/*udou2012/*.swf*
 |http://*/adplay*
-|http://*/adcontrol*
+!|http://*/adcontrol*
 ||td.atm.youku.com/tdap/adcommon?*
 ||istat.tudou.com/play.srv?*
 ||player.pb.ops.tudou.com/info.php?*
@@ -1816,6 +1825,8 @@ tudou.com###adex_board
 ||js.tudouui.com/bin/tudoumini/tudoumini_*.swf
 ||v2.tudou.com/td*/*
 |*.tudou.com/framepage/*
+|*.tudou.com/tdap/*
+|*.tudou.com/tdcm/*
 !----优酷网----
 ##[id^="youku_ad_"]
 soku.com###ab_282
@@ -1825,12 +1836,20 @@ youku.com##.AB240
 ||static.atm.youku.com/*taobao*.html*
 ||static.atm.youku.com/*taobao*.jpg*
 ||static.atm.youku.com/*taobao*.swf*
-||static.atm.youku.com/*ouku2012/*.swf*
+!||static.atm.youku.com/*ouku2012/*.swf*
 ||static.atm.youku.com/*ouku2012/*.gif*
 ||static.atm.youku.com/*ouku2012/*.jpg*
-||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
-||val*.atm.youku.com/*
-||h.irs01.com/*
+||html.atm.youku.com/*
+||vhtml.atm.youku.com/*
+||valc.atm.youku.com/*
+||vid.atm.youku.com/*
+||valp.atm.youku.com/*
+||cps.youku.com/*
+!||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
+||f.youku.com/player/getFlvPath/fileid/0*?K=*
+!||valf.atm.youku.com/valf?*
+!||val*.atm.youku.com/*
+!||h.irs01.com/*
 !----雅虎----
 @@||l.yimg.com/zz/combo?*.js*
 ||l.yimg.com/d/lib/bc/bcr_2.0.5.js
@@ -2666,6 +2685,7 @@ bbs.cnhubei.com##.ad
 !----YouTube----
 youtube.com##.promoted-videos
 youtube.com###search-pva
+||s.ytimg.com/yts/jsbin/www-feather-ads-*.js
 |*youtube.com/img/youchoose/*
 !----比克尔（必杀客）----
 |*.bkill.com/css/js/bkill.js
@@ -2797,7 +2817,11 @@ bbs.pcbeta.com##.a_pb
 bbs.pcbeta.com###diynavtop + .wp
 bbs.pcbeta.com##.forum_top + div[style]:nth-child(3)
 bbs.pcbeta.com###pt + div[style] > div[style^="clear:both;"]
+pcbeta.com##.wp[style="position:relative;padding:10px;width:980px;height:170px;overflow:hidden;background:#d0dae4;"]
+||www.pcbeta.com/static/image/biz/*
 ||bbs.pcbeta.com/static/image/biz/*
+!----多维新闻----
+politics.dwnews.com###adverid
 !----泡泡网----
 pcpop.com##[id^="ad_word_t"]
 www.pcpop.com##.Content > .l1:first-child
@@ -2932,6 +2956,9 @@ jrj.com.cn##.a1.mg0
 saesky.net##FONT[color="#FF0000"]
 saesky.net##FONT[color="#0000FF"]
 !----金山网络----
+||img1.ijinshan.com/static/js/dh.js
+|*.union.ijinshan.com/*
+||123.duba.net/static/images/pop/*
 ||www.ijinshan.com/images/gk/game-*.jpg
 ||ruanjian.pc120.com/images/x*
 !----卓越亚马逊----
@@ -4458,6 +4485,7 @@ chinanews.com###adhzh
 |http://*/google*ad*js*
 ||partner.googleadservices.com*
 !|*.google-analytics.com/*
+|*.google.com/jsapi?autoload=*%22ads%22*function*$domain=youtube.com
 ||www.google.cn/aclk?*
 !----百度&乐居&hao123----
 tieba.baidu.com##.l_banner
@@ -4469,6 +4497,7 @@ baike.baidu.com###mabox
 www.baidu.com,www1.baidu.com##table[cellspacing="0"][cellpadding="0"][align="right"][width="30%"]
 www.baidu.com,www1.baidu.com##style + table:nth-child(3)
 www.baidu.com,www1.baidu.com##.EC_mr15
+news.baidu.com###ecad
 ipv6.baidu.com##.ec_bdtg
 ipv6.baidu.com###ec_im_container
 ipv6.baidu.com###ecad

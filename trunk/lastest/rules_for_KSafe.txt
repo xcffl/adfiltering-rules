@@ -1729,7 +1729,6 @@
 5,4,220.181.109.181/tracker?*
 5,4,afp.qiyi.com/*
 5,4,jsmsg.video.qiyi.com/*
-5,4,msg.video.qiyi.com/*
 5,4,static.qiyi.com/js/pingback/*
 5,4,policy.cupid.qiyi.com/*
 5,4,uestat.video.qiyi.com/*

@@ -249,7 +249,6 @@
 5,4,*/adsview*
 5,4,*/adcouncil/*
 5,4,*cpc/*
-5,4,*cpc.*
 5,4,*/common/cf/*.jpg
 5,4,*/common/cf/*.gif
 5,4,*/common/cf/*.png
@@ -1358,6 +1357,7 @@
 5,4,*.i99770.com/haodm/dmjsc/*.js
 5,4,www.i99770.com/g/h/*.html
 5,4,*46.com/taobao/images/*
+5,4,btrace.qq.com/*
 5,4,discuz.gtimg.cn/cloud/scripts/discuz_tips.js?*
 5,4,mat1.gtimg.com/2012/images/ay12/*AD*.png
 5,4,mat1.gtimg.com/2012/images/ay12/*ad*.jpg
@@ -1664,6 +1664,7 @@
 5,4,media.yesky.com/*
 5,4,*/yeskyadroller.swf
 5,4,image.tianjimedia.com/uploadImages/2011/007/D9KY6F6BT701.gif
+5,4,bbs.hxland.com/static/image/A*.gif
 5,4,*.111cn.net/pic/*.gif
 5,4,dvs.china.com/*
 5,4,military.china.com/zh_cn/etc/gghead950.html
@@ -1715,6 +1716,8 @@
 5,4,www.pcgames.com.cn/*/fz/*
 5,4,*3conline.com/ivy/*
 5,4,gg.yxdown.com/*
+5,4,new.thea.cn/tan/*
+5,4,images.koolearn.com/casupload/upload*/advs/*
 5,4,images.mydrivers.com/*/*x*.swf
 5,4,11.mydrivers.com/*.htm*
 5,4,11.mydrivers.com/www/*_*.js
@@ -1943,6 +1946,8 @@
 5,4,css.ku6cdn.com/podcast/img/bg_ad.gif
 5,4,st.vq.ku6.cn/*
 5,4,image.ku6.com/image/*
+5,4,css.ku6cdn.com/ent/*/fri.*x*-*.jpg
+5,4,css.ku6cdn.com/www/*/*x*.gif
 5,4,image.ku6.com/*888*/*
 5,4,www.ipc.me/plus/static_files/nuffnang.html
 5,4,www.iplaysoft.com/plus/static_files/nuffnang.html
@@ -2060,10 +2065,10 @@
 5,4,www.dnjsb.com/tu/*
 5,4,www.webjx.com/zanzhushang/*
 5,4,www.webjx.com/upfiles/*-*.gif
+5,4,www.33lc.com/js/softdown.js
 5,4,www.33lc.com/js/banner-*.js
 5,4,www.33lc.com/soft/UploadPic/*-*/dnxx_*
 5,4,www.33lc.com/js/*_*.js
-5,4,www.33lc.com/soft/UploadPic/2012-5/201251814224916797.jpg
 5,4,*.s1979.com/html/ad_js/*
 5,4,mu.ruoren.com/*
 5,4,log.zongheng.com/*

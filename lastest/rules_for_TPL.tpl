@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-11-16 20:51:28
+#Updated:2012-11-17 13:20:08
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -262,7 +262,7 @@ msFilterList
 - http://*/adsview
 - */adcouncil/
 - http://*cpc/
-- http://*cpc.
+#|http://*cpc.*
 - */common/cf/*.jpg
 - */common/cf/*.gif
 - */common/cf/*.png
@@ -1391,6 +1391,7 @@ msFilterList
 #----46网址导航----
 - *46.com/taobao/images/
 #----腾讯&财付通----
+-d btrace.qq.com
 -d discuz.gtimg.cn /cloud/scripts/discuz_tips.js?
 -d mat1.gtimg.com /2012/images/ay12/*AD*.png
 -d mat1.gtimg.com /2012/images/ay12/*ad*.jpg
@@ -1724,6 +1725,8 @@ msFilterList
 -d media.yesky.com
 - */yeskyadroller.swf
 -d image.tianjimedia.com /uploadImages/2011/007/D9KY6F6BT701.gif
+#----华夏土地网----
+-d bbs.hxland.com /static/image/A*.gif
 #----壹聚教程----
 - *.111cn.net/pic/*.gif
 #----中华网----
@@ -1791,6 +1794,10 @@ msFilterList
 #----爱微课网----
 #----游讯网----
 -d gg.yxdown.com
+#----教育联展网----
+-d new.thea.cn /tan/
+#----新东方在线----
+-d images.koolearn.com /casupload/upload*/advs/
 #----驱动之家----
 -d images.mydrivers.com /*x*.swf
 -d 11.mydrivers.com .htm
@@ -2094,6 +2101,8 @@ msFilterList
 -d css.ku6cdn.com /podcast/img/bg_ad.gif
 -d st.vq.ku6.cn
 -d image.ku6.com /image/
+-d css.ku6cdn.com /ent/*/fri.*x*-*.jpg
+-d css.ku6cdn.com /www/*/*x*.gif
 -d image.ku6.com 888*/
 #----异次元软件世界&iPc.me----
 -d www.ipc.me /plus/static_files/nuffnang.html
@@ -2251,10 +2260,10 @@ msFilterList
 -d www.webjx.com /zanzhushang/
 -d www.webjx.com /upfiles/*-*.gif
 #----绿茶下载站----
+-d www.33lc.com /js/softdown.js
 -d www.33lc.com /js/banner-*.js
 -d www.33lc.com /soft/UploadPic/*-*/dnxx_
 -d www.33lc.com /js/*_*.js
--d www.33lc.com /soft/UploadPic/2012-5/201251814224916797.jpg
 #----中国时刻网----
 - *.s1979.com/html/ad_js/
 #----若人网&若人论坛----

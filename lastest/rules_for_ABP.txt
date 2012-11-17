@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-11-16 20:51:28
+!Updated:2012-11-17 13:20:08
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -371,7 +371,7 @@
 |http://*/adsview*
 |*/adcouncil/*
 |http://*cpc/*
-|http://*cpc.*
+!|http://*cpc.*
 |*/common/cf/*.jpg
 |*/common/cf/*.gif
 |*/common/cf/*.png
@@ -1501,7 +1501,10 @@
 |*46.com/taobao/images/*
 !----腾讯&财付通----
 qq.com##.AdTop-Article-QQ
+stock.qq.com##.fr.box-2
+stock.qq.com##DIV[style="margin:0 auto;width:960px;text-align:center"]
 qq.com##.l_qq_com
+||btrace.qq.com/*
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js?*
 ||mat1.gtimg.com/2012/images/ay12/*AD*.png
 ||mat1.gtimg.com/2012/images/ay12/*ad*.jpg
@@ -1832,6 +1835,7 @@ tudou.com###adex_board
 soku.com###ab_282
 youku.com###ab_26
 youku.com##.AB240
+youku.com##A[href*="hz.youku.com/red/click.php?"]
 ##.sideCol > div[class^="AB"]
 ||static.atm.youku.com/*taobao*.html*
 ||static.atm.youku.com/*taobao*.jpg*
@@ -1884,6 +1888,8 @@ youku.com##.AB240
 ||media.yesky.com/*
 |*/yeskyadroller.swf
 ||image.tianjimedia.com/uploadImages/2011/007/D9KY6F6BT701.gif
+!----华夏土地网----
+||bbs.hxland.com/static/image/A*.gif
 !----壹聚教程----
 111cn.net##[id^="c_ads"]
 |*.111cn.net/pic/*.gif
@@ -1960,6 +1966,12 @@ i.qianshou.com##DIV[style="width:728px; height:90px; float:left; padding-top:4px
 iiwnet.com##[id^="ads"]
 !----游讯网----
 ||gg.yxdown.com/*
+!----教育联展网----
+thea.cn###theahtml_adm
+||new.thea.cn/tan/*
+!----新东方在线----
+koolearn.com##.focus_b1
+||images.koolearn.com/casupload/upload*/advs/*
 !----驱动之家----
 mydrivers.com##[id^="ad_"]
 ||images.mydrivers.com/*/*x*.swf
@@ -2307,6 +2319,8 @@ www.ku6.com##[class^="a_d0608"]
 ||css.ku6cdn.com/podcast/img/bg_ad.gif
 ||st.vq.ku6.cn/*
 ||image.ku6.com/image/*
+||css.ku6cdn.com/ent/*/fri.*x*-*.jpg
+||css.ku6cdn.com/www/*/*x*.gif
 ||image.ku6.com/*888*/*
 !----异次元软件世界&iPc.me----
 ipc.me##.widget.widget_ad_slot_wrapper
@@ -2494,10 +2508,11 @@ news.ifeng.com###smExtObjBg
 ||www.webjx.com/zanzhushang/*
 ||www.webjx.com/upfiles/*-*.gif
 !----绿茶下载站----
+33lc.com##.adArea2.mt5.mb5
+||www.33lc.com/js/softdown.js
 ||www.33lc.com/js/banner-*.js
 ||www.33lc.com/soft/UploadPic/*-*/dnxx_*
 ||www.33lc.com/js/*_*.js
-||www.33lc.com/soft/UploadPic/2012-5/201251814224916797.jpg
 !----中国时刻网----
 |*.s1979.com/html/ad_js/*
 !----若人网&若人论坛----

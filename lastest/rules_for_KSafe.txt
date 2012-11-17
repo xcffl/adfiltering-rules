@@ -1968,6 +1968,7 @@
 5,4,*.bookcu.com/pop.js
 5,4,graphics.streamray.com/images/cams/flash/cams_live.swf
 5,4,*.77119.com/js/*
+5,4,union.vancl.com/*
 5,4,www.vancl.com/WebSource/*
 5,4,images.vancl.com/Others/*/*/*/search_vt_*.jpg
 5,4,p*.mmstat.com/*
@@ -2995,6 +2996,7 @@
 5,4,www.yindaoxian.com/*up-pic/*
 5,4,my.wmvpn.com/images/*
 5,4,*fenbei.com/ssad5.gif
+5,4,down.cnzz.cn/300-300.jpg
 5,4,down.cnzz.cn/js/YlFloat.js
 5,4,*.cnzz.cn/*zanzhu*
 5,4,*.cnzz.com/api/*.js

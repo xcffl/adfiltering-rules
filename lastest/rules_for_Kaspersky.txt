@@ -1967,6 +1967,7 @@ pic.zol.com.cn/*/*hp*_*_*.swf
 *.bookcu.com/pop.js
 graphics.streamray.com/images/cams/flash/cams_live.swf
 *.77119.com/js/*
+union.vancl.com/*
 www.vancl.com/WebSource/*
 images.vancl.com/Others/*/*/*/search_vt_*.jpg
 p*.mmstat.com/*
@@ -2994,6 +2995,7 @@ counter.pixplug.in/count.php
 www.yindaoxian.com/*up-pic/*
 my.wmvpn.com/images/*
 *fenbei.com/ssad5.gif
+down.cnzz.cn/300-300.jpg
 down.cnzz.cn/js/YlFloat.js
 *.cnzz.cn/*zanzhu*
 *.cnzz.com/api/*.js

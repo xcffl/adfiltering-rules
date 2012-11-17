@@ -1,3 +1,4 @@
+media.17173.com/09gonggao.js
 images.17173.com/*/sx/*
 media.17173.com/x/*
 js.17173.com/ping.js
@@ -994,6 +995,7 @@ counter.pixplug.in/count.php
 www.yindaoxian.com/*up-pic/*
 my.wmvpn.com/images/*
 *fenbei.com/ssad5.gif
+down.cnzz.cn/300-300.jpg
 down.cnzz.cn/js/YlFloat.js
 *.cnzz.cn/*zanzhu*
 *.cnzz.com/api/*.js

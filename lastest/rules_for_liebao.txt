@@ -1,9 +1,9 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-11-17 13:20:08
+!Updated:2012-11-17 21:30:37
 !Version:1.0
-!Description:一个通用、全面的广告过滤规则/
+!Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -2332,6 +2332,7 @@ bannerad
 ##[style="_display:block;height:252px;width:301px;overflow:hidden;margin-bottom:7px"]	$d=ipc.me
 ##LI.widget	$d=ipc.me
 ##.post-top-gg	$d=ipc.me
+##CENTER	$d=dl.iplaysoft.com
 /:\/\/([^\/]+\.)?www\.ipc\.me\/plus\/static_files\/nuffnang\.html/
 /:\/\/([^\/]+\.)?www\.iplaysoft\.com\/plus\/static_files\/nuffnang\.html/
 !----19楼----
@@ -2367,6 +2368,7 @@ bannerad
 !----77119TXT小说----
 /\.77119\.com\/js\//
 !----凡客诚品----
+/:\/\/([^\/]+\.)?union\.vancl\.com\//
 /:\/\/([^\/]+\.)?www\.vancl\.com\/WebSource\//
 /:\/\/([^\/]+\.)?images\.vancl\.com\/Others\/.*\/.*\/.*\/search_vt_.*\.jpg/
 !----石狮团购网&石狮生活论坛----
@@ -3541,6 +3543,10 @@ bannerad
 /linuxidc\.com\/linuxren\/linuxren.*\.js/
 !----六度小说网----
 /liudu9\.com\/js\/read_link/
+!----中国常州网----
+##.adcommon	$d=cz001.com.cn
+##adfloat	$d=cz001.com.cn
+/:\/\/([^\/]+\.)?comm.cz001.com.cn\/2012new\/common\/js\/header.js/	$w
 !----好听音乐网----
 /:\/\/([^\/]+\.)?www\.haoting\.com\/adad\//
 !----爱漫画----
@@ -4032,6 +4038,8 @@ bannerad
 ##.show_right2.fr.ml20.mt20	$d=down.cnzz.cn
 ##.txt_show_right.mb20	$d=down.cnzz.cn
 ##B	$d=down.cnzz.cn
+##msg_win	$d=down.cnzz.cn
+/:\/\/([^\/]+\.)?down\.cnzz\.cn\/300-300\.jpg/
 /:\/\/([^\/]+\.)?down\.cnzz\.cn\/js\/YlFloat\.js/
 /\.cnzz\.cn\/.*zanzhu/
 /\.cnzz\.com\/api\/.*\.js/

@@ -1967,6 +1967,7 @@ pic.zol.com.cn/*/*hp*_*_*.swf
 *.bookcu.com/pop.js
 graphics.streamray.com/images/cams/flash/cams_live.swf
 *.77119.com/js/*
+union.vancl.com/*
 www.vancl.com/WebSource/*
 images.vancl.com/Others/*/*/*/search_vt_*.jpg
 p*.mmstat.com/*
@@ -1996,5 +1997,4 @@ i1.17173.itc.cn/*/www/*/*/*-*-*.*
 i3.17173.itc.cn/*/www/*/*/*-*-*.*
 i2.17173.itc.cn/*/www/*/*/*-*-*.*
 www.17173.com/script/ggcommon.js
-book.17173.com/17k/xct/*
 

@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-11-16 20:51:28
+!Updated:2012-11-17 13:20:08
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则/
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -374,7 +374,7 @@ bannerad
 /^http:\/\/.*\/adsview/
 /\/adcouncil\//
 /^http:\/\/.*cpc\//
-/^http:\/\/.*cpc\./
+!|http://*cpc.*
 /\/common\/cf\/.*\.jpg/
 /\/common\/cf\/.*\.gif/
 /\/common\/cf\/.*\.png/
@@ -1504,7 +1504,10 @@ bannerad
 /46\.com\/taobao\/images\//
 !----腾讯&财付通----
 ##.AdTop-Article-QQ	$d=qq.com
+##.fr.box-2	$d=stock.qq.com
+##DIV[style="margin:0 auto;width:960px;text-align:center"]	$d=stock.qq.com
 ##.l_qq_com	$d=qq.com
+/:\/\/([^\/]+\.)?btrace\.qq\.com\//
 /:\/\/([^\/]+\.)?discuz\.gtimg\.cn\/cloud\/scripts\/discuz_tips\.js\?/
 /:\/\/([^\/]+\.)?mat1\.gtimg\.com\/2012\/images\/ay12\/.*AD.*\.png/
 /:\/\/([^\/]+\.)?mat1\.gtimg\.com\/2012\/images\/ay12\/.*ad.*\.jpg/
@@ -1835,6 +1838,7 @@ bannerad
 ##ab_282	$d=soku.com
 ##ab_26	$d=youku.com
 ##.AB240	$d=youku.com
+##A[href*="hz.youku.com/red/click.php?"]	$d=youku.com
 ##.sideCol > div[class^="AB"]
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao.*\.html/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao.*\.jpg/
@@ -1887,6 +1891,8 @@ bannerad
 /:\/\/([^\/]+\.)?media\.yesky\.com\//
 /\/yeskyadroller\.swf/
 /:\/\/([^\/]+\.)?image\.tianjimedia\.com\/uploadImages\/2011\/007\/D9KY6F6BT701\.gif/
+!----华夏土地网----
+/:\/\/([^\/]+\.)?bbs\.hxland\.com\/static\/image\/A.*\.gif/
 !----壹聚教程----
 ##[id^="c_ads"]	$d=111cn.net
 /\.111cn\.net\/pic\/.*\.gif/
@@ -1963,6 +1969,12 @@ bannerad
 ##[id^="ads"]	$d=iiwnet.com
 !----游讯网----
 /:\/\/([^\/]+\.)?gg\.yxdown\.com\//
+!----教育联展网----
+##theahtml_adm	$d=thea.cn
+/:\/\/([^\/]+\.)?new\.thea\.cn\/tan\//
+!----新东方在线----
+##.focus_b1	$d=koolearn.com
+/:\/\/([^\/]+\.)?images\.koolearn\.com\/casupload\/upload.*\/advs\//
 !----驱动之家----
 ##[id^="ad_"]	$d=mydrivers.com
 /:\/\/([^\/]+\.)?images\.mydrivers\.com\/.*\/.*x.*\.swf/
@@ -2310,6 +2322,8 @@ bannerad
 /:\/\/([^\/]+\.)?css\.ku6cdn\.com\/podcast\/img\/bg_ad\.gif/
 /:\/\/([^\/]+\.)?st\.vq\.ku6\.cn\//
 /:\/\/([^\/]+\.)?image\.ku6\.com\/image\//
+/:\/\/([^\/]+\.)?css\.ku6cdn\.com\/ent\/.*\/fri\..*x.*-.*\.jpg/
+/:\/\/([^\/]+\.)?css\.ku6cdn\.com\/www\/.*\/.*x.*\.gif/
 /:\/\/([^\/]+\.)?image\.ku6\.com\/.*888.*\//
 !----异次元软件世界&iPc.me----
 ##.widget.widget_ad_slot_wrapper	$d=ipc.me
@@ -2499,10 +2513,11 @@ bannerad
 /:\/\/([^\/]+\.)?www\.webjx\.com\/zanzhushang\//
 /:\/\/([^\/]+\.)?www\.webjx\.com\/upfiles\/.*-.*\.gif/
 !----绿茶下载站----
+##.adArea2.mt5.mb5	$d=33lc.com
+/:\/\/([^\/]+\.)?www\.33lc\.com\/js\/softdown\.js/
 /:\/\/([^\/]+\.)?www\.33lc\.com\/js\/banner-.*\.js/
 /:\/\/([^\/]+\.)?www\.33lc\.com\/soft\/UploadPic\/.*-.*\/dnxx_/
 /:\/\/([^\/]+\.)?www\.33lc\.com\/js\/.*_.*\.js/
-/:\/\/([^\/]+\.)?www\.33lc\.com\/soft\/UploadPic\/2012-5\/201251814224916797\.jpg/
 !----中国时刻网----
 /\.s1979\.com\/html\/ad_js\//
 !----若人网&若人论坛----

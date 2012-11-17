@@ -249,7 +249,6 @@ ad.*/*
 */adsview*
 */adcouncil/*
 *cpc/*
-*cpc.*
 */common/cf/*.jpg
 */common/cf/*.gif
 */common/cf/*.png
@@ -1358,6 +1357,7 @@ s1.fanxian.com/images/event/*_fanxian.gif
 *.i99770.com/haodm/dmjsc/*.js
 www.i99770.com/g/h/*.html
 *46.com/taobao/images/*
+btrace.qq.com/*
 discuz.gtimg.cn/cloud/scripts/discuz_tips.js?*
 mat1.gtimg.com/2012/images/ay12/*AD*.png
 mat1.gtimg.com/2012/images/ay12/*ad*.jpg
@@ -1663,6 +1663,7 @@ mydown.yesky.com/uploadImages/*
 media.yesky.com/*
 */yeskyadroller.swf
 image.tianjimedia.com/uploadImages/2011/007/D9KY6F6BT701.gif
+bbs.hxland.com/static/image/A*.gif
 *.111cn.net/pic/*.gif
 dvs.china.com/*
 military.china.com/zh_cn/etc/gghead950.html
@@ -1714,6 +1715,8 @@ www.pcgames.com.cn/*/hzh/index.html
 www.pcgames.com.cn/*/fz/*
 *3conline.com/ivy/*
 gg.yxdown.com/*
+new.thea.cn/tan/*
+images.koolearn.com/casupload/upload*/advs/*
 images.mydrivers.com/*/*x*.swf
 11.mydrivers.com/*.htm*
 11.mydrivers.com/www/*_*.js
@@ -1942,6 +1945,8 @@ image.ku6.com/*/g/*
 css.ku6cdn.com/podcast/img/bg_ad.gif
 st.vq.ku6.cn/*
 image.ku6.com/image/*
+css.ku6cdn.com/ent/*/fri.*x*-*.jpg
+css.ku6cdn.com/www/*/*x*.gif
 image.ku6.com/*888*/*
 www.ipc.me/plus/static_files/nuffnang.html
 www.iplaysoft.com/plus/static_files/nuffnang.html
@@ -2059,10 +2064,10 @@ activate.adobe.com/*
 www.dnjsb.com/tu/*
 www.webjx.com/zanzhushang/*
 www.webjx.com/upfiles/*-*.gif
+www.33lc.com/js/softdown.js
 www.33lc.com/js/banner-*.js
 www.33lc.com/soft/UploadPic/*-*/dnxx_*
 www.33lc.com/js/*_*.js
-www.33lc.com/soft/UploadPic/2012-5/201251814224916797.jpg
 *.s1979.com/html/ad_js/*
 mu.ruoren.com/*
 log.zongheng.com/*

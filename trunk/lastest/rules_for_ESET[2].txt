@@ -1,3 +1,8 @@
+images.17173.com/*/sx/*
+media.17173.com/x/*
+js.17173.com/ping.js
+images.17173.com/*/www/*/lgzx/*-a.jpg
+images.17173.com/*/www/*/hd/*-a.jpg
 i*.17173.itc.cn/*/www/*/sx/*/*.JPG
 images.17173.com/*/www/*/wm/*/wm-sm-*.jpg
 *17173.com/if/*
@@ -59,10 +64,10 @@ activate.adobe.com/*
 www.dnjsb.com/tu/*
 www.webjx.com/zanzhushang/*
 www.webjx.com/upfiles/*-*.gif
+www.33lc.com/js/softdown.js
 www.33lc.com/js/banner-*.js
 www.33lc.com/soft/UploadPic/*-*/dnxx_*
 www.33lc.com/js/*_*.js
-www.33lc.com/soft/UploadPic/2012-5/201251814224916797.jpg
 *.s1979.com/html/ad_js/*
 mu.ruoren.com/*
 log.zongheng.com/*

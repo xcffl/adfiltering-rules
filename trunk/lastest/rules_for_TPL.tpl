@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-11-17 13:20:08
+#Updated:2012-11-17 21:30:37
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -2133,6 +2133,7 @@ msFilterList
 #----77119TXT小说----
 - *.77119.com/js/
 #----凡客诚品----
+-d union.vancl.com
 -d www.vancl.com /WebSource/
 -d images.vancl.com /Others/*/*/*/search_vt_*.jpg
 #----石狮团购网&石狮生活论坛----
@@ -3175,6 +3176,8 @@ msFilterList
 - *linuxidc.com/linuxren/linuxren*.js
 #----六度小说网----
 - *liudu9.com/js/read_link
+#----中国常州网----
++d comm.cz001.com.cn /2012new/common/js/header.js
 #----好听音乐网----
 -d www.haoting.com /adad/
 #----爱漫画----
@@ -3640,6 +3643,7 @@ msFilterList
 #----分贝网----
 - *fenbei.com/ssad5.gif
 #----站长.中国----
+-d down.cnzz.cn /300-300.jpg
 -d down.cnzz.cn /js/YlFloat.js
 - *.cnzz.cn/*zanzhu
 - *.cnzz.com/api/*.js

@@ -1,3 +1,7 @@
+i2.17173.itc.cn/*/www/*/*/*-*-*.*
+www.17173.com/script/ggcommon.js
+book.17173.com/17k/xct/*
+media.17173.com/09gonggao.js
 images.17173.com/*/sx/*
 media.17173.com/x/*
 js.17173.com/ping.js
@@ -444,6 +448,7 @@ log.17k.com/*
 img.17k.com/js/jquery*.js
 sc.chinaiiss.com/do.php?do=ad&*
 *.chinaiiss.com/include/js/function.ad.js
+*.3156.cn/js/left.js
 www.3156.cn/js/float_ads.*.js
 www.3156.cn/images/fdgg.css
 img3.douban.com/js/boomerang.js*

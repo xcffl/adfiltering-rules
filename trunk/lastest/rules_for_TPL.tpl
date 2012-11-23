@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-11-17 22:24:21
+#Updated:2012-11-23 19:47:23
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1036,6 +1036,7 @@ msFilterList
 - http://cn.lianmeng.com
 -d img.50bang.org /jifen/
 - http://code.52qiangming.com
+-d cpm.woniu666.com
 -d code.comuce.com /bdcode/
 - http://cpv.channelray.com
 - http://dhcode.cn3.cn
@@ -1712,6 +1713,7 @@ msFilterList
 -d cn.yimg.com /js/*/*window-min.js
 -d ks.cn.yahoo.com /ks_q1_tg.html
 - http://cmh.tw.yahoo.overture.com
+#----一木禾网盘----
 #----Zzz.uz----
 -d zzz.uz /assets/money-*.png
 -d zzz.uz /assets/stylebar.css
@@ -1812,6 +1814,8 @@ msFilterList
 -d afp.qiyi.com
 -d jsmsg.video.qiyi.com
 #||msg.video.qiyi.com/*
+- *.iqiyi.com/player/cupid/
+-d cache.video.qiyi.com /adpolicy
 -d static.qiyi.com /js/pingback/
 -d policy.cupid.qiyi.com
 -d uestat.video.qiyi.com
@@ -2048,6 +2052,8 @@ msFilterList
 - *.narutom.com/js/myl.js
 - *.narutom.com/stat.js
 - *.narutom.com/v2/js/198game_Lt.js
+#----精睿----
+-d bbs.vc52.cn /data/attachment/forum/2*/*.gif
 #----卡巴一族----
 -d bbs.kaspersky.com.cn /images/bbs/
 #----Norm Team----
@@ -2818,6 +2824,7 @@ msFilterList
 -d sc.chinaiiss.com /do.php?do=ad&
 - *.chinaiiss.com/include/js/function.ad.js
 #----红浪药品网----
+- *.3156.cn/js/left.js
 -d www.3156.cn /js/float_ads.*.js
 -d www.3156.cn /images/fdgg.css
 #----豆瓣----

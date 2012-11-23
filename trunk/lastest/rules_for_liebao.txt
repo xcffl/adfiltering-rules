@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-11-17 22:24:21
+!Updated:2012-11-23 19:47:23
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -1148,6 +1148,7 @@ bannerad
 /:\/\/([^\/]+\.)?cn\.lianmeng\.com/
 /:\/\/([^\/]+\.)?img\.50bang\.org\/jifen\//
 /:\/\/([^\/]+\.)?code\.52qiangming\.com/
+/:\/\/([^\/]+\.)?cpm\.woniu666\.com\//
 /:\/\/([^\/]+\.)?code\.comuce\.com\/bdcode\//
 /:\/\/([^\/]+\.)?cpv\.channelray\.com/
 /:\/\/([^\/]+\.)?dhcode\.cn3\.cn/
@@ -1878,6 +1879,9 @@ bannerad
 /:\/\/([^\/]+\.)?cn\.yimg\.com\/.*\/js\/.*\/.*window-min\.js/
 /:\/\/([^\/]+\.)?ks\.cn\.yahoo\.com\/ks_q1_tg\.html/
 /:\/\/([^\/]+\.)?cmh\.tw\.yahoo\.overture\.com/
+!----一木禾网盘----
+##ta1	$d=yimuhe.com
+##.disk_top	$d=yimuhe.com
 !----Zzz.uz----
 /:\/\/([^\/]+\.)?zzz\.uz\/assets\/money-.*\.png/
 /:\/\/([^\/]+\.)?zzz\.uz\/assets\/stylebar\.css/
@@ -1993,6 +1997,8 @@ bannerad
 /:\/\/([^\/]+\.)?afp\.qiyi\.com\//
 /:\/\/([^\/]+\.)?jsmsg\.video\.qiyi\.com\//
 !||msg.video.qiyi.com/*
+/\.iqiyi\.com\/player\/cupid\//
+/:\/\/([^\/]+\.)?cache\.video\.qiyi\.com\/adpolicy/
 /:\/\/([^\/]+\.)?static\.qiyi\.com\/js\/pingback\//
 /:\/\/([^\/]+\.)?policy\.cupid\.qiyi\.com\//
 /:\/\/([^\/]+\.)?uestat\.video\.qiyi\.com\//
@@ -2263,6 +2269,8 @@ bannerad
 /\.narutom\.com\/js\/myl\.js/
 /\.narutom\.com\/stat\.js/
 /\.narutom\.com\/v2\/js\/198game_Lt\.js/
+!----精睿----
+/:\/\/([^\/]+\.)?bbs\.vc52\.cn\/data\/attachment\/forum\/2.*\/.*\.gif/
 !----卡巴一族----
 /:\/\/([^\/]+\.)?bbs\.kaspersky\.com\.cn\/images\/bbs\//
 !----Norm Team----
@@ -2332,6 +2340,7 @@ bannerad
 ##[style="_display:block;height:252px;width:301px;overflow:hidden;margin-bottom:7px"]	$d=ipc.me
 ##LI.widget	$d=ipc.me
 ##.post-top-gg	$d=ipc.me
+##section_event	$d=iplaysoft.com
 ##CENTER	$d=dl.iplaysoft.com
 /:\/\/([^\/]+\.)?www\.ipc\.me\/plus\/static_files\/nuffnang\.html/
 /:\/\/([^\/]+\.)?www\.iplaysoft\.com\/plus\/static_files\/nuffnang\.html/
@@ -2899,6 +2908,9 @@ bannerad
 !----酷吧音乐盒----
 /:\/\/([^\/]+\.)?djbox\.ku8box\.com.*\/.*_AD\.swf/
 !----猫扑----
+##.gg02	$d=tt.mop.com
+##.gg01	$d=tt.mop.com
+##a[href^="http://trackx.mop.com/"]	$d=mop.com
 /^http:\/\/.*mopimg\.cn\/tj\//
 /:\/\/([^\/]+\.)?pub\.mop\.com\//
 /^http:\/\/.*mopimg\.cn\/dc\//
@@ -3153,6 +3165,8 @@ bannerad
 /:\/\/([^\/]+\.)?sc\.chinaiiss\.com\/do\.php\?do=ad&/
 /\.chinaiiss\.com\/include\/js\/function\.ad\.js/
 !----红浪药品网----
+##[id^="dl_"]	$d=3156.cn
+/\.3156\.cn\/js\/left\.js/
 /:\/\/([^\/]+\.)?www\.3156\.cn\/js\/float_ads\..*\.js/
 /:\/\/([^\/]+\.)?www\.3156\.cn\/images\/fdgg\.css/
 !----豆瓣----

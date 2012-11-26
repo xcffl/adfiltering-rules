@@ -852,6 +852,7 @@
 5,4,*.tuite8.com/*
 5,4,*.5151ad.com/*
 5,4,js.ylunion.com/*
+5,4,js.yongv.com/*
 5,4,js.zfjiu.com/*
 5,4,*.17luntan.com/*
 5,4,*.186ad.com/*
@@ -1358,6 +1359,7 @@
 5,4,*.i99770.com/haodm/dmjsc/*.js
 5,4,www.i99770.com/g/h/*.html
 5,4,*46.com/taobao/images/*
+5,4,mat1.gtimg.com/news/ldj*x*_*.swf
 5,4,btrace.qq.com/*
 5,4,discuz.gtimg.cn/cloud/scripts/discuz_tips.js?*
 5,4,mat1.gtimg.com/2012/images/ay12/*AD*.png
@@ -1635,6 +1637,9 @@
 5,4,cps.youku.com/*
 5,4,f.youku.com/player/get*lv*ath/fileid/*-*-*-*-*?*=*
 5,4,valf.atm.youku.com/valf?*
+5,4,static.youku.com/*/index/js/cps.js
+5,4,static.youku.com/*/index/js/hz*lick.js
+5,4,static.youku.com/*/index/js/iresearch.js
 5,4,l.yimg.com/d/lib/bc/bcr_2.0.5.js
 5,4,l.yimg.com/f/a/tw/gif_backup/ad_*.gif
 5,4,*.webmaster.yahoo.com/*
@@ -1731,7 +1736,7 @@
 5,4,afp.qiyi.com/*
 5,4,jsmsg.video.qiyi.com/*
 5,4,*.iqiyi.com/player/cupid/*
-5,4,cache.video.qiyi.com/adpolicy*
+5,4,*.video.qiyi.com/adpolicy*
 5,4,static.qiyi.com/js/pingback/*
 5,4,policy.cupid.qiyi.com/*
 5,4,uestat.video.qiyi.com/*
@@ -1876,6 +1881,7 @@
 5,4,www.3chu.com/salegm/files/images/*/*/*-*-*-*.jpg
 5,4,*.gfan.com/press/*
 5,4,*.flvcd.com/image/partner/*
+5,4,img1.guokr.com/gkimage/gl/nq/el/glnqel.png
 5,4,img.cnbeta.com/*300.gif
 5,4,img.cnbeta.com/wy.gif
 5,4,img.cnbeta.com/*336.jpg
@@ -2092,7 +2098,6 @@
 5,4,*6.cn/mdfor/watch_new11.js
 5,4,*6.cn/csjs10/tan_*.js
 5,4,shrek.6.cn/*
-5,4,lisbon.6rooms.com/*
 5,4,*6.cn/mdfor/index_new.js
 5,4,*.pojiezhan.com/vivi/*
 5,4,*.tiyuba.tv/app/js/common.js
@@ -2709,6 +2714,8 @@
 5,4,bbsupload.yydm.com/*-*.swf
 5,4,*yydm.com/baoyue/*
 5,4,*.amznz.com/proxy.html
+5,4,www.china-id.com.cn/Images/index_top.gif
+5,4,www.china-id.com.cn/68psd/*
 5,4,*gogobox.com.tw/n_images/tw2/common/*
 5,4,*lwdown.com/user08/*
 5,4,*greendl.com/images/*
@@ -3527,3 +3534,5 @@
 5,4,*.drevil.to/*
 5,4,www.fclub.cn/affiche.php?act=img&ad_id=*
 5,4,www.54new.com/da/*
+5,4,*.ranwen123.com/js/*ll.js
+5,4,*.ranwen123.com/js/*_*.js

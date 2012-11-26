@@ -1,3 +1,9 @@
+static.ikafan.com/kafan_img/*
+www.rayli.com.cn/newdcy/*fushijs/yhjads*.js
+818.17173.com/js/818ad01.js
+images.17173.com/*/www/*/*/*-*-*.swf
+i1.17173.itc.cn/*/www/*/*/*-*-*.*
+i3.17173.itc.cn/*/www/*/*/*-*-*.*
 i2.17173.itc.cn/*/www/*/*/*-*-*.*
 www.17173.com/script/ggcommon.js
 book.17173.com/17k/xct/*
@@ -91,7 +97,6 @@ i.6.cn/cvbnm/99/18/a3/4478ff78d6c6565d9fc6a635ad173121.jpg
 *6.cn/mdfor/watch_new11.js
 *6.cn/csjs10/tan_*.js
 shrek.6.cn/*
-lisbon.6rooms.com/*
 *6.cn/mdfor/index_new.js
 *.pojiezhan.com/vivi/*
 *.tiyuba.tv/app/js/common.js
@@ -708,6 +713,8 @@ www.quxiu.com/comic/money/*
 bbsupload.yydm.com/*-*.swf
 *yydm.com/baoyue/*
 *.amznz.com/proxy.html
+www.china-id.com.cn/Images/index_top.gif
+www.china-id.com.cn/68psd/*
 *gogobox.com.tw/n_images/tw2/common/*
 *lwdown.com/user08/*
 *greendl.com/images/*

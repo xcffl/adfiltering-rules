@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-11-23 19:47:23
+#Updated:2012-11-26 21:36:22
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -873,6 +873,7 @@ msFilterList
 - *.tuite8.com/
 - *.5151ad.com/
 -d js.ylunion.com
+-d js.yongv.com
 -d js.zfjiu.com
 - *.17luntan.com/
 - *.186ad.com/
@@ -1392,6 +1393,7 @@ msFilterList
 #----46网址导航----
 - *46.com/taobao/images/
 #----腾讯&财付通----
+-d mat1.gtimg.com /news/ldj*x*_*.swf
 -d btrace.qq.com
 -d discuz.gtimg.cn /cloud/scripts/discuz_tips.js?
 -d mat1.gtimg.com /2012/images/ay12/*AD*.png
@@ -1596,6 +1598,7 @@ msFilterList
 -d tv.sohu.com /upload/ad_fr/
 -d tv.sohu.com /upload/trace/
 -d tv.sohu.com /upload/csad/
+#----yezibo影视搜索----
 #----纵横书海----
 -d www.dodbook.com /js/4.js
 -d www.dodbook.com /js/2.js
@@ -1692,6 +1695,9 @@ msFilterList
 #||valf.atm.youku.com/valf?*
 #||val*.atm.youku.com/*
 #||h.irs01.com/*
+-d static.youku.com /index/js/cps.js
+-d static.youku.com /index/js/hzClick.js
+-d static.youku.com /index/js/iresearch.js
 #----雅虎----
 +d l.yimg.com /zz/combo?*.js
 -d l.yimg.com /d/lib/bc/bcr_2.0.5.js
@@ -1815,7 +1821,7 @@ msFilterList
 -d jsmsg.video.qiyi.com
 #||msg.video.qiyi.com/*
 - *.iqiyi.com/player/cupid/
--d cache.video.qiyi.com /adpolicy
+- *.video.qiyi.com/adpolicy
 -d static.qiyi.com /js/pingback/
 -d policy.cupid.qiyi.com
 -d uestat.video.qiyi.com
@@ -2006,6 +2012,8 @@ msFilterList
 - *.gfan.com/press/
 #----FLvcd----
 - *.flvcd.com/image/partner/
+#----果壳----
+-d img1.guokr.com /gkimage/gl/nq/el/glnqel.png
 #----软件盒子----
 #----cnBeta----
 -d img.cnbeta.com 300.gif
@@ -2196,6 +2204,7 @@ msFilterList
 #----九六城堡----
 #----爱尚网----
 -d www.cocoren.com /templets/cocoren/images/flash/*.swf
+#----星星动漫网----
 #----天府在线----
 - *.scol.com.cn/js/def_
 - *.scol.com.cn/scol-3/js/08scol_text_
@@ -2299,7 +2308,6 @@ msFilterList
 - *6.cn/mdfor/watch_new11.js
 - *6.cn/csjs10/tan_*.js
 -d shrek.6.cn
--d lisbon.6rooms.com
 - *6.cn/mdfor/index_new.js
 #----中国破解站----
 - *.pojiezhan.com/vivi/
@@ -3219,6 +3227,9 @@ msFilterList
 - *yydm.com/baoyue/
 #----指南者----
 - *.amznz.com/proxy.html
+#----68PSD字体----
+-d www.china-id.com.cn /Images/index_top.gif
+-d www.china-id.com.cn /68psd/
 #----GOGOBOX----
 - *gogobox.com.tw/n_images/tw2/common/
 #----落伍下载站----

@@ -368,7 +368,6 @@
 5,4,*/ggjs.js
 5,4,*.com/qqad.js
 5,4,*/cs/pic.gif
-5,4,*/float.js
 5,4,*/ktrace*.js
 5,4,js.*/i.js
 5,4,js.*/code.js
@@ -1768,6 +1767,7 @@
 5,4,sponsor.verycd.com/*
 5,4,v4.vcimg.com/sq/*.swf*
 5,4,sp.vcimg.com/*
+5,4,*.webkaka.com/click/*
 5,4,global.tianyaui.com/global/wizard/js/wizard.js
 5,4,static.tianyaui.com/js/2010/ContClick.js
 5,4,pinpai.tianya.cn/*.shtml

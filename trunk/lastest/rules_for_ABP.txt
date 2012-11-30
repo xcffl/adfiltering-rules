@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-11-26 21:36:22
+!Updated:2012-11-30 20:23:23
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -491,7 +491,7 @@
 |*/ggjs.js
 |*.com/qqad.js
 |*/cs/pic.gif
-|*/float.js
+!|*/float.js
 |http://*/ktrace*.js
 |http://js.*/i.js
 ||js.*/code.js
@@ -2051,6 +2051,8 @@ verycd.com###BAIDU_PAGE_AD_3
 ||sponsor.verycd.com/*
 ||v4.vcimg.com/sq/*.swf*
 ||sp.vcimg.com/*
+!----卡卡网----
+|*.webkaka.com/click/*
 !----天涯社区----
 tianya.cn###adsp_content_top_banner
 tianya.cn###adsp_list_top_banner
@@ -4139,6 +4141,7 @@ pctowap.com##A[href="http://i.doguo.com/pay.php"]
 ||zyypva.blu.livefilestore.com/*
 ||zyylva.blu.livefilestore.com/*
 !----免费资源部落----
+freehao123.com##.gg
 ||www.freehao123.com/wp-content/uploads/*/uqc.gif
 |*.freehao123.com/wp-content/themes/inews-v2/image/y.gif
 !----wz05我爱网赚----

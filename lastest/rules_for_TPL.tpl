@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-11-26 21:36:22
+#Updated:2012-11-30 20:23:23
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -382,7 +382,7 @@ msFilterList
 - */ggjs.js
 - *.com/qqad.js
 - */cs/pic.gif
-- */float.js
+#|*/float.js
 - http://*/ktrace*.js
 - http://js.*/i.js
 - http://js.*/code.js
@@ -1863,6 +1863,8 @@ msFilterList
 -d sponsor.verycd.com
 -d v4.vcimg.com /sq/*.swf
 -d sp.vcimg.com
+#----卡卡网----
+- *.webkaka.com/click/
 #----天涯社区----
 -d global.tianyaui.com /global/wizard/js/wizard.js
 -d static.tianyaui.com /js/2010/ContClick.js

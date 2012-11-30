@@ -368,7 +368,6 @@ c.*?aid=*
 */ggjs.js
 *.com/qqad.js
 */cs/pic.gif
-*/float.js
 */ktrace*.js
 js.*/i.js
 js.*/code.js
@@ -1767,6 +1766,7 @@ statics.*/banner/topic_shooter.png
 sponsor.verycd.com/*
 v4.vcimg.com/sq/*.swf*
 sp.vcimg.com/*
+*.webkaka.com/click/*
 global.tianyaui.com/global/wizard/js/wizard.js
 static.tianyaui.com/js/2010/ContClick.js
 pinpai.tianya.cn/*.shtml

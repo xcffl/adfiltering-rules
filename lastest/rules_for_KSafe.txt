@@ -360,6 +360,7 @@
 5,4,*/adcontrol/*
 5,4,*advjs*.js
 5,4,c.*/chat/*
+5,4,*main/s?*
 5,4,c.*?aid=*
 5,4,*floatad.js*
 5,4,*.org*/footer.js
@@ -999,6 +1000,7 @@
 5,4,code.129game.com/*
 5,4,*autosense.bitauto.com*
 5,4,*b.todayisp.com*
+5,4,u.234y.com/*
 5,4,*.dingge.cc/*
 5,4,bd.yidaba.com*
 5,4,*.cms.grandcloud.cn/*
@@ -2035,7 +2037,8 @@
 5,4,y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 5,4,*.ifengimg.com/*.swf
 5,4,*/tres/ifeng/game/astd/*
-5,4,bc.ifeng.com/*
+5,4,bc.ifeng.com/*.js*
+5,4,*.ifengimg.com/ifeng/sources/*
 5,4,*.ifengimg.com/tres/recommend/*
 5,4,*.ifengimg.com/mappa/*
 5,4,games.ifeng.com/webgame/*
@@ -2046,11 +2049,11 @@
 5,4,img.ifeng.com/tres/xgyy/yk/*
 5,4,img.ifeng.com/tres/ifeng/*
 5,4,img.ifeng.com/tres/ylgm/*
-5,4,stadig.ifeng.com/*
+5,4,stadig.ifeng.com/page.*
 5,4,img.ifeng.com/tres/market/*
 5,4,img.ifeng.com/tres/html/*
 5,4,sta.ifeng.com/*
-5,4,sc.ifeng.com/*
+5,4,sc.ifeng.com/html.ng/*
 5,4,survey.news.ifeng.com/resultjson.php?*
 5,4,www.263car.net/top.html
 5,4,www.263car.net/950-90.js
@@ -2242,6 +2245,8 @@
 5,4,gg.blueidea.com*
 5,4,gg.un.myspace.cn*
 5,4,xfiles.myspace.cn/*mstg/image/yunying/*/*_*.gif
+5,4,images.infzm.com/medias/*.jpeg
+5,4,images.infzm.com/medias/*.gif
 5,4,*hkwxc.com/t/g/*
 5,4,abc.wm23.com/uploadfile/2012101415623_97e9ed60-b91e-42ed-bbb9-6de751c02890.gif
 5,4,img1.lishiwuyu.com/2012/10/19/r_0-0_1_beac1f9d-2b5c-4dda-81df-864af4223afd.jpg

@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-11-30 20:23:23
+#Updated:2012-12-03 21:35:43
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -374,6 +374,7 @@ msFilterList
 - */adcontrol/
 - http://*advjs*.js
 - c.*/chat/
+- http://*main/s?
 - c.*?aid=
 - http://*floatad.js
 - *.org*/footer.js
@@ -1021,6 +1022,7 @@ msFilterList
 -d code.129game.com
 - *autosense.bitauto.com
 - *b.todayisp.com
+-d u.234y.com
 - *.dingge.cc/
 - http://bd.yidaba.com
 - *.cms.grandcloud.cn/
@@ -2228,7 +2230,8 @@ msFilterList
 -d y3.ifengimg.com /06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 - *.ifengimg.com/*.swf
 - */tres/ifeng/game/astd/
--d bc.ifeng.com
+-d bc.ifeng.com .js
+- *.ifengimg.com/ifeng/sources/
 - *.ifengimg.com/tres/recommend/
 - *.ifengimg.com/mappa/
 -d games.ifeng.com /webgame/
@@ -2239,11 +2242,11 @@ msFilterList
 -d img.ifeng.com /tres/xgyy/yk/
 -d img.ifeng.com /tres/ifeng/
 -d img.ifeng.com /tres/ylgm/
--d stadig.ifeng.com
+-d stadig.ifeng.com /page.
 -d img.ifeng.com /tres/market/
 -d img.ifeng.com /tres/html/
 -d sta.ifeng.com
--d sc.ifeng.com
+-d sc.ifeng.com /html.ng/
 -d survey.news.ifeng.com /resultjson.php?
 #----263汽车----
 -d www.263car.net /top.html
@@ -2520,6 +2523,9 @@ msFilterList
 #----Myspace聚友网----
 - http://gg.un.myspace.cn
 -d xfiles.myspace.cn mstg/image/yunying/*/*_*.gif
+#----南方周末----
+-d images.infzm.com /medias/*.jpeg
+-d images.infzm.com /medias/*.gif
 #----好看的小说网址----
 - *hkwxc.com/t/g/
 #----网络营销教学网站----

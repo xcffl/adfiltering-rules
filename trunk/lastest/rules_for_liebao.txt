@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-11-30 20:23:23
+!Updated:2012-12-03 21:35:43
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -48,6 +48,7 @@
 ##.box-ad
 ##a[href^="http://ad-apac.doubleclick.net/"]
 ##.sb_adsW
+##.leftAd
 ###mbEnd[cellspacing="0"][cellpadding="0"]
 ##.textad
 ###right_ad
@@ -486,6 +487,7 @@ bannerad
 /\/adcontrol\//
 /^http:\/\/.*advjs.*\.js/
 /^c\..*\/chat\//
+/^http:\/\/.*main\/s\?/
 /^c\..*\?aid=/
 /^http:\/\/.*floatad\.js/
 /\.org.*\/footer\.js/
@@ -1133,6 +1135,7 @@ bannerad
 /:\/\/([^\/]+\.)?code\.129game\.com\//
 /autosense\.bitauto\.com/
 /b\.todayisp\.com/
+/:\/\/([^\/]+\.)?u\.234y\.com\//
 /\.dingge\.cc\//
 /:\/\/([^\/]+\.)?bd\.yidaba\.com/
 /\.cms\.grandcloud\.cn\//
@@ -1845,7 +1848,6 @@ bannerad
 ##ab_282	$d=soku.com
 ##ab_26	$d=youku.com
 ##.AB240	$d=youku.com
-##A[href*="hz.youku.com/red/click.php?"]	$d=youku.com
 ##.sideCol > div[class^="AB"]
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao.*\.html/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao.*\.jpg/
@@ -2046,6 +2048,7 @@ bannerad
 !----CC图库----
 /:\/\/([^\/]+\.)?www\.tuku\.cc\/js\/cg\.htm/
 !----射手网&射手影音----
+##.bar	$d=shooter.cn
 /\.splayer\.org\/img\/.*_.*_.*\.jpg/
 /\.splayer\.org\/img\/yokou.*\.jpg/
 /:\/\/([^\/]+\.)?statics\..*\/banner\/topic_shooter\.png/
@@ -2055,6 +2058,8 @@ bannerad
 /:\/\/([^\/]+\.)?v4\.vcimg\.com\/sq\/.*\.swf/
 /:\/\/([^\/]+\.)?sp\.vcimg\.com\//
 !----卡卡网----
+##Table1	$d=webkaka.com
+##TABLE[style="border:0px;"]	$d=webkaka.com
 /\.webkaka\.com\/click\//
 !----天涯社区----
 ##adsp_content_top_banner	$d=tianya.cn
@@ -2487,7 +2492,8 @@ bannerad
 /:\/\/([^\/]+\.)?y3\.ifengimg\.com\/06ea309ef0b1d56f\/2012\/0502\/2e121bc8fb30ff9eb16f29c6de541622\.gif/
 /\.ifengimg\.com\/.*\.swf/
 /\/tres\/ifeng\/game\/astd\//
-/:\/\/([^\/]+\.)?bc\.ifeng\.com\//
+/:\/\/([^\/]+\.)?bc\.ifeng\.com\/.*\.js/
+/\.ifengimg\.com\/ifeng\/sources\//
 /\.ifengimg\.com\/tres\/recommend\//
 /\.ifengimg\.com\/mappa\//
 /:\/\/([^\/]+\.)?games\.ifeng\.com\/webgame\//
@@ -2498,11 +2504,11 @@ bannerad
 /:\/\/([^\/]+\.)?img\.ifeng\.com\/tres\/xgyy\/yk\//
 /:\/\/([^\/]+\.)?img\.ifeng\.com\/tres\/ifeng\//
 /:\/\/([^\/]+\.)?img\.ifeng\.com\/tres\/ylgm\//
-/:\/\/([^\/]+\.)?stadig\.ifeng\.com\//
+/:\/\/([^\/]+\.)?stadig\.ifeng\.com\/page\./
 /:\/\/([^\/]+\.)?img\.ifeng\.com\/tres\/market\//
 /:\/\/([^\/]+\.)?img\.ifeng\.com\/tres\/html\//
 /:\/\/([^\/]+\.)?sta\.ifeng\.com\//
-/:\/\/([^\/]+\.)?sc\.ifeng\.com\//
+/:\/\/([^\/]+\.)?sc\.ifeng\.com\/html\.ng\//
 /:\/\/([^\/]+\.)?survey\.news\.ifeng\.com\/resultjson\.php\?/
 !----263汽车----
 ##.leftlist	$d=263car.net
@@ -2813,6 +2819,10 @@ bannerad
 !----Myspace聚友网----
 /:\/\/([^\/]+\.)?gg\.un\.myspace\.cn/
 /:\/\/([^\/]+\.)?xfiles\.myspace\.cn\/.*mstg\/image\/yunying\/.*\/.*_.*\.gif/
+!----南方周末----
+##[id$="adv"]	$d=infzm.com
+/:\/\/([^\/]+\.)?images\.infzm\.com\/medias\/.*\.jpeg$t=/
+/:\/\/([^\/]+\.)?images\.infzm\.com\/medias\/.*\.gif$t=/
 !----好看的小说网址----
 /hkwxc\.com\/t\/g\//
 !----网络营销教学网站----

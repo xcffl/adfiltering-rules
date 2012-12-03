@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-11-30 20:23:23
+!Updated:2012-12-03 21:35:43
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -47,6 +47,7 @@
 ##.box-ad
 ##a[href^="http://ad-apac.doubleclick.net/"]
 ##.sb_adsW
+~lolhit.com##.leftAd
 ###mbEnd[cellspacing="0"][cellpadding="0"]
 ~kingsofchaos.com##.textad
 ~muz.ru###right_ad
@@ -483,6 +484,7 @@
 |*/adcontrol/*
 |http://*advjs*.js
 |c.*/chat/*
+|http://*main/s?*
 |c.*?aid=*
 |http://*floatad.js*
 |*.org*/footer.js
@@ -1130,6 +1132,7 @@
 ||code.129game.com/*
 |*autosense.bitauto.com*
 |*b.todayisp.com*
+||u.234y.com/*
 |*.dingge.cc/*
 ||bd.yidaba.com*
 |*.cms.grandcloud.cn/*
@@ -1842,7 +1845,6 @@ tudou.com###adex_board
 soku.com###ab_282
 youku.com###ab_26
 youku.com##.AB240
-youku.com##A[href*="hz.youku.com/red/click.php?"]
 ##.sideCol > div[class^="AB"]
 ||static.atm.youku.com/*taobao*.html*
 ||static.atm.youku.com/*taobao*.jpg*
@@ -2043,6 +2045,7 @@ adf.ly###bottom
 !----CC图库----
 ||www.tuku.cc/js/cg.htm
 !----射手网&射手影音----
+shooter.cn##.bar
 |*.splayer.org/img/*_*_*.jpg
 |*.splayer.org/img/yokou*.jpg
 ||statics.*/banner/topic_shooter.png
@@ -2052,6 +2055,8 @@ verycd.com###BAIDU_PAGE_AD_3
 ||v4.vcimg.com/sq/*.swf*
 ||sp.vcimg.com/*
 !----卡卡网----
+webkaka.com###Table1
+webkaka.com##TABLE[style="border:0px;"]
 |*.webkaka.com/click/*
 !----天涯社区----
 tianya.cn###adsp_content_top_banner
@@ -2482,7 +2487,8 @@ news.ifeng.com###smExtObjBg
 ||y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 |*.ifengimg.com/*.swf
 |*/tres/ifeng/game/astd/*
-||bc.ifeng.com/*
+||bc.ifeng.com/*.js*
+|*.ifengimg.com/ifeng/sources/*
 |*.ifengimg.com/tres/recommend/*
 |*.ifengimg.com/mappa/*
 ||games.ifeng.com/webgame/*
@@ -2493,11 +2499,11 @@ news.ifeng.com###smExtObjBg
 ||img.ifeng.com/tres/xgyy/yk/*
 ||img.ifeng.com/tres/ifeng/*
 ||img.ifeng.com/tres/ylgm/*
-||stadig.ifeng.com/*
+||stadig.ifeng.com/page.*
 ||img.ifeng.com/tres/market/*
 ||img.ifeng.com/tres/html/*
 ||sta.ifeng.com/*
-||sc.ifeng.com/*
+||sc.ifeng.com/html.ng/*
 ||survey.news.ifeng.com/resultjson.php?*
 !----263汽车----
 263car.net##.leftlist
@@ -2808,6 +2814,10 @@ xindm.cn##TD[bgcolor="#cdcdcd"]
 !----Myspace聚友网----
 ||gg.un.myspace.cn*
 ||xfiles.myspace.cn/*mstg/image/yunying/*/*_*.gif
+!----南方周末----
+infzm.com##[id$="adv"]
+||images.infzm.com/medias/*.jpeg|
+||images.infzm.com/medias/*.gif|
 !----好看的小说网址----
 |*hkwxc.com/t/g/*
 !----网络营销教学网站----

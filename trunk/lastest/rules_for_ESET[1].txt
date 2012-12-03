@@ -360,6 +360,7 @@ a-m-s.*
 */adcontrol/*
 *advjs*.js
 c.*/chat/*
+*main/s?*
 c.*?aid=*
 *floatad.js*
 *.org*/footer.js
@@ -999,6 +1000,7 @@ union.dianxin.cn/*
 code.129game.com/*
 *autosense.bitauto.com*
 *b.todayisp.com*
+u.234y.com/*
 *.dingge.cc/*
 bd.yidaba.com*
 *.cms.grandcloud.cn/*
@@ -1995,6 +1997,4 @@ a.ikafan.com/2/b.js*
 a.ikafan.com/4/*.gif*
 a.ikafan.com/3/*
 *.kafan.cn/static/kafan_img/*
-static.ikafan.com/a/yuekan.js
-*.kafan.cn/static/kafan_bd/*
 

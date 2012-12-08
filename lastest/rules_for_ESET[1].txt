@@ -922,6 +922,7 @@ u.3393.com/*
 *.egooad.com/*
 *.ero-advertising.com/*
 *.ete.cn/*
+acode.b2b.cn/*
 *.eteun.cn/*
 *.gamediad.com*
 s3.buysellads.com/*
@@ -1311,7 +1312,7 @@ a12.alphagodaddy.com/?*
 view.atdmt.com/ZH1/iview/*
 *.17g.net/
 *cnwebmasters.com/disad/userimages/*
-*acs86.com/*
+afp.acs86.com/a.htm*
 link.155game.com/*
 *.bloggerads.net/*
 *.mengxiang.in/show.php?*
@@ -1924,6 +1925,7 @@ bbs.kaspersky.com.cn/images/bbs/*
 img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 *normteam.com/usepic/*
 act.2144.cn/adv_img/*
+www.caiwu51.com/myqie/*.js
 www.asp300.com/*adjs/*
 *.kenwen.com/scripts/ctc.js
 ads.skykiwi.com/*
@@ -1995,6 +1997,4 @@ www.ocucn.com/images/*.gif
 alibuybuy-wordpress.stor.sinaapp.com/*
 a.ikafan.com/2/b.js*
 a.ikafan.com/4/*.gif*
-a.ikafan.com/3/*
-*.kafan.cn/static/kafan_img/*
 

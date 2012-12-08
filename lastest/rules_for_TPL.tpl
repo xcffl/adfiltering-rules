@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-12-03 21:35:43
+#Updated:2012-12-08 17:32:31
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -944,6 +944,7 @@ msFilterList
 - *.egooad.com/
 - *.ero-advertising.com/
 - *.ete.cn/
+-d acode.b2b.cn
 - *.eteun.cn/
 - *.gamediad.com
 -d s3.buysellads.com
@@ -1339,7 +1340,7 @@ msFilterList
 -d view.atdmt.com /ZH1/iview/
 - *.17g.net/
 - *cnwebmasters.com/disad/userimages/
-- *acs86.com/
+-d afp.acs86.com /a.htm
 -d link.155game.com
 - *.bloggerads.net/
 - *.mengxiang.in/show.php?
@@ -2073,6 +2074,8 @@ msFilterList
 - *normteam.com/usepic/
 #----2144小游戏----
 -d act.2144.cn /adv_img/
+#----求职指南网----
+-d www.caiwu51.com /myqie/*.js
 #----ASP300源码下载----
 -d www.asp300.com adjs/
 #----啃文书库----
@@ -4169,6 +4172,7 @@ msFilterList
 -d imgs.zhangmen.baidu.com /mp3fiesta/
 -d house.leju.com /js/cooperate/leju_bitauto_search.js
 #----阿里妈妈&阿里软件&淘宝网&淘宝商城----
++d p.tanx.com
 -d log.mmstat.com
 -d log.mm.vip.cnz.alimama.com
 -d img.alimama.cn /cms/images/*.swf
@@ -4180,7 +4184,7 @@ msFilterList
 -d img.alimama.cn /cms/push
 -d z.alimama.com
 -d img.alimama.cn /a/
--d a.tbcdn.cn /s/atp.js
+#||a.tbcdn.cn/s/atp.js
 -d a.tbcdn.cn /s/ac.js
 -d www.taobao.com /go/act/sale/dp*x*.php?pid=mm_
 - http://click.tz.simba.taobao.com

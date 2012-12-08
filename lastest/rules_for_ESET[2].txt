@@ -1,3 +1,5 @@
+*.kafan.cn/static/kafan_img/*
+static.ikafan.com/a/yuekan.js
 *.kafan.cn/static/kafan_bd/*
 static.ikafan.com/kafan_bd/*
 static.ikafan.com/kafan_img/*
@@ -1333,7 +1335,6 @@ a.alimama.cn/*
 img.alimama.cn/cms/push*
 z.alimama.com/*
 img.alimama.cn/a/*
-a.tbcdn.cn/s/atp.js
 a.tbcdn.cn/s/ac.js
 www.taobao.com/go/act/sale/dp*x*.php?pid=mm_*
 click.tz.simba.taobao.com*

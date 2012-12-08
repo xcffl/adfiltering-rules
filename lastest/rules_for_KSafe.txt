@@ -922,6 +922,7 @@
 5,4,*.egooad.com/*
 5,4,*.ero-advertising.com/*
 5,4,*.ete.cn/*
+5,4,acode.b2b.cn/*
 5,4,*.eteun.cn/*
 5,4,*.gamediad.com*
 5,4,s3.buysellads.com/*
@@ -1311,7 +1312,7 @@
 5,4,view.atdmt.com/ZH1/iview/*
 5,4,*.17g.net/
 5,4,*cnwebmasters.com/disad/userimages/*
-5,4,*acs86.com/*
+5,4,afp.acs86.com/a.htm*
 5,4,link.155game.com/*
 5,4,*.bloggerads.net/*
 5,4,*.mengxiang.in/show.php?*
@@ -1925,6 +1926,7 @@
 5,4,img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 5,4,*normteam.com/usepic/*
 5,4,act.2144.cn/adv_img/*
+5,4,www.caiwu51.com/myqie/*.js
 5,4,www.asp300.com/*adjs/*
 5,4,*.kenwen.com/scripts/ctc.js
 5,4,ads.skykiwi.com/*
@@ -3334,7 +3336,6 @@
 5,4,img.alimama.cn/cms/push*
 5,4,z.alimama.com/*
 5,4,img.alimama.cn/a/*
-5,4,a.tbcdn.cn/s/atp.js
 5,4,a.tbcdn.cn/s/ac.js
 5,4,www.taobao.com/go/act/sale/dp*x*.php?pid=mm_*
 5,4,click.tz.simba.taobao.com*

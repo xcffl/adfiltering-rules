@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-12-08 17:32:31
+!Updated:2012-12-09 16:20:09
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -1450,6 +1450,8 @@
 ||view.atdmt.com/ZH1/iview/*
 |*.17g.net/
 |*cnwebmasters.com/disad/userimages/*
+||static.acs86.com/player/RollPlayer.swf?*
+||static.acs86.com/g.js
 ||afp.acs86.com/a.htm*
 ||link.155game.com/*
 |*.bloggerads.net/*
@@ -1506,6 +1508,7 @@
 !----46网址导航----
 |*46.com/taobao/images/*
 !----腾讯&财付通----
+qzone.qq.com###divAppAdv
 qq.com##.AdTop-Article-QQ
 stock.qq.com##.fr.box-2
 stock.qq.com##DIV[style="margin:0 auto;width:960px;text-align:center"]
@@ -1705,6 +1708,7 @@ www.sohu.com###ad_TOP
 sohu.com##.adB
 sohu.com,~cbachina.sports.sohu.com##sohuadcode
 tv.sohu.com###miaozhenad
+sogou.com###bdfs0
 ||tv.sohu.com/upload/static/global/hdpv.js
 ||a*.itc.cn/pv/js/pvclick.*
 ||xls.go.sohu.com/*
@@ -2011,6 +2015,7 @@ iqiyi.com##[id^="div_theatre"]
 ||static.qiyi.com/js/pingback/*
 ||policy.cupid.qiyi.com/*
 ||uestat.video.qiyi.com/*
+||data.video.qiyi.com/videos/other/*.f4v*
 |*.iqiyi.com/player/*/theatre*.swf
 !----adf.ly----
 adf.ly###bottom
@@ -2554,6 +2559,8 @@ news.ifeng.com###smExtObjBg
 ||mu.ruoren.com/*
 !----央广广播电视网络台----
 cnr.cn##DIV[style="POSITION:fixed;TOP:30px;right:13px;"]
+!----迈视网----
+||aclick.maxtv.cn/*
 !----纵横中文网----
 ||log.zongheng.com/*
 ||static.zongheng.com/v2012/cooperate/index_r_b.js
@@ -2636,6 +2643,8 @@ i.firefoxchina.cn###taobaoFocus
 ||i.firefoxchina.cn/images/upload/*_*.gif
 ||www.firefoxchina.cn/cooperation/header_image_huanqiu.html
 ||i.firefoxchina.cn/iframes/*
+!----财讯----
+international.caixun.com##.spic
 !----新新漫画----
 |*/img_v1/utf8_global_v*.js
 !----枫树浏览器----
@@ -2692,6 +2701,9 @@ simplecd.me##HR
 ||www.ys168.com/images/*_*.*
 |*/ys168/*
 ||www.ys168.com/images/*.gif
+!----南海网----
+hinews.cn##[id^="hi_gg_"]
+||oa.hinews.cn/work/img/*_oxadcesl.swf
 !----博客网----
 |*adimage.bokee.com*
 !----网上车市----
@@ -3207,6 +3219,8 @@ douban.fm##.clickable_ad
 ||a.wm090.com/biz_icon/*
 ||a.wm090.com/jbl/0421/jbl.swf
 ||a.cs090.com/*
+!----天使动漫论坛----
+@@|*.tsdm.net/music/ad.js
 !----中国无线论坛----
 |*wlanbbs.com/images/shangjiaad/*
 !----友荐----
@@ -4607,6 +4621,7 @@ ipv6.baidu.com##.EC_ppim2
 ||imgs.zhangmen.baidu.com/mp3fiesta/*
 ||house.leju.com/js/cooperate/leju_bitauto_search.js
 !----阿里妈妈&阿里软件&淘宝网&淘宝商城----
+@@||a.tbcdn.cn/*/header.js
 @@||p.tanx.com^$domain=taobao.com
 ||log.mmstat.com/*
 ||log.mm.vip.cnz.alimama.com/*
@@ -4860,4 +4875,3 @@ www.qidian.com##.DH17
 @@||pos.baidu.com/ecom?*$domain=up.9es.cn
 @@||cpro.baidu.com/cpro/ui/c.js$domain=up.9es.cn
 !-------------待分类-------------
-

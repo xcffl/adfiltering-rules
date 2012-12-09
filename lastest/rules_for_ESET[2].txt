@@ -1,3 +1,6 @@
+a.ikafan.com/2/b.js*
+a.ikafan.com/4/*.gif*
+a.ikafan.com/3/*
 *.kafan.cn/static/kafan_img/*
 static.ikafan.com/a/yuekan.js
 *.kafan.cn/static/kafan_bd/*
@@ -85,6 +88,7 @@ www.33lc.com/soft/UploadPic/*-*/dnxx_*
 www.33lc.com/js/*_*.js
 *.s1979.com/html/ad_js/*
 mu.ruoren.com/*
+aclick.maxtv.cn/*
 log.zongheng.com/*
 static.zongheng.com/v2012/cooperate/index_r_b.js
 static.zongheng.com/v2012/js/adClickStat.js
@@ -173,6 +177,7 @@ zy.ys168.com/adtp/*
 www.ys168.com/images/*_*.*
 */ys168/*
 www.ys168.com/images/*.gif
+oa.hinews.cn/work/img/*_oxadcesl.swf
 *adimage.bokee.com*
 *price.cheshi.com.cn*
 *5ccc.net/scripts/*

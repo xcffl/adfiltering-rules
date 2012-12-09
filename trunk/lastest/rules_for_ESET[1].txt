@@ -1312,6 +1312,8 @@ a12.alphagodaddy.com/?*
 view.atdmt.com/ZH1/iview/*
 *.17g.net/
 *cnwebmasters.com/disad/userimages/*
+static.acs86.com/player/RollPlayer.swf?*
+static.acs86.com/g.js
 afp.acs86.com/a.htm*
 link.155game.com/*
 *.bloggerads.net/*
@@ -1741,6 +1743,7 @@ jsmsg.video.qiyi.com/*
 static.qiyi.com/js/pingback/*
 policy.cupid.qiyi.com/*
 uestat.video.qiyi.com/*
+data.video.qiyi.com/videos/other/*.f4v*
 *.iqiyi.com/player/*/theatre*.swf
 www.5iyq.com/skin/default/js/topad*.js
 img.5iyq.com/wlj/index/a2-*.*
@@ -1994,7 +1997,4 @@ cdn.laishu.com/images/puguo.gif
 *.laishu.com/lsgg/*
 *.laishuwu.com/files/friend/*
 www.ocucn.com/images/*.gif
-alibuybuy-wordpress.stor.sinaapp.com/*
-a.ikafan.com/2/b.js*
-a.ikafan.com/4/*.gif*
 

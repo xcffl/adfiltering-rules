@@ -1312,6 +1312,8 @@
 5,4,view.atdmt.com/ZH1/iview/*
 5,4,*.17g.net/
 5,4,*cnwebmasters.com/disad/userimages/*
+5,4,static.acs86.com/player/RollPlayer.swf?*
+5,4,static.acs86.com/g.js
 5,4,afp.acs86.com/a.htm*
 5,4,link.155game.com/*
 5,4,*.bloggerads.net/*
@@ -1742,6 +1744,7 @@
 5,4,static.qiyi.com/js/pingback/*
 5,4,policy.cupid.qiyi.com/*
 5,4,uestat.video.qiyi.com/*
+5,4,data.video.qiyi.com/videos/other/*.f4v*
 5,4,*.iqiyi.com/player/*/theatre*.swf
 5,4,www.5iyq.com/skin/default/js/topad*.js
 5,4,img.5iyq.com/wlj/index/a2-*.*
@@ -2086,6 +2089,7 @@
 5,4,www.33lc.com/js/*_*.js
 5,4,*.s1979.com/html/ad_js/*
 5,4,mu.ruoren.com/*
+5,4,aclick.maxtv.cn/*
 5,4,log.zongheng.com/*
 5,4,static.zongheng.com/v2012/cooperate/index_r_b.js
 5,4,static.zongheng.com/v2012/js/adClickStat.js
@@ -2174,6 +2178,7 @@
 5,4,www.ys168.com/images/*_*.*
 5,4,*/ys168/*
 5,4,www.ys168.com/images/*.gif
+5,4,oa.hinews.cn/work/img/*_oxadcesl.swf
 5,4,*adimage.bokee.com*
 5,4,*price.cheshi.com.cn*
 5,4,*5ccc.net/scripts/*

@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-12-08 17:32:31
+#Updated:2012-12-09 16:20:09
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1340,6 +1340,8 @@ msFilterList
 -d view.atdmt.com /ZH1/iview/
 - *.17g.net/
 - *cnwebmasters.com/disad/userimages/
+-d static.acs86.com /player/RollPlayer.swf?
+-d static.acs86.com /g.js
 -d afp.acs86.com /a.htm
 -d link.155game.com
 - *.bloggerads.net/
@@ -1828,6 +1830,7 @@ msFilterList
 -d static.qiyi.com /js/pingback/
 -d policy.cupid.qiyi.com
 -d uestat.video.qiyi.com
+-d data.video.qiyi.com /videos/other/*.f4v
 - *.iqiyi.com/player/*/theatre*.swf
 #----adf.ly----
 #----乐清上班族网----
@@ -2293,6 +2296,8 @@ msFilterList
 #----若人网&若人论坛----
 -d mu.ruoren.com
 #----央广广播电视网络台----
+#----迈视网----
+-d aclick.maxtv.cn
 #----纵横中文网----
 -d log.zongheng.com
 -d static.zongheng.com /v2012/cooperate/index_r_b.js
@@ -2367,6 +2372,7 @@ msFilterList
 -d i.firefoxchina.cn /images/upload/*_*.gif
 -d www.firefoxchina.cn /cooperation/header_image_huanqiu.html
 -d i.firefoxchina.cn /iframes/
+#----财讯----
 #----新新漫画----
 - */img_v1/utf8_global_v*.js
 #----枫树浏览器----
@@ -2416,6 +2422,8 @@ msFilterList
 -d www.ys168.com /images/*_*.
 - */ys168/
 -d www.ys168.com /images/*.gif
+#----南海网----
+-d oa.hinews.cn /work/img/*_oxadcesl.swf
 #----博客网----
 - *adimage.bokee.com
 #----网上车市----
@@ -2863,6 +2871,8 @@ msFilterList
 -d a.wm090.com /biz_icon/
 -d a.wm090.com /jbl/0421/jbl.swf
 -d a.cs090.com
+#----天使动漫论坛----
+# @@|*.tsdm.net/music/ad.js
 #----中国无线论坛----
 - *wlanbbs.com/images/shangjiaad/
 #----友荐----
@@ -4172,6 +4182,7 @@ msFilterList
 -d imgs.zhangmen.baidu.com /mp3fiesta/
 -d house.leju.com /js/cooperate/leju_bitauto_search.js
 #----阿里妈妈&阿里软件&淘宝网&淘宝商城----
++d a.tbcdn.cn /header.js
 +d p.tanx.com
 -d log.mmstat.com
 -d log.mm.vip.cnz.alimama.com

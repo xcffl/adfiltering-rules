@@ -2607,11 +2607,6 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
-<path>*/click/*png*</path>
-<object>*</object>
-</analyzer>
-<analyzer>
-<type>Http</type>
 <path>*/click/*jpg*</path>
 <object>*</object>
 </analyzer>
@@ -9218,6 +9213,11 @@
 <analyzer>
 <type>Http</type>
 <path>*.dm8.cc/javascript/xshow.js</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
+<path>cdn.iciba.com/web/co/fy/*.swf</path>
 <object>*</object>
 </analyzer>
 <analyzer>

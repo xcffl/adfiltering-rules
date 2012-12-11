@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-12-09 16:20:09
+#Updated:2012-12-11 21:18:29
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -535,7 +535,7 @@ msFilterList
 - *.org*/click/*html
 - *.cn*/click/*html
 - */click/*htm
-- */click/*png
+#|*/click/*png*
 - */click/*jpg
 - */click/*js
 - http://*clickDownAjax*.js
@@ -1961,6 +1961,7 @@ msFilterList
 - *.dm8.cc/s/
 - *.dm8.cc/javascript/xshow.js
 #----金山词霸----
+-d cdn.iciba.com /web/co/fy/*.swf
 -d cdn.iciba.com /web/co/fy/*.gif
 -d cdn.iciba.com /web/co/ci/*.jpg
 -d cdn.iciba.com /web/co/ci/*.gif

@@ -519,7 +519,6 @@
 5,4,*.org*/click/*html
 5,4,*.cn*/click/*html
 5,4,*/click/*htm
-5,4,*/click/*png*
 5,4,*/click/*jpg*
 5,4,*/click/*js*
 5,4,*clickDownAjax*.js*
@@ -1843,6 +1842,7 @@
 5,4,*/newhuagg/*.swf*
 5,4,*.dm8.cc/s/*
 5,4,*.dm8.cc/javascript/xshow.js
+5,4,cdn.iciba.com/web/co/fy/*.swf
 5,4,cdn.iciba.com/web/co/fy/*.gif
 5,4,cdn.iciba.com/web/co/ci/*.jpg
 5,4,cdn.iciba.com/web/co/ci/*.gif

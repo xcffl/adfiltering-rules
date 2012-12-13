@@ -8697,6 +8697,11 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>msg.video.qiyi.com/*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path>*.iqiyi.com/player/cupid/*</path>
 <object>*</object>
 </analyzer>
@@ -9993,6 +9998,11 @@
 <analyzer>
 <type>Http</type>
 <path>www.ocucn.com/images/*.gif</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
+<path>www.newasp.net/js/html/*</path>
 <object>*</object>
 </analyzer>
 <analyzer>

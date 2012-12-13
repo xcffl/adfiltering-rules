@@ -1737,6 +1737,7 @@ images.mydrivers.com/*/*x*.swf
 220.181.109.181/tracker?*
 afp.qiyi.com/*
 jsmsg.video.qiyi.com/*
+msg.video.qiyi.com/*
 *.iqiyi.com/player/cupid/*
 *.video.qiyi.com/adpolicy*
 static.qiyi.com/js/pingback/*
@@ -1996,5 +1997,4 @@ www.hszw.com/inc/*
 cdn.laishu.com/images/puguo.gif
 *.laishu.com/lsgg/*
 *.laishuwu.com/files/friend/*
-www.ocucn.com/images/*.gif
 

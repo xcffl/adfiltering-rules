@@ -1,3 +1,5 @@
+www.newasp.net/js/html/*
+alibuybuy-wordpress.stor.sinaapp.com/*
 a.ikafan.com/2/b.js*
 a.ikafan.com/4/*.gif*
 a.ikafan.com/3/*

@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-12-11 21:18:29
+#Updated:2012-12-13 21:31:17
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1824,7 +1824,7 @@ msFilterList
 -d 220.181.109.181 /tracker?
 -d afp.qiyi.com
 -d jsmsg.video.qiyi.com
-#||msg.video.qiyi.com/*
+-d msg.video.qiyi.com
 - *.iqiyi.com/player/cupid/
 - *.video.qiyi.com/adpolicy
 -d static.qiyi.com /js/pingback/
@@ -2181,6 +2181,8 @@ msFilterList
 - *.laishuwu.com/files/friend/
 #----中国反诈骗联盟----
 -d www.ocucn.com /images/*.gif
+#----新云网络----
+-d www.newasp.net /js/html/
 #----互联网的那点事----
 -d alibuybuy-wordpress.stor.sinaapp.com
 #----卡饭----
@@ -2700,6 +2702,8 @@ msFilterList
 #----游久网----
 - *.uuu9.com/code/tool_netgame/
 #----天珠变----
+#----金山快盘----
++d web.kuaipan.cn
 #----金山网络----
 -d img1.ijinshan.com /static/js/dh.js
 - *.union.ijinshan.com/

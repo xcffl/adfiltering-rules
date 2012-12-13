@@ -1738,6 +1738,7 @@
 5,4,220.181.109.181/tracker?*
 5,4,afp.qiyi.com/*
 5,4,jsmsg.video.qiyi.com/*
+5,4,msg.video.qiyi.com/*
 5,4,*.iqiyi.com/player/cupid/*
 5,4,*.video.qiyi.com/adpolicy*
 5,4,static.qiyi.com/js/pingback/*
@@ -1998,6 +1999,7 @@
 5,4,*.laishu.com/lsgg/*
 5,4,*.laishuwu.com/files/friend/*
 5,4,www.ocucn.com/images/*.gif
+5,4,www.newasp.net/js/html/*
 5,4,alibuybuy-wordpress.stor.sinaapp.com/*
 5,4,a.ikafan.com/2/b.js*
 5,4,a.ikafan.com/4/*.gif*

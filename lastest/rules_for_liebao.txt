@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-12-13 21:31:17
+!Updated:2012-12-14 20:51:20
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -3333,6 +3333,7 @@ bannerad
 /:\/\/([^\/]+\.)?static\.hdslb\.com\/ad-images\/.*\.swf/
 /bilibili\..*\/html\/ads-/
 /bilibili\..*\/html\/.*\.html/
+/:\/\/([^\/]+\.)?f\.youku\.com\/player\/getFlvPath\/fileid\/0.*\?K=.*/	$d=bilibili.tv,$w
 !----浦北部落----
 /pb86\.net\/sb\/images\//
 /pb86\.net\/d\//
@@ -3956,6 +3957,7 @@ bannerad
 /:\/\/([^\/]+\.)?b\.now\.cn\/data\/NOWA\//
 /:\/\/([^\/]+\.)?p\.tnet\.hk\/share\/images\/.*x.*\.gif/
 !----Facebook----
+##div[class="ego_column"]	$d=facebook.com
 ##pagelet_side_ads	$d=facebook.com
 /:\/\/([^\/]+\.)?creative\.ak\.fbcdn\.net\/.*\/flyers\/.*\.gif/
 /:\/\/([^\/]+\.)?creative\.ak\.fbcdn\.net\/.*\/flyers\/.*\.png/

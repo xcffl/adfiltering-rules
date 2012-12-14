@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-12-13 21:31:17
+#Updated:2012-12-14 20:51:20
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -2967,6 +2967,7 @@ msFilterList
 -d static.hdslb.com /ad-images/*.swf
 - *bilibili.*/html/ads-
 - *bilibili.*/html/*.html
++d f.youku.com /player/getFlvPath/fileid/0*?K=
 #----浦北部落----
 - *pb86.net/sb/images/
 - *pb86.net/d/

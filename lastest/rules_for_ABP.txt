@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-09-21 21:49:01
+!Updated:2012-12-14 20:51:20
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -3324,6 +3324,7 @@ bilibili.tv,bilibili.kankanews.com##.ad-f
 ||static.hdslb.com/ad-images/*.swf
 |*bilibili.*/html/ads-*
 |*bilibili.*/html/*.html
+@@||f.youku.com/player/getFlvPath/fileid/0*?K=*$domain=bilibili.tv
 !----浦北部落----
 |*pb86.net/sb/images/*
 |*pb86.net/d/*
@@ -3947,6 +3948,7 @@ docin.net##[id^="adsy"]
 ||b.now.cn/data/NOWA/*
 ||p.tnet.hk/share/images/*x*.gif
 !----Facebook----
+facebook.com##div[class="ego_column"]
 facebook.com###pagelet_side_ads
 ||creative.ak.fbcdn.net/*/flyers/*.gif
 ||creative.ak.fbcdn.net/*/flyers/*.png
@@ -4886,3 +4888,4 @@ www.qidian.com##.DH17
 @@||pos.baidu.com/ecom?*$domain=up.9es.cn
 @@||cpro.baidu.com/cpro/ui/c.js$domain=up.9es.cn
 !-------------待分类-------------
+

@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-12-14 20:51:20
+#Updated:2012-12-22 19:27:34
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -145,6 +145,7 @@ msFilterList
 - */svnad/
 - *.adpolestar.
 - */adphoto/
+# @@|*/publiclink.*
 - http://*clink.
 - http://*.ad.*.js
 - *.ad1.
@@ -967,6 +968,9 @@ msFilterList
 - *.itsun.com/
 - *.junnew.com/indexad/
 - *.kfwan.com/
+-d apf.whoclick.cn
+-d adp.qlunion.com
+-d js.qlunion.com
 -d b.scorecardresearch.com
 - *.leomediachina.
 - *.lt77.com
@@ -1135,7 +1139,6 @@ msFilterList
 - http://*smartcreative.cn/
 -d sms.wellsms.com
 -d teamwork.enorth.com.cn
--d 33.autohome.cn /file/
 - *.irs09.com/
 - http://*allyesky.cn/js/
 -d au.ipart.cn /comp/hooks.php
@@ -1905,6 +1908,7 @@ msFilterList
 -d web.kuaiwan.com /js/
 -d is.kuaibo.com /uploadfile/
 - *ad*.qvod.com
+#----洛克剧场----
 #----快车----
 -d ufile.kuaiche.com
 - *client.kuaiche.com
@@ -1936,6 +1940,7 @@ msFilterList
 -d union.dangdang.com
 -d a.dangdang.com
 -d img4.ddimg.cn /00074/pic/*_*_*x*_*.jpg
+#----看书客----
 #----零点看书网----
 +d www.lingdiankanshu.com /Skin/
 #----挖当软件站----
@@ -2538,8 +2543,11 @@ msFilterList
 - http://gg.un.myspace.cn
 -d xfiles.myspace.cn mstg/image/yunying/*/*_*.gif
 #----南方周末----
+-d images.infzm.com /medias/*.swf
 -d images.infzm.com /medias/*.jpeg
 -d images.infzm.com /medias/*.gif
+#----南方网----
+-d www.southcn.com /ad/
 #----好看的小说网址----
 - *hkwxc.com/t/g/
 #----网络营销教学网站----
@@ -2703,13 +2711,15 @@ msFilterList
 - *.uuu9.com/code/tool_netgame/
 #----天珠变----
 #----金山快盘----
-+d web.kuaipan.cn
++d web.kuaipan.cn /static/images/ads/index/
 #----金山网络----
 -d img1.ijinshan.com /static/js/dh.js
 - *.union.ijinshan.com/
 -d 123.duba.net /static/images/pop/
 -d www.ijinshan.com /images/gk/game-*.jpg
 -d ruanjian.pc120.com /images/x
+#----南方都市网----
+-d www.nfdsw.com /ndimg/images/cu3er.swf
 #----卓越亚马逊----
 -d rcm-cn.amazon.cn
 #----eNet硅谷动力----
@@ -2794,6 +2804,8 @@ msFilterList
 -d att.3dmgame.com /att/forum/201207/20/2357438m3eem8mebm888bm.jpg
 -d bbs.3dmgame.com /static/image/common/top_*_ad.gif
 - *.3dmgame.com/games/UploadFiles/*/*.gif
+#----16K小说网----
+-d www.16kbook.org /all/*tt*.js
 #----看书网----
 -d 80.qukanshu.com
 #----198Game----
@@ -2825,7 +2837,10 @@ msFilterList
 - *7xdown.com/ggaotp/
 #----亿忆网----
 -d bbs.yeeyi.com /bbs/api/
+#----飞雪动漫----
+- *.17446.com/a/
 #----电玩巴士----
+-d www.tgbus.com /sf/taobao/
 -d vista.tgbusdata.cn /s.js
 -d bill.tgbus.com /html/
 -d inc.tgbus.com /frame/
@@ -2995,6 +3010,8 @@ msFilterList
 -d 131js.131.com /home/resouces/js/ad_config.js?
 -d res.files.131.com /script/notif.js
 #----汽车之家----
++d autohome.adsame.com /s?z=
+-d 33.autohome.cn /file/
 - *autohome.com.cn/33
 - http://33.autohome.com.cn
 #----AcFun.tv----

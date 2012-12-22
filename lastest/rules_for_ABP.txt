@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-12-14 20:51:20
+!Updated:2012-12-22 19:27:34
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -255,6 +255,7 @@
 |*/svnad/*
 |*.adpolestar.*
 |*/adphoto/*
+@@|*/publiclink.*
 |http://*clink.*
 |http://*.ad.*.js*
 |*.ad1.*
@@ -1077,6 +1078,9 @@
 |*.itsun.com/*
 |*.junnew.com/indexad/*
 |*.kfwan.com/*
+||apf.whoclick.cn/*
+||adp.qlunion.com/*
+||js.qlunion.com/*
 ||b.scorecardresearch.com/*
 |*.leomediachina.*
 |*.lt77.com*
@@ -1245,7 +1249,6 @@
 |http://*smartcreative.cn/*
 ||sms.wellsms.com/*
 ||teamwork.enorth.com.cn/*
-||33.autohome.cn/file/*
 |*.irs09.com/*
 |http://*allyesky.cn/js/*
 ||au.ipart.cn/comp/hooks.php*
@@ -1899,6 +1902,7 @@ yimuhe.com##.disk_top
 ||zzz.uz/assets/money-*.png
 ||zzz.uz/assets/stylebar.css
 !----天极传媒（天极网&比特网&IT专家网&52PK游戏网&aFocus)----
+yesky.com##[class^="ad"]
 |*.yesky.com/*/popcontent.js
 ||image.yesky.com/tlimages*/*
 ||mydown.yesky.com/imagelist/*
@@ -2102,6 +2106,8 @@ bbs.dengfeng.cn###diy1
 ||web.kuaiwan.com/js/*
 ||is.kuaibo.com/uploadfile/*
 |*ad*.qvod.com*
+!----洛克剧场----
+91vs.com##.a_menu
 !----快车----
 ||ufile.kuaiche.com/*
 |*client.kuaiche.com*
@@ -2135,6 +2141,8 @@ pptv.com##[id^="afp_"]
 ||union.dangdang.com/*
 ||a.dangdang.com/*
 ||img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
+!----看书客----
+kanshuke.com##DIV[align="center"]
 !----零点看书网----
 @@||www.lingdiankanshu.com/Skin/*
 lingdiankanshu.com##FIELDSET[style$="#a6ccf9"]
@@ -2833,9 +2841,14 @@ xindm.cn##TD[bgcolor="#cdcdcd"]
 ||gg.un.myspace.cn*
 ||xfiles.myspace.cn/*mstg/image/yunying/*/*_*.gif
 !----南方周末----
+infzm.com##[id^="home_ad_"]
+infzm.com##.cover
 infzm.com##[id$="adv"]
+||images.infzm.com/medias/*.swf|
 ||images.infzm.com/medias/*.jpeg|
 ||images.infzm.com/medias/*.gif|
+!----南方网----
+||www.southcn.com/*/ad/*
 !----好看的小说网址----
 |*hkwxc.com/t/g/*
 !----网络营销教学网站----
@@ -2849,6 +2862,7 @@ ithome.com,win7china.com###pop_notice
 ithome.com##.site_ad
 ithome.com##.hl_wrap
 bbs.ithome.com###bbs_hl
+win8china.com##.hl_ad
 win8china.com##.site-ad-box
 ithome.com##.side_products.ulc.ball
 win7china.com,win8china.com##.site_ad
@@ -3027,13 +3041,17 @@ mop.com##a[href^="http://trackx.mop.com/"]
 saesky.net##FONT[color="#FF0000"]
 saesky.net##FONT[color="#0000FF"]
 !----金山快盘----
-@@||web.kuaipan.cn/*
+@@||web.kuaipan.cn/static/images/ads/index/*
 !----金山网络----
 ||img1.ijinshan.com/static/js/dh.js
 |*.union.ijinshan.com/*
 ||123.duba.net/static/images/pop/*
 ||www.ijinshan.com/images/gk/game-*.jpg
 ||ruanjian.pc120.com/images/x*
+!----南方都市网----
+nfdsw.com###sytougg
+nfdsw.com##.tyad
+||www.nfdsw.com/ndimg/images/cu3er.swf
 !----卓越亚马逊----
 ||rcm-cn.amazon.cn/*
 !----eNet硅谷动力----
@@ -3125,6 +3143,8 @@ www.3dmgame.com##[id^="clickbg"]
 ||att.3dmgame.com/att/forum/201207/20/2357438m3eem8mebm888bm.jpg
 ||bbs.3dmgame.com/static/image/common/top_*_ad.gif
 |*.3dmgame.com/games/UploadFiles/*/*.gif
+!----16K小说网----
+||www.16kbook.org/all/*tt*.js
 !----看书网----
 ||80.qukanshu.com/*
 !----198Game----
@@ -3162,7 +3182,14 @@ bitauto.com##.con_ad
 |*7xdown.com/ggaotp/*
 !----亿忆网----
 ||bbs.yeeyi.com/bbs/api/*
+!----飞雪动漫----
+|*.17446.com/a/*
 !----电玩巴士----
+tgbus.com##.t8
+tgbus.com##[class^="ads"]
+tgbus.com##[class^="ad"][class$="fx"]
+tgbus.com##.ad79
+||www.tgbus.com/sf/taobao/*
 ||vista.tgbusdata.cn/s.js
 ||bill.tgbus.com/html/*
 ||inc.tgbus.com/frame/*
@@ -3357,6 +3384,8 @@ autohome.com.cn##.left_demo.mb8
 autohome.com.cn##.subbox_adv
 autohome.com.cn##.md_advbox
 autohome.com.cn##.subadv2
+@@||autohome.adsame.com/s?z=*$domain=www.autohome.com.cn
+||33.autohome.cn/file/*
 |*autohome.com.cn/33*
 ||33.autohome.com.cn*
 !----AcFun.tv----
@@ -4581,7 +4610,6 @@ chinanews.com###adhzh
 news.baidu.com###ecad
 tieba.baidu.com###aside_ad
 tieba.baidu.com##[id^="guanggao"]
-tieba.baidu.com###h123_mod
 tieba.baidu.com##.thread_ad
 image.baidu.com###ecomContainer
 tieba.baidu.com##.l_banner
@@ -4888,4 +4916,3 @@ www.qidian.com##.DH17
 @@||pos.baidu.com/ecom?*$domain=up.9es.cn
 @@||cpro.baidu.com/cpro/ui/c.js$domain=up.9es.cn
 !-------------待分类-------------
-

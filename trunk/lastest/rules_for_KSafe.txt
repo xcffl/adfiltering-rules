@@ -944,6 +944,9 @@
 5,4,*.itsun.com/*
 5,4,*.junnew.com/indexad/*
 5,4,*.kfwan.com/*
+5,4,apf.whoclick.cn/*
+5,4,adp.qlunion.com/*
+5,4,js.qlunion.com/*
 5,4,b.scorecardresearch.com/*
 5,4,*.leomediachina.*
 5,4,*.lt77.com*
@@ -1111,7 +1114,6 @@
 5,4,*smartcreative.cn/*
 5,4,sms.wellsms.com/*
 5,4,teamwork.enorth.com.cn/*
-5,4,33.autohome.cn/file/*
 5,4,*.irs09.com/*
 5,4,*allyesky.cn/js/*
 5,4,au.ipart.cn/comp/hooks.php*
@@ -2254,8 +2256,10 @@
 5,4,gg.blueidea.com*
 5,4,gg.un.myspace.cn*
 5,4,xfiles.myspace.cn/*mstg/image/yunying/*/*_*.gif
+5,4,images.infzm.com/medias/*.swf
 5,4,images.infzm.com/medias/*.jpeg
 5,4,images.infzm.com/medias/*.gif
+5,4,www.southcn.com/*/ad/*
 5,4,*hkwxc.com/t/g/*
 5,4,abc.wm23.com/uploadfile/2012101415623_97e9ed60-b91e-42ed-bbb9-6de751c02890.gif
 5,4,img1.lishiwuyu.com/2012/10/19/r_0-0_1_beac1f9d-2b5c-4dda-81df-864af4223afd.jpg
@@ -2371,6 +2375,7 @@
 5,4,123.duba.net/static/images/pop/*
 5,4,www.ijinshan.com/images/gk/game-*.jpg
 5,4,ruanjian.pc120.com/images/x*
+5,4,www.nfdsw.com/ndimg/images/cu3er.swf
 5,4,rcm-cn.amazon.cn/*
 5,4,ad4.enet.com.cn/*
 5,4,trace.enet.com.cn/*
@@ -2429,6 +2434,7 @@
 5,4,att.3dmgame.com/att/forum/201207/20/2357438m3eem8mebm888bm.jpg
 5,4,bbs.3dmgame.com/static/image/common/top_*_ad.gif
 5,4,*.3dmgame.com/games/UploadFiles/*/*.gif
+5,4,www.16kbook.org/all/*tt*.js
 5,4,80.qukanshu.com/*
 5,4,*.youxiaxiazai.com/db_top/index_top.htm
 5,4,*duotegame.com/images/duotegame*.swf
@@ -2447,6 +2453,8 @@
 5,4,bbs.xdowns.com/jump.js
 5,4,*7xdown.com/ggaotp/*
 5,4,bbs.yeeyi.com/bbs/api/*
+5,4,*.17446.com/a/*
+5,4,www.tgbus.com/sf/taobao/*
 5,4,vista.tgbusdata.cn/s.js
 5,4,bill.tgbus.com/html/*
 5,4,inc.tgbus.com/frame/*
@@ -2567,6 +2575,7 @@
 5,4,131js.131.com/home/resouces/js/131Advertise.js
 5,4,131js.131.com/home/resouces/js/ad_config.js?*
 5,4,res.files.131.com/script/notif.js
+5,4,33.autohome.cn/file/*
 5,4,*autohome.com.cn/33*
 5,4,33.autohome.com.cn*
 5,4,*.acfun.tv/api/count.aspx

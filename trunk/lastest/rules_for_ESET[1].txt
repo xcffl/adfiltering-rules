@@ -944,6 +944,9 @@ c*.keytui.com/*
 *.itsun.com/*
 *.junnew.com/indexad/*
 *.kfwan.com/*
+apf.whoclick.cn/*
+adp.qlunion.com/*
+js.qlunion.com/*
 b.scorecardresearch.com/*
 *.leomediachina.*
 *.lt77.com*
@@ -1111,7 +1114,6 @@ resource.communicatte.com*
 *smartcreative.cn/*
 sms.wellsms.com/*
 teamwork.enorth.com.cn/*
-33.autohome.cn/file/*
 *.irs09.com/*
 *allyesky.cn/js/*
 au.ipart.cn/comp/hooks.php*
@@ -1995,6 +1997,4 @@ www.hszw.com/inc/*
 *.99manga.com/g/*
 *.99manga.com/haodm/dmjsc/*.js
 cdn.laishu.com/images/puguo.gif
-*.laishu.com/lsgg/*
-*.laishuwu.com/files/friend/*
 

@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2012-12-14 20:51:20
+!Updated:2012-12-22 19:27:34
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -258,6 +258,7 @@ bannerad
 /\/svnad\//
 /\.adpolestar\./
 /\/adphoto\//
+/\/publiclink\./	$w
 /^http:\/\/.*clink\./
 /^http:\/\/.*\.ad\..*\.js/
 /\.ad1\./
@@ -1080,6 +1081,9 @@ bannerad
 /\.itsun\.com\//
 /\.junnew\.com\/indexad\//
 /\.kfwan\.com\//
+/:\/\/([^\/]+\.)?apf\.whoclick\.cn\//
+/:\/\/([^\/]+\.)?adp\.qlunion\.com\//
+/:\/\/([^\/]+\.)?js\.qlunion\.com\//
 /:\/\/([^\/]+\.)?b\.scorecardresearch\.com\//
 /\.leomediachina\./
 /\.lt77\.com/
@@ -1248,7 +1252,6 @@ bannerad
 /^http:\/\/.*smartcreative\.cn\//
 /:\/\/([^\/]+\.)?sms\.wellsms\.com\//
 /:\/\/([^\/]+\.)?teamwork\.enorth\.com\.cn\//
-/:\/\/([^\/]+\.)?33\.autohome\.cn\/file\//
 /\.irs09\.com\//
 /^http:\/\/.*allyesky\.cn\/js\//
 /:\/\/([^\/]+\.)?au\.ipart\.cn\/comp\/hooks\.php/
@@ -1902,6 +1905,7 @@ bannerad
 /:\/\/([^\/]+\.)?zzz\.uz\/assets\/money-.*\.png/
 /:\/\/([^\/]+\.)?zzz\.uz\/assets\/stylebar\.css/
 !----天极传媒（天极网&比特网&IT专家网&52PK游戏网&aFocus)----
+##[class^="ad"]	$d=yesky.com
 /\.yesky\.com\/.*\/popcontent\.js/
 /:\/\/([^\/]+\.)?image\.yesky\.com\/tlimages.*\//
 /:\/\/([^\/]+\.)?mydown\.yesky\.com\/imagelist\//
@@ -2105,6 +2109,8 @@ bannerad
 /:\/\/([^\/]+\.)?web\.kuaiwan\.com\/js\//
 /:\/\/([^\/]+\.)?is\.kuaibo\.com\/uploadfile\//
 /ad.*\.qvod\.com/
+!----洛克剧场----
+##.a_menu	$d=91vs.com
 !----快车----
 /:\/\/([^\/]+\.)?ufile\.kuaiche\.com\//
 /client\.kuaiche\.com/
@@ -2138,6 +2144,8 @@ bannerad
 /:\/\/([^\/]+\.)?union\.dangdang\.com\//
 /:\/\/([^\/]+\.)?a\.dangdang\.com\//
 /:\/\/([^\/]+\.)?img4\.ddimg\.cn\/00074\/pic\/.*_.*_.*x.*_.*\.jpg/
+!----看书客----
+##DIV[align="center"]	$d=kanshuke.com
 !----零点看书网----
 /:\/\/([^\/]+\.)?www.lingdiankanshu.com\/Skin\//	$w
 ##FIELDSET[style$="#a6ccf9"]	$d=lingdiankanshu.com
@@ -2838,9 +2846,14 @@ bannerad
 /:\/\/([^\/]+\.)?gg\.un\.myspace\.cn/
 /:\/\/([^\/]+\.)?xfiles\.myspace\.cn\/.*mstg\/image\/yunying\/.*\/.*_.*\.gif/
 !----南方周末----
+##[id^="home_ad_"]	$d=infzm.com
+##.cover	$d=infzm.com
 ##[id$="adv"]	$d=infzm.com
+/:\/\/([^\/]+\.)?images\.infzm\.com\/medias\/.*\.swf$t=/
 /:\/\/([^\/]+\.)?images\.infzm\.com\/medias\/.*\.jpeg$t=/
 /:\/\/([^\/]+\.)?images\.infzm\.com\/medias\/.*\.gif$t=/
+!----南方网----
+/:\/\/([^\/]+\.)?www\.southcn\.com\/.*\/ad\//
 !----好看的小说网址----
 /hkwxc\.com\/t\/g\//
 !----网络营销教学网站----
@@ -2855,6 +2868,7 @@ bannerad
 ##.site_ad	$d=ithome.com
 ##.hl_wrap	$d=ithome.com
 ##bbs_hl	$d=bbs.ithome.com
+##.hl_ad	$d=win8china.com
 ##.site-ad-box	$d=win8china.com
 ##.side_products.ulc.ball	$d=ithome.com
 ##.site_ad	$d=win7china.com
@@ -3034,13 +3048,17 @@ bannerad
 ##FONT[color="#FF0000"]	$d=saesky.net
 ##FONT[color="#0000FF"]	$d=saesky.net
 !----金山快盘----
-/:\/\/([^\/]+\.)?web.kuaipan.cn\//	$w
+/:\/\/([^\/]+\.)?web.kuaipan.cn\/static\/images\/ads\/index\//	$w
 !----金山网络----
 /:\/\/([^\/]+\.)?img1\.ijinshan\.com\/static\/js\/dh\.js/
 /\.union\.ijinshan\.com\//
 /:\/\/([^\/]+\.)?123\.duba\.net\/static\/images\/pop\//
 /:\/\/([^\/]+\.)?www\.ijinshan\.com\/images\/gk\/game-.*\.jpg/
 /:\/\/([^\/]+\.)?ruanjian\.pc120\.com\/images\/x/
+!----南方都市网----
+##sytougg	$d=nfdsw.com
+##.tyad	$d=nfdsw.com
+/:\/\/([^\/]+\.)?www\.nfdsw\.com\/ndimg\/images\/cu3er\.swf/
 !----卓越亚马逊----
 /:\/\/([^\/]+\.)?rcm-cn\.amazon\.cn\//
 !----eNet硅谷动力----
@@ -3132,6 +3150,8 @@ bannerad
 /:\/\/([^\/]+\.)?att\.3dmgame\.com\/att\/forum\/201207\/20\/2357438m3eem8mebm888bm\.jpg/
 /:\/\/([^\/]+\.)?bbs\.3dmgame\.com\/static\/image\/common\/top_.*_ad\.gif/
 /\.3dmgame\.com\/games\/UploadFiles\/.*\/.*\.gif/
+!----16K小说网----
+/:\/\/([^\/]+\.)?www\.16kbook\.org\/all\/.*tt.*\.js/
 !----看书网----
 /:\/\/([^\/]+\.)?80\.qukanshu\.com\//
 !----198Game----
@@ -3169,7 +3189,14 @@ bannerad
 /7xdown\.com\/ggaotp\//
 !----亿忆网----
 /:\/\/([^\/]+\.)?bbs\.yeeyi\.com\/bbs\/api\//
+!----飞雪动漫----
+/\.17446\.com\/a\//
 !----电玩巴士----
+##.t8	$d=tgbus.com
+##[class^="ads"]	$d=tgbus.com
+##[class^="ad"][class$="fx"]	$d=tgbus.com
+##.ad79	$d=tgbus.com
+/:\/\/([^\/]+\.)?www\.tgbus\.com\/sf\/taobao\//
 /:\/\/([^\/]+\.)?vista\.tgbusdata\.cn\/s\.js/
 /:\/\/([^\/]+\.)?bill\.tgbus\.com\/html\//
 /:\/\/([^\/]+\.)?inc\.tgbus\.com\/frame\//
@@ -3366,6 +3393,8 @@ bannerad
 ##.subbox_adv	$d=autohome.com.cn
 ##.md_advbox	$d=autohome.com.cn
 ##.subadv2	$d=autohome.com.cn
+/:\/\/([^\/]+\.)?autohome\.adsame\.com\/s\?z=.*/	$d=www.autohome.com.cn,$w
+/:\/\/([^\/]+\.)?33\.autohome\.cn\/file\//
 /autohome\.com\.cn\/33/
 /:\/\/([^\/]+\.)?33\.autohome\.com\.cn/
 !----AcFun.tv----
@@ -4590,7 +4619,6 @@ bannerad
 ##ecad	$d=news.baidu.com
 ##aside_ad	$d=tieba.baidu.com
 ##[id^="guanggao"]	$d=tieba.baidu.com
-##h123_mod	$d=tieba.baidu.com
 ##.thread_ad	$d=tieba.baidu.com
 ##ecomContainer	$d=image.baidu.com
 ##.l_banner	$d=tieba.baidu.com

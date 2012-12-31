@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-09-21 21:49:01
+!Updated:2012-12-31 18:58:00
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -1871,6 +1871,7 @@ youku.com##.AB240
 ||cps.youku.com/*
 !||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
 ||f.youku.com/player/getFlvPath/fileid/0*?K=*
+|*.atm.youku.com/val*ct=*&cs=*
 !||valf.atm.youku.com/valf?*
 !||val*.atm.youku.com/*
 !||h.irs01.com/*
@@ -2025,8 +2026,7 @@ iqiyi.com##[id^="div_theatre"]
 ||track.cupid.qiyi.com/*
 ||afp.qiyi.com/*
 ||jsmsg.video.qiyi.com/*
-||msg.video.qiyi.com/adpb.gif?*
-||msg.video.qiyi.com/v*pb.gif?*
+||msg.video.qiyi.com/*
 |*.iqiyi.com/player/cupid/*
 |*.video.qiyi.com/adpolicy*
 ||static.qiyi.com/js/pingback/*
@@ -2184,6 +2184,8 @@ newhua.com##[class^="ad_ritht_"]
 |*.dm8.cc/s/*
 |*.dm8.cc/javascript/xshow.js
 !----金山词霸----
+fy.iciba.com##.kk01
+iciba.com##.ad_list
 ||cdn.iciba.com/web/co/fy/*.swf
 ||cdn.iciba.com/web/co/fy/*.gif
 ||cdn.iciba.com/web/co/ci/*.jpg
@@ -2854,6 +2856,8 @@ xindm.cn##TD[bgcolor="#cdcdcd"]
 !----Myspace聚友网----
 ||gg.un.myspace.cn*
 ||xfiles.myspace.cn/*mstg/image/yunying/*/*_*.gif
+!----南都网----
+nandu.oeeee.com###top-ad
 !----南方周末----
 infzm.com##[id^="home_ad_"]
 infzm.com##.cover
@@ -4933,3 +4937,4 @@ www.qidian.com##.DH17
 @@||pos.baidu.com/ecom?*$domain=up.9es.cn
 @@||cpro.baidu.com/cpro/ui/c.js$domain=up.9es.cn
 !-------------待分类-------------
+

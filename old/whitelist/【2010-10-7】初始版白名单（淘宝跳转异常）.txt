@@ -1,4 +1,0 @@
-﻿http://item.taobao.com/auction/item_detail.htm?*
-http://ju.atpanel.com/?url=*
-http://trade.taobao.com/trade/itemlist/list_bought_items.htm*
-http://trade.taobao.com/trade/itemlist/list_sold_items.htm?*

@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2012-12-31 18:58:00
+!Updated:2013-01-01 21:30:03
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -1871,7 +1871,6 @@ youku.com##.AB240
 ||cps.youku.com/*
 !||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
 ||f.youku.com/player/getFlvPath/fileid/0*?K=*
-|*.atm.youku.com/val*ct=*&cs=*
 !||valf.atm.youku.com/valf?*
 !||val*.atm.youku.com/*
 !||h.irs01.com/*
@@ -2026,7 +2025,8 @@ iqiyi.com##[id^="div_theatre"]
 ||track.cupid.qiyi.com/*
 ||afp.qiyi.com/*
 ||jsmsg.video.qiyi.com/*
-||msg.video.qiyi.com/*
+||msg.video.qiyi.com/adpb.gif?*
+||msg.video.qiyi.com/v*pb.gif?*
 |*.iqiyi.com/player/cupid/*
 |*.video.qiyi.com/adpolicy*
 ||static.qiyi.com/js/pingback/*
@@ -4937,4 +4937,3 @@ www.qidian.com##.DH17
 @@||pos.baidu.com/ecom?*$domain=up.9es.cn
 @@||cpro.baidu.com/cpro/ui/c.js$domain=up.9es.cn
 !-------------待分类-------------
-

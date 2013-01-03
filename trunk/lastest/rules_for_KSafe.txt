@@ -982,6 +982,7 @@
 5,4,union.gxcms.com/*
 5,4,*.shurumedia.com/*
 5,4,*.tribalfusion.com/*
+5,4,*.adsunion.com/*
 5,4,*.tuigoo.com/*
 5,4,pix*.revsci.net/*
 5,4,cdn.krxd.net/*
@@ -1106,6 +1107,7 @@
 5,4,popunder.paypopup.com/popup.php*
 5,4,ppntv.033.com/*
 5,4,*.feedsportal.com/r/*
+5,4,*.popadscdn.net/*
 5,4,pv.tom.com*
 5,4,qq1.moyu.com*
 5,4,*qqmms.net/adlink/*
@@ -1129,6 +1131,7 @@
 5,4,www.xixianad.com/*
 5,4,*.linkbucksmedia.com/director/*
 5,4,d*.zedo.com/*
+5,4,*.adcash.com/*
 5,4,*.826060.com/*
 5,4,*.1o26.com/*
 5,4,code.woainame.cn/code/*.js
@@ -1516,6 +1519,7 @@
 5,4,tv.sohu.com/upload/static/global/hdpv.js
 5,4,a*.itc.cn/pv/js/pvclick.*
 5,4,xls.go.sohu.com/*
+5,4,atyt.tv.sohu.com/*
 5,4,his.tv.sohu.com/his/ping.do?*
 5,4,*.hd.sohu.com.cn/*.gif?*
 5,4,news.sohu.com/upload/article/2012/images/swf/*
@@ -1559,10 +1563,10 @@
 5,4,tv.sohu.com/upload/ad_fr/*
 5,4,tv.sohu.com/upload/trace/*
 5,4,tv.sohu.com/upload/csad/*
-5,4,www.dodbook.com/js/4.js
-5,4,www.dodbook.com/js/2.js
-5,4,www.dodbook.com/js/3.js
-5,4,www.dodbook.com/js/1.js
+5,4,*dodbook.com/js/1.js
+5,4,*dodbook.com/js/2.js
+5,4,*dodbook.com/js/3.js
+5,4,*dodbook.com/js/4.js
 5,4,www.51kdy.com/js/yzz/banner_*.js
 5,4,www.51kdy.com/js/yzz/top_*.html
 5,4,*links.kugoo.com/*
@@ -1579,6 +1583,7 @@
 5,4,stat.ws.126.net/*
 5,4,adgeo.163.com/*
 5,4,163.wrating.com/*
+5,4,*.163.com/special/*/*_*.html
 5,4,img1.126.net/*
 5,4,img2.126.net/*
 5,4,flv.bn.netease.com/*
@@ -1611,6 +1616,7 @@
 5,4,static.atm.youku.com/*udou2012/*.jpg
 5,4,static.atm.youku.com/*udou2012/*.swf*
 5,4,*/adplay*
+5,4,114.80.180.15/*
 5,4,td.atm.youku.com/tdap/adcommon?*
 5,4,istat.tudou.com/play.srv?*
 5,4,player.pb.ops.tudou.com/info.php?*
@@ -1639,6 +1645,7 @@
 5,4,valc.atm.youku.com/*
 5,4,vid.atm.youku.com/*
 5,4,valp.atm.youku.com/*
+5,4,lstat.youku.com/*
 5,4,cps.youku.com/*
 5,4,f.youku.com/player/get*lv*ath/fileid/*-*-*-*-*?*=*
 5,4,valf.atm.youku.com/valf?*
@@ -1738,9 +1745,19 @@
 5,4,*images.mydrivers.com/*/*x*.gif
 5,4,202.108.14.72/ts.swf
 5,4,220.181.109.181/tracker?*
+5,4,123.125.118.75/*
+5,4,123.125.118.66/*
+5,4,60.210.17.145/*
+5,4,60.210.17.158/*
+5,4,123.125.118.74/*
+5,4,focusbaiduafp.allyes.com/*
+5,4,show.cupid.qiyi.com/*
+5,4,api.cupid.qiyi.com/*
+5,4,track.cupid.qiyi.com/*
 5,4,afp.qiyi.com/*
 5,4,jsmsg.video.qiyi.com/*
-5,4,msg.video.qiyi.com/*
+5,4,msg.video.qiyi.com/adpb.gif?*
+5,4,msg.video.qiyi.com/v*pb.gif?*
 5,4,*.iqiyi.com/player/cupid/*
 5,4,*.video.qiyi.com/adpolicy*
 5,4,static.qiyi.com/js/pingback/*
@@ -1748,6 +1765,7 @@
 5,4,uestat.video.qiyi.com/*
 5,4,data.video.qiyi.com/videos/other/*.f4v*
 5,4,*.iqiyi.com/player/*/theatre*.swf
+5,4,cdn.adf.ly/js/*.js
 5,4,www.5iyq.com/skin/default/js/topad*.js
 5,4,img.5iyq.com/wlj/index/a2-*.*
 5,4,img.5iyq.com/wlj/index/a1-*.*
@@ -2043,6 +2061,7 @@
 5,4,y1.ifengimg.com/*/rdn_*.js*
 5,4,*.ifengimg.com/ifeng/sources/*
 5,4,*.ifeng.com/statics/comment_baidu.html
+5,4,amch.questionmarket.com/*
 5,4,y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 5,4,*.ifengimg.com/*.swf
 5,4,*/tres/ifeng/game/astd/*
@@ -2358,7 +2377,10 @@
 5,4,img.kekenet.com/images/kekepic/tom468X60.gif
 5,4,www.kuairead.com/kr-img/krtop.gif
 5,4,cache.mofile.com/tv/cn/images/*
+5,4,a.cctv.com/*
+5,4,ad.cctv.com/*
 5,4,*cctv.com/download/teleplayvip/*
+5,4,adguanggao.eee114.com/*
 5,4,www.cctv.com/*ad_play.swf*
 5,4,www.cctv.com/blog/tanchu/*
 5,4,log.player.cntv.cn/*
@@ -2390,6 +2412,7 @@
 5,4,c.w99.cc/*
 5,4,raymond315.xiazaia.net/*.jpg
 5,4,raymond315.xiazaia.net/*.gif
+5,4,178.238.233.242/open.js
 5,4,union.ff84.com/*
 5,4,lzstw.sinaapp.com/org/*.gif*
 5,4,lzstw.sinaapp.com/org/*.php*
@@ -3210,6 +3233,7 @@
 5,4,*needpop.com/jvc.jpg
 5,4,secret.moumentei.com/images/ac/x.gif
 5,4,tracking.cat898.com/*
+5,4,user.kdnet.net/images/*-*.png
 5,4,super.kdnet.net/*
 5,4,panda.kdnet.net/*
 5,4,*imp3.net/data/js/*
@@ -3234,6 +3258,9 @@
 5,4,letv.allyes.com/*
 5,4,dc.letv.com/*
 5,4,js.letvcdn.com/js/*/stats/*
+5,4,player.hz.letv.com/hzplayer.swf?*
+5,4,i3.letvimg.com/gugwl/*.jpg
+5,4,pro.hoye.letv.com/*
 5,4,*pro.letv.com/*
 5,4,geobanner.asiafriendfinder.com/go/page/iframe_geobanner_custom?*
 5,4,*.pop6.com/banners/*
@@ -3323,7 +3350,6 @@
 5,4,bar.baidu.com/*
 5,4,baidutv.baidu.com/*
 5,4,hi.baidu.com/ui/scripts/refer/refer.js
-5,4,hm.baidu.com/*
 5,4,www.baidu.com/baidu.php?url=*-*_*_*_*-*.*_*_*_*&ck=*.*
 5,4,drmcmm.baidu.com/*
 5,4,ma.baidu.com/*

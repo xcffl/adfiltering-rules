@@ -1455,7 +1455,6 @@ dcads.sina.com.cn/*
 pfp.sina.com.cn/jczs.html
 pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 bj.house.sina.com.cn/*.js
-*.sinaimg.cn/*/deco/*.js
 rs.sinajs.cn/*
 *sina.ec90.com/*
 *.adsina.*
@@ -1997,4 +1996,5 @@ js.zol.com.cn/p.ht?*
 pic.zol-img.com.cn/*x*.gif
 pic.zol-img.com.cn/*hp*.*
 pic.zol-img.com.cn/*ad*.swf
+pic.zol-img.com.cn/*/*_*.*
 

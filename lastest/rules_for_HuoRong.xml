@@ -7287,11 +7287,6 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
-<path>*.sinaimg.cn/*/deco/*.js</path>
-<object>*</object>
-</analyzer>
-<analyzer>
-<type>Http</type>
 <path>rs.sinajs.cn/*</path>
 <object>*</object>
 </analyzer>

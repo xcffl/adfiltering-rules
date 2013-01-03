@@ -1455,7 +1455,6 @@
 5,4,pfp.sina.com.cn/jczs.html
 5,4,pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 5,4,bj.house.sina.com.cn/*.js
-5,4,*.sinaimg.cn/*/deco/*.js
 5,4,rs.sinajs.cn/*
 5,4,*sina.ec90.com/*
 5,4,*.adsina.*

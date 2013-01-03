@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-01-03 14:16:48
+#Updated:2013-01-03 14:56:12
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1501,7 +1501,7 @@ msFilterList
 -d pfp.sina.com.cn /jczs.html
 -d pfp.sina.com.cn /iframe/2012nonghangguanggaotest1.html
 -d bj.house.sina.com.cn .js
-- *.sinaimg.cn/*/deco/*.js
+#|*.sinaimg.cn/*/deco/*.js
 -d rs.sinajs.cn
 - *sina.ec90.com/
 - *.adsina.

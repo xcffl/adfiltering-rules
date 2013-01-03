@@ -1,3 +1,21 @@
+*zol.com.cn/imphit0*.gif?*
+pic.zol.com.cn/*/*hp*_*_*.swf
+*pc3w.com/jS/*
+*.bookcu.com/pop.js
+graphics.streamray.com/images/cams/flash/cams_live.swf
+*.77119.com/js/*
+union.vancl.com/*
+www.vancl.com/WebSource/*
+images.vancl.com/Others/*/*/*/search_vt_*.jpg
+p*.mmstat.com/*
+*.qzss.cn/ssad*/*
+www.hszw.com/inc/*
+*safebeta.cn/gg/*
+*.99comic.com/g/*
+*.99manga.com/g/*
+*.99manga.com/haodm/dmjsc/*.js
+cdn.laishu.com/images/puguo.gif
+*.laishu.com/lsgg/*
 *.laishuwu.com/files/friend/*
 www.ocucn.com/images/*.gif
 www.newasp.net/js/html/*
@@ -42,6 +60,7 @@ www.9ifly.cn/source/plugin/dabandeng/dabandeng-gbk.html
 y1.ifengimg.com/*/rdn_*.js*
 *.ifengimg.com/ifeng/sources/*
 *.ifeng.com/statics/comment_baidu.html
+amch.questionmarket.com/*
 y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 *.ifengimg.com/*.swf
 */tres/ifeng/game/astd/*
@@ -357,7 +376,10 @@ img.kekenet.com/statics/images/en/51talk.gif
 img.kekenet.com/images/kekepic/tom468X60.gif
 www.kuairead.com/kr-img/krtop.gif
 cache.mofile.com/tv/cn/images/*
+a.cctv.com/*
+ad.cctv.com/*
 *cctv.com/download/teleplayvip/*
+adguanggao.eee114.com/*
 www.cctv.com/*ad_play.swf*
 www.cctv.com/blog/tanchu/*
 log.player.cntv.cn/*
@@ -389,6 +411,7 @@ www.2100book.com/themes/v2/images/top_*.jpg
 c.w99.cc/*
 raymond315.xiazaia.net/*.jpg
 raymond315.xiazaia.net/*.gif
+178.238.233.242/open.js
 union.ff84.com/*
 lzstw.sinaapp.com/org/*.gif*
 lzstw.sinaapp.com/org/*.php*
@@ -1209,6 +1232,7 @@ sub.powerapple.com/*
 *needpop.com/jvc.jpg
 secret.moumentei.com/images/ac/x.gif
 tracking.cat898.com/*
+user.kdnet.net/images/*-*.png
 super.kdnet.net/*
 panda.kdnet.net/*
 *imp3.net/data/js/*
@@ -1233,6 +1257,9 @@ luckstatic.v1.cn/st/10000/*
 letv.allyes.com/*
 dc.letv.com/*
 js.letvcdn.com/js/*/stats/*
+player.hz.letv.com/hzplayer.swf?*
+i3.letvimg.com/gugwl/*.jpg
+pro.hoye.letv.com/*
 *pro.letv.com/*
 geobanner.asiafriendfinder.com/go/page/iframe_geobanner_custom?*
 *.pop6.com/banners/*
@@ -1322,7 +1349,6 @@ duiwai.baidu.com/*
 bar.baidu.com/*
 baidutv.baidu.com/*
 hi.baidu.com/ui/scripts/refer/refer.js
-hm.baidu.com/*
 www.baidu.com/baidu.php?url=*-*_*_*_*-*.*_*_*_*&ck=*.*
 drmcmm.baidu.com/*
 ma.baidu.com/*

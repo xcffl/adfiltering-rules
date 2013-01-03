@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2012-12-22 19:27:34
+#Updated:2013-01-03 14:16:48
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1006,6 +1006,7 @@ msFilterList
 -d union.gxcms.com
 - *.shurumedia.com/
 - *.tribalfusion.com/
+- *.adsunion.com/
 - *.tuigoo.com/
 - http://pix*.revsci.net/
 -d cdn.krxd.net
@@ -1131,6 +1132,7 @@ msFilterList
 -d popunder.paypopup.com /popup.php
 -d ppntv.033.com
 - *.feedsportal.com/r/
+- *.popadscdn.net/
 - http://pv.tom.com
 - http://qq1.moyu.com
 - *qqmms.net/adlink/
@@ -1154,6 +1156,7 @@ msFilterList
 -d www.xixianad.com
 - *.linkbucksmedia.com/director/
 - http://d*.zedo.com/
+- *.adcash.com/
 - *.826060.com/
 - *.1o26.com/
 -d code.woainame.cn /code/*.js
@@ -1563,6 +1566,7 @@ msFilterList
 -d tv.sohu.com /upload/static/global/hdpv.js
 - http://a*.itc.cn/pv/js/pvclick.
 -d xls.go.sohu.com
+-d atyt.tv.sohu.com
 -d his.tv.sohu.com /his/ping.do?
 - *.hd.sohu.com.cn/*.gif?
 -d news.sohu.com /upload/article/2012/images/swf/
@@ -1608,10 +1612,10 @@ msFilterList
 -d tv.sohu.com /upload/csad/
 #----yezibo影视搜索----
 #----纵横书海----
--d www.dodbook.com /js/4.js
--d www.dodbook.com /js/2.js
--d www.dodbook.com /js/3.js
--d www.dodbook.com /js/1.js
+- *dodbook.com/js/1.js
+- *dodbook.com/js/2.js
+- *dodbook.com/js/3.js
+- *dodbook.com/js/4.js
 #----51看电影----
 -d www.51kdy.com /js/yzz/banner_*.js
 -d www.51kdy.com /js/yzz/top_*.html
@@ -1632,6 +1636,7 @@ msFilterList
 -d stat.ws.126.net
 -d adgeo.163.com
 -d 163.wrating.com
+- *.163.com/special/*/*_*.html
 #|*.163.com/special/*_*.xml
 -d img1.126.net
 -d img2.126.net
@@ -1667,6 +1672,7 @@ msFilterList
 -d static.atm.youku.com udou2012/*.swf
 - http://*/adplay
 #|http://*/adcontrol*
+-d 114.80.180.15
 -d td.atm.youku.com /tdap/adcommon?
 -d istat.tudou.com /play.srv?
 -d player.pb.ops.tudou.com /info.php?
@@ -1697,6 +1703,7 @@ msFilterList
 -d valc.atm.youku.com
 -d vid.atm.youku.com
 -d valp.atm.youku.com
+-d lstat.youku.com
 -d cps.youku.com
 #||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
 -d f.youku.com /player/getFlvPath/fileid/0*?K=
@@ -1825,9 +1832,19 @@ msFilterList
 #----爱奇艺----
 -d 202.108.14.72 /ts.swf
 -d 220.181.109.181 /tracker?
+-d 123.125.118.75
+-d 123.125.118.66
+-d 60.210.17.145
+-d 60.210.17.158
+-d 123.125.118.74
+-d focusbaiduafp.allyes.com
+-d show.cupid.qiyi.com
+-d api.cupid.qiyi.com
+-d track.cupid.qiyi.com
 -d afp.qiyi.com
 -d jsmsg.video.qiyi.com
--d msg.video.qiyi.com
+-d msg.video.qiyi.com /adpb.gif?
+-d msg.video.qiyi.com /v*pb.gif?
 - *.iqiyi.com/player/cupid/
 - *.video.qiyi.com/adpolicy
 -d static.qiyi.com /js/pingback/
@@ -1836,6 +1853,7 @@ msFilterList
 -d data.video.qiyi.com /videos/other/*.f4v
 - *.iqiyi.com/player/*/theatre*.swf
 #----adf.ly----
+-d cdn.adf.ly /js/*.js
 #----乐清上班族网----
 -d www.5iyq.com /skin/default/js/topad*.js
 -d img.5iyq.com /wlj/index/a2-*.
@@ -2241,6 +2259,7 @@ msFilterList
 -d y1.ifengimg.com /rdn_*.js
 - *.ifengimg.com/ifeng/sources/
 - *.ifeng.com/statics/comment_baidu.html
+-d amch.questionmarket.com
 -d y3.ifengimg.com /06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 - *.ifengimg.com/*.swf
 - */tres/ifeng/game/astd/
@@ -2542,6 +2561,7 @@ msFilterList
 #----Myspace聚友网----
 - http://gg.un.myspace.cn
 -d xfiles.myspace.cn mstg/image/yunying/*/*_*.gif
+#----南都网----
 #----南方周末----
 -d images.infzm.com /medias/*.swf
 -d images.infzm.com /medias/*.jpeg
@@ -2696,7 +2716,10 @@ msFilterList
 #----联盘----
 -d cache.mofile.com /tv/cn/images/
 #----中国网络电视台（CCTV&CNTV）----
+-d a.cctv.com
+-d ad.cctv.com
 - *cctv.com/download/teleplayvip/
+-d adguanggao.eee114.com
 -d www.cctv.com ad_play.swf
 -d www.cctv.com /blog/tanchu/
 -d log.player.cntv.cn
@@ -2743,6 +2766,8 @@ msFilterList
 #----1069BT----
 -d raymond315.xiazaia.net .jpg
 -d raymond315.xiazaia.net .gif
+#----MyRLS----
+-d 178.238.233.242 /open.js
 #----雷州电影网----
 -d union.ff84.com
 -d lzstw.sinaapp.com /org/*.gif
@@ -4001,6 +4026,7 @@ msFilterList
 -d secret.moumentei.com /images/ac/x.gif
 #----凯迪网络----
 -d tracking.cat898.com
+-d user.kdnet.net /images/*-*.png
 -d super.kdnet.net
 -d panda.kdnet.net
 #----iMP3随身数码影音----
@@ -4044,6 +4070,9 @@ msFilterList
 -d letv.allyes.com
 -d dc.letv.com
 -d js.letvcdn.com /js/*/stats/
+-d player.hz.letv.com /hzplayer.swf?
+-d i3.letvimg.com /gugwl/*.jpg
+-d pro.hoye.letv.com
 - *pro.letv.com/
 #----FriendFinder&AsiaFriendFinder----
 -d geobanner.asiafriendfinder.com /go/page/iframe_geobanner_custom?
@@ -4186,7 +4215,7 @@ msFilterList
 -d bar.baidu.com
 -d baidutv.baidu.com
 -d hi.baidu.com /ui/scripts/refer/refer.js
--d hm.baidu.com
+#||hm.baidu.com/*
 -d www.baidu.com /baidu.php?url=*-*_*_*_*-*.*_*_*_*&ck=*.
 -d drmcmm.baidu.com
 -d ma.baidu.com

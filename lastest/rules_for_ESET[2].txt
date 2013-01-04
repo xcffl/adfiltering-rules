@@ -1,3 +1,10 @@
+stat.zol.com.cn/ol.js
+js.zol.com.cn/p.ht?*
+pic.zol-img.com.cn/*x*.gif
+pic.zol-img.com.cn/*hp*.*
+pic.zol-img.com.cn/*ad*.swf
+pic.zol-img.com.cn/*/*_*.*
+*zol.com.cn/imphit0*.gif?*
 pic.zol.com.cn/*/*hp*_*_*.swf
 *pc3w.com/jS/*
 *.bookcu.com/pop.js
@@ -537,6 +544,7 @@ www.ddooo.com/js/*
 *szgay.net/2012/*X*.*
 *szgay.net/szgayimages/fs.gif
 *.younet.com/images/*.swf
+feeds.videosz.com/custom/imagebam/*
 www.ztlt.org/*ztad*
 img1.jczqw.com/img/*
 www.wbto.cn/images/*_ad.jpg

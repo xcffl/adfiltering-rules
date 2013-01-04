@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-01-03 14:56:12
+!Updated:2013-01-04 18:43:36
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -772,6 +772,7 @@
 |*.com/js/ad_*
 |*/adfiles/*
 |*/adflash/*
+|http://*/ad-creatives/*
 |*/adimage/*
 |*/adjk.php?*
 |*/adpshow.
@@ -1267,6 +1268,7 @@
 ||code.qqgou.com/*
 ||www.xixianad.com/*
 |*.linkbucksmedia.com/director/*
+||click.livejasmin.com/*
 ||d*.zedo.com/*
 |*.adcash.com/*
 |*.826060.com/*
@@ -1874,7 +1876,6 @@ youku.com##.AB240
 ||valc.atm.youku.com/*
 ||vid.atm.youku.com/*
 ||valp.atm.youku.com/*
-||lstat.youku.com/*
 ||cps.youku.com/*
 !||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
 ||f.youku.com/player/getFlvPath/fileid/0*?K=*
@@ -2172,6 +2173,20 @@ lingdiankanshu.com##TD[width="301"]
 ||www.wdown.cn/falala/*
 !----华军软件园&牛华网----
 newhua.com##[class^="ad_ritht_"]
+newhua.com,onlinedown.net##.softad
+newhua.com,onlinedown.net##.r2
+newhua.com,onlinedown.net##.r1
+onlinedown.net##.adzone
+onlinedown.net##.adr
+onlinedown.net##.ban
+onlinedown.net##.t2
+newhua.com##.i1
+|*/newhuagg/timelimitad.js
+|*/newhuagg/newsbox.js
+|*/newhuagg/index_*
+|*/newhuagg/*3030.jpg
+|*/newhuagg/*3030.gif
+||www.onlinedown.net/newhuagg/hotthread.js
 ||download.cncmax.js.cn/images/temp/down-banner*.jpg
 ||news.newhua.com/newhuagg/news_*
 ||www.onlinedown.net/newhuagg/js_*
@@ -2867,6 +2882,7 @@ xindm.cn##TD[bgcolor="#cdcdcd"]
 !----南都网----
 nandu.oeeee.com###top-ad
 !----南方周末----
+infzm.com##DIV[style="height:210px;width:312px;display:block"]
 infzm.com##[id^="home_ad_"]
 infzm.com##.cover
 infzm.com##[id$="adv"]
@@ -3321,6 +3337,9 @@ douban.fm##.clickable_ad
 |*szgay.net/szgayimages/fs.gif
 !----友人----
 |*.younet.com/images/*.swf
+!----ImageBam----
+imagebam.com###top_banner
+||feeds.videosz.com/custom/imagebam/*
 !----志同论坛----
 ||www.ztlt.org/*ztad*
 !----江城足球网----

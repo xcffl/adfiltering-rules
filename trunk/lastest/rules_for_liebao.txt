@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2013-01-03 14:56:12
+!Updated:2013-01-04 18:43:36
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -775,6 +775,7 @@ bannerad
 /\.com\/js\/ad_/
 /\/adfiles\//
 /\/adflash\//
+/^http:\/\/.*\/ad-creatives\//
 /\/adimage\//
 /\/adjk\.php\?/
 /\/adpshow\./
@@ -1270,6 +1271,7 @@ bannerad
 /:\/\/([^\/]+\.)?code\.qqgou\.com\//
 /:\/\/([^\/]+\.)?www\.xixianad\.com\//
 /\.linkbucksmedia\.com\/director\//
+/:\/\/([^\/]+\.)?click\.livejasmin\.com\//
 /:\/\/([^\/]+\.)?d.*\.zedo\.com\//
 /\.adcash\.com\//
 /\.826060\.com\//
@@ -1877,7 +1879,6 @@ bannerad
 /:\/\/([^\/]+\.)?valc\.atm\.youku\.com\//
 /:\/\/([^\/]+\.)?vid\.atm\.youku\.com\//
 /:\/\/([^\/]+\.)?valp\.atm\.youku\.com\//
-/:\/\/([^\/]+\.)?lstat\.youku\.com\//
 /:\/\/([^\/]+\.)?cps\.youku\.com\//
 !||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
 /:\/\/([^\/]+\.)?f\.youku\.com\/player\/getFlvPath\/fileid\/0.*\?K=/
@@ -2175,6 +2176,23 @@ bannerad
 /:\/\/([^\/]+\.)?www\.wdown\.cn\/falala\//
 !----华军软件园&牛华网----
 ##[class^="ad_ritht_"]	$d=newhua.com
+##.softad	$d=newhua.com
+##.softad	$d=onlinedown.net
+##.r2	$d=newhua.com
+##.r2	$d=onlinedown.net
+##.r1	$d=newhua.com
+##.r1	$d=onlinedown.net
+##.adzone	$d=onlinedown.net
+##.adr	$d=onlinedown.net
+##.ban	$d=onlinedown.net
+##.t2	$d=onlinedown.net
+##.i1	$d=newhua.com
+/\/newhuagg\/timelimitad\.js/
+/\/newhuagg\/newsbox\.js/
+/\/newhuagg\/index_/
+/\/newhuagg\/.*3030\.jpg/
+/\/newhuagg\/.*3030\.gif/
+/:\/\/([^\/]+\.)?www\.onlinedown\.net\/newhuagg\/hotthread\.js/
 /:\/\/([^\/]+\.)?download\.cncmax\.js\.cn\/images\/temp\/down-banner.*\.jpg/
 /:\/\/([^\/]+\.)?news\.newhua\.com\/newhuagg\/news_/
 /:\/\/([^\/]+\.)?www\.onlinedown\.net\/newhuagg\/js_/
@@ -2872,6 +2890,7 @@ bannerad
 !----南都网----
 ##top-ad	$d=nandu.oeeee.com
 !----南方周末----
+##DIV[style="height:210px;width:312px;display:block"]	$d=infzm.com
 ##[id^="home_ad_"]	$d=infzm.com
 ##.cover	$d=infzm.com
 ##[id$="adv"]	$d=infzm.com
@@ -3328,6 +3347,9 @@ bannerad
 /szgay\.net\/szgayimages\/fs\.gif/
 !----友人----
 /\.younet\.com\/images\/.*\.swf/
+!----ImageBam----
+##top_banner	$d=imagebam.com
+/:\/\/([^\/]+\.)?feeds\.videosz\.com\/custom\/imagebam\//
 !----志同论坛----
 /:\/\/([^\/]+\.)?www\.ztlt\.org\/.*ztad/
 !----江城足球网----

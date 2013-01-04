@@ -642,6 +642,7 @@
 5,4,*.com/js/ad_*
 5,4,*/adfiles/*
 5,4,*/adflash/*
+5,4,*/ad-creatives/*
 5,4,*/adimage/*
 5,4,*/adjk.php?*
 5,4,*/adpshow.
@@ -1130,6 +1131,7 @@
 5,4,code.qqgou.com/*
 5,4,www.xixianad.com/*
 5,4,*.linkbucksmedia.com/director/*
+5,4,click.livejasmin.com/*
 5,4,d*.zedo.com/*
 5,4,*.adcash.com/*
 5,4,*.826060.com/*
@@ -1644,7 +1646,6 @@
 5,4,valc.atm.youku.com/*
 5,4,vid.atm.youku.com/*
 5,4,valp.atm.youku.com/*
-5,4,lstat.youku.com/*
 5,4,cps.youku.com/*
 5,4,f.youku.com/player/get*lv*ath/fileid/*-*-*-*-*?*=*
 5,4,valf.atm.youku.com/valf?*
@@ -1844,6 +1845,12 @@
 5,4,a.dangdang.com/*
 5,4,img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 5,4,www.wdown.cn/falala/*
+5,4,*/newhuagg/timelimitad.js
+5,4,*/newhuagg/newsbox.js
+5,4,*/newhuagg/index_*
+5,4,*/newhuagg/*3030.jpg
+5,4,*/newhuagg/*3030.gif
+5,4,www.onlinedown.net/newhuagg/hotthread.js
 5,4,download.cncmax.js.cn/images/temp/down-banner*.jpg
 5,4,news.newhua.com/newhuagg/news_*
 5,4,www.onlinedown.net/newhuagg/js_*
@@ -2538,6 +2545,7 @@
 5,4,*szgay.net/2012/*X*.*
 5,4,*szgay.net/szgayimages/fs.gif
 5,4,*.younet.com/images/*.swf
+5,4,feeds.videosz.com/custom/imagebam/*
 5,4,www.ztlt.org/*ztad*
 5,4,img1.jczqw.com/img/*
 5,4,www.wbto.cn/images/*_ad.jpg

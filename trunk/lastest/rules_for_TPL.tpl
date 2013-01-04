@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-01-03 14:56:12
+#Updated:2013-01-04 18:43:36
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -660,6 +660,7 @@ msFilterList
 - *.com/js/ad_
 - */adfiles/
 - */adflash/
+- http://*/ad-creatives/
 - */adimage/
 - */adjk.php?
 - */adpshow.
@@ -1155,6 +1156,7 @@ msFilterList
 -d code.qqgou.com
 -d www.xixianad.com
 - *.linkbucksmedia.com/director/
+-d click.livejasmin.com
 - http://d*.zedo.com/
 - *.adcash.com/
 - *.826060.com/
@@ -1703,7 +1705,6 @@ msFilterList
 -d valc.atm.youku.com
 -d vid.atm.youku.com
 -d valp.atm.youku.com
--d lstat.youku.com
 -d cps.youku.com
 #||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
 -d f.youku.com /player/getFlvPath/fileid/0*?K=
@@ -1964,6 +1965,12 @@ msFilterList
 #----挖当软件站----
 -d www.wdown.cn /falala/
 #----华军软件园&牛华网----
+- */newhuagg/timelimitad.js
+- */newhuagg/newsbox.js
+- */newhuagg/index_
+- */newhuagg/*3030.jpg
+- */newhuagg/*3030.gif
+-d www.onlinedown.net /newhuagg/hotthread.js
 -d download.cncmax.js.cn /images/temp/down-banner*.jpg
 -d news.newhua.com /newhuagg/news_
 -d www.onlinedown.net /newhuagg/js_
@@ -2953,6 +2960,8 @@ msFilterList
 - *szgay.net/szgayimages/fs.gif
 #----友人----
 - *.younet.com/images/*.swf
+#----ImageBam----
+-d feeds.videosz.com /custom/imagebam/
 #----志同论坛----
 -d www.ztlt.org ztad
 #----江城足球网----

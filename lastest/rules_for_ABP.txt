@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-01-04 18:43:36
+!Updated:2013-01-11 21:55:14
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.4
 !Copyright 2011 xcffl, Apache License 2.0
@@ -17,8 +17,10 @@
 ##.advertisementColumnGroup
 ##.sponsor_links
 ##.label-ad
+~3600gz.cn,~it168.com,~wxkds.com##.a_mu
 ~pcper.com##.ad160
 ~blogg.se###ad-top
+###adTop
 ##.ad-column
 ##.ad-area
 ~fastseeksite.com,~njuskalo.hr##.ad_title
@@ -137,7 +139,7 @@
 |*/tanchuang.*
 |*/banner-ad-*
 |*/adv.*
-|http://*/pv.*
+!|http://*/pv.*
 |*/advpic/*
 |*/advertising/*
 |*/images/ad/*
@@ -1162,6 +1164,7 @@
 ||code.comuce.com/bdcode/*
 ||cpv.channelray.com*
 ||dhcode.cn3.cn*
+||union.narrowad.com/*
 ||display.xpresssyndication.com*
 |http://*dotmore.cn*
 |*dw-cn.com.com/*
@@ -1791,11 +1794,17 @@ dodbook.com###AdsE
 97779.com##IMG[height="24"][border="0"]
 ||www.xinray.com/page/?s=*
 !----网易&有道----
+news.163.com##TABLE[align="right"]
+news.163.com##IFRAME[width="960"][height="100"][src^="http://g.163.com/"]
+news.163.com##.ad455
+news.163.com##[id^="adR"]
 news.163.com##.ep-area
 news.163.com##.area.top-gg-area
 www.163.com###g5n1
 163.com##.news_h123.clearfix
 163.com##[class^="gg"]
+news.163.com###adB
+||96.so.163.com:8080/*
 ||img*.cache.netease.com/*/ieupdate/*
 ||top.baidu.com/none/163.html
 ||stat.ws.126.net/*
@@ -2034,7 +2043,7 @@ iqiyi.com##[id^="div_theatre"]
 ||afp.qiyi.com/*
 ||jsmsg.video.qiyi.com/*
 ||msg.video.qiyi.com/adpb.gif?*
-||msg.video.qiyi.com/v*pb.gif?*
+!||msg.video.qiyi.com/v*pb.gif?*
 |*.iqiyi.com/player/cupid/*
 |*.video.qiyi.com/adpolicy*
 ||static.qiyi.com/js/pingback/*
@@ -2120,6 +2129,7 @@ bbs.dengfeng.cn###diy1
 ||www.tv650.com/sq3.gif
 ||www.tv650.com/itv/index.htm
 !----人民网----
+people.com.cn##.top_ad_list
 |*.people.com.cn/mediafile/*.swf
 !----推一把----
 ||bbs.tui18.com/js/bbstop.htm
@@ -2338,7 +2348,8 @@ narutom.com###naruto_desk
 |*.narutom.com/stat.js
 |*.narutom.com/v2/js/198game_Lt.js
 !----精睿----
-||bbs.vc52.cn/data/attachment/forum/2*/*.gif
+bbs.vc52.cn##.a_pt
+!||bbs.vc52.cn/data/attachment/forum/2*/*.gif
 !----卡巴一族----
 ||bbs.kaspersky.com.cn/images/bbs/*
 !----Norm Team----
@@ -2441,6 +2452,8 @@ zol.com.cn##[id^="ad_"]
 @@||www.top100.cn/script/header.js?*
 !----GC1069----
 gc1069.com##EMBED
+bbs.gaytie.info##[class^="ad_"]
+||www.hongkonggay.info/ad/*
 ||graphics.streamray.com/images/cams/flash/cams_live.swf
 !----77119TXT小说----
 |*.77119.com/js/*
@@ -2602,6 +2615,7 @@ news.ifeng.com###smExtObjBg
 ||www.33lc.com/js/softdown.js
 ||www.33lc.com/js/banner-*.js
 ||www.33lc.com/soft/UploadPic/*-*/dnxx_*
+||www.33lc.com/soft/UploadPic/*
 ||www.33lc.com/js/*_*.js
 !----中国时刻网----
 |*.s1979.com/html/ad_js/*
@@ -3246,6 +3260,9 @@ tgbus.com##.ad79
 ||gg.tgbus.com/*
 ||vista.tgbus.com*
 ||g.tgbusdata.cn/*
+!----第四空间软件世界----
+dl.4thzone.com###down_ad
+dl.4thzone.com##DIV[style="margin-top:15px;overflow:hidden"]
 !----鸟瞰小说网----
 ||book.birdsee.com/scripjs/*.js
 !----易盘----
@@ -4265,6 +4282,7 @@ freehao123.com##.gg
 !----爱丽女性网----
 |*chinacom-27.cn/zgw/images/*
 !----风行网----
+||stat.funshion.net/*
 ||static.funshion.com/js/ga.js*
 !----免费主机网----
 |*freezhuji.com/userfiles/host250.jpg
@@ -4527,7 +4545,7 @@ ali213.net##.newright
 ||player.hz.letv.com/hzplayer.swf?*
 ||i3.letvimg.com/gugwl/*.jpg
 ||pro.hoye.letv.com/*
-|*pro.letv.com/*
+!|*pro.letv.com/*
 !----FriendFinder&AsiaFriendFinder----
 ||geobanner.asiafriendfinder.com/go/page/iframe_geobanner_custom?*
 |*.pop6.com/banners/*
@@ -4723,6 +4741,7 @@ ipv6.baidu.com##.EC_ppim2
 ||log.mm.vip.cnz.alimama.com/*
 ||img.alimama.cn/cms/images/*.swf
 ||t.alimama.com/alimama.php?*
+||www.taobao.com/go/rgn/*
 ||cb.alimama.cn/*
 ||p.tanx.com/ex?i=mm_*_*_*
 ||a.alimama.cn/*
@@ -4763,7 +4782,7 @@ www.qidian.com##.RightAD
 qidian.com##[class^="show_ggpic_"]
 www.qidian.com##.DH17
 @@||money.9292wan.com/money/js/money.js
-||dwtracking.sdo.com/*
+!||dwtracking.sdo.com/*
 ||uedas.qdmm.com/*
 ||o.if.qdmm.com/js/o.js
 ||cj.qidian.com/*.swf

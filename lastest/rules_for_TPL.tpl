@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-01-04 18:43:36
+#Updated:2013-01-11 21:55:14
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.4
 #Copyright 2011 xcffl, Apache License 2.0
@@ -25,7 +25,7 @@ msFilterList
 - */tanchuang.
 - */banner-ad-
 - */adv.
-- http://*/pv.
+#|http://*/pv.*
 - */advpic/
 - */advertising/
 - */images/ad/
@@ -1050,6 +1050,7 @@ msFilterList
 -d code.comuce.com /bdcode/
 - http://cpv.channelray.com
 - http://dhcode.cn3.cn
+-d union.narrowad.com
 - http://display.xpresssyndication.com
 - http://*dotmore.cn
 - *dw-cn.com.com/
@@ -1633,6 +1634,7 @@ msFilterList
 #----97779资源网----
 -d www.xinray.com /page/?s=
 #----网易&有道----
+-d 96.so.163.com
 - http://img*.cache.netease.com/*/ieupdate/
 -d top.baidu.com /none/163.html
 -d stat.ws.126.net
@@ -1845,7 +1847,7 @@ msFilterList
 -d afp.qiyi.com
 -d jsmsg.video.qiyi.com
 -d msg.video.qiyi.com /adpb.gif?
--d msg.video.qiyi.com /v*pb.gif?
+#||msg.video.qiyi.com/v*pb.gif?*
 - *.iqiyi.com/player/cupid/
 - *.video.qiyi.com/adpolicy
 -d static.qiyi.com /js/pingback/
@@ -2100,7 +2102,7 @@ msFilterList
 - *.narutom.com/stat.js
 - *.narutom.com/v2/js/198game_Lt.js
 #----精睿----
--d bbs.vc52.cn /data/attachment/forum/2*/*.gif
+#||bbs.vc52.cn/data/attachment/forum/2*/*.gif
 #----卡巴一族----
 -d bbs.kaspersky.com.cn /images/bbs/
 #----Norm Team----
@@ -2184,6 +2186,7 @@ msFilterList
 #----巨鲸音乐在线----
 +d www.top100.cn /script/header.js?
 #----GC1069----
+-d www.hongkonggay.info /ad/
 -d graphics.streamray.com /images/cams/flash/cams_live.swf
 #----77119TXT小说----
 - *.77119.com/js/
@@ -2324,6 +2327,7 @@ msFilterList
 -d www.33lc.com /js/softdown.js
 -d www.33lc.com /js/banner-*.js
 -d www.33lc.com /soft/UploadPic/*-*/dnxx_
+-d www.33lc.com /soft/UploadPic/
 -d www.33lc.com /js/*_*.js
 #----中国时刻网----
 - *.s1979.com/html/ad_js/
@@ -2881,6 +2885,7 @@ msFilterList
 -d gg.tgbus.com
 - http://vista.tgbus.com
 -d g.tgbusdata.cn
+#----第四空间软件世界----
 #----鸟瞰小说网----
 -d book.birdsee.com /scripjs/*.js
 #----易盘----
@@ -3824,6 +3829,7 @@ msFilterList
 #----爱丽女性网----
 - *chinacom-27.cn/zgw/images/
 #----风行网----
+-d stat.funshion.net
 -d static.funshion.com /js/ga.js
 #----免费主机网----
 - *freezhuji.com/userfiles/host250.jpg
@@ -4082,7 +4088,7 @@ msFilterList
 -d player.hz.letv.com /hzplayer.swf?
 -d i3.letvimg.com /gugwl/*.jpg
 -d pro.hoye.letv.com
-- *pro.letv.com/
+#|*pro.letv.com/*
 #----FriendFinder&AsiaFriendFinder----
 -d geobanner.asiafriendfinder.com /go/page/iframe_geobanner_custom?
 - *.pop6.com/banners/
@@ -4249,6 +4255,7 @@ msFilterList
 -d log.mm.vip.cnz.alimama.com
 -d img.alimama.cn /cms/images/*.swf
 -d t.alimama.com /alimama.php?
+-d www.taobao.com /go/rgn/
 -d cb.alimama.cn
 -d p.tanx.com /ex?i=mm_*_*_
 -d a.alimama.cn
@@ -4284,7 +4291,7 @@ msFilterList
 -d c1.neweggimages.com.cn /neweggpic*/Marketing/*/bocapple/
 #----盛大在线&起点中文网----
 +d money.9292wan.com /money/js/money.js
--d dwtracking.sdo.com
+#||dwtracking.sdo.com/*
 -d uedas.qdmm.com
 -d o.if.qdmm.com /js/o.js
 -d cj.qidian.com .swf

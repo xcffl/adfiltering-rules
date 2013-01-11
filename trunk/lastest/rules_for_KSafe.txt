@@ -14,7 +14,6 @@
 5,4,*/tanchuang.*
 5,4,*/banner-ad-*
 5,4,*/adv.*
-5,4,*/pv.*
 5,4,*/advpic/*
 5,4,*/advertising/*
 5,4,*/images/ad/*
@@ -1026,6 +1025,7 @@
 5,4,code.comuce.com/bdcode/*
 5,4,cpv.channelray.com*
 5,4,dhcode.cn3.cn*
+5,4,union.narrowad.com/*
 5,4,display.xpresssyndication.com*
 5,4,*dotmore.cn*
 5,4,*dw-cn.com.com/*
@@ -1579,6 +1579,7 @@
 5,4,links.kugou.com/*
 5,4,sdn.kugou.com/*
 5,4,www.xinray.com/page/?s=*
+5,4,96.so.163.com/*
 5,4,img*.cache.netease.com/*/ieupdate/*
 5,4,top.baidu.com/none/163.html
 5,4,stat.ws.126.net/*
@@ -1757,7 +1758,6 @@
 5,4,afp.qiyi.com/*
 5,4,jsmsg.video.qiyi.com/*
 5,4,msg.video.qiyi.com/adpb.gif?*
-5,4,msg.video.qiyi.com/v*pb.gif?*
 5,4,*.iqiyi.com/player/cupid/*
 5,4,*.video.qiyi.com/adpolicy*
 5,4,static.qiyi.com/js/pingback/*
@@ -1951,7 +1951,6 @@
 5,4,*.narutom.com/js/myl.js
 5,4,*.narutom.com/stat.js
 5,4,*.narutom.com/v2/js/198game_Lt.js
-5,4,bbs.vc52.cn/data/attachment/forum/2*/*.gif
 5,4,bbs.kaspersky.com.cn/images/bbs/*
 5,4,img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 5,4,*normteam.com/usepic/*
@@ -2009,6 +2008,7 @@
 5,4,pic.zol.com.cn/*/*hp*_*_*.swf
 5,4,*pc3w.com/jS/*
 5,4,*.bookcu.com/pop.js
+5,4,www.hongkonggay.info/ad/*
 5,4,graphics.streamray.com/images/cams/flash/cams_live.swf
 5,4,*.77119.com/js/*
 5,4,union.vancl.com/*
@@ -2115,6 +2115,7 @@
 5,4,www.33lc.com/js/softdown.js
 5,4,www.33lc.com/js/banner-*.js
 5,4,www.33lc.com/soft/UploadPic/*-*/dnxx_*
+5,4,www.33lc.com/soft/UploadPic/*
 5,4,www.33lc.com/js/*_*.js
 5,4,*.s1979.com/html/ad_js/*
 5,4,mu.ruoren.com/*
@@ -3115,6 +3116,7 @@
 5,4,*.wz05.com/wp-content/themes/inews-v2/image/ads*x*
 5,4,*.zhujiwu.com/js/*
 5,4,*chinacom-27.cn/zgw/images/*
+5,4,stat.funshion.net/*
 5,4,static.funshion.com/js/ga.js*
 5,4,*freezhuji.com/userfiles/host250.jpg
 5,4,*.desk9.net/baidu120x600.htm
@@ -3268,7 +3270,6 @@
 5,4,player.hz.letv.com/hzplayer.swf?*
 5,4,i3.letvimg.com/gugwl/*.jpg
 5,4,pro.hoye.letv.com/*
-5,4,*pro.letv.com/*
 5,4,geobanner.asiafriendfinder.com/go/page/iframe_geobanner_custom?*
 5,4,*.pop6.com/banners/*
 5,4,img.1ting.com/v5/js/*text.js
@@ -3378,6 +3379,7 @@
 5,4,log.mm.vip.cnz.alimama.com/*
 5,4,img.alimama.cn/cms/images/*.swf
 5,4,t.alimama.com/alimama.php?*
+5,4,www.taobao.com/go/rgn/*
 5,4,cb.alimama.cn/*
 5,4,p.tanx.com/ex?i=mm_*_*_*
 5,4,a.alimama.cn/*
@@ -3405,7 +3407,6 @@
 5,4,pic.xp500.com/img/xitong.gif
 5,4,g.webgame.com.cn/*
 5,4,c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
-5,4,dwtracking.sdo.com/*
 5,4,uedas.qdmm.com/*
 5,4,o.if.qdmm.com/js/o.js
 5,4,cj.qidian.com/*.swf

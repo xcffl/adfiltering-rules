@@ -1,4 +1,3 @@
-stat.zol.com.cn/ol.js
 js.zol.com.cn/p.ht?*
 pic.zol-img.com.cn/*x*.gif
 pic.zol-img.com.cn/*hp*.*
@@ -8,6 +7,7 @@ pic.zol-img.com.cn/*/*_*.*
 pic.zol.com.cn/*/*hp*_*_*.swf
 *pc3w.com/jS/*
 *.bookcu.com/pop.js
+www.hongkonggay.info/ad/*
 graphics.streamray.com/images/cams/flash/cams_live.swf
 *.77119.com/js/*
 union.vancl.com/*
@@ -114,6 +114,7 @@ www.webjx.com/upfiles/*-*.gif
 www.33lc.com/js/softdown.js
 www.33lc.com/js/banner-*.js
 www.33lc.com/soft/UploadPic/*-*/dnxx_*
+www.33lc.com/soft/UploadPic/*
 www.33lc.com/js/*_*.js
 *.s1979.com/html/ad_js/*
 mu.ruoren.com/*
@@ -1114,6 +1115,7 @@ www.freehao123.com/wp-content/uploads/*/uqc.gif
 *.wz05.com/wp-content/themes/inews-v2/image/ads*x*
 *.zhujiwu.com/js/*
 *chinacom-27.cn/zgw/images/*
+stat.funshion.net/*
 static.funshion.com/js/ga.js*
 *freezhuji.com/userfiles/host250.jpg
 *.desk9.net/baidu120x600.htm
@@ -1267,7 +1269,6 @@ js.letvcdn.com/js/*/stats/*
 player.hz.letv.com/hzplayer.swf?*
 i3.letvimg.com/gugwl/*.jpg
 pro.hoye.letv.com/*
-*pro.letv.com/*
 geobanner.asiafriendfinder.com/go/page/iframe_geobanner_custom?*
 *.pop6.com/banners/*
 img.1ting.com/v5/js/*text.js
@@ -1377,6 +1378,7 @@ log.mmstat.com/*
 log.mm.vip.cnz.alimama.com/*
 img.alimama.cn/cms/images/*.swf
 t.alimama.com/alimama.php?*
+www.taobao.com/go/rgn/*
 cb.alimama.cn/*
 p.tanx.com/ex?i=mm_*_*_*
 a.alimama.cn/*
@@ -1404,7 +1406,6 @@ po.im.alisoft.com/*
 pic.xp500.com/img/xitong.gif
 g.webgame.com.cn/*
 c1.neweggimages.com.cn/neweggpic*/Marketing/*/bocapple/*
-dwtracking.sdo.com/*
 uedas.qdmm.com/*
 o.if.qdmm.com/js/o.js
 cj.qidian.com/*.swf

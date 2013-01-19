@@ -249,12 +249,11 @@ prioritize excludelist=1\r\n
 
       if hasUnsupportedOptions:
         # 不包括不支持的选项的过滤器
-        origLine = re.sub(r'^\|\|', '', origLine)
-        origLine = re.sub(r'^\|', '', origLine)
-        origLine = re.sub(r'\$.*$','', origLine)
-        #去掉http://
-        if origLine.startswith('http://'):
-          origLine = origLine[7:] #前面一个数字是上一行字符串的字符数
+                #去掉http://
+        if origLine.startswith('*'):
+          origLine = origLine #前面一个数字是上一行字符串的字符数
+        else:
+          origLine = "http://" + origLine #前面一个数字是上一行字符串的字符数
         result.append('' + origLine)
       else:
         line = line.replace('^', '/*') # 假定分隔符的占位符的意思是斜线
@@ -275,8 +274,10 @@ prioritize excludelist=1\r\n
         # 添加 *.js 到规则以效仿 $script
         if requiresScript:
           line += '*.js'
-        if line.startswith('http://'):
-          line = line[7:] #前面一个数字是上一行字符串的字符数
+        if origLine.startswith('*'):
+          origLine = origLine #前面一个数字是上一行字符串的字符数
+        else:
+          origLine = "http://" + origLine #前面一个数字是上一行字符串的字符数
         if domain:
           line = '%s%s%s' % ('+' if isException else '', domain, line)
           line = re.sub(r'\s+/$', '', line)

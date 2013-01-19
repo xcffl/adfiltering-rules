@@ -1,3 +1,7 @@
+p.zol-img.com.cn/*
+dw.cbsi.com.cn/clear/*c.gif?*
+*.zol.com.cn/js/setcook.js
+stat.zol.com.cn/ol.js
 js.zol.com.cn/p.ht?*
 pic.zol-img.com.cn/*x*.gif
 pic.zol-img.com.cn/*hp*.*
@@ -34,6 +38,8 @@ static.ikafan.com/a/yuekan.js
 *.kafan.cn/static/kafan_bd/*
 static.ikafan.com/kafan_bd/*
 static.ikafan.com/kafan_img/*
+js.92to.com/92to/m*.js
+js.92to.com/baidu.js
 www.rayli.com.cn/newdcy/*fushijs/yhjads*.js
 818.17173.com/js/818ad01.js
 images.17173.com/*/www/*/*/*-*-*.swf
@@ -124,6 +130,7 @@ static.zongheng.com/v2012/cooperate/index_r_b.js
 static.zongheng.com/v2012/js/adClickStat.js
 static.zongheng.com/upload/ad/*
 book.zongheng.com/inc/add/zhad.html
+cximg.gome.com.cn/ADImge/*
 www.tietai.com/file/upload/*/*/*-*-*-*-*.jpg
 *.orsoon.com/orsoon/img/zz*.gif
 */orsoon/img/ad*.gif

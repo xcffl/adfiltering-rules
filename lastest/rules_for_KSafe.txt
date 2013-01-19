@@ -275,6 +275,7 @@
 5,4,*.ad*js.php*
 5,4,un*js.php*
 5,4,*ad*/.swf*
+5,4,*/common/ad/*
 5,4,*js_ad_*.js
 5,4,*/adclick.js
 5,4,*jshow.swf*
@@ -1816,6 +1817,8 @@
 5,4,*.fdc.com.cn/cms/js/home_js/Bg_NewAdv.js
 5,4,img3.fdc.com.cn/shows/*
 5,4,img3.fdc.com.cn/cms/js/home_js/banner*.js
+5,4,www.23hh.com/scripts/91hui*.js
+5,4,www.23hh.com/scripts/ad*.js
 5,4,www.tv650.com/sq3.gif
 5,4,www.tv650.com/itv/index.htm
 5,4,*.people.com.cn/mediafile/*.swf
@@ -3229,6 +3232,8 @@
 5,4,www.weste.net/js/zhitan-*.js
 5,4,www.weste.net/js/showpagead.js
 5,4,*weste.net/js_v2009/ggao*
+5,4,smjs.allyes.com/*
+5,4,aoodoo.weiphone.com/*
 5,4,*weiphone.com/baidu.html?id=*
 5,4,club.tgfcer.com/images/g*
 5,4,www.qjwm.com/qjwmtop.js

@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2013-01-19 15:29:42
+!Updated:2013-01-19 21:23:33
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -409,6 +409,7 @@ bannerad
 /^http:\/\/.*\.ad.*js\.php/
 /^http:\/\/un.*js\.php/
 /^http:\/\/.*ad.*\/\.swf/
+/\/common\/ad\//
 /^http:\/\/.*js_ad_.*\.js/
 /\/adclick\.js/
 /^http:\/\/.*jshow\.swf/
@@ -2133,6 +2134,9 @@ bannerad
 /:\/\/([^\/]+\.)?img3\.fdc\.com\.cn\/cms\/js\/home_js\/banner.*\.js/
 !----登封网&登封论坛----
 ##diy1	$d=bbs.dengfeng.cn
+!----爱尚文学网----
+/:\/\/([^\/]+\.)?www\.23hh\.com\/scripts\/91hui.*\.js/
+/:\/\/([^\/]+\.)?www\.23hh\.com\/scripts\/ad.*\.js/
 !----TV650----
 /:\/\/([^\/]+\.)?www\.tv650\.com\/sq3\.gif/
 /:\/\/([^\/]+\.)?www\.tv650\.com\/itv\/index\.htm/
@@ -4490,7 +4494,14 @@ bannerad
 /:\/\/([^\/]+\.)?www\.weste\.net\/js\/showpagead\.js/
 /weste\.net\/js_v2009\/ggao/
 !----威锋网----
+##.b_adlink	$d=weiphone.com
+##.brand	$d=weiphone.com
+##[class^="wea_d_"]	$d=weiphone.com
+/:\/\/([^\/]+\.)?smjs\.allyes\.com\//
+/:\/\/([^\/]+\.)?aoodoo\.weiphone\.com\//
 /weiphone\.com\/baidu\.html\?id=/
+!----威智网----
+##[class^="wea_d_"]	$d=wper.com
 !----TGFC俱乐部----
 /:\/\/([^\/]+\.)?club\.tgfcer\.com\/images\/g/
 !----千军万马网络硬盘----

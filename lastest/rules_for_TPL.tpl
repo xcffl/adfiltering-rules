@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-01-19 15:29:42
+#Updated:2013-01-19 21:23:33
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.5
 #Copyright 2011 xcffl, Apache License 2.0
@@ -291,6 +291,7 @@ msFilterList
 - http://*.ad*js.php
 - http://un*js.php
 - http://*ad*/.swf
+- */common/ad/
 - http://*js_ad_*.js
 - */adclick.js
 - http://*jshow.swf
@@ -1921,6 +1922,9 @@ msFilterList
 -d img3.fdc.com.cn /shows/
 -d img3.fdc.com.cn /cms/js/home_js/banner*.js
 #----登封网&登封论坛----
+#----爱尚文学网----
+-d www.23hh.com /scripts/91hui*.js
+-d www.23hh.com /scripts/ad*.js
 #----TV650----
 -d www.tv650.com /sq3.gif
 -d www.tv650.com /itv/index.htm
@@ -4017,7 +4021,10 @@ msFilterList
 -d www.weste.net /js/showpagead.js
 - *weste.net/js_v2009/ggao
 #----威锋网----
+-d smjs.allyes.com
+-d aoodoo.weiphone.com
 - *weiphone.com/baidu.html?id=
+#----威智网----
 #----TGFC俱乐部----
 -d club.tgfcer.com /images/g
 #----千军万马网络硬盘----

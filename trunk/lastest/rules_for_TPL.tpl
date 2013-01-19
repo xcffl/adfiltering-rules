@@ -1,9 +1,9 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-01-11 21:55:14
+#Updated:2013-01-19 15:29:42
 #Description:一个通用、全面的广告过滤规则
-#版本_5.1.4
+#版本_5.1.5
 #Copyright 2011 xcffl, Apache License 2.0
 : Expires=7
 #-------------通用规则-------------
@@ -936,6 +936,7 @@ msFilterList
 - *.chitika.com/
 - http://*.clickeye*.cn/
 - *.cnxad.com/
+- *.77u.com/page/
 -d media.ze5.com
 - *.counter.dudu.com/
 -d u.3393.com
@@ -1342,7 +1343,7 @@ msFilterList
 - *.cpm9v.cn/
 - *.heima8.com/
 - *.ad-plus.cn/
--d secure-cn.imrworldwide.com
+- http://secure-*.imrworldwide.com/
 -d a12.alphagodaddy.com /?
 - *axill.com/banners/
 - *.afdads.com/
@@ -1484,6 +1485,7 @@ msFilterList
 -d un.so.gougou.com
 - *mcfg.sandai.net/
 #----主机码----
+-d www.zhujima.com /t/
 -d www.zhujima.com /tupian*/
 -d www.zhujima.com /tu/*u*.jpg
 -d www.zhujima.com /tu/*g*.png
@@ -1708,8 +1710,9 @@ msFilterList
 -d vid.atm.youku.com
 -d valp.atm.youku.com
 -d cps.youku.com
+- *.atm.youku.com/val*ct=*&cs=
 #||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
--d f.youku.com /player/getFlvPath/fileid/0*?K=
+#||f.youku.com/player/getFlvPath/fileid/0*?K=*
 #||valf.atm.youku.com/valf?*
 #||val*.atm.youku.com/*
 #||h.irs01.com/*
@@ -1833,6 +1836,7 @@ msFilterList
 -d 11.mydrivers.com /myfiles/myfiles100*.js
 - *images.mydrivers.com/*/*x*.gif
 #----爱奇艺----
+- *.iqiyi.com/player/ed979320c2a511ea207040ae9524c90dbb99c484be3.swf
 -d 202.108.14.72 /ts.swf
 -d 220.181.109.181 /tracker?
 -d 123.125.118.75
@@ -1846,7 +1850,7 @@ msFilterList
 -d track.cupid.qiyi.com
 -d afp.qiyi.com
 -d jsmsg.video.qiyi.com
--d msg.video.qiyi.com /adpb.gif?
+-d msg.video.qiyi.com .gif?
 #||msg.video.qiyi.com/v*pb.gif?*
 - *.iqiyi.com/player/cupid/
 - *.video.qiyi.com/adpolicy
@@ -1854,7 +1858,7 @@ msFilterList
 -d policy.cupid.qiyi.com
 -d uestat.video.qiyi.com
 -d data.video.qiyi.com /videos/other/*.f4v
-- *.iqiyi.com/player/*/theatre*.swf
+- *.qiyipic.com/common/*.jpg
 #----adf.ly----
 -d cdn.adf.ly /js/*.js
 #----乐清上班族网----
@@ -1933,6 +1937,7 @@ msFilterList
 #----快车----
 -d ufile.kuaiche.com
 - *client.kuaiche.com
+#----YESURE技术博客----
 #----123读----
 -d www.123du.net /dudu*-*/*.html*width=
 -d www.123du.net /SiteFiles/GG*.html?
@@ -2147,6 +2152,7 @@ msFilterList
 -d js.fengwu.net /baidu/
 #----酷6----
 +d my.ku6.com /resource/images/feed_ad1.jpg
+-d dwtracking.sdo.com /ku6.gif?
 - http://log*.ku6.com/
 -d www.ku6.com /c*/*/s*/index.shtml
 - *.stat.ku6.com/*.xml
@@ -2227,6 +2233,9 @@ msFilterList
 - *.kafan.cn/static/kafan_bd/
 -d static.ikafan.com /kafan_bd/
 -d static.ikafan.com /kafan_img/
+#----就爱读书----
+-d js.92to.com /92to/m*.js
+-d js.92to.com /baidu.js
 #----瑞丽网----
 -d www.rayli.com.cn /newdcy/*fushijs/yhjads*.js
 #----17173----
@@ -2342,6 +2351,8 @@ msFilterList
 -d static.zongheng.com /v2012/js/adClickStat.js
 -d static.zongheng.com /upload/ad/
 -d book.zongheng.com /inc/add/zhad.html
+#----国美在线----
+-d cximg.gome.com.cn /ADImge/
 #----铁泰参考----
 -d www.tietai.com /file/upload/*/*/*-*-*-*-*.jpg
 #----未来软件园----

@@ -911,6 +911,7 @@
 5,4,*.chitika.com/*
 5,4,*.clickeye*.cn/*
 5,4,*.cnxad.com/*
+5,4,*.77u.com/page/*
 5,4,media.ze5.com/*
 5,4,*.counter.dudu.com/*
 5,4,u.3393.com/*
@@ -1311,7 +1312,7 @@
 5,4,*.cpm9v.cn/*
 5,4,*.heima8.com/*
 5,4,*.ad-plus.cn/*
-5,4,secure-cn.imrworldwide.com/*
+5,4,secure-*.imrworldwide.com/*
 5,4,a12.alphagodaddy.com/?*
 5,4,*axill.com/banners/*
 5,4,*.afdads.com/*
@@ -1439,6 +1440,7 @@
 5,4,click.cm.sandai.net/*
 5,4,un.so.gougou.com/*
 5,4,*mcfg.sandai.net/*
+5,4,www.zhujima.com/t/*
 5,4,www.zhujima.com/tupian*/*
 5,4,www.zhujima.com/tu/*u*.jpg
 5,4,www.zhujima.com/tu/*g*.png
@@ -1648,7 +1650,7 @@
 5,4,vid.atm.youku.com/*
 5,4,valp.atm.youku.com/*
 5,4,cps.youku.com/*
-5,4,f.youku.com/player/get*lv*ath/fileid/*-*-*-*-*?*=*
+5,4,*.atm.youku.com/val*ct=*&cs=*
 5,4,valf.atm.youku.com/valf?*
 5,4,static.youku.com/*/index/js/cps.js
 5,4,static.youku.com/*/index/js/hz*lick.js
@@ -1744,6 +1746,7 @@
 5,4,11.mydrivers.com/myfiles/04.js
 5,4,11.mydrivers.com/myfiles/myfiles100*.js
 5,4,*images.mydrivers.com/*/*x*.gif
+5,4,*.iqiyi.com/player/ed979320c2a511ea207040ae9524c90dbb99c484be3.swf
 5,4,202.108.14.72/ts.swf
 5,4,220.181.109.181/tracker?*
 5,4,123.125.118.75/*
@@ -1757,14 +1760,14 @@
 5,4,track.cupid.qiyi.com/*
 5,4,afp.qiyi.com/*
 5,4,jsmsg.video.qiyi.com/*
-5,4,msg.video.qiyi.com/adpb.gif?*
+5,4,msg.video.qiyi.com/*.gif?*
 5,4,*.iqiyi.com/player/cupid/*
 5,4,*.video.qiyi.com/adpolicy*
 5,4,static.qiyi.com/js/pingback/*
 5,4,policy.cupid.qiyi.com/*
 5,4,uestat.video.qiyi.com/*
 5,4,data.video.qiyi.com/videos/other/*.f4v*
-5,4,*.iqiyi.com/player/*/theatre*.swf
+5,4,*.qiyipic.com/common/*.jpg
 5,4,cdn.adf.ly/js/*.js
 5,4,www.5iyq.com/skin/default/js/topad*.js
 5,4,img.5iyq.com/wlj/index/a2-*.*
@@ -1977,6 +1980,7 @@
 5,4,*.xmnn.cn/images/*
 5,4,news.xmnn.cn/xwgg/nydb/*
 5,4,js.fengwu.net/baidu/*
+5,4,dwtracking.sdo.com/ku6.gif?*
 5,4,log*.ku6.com/*
 5,4,www.ku6.com/c*/*/s*/index.shtml
 5,4,*.stat.ku6.com/*.xml
@@ -2035,6 +2039,8 @@
 5,4,*.kafan.cn/static/kafan_bd/*
 5,4,static.ikafan.com/kafan_bd/*
 5,4,static.ikafan.com/kafan_img/*
+5,4,js.92to.com/92to/m*.js
+5,4,js.92to.com/baidu.js
 5,4,www.rayli.com.cn/newdcy/*fushijs/yhjads*.js
 5,4,818.17173.com/js/818ad01.js
 5,4,images.17173.com/*/www/*/*/*-*-*.swf
@@ -2125,6 +2131,7 @@
 5,4,static.zongheng.com/v2012/js/adClickStat.js
 5,4,static.zongheng.com/upload/ad/*
 5,4,book.zongheng.com/inc/add/zhad.html
+5,4,cximg.gome.com.cn/ADImge/*
 5,4,www.tietai.com/file/upload/*/*/*-*-*-*-*.jpg
 5,4,*.orsoon.com/orsoon/img/zz*.gif
 5,4,*/orsoon/img/ad*.gif

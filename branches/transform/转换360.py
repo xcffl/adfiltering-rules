@@ -267,7 +267,12 @@ def writeRule(filePath, lines):
           result.append('!' + origLine)
         else:
           result.append('http://' + line)
-  conditionalWrite(filePath, '\n'.join(result) + '\n')
+  endresult = []
+  for line in result:
+    if re.search(r'^http://((([^\/]*\.){2,})|([^\/*]))[^\*/]*\/.*$', line):
+      endresult.append(line)
+    
+  conditionalWrite(filePath, '\n'.join(endresult) + '\n')
 
 def usage():
   print '''Usage: %s [source_dir] [output_dir]

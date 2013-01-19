@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-01-19 21:23:33
+#Updated:2013-01-19 21:59:00
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.5
 #Copyright 2011 xcffl, Apache License 2.0
@@ -145,7 +145,7 @@ msFilterList
 - */svnad/
 - *.adpolestar.
 - */adphoto/
-# @@|*/publiclink.*
+# @@*/publiclink.*
 - http://*clink.
 - http://*.ad.*.js
 - *.ad1.
@@ -2103,7 +2103,7 @@ msFilterList
 #----虎扑----
 - *.hupu.com/d/file/*.swf
 #----火影忍者中文网----
-# @@|*.zerodm.cn/js/ads/zxdmxz.js
+# @@*.zerodm.cn/js/ads/zxdmxz.js
 +d www.narutom.com /d/js/acmsd/
 - *.narutom.com/js/jsg2.js
 - *.narutom.com/js/comicjs.js
@@ -2944,7 +2944,7 @@ msFilterList
 -d a.wm090.com /jbl/0421/jbl.swf
 -d a.cs090.com
 #----天使动漫论坛----
-# @@|*.tsdm.net/music/ad.js
+# @@*.tsdm.net/music/ad.js
 #----中国无线论坛----
 - *wlanbbs.com/images/shangjiaad/
 #----友荐----

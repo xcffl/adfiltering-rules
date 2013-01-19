@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:adfiltering-rules
 !Author:xcffl
-!Updated:2013-01-19 21:23:33
+!Updated:2013-01-19 21:59:00
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -822,7 +822,7 @@ bannerad
 /\/js\/showads_.*\.js/
 /\/upload\/images\/ad_.*x.*_.*\.gif/
 /\/site\/images\/zol\.gif/
-/.*\/textad\./
+/\/textad\./
 /\/site\/images\/xiangmu2\.jpg/
 /\/ad04\.htm/
 /\/img\/500\.gif/

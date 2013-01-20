@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-01-20 11:54:18
+#Updated:2013-01-20 19:55:33
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.5
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1675,6 +1675,10 @@ msFilterList
 - */cv/pl?*&file=*f4v
 - */pos?f=f4v
 -d td.atm.youku.com /tdap/adclose
+- */youku/*.flv
+-d 127.0.0.1 /crossdomain.xml
+-d static.atm.youku.com /Tudou201*.swf
+-d td.atm.youku.com /tdcm/adcontrol
 -d static.atm.youku.com udou2012/*.jpg
 -d static.atm.youku.com udou2012/*.swf
 - http://*/adplay
@@ -1709,6 +1713,7 @@ msFilterList
 -d vhtml.atm.youku.com
 -d valc.atm.youku.com
 -d vid.atm.youku.com
+- *lstat.youku.com/
 -d valp.atm.youku.com
 -d cps.youku.com
 - *.atm.youku.com/val*ct=*&cs=
@@ -1850,16 +1855,17 @@ msFilterList
 -d api.cupid.qiyi.com
 -d track.cupid.qiyi.com
 -d afp.qiyi.com
+-d www.iqiyi.com /player/*/theatre*.swf
 -d jsmsg.video.qiyi.com
 -d msg.video.qiyi.com .gif?
 #||msg.video.qiyi.com/v*pb.gif?*
-- *.iqiyi.com/player/cupid/
+-d api.cupid.qiyi.com /api
+- *.iqiyi.com/player/cupid/*/pageer.swf
 - *.video.qiyi.com/adpolicy
 -d static.qiyi.com /js/pingback/
 -d policy.cupid.qiyi.com
 -d uestat.video.qiyi.com
 -d data.video.qiyi.com /videos/other/*.f4v
-- *.qiyipic.com/common/*.jpg
 #----adf.ly----
 -d cdn.adf.ly /js/*.js
 #----乐清上班族网----

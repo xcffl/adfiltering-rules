@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-01-19 21:59:00
+!Updated:2013-01-20 11:54:18
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.5
 !Copyright 2011 xcffl, Apache License 2.0
@@ -1798,6 +1798,8 @@ dodbook.com###AdsE
 97779.com##IMG[height="24"][border="0"]
 ||www.xinray.com/page/?s=*
 !----网易&有道----
+163.com##.ad-main-con
+163.com##.ad
 news.163.com##TABLE[align="right"]
 news.163.com##IFRAME[width="960"][height="100"][src^="http://g.163.com/"]
 news.163.com##.ad455
@@ -1814,7 +1816,7 @@ news.163.com###adB
 ||stat.ws.126.net/*
 ||adgeo.163.com/*
 ||163.wrating.com/*
-*.163.com/special/*/*_*.html
+!*.163.com/special/*/*_*.html
 !|*.163.com/special/*_*.xml
 ||img1.126.net/*
 ||img2.126.net/*
@@ -3536,6 +3538,7 @@ u17.com##.sidepic_40
 ||image.mylife.cdn.u17.com/*/*/*/*_*.gif
 ||static.cdn.u17.com/v2/www/images/comic_info/top_ad_bg*.gif
 !----红旅动漫----
+hltm.cc##[class^="ad"]
 ||www.hltm.net/4.15/*.js
 ||www.hltm.net/ad*.gif
 !----XP下载部落----

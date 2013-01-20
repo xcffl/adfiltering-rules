@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-01-19 21:59:00
+#Updated:2013-01-20 11:54:18
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.5
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1643,7 +1643,7 @@ msFilterList
 -d stat.ws.126.net
 -d adgeo.163.com
 -d 163.wrating.com
-- *.163.com/special/*/*_*.html
+#*.163.com/special/*/*_*.html
 #|*.163.com/special/*_*.xml
 -d img1.126.net
 -d img2.126.net

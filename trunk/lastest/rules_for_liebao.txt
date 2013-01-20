@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
-!Title:adfiltering-rules
+!Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-01-19 21:59:00
+!Updated:2013-01-20 11:54:18
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -1801,6 +1801,8 @@ bannerad
 ##IMG[height="24"][border="0"]	$d=97779.com
 /:\/\/([^\/]+\.)?www\.xinray\.com\/page\/\?s=/
 !----网易&有道----
+##.ad-main-con	$d=163.com
+##.ad	$d=163.com
 ##TABLE[align="right"]	$d=news.163.com
 ##IFRAME[width="960"][height="100"][src^="http://g.163.com/"]	$d=news.163.com
 ##.ad455	$d=news.163.com
@@ -1817,7 +1819,7 @@ bannerad
 /:\/\/([^\/]+\.)?stat\.ws\.126\.net\//
 /:\/\/([^\/]+\.)?adgeo\.163\.com\//
 /:\/\/([^\/]+\.)?163\.wrating\.com\//
-/\.163\.com\/special\/.*\/.*_.*\.html/
+!*.163.com/special/*/*_*.html
 !|*.163.com/special/*_*.xml
 /:\/\/([^\/]+\.)?img1\.126\.net\//
 /:\/\/([^\/]+\.)?img2\.126\.net\//
@@ -3548,6 +3550,7 @@ bannerad
 /:\/\/([^\/]+\.)?image\.mylife\.cdn\.u17\.com\/.*\/.*\/.*\/.*_.*\.gif/
 /:\/\/([^\/]+\.)?static\.cdn\.u17\.com\/v2\/www\/images\/comic_info\/top_ad_bg.*\.gif/
 !----红旅动漫----
+##[class^="ad"]	$d=hltm.cc
 /:\/\/([^\/]+\.)?www\.hltm\.net\/4\.15\/.*\.js/
 /:\/\/([^\/]+\.)?www\.hltm\.net\/ad.*\.gif/
 !----XP下载部落----

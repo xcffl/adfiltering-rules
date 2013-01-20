@@ -1588,7 +1588,6 @@
 5,4,stat.ws.126.net/*
 5,4,adgeo.163.com/*
 5,4,163.wrating.com/*
-5,4,*.163.com/special/*/*_*.html
 5,4,img1.126.net/*
 5,4,img2.126.net/*
 5,4,flv.bn.netease.com/*

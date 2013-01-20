@@ -7952,11 +7952,6 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
-<path>*.163.com/special/*/*_*.html</path>
-<object>*</object>
-</analyzer>
-<analyzer>
-<type>Http</type>
 <path>img1.126.net/*</path>
 <object>*</object>
 </analyzer>

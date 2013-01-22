@@ -1617,7 +1617,6 @@ impservice*.youdao.com/*
 */cv/pl?*&file=*f4v*
 */pos?f=f4v*
 td.atm.youku.com/tdap/adclose
-*/youku/*.flv
 127.0.0.1/crossdomain.xml
 static.atm.youku.com/Tudou201*.swf
 td.atm.youku.com/tdcm/adcontrol

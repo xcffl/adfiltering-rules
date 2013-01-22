@@ -1617,7 +1617,6 @@ impservice*.youdao.com/*
 */cv/pl?*&file=*f4v*
 */pos?f=f4v*
 td.atm.youku.com/tdap/adclose
-*/youku/*.flv
 127.0.0.1/crossdomain.xml
 static.atm.youku.com/Tudou201*.swf
 td.atm.youku.com/tdcm/adcontrol
@@ -1997,4 +1996,5 @@ gug.ku6cdn.com/*
 i3.ku6img.com/cms/index/*/*/ad*.png
 image.ku6.com/*/g/*
 css.ku6cdn.com/podcast/img/bg_ad.gif
+st.vq.ku6.cn/*
 

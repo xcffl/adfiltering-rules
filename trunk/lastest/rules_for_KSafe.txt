@@ -1617,6 +1617,9 @@
 5,4,*/cv/pl?*&file=*f4v*
 5,4,*/pos?f=f4v*
 5,4,td.atm.youku.com/tdap/adclose
+5,4,127.0.0.1/crossdomain.xml
+5,4,static.atm.youku.com/Tudou201*.swf
+5,4,td.atm.youku.com/tdcm/adcontrol
 5,4,static.atm.youku.com/*udou2012/*.jpg
 5,4,static.atm.youku.com/*udou2012/*.swf*
 5,4,*/adplay*
@@ -1648,6 +1651,7 @@
 5,4,vhtml.atm.youku.com/*
 5,4,valc.atm.youku.com/*
 5,4,vid.atm.youku.com/*
+5,4,*lstat.youku.com/*
 5,4,valp.atm.youku.com/*
 5,4,cps.youku.com/*
 5,4,*.atm.youku.com/val*ct=*&cs=*
@@ -1758,15 +1762,16 @@
 5,4,api.cupid.qiyi.com/*
 5,4,track.cupid.qiyi.com/*
 5,4,afp.qiyi.com/*
+5,4,www.iqiyi.com/player/*/theatre*.swf
 5,4,jsmsg.video.qiyi.com/*
 5,4,msg.video.qiyi.com/*.gif?*
-5,4,*.iqiyi.com/player/cupid/*
+5,4,api.cupid.qiyi.com/api*
+5,4,*.iqiyi.com/player/cupid/*/pageer.swf*
 5,4,*.video.qiyi.com/adpolicy*
 5,4,static.qiyi.com/js/pingback/*
 5,4,policy.cupid.qiyi.com/*
 5,4,uestat.video.qiyi.com/*
 5,4,data.video.qiyi.com/videos/other/*.f4v*
-5,4,*.qiyipic.com/common/*.jpg
 5,4,cdn.adf.ly/js/*.js
 5,4,www.5iyq.com/skin/default/js/topad*.js
 5,4,img.5iyq.com/wlj/index/a2-*.*

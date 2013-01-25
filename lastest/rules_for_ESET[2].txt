@@ -1,3 +1,5 @@
+st.vq.ku6.cn/*
+image.ku6.com/image/*
 css.ku6cdn.com/ent/*/fri.*x*-*.jpg
 css.ku6cdn.com/www/*/*x*.gif
 image.ku6.com/*888*/*

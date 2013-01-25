@@ -1853,7 +1853,8 @@ player.pplive.cn/*/*ive*lugin.swf*
 *.synacast.com/*
 *pp2.pptv.com/*
 union.dangdang.com/*
-a.dangdang.com/*
+a.dangdang.com/smart.js*
+click.dangdang.com/page_tracker.aspx?*
 img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 www.wdown.cn/falala/*
 */newhuagg/timelimitad.js
@@ -1996,5 +1997,4 @@ ku6afp.allyes.com/*
 *stat.ku6.com/*.do?*
 gug.ku6cdn.com/*
 i3.ku6img.com/cms/index/*/*/ad*.png
-image.ku6.com/*/g/*
 

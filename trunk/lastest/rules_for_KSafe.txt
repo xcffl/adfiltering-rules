@@ -1853,7 +1853,8 @@
 5,4,*.synacast.com/*
 5,4,*pp2.pptv.com/*
 5,4,union.dangdang.com/*
-5,4,a.dangdang.com/*
+5,4,a.dangdang.com/smart.js*
+5,4,click.dangdang.com/page_tracker.aspx?*
 5,4,img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 5,4,www.wdown.cn/falala/*
 5,4,*/newhuagg/timelimitad.js
@@ -3060,6 +3061,7 @@
 5,4,*.cankaoa.com/new/*.js
 5,4,*tongji.net*/sp/*
 5,4,*lvye.cn/images/pu/*
+5,4,www.pc6.com/js/html/*
 5,4,www.pc6.com/js/un/*
 5,4,*qiushibaike.com/ac/*
 5,4,video.udn.com/udnad/videoad.php/*

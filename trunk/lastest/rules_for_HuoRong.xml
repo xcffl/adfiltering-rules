@@ -9273,7 +9273,12 @@ f.youku.com/player/getFlvPath/fileid/0*?K=*
 </analyzer>
 <analyzer>
 <type>Http</type>
-<path>a.dangdang.com/*</path>
+<path>a.dangdang.com/smart.js*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
+<path>click.dangdang.com/page_tracker.aspx?*</path>
 <object>*</object>
 </analyzer>
 <analyzer>
@@ -15300,6 +15305,11 @@ www.china-id.com.cn/Images/index_top.gif
 <analyzer>
 <type>Http</type>
 <path>*lvye.cn/images/pu/*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
+<path>www.pc6.com/js/html/*</path>
 <object>*</object>
 </analyzer>
 <analyzer>

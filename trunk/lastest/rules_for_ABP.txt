@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-01-22 21:17:30
+!Updated:2013-01-25 19:52:37
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.5
 !Copyright 2011 xcffl, Apache License 2.0
@@ -1464,6 +1464,7 @@
 *axill.com/banners/*
 *.afdads.com/*
 ||view.atdmt.com/ZH1/iview/*
+*.1688988.com/*
 *.17g.net/
 *cnwebmasters.com/disad/userimages/*
 ||static.acs86.com/player/RollPlayer.swf?*
@@ -1851,6 +1852,7 @@ tudou.com###adex_board
 */cv/pl?*&file=*f4v*
 */pos?f=f4v*
 ||td.atm.youku.com/tdap/adclose
+||f.youku.com/player/getFlvPath/fileid/0*?K=*$domain=tudou.com
 !*/youku/*.flv
 ||127.0.0.1:9701/crossdomain.xml
 ||static.atm.youku.com/Tudou201*.swf
@@ -1890,8 +1892,9 @@ youku.com##.AB240
 !||static.atm.youku.com/*ouku2012/*.swf*
 ||static.atm.youku.com/*ouku2012/*.gif*
 ||static.atm.youku.com/*ouku2012/*.jpg*
+||static.atm.youku.com/crossdomain.xml
 ||html.atm.youku.com/*
-||vhtml.atm.youku.com/*
+!||vhtml.atm.youku.com/*
 ||valc.atm.youku.com/*
 ||vid.atm.youku.com/*
 *lstat.youku.com/*
@@ -2787,6 +2790,7 @@ simplecd.me##HR
 !----逐浪都市频道----
 ||css.zhulang.net/js/header.js
 !----永硕E盘----
+ys168.com###idzdy1
 ||zy.ys168.com/adtp/*
 ||www.ys168.com/images/*_*.*
 */ys168/*

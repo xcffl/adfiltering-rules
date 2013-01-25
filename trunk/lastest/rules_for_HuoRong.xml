@@ -6602,6 +6602,11 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>*.1688988.com/*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path>*.17g.net/</path>
 <object>*</object>
 </analyzer>
@@ -8095,6 +8100,7 @@
 <path>td.atm.youku.com/tdap/adclose</path>
 <object>*</object>
 </analyzer>
+f.youku.com/player/getFlvPath/fileid/0*?K=*
 <analyzer>
 <type>Http</type>
 <path>127.0.0.1/crossdomain.xml</path>
@@ -8247,12 +8253,12 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
-<path>html.atm.youku.com/*</path>
+<path>static.atm.youku.com/crossdomain.xml</path>
 <object>*</object>
 </analyzer>
 <analyzer>
 <type>Http</type>
-<path>vhtml.atm.youku.com/*</path>
+<path>html.atm.youku.com/*</path>
 <object>*</object>
 </analyzer>
 <analyzer>

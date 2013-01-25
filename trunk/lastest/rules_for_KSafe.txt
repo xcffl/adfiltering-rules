@@ -1318,6 +1318,7 @@
 5,4,*axill.com/banners/*
 5,4,*.afdads.com/*
 5,4,view.atdmt.com/ZH1/iview/*
+5,4,*.1688988.com/*
 5,4,*.17g.net/
 5,4,*cnwebmasters.com/disad/userimages/*
 5,4,static.acs86.com/player/RollPlayer.swf?*
@@ -1617,6 +1618,7 @@
 5,4,*/cv/pl?*&file=*f4v*
 5,4,*/pos?f=f4v*
 5,4,td.atm.youku.com/tdap/adclose
+5,4,f.youku.com/player/getFlvPath/fileid/0*?K=*
 5,4,127.0.0.1/crossdomain.xml
 5,4,static.atm.youku.com/Tudou201*.swf
 5,4,td.atm.youku.com/tdcm/adcontrol
@@ -1647,8 +1649,8 @@
 5,4,static.atm.youku.com/*taobao*.swf*
 5,4,static.atm.youku.com/*ouku2012/*.gif*
 5,4,static.atm.youku.com/*ouku2012/*.jpg*
+5,4,static.atm.youku.com/crossdomain.xml
 5,4,html.atm.youku.com/*
-5,4,vhtml.atm.youku.com/*
 5,4,valc.atm.youku.com/*
 5,4,vid.atm.youku.com/*
 5,4,*lstat.youku.com/*

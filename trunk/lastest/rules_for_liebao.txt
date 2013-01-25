@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-01-22 21:17:30
+!Updated:2013-01-25 19:52:37
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -1467,6 +1467,7 @@ bannerad
 /axill\.com\/banners\//
 /\.afdads\.com\//
 /:\/\/([^\/]+\.)?view\.atdmt\.com\/ZH1\/iview\//
+/\.1688988\.com\//
 /\.17g\.net\//
 /cnwebmasters\.com\/disad\/userimages\//
 /:\/\/([^\/]+\.)?static\.acs86\.com\/player\/RollPlayer\.swf\?/
@@ -1854,6 +1855,7 @@ bannerad
 /\/cv\/pl\?.*&file=.*f4v/
 /\/pos\?f=f4v/
 /:\/\/([^\/]+\.)?td\.atm\.youku\.com\/tdap\/adclose/
+/:\/\/([^\/]+\.)?f\.youku\.com\/player\/getFlvPath\/fileid\/0.*\?K=.*/	$d=tudou.com,$w
 !*/youku/*.flv
 /:\/\/([^\/]+\.)?127\.0\.0\.1\/crossdomain\.xml/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/Tudou201.*\.swf/
@@ -1893,8 +1895,9 @@ bannerad
 !||static.atm.youku.com/*ouku2012/*.swf*
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*ouku2012\/.*\.gif/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*ouku2012\/.*\.jpg/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/crossdomain\.xml/
 /:\/\/([^\/]+\.)?html\.atm\.youku\.com\//
-/:\/\/([^\/]+\.)?vhtml\.atm\.youku\.com\//
+!||vhtml.atm.youku.com/*
 /:\/\/([^\/]+\.)?valc\.atm\.youku\.com\//
 /:\/\/([^\/]+\.)?vid\.atm\.youku\.com\//
 /lstat\.youku\.com\//
@@ -2795,6 +2798,7 @@ bannerad
 !----逐浪都市频道----
 /:\/\/([^\/]+\.)?css\.zhulang\.net\/js\/header\.js/
 !----永硕E盘----
+##idzdy1	$d=ys168.com
 /:\/\/([^\/]+\.)?zy\.ys168\.com\/adtp\//
 /:\/\/([^\/]+\.)?www\.ys168\.com\/images\/.*_.*\./
 /\/ys168\//

@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-01-25 19:52:37
+!Updated:2013-01-25 21:20:01
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.5
 !Copyright 2011 xcffl, Apache License 2.0
@@ -2193,7 +2193,8 @@ pptv.com##[id^="afp_"]
 *pp2.pptv.com/*
 !----当当网----
 ||union.dangdang.com/*
-||a.dangdang.com/*
+||a.dangdang.com/smart.js*
+||click.dangdang.com/page_tracker.aspx?*
 ||img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 !----看书客----
 kanshuke.com##DIV[align="center"]
@@ -4190,6 +4191,7 @@ jandan.net##.xy
 !----绿野户外网----
 *lvye.cn/images/pu/*
 !----pc6下载站----
+||www.pc6.com/js/html/*
 ||www.pc6.com/js/un/*
 !----糗事百科----
 qiushibaike.com###topBanner
@@ -4719,6 +4721,8 @@ chinanews.com###adhzh
 *.google.com/jsapi?autoload=*%22ads%22*function*$domain=youtube.com
 ||www.google.cn/aclk?*
 !----百度&乐居&hao123----
+www.baidu.com,www1.baidu.com,ipv6.baidu.com###ec_im_container
+www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ec_bdtg
 news.baidu.com###ecad
 tieba.baidu.com###aside_ad
 tieba.baidu.com##[id^="guanggao"]

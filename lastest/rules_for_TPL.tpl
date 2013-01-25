@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-01-25 19:52:37
+#Updated:2013-01-25 21:20:01
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.5
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1977,7 +1977,8 @@ msFilterList
 - *pp2.pptv.com/
 #----当当网----
 -d union.dangdang.com
--d a.dangdang.com
+-d a.dangdang.com /smart.js
+-d click.dangdang.com /page_tracker.aspx?
 -d img4.ddimg.cn /00074/pic/*_*_*x*_*.jpg
 #----看书客----
 #----零点看书网----
@@ -3741,6 +3742,7 @@ msFilterList
 #----绿野户外网----
 - *lvye.cn/images/pu/
 #----pc6下载站----
+-d www.pc6.com /js/html/
 -d www.pc6.com /js/un/
 #----糗事百科----
 - *qiushibaike.com/ac/

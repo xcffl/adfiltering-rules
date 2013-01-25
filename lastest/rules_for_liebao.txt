@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-01-25 19:52:37
+!Updated:2013-01-25 21:20:01
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -2196,7 +2196,8 @@ bannerad
 /pp2\.pptv\.com\//
 !----当当网----
 /:\/\/([^\/]+\.)?union\.dangdang\.com\//
-/:\/\/([^\/]+\.)?a\.dangdang\.com\//
+/:\/\/([^\/]+\.)?a\.dangdang\.com\/smart\.js/
+/:\/\/([^\/]+\.)?click\.dangdang\.com\/page_tracker\.aspx\?/
 /:\/\/([^\/]+\.)?img4\.ddimg\.cn\/00074\/pic\/.*_.*_.*x.*_.*\.jpg/
 !----看书客----
 ##DIV[align="center"]	$d=kanshuke.com
@@ -4202,6 +4203,7 @@ bannerad
 !----绿野户外网----
 /lvye\.cn\/images\/pu\//
 !----pc6下载站----
+/:\/\/([^\/]+\.)?www\.pc6\.com\/js\/html\//
 /:\/\/([^\/]+\.)?www\.pc6\.com\/js\/un\//
 !----糗事百科----
 ##topBanner	$d=qiushibaike.com
@@ -4731,6 +4733,8 @@ bannerad
 /\.google\.com\/jsapi\?autoload=.*%22ads%22.*function.*/	$d=youtube.com,$w
 /:\/\/([^\/]+\.)?www\.google\.cn\/aclk\?/
 !----百度&乐居&hao123----
+ec_im_container
+.ec_bdtg
 ##ecad	$d=news.baidu.com
 ##aside_ad	$d=tieba.baidu.com
 ##[id^="guanggao"]	$d=tieba.baidu.com

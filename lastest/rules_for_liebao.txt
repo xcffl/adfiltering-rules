@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-01-25 21:20:01
+!Updated:2013-01-25 21:57:15
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -2479,6 +2479,8 @@ bannerad
 /zol\.com\.cn\/imphit0.*\.gif\?/
 /:\/\/([^\/]+\.)?pic\.zol\.com\.cn\/.*\/.*hp.*_.*_.*\.swf/
 /pc3w\.com\/jS\//
+!----H5邪恶游戏论坛----
+##[class^="a_"]	$d=bbs.h5gal.cc
 !----星云搜盟----
 /\.bookcu\.com\/pop\.js/
 !----巨鲸音乐在线----

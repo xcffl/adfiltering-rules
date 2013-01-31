@@ -1,3 +1,11 @@
+*.stat.ku6.com/*.xml
+css.ku6cdn.com/ent/*/aa.jpg
+css.ku6cdn.com/comm/v/fp/*/ckl_toufang.jpg
+ku6afp.allyes.com/*
+*stat.ku6.com/*.do?*
+gug.ku6cdn.com/*
+i3.ku6img.com/cms/index/*/*/ad*.png
+image.ku6.com/*/g/*
 css.ku6cdn.com/podcast/img/bg_ad.gif
 st.vq.ku6.cn/*
 image.ku6.com/image/*
@@ -110,6 +118,7 @@ www.263car.net/top.js
 www.263car.net/ad.*
 img01.5173cdn.com/fed/build/1.00/js/fed-min.js?*
 www.57dj.com/js/bd.shtml?id=*
+*.missyuan.com/sy/*
 mat.zdface.com/Controls/ChannelHot/ChannelHotTypeID*ClassID*.aspx
 pic.duowan.com/news/*/*/*.jpg
 *duowan.com/public/s/market_count.js
@@ -120,6 +129,7 @@ www.duowan.com/*/notice.js
 market.duowan.com/*
 *.duowan.com/duowan.js
 www.gg1z.com/pic/b.jpg
+news.e23.cn/js/aaa.js
 practivate.adobe.com/*
 activate.wip3.adobe.com/*
 ereg.adobe.com/*
@@ -585,6 +595,7 @@ acd*.hiad.vmall.com/*
 *20ju.com/js/RightJs1.js
 www.20ju.com/images/*.swf
 www.20ju.com/images/*.gif
+www.19937.com/b/*
 img.360.cn/images/2008/360cn/huodong/*x*.jpg
 tf.360.cn/*
 clkstat.qihoo.com/*
@@ -1341,6 +1352,9 @@ adp.cnki.net/*
 *chdbits.org/pic/forum_pic/*/donate.gif*
 *codepub.com/wuse/pic/*
 passport.67.com/ShowSubcribe.aspx*
+click.21cn.com/*
+analytics.21cn.com/*
+market.21cn.com/*
 shows.21cn.com/*
 ranking.21cn.com/*
 reg.xingkong.com/mytx/*/image1/mytx_*.swf
@@ -1361,10 +1375,11 @@ google.mmjq.com/*
 *.googlesyndication.com/*
 *.googleadservices.com/*
 https://*/google*ad*js*
-*/google*ad*js*
 partner.googleadservices.com*
 *.google.com/jsapi?autoload=*%22ads%22*function*
 www.google.cn/aclk?*
+youxi.baidu.com/brands/yxtg/source/juhe-v2.js
+f.youxi.bdimg.com/brands/yxtg/source/middle.swf
 cb.baidu.com/*
 a.baidu.com/*
 *.baidu.com/ecom*&*_*

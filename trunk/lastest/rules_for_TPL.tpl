@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-01-25 21:20:01
+#Updated:2013-01-31 11:44:13
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.5
 #Copyright 2011 xcffl, Apache License 2.0
@@ -230,7 +230,7 @@ msFilterList
 - http://*/mopgg*js
 - http://*/mopgg*php
 - */nav/ad
-- */other/js/
+#*/other/js/*
 - */pagead/
 - */paypic/
 - */photoad/pic.asp
@@ -710,6 +710,7 @@ msFilterList
 - */img/500.gif
 - */userhome/hivimg/*.gif
 - */queerchina.gif
+- */advertise/
 - */wankvids/
 - */pic/ashley_and_maca_2/images/
 - http://*/ggad*.html
@@ -947,6 +948,7 @@ msFilterList
 - *.egooad.cn/
 - *.egooad.com/
 - *.ero-advertising.com/
+-d flex.atdmt.com
 - *.ete.cn/
 -d acode.b2b.cn
 - *.eteun.cn/
@@ -1412,6 +1414,7 @@ msFilterList
 #----腾讯&财付通----
 -d mat1.gtimg.com /news/ldj*x*_*.swf
 -d btrace.qq.com
+-d act.shop.qq.com /promote/*/index_*.shtml
 -d discuz.gtimg.cn /cloud/scripts/discuz_tips.js?
 -d mat1.gtimg.com /2012/images/ay12/*AD*.png
 -d mat1.gtimg.com /2012/images/ay12/*ad*.jpg
@@ -1494,6 +1497,7 @@ msFilterList
 -d www.zhujima.com /tu/*vps.gif
 #----新浪网&看点----
 +d api.t.sina.com.cn /statuses/counts.
+-d d5.sina.com.cn /20*/*/*.jpg
 -d v.sina.com.cn .html
 -d news.sina.com.cn /js/792/
 - *.sina.com.cn/litong/
@@ -1801,6 +1805,8 @@ msFilterList
 +d i.qianshou.com /adsJs/footer.js
 #----翠微居小说网----
 -d www.cuiweiju.com /temp/gg*.html
+#----世界网络----
+-d www.linkwan.com /gb/javascript/a*.js
 #----人人网----
 -d shaft.jebe.renren.com
 -d dj.renren.com
@@ -1986,6 +1992,7 @@ msFilterList
 #----挖当软件站----
 -d www.wdown.cn /falala/
 #----华军软件园&牛华网----
+- *.newhua.com/Files/newhuagg/
 - */newhuagg/timelimitad.js
 - */newhuagg/newsbox.js
 - */newhuagg/index_
@@ -2112,6 +2119,8 @@ msFilterList
 -d www.rin9.com /js/t1.js?
 #----虎扑----
 - *.hupu.com/d/file/*.swf
+#----StackDOC----
+-d rritw.com /my/fload_ads/
 #----火影忍者中文网----
 # @@*.zerodm.cn/js/ads/zxdmxz.js
 +d www.narutom.com /d/js/acmsd/
@@ -2170,6 +2179,8 @@ msFilterList
 - http://log*.ku6.com/
 -d www.ku6.com /c*/*/s*/index.shtml
 - *.stat.ku6.com/*.xml
+-d css.ku6cdn.com /ent/*/aa.jpg
+-d css.ku6cdn.com /comm/v/fp/*/ckl_toufang.jpg
 -d ku6afp.allyes.com
 - *stat.ku6.com/*.do?
 -d gug.ku6cdn.com
@@ -2201,6 +2212,7 @@ msFilterList
 - *zol.com.cn/imphit0*.gif?
 -d pic.zol.com.cn /*hp*_*_*.swf
 - *pc3w.com/jS/
+#----H5邪恶游戏论坛----
 #----星云搜盟----
 - *.bookcu.com/pop.js
 #----巨鲸音乐在线----
@@ -2323,6 +2335,8 @@ msFilterList
 -d img01.5173cdn.com /fed/build/1.00/js/fed-min.js?
 #----57DJ----
 -d www.57dj.com /js/bd.shtml?id=
+#----思缘论坛----
+- *.missyuan.com/sy/
 #----FACE妆点网----
 -d mat.zdface.com /Controls/ChannelHot/ChannelHotTypeID*ClassID*.aspx
 #----多玩游戏----
@@ -2336,6 +2350,8 @@ msFilterList
 - *.duowan.com/duowan.js
 #----挂挂一族软件站----
 -d www.gg1z.com /pic/b.jpg
+#----舜网新闻----
+-d news.e23.cn /js/aaa.js
 #----Adobe----
 -d practivate.adobe.com
 -d activate.wip3.adobe.com
@@ -2389,6 +2405,7 @@ msFilterList
 - *.pojiezhan.com/vivi/
 #----体育吧----
 - *.tiyuba.tv/app/js/common.js
+#----半亩方塘----
 #----我乐网----
 -d corp.56.com
 #----楚网----
@@ -2521,6 +2538,7 @@ msFilterList
 -d d.namipan.com /flash/*.swf
 #----深圳之窗----
 -d afp.csbew.com
+#----softonic----
 #----同步控----
 - *.wumii.com/images/pixel.png
 #----YouTube----
@@ -3023,6 +3041,8 @@ msFilterList
 - *20ju.com/js/RightJs1.js
 -d www.20ju.com /images/*.swf
 -d www.20ju.com /images/*.gif
+#----一九下载----
+-d www.19937.com /b/
 #----奇虎----
 -d img.360.cn /images/2008/360cn/huodong/*x*.jpg
 -d tf.360.cn
@@ -4208,6 +4228,9 @@ msFilterList
 #----中国娱乐网----
 -d passport.67.com /ShowSubcribe.aspx
 #----21CN.com----
+-d click.21cn.com
+-d analytics.21cn.com
+-d market.21cn.com
 -d shows.21cn.com
 -d ranking.21cn.com
 #----星空网----
@@ -4241,12 +4264,14 @@ msFilterList
 - *.googleadservices.com/
 #|*/google.js*
 - https://*/google*ad*js
-- http://*/google*ad*js
+#|http://*/google*ad*js*
 - http://partner.googleadservices.com
 #|*.google-analytics.com/*
 - *.google.com/jsapi?autoload=*%22ads%22*function
 -d www.google.cn /aclk?
 #----百度&乐居&hao123----
+-d youxi.baidu.com /brands/yxtg/source/juhe-v2.js
+-d f.youxi.bdimg.com /brands/yxtg/source/middle.swf
 -d cb.baidu.com
 -d a.baidu.com
 - *.baidu.com/ecom*&*_
@@ -4277,6 +4302,9 @@ msFilterList
 -d static.mp3.baidu.com
 -d imgs.zhangmen.baidu.com /mp3fiesta/
 -d house.leju.com /js/cooperate/leju_bitauto_search.js
+#百度本站的误过滤
++d www.baidu.com /search/zhidao/tuiguang/270X90.png
++d img.baidu.com /img/iknow/ks/15/ad/270-170.jpg
 #----阿里妈妈&阿里软件&淘宝网&淘宝商城----
 +d a.tbcdn.cn /header.js
 +d p.tanx.com

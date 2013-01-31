@@ -215,7 +215,6 @@
 5,4,*/mopgg*js*
 5,4,*/mopgg*php*
 5,4,*/nav/ad*
-5,4,*/other/js/*
 5,4,*/pagead/*
 5,4,*/paypic/*
 5,4,*/photoad/pic.asp*
@@ -691,6 +690,7 @@
 5,4,*/img/500.gif
 5,4,*/userhome/hivimg/*.gif
 5,4,*/queerchina.gif
+5,4,*/advertise/*
 5,4,*/wankvids/*
 5,4,*/pic/ashley_and_maca_2/images/*
 5,4,*/ggad*.html
@@ -922,6 +922,7 @@
 5,4,*.egooad.cn/*
 5,4,*.egooad.com/*
 5,4,*.ero-advertising.com/*
+5,4,flex.atdmt.com/*
 5,4,*.ete.cn/*
 5,4,acode.b2b.cn/*
 5,4,*.eteun.cn/*
@@ -1374,6 +1375,7 @@
 5,4,*46.com/taobao/images/*
 5,4,mat1.gtimg.com/news/ldj*x*_*.swf
 5,4,btrace.qq.com/*
+5,4,act.shop.qq.com/promote/*/index_*.shtml
 5,4,discuz.gtimg.cn/cloud/scripts/discuz_tips.js?*
 5,4,mat1.gtimg.com/2012/images/ay12/*AD*.png
 5,4,mat1.gtimg.com/2012/images/ay12/*ad*.jpg
@@ -1447,6 +1449,7 @@
 5,4,www.zhujima.com/tu/*u*.jpg
 5,4,www.zhujima.com/tu/*g*.png
 5,4,www.zhujima.com/tu/*vps.gif
+5,4,d5.sina.com.cn/20*/*/*.jpg
 5,4,v.sina.com.cn/*.html
 5,4,news.sina.com.cn/js/792/*
 5,4,*.sina.com.cn/litong/*
@@ -1716,6 +1719,7 @@
 5,4,tool.115.com/static/mm/*
 5,4,u.115.com/static/modules/*
 5,4,www.cuiweiju.com/temp/gg*.html
+5,4,www.linkwan.com/gb/javascript/a*.js
 5,4,shaft.jebe.renren.com/*
 5,4,dj.renren.com/*
 5,4,gg.xiaonei.com/*
@@ -1857,6 +1861,7 @@
 5,4,click.dangdang.com/page_tracker.aspx?*
 5,4,img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 5,4,www.wdown.cn/falala/*
+5,4,*.newhua.com/Files/newhuagg/*
 5,4,*/newhuagg/timelimitad.js
 5,4,*/newhuagg/newsbox.js
 5,4,*/newhuagg/index_*
@@ -1958,6 +1963,7 @@
 5,4,www.dnsgua.com/image/dnspod.png
 5,4,www.rin9.com/js/t1.js?*
 5,4,*.hupu.com/d/file/*.swf
+5,4,rritw.com/my/fload_ads/*
 5,4,*.narutom.com/js/jsg2.js
 5,4,*.narutom.com/js/comicjs.js
 5,4,*.narutom.com/js/myl.js
@@ -1993,6 +1999,8 @@
 5,4,log*.ku6.com/*
 5,4,www.ku6.com/c*/*/s*/index.shtml
 5,4,*.stat.ku6.com/*.xml
+5,4,css.ku6cdn.com/ent/*/aa.jpg
+5,4,css.ku6cdn.com/comm/v/fp/*/ckl_toufang.jpg
 5,4,ku6afp.allyes.com/*
 5,4,*stat.ku6.com/*.do?*
 5,4,gug.ku6cdn.com/*
@@ -2110,6 +2118,7 @@
 5,4,www.263car.net/ad.*
 5,4,img01.5173cdn.com/fed/build/1.00/js/fed-min.js?*
 5,4,www.57dj.com/js/bd.shtml?id=*
+5,4,*.missyuan.com/sy/*
 5,4,mat.zdface.com/Controls/ChannelHot/ChannelHotTypeID*ClassID*.aspx
 5,4,pic.duowan.com/news/*/*/*.jpg
 5,4,*duowan.com/public/s/market_count.js
@@ -2120,6 +2129,7 @@
 5,4,market.duowan.com/*
 5,4,*.duowan.com/duowan.js
 5,4,www.gg1z.com/pic/b.jpg
+5,4,news.e23.cn/js/aaa.js
 5,4,practivate.adobe.com/*
 5,4,activate.wip3.adobe.com/*
 5,4,ereg.adobe.com/*
@@ -2585,6 +2595,7 @@
 5,4,*20ju.com/js/RightJs1.js
 5,4,www.20ju.com/images/*.swf
 5,4,www.20ju.com/images/*.gif
+5,4,www.19937.com/b/*
 5,4,img.360.cn/images/2008/360cn/huodong/*x*.jpg
 5,4,tf.360.cn/*
 5,4,clkstat.qihoo.com/*
@@ -3341,6 +3352,9 @@
 5,4,*chdbits.org/pic/forum_pic/*/donate.gif*
 5,4,*codepub.com/wuse/pic/*
 5,4,passport.67.com/ShowSubcribe.aspx*
+5,4,click.21cn.com/*
+5,4,analytics.21cn.com/*
+5,4,market.21cn.com/*
 5,4,shows.21cn.com/*
 5,4,ranking.21cn.com/*
 5,4,reg.xingkong.com/mytx/*/image1/mytx_*.swf
@@ -3361,10 +3375,11 @@
 5,4,*.googlesyndication.com/*
 5,4,*.googleadservices.com/*
 5,4,https://*/google*ad*js*
-5,4,*/google*ad*js*
 5,4,partner.googleadservices.com*
 5,4,*.google.com/jsapi?autoload=*%22ads%22*function*
 5,4,www.google.cn/aclk?*
+5,4,youxi.baidu.com/brands/yxtg/source/juhe-v2.js
+5,4,f.youxi.bdimg.com/brands/yxtg/source/middle.swf
 5,4,cb.baidu.com/*
 5,4,a.baidu.com/*
 5,4,*.baidu.com/ecom*&*_*

@@ -1,13 +1,14 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-01-31 11:44:13
+#Updated:2013-02-01 11:26:58
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.5
 #Copyright 2011 xcffl, Apache License 2.0
 : Expires=7
 #-------------通用规则-------------
 #------元素隐藏规则------
+###[id^=ab_]
 #------广告过滤规则------
 - http://*/js.ng/
 - */37ss.js
@@ -2302,7 +2303,6 @@ msFilterList
 - *.ifeng.com/ssi-incs/*.html
 - *.ifeng.com/*/ssi-incs/*.html
 -d y1.ifengimg.com /rdn_*.js
-- *.ifengimg.com/ifeng/sources/
 - *.ifeng.com/statics/comment_baidu.html
 -d amch.questionmarket.com
 -d y3.ifengimg.com /06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif

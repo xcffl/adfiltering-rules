@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-01-31 11:44:13
+!Updated:2013-02-01 11:26:58
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.5
 !Copyright 2011 xcffl, Apache License 2.0
@@ -117,7 +117,7 @@
 ###footer-ads
 ~pogo.com##.adRight
 ##.adFrame
-##[id^=ab_]
+!##[id^=ab_]
 ##.ad_top
 ##.adLeft
 ###tads.c
@@ -2583,6 +2583,7 @@ xxdm.com##[class^="da g"]
 *.fzdm.com/ggup/*
 !----凤凰网----
 v.ifeng.com###adbest
+zhongyi.ifeng.com##DIV[style="width:985px; height:168px;  margin:0 auto;"]
 v.ifeng.com##.tit_ad
 ifeng.com##.adbox
 ifeng.com##[id^="couplet3_"]
@@ -2596,7 +2597,6 @@ news.ifeng.com###smExtObjBg
 *.ifeng.com/ssi-incs/*.html
 *.ifeng.com/*/ssi-incs/*.html
 ||y1.ifengimg.com/*/rdn_*.js*
-*.ifengimg.com/ifeng/sources/*
 *.ifeng.com/statics/comment_baidu.html
 ||amch.questionmarket.com/*
 ||y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
@@ -3518,6 +3518,7 @@ autohome.com.cn##.subadv2
 ||33.autohome.com.cn*
 !----AcFun.tv----
 acfun.tv###position_rad
+acfun.tv##.ad.ad-top
 acfun.tv###ad-comment
 *.acfun.tv/api/count.aspx
 *.acfun.tv/json/newad.xml
@@ -5074,3 +5075,16 @@ www.qidian.com##.DH17
 @@||pos.baidu.com/ecom?*$domain=up.9es.cn
 @@||cpro.baidu.com/cpro/ui/c.js$domain=up.9es.cn
 !-------------待分类-------------
+
+
+
+
+
+
+
+
+
+
+
+
+

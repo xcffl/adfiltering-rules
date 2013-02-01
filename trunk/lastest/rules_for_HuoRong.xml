@@ -10444,11 +10444,6 @@ f.youku.com/player/getFlvPath/fileid/0*?K=*
 </analyzer>
 <analyzer>
 <type>Http</type>
-<path>*.ifengimg.com/ifeng/sources/*</path>
-<object>*</object>
-</analyzer>
-<analyzer>
-<type>Http</type>
 <path>*.ifeng.com/statics/comment_baidu.html</path>
 <object>*</object>
 </analyzer>

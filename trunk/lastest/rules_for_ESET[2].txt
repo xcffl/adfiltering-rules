@@ -88,7 +88,6 @@ www.9ifly.cn/source/plugin/dabandeng/dabandeng-gbk.html
 *.ifeng.com/ssi-incs/*.html
 *.ifeng.com/*/ssi-incs/*.html
 y1.ifengimg.com/*/rdn_*.js*
-*.ifengimg.com/ifeng/sources/*
 *.ifeng.com/statics/comment_baidu.html
 amch.questionmarket.com/*
 y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif

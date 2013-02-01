@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-01-31 11:44:13
+!Updated:2013-02-01 11:26:58
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -120,7 +120,7 @@ bannerad
 ###footer-ads
 ##.adRight
 ##.adFrame
-##[id^=ab_]
+!##[id^=ab_]
 ##.ad_top
 ##.adLeft
 ###tads.c
@@ -2591,6 +2591,7 @@ bannerad
 /\.fzdm\.com\/ggup\//
 !----凤凰网----
 ##adbest	$d=v.ifeng.com
+##DIV[style="width:985px; height:168px;  margin:0 auto;"]	$d=zhongyi.ifeng.com
 ##.tit_ad	$d=v.ifeng.com
 ##.adbox	$d=ifeng.com
 ##[id^="couplet3_"]	$d=ifeng.com
@@ -2604,7 +2605,6 @@ bannerad
 /\.ifeng\.com\/ssi-incs\/.*\.html/
 /\.ifeng\.com\/.*\/ssi-incs\/.*\.html/
 /:\/\/([^\/]+\.)?y1\.ifengimg\.com\/.*\/rdn_.*\.js/
-/\.ifengimg\.com\/ifeng\/sources\//
 /\.ifeng\.com\/statics\/comment_baidu\.html/
 /:\/\/([^\/]+\.)?amch\.questionmarket\.com\//
 /:\/\/([^\/]+\.)?y3\.ifengimg\.com\/06ea309ef0b1d56f\/2012\/0502\/2e121bc8fb30ff9eb16f29c6de541622\.gif/
@@ -3530,6 +3530,7 @@ bannerad
 /:\/\/([^\/]+\.)?33\.autohome\.com\.cn/
 !----AcFun.tv----
 ##position_rad	$d=acfun.tv
+##.ad.ad-top	$d=acfun.tv
 ##ad-comment	$d=acfun.tv
 /\.acfun\.tv\/api\/count\.aspx/
 /\.acfun\.tv\/json\/newad\.xml/

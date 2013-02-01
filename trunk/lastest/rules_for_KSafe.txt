@@ -2088,7 +2088,6 @@
 5,4,*.ifeng.com/ssi-incs/*.html
 5,4,*.ifeng.com/*/ssi-incs/*.html
 5,4,y1.ifengimg.com/*/rdn_*.js*
-5,4,*.ifengimg.com/ifeng/sources/*
 5,4,*.ifeng.com/statics/comment_baidu.html
 5,4,amch.questionmarket.com/*
 5,4,y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif

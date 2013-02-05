@@ -1,4 +1,3 @@
-*yanqiao.com/yanqiao/*
 *xue5.com/itedu/js/DIVit_QQ.js
 */templates/xmnn/sqgg/middle/*.gif
 *.xmnn.cn/*/scb/*

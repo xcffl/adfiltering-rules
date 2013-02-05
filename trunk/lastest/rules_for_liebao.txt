@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-02-05 11:10:12
+!Updated:2013-02-05 15:21:26
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -1884,7 +1884,6 @@ bannerad
 /:\/\/([^\/]+\.)?td\.atm\.youku\.com\/tdap\/adclose/
 /:\/\/([^\/]+\.)?f\.youku\.com\/player\/getFlvPath\/fileid\/0.*\?K=.*/	$d=tudou.com,$w
 !*/youku/*.flv
-/:\/\/([^\/]+\.)?127\.0\.0\.1\/crossdomain\.xml/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/Tudou201.*\.swf/
 /:\/\/([^\/]+\.)?td\.atm\.youku\.com\/tdcm\/adcontrol/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*udou2012\/.*\.jpg/
@@ -4817,8 +4816,12 @@ bannerad
 /\.google\.com\/jsapi\?autoload=.*%22ads%22.*function.*/	$d=youtube.com,$w
 /:\/\/([^\/]+\.)?www\.google\.cn\/aclk\?/
 !----百度&乐居&hao123----
-ec_im_container
-.ec_bdtg
+www.baidu.com/*###ec_im_container
+www1.baidu.com/*###ec_im_container
+ipv6.baidu.com/*###ec_im_container
+www.baidu.com/*###.ec_bdtg
+www1.baidu.com/*###.ec_bdtg
+ipv6.baidu.com/*###.ec_bdtg
 ##ecad	$d=news.baidu.com
 ##aside_ad	$d=tieba.baidu.com
 ##[id^="guanggao"]	$d=tieba.baidu.com

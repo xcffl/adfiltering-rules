@@ -819,6 +819,7 @@ pub.htwisdom.com/*
 union.zhubajie.com/*
 *.jugao.com/*
 c.atdmt.com/c.gif?*
+p.ajhdf.com/*
 */swfbin/ad3-*
 *.100tone.com/*
 js.yoyi.tv/*
@@ -1375,8 +1376,8 @@ www.i99770.com/g/h/*.html
 *46.com/taobao/images/*
 mat1.gtimg.com/news/ldj*x*_*.swf
 btrace.qq.com/*
+mat1.gtimg.com/lady/health*/999*.swf
 act.shop.qq.com/promote/*/index_*.shtml
-discuz.gtimg.cn/cloud/scripts/discuz_tips.js?*
 mat1.gtimg.com/2012/images/ay12/*AD*.png
 mat1.gtimg.com/2012/images/ay12/*ad*.jpg
 mat1.gtimg.com/cq/*
@@ -1450,7 +1451,9 @@ www.zhujima.com/tu/*u*.jpg
 www.zhujima.com/tu/*g*.png
 www.zhujima.com/tu/*vps.gif
 d5.sina.com.cn/20*/*/*.jpg
+d5.sina.com.cn/d1images/lmt/play.gif
 v.sina.com.cn/*.html
+ent.sina.com.cn/js/*/index/headent.js
 news.sina.com.cn/js/792/*
 *.sina.com.cn/litong/*
 d1.sina.com.cn/20*/*/*.jpg
@@ -1464,6 +1467,10 @@ dcads.sina.com.cn/*
 pfp.sina.com.cn/jczs.html
 pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 bj.house.sina.com.cn/*.js
+*.sinaimg.cn/*/deco/*/jinshan*x*.jpg
+*.sinaimg.cn/*/deco/*/360.jpg
+*.sinaimg.cn/*/deco/*/headcj.js
+*.sinaimg.cn/*/deco/*financebottom.js
 rs.sinajs.cn/*
 *sina.ec90.com/*
 *.adsina.*
@@ -1499,7 +1506,7 @@ d4.sina.com.cn/201012/24/*
 *d3.sina.com.cn/*.swf
 *d2.sina.com.cn/*.swf
 *d1.sina.com.cn/*.swf
-*d5.sina.com.cn/*_*x*.jpg
+*d5.sina.com.cn/*_*x*.jpg*
 *d1.sina.com.cn/*_*x*.jpg
 i3.sinaimg.cn/home/2011/*/U*DT*.gif
 i0.sinaimg.cn/hs/*/U*DT*.jpg
@@ -1647,6 +1654,10 @@ v2.tudou.com/td*/*
 *.tudou.com/framepage/*
 *.tudou.com/tdap/*
 *.tudou.com/tdcm/*
+l.ykimg.com/*
+p.l.ykimg.com/ykvisitts?*
+p-log.ykimg.com/*
+l.youku.com/*log?*
 static.atm.youku.com/*taobao*.html*
 static.atm.youku.com/*taobao*.jpg*
 static.atm.youku.com/*taobao*.swf*
@@ -1986,15 +1997,4 @@ img.duote.com/images/gg_bbs_*
 img.duote.com/duotehtml/*
 img.duote.com/images/cop/*
 www.bj100.com/zhuanti/video/*
-*yanqiao.com/duote.js
-*yanqiao.com/yanqiao/*
-*xue5.com/itedu/js/DIVit_QQ.js
-*/templates/xmnn/sqgg/middle/*.gif
-*.xmnn.cn/*/scb/*
-*.xmnn.cn/xwzx/xwyc/*
-*.xmnn.cn/images/*
-news.xmnn.cn/xwgg/nydb/*
-js.fengwu.net/baidu/*
-dwtracking.sdo.com/ku6.gif?*
-log*.ku6.com/*
 

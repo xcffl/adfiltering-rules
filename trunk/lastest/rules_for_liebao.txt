@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-02-01 11:26:58
+!Updated:2013-02-05 11:10:12
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -11,6 +11,7 @@
 !------元素隐藏规则------
 ###adxBigAd
 ###ad_box
+##.top_ads
 ###adxMiddle5
 ###adxSponLink
 ###adxSponLinkA
@@ -963,6 +964,7 @@ bannerad
 /:\/\/([^\/]+\.)?union\.zhubajie\.com\//
 /\.jugao\.com\//
 /:\/\/([^\/]+\.)?c\.atdmt\.com\/c\.gif\?/
+/:\/\/([^\/]+\.)?p\.ajhdf\.com\//
 /\/swfbin\/ad3-/
 /\.100tone\.com\//
 /:\/\/([^\/]+\.)?js\.yoyi\.tv\//
@@ -1530,6 +1532,11 @@ bannerad
 !----46网址导航----
 /46\.com\/taobao\/images\//
 !----腾讯&财付通----
+##luxury_ad	$d=luxury.qq.com
+##.sideAd	$d=ent.qq.com
+##.ad.mt10	$d=news.qq.com
+##DIV[style="width:960px;height:90px; margin:0 auto; text-align:center; padding-top:10px"]	$d=news.qq.com
+##.layout.ad2.mt10	$d=news.qq.com
 ##divAppAdv	$d=qzone.qq.com
 ##.AdTop-Article-QQ	$d=qq.com
 ##.fr.box-2	$d=stock.qq.com
@@ -1539,8 +1546,9 @@ bannerad
 ##[id^="AdZone"]	$d=news.qq.com
 /:\/\/([^\/]+\.)?mat1\.gtimg\.com\/news\/ldj.*x.*_.*\.swf/
 /:\/\/([^\/]+\.)?btrace\.qq\.com\//
+/:\/\/([^\/]+\.)?mat1\.gtimg\.com\/lady\/health.*\/999.*\.swf/
 /:\/\/([^\/]+\.)?act\.shop\.qq\.com\/promote\/.*\/index_.*\.shtml/
-/:\/\/([^\/]+\.)?discuz\.gtimg\.cn\/cloud\/scripts\/discuz_tips\.js\?/
+!||discuz.gtimg.cn/cloud/scripts/discuz_tips.js?*
 /:\/\/([^\/]+\.)?mat1\.gtimg\.com\/2012\/images\/ay12\/.*AD.*\.png/
 /:\/\/([^\/]+\.)?mat1\.gtimg\.com\/2012\/images\/ay12\/.*ad.*\.jpg/
 /:\/\/([^\/]+\.)?mat1\.gtimg\.com\/cq\//
@@ -1628,6 +1636,11 @@ bannerad
 /:\/\/([^\/]+\.)?www\.zhujima\.com\/tu\/.*g.*\.png/
 /:\/\/([^\/]+\.)?www\.zhujima\.com\/tu\/.*vps\.gif/
 !----新浪网&看点----
+##ad_top	$d=mil.news.sina.com.cn
+##ad_top	$d=sports.sina.com.cn
+##ad_01	$d=sports.sina.com.cn
+##JJPPZQ	$d=finance.sina.com.cn
+##.txtAdArea01	$d=auto.sina.com.cn
 ##DIV[style="clear:both;width:140px;height:290px;margin:13px auto;"]	$d=sina.com.cn
 ##[style="margin-top:5px; _margin-top:-5px;"]	$d=sina.com.cn
 ##DIV[class$="ra_780x90Div"]	$d=sina.com.cn
@@ -1645,15 +1658,18 @@ bannerad
 ##.footer_adv	$d=weibo.com
 ##.topAD	$d=sina.com.cn
 ##.tips_player	$d=weibo.com
-/:\/\/([^\/]+\.)?api.t.sina.com.cn\/statuses\/counts./	$w
 ##[id^="ad_arti_"]	$d=sina.com.cn
 ##.article-video	$d=sina.com.cn
+/:\/\/([^\/]+\.)?api.t.sina.com.cn\/statuses\/counts./	$w
 /:\/\/([^\/]+\.)?d5\.sina\.com\.cn\/20.*\/.*\/.*\.jpg/	$d=www.sina.com.cn,$w
+/:\/\/([^\/]+\.)?d5\.sina\.com\.cn\/d1images\/lmt\/play\.gif/
 /:\/\/([^\/]+\.)?v\.sina\.com\.cn\/.*\.html/
+/:\/\/([^\/]+\.)?ent\.sina\.com\.cn\/js\/.*\/index\/headent\.js/
 /:\/\/([^\/]+\.)?news\.sina\.com\.cn\/js\/792\//
 /\.sina\.com\.cn\/litong\//
 /:\/\/([^\/]+\.)?d1\.sina\.com\.cn\/20.*\/.*\/.*\.jpg/
 /:\/\/([^\/]+\.)?d2\.sina\.com\.cn\/20.*\/.*\/.*\.jpg/
+/:\/\/([^\/]+\.)?d.*\.sina\.com\.cn\/.*\.jpg/	$d=auto.sina.com.cn,$w
 /:\/\/([^\/]+\.)?count\.kandian\.com\/.*\.html/
 /:\/\/([^\/]+\.)?beacon\.sina\.com\.cn\//
 /:\/\/([^\/]+\.)?l\.you\.video\.sina\.com\.cn.*_undig&/
@@ -1663,6 +1679,10 @@ bannerad
 /:\/\/([^\/]+\.)?pfp\.sina\.com\.cn\/jczs\.html/
 /:\/\/([^\/]+\.)?pfp\.sina\.com\.cn\/iframe\/2012nonghangguanggaotest1\.html/
 /:\/\/([^\/]+\.)?bj\.house\.sina\.com\.cn\/.*\.js/
+/\.sinaimg\.cn\/.*\/deco\/.*\/jinshan.*x.*\.jpg/
+/\.sinaimg\.cn\/.*\/deco\/.*\/360\.jpg/
+/\.sinaimg\.cn\/.*\/deco\/.*\/headcj\.js/
+/\.sinaimg\.cn\/.*\/deco\/.*financebottom\.js/
 !|*.sinaimg.cn/*/deco/*.js
 /:\/\/([^\/]+\.)?rs\.sinajs\.cn\//
 /sina\.ec90\.com\//
@@ -1896,6 +1916,10 @@ bannerad
 ##ab_26	$d=youku.com
 ##.AB240	$d=youku.com
 ##.sideCol > div[class^="AB"]
+/:\/\/([^\/]+\.)?l\.ykimg\.com\//
+/:\/\/([^\/]+\.)?p\.l\.ykimg\.com\/ykvisitts\?/
+/:\/\/([^\/]+\.)?p-log\.ykimg\.com\//
+/:\/\/([^\/]+\.)?l\.youku\.com\/.*log\?/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao.*\.html/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao.*\.jpg/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/.*taobao.*\.swf/
@@ -2590,6 +2614,9 @@ bannerad
 !----风之动漫----
 /\.fzdm\.com\/ggup\//
 !----凤凰网----
+##.ad1000	$d=house.ifeng.com
+##.adR01	$d=house.ifeng.com
+##.w1000.tg.top-tg	$d=auto.ifeng.com
 ##adbest	$d=v.ifeng.com
 ##DIV[style="width:985px; height:168px;  margin:0 auto;"]	$d=zhongyi.ifeng.com
 ##.tit_ad	$d=v.ifeng.com
@@ -2602,12 +2629,14 @@ bannerad
 ##smExtObjFlash	$d=news.ifeng.com
 ##smExtObjBgIfm	$d=news.ifeng.com
 ##smExtObjBg	$d=news.ifeng.com
+/\.ifengimg\.com\/.*\/game_right_side_v3\.js/
 /\.ifeng\.com\/ssi-incs\/.*\.html/
 /\.ifeng\.com\/.*\/ssi-incs\/.*\.html/
 /:\/\/([^\/]+\.)?y1\.ifengimg\.com\/.*\/rdn_.*\.js/
 /\.ifeng\.com\/statics\/comment_baidu\.html/
 /:\/\/([^\/]+\.)?amch\.questionmarket\.com\//
 /:\/\/([^\/]+\.)?y3\.ifengimg\.com\/06ea309ef0b1d56f\/2012\/0502\/2e121bc8fb30ff9eb16f29c6de541622\.gif/
+/:\/\/([^\/]+\.)?stadig\.ifeng\.com\//
 /\.ifengimg\.com\/.*\.swf/
 /\/tres\/ifeng\/game\/astd\//
 /:\/\/([^\/]+\.)?bc\.ifeng\.com\/.*\.js/
@@ -2909,6 +2938,19 @@ bannerad
 /:\/\/([^\/]+\.)?www\.92wg\.com\/new\/js\/A_.*\.js/
 !----云迹----
 ##IMG[class][width="660"][height="60"][style="display: inline;"]	$d=yunjii.com
+!----哈秀时尚网----
+##[class^="adv_"]	$d=haxiu.com
+##.right_a	$d=ent.haxiu.com
+##.right_c	$d=ent.haxiu.com
+##.right_f	$d=haxiu.com
+##.left_b	$d=ent.haxiu.com
+##.left_a2_04	$d=ent.haxiu.com
+/\.haxiu\.com\/new_themes\/js\/floatn\.js/
+/\.haxiu\.com\/new_themes\/index\/banner_/
+/:\/\/([^\/]+\.)?www\.haxiu\.com\/data\/cache\/zmyadn-.*\.htm/
+/\.haxiu\.com\/taobao\//
+/\.haxiu\.com\/new_themes\/flash\/neiye2\.swf/
+/\.haxiu\.com\/new_themes\/flash\/index_zml_.*\.swf/
 !----哈哈.MX----
 /\.haha\.mx\/Public\/images\/banner-.*\.png/
 !----热门杂烩----
@@ -3102,6 +3144,9 @@ bannerad
 !----淘股吧----
 /:\/\/([^\/]+\.)?img\.taoguba\.com\.cn\/gbimg\//
 /taoguba\.com\.cn\/gbimg\/2010\/11\/04\//
+!----放放电影----
+/:\/\/([^\/]+\.)?www\.ffdy\.cc\/gg\//
+/:\/\/([^\/]+\.)?img\.ffdy\.cc\/468-60\.gif/
 !----400Disk网络硬盘----
 /:\/\/([^\/]+\.)?www1\.400disk\.com\/downimg\/8f1\.jpg/
 !----中南财经政法大学----
@@ -3532,6 +3577,7 @@ bannerad
 ##position_rad	$d=acfun.tv
 ##.ad.ad-top	$d=acfun.tv
 ##ad-comment	$d=acfun.tv
+/:\/\/([^\/]+\.)?w5cdn.ranktv.cn\//	$w
 /\.acfun\.tv\/api\/count\.aspx/
 /\.acfun\.tv\/json\/newad\.xml/
 !----大纪元----
@@ -4202,6 +4248,7 @@ bannerad
 /myfrfr\.com\/images\/logo\/fayuwang\.jpg/
 /myfrfr\.com\/images\/bienvenue\/top.*01\.gif/
 !----看漫画----
+/\.kkkmh\.com\/javascripts\/abcde\/index_sort_letter_book\.js\?/
 /kkkmh\.com\/iframe\//
 !----零度软件园----
 /\.05sun\.com\/.*\.js/
@@ -4723,7 +4770,9 @@ bannerad
 !----中国娱乐网----
 /:\/\/([^\/]+\.)?passport\.67\.com\/ShowSubcribe\.aspx/
 !----21CN.com----
-##.banner.area	$d=news.21cn.com
+##.banner.area	$d=21cn.com
+##[id^="iframe_end_"]	$d=21cn.com
+##[id^="iframe_zhuanqu_"]	$d=21cn.com
 ##.h-gg	$d=21cn.com
 /:\/\/([^\/]+\.)?click\.21cn\.com\//
 /:\/\/([^\/]+\.)?analytics\.21cn\.com\//
@@ -4840,6 +4889,10 @@ ec_im_container
 /:\/\/([^\/]+\.)?static\.mp3\.baidu\.com\//
 /:\/\/([^\/]+\.)?imgs\.zhangmen\.baidu\.com\/mp3fiesta\//
 /:\/\/([^\/]+\.)?house\.leju\.com\/js\/cooperate\/leju_bitauto_search\.js/
+!百度网盘
+/:\/\/([^\/]+\.)?dq\.baidu\.com\/nocipher\?/
+/:\/\/([^\/]+\.)?pan\.baidu\.com\/api\/analytics\?/
+/:\/\/([^\/]+\.)?cdn\.baidupcs\.com\/monitor\.jpg\?/
 !百度本站的误过滤
 /:\/\/([^\/]+\.)?www.baidu.com\/search\/zhidao\/tuiguang\/270X90.png/	$w
 /:\/\/([^\/]+\.)?img.baidu.com\/img\/iknow\/ks\/15\/ad\/270-170.jpg/	$w

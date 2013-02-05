@@ -1,7 +1,7 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=xcffl
-!*lastmodify=2013-02-05 15:21:26
+!*lastmodify=2013-02-05 16:39:43
 !版本_5.1.5
 !Copyright 2011 xcffl, Apache License 2.0
 !-------------通用规则-------------
@@ -51,8 +51,8 @@ bannerad
 *.com/*/*_ad.js
 */banner*.htm|
 !|http://c.*/*.js*
-c.*org*/*.js*
-c.*cn*/*.js*
+|c.*org*/*.js*
+|c.*cn*/*.js*
 */adpage/*
 */adv760.js*
 */advall.js*
@@ -193,7 +193,7 @@ c.*cn*/*.js*
 *.adm.*/*
 |adm.*/*
 |adk.*/*
-ad.*/*
+|ad.*/*
 *playad.js*
 *advstat.*
 *adslvseed.*
@@ -281,8 +281,8 @@ ad.*/*
 *linkpage.js*
 */showwindow/*
 */unipro/*
-cl.*.*org*/*
-cl.*.*cn*/*
+|cl.*.*org*/*
+|cl.*.*cn*/*
 *banners.*
 */ads.js*
 *click.aspx?id=*
@@ -294,7 +294,7 @@ cl.*.*cn*/*
 *.adpcode.*
 */codepic/*
 *.ad*js.php*
-un*js.php*
+|un*js.php*
 *ad*/.swf*
 */common/ad/*
 *js_ad_*.js
@@ -377,7 +377,7 @@ un*js.php*
 */foot.js*
 */affiliates/*
 */c_2/*
-a-m-s.*
+|a-m-s.*
 */adcontrol/*
 *advjs*.js
 |c.*/chat/*
@@ -392,7 +392,7 @@ a-m-s.*
 */cs/pic.gif
 !|*/float.js
 */ktrace*.js
-js.*/i.js
+|js.*/i.js
 |js.*/code.js
 */saleloader*.js
 */js/_gg/*
@@ -784,7 +784,7 @@ js.*/i.js
 */AImageDs/*
 */jsocket.advanced.swf*
 */images/Bdvertisement/*
-pvstat.*
+|pvstat.*
 */UploadADPic/*
 */playertopad.htm
 */playerright360.htm
@@ -1184,7 +1184,7 @@ pvstat.*
 |js*.339.cn/*
 *.admin6.com/a/*
 |jump.admin6.com/iclk/*
-irs09.com/*
+|irs09.com/*
 *.union188.com/*
 *.unionbig.com/*
 |w*ww.blu.livefilestore.com/*.gif
@@ -3618,7 +3618,7 @@ info.it.hc360.com/*/*##endAdBanner
 jjwxc.net/*##table[style^="width:984px;"]
 jjwxc.net/*##.h8px + div[align="center"]
 jjwxc.net/*##[id^="adp_"]
-210.51.33.225*/*.ca|
+|210.51.33.225*/*.ca|
 |210.51.33.225/*
 |static.jjwxc.net/scripts/richMedia.js*
 *.static.jjwxc.net/sp/*.html

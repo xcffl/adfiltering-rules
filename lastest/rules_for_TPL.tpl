@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-02-05 15:21:26
+#Updated:2013-02-05 17:43:09
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.5
 #Copyright 2011 xcffl, Apache License 2.0
@@ -2979,6 +2979,10 @@ msFilterList
 -d www.3156.cn /js/float_ads.*.js
 -d www.3156.cn /images/fdgg.css
 #----豆瓣----
+- http://vt*.douban.com/*/rda/*.flv
+- http://img*.douban.com/js/fm/packed_fm_rotate_ad*.js
+- http://img*.douban.com/js/fm/packed_fm_bgad*.js
+- http://img*.douban.com/js/fm/packed_fm_bannerad*.js
 -d img3.douban.com /js/boomerang.js
 -d erebor.douban.com /?unit=
 -d erebor.douban.com /count/?ad=

@@ -819,6 +819,7 @@
 5,4,union.zhubajie.com/*
 5,4,*.jugao.com/*
 5,4,c.atdmt.com/c.gif?*
+5,4,p.ajhdf.com/*
 5,4,*/swfbin/ad3-*
 5,4,*.100tone.com/*
 5,4,js.yoyi.tv/*
@@ -1375,8 +1376,8 @@
 5,4,*46.com/taobao/images/*
 5,4,mat1.gtimg.com/news/ldj*x*_*.swf
 5,4,btrace.qq.com/*
+5,4,mat1.gtimg.com/lady/health*/999*.swf
 5,4,act.shop.qq.com/promote/*/index_*.shtml
-5,4,discuz.gtimg.cn/cloud/scripts/discuz_tips.js?*
 5,4,mat1.gtimg.com/2012/images/ay12/*AD*.png
 5,4,mat1.gtimg.com/2012/images/ay12/*ad*.jpg
 5,4,mat1.gtimg.com/cq/*
@@ -1450,7 +1451,9 @@
 5,4,www.zhujima.com/tu/*g*.png
 5,4,www.zhujima.com/tu/*vps.gif
 5,4,d5.sina.com.cn/20*/*/*.jpg
+5,4,d5.sina.com.cn/d1images/lmt/play.gif
 5,4,v.sina.com.cn/*.html
+5,4,ent.sina.com.cn/js/*/index/headent.js
 5,4,news.sina.com.cn/js/792/*
 5,4,*.sina.com.cn/litong/*
 5,4,d1.sina.com.cn/20*/*/*.jpg
@@ -1464,6 +1467,10 @@
 5,4,pfp.sina.com.cn/jczs.html
 5,4,pfp.sina.com.cn/iframe/2012nonghangguanggaotest1.html
 5,4,bj.house.sina.com.cn/*.js
+5,4,*.sinaimg.cn/*/deco/*/jinshan*x*.jpg
+5,4,*.sinaimg.cn/*/deco/*/360.jpg
+5,4,*.sinaimg.cn/*/deco/*/headcj.js
+5,4,*.sinaimg.cn/*/deco/*financebottom.js
 5,4,rs.sinajs.cn/*
 5,4,*sina.ec90.com/*
 5,4,*.adsina.*
@@ -1499,7 +1506,7 @@
 5,4,*d3.sina.com.cn/*.swf
 5,4,*d2.sina.com.cn/*.swf
 5,4,*d1.sina.com.cn/*.swf
-5,4,*d5.sina.com.cn/*_*x*.jpg
+5,4,*d5.sina.com.cn/*_*x*.jpg*
 5,4,*d1.sina.com.cn/*_*x*.jpg
 5,4,i3.sinaimg.cn/home/2011/*/U*DT*.gif
 5,4,i0.sinaimg.cn/hs/*/U*DT*.jpg
@@ -1647,6 +1654,10 @@
 5,4,*.tudou.com/framepage/*
 5,4,*.tudou.com/tdap/*
 5,4,*.tudou.com/tdcm/*
+5,4,l.ykimg.com/*
+5,4,p.l.ykimg.com/ykvisitts?*
+5,4,p-log.ykimg.com/*
+5,4,l.youku.com/*log?*
 5,4,static.atm.youku.com/*taobao*.html*
 5,4,static.atm.youku.com/*taobao*.jpg*
 5,4,static.atm.youku.com/*taobao*.swf*
@@ -2085,12 +2096,14 @@
 5,4,gg.whbear.com/*
 5,4,www.9ifly.cn/source/plugin/dabandeng/dabandeng-gbk.html
 5,4,*.fzdm.com/ggup/*
+5,4,*.ifengimg.com/*/game_right_side_v3.js
 5,4,*.ifeng.com/ssi-incs/*.html
 5,4,*.ifeng.com/*/ssi-incs/*.html
 5,4,y1.ifengimg.com/*/rdn_*.js*
 5,4,*.ifeng.com/statics/comment_baidu.html
 5,4,amch.questionmarket.com/*
 5,4,y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
+5,4,stadig.ifeng.com/*
 5,4,*.ifengimg.com/*.swf
 5,4,*/tres/ifeng/game/astd/*
 5,4,bc.ifeng.com/*.js*
@@ -2280,6 +2293,12 @@
 5,4,*admin5.com/images/zz/*.jpg
 5,4,www.92wg.com/Style_litcn/css/ad.css
 5,4,www.92wg.com/new/js/A_*.js
+5,4,*.haxiu.com/new_themes/js/floatn.js
+5,4,*.haxiu.com/new_themes/index/banner_*
+5,4,www.haxiu.com/data/cache/zmyadn-*.htm
+5,4,*.haxiu.com/taobao/*
+5,4,*.haxiu.com/new_themes/flash/neiye2.swf
+5,4,*.haxiu.com/new_themes/flash/index_zml_*.swf
 5,4,*.haha.mx/Public/images/banner-*.png
 5,4,www.micboy.com/dl2.js
 5,4,www.fx120.net/disease0/ptt/images/banner.jpg
@@ -2381,6 +2400,8 @@
 5,4,*ziddu.com/banners/*
 5,4,img.taoguba.com.cn/gbimg/*
 5,4,*taoguba.com.cn/gbimg/2010/11/04/*
+5,4,www.ffdy.cc/gg/*
+5,4,img.ffdy.cc/468-60.gif
 5,4,www1.400disk.com/downimg/8f1.jpg
 5,4,u.6868le.com/images/pptv.gif
 5,4,u.6868le.com/images/ie.gif
@@ -3051,6 +3072,7 @@
 5,4,*myfrfr.com/images/300200/
 5,4,*myfrfr.com/images/logo/fayuwang.jpg
 5,4,*myfrfr.com/images/bienvenue/top*01.gif
+5,4,*.kkkmh.com/javascripts/abcde/index_sort_letter_book.js?*
 5,4,*kkkmh.com/iframe/*
 5,4,*.05sun.com/*.js*
 5,4,*qqread.com/swf/*
@@ -3408,6 +3430,9 @@
 5,4,static.mp3.baidu.com/*
 5,4,imgs.zhangmen.baidu.com/mp3fiesta/*
 5,4,house.leju.com/js/cooperate/leju_bitauto_search.js
+5,4,dq.baidu.com/nocipher?*
+5,4,pan.baidu.com/api/analytics?*
+5,4,cdn.baidupcs.com/monitor.jpg?*
 5,4,log.mmstat.com/*
 5,4,log.mm.vip.cnz.alimama.com/*
 5,4,img.alimama.cn/cms/images/*.swf

@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-02-01 11:26:58
+#Updated:2013-02-05 11:10:12
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.5
 #Copyright 2011 xcffl, Apache License 2.0
@@ -846,6 +846,7 @@ msFilterList
 -d union.zhubajie.com
 - *.jugao.com/
 -d c.atdmt.com /c.gif?
+-d p.ajhdf.com
 - */swfbin/ad3-
 - *.100tone.com/
 -d js.yoyi.tv
@@ -1415,8 +1416,9 @@ msFilterList
 #----腾讯&财付通----
 -d mat1.gtimg.com /news/ldj*x*_*.swf
 -d btrace.qq.com
+-d mat1.gtimg.com /lady/health*/999*.swf
 -d act.shop.qq.com /promote/*/index_*.shtml
--d discuz.gtimg.cn /cloud/scripts/discuz_tips.js?
+#||discuz.gtimg.cn/cloud/scripts/discuz_tips.js?*
 -d mat1.gtimg.com /2012/images/ay12/*AD*.png
 -d mat1.gtimg.com /2012/images/ay12/*ad*.jpg
 -d mat1.gtimg.com /cq/
@@ -1499,11 +1501,14 @@ msFilterList
 #----新浪网&看点----
 +d api.t.sina.com.cn /statuses/counts.
 -d d5.sina.com.cn /20*/*/*.jpg
+-d d5.sina.com.cn /d1images/lmt/play.gif
 -d v.sina.com.cn .html
+-d ent.sina.com.cn /js/*/index/headent.js
 -d news.sina.com.cn /js/792/
 - *.sina.com.cn/litong/
 -d d1.sina.com.cn /20*/*/*.jpg
 -d d2.sina.com.cn /20*/*/*.jpg
+# @@||d*.sina.com.cn/*.jpg
 -d count.kandian.com .html
 -d beacon.sina.com.cn
 - http://l.you.video.sina.com.cn*_undig&
@@ -1513,6 +1518,10 @@ msFilterList
 -d pfp.sina.com.cn /jczs.html
 -d pfp.sina.com.cn /iframe/2012nonghangguanggaotest1.html
 -d bj.house.sina.com.cn .js
+- *.sinaimg.cn/*/deco/*/jinshan*x*.jpg
+- *.sinaimg.cn/*/deco/*/360.jpg
+- *.sinaimg.cn/*/deco/*/headcj.js
+- *.sinaimg.cn/*/deco/*financebottom.js
 #|*.sinaimg.cn/*/deco/*.js
 -d rs.sinajs.cn
 - *sina.ec90.com/
@@ -1710,6 +1719,10 @@ msFilterList
 - *.tudou.com/tdap/
 - *.tudou.com/tdcm/
 #----优酷网----
+-d l.ykimg.com
+-d p.l.ykimg.com /ykvisitts?
+-d p-log.ykimg.com
+-d l.youku.com log?
 -d static.atm.youku.com taobao*.html
 -d static.atm.youku.com taobao*.jpg
 -d static.atm.youku.com taobao*.swf
@@ -2300,12 +2313,14 @@ msFilterList
 #----风之动漫----
 - *.fzdm.com/ggup/
 #----凤凰网----
+- *.ifengimg.com/*/game_right_side_v3.js
 - *.ifeng.com/ssi-incs/*.html
 - *.ifeng.com/*/ssi-incs/*.html
 -d y1.ifengimg.com /rdn_*.js
 - *.ifeng.com/statics/comment_baidu.html
 -d amch.questionmarket.com
 -d y3.ifengimg.com /06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
+-d stadig.ifeng.com
 - *.ifengimg.com/*.swf
 - */tres/ifeng/game/astd/
 -d bc.ifeng.com .js
@@ -2571,6 +2586,13 @@ msFilterList
 -d www.92wg.com /Style_litcn/css/ad.css
 -d www.92wg.com /new/js/A_*.js
 #----云迹----
+#----哈秀时尚网----
+- *.haxiu.com/new_themes/js/floatn.js
+- *.haxiu.com/new_themes/index/banner_
+-d www.haxiu.com /data/cache/zmyadn-*.htm
+- *.haxiu.com/taobao/
+- *.haxiu.com/new_themes/flash/neiye2.swf
+- *.haxiu.com/new_themes/flash/index_zml_*.swf
 #----哈哈.MX----
 - *.haha.mx/Public/images/banner-*.png
 #----热门杂烩----
@@ -2724,6 +2746,9 @@ msFilterList
 #----淘股吧----
 -d img.taoguba.com.cn /gbimg/
 - *taoguba.com.cn/gbimg/2010/11/04/
+#----放放电影----
+-d www.ffdy.cc /gg/
+-d img.ffdy.cc /468-60.gif
 #----400Disk网络硬盘----
 -d www1.400disk.com /downimg/8f1.jpg
 #----中南财经政法大学----
@@ -3099,6 +3124,7 @@ msFilterList
 - *autohome.com.cn/33
 - http://33.autohome.com.cn
 #----AcFun.tv----
++d w5cdn.ranktv.cn
 - *.acfun.tv/api/count.aspx
 - *.acfun.tv/json/newad.xml
 #----大纪元----
@@ -3732,6 +3758,7 @@ msFilterList
 - *myfrfr.com/images/logo/fayuwang.jpg
 - *myfrfr.com/images/bienvenue/top*01.gif
 #----看漫画----
+- *.kkkmh.com/javascripts/abcde/index_sort_letter_book.js?
 - *kkkmh.com/iframe/
 #----零度软件园----
 - *.05sun.com/*.js
@@ -4302,6 +4329,10 @@ msFilterList
 -d static.mp3.baidu.com
 -d imgs.zhangmen.baidu.com /mp3fiesta/
 -d house.leju.com /js/cooperate/leju_bitauto_search.js
+#百度网盘
+-d dq.baidu.com /nocipher?
+-d pan.baidu.com /api/analytics?
+-d cdn.baidupcs.com /monitor.jpg?
 #百度本站的误过滤
 +d www.baidu.com /search/zhidao/tuiguang/270X90.png
 +d img.baidu.com /img/iknow/ks/15/ad/270-170.jpg

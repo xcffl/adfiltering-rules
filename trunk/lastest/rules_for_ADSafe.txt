@@ -1,7 +1,7 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=xcffl
-!*lastmodify=2013-02-05 17:43:09
+!*lastmodify=2013-02-05 20:13:44
 !版本_5.1.5
 !Copyright 2011 xcffl, Apache License 2.0
 !-------------通用规则-------------
@@ -1469,6 +1469,7 @@ news.qq.com/*##[id^="AdZone"]
 |dr.soso.com/*
 *soso*.*/UploadFiles/2008*.gif
 !----迅雷&狗狗&快传----
+union.kankan.com/*##.pop_aside
 xunlei.com/*##.topic_center
 xunlei.com/*##[id^="cm"].banner
 xunlei.com/*##.playad
@@ -3530,6 +3531,7 @@ hltm.cc/*##[class^="ad"]
 !----52硬件----
 |www.52hardware.com/topic/*
 !----天上人间动漫网----
+52tian.net/*##[scrolling="no"]
 |www.52tian.net/qq/*
 |www.52tian.net/js/*
 !----烈火软件站----
@@ -4788,6 +4790,7 @@ youxi.baidu.com/*##DIV[style="position: relative; width: 958px; height: 70px; cl
 |img.baidu.com/img/iknow/ks/15/ad/270-170.jpg
 !----阿里妈妈&阿里软件&淘宝网&淘宝商城----
 |a.tbcdn.cn/*/header.js
+~|www.taobao.com/go/rgn/trip/*::taobao.com
 ~|p.tanx.com^::taobao.com
 |log.mmstat.com/*
 |log.mm.vip.cnz.alimama.com/*

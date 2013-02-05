@@ -8149,11 +8149,6 @@ d5.sina.com.cn/20*/*/*.jpg
 f.youku.com/player/getFlvPath/fileid/0*?K=*
 <analyzer>
 <type>Http</type>
-<path>127.0.0.1/crossdomain.xml</path>
-<object>*</object>
-</analyzer>
-<analyzer>
-<type>Http</type>
 <path>static.atm.youku.com/Tudou201*.swf</path>
 <object>*</object>
 </analyzer>

@@ -1382,7 +1382,6 @@
 5,4,mat1.gtimg.com/2012/images/ay12/*ad*.jpg
 5,4,mat1.gtimg.com/cq/*
 5,4,mat1.gtimg.com/sports/*.swf
-5,4,isdspeed.qq.com/*
 5,4,tajs.qq.com/*
 5,4,adsrich.qq.com/*/crystal-min.js
 5,4,l.qq.com/p?*
@@ -2024,6 +2023,7 @@
 5,4,image.ku6.com/*888*/*
 5,4,www.ipc.me/plus/static_files/nuffnang.html
 5,4,www.iplaysoft.com/plus/static_files/nuffnang.html
+5,4,*.t6t8.com/soft/images/soft_gg*.*
 5,4,www.wewehot.com/googlevideoadslibraryas*.swf
 5,4,icon.zol-img.com.cn/public/js/web_foot.js
 5,4,p.zol-img.com.cn/*
@@ -2393,6 +2393,7 @@
 5,4,in.dg.mop.com/*
 5,4,gg.mop.com/*
 5,4,img.0554cc.com/vip/*
+5,4,srjs.9666.cn/static/js/space/wt9666_head_dcs_tag.js?*
 5,4,*ziddu.com/images/globe7.gif
 5,4,*ziddu.com/images/140x150_egglad.gif
 5,4,*ziddu.com/screencornerimages/*
@@ -2494,7 +2495,6 @@
 5,4,*verypsp.com/bd.html
 5,4,*verypsp.com/cj.html
 5,4,img.mansuno.com/file/article/fashion/detail/*-*/*.swf
-5,4,static.36kr.com/wp-content/uploads/*/*/*_*_*.*
 5,4,static.36kr.com/wp-content/uploads/krads-images/*
 5,4,img*.36krcnd.com/wp-content/uploads/krads-images/*
 5,4,www.xiaoshuozhe.com/js/*.js
@@ -2554,6 +2554,7 @@
 5,4,*.3156.cn/js/left.js
 5,4,www.3156.cn/js/float_ads.*.js
 5,4,www.3156.cn/images/fdgg.css
+5,4,mr*.douban.com/*/rda/*.mp3
 5,4,vt*.douban.com/*/rda/*.flv
 5,4,img*.douban.com/js/fm/packed_fm_rotate_ad*.js
 5,4,img*.douban.com/js/fm/packed_fm_bgad*.js

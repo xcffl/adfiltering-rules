@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-02-05 20:13:44
+!Updated:2013-02-07 15:48:06
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.5
 !Copyright 2011 xcffl, Apache License 2.0
@@ -1550,7 +1550,6 @@ news.qq.com##[id^="AdZone"]
 ||mat1.gtimg.com/2012/images/ay12/*ad*.jpg
 ||mat1.gtimg.com/cq/*
 ||mat1.gtimg.com/sports/*.swf
-||isdspeed.qq.com/*
 ||tajs.qq.com/*
 ||adsrich.qq.com/*/crystal-min.js
 ||l.qq.com/p?*
@@ -2492,6 +2491,8 @@ dl.iplaysoft.com##CENTER
 19lou.com,ihome99.com##.ad-cycle
 19lou.com,ihome99.com##.float-ad
 19lou.com##.head-ad
+!----T6T8游戏网----
+*.t6t8.com/soft/images/soft_gg*.*
 !----微视频----
 ||www.wewehot.com/googlevideoadslibraryas*.swf
 !----中关村在线&中关村在线武汉站----
@@ -3126,6 +3127,9 @@ mop.com##a[href^="http://trackx.mop.com/"]
 ||gg.mop.com/*
 !----淮南论坛----
 ||img.0554cc.com/vip/*
+!----牛仔网----
+9666.cn##.dlad
+||srjs.9666.cn/static/js/space/wt9666_head_dcs_tag.js?*
 !----Ziddu----
 *ziddu.com/images/globe7.gif
 *ziddu.com/images/140x150_egglad.gif
@@ -3284,7 +3288,6 @@ verypsp.com##table[width="960"]
 ||img.mansuno.com/file/article/fashion/detail/*-*/*.swf
 !----36氪----
 36kr.com##.span8.hidden-phone
-||static.36kr.com/wp-content/uploads/*/*/*_*_*.*
 ||static.36kr.com/wp-content/uploads/krads-images/*
 ||img*.36krcnd.com/wp-content/uploads/krads-images/*
 !----齐阅阁----
@@ -3403,6 +3406,7 @@ chinaiiss.com##.nav_r:nth-child(6)
 ||www.3156.cn/images/fdgg.css
 !----豆瓣----
 douban.fm##.clickable_ad
+||mr*.douban.com/*/rda/*.mp3
 ||vt*.douban.com/*/rda/*.flv
 ||img*.douban.com/js/fm/packed_fm_rotate_ad*.js
 ||img*.douban.com/js/fm/packed_fm_bgad*.js

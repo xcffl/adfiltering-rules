@@ -3319,6 +3319,7 @@ v3.apic.51.com/vda09.js
 luckstatic.v1.cn/st/10000/*
 *pipi.cn/player/*
 *0595jx.com/images/41.gif
+*webp2p.letv.com/*
 letv.allyes.com/*
 dc.letv.com/*
 js.letvcdn.com/js/*/stats/*

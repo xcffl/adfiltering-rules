@@ -16595,6 +16595,11 @@ www.china-id.com.cn/Images/index_top.gif
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>*webp2p.letv.com/*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path>letv.allyes.com/*</path>
 <object>*</object>
 </analyzer>

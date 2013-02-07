@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-02-07 15:48:06
+!Updated:2013-02-07 21:10:51
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -97,6 +97,7 @@ ad-top
 ###ad_B
 ###ad_A
 ###ad_I
+##.top_ad
 ###ad_J
 ##.adWrapper	$d=~smh.com.au
 ##.adWrapper	$d=~theage.com.au
@@ -4677,7 +4678,9 @@ bannerad
 !----3E高清电影网----
 /0595jx\.com\/images\/41\.gif/
 !----乐视网----
+##.theatre[style]	$d=letv.com
 /:\/\/([^\/]+\.)?www.letv.com\/zt\/tuiguang\/playerapi\/pccs.*.xml/	$w
+/webp2p\.letv\.com\//
 /:\/\/([^\/]+\.)?letv\.allyes\.com\//
 /:\/\/([^\/]+\.)?dc\.letv\.com\//
 /:\/\/([^\/]+\.)?js\.letvcdn\.com\/js\/.*\/stats\//
@@ -4811,6 +4814,7 @@ bannerad
 /linkwan\.com\/gb\/images\/uploadimages\//
 !-------------联盟&本站-------------
 !----Google----
+##.gsn_b	$d=google.com
 /:\/\/([^\/]+\.)?www\.googletagservices\.com\//
 /114la\.com\/public\/widget\/google\//
 /kztechs\.com\/fromgoogle2\.html/

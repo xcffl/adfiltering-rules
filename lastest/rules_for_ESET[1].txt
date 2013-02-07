@@ -1382,7 +1382,6 @@ mat1.gtimg.com/2012/images/ay12/*AD*.png
 mat1.gtimg.com/2012/images/ay12/*ad*.jpg
 mat1.gtimg.com/cq/*
 mat1.gtimg.com/sports/*.swf
-isdspeed.qq.com/*
 tajs.qq.com/*
 adsrich.qq.com/*/crystal-min.js
 l.qq.com/p?*
@@ -1997,4 +1996,5 @@ img.duote.com/duotehtml/*
 img.duote.com/images/cop/*
 www.bj100.com/zhuanti/video/*
 *yanqiao.com/duote.js
+*yanqiao.com/yanqiao/*
 

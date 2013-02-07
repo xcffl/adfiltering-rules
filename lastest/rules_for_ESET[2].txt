@@ -1,4 +1,3 @@
-*xue5.com/itedu/js/DIVit_QQ.js
 */templates/xmnn/sqgg/middle/*.gif
 *.xmnn.cn/*/scb/*
 *.xmnn.cn/xwzx/xwyc/*
@@ -24,6 +23,7 @@ css.ku6cdn.com/www/*/*x*.gif
 image.ku6.com/*888*/*
 www.ipc.me/plus/static_files/nuffnang.html
 www.iplaysoft.com/plus/static_files/nuffnang.html
+*.t6t8.com/soft/images/soft_gg*.*
 www.wewehot.com/googlevideoadslibraryas*.swf
 icon.zol-img.com.cn/public/js/web_foot.js
 p.zol-img.com.cn/*
@@ -393,6 +393,7 @@ imgpub.mop.com/mt/widget/*
 in.dg.mop.com/*
 gg.mop.com/*
 img.0554cc.com/vip/*
+srjs.9666.cn/static/js/space/wt9666_head_dcs_tag.js?*
 *ziddu.com/images/globe7.gif
 *ziddu.com/images/140x150_egglad.gif
 *ziddu.com/screencornerimages/*
@@ -494,7 +495,6 @@ soft.verypsp.com/pic/*
 *verypsp.com/bd.html
 *verypsp.com/cj.html
 img.mansuno.com/file/article/fashion/detail/*-*/*.swf
-static.36kr.com/wp-content/uploads/*/*/*_*_*.*
 static.36kr.com/wp-content/uploads/krads-images/*
 img*.36krcnd.com/wp-content/uploads/krads-images/*
 www.xiaoshuozhe.com/js/*.js
@@ -554,6 +554,7 @@ sc.chinaiiss.com/do.php?do=ad&*
 *.3156.cn/js/left.js
 www.3156.cn/js/float_ads.*.js
 www.3156.cn/images/fdgg.css
+mr*.douban.com/*/rda/*.mp3
 vt*.douban.com/*/rda/*.flv
 img*.douban.com/js/fm/packed_fm_rotate_ad*.js
 img*.douban.com/js/fm/packed_fm_bgad*.js

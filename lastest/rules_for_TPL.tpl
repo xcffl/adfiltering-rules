@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-02-05 20:13:44
+#Updated:2013-02-07 15:48:06
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.5
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1423,7 +1423,6 @@ msFilterList
 -d mat1.gtimg.com /2012/images/ay12/*ad*.jpg
 -d mat1.gtimg.com /cq/
 -d mat1.gtimg.com /sports/*.swf
--d isdspeed.qq.com
 -d tajs.qq.com
 -d adsrich.qq.com /crystal-min.js
 -d l.qq.com /p?
@@ -2209,6 +2208,8 @@ msFilterList
 -d www.ipc.me /plus/static_files/nuffnang.html
 -d www.iplaysoft.com /plus/static_files/nuffnang.html
 #----19楼----
+#----T6T8游戏网----
+- *.t6t8.com/soft/images/soft_gg*.
 #----微视频----
 -d www.wewehot.com /googlevideoadslibraryas*.swf
 #----中关村在线&中关村在线武汉站----
@@ -2737,6 +2738,8 @@ msFilterList
 -d gg.mop.com
 #----淮南论坛----
 -d img.0554cc.com /vip/
+#----牛仔网----
+-d srjs.9666.cn /static/js/space/wt9666_head_dcs_tag.js?
 #----Ziddu----
 - *ziddu.com/images/globe7.gif
 - *ziddu.com/images/140x150_egglad.gif
@@ -2886,7 +2889,6 @@ msFilterList
 #----男人志----
 -d img.mansuno.com /file/article/fashion/detail/*-*/*.swf
 #----36氪----
--d static.36kr.com /wp-content/uploads/*/*/*_*_*.
 -d static.36kr.com /wp-content/uploads/krads-images/
 - http://img*.36krcnd.com/wp-content/uploads/krads-images/
 #----齐阅阁----
@@ -2979,6 +2981,7 @@ msFilterList
 -d www.3156.cn /js/float_ads.*.js
 -d www.3156.cn /images/fdgg.css
 #----豆瓣----
+- http://mr*.douban.com/*/rda/*.mp3
 - http://vt*.douban.com/*/rda/*.flv
 - http://img*.douban.com/js/fm/packed_fm_rotate_ad*.js
 - http://img*.douban.com/js/fm/packed_fm_bgad*.js

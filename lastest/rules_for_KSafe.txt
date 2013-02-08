@@ -333,6 +333,9 @@
 5,4,*js_popwinforum*
 5,4,*/aaaddd/*
 5,4,*/adposition/*
+5,4,*/ad2.*
+5,4,*/ad3.*
+5,4,*/gg1.*
 5,4,*/s?z=*
 5,4,*all_content_ad*
 5,4,*ggplay.js*
@@ -879,6 +882,8 @@
 5,4,*.1717388.com/*
 5,4,*.7iam.com/*
 5,4,ad*.ctrmi.com/*
+5,4,p.144gg.com/*
+5,4,codes.xp3366.com/*
 5,4,*.7pk.com/*
 5,4,*.8le8le.com/*
 5,4,*.91ivr.com/*
@@ -980,6 +985,8 @@
 5,4,*.sms888.net*
 5,4,www.top1bet.com/imgs/zp*x*.gif
 5,4,*.sparkstudios.com/*
+5,4,*pv.cc/*
+5,4,*.adjwl.com/*
 5,4,*.t2t2.com/*
 5,4,*.taobd.com/*
 5,4,*.the5v.com/*
@@ -1061,6 +1068,7 @@
 5,4,*wangrong1002.com*
 5,4,res.9dzc.com/tcjs/*
 5,4,*.heroclick.cn/*
+5,4,*.913h6.cn/code/*
 5,4,*.000wan.com/*
 5,4,*.doubleclick.net/*
 5,4,*.84422.com/*
@@ -1108,6 +1116,7 @@
 5,4,pages.etology.com*
 5,4,*.tbjfw.com/*
 5,4,pic.adver.com*
+5,4,js.kk7kk.com/*
 5,4,popunder.adsrevenue.net*
 5,4,popunder.paypopup.com/popup.php*
 5,4,ppntv.033.com/*
@@ -1449,7 +1458,6 @@
 5,4,www.zhujima.com/tu/*u*.jpg
 5,4,www.zhujima.com/tu/*g*.png
 5,4,www.zhujima.com/tu/*vps.gif
-5,4,d5.sina.com.cn/20*/*/*.jpg
 5,4,d5.sina.com.cn/d1images/lmt/play.gif
 5,4,v.sina.com.cn/*.html
 5,4,ent.sina.com.cn/js/*/index/headent.js
@@ -1627,7 +1635,6 @@
 5,4,*/cv/pl?*&file=*f4v*
 5,4,*/pos?f=f4v*
 5,4,td.atm.youku.com/tdap/adclose
-5,4,f.youku.com/player/getFlvPath/fileid/0*?K=*
 5,4,static.atm.youku.com/Tudou201*.swf
 5,4,td.atm.youku.com/tdcm/adcontrol
 5,4,static.atm.youku.com/*udou2012/*.jpg
@@ -1931,9 +1938,11 @@
 5,4,www.jdcjsr.com/images/0.gif
 5,4,*cnenf.com/images/*.jpg
 5,4,*cnenf.com/images/ad*.gif
+5,4,static.xunzai.com/www/*_*.gif
 5,4,*.safeba.net/images/a*.jpg
 5,4,www.zhaoxiaoshuo.com/adproxy.html?*
 5,4,www.zhaoxiaoshuo.com/js/63wan.js
+5,4,*.files77.com/images/686x90.swf
 5,4,dm.sxcnw.net/pic/*.gif
 5,4,dm.sxcnw.net/pic/*.jpg
 5,4,www.3chu.com/salegm/files/images/*/*/*-*-*-*.gif
@@ -2042,6 +2051,9 @@
 5,4,www.hongkonggay.info/ad/*
 5,4,graphics.streamray.com/images/cams/flash/cams_live.swf
 5,4,*.77119.com/js/*
+5,4,d.119g.com/fanwan/top_banner.js
+5,4,www.119down.com/skin/assets/images/ad*.jpg
+5,4,www.pk38.com/statics/images/ay/250x300.gif
 5,4,union.vancl.com/*
 5,4,www.vancl.com/WebSource/*
 5,4,images.vancl.com/Others/*/*/*/search_vt_*.jpg
@@ -2260,6 +2272,8 @@
 5,4,dict.hudong.com/xml/*.html
 5,4,hdad.hudong.com/*
 5,4,zt.hudong.com/wid.html
+5,4,*.gxp.cc/ad/*
+5,4,gxp.cc/skin/ScrollImage.js
 5,4,www.hneeb.cn/images/*201*.gif
 5,4,www.hneeb.cn/images/imgAd_*.gif
 5,4,www.hneeb.cn/images/FLASH*.swf
@@ -2619,6 +2633,13 @@
 5,4,*20ju.com/js/RightJs1.js
 5,4,www.20ju.com/images/*.swf
 5,4,www.20ju.com/images/*.gif
+5,4,*.tom365.com/js/7*
+5,4,*.tom365.com/js/by*.js*
+5,4,*.tom365.com/newjs/468.js?*
+5,4,*.tom365.com/js/2*.js
+5,4,*.tom365.com/js/1*.js*
+5,4,*.tom365.com/newjs/5*.js
+5,4,*.tom365.com/newjs/6*.js
 5,4,www.19937.com/b/*
 5,4,img.360.cn/images/2008/360cn/huodong/*x*.jpg
 5,4,tf.360.cn/*
@@ -2721,6 +2742,8 @@
 5,4,res.yyets.com/images/close-ad.gif
 5,4,*.yyets.com/forumid_*/*.gif
 5,4,*.creatives.livejasmin.com/*
+5,4,*.ranwen.cc/js/m/lc_*.js
+5,4,*.ranwen.cc/js/m/c_*.js
 5,4,www.ranwen.net/ssi/*
 5,4,*.huacolor.com/soft/UploadPic/*.gif
 5,4,a.17guagua.com/*
@@ -2819,7 +2842,6 @@
 5,4,bbsupload.yydm.com/*-*.swf
 5,4,*yydm.com/baoyue/*
 5,4,*.amznz.com/proxy.html
-5,4,www.china-id.com.cn/Images/index_top.gif
 5,4,www.china-id.com.cn/68psd/*
 5,4,*gogobox.com.tw/n_images/tw2/common/*
 5,4,*lwdown.com/user08/*
@@ -2921,6 +2943,8 @@
 5,4,image.songtaste.com/*/songpic1*.jpg
 5,4,*lunwen119.com/js/gg_*.js
 5,4,img.hdbird.com/langzi/*
+5,4,*.400gb.com/advview.php?*
+5,4,*.400gb.com/userclick*.js
 5,4,clientclick.tv002.com/*
 5,4,static.ctdisk.com/510.js?*
 5,4,*.456t.com/taobao/*
@@ -2975,6 +2999,7 @@
 5,4,t.diypda.com/publicize/*
 5,4,dl.everbox.com/www/images/coop/*.jpg
 5,4,*.everbox.com/images/*_ad.*
+5,4,down.qiannao.com/tomos/ui/*.htm
 5,4,pic1.qndown.com/doimg/yfking/*
 5,4,count.qiannao.com/*
 5,4,*.yunfile.com/images/offline_banner/*x*.gif
@@ -3279,6 +3304,7 @@
 5,4,aoodoo.weiphone.com/*
 5,4,*weiphone.com/baidu.html?id=*
 5,4,club.tgfcer.com/images/g*
+5,4,*.qjwm.com/123.jpg
 5,4,www.qjwm.com/qjwmtop.js
 5,4,www.qjwm.com/j/bbscpv.js
 5,4,www.qjwm.com/j/bbs.js
@@ -3402,7 +3428,6 @@
 5,4,*.googleadservices.com/*
 5,4,https://*/google*ad*js*
 5,4,partner.googleadservices.com*
-5,4,*.google.com/jsapi?autoload=*%22ads%22*function*
 5,4,www.google.cn/aclk?*
 5,4,youxi.baidu.com/brands/yxtg/source/juhe-v2.js
 5,4,f.youxi.bdimg.com/brands/yxtg/source/middle.swf

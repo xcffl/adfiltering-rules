@@ -1,3 +1,21 @@
+*normteam.com/usepic/*
+act.2144.cn/adv_img/*
+www.caiwu51.com/myqie/*.js
+www.asp300.com/*adjs/*
+*.kenwen.com/scripts/ctc.js
+ads.skykiwi.com/*
+www.gcemedia.co.nz/www/images/*.swf
+bbs.xmfish.com/images/atm/*
+client.xmfish.com/attachments/bar/*
+hot.xmfish.com/pages/images/*
+img.xmfish.com/attachment/Mon_1104/*
+img.duote.com/images/gg_bbs_*
+img.duote.com/duotehtml/*
+img.duote.com/images/cop/*
+www.bj100.com/zhuanti/video/*
+*yanqiao.com/duote.js
+*yanqiao.com/yanqiao/*
+*xue5.com/itedu/js/DIVit_QQ.js
 */templates/xmnn/sqgg/middle/*.gif
 *.xmnn.cn/*/scb/*
 *.xmnn.cn/xwzx/xwyc/*
@@ -42,6 +60,9 @@ pic.zol.com.cn/*/*hp*_*_*.swf
 www.hongkonggay.info/ad/*
 graphics.streamray.com/images/cams/flash/cams_live.swf
 *.77119.com/js/*
+d.119g.com/fanwan/top_banner.js
+www.119down.com/skin/assets/images/ad*.jpg
+www.pk38.com/statics/images/ay/250x300.gif
 union.vancl.com/*
 www.vancl.com/WebSource/*
 images.vancl.com/Others/*/*/*/search_vt_*.jpg
@@ -245,6 +266,7 @@ zy.ys168.com/adtp/*
 www.ys168.com/images/*_*.*
 */ys168/*
 www.ys168.com/images/*.gif
+
 oa.hinews.cn/work/img/*_oxadcesl.swf
 *adimage.bokee.com*
 *price.cheshi.com.cn*
@@ -260,6 +282,8 @@ bjdcdv.it.com.cn*
 dict.hudong.com/xml/*.html
 hdad.hudong.com/*
 zt.hudong.com/wid.html
+*.gxp.cc/ad/*
+gxp.cc/skin/ScrollImage.js
 www.hneeb.cn/images/*201*.gif
 www.hneeb.cn/images/imgAd_*.gif
 www.hneeb.cn/images/FLASH*.swf
@@ -619,6 +643,13 @@ acd*.hiad.vmall.com/*
 *20ju.com/js/RightJs1.js
 www.20ju.com/images/*.swf
 www.20ju.com/images/*.gif
+*.tom365.com/js/7*
+*.tom365.com/js/by*.js*
+*.tom365.com/newjs/468.js?*
+*.tom365.com/js/2*.js
+*.tom365.com/js/1*.js*
+*.tom365.com/newjs/5*.js
+*.tom365.com/newjs/6*.js
 www.19937.com/b/*
 img.360.cn/images/2008/360cn/huodong/*x*.jpg
 tf.360.cn/*
@@ -638,6 +669,7 @@ tv-static.tom.com/6c6266/20101026/hd16953.flv
 static.hdslb.com/ad-images/*.swf
 *bilibili.*/html/ads-*
 *bilibili.*/html/*.html
+
 *pb86.net/sb/images/*
 *pb86.net/d/*
 news.5068.com/z/js/Addme.js
@@ -657,6 +689,7 @@ click1.game.131.com/*
 131js.131.com/home/resouces/js/131Advertise.js
 131js.131.com/home/resouces/js/ad_config.js?*
 res.files.131.com/script/notif.js
+
 33.autohome.cn/file/*
 *autohome.com.cn/33*
 33.autohome.com.cn*
@@ -721,6 +754,8 @@ img.uu1001.cn/wrappler_swf2/2011-12-27/19/1b/27403090_cb427d45b6c6ae9f46b0ad3ceb
 res.yyets.com/images/close-ad.gif
 *.yyets.com/forumid_*/*.gif
 *.creatives.livejasmin.com/*
+*.ranwen.cc/js/m/lc_*.js
+*.ranwen.cc/js/m/c_*.js
 www.ranwen.net/ssi/*
 *.huacolor.com/soft/UploadPic/*.gif
 a.17guagua.com/*
@@ -819,7 +854,7 @@ www.quxiu.com/comic/money/*
 bbsupload.yydm.com/*-*.swf
 *yydm.com/baoyue/*
 *.amznz.com/proxy.html
-www.china-id.com.cn/Images/index_top.gif
+
 www.china-id.com.cn/68psd/*
 *gogobox.com.tw/n_images/tw2/common/*
 *lwdown.com/user08/*
@@ -921,6 +956,8 @@ js.973.com/gjs/383.js
 image.songtaste.com/*/songpic1*.jpg
 *lunwen119.com/js/gg_*.js
 img.hdbird.com/langzi/*
+*.400gb.com/advview.php?*
+*.400gb.com/userclick*.js
 clientclick.tv002.com/*
 static.ctdisk.com/510.js?*
 *.456t.com/taobao/*
@@ -975,6 +1012,7 @@ www.haokan123.com/attachments/*.swf
 t.diypda.com/publicize/*
 dl.everbox.com/www/images/coop/*.jpg
 *.everbox.com/images/*_ad.*
+down.qiannao.com/tomos/ui/*.htm
 pic1.qndown.com/doimg/yfking/*
 count.qiannao.com/*
 *.yunfile.com/images/offline_banner/*x*.gif
@@ -1279,6 +1317,7 @@ smjs.allyes.com/*
 aoodoo.weiphone.com/*
 *weiphone.com/baidu.html?id=*
 club.tgfcer.com/images/g*
+*.qjwm.com/123.jpg
 www.qjwm.com/qjwmtop.js
 www.qjwm.com/j/bbscpv.js
 www.qjwm.com/j/bbs.js
@@ -1402,7 +1441,7 @@ google.mmjq.com/*
 *.googleadservices.com/*
 https://*/google*ad*js*
 partner.googleadservices.com*
-*.google.com/jsapi?autoload=*%22ads%22*function*
+
 www.google.cn/aclk?*
 youxi.baidu.com/brands/yxtg/source/juhe-v2.js
 f.youxi.bdimg.com/brands/yxtg/source/middle.swf
@@ -1438,6 +1477,8 @@ house.leju.com/js/cooperate/leju_bitauto_search.js
 dq.baidu.com/nocipher?*
 pan.baidu.com/api/analytics?*
 cdn.baidupcs.com/monitor.jpg?*
+
+
 log.mmstat.com/*
 log.mm.vip.cnz.alimama.com/*
 img.alimama.cn/cms/images/*.swf
@@ -1653,4 +1694,10 @@ img.kuyundong.com/images/cuxiao/lkt/lkt*/*X*_r*_c*.jpg
 *.drevil.to/*
 www.fclub.cn/affiche.php?act=img&ad_id=*
 www.54new.com/da/*
+
+
+
+
+
+
 

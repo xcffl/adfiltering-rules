@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-02-07 21:10:51
+#Updated:2013-02-08 22:37:45
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.5
 #Copyright 2011 xcffl, Apache License 2.0
@@ -351,6 +351,9 @@ msFilterList
 - http://*js_popwinforum
 - */aaaddd/
 - */adposition/
+- */ad2.
+- */ad3.
+- */gg1.
 - http://*/s?z=
 - *all_content_ad
 - http://*ggplay.js
@@ -906,6 +909,8 @@ msFilterList
 - *.1717388.com/
 - *.7iam.com/
 - http://ad*.ctrmi.com/
+-d p.144gg.com
+-d codes.xp3366.com
 - *.7pk.com/
 - *.8le8le.com/
 - *.91ivr.com/
@@ -1007,6 +1012,8 @@ msFilterList
 - *.sms888.net
 -d www.top1bet.com /imgs/zp*x*.gif
 - *.sparkstudios.com/
+- http://*pv.cc/
+- *.adjwl.com/
 - *.t2t2.com/
 - *.taobd.com/
 - *.the5v.com/
@@ -1088,6 +1095,7 @@ msFilterList
 - http://*wangrong1002.com
 -d res.9dzc.com /tcjs/
 - *.heroclick.cn/
+- *.913h6.cn/code/
 - *.000wan.com/
 - *.doubleclick.net/
 - *.84422.com/
@@ -1136,6 +1144,7 @@ msFilterList
 - http://pages.etology.com
 - *.tbjfw.com/
 - http://pic.adver.com
+-d js.kk7kk.com
 - http://popunder.adsrevenue.net
 -d popunder.paypopup.com /popup.php
 -d ppntv.033.com
@@ -1811,6 +1820,7 @@ msFilterList
 -d u.115.com /static/tjj/delivery/*.html
 -d tool.115.com /static/mm/
 -d u.115.com /static/modules/
+#----歪歪网盘----
 #----耽美中文网----
 #----纤手美发网----
 +d i.qianshou.com /adsJs/logobanner.js
@@ -2075,11 +2085,16 @@ msFilterList
 #----免费中国----
 - *cnenf.com/images/*.jpg
 - *cnenf.com/images/ad*.gif
+#----迅载网盘----
+-d static.xunzai.com /www/*_*.gif
 #----杀毒安全网----
 - *.safeba.net/images/a*.jpg
 #----找小说网----
 -d www.zhaoxiaoshuo.com /adproxy.html?
 -d www.zhaoxiaoshuo.com /js/63wan.js
+#----Files77----
+- *.files77.com/images/686x90.swf
+#----龙海论坛----
 #----书香电子书----
 -d dm.sxcnw.net /pic/*.gif
 -d dm.sxcnw.net /pic/*.jpg
@@ -2236,6 +2251,10 @@ msFilterList
 -d graphics.streamray.com /images/cams/flash/cams_live.swf
 #----77119TXT小说----
 - *.77119.com/js/
+#----119G免费网盘----
+-d d.119g.com /fanwan/top_banner.js
+-d www.119down.com /skin/assets/images/ad*.jpg
+-d www.pk38.com /statics/images/ay/250x300.gif
 #----凡客诚品----
 -d union.vancl.com
 -d www.vancl.com /WebSource/
@@ -2517,6 +2536,8 @@ msFilterList
 -d www.ys168.com /images/*_*.
 - */ys168/
 -d www.ys168.com /images/*.gif
+#----麦享网----
+-d img01.taobaocdn.com /bao/uploaded/*.jpg
 #----南海网----
 -d oa.hinews.cn /work/img/*_oxadcesl.swf
 #----博客网----
@@ -2541,6 +2562,9 @@ msFilterList
 -d dict.hudong.com /xml/*.html
 -d hdad.hudong.com
 -d zt.hudong.com /wid.html
+#----共享盘----
+- *.gxp.cc/ad/
+-d gxp.cc /skin/ScrollImage.js
 #----湖南招生考试信息网----
 -d www.hneeb.cn /images/*201*.gif
 -d www.hneeb.cn /images/imgAd_*.gif
@@ -3072,6 +3096,14 @@ msFilterList
 - *20ju.com/js/RightJs1.js
 -d www.20ju.com /images/*.swf
 -d www.20ju.com /images/*.gif
+#----Tom365----
+- *.tom365.com/js/7
+- *.tom365.com/js/by*.js
+- *.tom365.com/newjs/468.js?
+- *.tom365.com/js/2*.js
+- *.tom365.com/js/1*.js
+- *.tom365.com/newjs/5*.js
+- *.tom365.com/newjs/6*.js
 #----一九下载----
 -d www.19937.com /b/
 #----奇虎----
@@ -3228,6 +3260,8 @@ msFilterList
 #----LiveJasmin----
 - *.creatives.livejasmin.com/
 #----燃文小说----
+- *.ranwen.cc/js/m/lc_*.js
+- *.ranwen.cc/js/m/c_*.js
 -d www.ranwen.net /ssi/
 #----华彩软件园----
 - *.huacolor.com/soft/UploadPic/*.gif
@@ -3528,6 +3562,8 @@ msFilterList
 #----飞鸟网----
 -d img.hdbird.com /langzi/
 #----城通网盘----
+- *.400gb.com/advview.php?
+- *.400gb.com/userclick*.js
 -d clientclick.tv002.com
 -d static.ctdisk.com /510.js?
 #----我的网址导航----
@@ -3612,6 +3648,7 @@ msFilterList
 -d dl.everbox.com /www/images/coop/*.jpg
 - *.everbox.com/images/*_ad.
 #----千脑----
+-d down.qiannao.com /tomos/ui/*.htm
 -d pic1.qndown.com /doimg/yfking/
 -d count.qiannao.com
 #----Yunfile----
@@ -4092,6 +4129,7 @@ msFilterList
 #----TGFC俱乐部----
 -d club.tgfcer.com /images/g
 #----千军万马网络硬盘----
+- *.qjwm.com/123.jpg
 -d www.qjwm.com /qjwmtop.js
 -d www.qjwm.com /j/bbscpv.js
 -d www.qjwm.com /j/bbs.js

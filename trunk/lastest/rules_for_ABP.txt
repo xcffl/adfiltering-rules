@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-02-07 21:10:51
+!Updated:2013-02-08 22:37:45
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.5
 !Copyright 2011 xcffl, Apache License 2.0
@@ -123,6 +123,7 @@
 ##.ad_top
 ##.adLeft
 ###tads.c
+###bottomAds
 ###bottomads
 ###ad_links1
 !------广告过滤规则------
@@ -467,6 +468,9 @@
 |http://*js_popwinforum*
 */aaaddd/*
 */adposition/*
+*/ad2.*
+*/ad3.*
+*/gg1.*
 |http://*/s?z=*
 *all_content_ad*
 |http://*ggplay.js*
@@ -1022,6 +1026,8 @@
 *.1717388.com/*
 *.7iam.com/*
 ||ad*.ctrmi.com/*
+||p.144gg.com/*
+||codes.xp3366.com/*
 *.7pk.com/*
 *.8le8le.com/*
 *.91ivr.com/*
@@ -1123,6 +1129,8 @@
 *.sms888.net*
 ||www.top1bet.com/imgs/zp*x*.gif
 *.sparkstudios.com/*
+|http://*pv.cc/*
+*.adjwl.com/*
 *.t2t2.com/*
 *.taobd.com/*
 *.the5v.com/*
@@ -1204,6 +1212,7 @@
 |http://*wangrong1002.com*
 ||res.9dzc.com/tcjs/*
 *.heroclick.cn/*
+*.913h6.cn/code/*
 *.000wan.com/*
 *.doubleclick.net/*
 *.84422.com/*
@@ -1252,6 +1261,7 @@
 ||pages.etology.com*
 *.tbjfw.com/*
 ||pic.adver.com*
+||js.kk7kk.com/*
 ||popunder.adsrevenue.net*
 ||popunder.paypopup.com/popup.php*
 ||ppntv.033.com/*
@@ -2014,6 +2024,10 @@ yesky.com##[class^="ad"]
 ||u.115.com/static/tjj/delivery/*.html
 ||tool.115.com/static/mm/*
 ||u.115.com/static/modules/*
+!----歪歪网盘----
+yypan.com##.cn_right
+yypan.com##.xz_tit2
+yypan.com##.xz_con2
 !----耽美中文网----
 52blgl.com##[id^="mn_cb"]
 !----纤手美发网----
@@ -2326,11 +2340,20 @@ jdcjsr.com##.clearfix.mt10
 !----免费中国----
 *cnenf.com/images/*.jpg
 *cnenf.com/images/ad*.gif
+!----迅载网盘----
+u.xunzai.com##.rbox
+||static.xunzai.com/www/*_*.gif
 !----杀毒安全网----
 *.safeba.net/images/a*.jpg
 !----找小说网----
 ||www.zhaoxiaoshuo.com/adproxy.html?*
 ||www.zhaoxiaoshuo.com/js/63wan.js
+!----Files77----
+*.files77.com/images/686x90.swf
+files77.com##[id^="gg"]
+!----龙海论坛----
+0596lh.com##.a_p
+0596lh.com##FIELDSET[style="padding:0px;border:1px solid #CCCCCC; color:#CC3300;);line-height:1.3; font-size:14px;"]
 !----书香电子书----
 ||dm.sxcnw.net/pic/*.gif
 ||dm.sxcnw.net/pic/*.jpg
@@ -2524,6 +2547,10 @@ bbs.gaytie.info##[class^="ad_"]
 ||graphics.streamray.com/images/cams/flash/cams_live.swf
 !----77119TXT小说----
 *.77119.com/js/*
+!----119G免费网盘----
+||d.119g.com/fanwan/top_banner.js
+||www.119down.com/skin/assets/images/ad*.jpg
+||www.pk38.com/statics/images/ay/250x300.gif
 !----凡客诚品----
 ||union.vancl.com/*
 ||www.vancl.com/WebSource/*
@@ -2851,6 +2878,8 @@ ys168.com###idzdy1
 ||www.ys168.com/images/*_*.*
 */ys168/*
 ||www.ys168.com/images/*.gif
+!----麦享网----
+||img01.taobaocdn.com/bao/uploaded/*.jpg$domain=maixiang.me
 !----南海网----
 hinews.cn##[id^="hi_gg_"]
 ||oa.hinews.cn/work/img/*_oxadcesl.swf
@@ -2879,6 +2908,10 @@ bbs.cnhubei.com##.ad
 ||dict.hudong.com/xml/*.html
 ||hdad.hudong.com/*
 ||zt.hudong.com/wid.html
+!----共享盘----
+gxp.cc##[class*="adx"]
+*.gxp.cc/ad/*
+||gxp.cc/skin/ScrollImage.js
 !----湖南招生考试信息网----
 ||www.hneeb.cn/images/*201*.gif
 ||www.hneeb.cn/images/imgAd_*.gif
@@ -3505,6 +3538,16 @@ dl.vmall.com###filelist_marker
 *20ju.com/js/RightJs1.js
 ||www.20ju.com/images/*.swf
 ||www.20ju.com/images/*.gif
+!----Tom365----
+tom365.com##[id^="csDLFTcpv"]
+tom365.com###t365
+*.tom365.com/js/7*
+*.tom365.com/js/by*.js*
+*.tom365.com/newjs/468.js?*
+*.tom365.com/js/2*.js
+*.tom365.com/js/1*.js*
+*.tom365.com/newjs/5*.js
+*.tom365.com/newjs/6*.js
 !----一九下载----
 ||www.19937.com/b/*
 !----奇虎----
@@ -3683,6 +3726,8 @@ yyets.com##.couplet
 !----LiveJasmin----
 *.creatives.livejasmin.com/*
 !----燃文小说----
+*.ranwen.cc/js/m/lc_*.js
+*.ranwen.cc/js/m/c_*.js
 ||www.ranwen.net/ssi/*
 !----华彩软件园----
 *.huacolor.com/soft/UploadPic/*.gif
@@ -3996,6 +4041,9 @@ appinn.com##.ads
 !----城通网盘----
 ctdisk.com##TBODY
 ctdisk.com##A[href="/adv.php"]
+400gb.com,ctdisk.com##.kk_xshow
+*.400gb.com/advview.php?*
+*.400gb.com/userclick*.js
 ||clientclick.tv002.com/*
 ||static.ctdisk.com/510.js?*
 !----我的网址导航----
@@ -4083,6 +4131,9 @@ dui.lu##[id^="j_duilu"]
 !----千脑----
 down.qiannao.com##.file_ads
 down.qiannao.com###PageRigntAds
+qiannao.com##.file_ads
+qiannao.com##[id^="yzjy"]
+||down.qiannao.com/tomos/ui/*.htm
 ||pic1.qndown.com/doimg/yfking/*
 ||count.qiannao.com/*
 !----Yunfile----
@@ -4595,6 +4646,7 @@ wper.com##[class^="wea_d_"]
 !----TGFC俱乐部----
 ||club.tgfcer.com/images/g*
 !----千军万马网络硬盘----
+*.qjwm.com/123.jpg
 ||www.qjwm.com/qjwmtop.js
 ||www.qjwm.com/j/bbscpv.js
 ||www.qjwm.com/j/bbs.js

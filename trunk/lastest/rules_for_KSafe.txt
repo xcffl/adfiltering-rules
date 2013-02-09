@@ -1637,8 +1637,8 @@
 5,4,td.atm.youku.com/tdap/adclose
 5,4,static.atm.youku.com/Tudou201*.swf
 5,4,td.atm.youku.com/tdcm/adcontrol
-5,4,static.atm.youku.com/*udou2012/*.jpg
-5,4,static.atm.youku.com/*udou2012/*.swf*
+5,4,static.atm.youku.com/*udou201*/*.jpg
+5,4,static.atm.youku.com/*udou201*/*.swf*
 5,4,*/adplay*
 5,4,114.80.180.15/*
 5,4,td.atm.youku.com/tdap/adcommon?*
@@ -1666,8 +1666,8 @@
 5,4,static.atm.youku.com/*taobao*.html*
 5,4,static.atm.youku.com/*taobao*.jpg*
 5,4,static.atm.youku.com/*taobao*.swf*
-5,4,static.atm.youku.com/*ouku2012/*.gif*
-5,4,static.atm.youku.com/*ouku2012/*.jpg*
+5,4,static.atm.youku.com/*ouku201*/*.gif*
+5,4,static.atm.youku.com/*ouku201*/*.jpg*
 5,4,static.atm.youku.com/crossdomain.xml
 5,4,html.atm.youku.com/*
 5,4,valc.atm.youku.com/*

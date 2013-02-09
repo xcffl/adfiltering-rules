@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-02-08 22:37:45
+#Updated:2013-02-09 15:39:05
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.5
 #Copyright 2011 xcffl, Apache License 2.0
@@ -1702,8 +1702,8 @@ msFilterList
 #*/youku/*.flv
 -d static.atm.youku.com /Tudou201*.swf
 -d td.atm.youku.com /tdcm/adcontrol
--d static.atm.youku.com udou2012/*.jpg
--d static.atm.youku.com udou2012/*.swf
+-d static.atm.youku.com udou201*/*.jpg
+-d static.atm.youku.com udou201*/*.swf
 - http://*/adplay
 #|http://*/adcontrol*
 -d 114.80.180.15
@@ -1733,9 +1733,9 @@ msFilterList
 -d static.atm.youku.com taobao*.html
 -d static.atm.youku.com taobao*.jpg
 -d static.atm.youku.com taobao*.swf
-#||static.atm.youku.com/*ouku2012/*.swf*
--d static.atm.youku.com ouku2012/*.gif
--d static.atm.youku.com ouku2012/*.jpg
+#||static.atm.youku.com/*ouku201*/*.swf*
+-d static.atm.youku.com ouku201*/*.gif
+-d static.atm.youku.com ouku201*/*.jpg
 -d static.atm.youku.com /crossdomain.xml
 -d html.atm.youku.com
 #||vhtml.atm.youku.com/*

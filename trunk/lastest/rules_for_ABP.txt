@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-02-09 15:39:05
+!Updated:2013-02-12 17:34:36
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.5
 !Copyright 2011 xcffl, Apache License 2.0
@@ -959,8 +959,10 @@
 *.adszui.com/*
 ||js.3975.com/*
 *.ooaaoo.com/*
+||union*.50bang.org/*
 *.1133.cc/*
 *irs01.net/*
+||h.irs01.com/crossdomain.xml
 *irs01.com/irt?*
 ||pub.htwisdom.com/*
 ||union.zhubajie.com/*
@@ -1670,6 +1672,7 @@ sina.com.cn##[id^="ad_arti_"]
 sina.com.cn##.article-video
 @@||api.t.sina.com.cn/statuses/counts.*
 ||d5.sina.com.cn/20*/*/*.jpg$domain=www.sina.com.cn
+||log.interest.mix.sina.com.cn/*
 ||d5.sina.com.cn/d1images/lmt/play.gif
 ||v.sina.com.cn/*.html
 ||ent.sina.com.cn/js/*/index/headent.js
@@ -1791,7 +1794,7 @@ sogou.com###bdfs0
 ||data.vrs.sohu.com/player.gif?*
 *.sohu.com.cn/*.gif?*&uid=*
 |http://*sogouad*js*
-||aty*.tv.sohu.com/*
+||aty*.sohu.com/*
 |http://*sogouad*php*
 ||inte.sogou.com/*
 ||images.sohu.com/cs/htmlfile/brand/*
@@ -1899,6 +1902,7 @@ tudou.com###adex_board
 |http://*/adplay*
 !|http://*/adcontrol*
 ||114.80.180.15/*
+||logs.live.tudou.com/*
 ||td.atm.youku.com/tdap/adcommon?*
 ||istat.tudou.com/play.srv?*
 ||player.pb.ops.tudou.com/info.php?*
@@ -4493,6 +4497,9 @@ freehao123.com##.gg
 !----游民星空----
 gamersky.com##.adc
 gamersky.com###clickbg
+gamersky.com##div[style="position:absolute;z-index:1"]
+gamersky.com##.topadbod
+*gamersky.com/img/bg_*_*.jpg
 ||imgf.gamersky.com/**bg_ol*.jpg
 ||imgf.gamersky.com/*/*
 *.gamersky.com/frame/*

@@ -1,3 +1,7 @@
+*.narutom.com/stat.js
+*.narutom.com/v2/js/198game_Lt.js
+bbs.kaspersky.com.cn/images/bbs/*
+img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 *normteam.com/usepic/*
 act.2144.cn/adv_img/*
 www.caiwu51.com/myqie/*.js
@@ -1228,6 +1232,7 @@ ziti.cndesign.com/logo*.gif
 www.juqingz.com/skins/icons/*
 img.jcard.cn/ADNews/*
 *my9u.com/content/templates/demo/images/*
+*gamersky.com/img/bg_*_*.jpg
 imgf.gamersky.com/**bg_ol*.jpg
 imgf.gamersky.com/*/*
 *.gamersky.com/frame/*

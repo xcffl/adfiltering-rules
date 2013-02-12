@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-02-12 17:45:42
+!Updated:2013-02-12 17:52:19
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -1936,6 +1936,7 @@ bannerad
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/\*taobao\*\.html/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/\*taobao\*\.jpg/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/\*taobao\*\.swf/
+!||static.atm.youku.com/*ouku201*/*.jpg*
 !||static.atm.youku.com/*ouku201*/*.swf*
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/\*ouku201\*\/\*\.gif/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/\*ouku201\*\/\*\.jpg/
@@ -2097,7 +2098,7 @@ bannerad
 ##adflash	$d=iqiyi.com
 ##.first_adv	$d=iqiyi.com
 ##[id^="div_theatre"]	$d=iqiyi.com
-/\.iqiyi\.com\/player\/ed979320c2a511ea207040ae9524c90dbb99c484be3\.swf/
+/\.iqiyi\.com\/player\/1\*\.swf/
 /:\/\/([^\/]+\.)?202\.108\.14\.72\/ts\.swf/
 /:\/\/([^\/]+\.)?220\.181\.109\.181\/tracker\?/
 /:\/\/([^\/]+\.)?123\.125\.118\.75\//

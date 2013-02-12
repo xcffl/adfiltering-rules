@@ -1775,7 +1775,7 @@
 5,4,11.mydrivers.com/myfiles/04.js
 5,4,11.mydrivers.com/myfiles/myfiles100*.js
 5,4,*images.mydrivers.com/*/*x*.gif
-5,4,*.iqiyi.com/player/ed979320c2a511ea207040ae9524c90dbb99c484be3.swf
+5,4,*.iqiyi.com/player/1*.swf
 5,4,202.108.14.72/ts.swf
 5,4,220.181.109.181/tracker?*
 5,4,123.125.118.75/*

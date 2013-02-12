@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-02-09 15:39:05
+#Updated:2013-02-12 17:34:36
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.5
 #Copyright 2011 xcffl, Apache License 2.0
@@ -842,8 +842,10 @@ msFilterList
 - *.adszui.com/
 -d js.3975.com
 - *.ooaaoo.com/
+- http://union*.50bang.org/
 - *.1133.cc/
 - *irs01.net/
+-d h.irs01.com /crossdomain.xml
 - *irs01.com/irt?
 -d pub.htwisdom.com
 -d union.zhubajie.com
@@ -1509,6 +1511,7 @@ msFilterList
 #----新浪网&看点----
 +d api.t.sina.com.cn /statuses/counts.
 -d d5.sina.com.cn /20*/*/*.jpg
+-d log.interest.mix.sina.com.cn
 -d d5.sina.com.cn /d1images/lmt/play.gif
 -d v.sina.com.cn .html
 -d ent.sina.com.cn /js/*/index/headent.js
@@ -1619,7 +1622,7 @@ msFilterList
 -d data.vrs.sohu.com /player.gif?
 - *.sohu.com.cn/*.gif?*&uid=
 - http://*sogouad*js
-- http://aty*.tv.sohu.com/
+- http://aty*.sohu.com/
 - http://*sogouad*php
 -d inte.sogou.com
 -d images.sohu.com /cs/htmlfile/brand/
@@ -1707,6 +1710,7 @@ msFilterList
 - http://*/adplay
 #|http://*/adcontrol*
 -d 114.80.180.15
+-d logs.live.tudou.com
 -d td.atm.youku.com /tdap/adcommon?
 -d istat.tudou.com /play.srv?
 -d player.pb.ops.tudou.com /info.php?
@@ -3982,6 +3986,7 @@ msFilterList
 #----我的久优----
 - *my9u.com/content/templates/demo/images/
 #----游民星空----
+- *gamersky.com/img/bg_*_*.jpg
 -d imgf.gamersky.com *bg_ol*.jpg
 -d imgf.gamersky.com
 - *.gamersky.com/frame/

@@ -815,8 +815,10 @@
 5,4,*.adszui.com/*
 5,4,js.3975.com/*
 5,4,*.ooaaoo.com/*
+5,4,union*.50bang.org/*
 5,4,*.1133.cc/*
 5,4,*irs01.net/*
+5,4,h.irs01.com/crossdomain.xml
 5,4,*irs01.com/irt?*
 5,4,pub.htwisdom.com/*
 5,4,union.zhubajie.com/*
@@ -1458,6 +1460,7 @@
 5,4,www.zhujima.com/tu/*u*.jpg
 5,4,www.zhujima.com/tu/*g*.png
 5,4,www.zhujima.com/tu/*vps.gif
+5,4,log.interest.mix.sina.com.cn/*
 5,4,d5.sina.com.cn/d1images/lmt/play.gif
 5,4,v.sina.com.cn/*.html
 5,4,ent.sina.com.cn/js/*/index/headent.js
@@ -1565,7 +1568,7 @@
 5,4,data.vrs.sohu.com/player.gif?*
 5,4,*.sohu.com.cn/*.gif?*&uid=*
 5,4,*sogouad*js*
-5,4,aty*.tv.sohu.com/*
+5,4,aty*.sohu.com/*
 5,4,*sogouad*php*
 5,4,inte.sogou.com/*
 5,4,images.sohu.com/cs/htmlfile/brand/*
@@ -1641,6 +1644,7 @@
 5,4,static.atm.youku.com/*udou201*/*.swf*
 5,4,*/adplay*
 5,4,114.80.180.15/*
+5,4,logs.live.tudou.com/*
 5,4,td.atm.youku.com/tdap/adcommon?*
 5,4,istat.tudou.com/play.srv?*
 5,4,player.pb.ops.tudou.com/info.php?*
@@ -3215,6 +3219,7 @@
 5,4,www.juqingz.com/skins/icons/*
 5,4,img.jcard.cn/ADNews/*
 5,4,*my9u.com/content/templates/demo/images/*
+5,4,*gamersky.com/img/bg_*_*.jpg
 5,4,imgf.gamersky.com/**bg_ol*.jpg
 5,4,imgf.gamersky.com/*/*
 5,4,*.gamersky.com/frame/*

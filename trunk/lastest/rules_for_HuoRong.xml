@@ -8932,7 +8932,7 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
-<path>*.iqiyi.com/player/ed979320c2a511ea207040ae9524c90dbb99c484be3.swf</path>
+<path>*.iqiyi.com/player/1*.swf</path>
 <object>*</object>
 </analyzer>
 <analyzer>

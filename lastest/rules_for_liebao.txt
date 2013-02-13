@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-02-13 12:06:30
+!Updated:2013-02-13 12:17:54
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -4895,12 +4895,12 @@ bannerad
 /\.google\.com\/jsapi\?autoload=\*%22ads%22\*function/	$domain=youtube.com
 /:\/\/([^\/]+\.)?www\.google\.cn\/aclk\?/	
 !----百度&乐居&hao123----
-www.baidu.com/*###ec_im_container
-www1.baidu.com/*###ec_im_container
-ipv6.baidu.com/*###ec_im_container
-www.baidu.com/*###.ec_bdtg
-www1.baidu.com/*###.ec_bdtg
-ipv6.baidu.com/*###.ec_bdtg
+###ec_im_container	$d=www.baidu.com
+###ec_im_container	$d=www1.baidu.com
+###ec_im_container	$d=ipv6.baidu.com
+##.ec_bdtg	$d=www.baidu.com
+##.ec_bdtg	$d=www1.baidu.com
+##.ec_bdtg	$d=ipv6.baidu.com
 ##ecad	$d=news.baidu.com
 ##aside_ad	$d=tieba.baidu.com
 ##[id^="guanggao"]	$d=tieba.baidu.com

@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-02-12 17:52:19
+#Updated:2013-02-13 12:06:30
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.5
 #Copyright 2011 xcffl, Apache License 2.0
@@ -2045,16 +2045,6 @@ msFilterList
 #----动漫吧----
 - *.dm8.cc/s/
 - *.dm8.cc/javascript/xshow.js
-#----金山词霸----
--d cdn.iciba.com /web/co/fy/*.swf
--d cdn.iciba.com /web/co/fy/*.gif
--d cdn.iciba.com /web/co/ci/*.jpg
--d cdn.iciba.com /web/co/ci/*.gif
--d u.iciba.com
-- *.iciba.com/images/toef.jpg
--d iciba.englishtown.com /Sp/Landing/
--d web.iciba.com /ef/
--d goto.www.iciba.com
 #----发型阁----
 -d www.faxingge.com /UpFile/ad/
 -d www.faxingge.com /fxgjs/header-min.js
@@ -2706,8 +2696,6 @@ msFilterList
 #----酷我音乐----
 - http://img.koowo.com
 -d wa.kuwo.cn /lyrics/img/kwgg/
-#----金山快快----
--d cw002.kuaikuai.cn /website/subject/editor_recommend2/
 #----远景在线----
 -d www.pcbeta.com /static/image/biz/
 -d bbs.pcbeta.com /static/image/biz/
@@ -2843,6 +2831,21 @@ msFilterList
 #----游久网----
 - *.uuu9.com/code/tool_netgame/
 #----天珠变----
+#----金山逍遥----
+# @@*.adm.cnzz.net/*.gif?*
+# @@*js.adm.cnzz.net/*.php?*
+#----金山词霸----
+-d cdn.iciba.com /web/co/fy/*.swf
+-d cdn.iciba.com /web/co/fy/*.gif
+-d cdn.iciba.com /web/co/ci/*.jpg
+-d cdn.iciba.com /web/co/ci/*.gif
+-d u.iciba.com
+- *.iciba.com/images/toef.jpg
+-d iciba.englishtown.com /Sp/Landing/
+-d web.iciba.com /ef/
+-d goto.www.iciba.com
+#----金山快快----
+-d cw002.kuaikuai.cn /website/subject/editor_recommend2/
 #----金山快盘----
 +d web.kuaipan.cn /static/images/ads/index/
 #----金山网络----
@@ -3987,7 +3990,7 @@ msFilterList
 #----我的久优----
 - *my9u.com/content/templates/demo/images/
 #----游民星空----
-- *gamersky.com/img/bg_*_*.jpg
+- *gamersky.com/img/bg_*.jpg
 -d imgf.gamersky.com *bg_ol*.jpg
 -d imgf.gamersky.com
 - *.gamersky.com/frame/

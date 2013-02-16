@@ -1,9 +1,14 @@
+act.2144.cn/adv_img/*
+www.caiwu51.com/myqie/*.js
+www.asp300.com/*adjs/*
+*.kenwen.com/scripts/ctc.js
 ads.skykiwi.com/*
 www.gcemedia.co.nz/www/images/*.swf
 bbs.xmfish.com/images/atm/*
 client.xmfish.com/attachments/bar/*
 hot.xmfish.com/pages/images/*
 img.xmfish.com/attachment/Mon_1104/*
+img.shulink.com/js/pagetop*.js
 img.duote.com/images/gg_bbs_*
 img.duote.com/duotehtml/*
 img.duote.com/images/cop/*
@@ -38,6 +43,9 @@ www.ipc.me/plus/static_files/nuffnang.html
 www.iplaysoft.com/plus/static_files/nuffnang.html
 *.t6t8.com/soft/images/soft_gg*.*
 www.wewehot.com/googlevideoadslibraryas*.swf
+pv.zol.com.cn/*
+icon.zol-img.com.cn/mainpage/js/click.js*
+js.zol.com.cn/pv.js
 icon.zol-img.com.cn/public/js/web_foot.js
 p.zol-img.com.cn/*
 dw.cbsi.com.cn/clear/*c.gif?*
@@ -573,6 +581,7 @@ www.163pan.com/ui/a2.gif
 www.hackp.com/images/*
 gg.zzit.com.cn/js/*.js
 home.soufun.com/html/*
+www.erji.net/ejnew.gif
 photo.erji.com/*
 img.17k.com/channel/qita/*
 stat.17k.com/*
@@ -586,9 +595,9 @@ www.3156.cn/js/float_ads.*.js
 www.3156.cn/images/fdgg.css
 mr*.douban.com/*/rda/*.mp3
 vt*.douban.com/*/rda/*.flv
-img*.douban.com/js/fm/packed_fm_rotate_ad*.js
-img*.douban.com/js/fm/packed_fm_bgad*.js
-img*.douban.com/js/fm/packed_fm_bannerad*.js
+img3.douban.com/js/fm/packed_fm_rotate_ad*.js
+img3.douban.com/js/fm/packed_fm_bgad*.js
+img3.douban.com/js/fm/packed_fm_bannerad*.js
 img3.douban.com/js/boomerang.js*
 erebor.douban.com/?unit=*
 erebor.douban.com/count/?ad=*
@@ -1486,6 +1495,7 @@ pan.baidu.com/api/analytics?*
 cdn.baidupcs.com/monitor.jpg?*
 
 
+tns.simba.taobao.com/*
 log.mmstat.com/*
 log.mm.vip.cnz.alimama.com/*
 img.alimama.cn/cms/images/*.swf

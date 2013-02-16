@@ -1,16 +1,17 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:xcffl
-!Updated:2013-02-13 12:06:30
+!Updated:2013-02-16 20:01:44
 !Description:一个通用、全面的广告过滤规则
 !版本_5.1.5
-!Copyright 2011 xcffl, Apache License 2.0
+!Copyright 2011-2013 xcffl, Apache License 2.0
 ! This list expires after 7 days
 !-------------通用规则-------------
 !------元素隐藏规则------
 ###adxBigAd
 ###ad_box
 ~sun.mv,~trailvoy.com##.top_ads
+##.ad_link
 ###adxMiddle5
 ###adxSponLink
 ###adxSponLinkA
@@ -95,6 +96,10 @@
 ###ad_B
 ###ad_A
 ###ad_I
+###ad-north-base
+##.ad_slug_table
+##.middle-ad
+##.type_miniad
 ~horsemart.co.uk,~torrentv.org##.top_ad
 ###ad_J
 ~brisbanetimes.com.au,~smh.com.au,~theage.com.au,~watoday.com.au##.adWrapper
@@ -125,6 +130,7 @@
 ###tads.c
 ###bottomAds
 ###bottomads
+##.ad_box
 ###ad_links1
 !------广告过滤规则------
 |http://*/js.ng/*
@@ -142,6 +148,7 @@
 */adimg.*
 */tanchuang.*
 */banner-ad-*
+!****慢速标识****
 */adv.*
 !|http://*/pv.*
 */advpic/*
@@ -149,6 +156,7 @@
 */images/ad/*
 */adv03.*
 */spc.php?*
+!****慢速标识****
 *_ad1.*
 */tuiguang/*
 *.swf?clicktag=*
@@ -266,7 +274,9 @@
 @@*/publiclink.*
 |http://*clink.*
 |http://*.ad.*.js*
+!****慢速标识****
 *.ad1.*
+!****慢速标识****
 *.ads.*
 */ads/*.ico*
 */ads/*.htm*
@@ -280,6 +290,7 @@
 |http://*/a_d/*
 */aadd/*
 |http://*/ad.php*
+!****慢速标识****
 */ad2/*
 */adbot.*
 */adifm_*
@@ -289,7 +300,7 @@
 */addeliver/*
 */adimages/*
 */adimg/*
-|adimg.*
+||adimg.*
 */adlog/*
 */adpic/*
 */adpics/*
@@ -324,6 +335,7 @@
 */gg_new/*
 */ggao/*
 */ggpic/*
+!****慢速标识****
 */ggs/*
 |http://*adview*
 */adwidget.js
@@ -432,6 +444,7 @@
 *c.*/code_img/*
 ||c.*/img_*
 |http://*code.*/iclk*
+!****慢速标识****
 */gg2.*
 *code.*/show.php?*
 */adfile/*
@@ -655,6 +668,7 @@
 */adpolicy.aspx?*
 */googleafs.*
 */floatadv.*
+*/content_ad_*
 *.org*/click/*html
 *.cn*/click/*html
 */click/*htm
@@ -1194,6 +1208,7 @@
 ||y.taolai.cn*
 ||y.abang.com*
 ||vip.qingdaonews.com*
+||tgb.csbew.com/*
 ||web.kehu.cn*
 ||sysimages.tq.cn*
 *.ugooo.cc/*
@@ -1306,6 +1321,7 @@
 *yceml.net/0106/*
 ||www.yceml.net/*
 ||js*.339.cn/*
+||ca.cbsi.com.cn/rpv?*
 *.admin6.com/a/*
 ||jump.admin6.com/iclk/*
 |http://irs09.com/*
@@ -1672,6 +1688,7 @@ sina.com.cn##[id^="ad_arti_"]
 sina.com.cn##.article-video
 @@||api.t.sina.com.cn/statuses/counts.*
 ||d5.sina.com.cn/20*/*/*.jpg$domain=www.sina.com.cn
+||tjs.sjs.sinajs.cn/open/analytics/*
 ||log.interest.mix.sina.com.cn/*
 ||d5.sina.com.cn/d1images/lmt/play.gif
 ||v.sina.com.cn/*.html
@@ -1959,6 +1976,12 @@ youku.com##.AB240
 @@||l.yimg.com/zz/combo?*.js*
 ||l.yimg.com/d/lib/bc/bcr_2.0.5.js
 ||l.yimg.com/f/a/tw/gif_backup/ad_*.gif
+cn.yahoo.com###r_expandable
+cn.yahoo.com##.p_sider
+*.yahoo.com/yi?bv=*
+*.yahoo.com/b?p=*
+*.yahoo.com/p.gif;*
+||bj.data.cn.yahoo.com/sns*?s=*1024*768*
 *.webmaster.yahoo.com/*
 ||p.mm.cn.yahoo.com*
 |http://*yahoo-ads*
@@ -1993,6 +2016,8 @@ yesky.com##[class^="ad"]
 ||media.yesky.com/*
 */yeskyadroller.swf
 ||image.tianjimedia.com/uploadImages/2011/007/D9KY6F6BT701.gif
+!----ASP300源码下载----
+asp300.com##.asp300-indexAD
 !----华夏土地网----
 ||bbs.hxland.com/static/image/A*.gif
 !----壹聚教程----
@@ -2257,6 +2282,8 @@ lingdiankanshu.com##TD[width="301"]
 !----挖当软件站----
 ||www.wdown.cn/falala/*
 !----华军软件园&牛华网----
+onlinedown.net##.gameunion
+onlinedown.net##OL:first-child:last-child
 newhua.com##[class^="ad_ritht_"]
 newhua.com,onlinedown.net##.softad
 newhua.com,onlinedown.net##.r2
@@ -2266,6 +2293,7 @@ onlinedown.net##.adr
 onlinedown.net##.ban
 onlinedown.net##.t2
 newhua.com##.i1
+*/newhuagg/content_recommend_*.js
 *.newhua.com/Files/newhuagg/*
 */newhuagg/timelimitad.js
 */newhuagg/newsbox.js
@@ -2302,12 +2330,8 @@ emsdy.com###herder_gg
 ||www.emsdy.com/Scripts/ScrResponse.js
 ||fqk.com/fqk_mm.swf
 !----站长之家ChinaZ----
-||images.chinaz.com/bbs_images/*
-||images.chinaz.com/index_images/A*.htm
-||images.chinaz.com/index_images/wz.htm
-||images.chinaz.com/index_images/index_buttom*.htm
-||images.chinaz.com/tool/*
-||images.chinaz.com/index_imagesa/*
+down.chinaz.com##.adtext
+||images.chinaz.com/*
 *chinaz.com/js/text_link.js*
 ||alexa.chinaz.com/ip_gadsense.asp
 ||images.chinaz.com/newindex_images/*
@@ -2324,6 +2348,8 @@ downyi.com###gfad
 ||www.downyi.com/tg/index_gfad.js
 ||www.downyi.com/tg/it168.js
 ||www.downyi.com/css/ad.css
+!----价值中国网----
+chinavalue.net##[id^="ac_im"]
 !----机动车驾驶人信息服务网----
 jdcjsr.com##.gg1
 jdcjsr.com##DIV[onclick^="ad_clicked"]
@@ -2449,6 +2475,8 @@ tesoon.com##TD[valign="top"]
 ||client.xmfish.com/attachments/bar/*
 ||hot.xmfish.com/pages/images/*
 ||img.xmfish.com/attachment/Mon_1104/*
+!----书连小说网----
+||img.shulink.com/js/pagetop*.js
 !----多特软件站----
 ||img.duote.com/images/gg_bbs_*
 ||img.duote.com/duotehtml/*
@@ -2514,6 +2542,10 @@ dl.iplaysoft.com##CENTER
 ||www.wewehot.com/googlevideoadslibraryas*.swf
 !----中关村在线&中关村在线武汉站----
 zol.com.cn##[id^="ad_"]
+www.zol.com.cn##.adwindow
+||pv.zol.com.cn/*
+||icon.zol-img.com.cn/mainpage/js/click.js*
+||js.zol.com.cn/pv.js
 ||icon.zol-img.com.cn/public/js/web_foot.js
 ||p.zol-img.com.cn/*
 ||dw.cbsi.com.cn/clear/*c.gif?*
@@ -2686,6 +2718,8 @@ news.ifeng.com###smExtObjBg
 *.missyuan.com/sy/*
 !----FACE妆点网----
 ||mat.zdface.com/Controls/ChannelHot/ChannelHotTypeID*ClassID*.aspx
+!----贴群----
+tiequn.com##FIELDSET[style="width: 730; border: 1px dashed #a6ccf9"]
 !----多玩游戏----
 ||pic.duowan.com/news/*/*/*.jpg
 *duowan.com/public/s/market_count.js
@@ -2971,6 +3005,8 @@ ent.haxiu.com##.left_a2_04
 *.haxiu.com/taobao/*
 *.haxiu.com/new_themes/flash/neiye2.swf
 *.haxiu.com/new_themes/flash/index_zml_*.swf
+!----nature.com----
+nature.com###leaderboard
 !----哈哈.MX----
 *.haha.mx/Public/images/banner-*.png
 !----热门杂烩----
@@ -3426,6 +3462,9 @@ soufun.com##.photo03
 soufun.com##.photo02
 soufun.com##.adtextlink
 ||home.soufun.com/html/*
+!----耳机大家坛----
+erji.net##[class$="_one black y-style"]
+||www.erji.net/ejnew.gif
 !----耳机网----
 ||photo.erji.com/*
 !----17K（一起看）小说网&四月天言情小说网----
@@ -3450,9 +3489,9 @@ chinaiiss.com##.nav_r:nth-child(6)
 douban.fm##.clickable_ad
 ||mr*.douban.com/*/rda/*.mp3
 ||vt*.douban.com/*/rda/*.flv
-||img*.douban.com/js/fm/packed_fm_rotate_ad*.js
-||img*.douban.com/js/fm/packed_fm_bgad*.js
-||img*.douban.com/js/fm/packed_fm_bannerad*.js
+||img3.douban.com/js/fm/packed_fm_rotate_ad*.js
+||img3.douban.com/js/fm/packed_fm_bgad*.js
+||img3.douban.com/js/fm/packed_fm_bannerad*.js
 ||img3.douban.com/js/boomerang.js*
 ||erebor.douban.com/?unit=*
 ||erebor.douban.com/count/?ad=*
@@ -4715,6 +4754,7 @@ wper.com##[class^="wea_d_"]
 ||union.51.com/*
 ||v3.apic.51.com/vda09.js
 !----360doc个人图书馆----
+360doc.com###ADAboveArtContent
 *360doc.com/js/albb3.js
 !----名城苏州----
 *2500sz.com/site/*
@@ -4952,7 +4992,8 @@ youxi.baidu.com##DIV[style="position: relative; width: 958px; height: 70px; clea
 !----阿里妈妈&阿里软件&淘宝网&淘宝商城----
 @@||a.tbcdn.cn/*/header.js
 @@||www.taobao.com/go/rgn/trip/*$domain=taobao.com
-@@||p.tanx.com^$domain=taobao.com
+@@||p.tanx.com/*$domain=taobao.com
+||tns.simba.taobao.com/*
 ||log.mmstat.com/*
 ||log.mm.vip.cnz.alimama.com/*
 ||img.alimama.cn/cms/images/*.swf

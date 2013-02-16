@@ -1,10 +1,10 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-02-13 12:06:30
+#Updated:2013-02-16 20:01:44
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.5
-#Copyright 2011 xcffl, Apache License 2.0
+#Copyright 2011-2013 xcffl, Apache License 2.0
 : Expires=7
 #-------------通用规则-------------
 #------元素隐藏规则------
@@ -25,6 +25,7 @@ msFilterList
 - */adimg.
 - */tanchuang.
 - */banner-ad-
+#****慢速标识****
 - */adv.
 #|http://*/pv.*
 - */advpic/
@@ -32,6 +33,7 @@ msFilterList
 - */images/ad/
 - */adv03.
 - */spc.php?
+#****慢速标识****
 - *_ad1.
 - */tuiguang/
 - *.swf?clicktag=
@@ -149,7 +151,9 @@ msFilterList
 # @@*/publiclink.*
 - http://*clink.
 - http://*.ad.*.js
+#****慢速标识****
 - *.ad1.
+#****慢速标识****
 - *.ads.
 - */ads/*.ico
 - */ads/*.htm
@@ -163,6 +167,7 @@ msFilterList
 - http://*/a_d/
 - */aadd/
 - http://*/ad.php
+#****慢速标识****
 - */ad2/
 - */adbot.
 - */adifm_
@@ -172,7 +177,7 @@ msFilterList
 - */addeliver/
 - */adimages/
 - */adimg/
-- adimg.
+- http://adimg.
 - */adlog/
 - */adpic/
 - */adpics/
@@ -207,6 +212,7 @@ msFilterList
 - */gg_new/
 - */ggao/
 - */ggpic/
+#****慢速标识****
 - */ggs/
 - http://*adview
 - */adwidget.js
@@ -315,6 +321,7 @@ msFilterList
 - *c.*/code_img/
 - http://c.*/img_
 - http://*code.*/iclk
+#****慢速标识****
 - */gg2.
 - *code.*/show.php?
 - */adfile/
@@ -538,6 +545,7 @@ msFilterList
 - */adpolicy.aspx?
 - */googleafs.
 - */floatadv.
+- */content_ad_
 - *.org*/click/*html
 - *.cn*/click/*html
 - */click/*htm
@@ -1077,6 +1085,7 @@ msFilterList
 - http://y.taolai.cn
 - http://y.abang.com
 - http://vip.qingdaonews.com
+-d tgb.csbew.com
 - http://web.kehu.cn
 - http://sysimages.tq.cn
 - *.ugooo.cc/
@@ -1189,6 +1198,7 @@ msFilterList
 - *yceml.net/0106/
 -d www.yceml.net
 - http://js*.339.cn/
+-d ca.cbsi.com.cn /rpv?
 - *.admin6.com/a/
 -d jump.admin6.com /iclk/
 -d irs09.com
@@ -1511,6 +1521,7 @@ msFilterList
 #----新浪网&看点----
 +d api.t.sina.com.cn /statuses/counts.
 -d d5.sina.com.cn /20*/*/*.jpg
+-d tjs.sjs.sinajs.cn /open/analytics/
 -d log.interest.mix.sina.com.cn
 -d d5.sina.com.cn /d1images/lmt/play.gif
 -d v.sina.com.cn .html
@@ -1762,6 +1773,10 @@ msFilterList
 +d l.yimg.com /zz/combo?*.js
 -d l.yimg.com /d/lib/bc/bcr_2.0.5.js
 -d l.yimg.com /f/a/tw/gif_backup/ad_*.gif
+- *.yahoo.com/yi?bv=
+- *.yahoo.com/b?p=
+- *.yahoo.com/p.gif;
+-d bj.data.cn.yahoo.com /sns*?s=*1024*768
 - *.webmaster.yahoo.com/
 - http://p.mm.cn.yahoo.com
 - http://*yahoo-ads
@@ -1793,6 +1808,7 @@ msFilterList
 -d media.yesky.com
 - */yeskyadroller.swf
 -d image.tianjimedia.com /uploadImages/2011/007/D9KY6F6BT701.gif
+#----ASP300源码下载----
 #----华夏土地网----
 -d bbs.hxland.com /static/image/A*.gif
 #----壹聚教程----
@@ -2019,6 +2035,7 @@ msFilterList
 #----挖当软件站----
 -d www.wdown.cn /falala/
 #----华军软件园&牛华网----
+- */newhuagg/content_recommend_*.js
 - *.newhua.com/Files/newhuagg/
 - */newhuagg/timelimitad.js
 - */newhuagg/newsbox.js
@@ -2054,12 +2071,7 @@ msFilterList
 -d www.emsdy.com /Scripts/ScrResponse.js
 -d fqk.com /fqk_mm.swf
 #----站长之家ChinaZ----
--d images.chinaz.com /bbs_images/
--d images.chinaz.com /index_images/A*.htm
--d images.chinaz.com /index_images/wz.htm
--d images.chinaz.com /index_images/index_buttom*.htm
--d images.chinaz.com /tool/
--d images.chinaz.com /index_imagesa/
+-d images.chinaz.com
 - *chinaz.com/js/text_link.js
 -d alexa.chinaz.com /ip_gadsense.asp
 -d images.chinaz.com /newindex_images/
@@ -2074,6 +2086,7 @@ msFilterList
 -d www.downyi.com /tg/index_gfad.js
 -d www.downyi.com /tg/it168.js
 -d www.downyi.com /css/ad.css
+#----价值中国网----
 #----机动车驾驶人信息服务网----
 -d www.jdcjsr.com /picture/jdcgg/
 -d www.jdcjsr.com /images/0.gif
@@ -2175,6 +2188,8 @@ msFilterList
 -d client.xmfish.com /attachments/bar/
 -d hot.xmfish.com /pages/images/
 -d img.xmfish.com /attachment/Mon_1104/
+#----书连小说网----
+-d img.shulink.com /js/pagetop*.js
 #----多特软件站----
 -d img.duote.com /images/gg_bbs_
 -d img.duote.com /duotehtml/
@@ -2223,6 +2238,9 @@ msFilterList
 #----微视频----
 -d www.wewehot.com /googlevideoadslibraryas*.swf
 #----中关村在线&中关村在线武汉站----
+-d pv.zol.com.cn
+-d icon.zol-img.com.cn /mainpage/js/click.js
+-d js.zol.com.cn /pv.js
 -d icon.zol-img.com.cn /public/js/web_foot.js
 -d p.zol-img.com.cn
 -d dw.cbsi.com.cn /clear/*c.gif?
@@ -2368,6 +2386,7 @@ msFilterList
 - *.missyuan.com/sy/
 #----FACE妆点网----
 -d mat.zdface.com /Controls/ChannelHot/ChannelHotTypeID*ClassID*.aspx
+#----贴群----
 #----多玩游戏----
 -d pic.duowan.com /news/*/*/*.jpg
 - *duowan.com/public/s/market_count.js
@@ -2612,6 +2631,7 @@ msFilterList
 - *.haxiu.com/taobao/
 - *.haxiu.com/new_themes/flash/neiye2.swf
 - *.haxiu.com/new_themes/flash/index_zml_*.swf
+#----nature.com----
 #----哈哈.MX----
 - *.haha.mx/Public/images/banner-*.png
 #----热门杂烩----
@@ -2997,6 +3017,8 @@ msFilterList
 -d gg.zzit.com.cn /js/*.js
 #----搜房房地产网----
 -d home.soufun.com /html/
+#----耳机大家坛----
+-d www.erji.net /ejnew.gif
 #----耳机网----
 -d photo.erji.com
 #----17K（一起看）小说网&四月天言情小说网----
@@ -3015,9 +3037,9 @@ msFilterList
 #----豆瓣----
 - http://mr*.douban.com/*/rda/*.mp3
 - http://vt*.douban.com/*/rda/*.flv
-- http://img*.douban.com/js/fm/packed_fm_rotate_ad*.js
-- http://img*.douban.com/js/fm/packed_fm_bgad*.js
-- http://img*.douban.com/js/fm/packed_fm_bannerad*.js
+-d img3.douban.com /js/fm/packed_fm_rotate_ad*.js
+-d img3.douban.com /js/fm/packed_fm_bgad*.js
+-d img3.douban.com /js/fm/packed_fm_bannerad*.js
 -d img3.douban.com /js/boomerang.js
 -d erebor.douban.com /?unit=
 -d erebor.douban.com /count/?ad=
@@ -4394,6 +4416,7 @@ msFilterList
 +d a.tbcdn.cn /header.js
 +d www.taobao.com /go/rgn/trip/
 +d p.tanx.com
+-d tns.simba.taobao.com
 -d log.mmstat.com
 -d log.mm.vip.cnz.alimama.com
 -d img.alimama.cn /cms/images/*.swf

@@ -518,6 +518,7 @@
 5,4,*/adpolicy.aspx?*
 5,4,*/googleafs.*
 5,4,*/floatadv.*
+5,4,*/content_ad_*
 5,4,*.org*/click/*html
 5,4,*.cn*/click/*html
 5,4,*/click/*htm
@@ -1050,6 +1051,7 @@
 5,4,y.taolai.cn*
 5,4,y.abang.com*
 5,4,vip.qingdaonews.com*
+5,4,tgb.csbew.com/*
 5,4,web.kehu.cn*
 5,4,sysimages.tq.cn*
 5,4,*.ugooo.cc/*
@@ -1161,6 +1163,7 @@
 5,4,*yceml.net/0106/*
 5,4,www.yceml.net/*
 5,4,js*.339.cn/*
+5,4,ca.cbsi.com.cn/rpv?*
 5,4,*.admin6.com/a/*
 5,4,jump.admin6.com/iclk/*
 5,4,irs09.com/*
@@ -1460,6 +1463,7 @@
 5,4,www.zhujima.com/tu/*u*.jpg
 5,4,www.zhujima.com/tu/*g*.png
 5,4,www.zhujima.com/tu/*vps.gif
+5,4,tjs.sjs.sinajs.cn/open/analytics/*
 5,4,log.interest.mix.sina.com.cn/*
 5,4,d5.sina.com.cn/d1images/lmt/play.gif
 5,4,v.sina.com.cn/*.html
@@ -1685,6 +1689,10 @@
 5,4,static.youku.com/*/index/js/iresearch.js
 5,4,l.yimg.com/d/lib/bc/bcr_2.0.5.js
 5,4,l.yimg.com/f/a/tw/gif_backup/ad_*.gif
+5,4,*.yahoo.com/yi?bv=*
+5,4,*.yahoo.com/b?p=*
+5,4,*.yahoo.com/p.gif;*
+5,4,bj.data.cn.yahoo.com/sns*?s=*1024*768*
 5,4,*.webmaster.yahoo.com/*
 5,4,p.mm.cn.yahoo.com*
 5,4,*yahoo-ads*
@@ -1881,6 +1889,7 @@
 5,4,click.dangdang.com/page_tracker.aspx?*
 5,4,img4.ddimg.cn/00074/pic/*_*_*x*_*.jpg
 5,4,www.wdown.cn/falala/*
+5,4,*/newhuagg/content_recommend_*.js
 5,4,*.newhua.com/Files/newhuagg/*
 5,4,*/newhuagg/timelimitad.js
 5,4,*/newhuagg/newsbox.js
@@ -1912,12 +1921,7 @@
 5,4,www.faxingge.com/UpFile/hd/134*.jpg
 5,4,www.emsdy.com/Scripts/ScrResponse.js
 5,4,fqk.com/fqk_mm.swf
-5,4,images.chinaz.com/bbs_images/*
-5,4,images.chinaz.com/index_images/A*.htm
-5,4,images.chinaz.com/index_images/wz.htm
-5,4,images.chinaz.com/index_images/index_buttom*.htm
-5,4,images.chinaz.com/tool/*
-5,4,images.chinaz.com/index_imagesa/*
+5,4,images.chinaz.com/*
 5,4,*chinaz.com/js/text_link.js*
 5,4,alexa.chinaz.com/ip_gadsense.asp
 5,4,images.chinaz.com/newindex_images/*
@@ -1995,6 +1999,7 @@
 5,4,client.xmfish.com/attachments/bar/*
 5,4,hot.xmfish.com/pages/images/*
 5,4,img.xmfish.com/attachment/Mon_1104/*
+5,4,img.shulink.com/js/pagetop*.js
 5,4,img.duote.com/images/gg_bbs_*
 5,4,img.duote.com/duotehtml/*
 5,4,img.duote.com/images/cop/*
@@ -2029,6 +2034,9 @@
 5,4,www.iplaysoft.com/plus/static_files/nuffnang.html
 5,4,*.t6t8.com/soft/images/soft_gg*.*
 5,4,www.wewehot.com/googlevideoadslibraryas*.swf
+5,4,pv.zol.com.cn/*
+5,4,icon.zol-img.com.cn/mainpage/js/click.js*
+5,4,js.zol.com.cn/pv.js
 5,4,icon.zol-img.com.cn/public/js/web_foot.js
 5,4,p.zol-img.com.cn/*
 5,4,dw.cbsi.com.cn/clear/*c.gif?*
@@ -2561,6 +2569,7 @@
 5,4,www.hackp.com/images/*
 5,4,gg.zzit.com.cn/js/*.js
 5,4,home.soufun.com/html/*
+5,4,www.erji.net/ejnew.gif
 5,4,photo.erji.com/*
 5,4,img.17k.com/channel/qita/*
 5,4,stat.17k.com/*
@@ -2574,9 +2583,9 @@
 5,4,www.3156.cn/images/fdgg.css
 5,4,mr*.douban.com/*/rda/*.mp3
 5,4,vt*.douban.com/*/rda/*.flv
-5,4,img*.douban.com/js/fm/packed_fm_rotate_ad*.js
-5,4,img*.douban.com/js/fm/packed_fm_bgad*.js
-5,4,img*.douban.com/js/fm/packed_fm_bannerad*.js
+5,4,img3.douban.com/js/fm/packed_fm_rotate_ad*.js
+5,4,img3.douban.com/js/fm/packed_fm_bgad*.js
+5,4,img3.douban.com/js/fm/packed_fm_bannerad*.js
 5,4,img3.douban.com/js/boomerang.js*
 5,4,erebor.douban.com/?unit=*
 5,4,erebor.douban.com/count/?ad=*
@@ -3468,6 +3477,7 @@
 5,4,dq.baidu.com/nocipher?*
 5,4,pan.baidu.com/api/analytics?*
 5,4,cdn.baidupcs.com/monitor.jpg?*
+5,4,tns.simba.taobao.com/*
 5,4,log.mmstat.com/*
 5,4,log.mm.vip.cnz.alimama.com/*
 5,4,img.alimama.cn/cms/images/*.swf

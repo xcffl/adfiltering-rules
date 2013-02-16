@@ -32,4 +32,4 @@ _以下技能方面会有一定考核，只要能流畅做出合格规则并发�
     # 宣传本规则
     # 更多……
 
-如果你看了上面这些，仍想加入，那么可以Email：xcffl(at)outlook.com，或者直接申请加入[https://plus.google.com/communities/107606357525703501840 社群]，说明你的情况就行。
+如果你看了上面这些，仍想加入，那么可以[https://code.google.com/p/adfiltering-rules/issues/entry?template=%E7%94%B3%E8%AF%B7%E5%8A%A0%E5%85%A5%E6%9C%AC%E9%A1%B9%E7%9B%AE 到issue中填写申请]。你也可以看看[https://code.google.com/p/adfiltering-rules/issues/list?can=2&q=label%3ASubmitted 别人提交的申请]。

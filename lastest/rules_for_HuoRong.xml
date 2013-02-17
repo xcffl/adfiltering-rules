@@ -1822,11 +1822,6 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
-<path>*main/s?*</path>
-<object>*</object>
-</analyzer>
-<analyzer>
-<type>Http</type>
 <path>c.*?aid=*</path>
 <object>*</object>
 </analyzer>

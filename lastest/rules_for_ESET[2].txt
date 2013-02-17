@@ -1,4 +1,3 @@
-act.2144.cn/adv_img/*
 www.caiwu51.com/myqie/*.js
 www.asp300.com/*adjs/*
 *.kenwen.com/scripts/ctc.js

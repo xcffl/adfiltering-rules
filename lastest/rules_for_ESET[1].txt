@@ -362,7 +362,6 @@ a-m-s.*
 */adcontrol/*
 *advjs*.js
 c.*/chat/*
-*main/s?*
 c.*?aid=*
 *floatad.js*
 *.org*/footer.js
@@ -1997,4 +1996,5 @@ rritw.com/my/fload_ads/*
 *.narutom.com/v2/js/198game_Lt.js
 bbs.kaspersky.com.cn/images/bbs/*
 img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
+*normteam.com/usepic/*
 

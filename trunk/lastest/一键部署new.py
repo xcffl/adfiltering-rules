@@ -3413,6 +3413,7 @@ else:
 #!/usr/bin/env python
 # coding: utf-8
 
+
 # The contents of this file are subject to the Mozilla Public License
 # Version 1.1 (the "License"); you may not use this file except in
 # compliance with the License. You may obtain a copy of the License at
@@ -3609,20 +3610,49 @@ def writeRule(filePath, lines):
       result.append(line)
     elif line.find('#') >= 0:
       itemcount = itemcount + 1
-      # 如果是元素隐藏规则
-      #暂不支持domain~的排除规则，删掉排除
-      line = re.sub(r',~[^,#]+(?=#)', '', line)
-      line = re.sub(r'^~[^,]+,', '', line)
-      line = re.sub(r'^~[^,#]+(?=#)', '', line)     
-      #没域名的全局规则ADSafe不支持    
-      if re.search(r'^#', line):
-        
+      # 如果是元素隐藏规则 
+      #没域名的全局规则ADSafe不支持 暂时，带排除规则的不支持   
+      if re.search(r'(^#)|(~)', line):        
         line = ''
-        
-        
-            
       #有域名的调转域名位置
-      elif re.search(r'.+###', line):        
+      #域名排除规则先变成排除
+      else:
+        #其他就全部先分成前后两部分
+        if re.search(r'.+###', line):
+          l = line.split('###')
+        elif re.search(r'.+##', line):
+          l = line.split('##')
+        for line in l:
+          dms = l[0]
+          eh = l[1]
+          if re.search(r',', dms):
+            dm = dms.split(',')
+            dmN = ''
+            for d in dm:
+              d = d + '/*,'
+              dmN = dmN+d
+              dmN = re.sub(r',$','',dmN)
+          else:
+            dmN = dms + '/*'
+        line = eh + '::' + dmN
+        result.append(line)
+        '''
+		
+		#多域名的，分割域名
+		if re.search('~', dms):
+		  line = ''
+		  
+	  #区分排除和过滤域名
+	  
+	  
+      elif re.search(r'(^~)|(,~)', line):
+        line = re.sub(r'^~','', line)
+      
+        
+
+                             
+      elif re.search(r'.+###', line):
+        
         line = re.sub(r'###', '/*###', line)
         l = line.split('###')
         for line in l:
@@ -3641,7 +3671,7 @@ def writeRule(filePath, lines):
               dm2 = cut[1]
 
             
-            line = '''%s/*###%s\r\n%s/*###%s''' %(dm1,eh,dm2,eh)
+            line = '%s/*###%s\r\n%s/*###%s' %(dm1,eh,dm2,eh)
           if times == 3:
             for dm in cut:
               dm1 = cut[0]
@@ -3649,7 +3679,7 @@ def writeRule(filePath, lines):
               dm3 = cut[2]
 
             
-            line = '''%s/*###%s\r\n%s/*###%s\r\n%s/*###%s''' %(dm1,eh,dm2,eh,dm3,eh)
+            line = '%s/*###%s\r\n%s/*###%s\r\n%s/*###%s' %(dm1,eh,dm2,eh,dm3,eh)
             
 
           
@@ -3659,15 +3689,13 @@ def writeRule(filePath, lines):
               dm2 = cut[1]
               dm3 = cut[2]
               dm4 = cut[3]
-            line = '''%s/*##%s
-%s/*##%s
-%s/*##%s
-%s/*##%s''' %(dm1,eh,dm2,eh,dm3,eh,dm4,eh)
+            line = '%s/*##%s\r\n%s/*##%s\r\n%s/*##%s\r\n%s/*##%s' %(dm1,eh,dm2,eh,dm3,eh,dm4,eh)
             
-          #else:
-            #print '====n1====\n' + line
+          else:
+            print '====n1====\n' + line
         else:
           line = '%s/*##%s' %(dm,eh)
+        
         result.append(line)
       #两个#的话
       elif re.search(r'.+##', line):
@@ -3684,8 +3712,7 @@ def writeRule(filePath, lines):
               dm1 = cut[0]
               dm2 = cut[1]
             #生成多行
-            line = '''%s/*##%s
-%s/*##%s''' %(dm1,eh,dm2,eh)
+            line = '%s/*##%s\r\n%s/*##%s' %(dm1,eh,dm2,eh)
 
           if times == 3:
             for dm in cut:
@@ -3693,9 +3720,7 @@ def writeRule(filePath, lines):
               dm2 = cut[1]
               dm3 = cut[2]
             #生成多行
-            line = '''%s/*##%s
-%s/*##%s
-%s/*##%s''' %(dm1,eh,dm2,eh,dm3,eh)
+            line = '%s/*##%s\r\n%s/*##%s\r\n%s/*##%s' %(dm1,eh,dm2,eh,dm3,eh)
             
             
           if times == 4:
@@ -3704,16 +3729,13 @@ def writeRule(filePath, lines):
               dm2 = cut[1]
               dm3 = cut[2]
               dm4 = cut[3]
-            line = '''%s/*##%s
-%s/*##%s
-%s/*##%s
-%s/*##%s''' %(dm1,eh,dm2,eh,dm3,eh,dm4,eh)
+            line = '%s/*##%s\r\n%s/*##%s\r\n%s/*##%s\r\n%s/*##%s' %(dm1,eh,dm2,eh,dm3,eh,dm4,eh)
           #else:
             #print '====n2====\n' + line
         else:
           line = '%s/*##%s' %(dm,eh)
           
-        result.append(line)
+        result.append(line)'''
 
 
 
@@ -3805,11 +3827,11 @@ def writeRule(filePath, lines):
 
         # 尝试提取域名信息
         domain = None
-        match = re.search(r'^(\|\||\|w+://)([^*:/]+)(:\d+)?(/.*)', line)
+        match = re.search(r'^(\|\||\|w+://[^*:/]+:\d+)?(/.*)', line)
         if match:
           
-          domain = match.group(2)
-          line = match.group(4)
+          domain = match.group(1)
+          line = match.group(2)
         else:
 
           # 修改各种标记

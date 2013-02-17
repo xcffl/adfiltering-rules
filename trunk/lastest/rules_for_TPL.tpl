@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:xcffl
-#Updated:2013-02-16 20:01:44
+#Updated:2013-02-17 16:17:21
 #Description:一个通用、全面的广告过滤规则
 #版本_5.1.5
 #Copyright 2011-2013 xcffl, Apache License 2.0
@@ -387,7 +387,7 @@ msFilterList
 - */adcontrol/
 - http://*advjs*.js
 - c.*/chat/
-- http://*main/s?
+#|http://*main/s?*
 - c.*?aid=
 - http://*floatad.js
 - *.org*/footer.js

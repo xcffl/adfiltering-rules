@@ -362,7 +362,6 @@
 5,4,*/adcontrol/*
 5,4,*advjs*.js
 5,4,c.*/chat/*
-5,4,*main/s?*
 5,4,c.*?aid=*
 5,4,*floatad.js*
 5,4,*.org*/footer.js

@@ -12,6 +12,7 @@
 {display:none !important}
 
 /* niconico */
+[id="nicoads"]，
 [id^="head_ads"],
 [id^="web_pc_sidefollow"],
 [id^="web_pc_prime"],
@@ -28,6 +29,8 @@
 {display:none !important}
 
 /* sfacg */
+[src*="ADFrameBD"],
+[src*="AD114"],
 [id^="AD_j1"],
 [id^="AD_j2"]
 {display:none !important}

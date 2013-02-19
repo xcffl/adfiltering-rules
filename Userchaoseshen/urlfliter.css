@@ -3,5 +3,6 @@
 {display:none !important}
 
 /* sfacg */
-[src*="/AD/"],
+[src*="ADFrameBD"],
+[src*="AD114"],
 {display:none !important}

@@ -1,3 +1,7 @@
 ﻿/* niconico */
 [id="nicoads"]
 {display:none !important}
+
+/* sfacg */
+[src*="/AD/"],
+{display:none !important}

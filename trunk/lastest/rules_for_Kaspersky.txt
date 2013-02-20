@@ -2971,7 +2971,6 @@ js.973.com/gjs/383.js
 *miaogu.com/pic/*
 image.songtaste.com/*/songpic1*.jpg
 *lunwen119.com/js/gg_*.js
-img.hdbird.com/langzi/*
 *.400gb.com/advview.php?*
 *.400gb.com/userclick*.js
 clientclick.tv002.com/*

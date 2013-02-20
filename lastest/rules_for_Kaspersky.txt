@@ -1756,6 +1756,7 @@ tool.115.com/static/mm/*
 u.115.com/static/modules/*
 www.cuiweiju.com/temp/gg*.html
 www.linkwan.com/gb/javascript/a*.js
+hotpic.sfacg.com/JS/j*.js*
 shaft.jebe.renren.com/*
 dj.renren.com/*
 gg.xiaonei.com/*
@@ -2732,6 +2733,7 @@ img1.66wz.com/*
 www.66wz.com/adv2/*.js
 *onlylady.com/kds/thread.html
 btn.onlylady.com/*.swf
+www.upan.cc/pay/*
 www.cngr.cn/youxi/UploadPic/*-*/*.jpg
 www.cngr.cn/youxi/UploadPic/*-*/*.gif
 pic*.dler.org/up_img/ven/*

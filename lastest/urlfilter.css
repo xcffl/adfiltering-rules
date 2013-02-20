@@ -1,10 +1,12 @@
-﻿/* Copyright 2011-2013 adfiltering-rules, Apache License 2.0 */
-/* 文件说明：IE广告过滤样式表 */
-/* 使用方法：打开IE的“Internet选项”，点击“辅助功能”，勾选“使用样式表”，选中本文件，确定。 */
+﻿/* 广告过滤样式表 */
+/* 建议用于IE、Opera */
+/* IE使用方法：打开IE的“Internet选项”，点击“辅助功能”，勾选“使用样式表”，选中本文件，确定。 */
 /* 作    者：flyskyz */
 /* 联系方式：http://weibo.com/flyskyz */
 /* 最后更新：2013-2-3 */
-
+/* 隶属于Adfiltering-Rules项目，如需帮助或了解详情
+    可访问 https://code.google.com/p/adfiltering-rules/ 。
+/* Copyright 2011-2013 Adfiltering-Rules Project, Apache License 2.0 */
 /* ======================== 版权自由 欢迎传播 ======================== */
 
 /* pcbeta */
@@ -971,4 +973,12 @@ iframe[src^="http://same.eastmoney.com/"]
 /* 360搜索 so.com */
 #m-spread-left,
 #m-spread-right
+{display:none !important}
+
+/* niconico */
+[id="nicoads"]
+{display:none !important}
+
+/* sfacg */
+[src*="/AD/"][width="960"][height="90"]
 {display:none !important}

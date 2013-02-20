@@ -1,11 +1,15 @@
 msFilterList
 #Title:广告强效过滤规则
-#Author:xcffl
-#Updated:2013-02-17 16:17:21
+#Author:AdFiltering-Rules Project
+#Updated:2013-02-20 15:25:33
 #Description:一个通用、全面的广告过滤规则
-#版本_5.1.5
-#Copyright 2011-2013 xcffl, Apache License 2.0
 : Expires=7
+#版本_5.1.5
+#规则主页：http://www.adfiltering-rules.tk/
+#
+#隶属于Adfiltering-Rules项目，如需帮助或了解详情
+#请访问 https://code.google.com/p/adfiltering-rules/
+#Copyright 2011-2013 Adfiltering-Rules Project, Apache License 2.0
 #-------------通用规则-------------
 #------元素隐藏规则------
 ###[id^=ab_]
@@ -1850,6 +1854,8 @@ msFilterList
 -d www.cuiweiju.com /temp/gg*.html
 #----世界网络----
 -d www.linkwan.com /gb/javascript/a*.js
+#----SF互动传媒网----
+-d hotpic.sfacg.com /JS/j*.js
 #----人人网----
 -d shaft.jebe.renren.com
 -d dj.renren.com
@@ -2554,6 +2560,8 @@ msFilterList
 -d img01.taobaocdn.com /bao/uploaded/*.jpg
 #----南海网----
 -d oa.hinews.cn /work/img/*_oxadcesl.swf
+#----JayXon----
+# @@*.jayxon.com/wp-content/plugins/*
 #----博客网----
 - *adimage.bokee.com
 #----网上车市----
@@ -3235,6 +3243,8 @@ msFilterList
 #----OnlyLady女人志----
 - *onlylady.com/kds/thread.html
 -d btn.onlylady.com .swf
+#----优盘之家----
+-d www.upan.cc /pay/
 #----河源下载站----
 -d www.cngr.cn /youxi/UploadPic/*-*/*.jpg
 -d www.cngr.cn /youxi/UploadPic/*-*/*.gif
@@ -4665,3 +4675,34 @@ msFilterList
 +d pos.baidu.com /ecom?
 +d cpro.baidu.com /cpro/ui/c.js
 #-------------待分类-------------
+# weibo
+# bilibili
++d sinajs.cn weiboshare.html
++d weibo.com shorten.json
++d weibo.com counts.json
+# acfun
+- w5cdn.ranktv.cn/dotnet/artemis/u/cms/www/201302/01151155n7np.jpg
+- w5cdn.ranktv.cn/dotnet/artemis/u/cms/www/201301/1818042953rp.png
+- w5cdn.ranktv.cn/dotnet/artemis/u/cms/www/201302/03105320e8eq.jpg
+- w5cdn.ranktv.cn/dotnet/artemis/u/cms/www/201302/01151155n7np.jpg
+# baidu
++d baidu.com bds_s_v2.js
++d baidu.com logger.js
++d baidu.com shell_v2.js
++d baidu.com getnum
++d baidu.com bdsstyle.css
++d baidu.com png
+# horou
+-d taobaocdn.com *.gif
+# niconico
+-d ads.nicovideo.jp jpeg
+# cnbeta
++d qq.com like_this.css
++d qq.com like
++d qq.com qzfl_for_qzone.js
++d qq.com interface.js
++d qq.com tc.js
+# douban
++d douban.com packed_fm_bgad*.js
++d douban.com packed_fm_bannerad*.js
++d douban.com packed_fm_rotate_ad*.js

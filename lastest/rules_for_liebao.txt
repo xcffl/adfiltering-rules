@@ -1,12 +1,16 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
-!Author:xcffl
-!Updated:2013-02-17 16:17:21
+!Author:AdFiltering-Rules Project
+!Updated:2013-02-20 15:25:33
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
 !版本_5.1.5
-!Copyright 2011-2013 xcffl, Apache License 2.0
+!规则主页：http://www.adfiltering-rules.tk/
+!
+!隶属于Adfiltering-Rules项目，如需帮助或了解详情
+!请访问 https://code.google.com/p/adfiltering-rules/
+!Copyright 2011-2013 Adfiltering-Rules Project, Apache License 2.0
 !-------------通用规则-------------
 !------元素隐藏规则------
 ###adxBigAd
@@ -2073,6 +2077,8 @@ bannerad
 /:\/\/([^\/]+\.)?www\.cuiweiju\.com\/temp\/gg\*\.html/
 !----世界网络----
 /:\/\/([^\/]+\.)?www\.linkwan\.com\/gb\/javascript\/a\*\.js/
+!----SF互动传媒网----
+/:\/\/([^\/]+\.)?hotpic\.sfacg\.com\/JS\/j\*\.js/
 !----人人网----
 /:\/\/([^\/]+\.)?shaft\.jebe\.renren\.com\//
 /:\/\/([^\/]+\.)?dj\.renren\.com\//
@@ -2918,6 +2924,8 @@ bannerad
 !----南海网----
 ##[id^="hi_gg_"]	$d=hinews.cn
 /:\/\/([^\/]+\.)?oa\.hinews\.cn\/work\/img\/\*_oxadcesl\.swf/
+!----JayXon----
+/\.jayxon\.com\/wp-content\/plugins\//$w
 !----博客网----
 /adimage\.bokee\.com/
 !----网上车市----
@@ -3721,6 +3729,9 @@ bannerad
 !----OnlyLady女人志----
 /onlylady\.com\/kds\/thread\.html/
 /:\/\/([^\/]+\.)?btn\.onlylady\.com\/\*\.swf/
+!----优盘之家----
+##[class^="bigner"]	$d=upan.cc
+/:\/\/([^\/]+\.)?www\.upan\.cc\/pay\//
 !----河源下载站----
 ##topadbox	$d=cngr.cn
 /:\/\/([^\/]+\.)?www\.cngr\.cn\/youxi\/UploadPic\/\*-\*\/\*\.jpg/

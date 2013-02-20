@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-02-20 15:25:33
+#Updated:2013-02-20 20:59:55
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -3599,8 +3599,6 @@ msFilterList
 -d image.songtaste.com /songpic1*.jpg
 #----论文发表网----
 - *lunwen119.com/js/gg_*.js
-#----飞鸟网----
--d img.hdbird.com /langzi/
 #----城通网盘----
 - *.400gb.com/advview.php?
 - *.400gb.com/userclick*.js

@@ -14867,11 +14867,6 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
-<path>img.hdbird.com/langzi/*</path>
-<object>*</object>
-</analyzer>
-<analyzer>
-<type>Http</type>
 <path>*.400gb.com/advview.php?*</path>
 <object>*</object>
 </analyzer>

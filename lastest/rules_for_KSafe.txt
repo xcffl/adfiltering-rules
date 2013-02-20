@@ -2956,7 +2956,6 @@
 5,4,*miaogu.com/pic/*
 5,4,image.songtaste.com/*/songpic1*.jpg
 5,4,*lunwen119.com/js/gg_*.js
-5,4,img.hdbird.com/langzi/*
 5,4,*.400gb.com/advview.php?*
 5,4,*.400gb.com/userclick*.js
 5,4,clientclick.tv002.com/*

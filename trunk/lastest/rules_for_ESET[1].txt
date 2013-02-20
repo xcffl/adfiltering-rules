@@ -1756,6 +1756,7 @@ tool.115.com/static/mm/*
 u.115.com/static/modules/*
 www.cuiweiju.com/temp/gg*.html
 www.linkwan.com/gb/javascript/a*.js
+hotpic.sfacg.com/JS/j*.js*
 shaft.jebe.renren.com/*
 dj.renren.com/*
 gg.xiaonei.com/*
@@ -1996,5 +1997,4 @@ rritw.com/my/fload_ads/*
 *.narutom.com/v2/js/198game_Lt.js
 bbs.kaspersky.com.cn/images/bbs/*
 img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
-*normteam.com/usepic/*
 

@@ -1747,6 +1747,7 @@
 5,4,u.115.com/static/modules/*
 5,4,www.cuiweiju.com/temp/gg*.html
 5,4,www.linkwan.com/gb/javascript/a*.js
+5,4,hotpic.sfacg.com/JS/j*.js*
 5,4,shaft.jebe.renren.com/*
 5,4,dj.renren.com/*
 5,4,gg.xiaonei.com/*
@@ -2718,6 +2719,7 @@
 5,4,www.66wz.com/adv2/*.js
 5,4,*onlylady.com/kds/thread.html
 5,4,btn.onlylady.com/*.swf
+5,4,www.upan.cc/pay/*
 5,4,www.cngr.cn/youxi/UploadPic/*-*/*.jpg
 5,4,www.cngr.cn/youxi/UploadPic/*-*/*.gif
 5,4,pic*.dler.org/up_img/ven/*

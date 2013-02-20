@@ -8792,6 +8792,11 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>hotpic.sfacg.com/JS/j*.js*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path>shaft.jebe.renren.com/*</path>
 <object>*</object>
 </analyzer>
@@ -13668,6 +13673,11 @@
 <analyzer>
 <type>Http</type>
 <path>btn.onlylady.com/*.swf</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
+<path>www.upan.cc/pay/*</path>
 <object>*</object>
 </analyzer>
 <analyzer>

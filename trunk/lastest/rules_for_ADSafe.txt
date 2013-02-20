@@ -1,11 +1,16 @@
 !*headbegin
 !*title=广告强效过滤规则
-!*author=xcffl
-!*lastmodify=2013-02-17 20:02:23
-!*itemcount=4342
+!*author=AdFiltering-Rules Project
+!*lastmodify=2013-02-20 15:25:33
+!*itemcount=4346
 !*headend
+!Expires: 7 days
 !版本_5.1.5
-!Copyright 2011-2013 xcffl, Apache License 2.0
+!规则主页：http://www.adfiltering-rules.tk/
+!
+!隶属于Adfiltering-Rules项目，如需帮助或了解详情
+!请访问 https://code.google.com/p/adfiltering-rules/
+!Copyright 2011-2013 Adfiltering-Rules Project, Apache License 2.0
 !-------------通用规则-------------
 !------元素隐藏规则------
 !##[id^=ab_]
@@ -1943,6 +1948,8 @@ i.qianshou.com@@DIV[style="width:728px; height:90px; float:left; padding-top:4px
 |www.cuiweiju.com/temp/gg*.html
 !----世界网络----
 |www.linkwan.com/gb/javascript/a*.js
+!----SF互动传媒网----
+|hotpic.sfacg.com/JS/j*.js*
 !----人人网----
 |shaft.jebe.renren.com/*
 |dj.renren.com/*
@@ -2783,6 +2790,8 @@ cn.msn.com##.advLf
 !----南海网----
 %hinews.cn@@[id^="hi_gg_"]
 |oa.hinews.cn/work/img/*_oxadcesl.swf
+!----JayXon----
+~*.jayxon.com/wp-content/plugins/*
 !----博客网----
 *adimage.bokee.com*
 !----网上车市----
@@ -3581,6 +3590,9 @@ developer.51cto.com###list4
 !----OnlyLady女人志----
 *onlylady.com/kds/thread.html
 |btn.onlylady.com/*.swf
+!----优盘之家----
+%upan.cc@@[class^="bigner"]
+|www.upan.cc/pay/*
 !----河源下载站----
 %cngr.cn###topadbox
 |www.cngr.cn/youxi/UploadPic/*-*/*.jpg

@@ -18,7 +18,8 @@
 [id^="head_ads"],
 [id^="web_pc_sidefollow"],
 [id^="web_pc_prime"],
-[id^="web_pc_360"]
+[id^="web_pc_360"],
+[id="nicoads"]
 {display:none !important}
 
 /* Google+ */
@@ -34,6 +35,8 @@
 [src*="ADFrameBD"],
 [src*="AD114"],
 [id^="AD_j1"],
+[src*="ADFrameBD"],
+[src*="AD114"],
 [id^="AD_j2"]
 {display:none !important}
 

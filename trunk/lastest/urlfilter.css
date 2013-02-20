@@ -49,8 +49,7 @@
 [class^="gn_title current"],
 [class^="gn_tab gn_write"],
 [class^="nameBox"],
-[class^="W_tips tips_warn clearfix"],
-[class^="W_tips tips_error clearfix"],
+[class^="W_tips"],
 [class^="key S_textb"],
 [class^="WB_right_tips S_line2"],
 [class^="global_footer S_bg4"],
@@ -69,18 +68,12 @@
 {display:none !important}
 
 /* bilibili */
-[class^="ad-e"],
+[class^="ad-"],
+[class^="footer"],
 [class^="bak_lsindex"],
 [class^="ad_top"],
-[class^="dats"],
-[class^="ad-e ad-e1"],
-[class^="ad-b"],
-[class^="ad-f"],
-[class^="ad ad-e3"],
-[class^="ad-b2"],
-[class^="ad-c"],
-[class^="ad ad-e1"],
-[class^="ad ad-e2"]
+[class^="c-link"],
+[class^="ad ad"]
 {display:none !important}
 
 /* 互联星空 vnet.cn */

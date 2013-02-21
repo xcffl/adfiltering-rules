@@ -4704,5 +4704,12 @@
 +d douban.com packed_fm_bgad*.js
 +d douban.com packed_fm_bannerad*.js
 +d douban.com packed_fm_rotate_ad*.js
-# G+
+# google
 +d google.com plusone.js
++d google.com hover
++d google.com fastbutton
++d google.com apps-static
+# facebook
++d facebook.com likebox.php
++d facebook.com like.php
++d akamaihd.net rsrc.php

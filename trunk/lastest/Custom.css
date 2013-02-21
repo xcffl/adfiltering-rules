@@ -985,3 +985,7 @@ iframe[src^="http://same.eastmoney.com/"]
 /* sfacg */
 [src*="/AD/"][width="960"][height="90"]
 {display:none !important}
+
+/* FaceBook */
+[class="ego_column"]
+{display:none !important;}

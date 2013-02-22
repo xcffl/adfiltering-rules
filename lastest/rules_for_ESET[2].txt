@@ -721,6 +721,7 @@ tongji.dm5.com/*
 am.6park.com/img/*
 image.6park.com*
 www.6park.com/wap/close.gif*
+*.51cto.com/js/article/keywords_ad_new.js
 js.wanjuan.net/*.html
 js.wanjuan.net/youzhong/*-*
 *.jz5u.com/inc/std_stranjf.js

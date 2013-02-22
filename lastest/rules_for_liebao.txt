@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-02-20 20:59:55
+!Updated:2013-02-22 14:31:01
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -3130,6 +3130,7 @@ bannerad
 /:\/\/([^\/]+\.)?img\.koowo\.com/
 /:\/\/([^\/]+\.)?wa\.kuwo\.cn\/lyrics\/img\/kwgg\//
 !----远景在线----
+##ad_sidebar	$d=so.pcbeta.com
 ##.a_pt	$d=bbs.pcbeta.com
 ##.a_pb	$d=bbs.pcbeta.com
 ##diynavtop + .wp	$d=bbs.pcbeta.com
@@ -3709,6 +3710,7 @@ bannerad
 /:\/\/([^\/]+\.)?www\.6park\.com\/wap\/close\.gif/
 !----51CTO.COM----
 ##list4	$d=developer.51cto.com
+/\.51cto\.com\/js\/article\/keywords_ad_new\.js/
 !----万卷书屋----
 /:\/\/([^\/]+\.)?js\.wanjuan\.net\/\*\.html/
 /:\/\/([^\/]+\.)?js\.wanjuan\.net\/youzhong\/\*-/

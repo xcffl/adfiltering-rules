@@ -2707,6 +2707,7 @@
 5,4,am.6park.com/img/*
 5,4,image.6park.com*
 5,4,www.6park.com/wap/close.gif*
+5,4,*.51cto.com/js/article/keywords_ad_new.js
 5,4,js.wanjuan.net/*.html
 5,4,js.wanjuan.net/youzhong/*-*
 5,4,*.jz5u.com/inc/std_stranjf.js

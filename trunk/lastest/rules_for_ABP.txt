@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-02-20 20:59:55
+!Updated:2013-02-22 14:31:01
 !Description:一个通用、全面的广告过滤规则
 !Expires: 7 days
 !版本_5.1.5
@@ -3120,6 +3120,7 @@ win7china.com,win8china.com##.site_ad
 ||img.koowo.com*
 ||wa.kuwo.cn/lyrics/img/kwgg/*
 !----远景在线----
+so.pcbeta.com###ad_sidebar
 bbs.pcbeta.com##.a_pt
 bbs.pcbeta.com##.a_pb
 bbs.pcbeta.com###diynavtop + .wp
@@ -3697,6 +3698,7 @@ epochtimes.com###insidearticleBodyAd
 ||www.6park.com/wap/close.gif*
 !----51CTO.COM----
 developer.51cto.com###list4
+*.51cto.com/js/article/keywords_ad_new.js
 !----万卷书屋----
 ||js.wanjuan.net/*.html
 ||js.wanjuan.net/youzhong/*-*

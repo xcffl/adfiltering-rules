@@ -13617,6 +13617,11 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>*.51cto.com/js/article/keywords_ad_new.js</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path>js.wanjuan.net/*.html</path>
 <object>*</object>
 </analyzer>

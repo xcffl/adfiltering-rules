@@ -1,7 +1,7 @@
 ﻿msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-02-20 20:59:55
+#Updated:2013-02-22 14:31:01
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -3223,6 +3223,7 @@
 - http://image.6park.com
 -d www.6park.com /wap/close.gif
 #----51CTO.COM----
+- *.51cto.com/js/article/keywords_ad_new.js
 #----万卷书屋----
 -d js.wanjuan.net .html
 -d js.wanjuan.net /youzhong/*-

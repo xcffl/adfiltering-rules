@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-02-22 14:31:01
+!Updated:2013-02-23 16:51:01
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -2061,6 +2061,8 @@ bannerad
 /:\/\/([^\/]+\.)?u\.115\.com\/static\/tjj\/delivery\/\*\.html/
 /:\/\/([^\/]+\.)?tool\.115\.com\/static\/mm\//
 /:\/\/([^\/]+\.)?u\.115\.com\/static\/modules\//
+!----113电视----
+/\.113ds\.com\/js\/as\//
 !----歪歪网盘----
 ##.cn_right	$d=yypan.com
 ##.xz_tit2	$d=yypan.com
@@ -2145,6 +2147,7 @@ bannerad
 /:\/\/([^\/]+\.)?afp\.qiyi\.com\//
 /:\/\/([^\/]+\.)?www\.iqiyi\.com\/player\/\*\/theatre\*\.swf/
 /:\/\/([^\/]+\.)?jsmsg\.video\.qiyi\.com\//
+/:\/\/([^\/]+\.)?msg\.iqiyi\.com\/\*\.gif\?/
 /:\/\/([^\/]+\.)?msg\.video\.qiyi\.com\/\*\.gif\?/
 !||msg.video.qiyi.com/v*pb.gif?*
 /:\/\/([^\/]+\.)?api\.cupid\.qiyi\.com\/api/
@@ -2614,6 +2617,9 @@ bannerad
 /:\/\/([^\/]+\.)?cdn\.laishu\.com\/images\/puguo\.gif/
 /\.laishu\.com\/lsgg\//
 /\.laishuwu\.com\/files\/friend\//
+!----XTube----
+##[id$="site_18"]	$d=xtube.com
+##.height-15px	$d=xtube.com
 !----中国反诈骗联盟----
 ##bad	$d=ocucn.com
 ##[class^="getGold c"]	$d=ocucn.com
@@ -2834,6 +2840,10 @@ bannerad
 /:\/\/([^\/]+\.)?blog\.hexun\.com\/inc\/popbox\.aspx/
 !----MyException.cn----
 ##[class^="c_r_a c_r_"]	$d=myexception.cn
+!----厦门房地产联合网----
+##.index_ad	$d=xmhouse.com
+/:\/\/([^\/]+\.)?ads\.xmhouse\.com\/AdJs\/Ad_1\.js/$w
+/:\/\/([^\/]+\.)?ads\.xmhouse\.com\/JS\/AdManage\.js/$w
 !----必上网盘----
 ##TBODY	$d=bego.cc
 ##A[href="/adv.php"]	$d=bego.cc
@@ -3168,6 +3178,7 @@ bannerad
 ##[class^="adw"]	$d=ifmoc.com
 /:\/\/([^\/]+\.)?www\.ifmoc\.com\/sites\/default\/files\/defaultAdImages\//
 !----下载吧----
+##[class^="adArea"]	$d=xiazaiba.com
 /xiazaiba\.com\/js\//
 /\/tg\/xiazaiba\/index\.html/
 /xiazaiba\.com\/uploadfiles\/xert_img\//
@@ -3294,6 +3305,7 @@ bannerad
 ##.ad_list	$d=iciba.com
 /:\/\/([^\/]+\.)?cdn\.iciba\.com\/web\/co\/fy\/\*\.swf/
 /:\/\/([^\/]+\.)?cdn\.iciba\.com\/web\/co\/fy\/\*\.gif/
+/:\/\/([^\/]+\.)?cdn\.iciba\.com\/web\/co\/ci\/\*\.swf/
 /:\/\/([^\/]+\.)?cdn\.iciba\.com\/web\/co\/ci\/\*\.jpg/
 /:\/\/([^\/]+\.)?cdn\.iciba\.com\/web\/co\/ci\/\*\.gif/
 /:\/\/([^\/]+\.)?u\.iciba\.com\//

@@ -1,8 +1,8 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-02-22 14:31:01
-!*itemcount=4347
+!*lastmodify=2013-02-23 16:51:01
+!*itemcount=4356
 !*headend
 !Expires: 7 days
 !版本_5.1.5
@@ -1932,6 +1932,8 @@ cn.yahoo.com##.p_sider
 |u.115.com/static/tjj/delivery/*.html
 |tool.115.com/static/mm/*
 |u.115.com/static/modules/*
+!----113电视----
+*.113ds.com/js/as/*
 !----歪歪网盘----
 %yypan.com##.cn_right
 %yypan.com##.xz_tit2
@@ -2016,6 +2018,7 @@ i.qianshou.com@@DIV[style="width:728px; height:90px; float:left; padding-top:4px
 |afp.qiyi.com/*
 |www.iqiyi.com/player/*/theatre*.swf
 |jsmsg.video.qiyi.com/*
+|msg.iqiyi.com/*.gif?*
 |msg.video.qiyi.com/*.gif?*
 !||msg.video.qiyi.com/v*pb.gif?*
 |api.cupid.qiyi.com/api*
@@ -2480,6 +2483,9 @@ bbs.qzss.cn##.tac.mb5
 |cdn.laishu.com/images/puguo.gif
 *.laishu.com/lsgg/*
 *.laishuwu.com/files/friend/*
+!----XTube----
+%xtube.com@@[id$="site_18"]
+%xtube.com##.height-15px
 !----中国反诈骗联盟----
 %ocucn.com###bad
 %ocucn.com@@[class^="getGold c"]
@@ -2700,6 +2706,10 @@ news.e23.cn@@[id$="advb1"]
 |blog.hexun.com/inc/popbox.aspx
 !----MyException.cn----
 %myexception.cn@@[class^="c_r_a c_r_"]
+!----厦门房地产联合网----
+%xmhouse.com##.index_ad
+~|ads.xmhouse.com/AdJs/Ad_1.js
+~|ads.xmhouse.com/JS/AdManage.js
 !----必上网盘----
 %bego.cc@@TBODY
 %bego.cc@@A[href="/adv.php"]
@@ -3032,6 +3042,7 @@ vacations.ctrip.com###allyes
 %ifmoc.com@@[class^="adw"]
 |www.ifmoc.com/sites/default/files/defaultAdImages/*
 !----下载吧----
+%xiazaiba.com@@[class^="adArea"]
 *xiazaiba.com/js/*
 */tg/xiazaiba/index.html
 *xiazaiba.com/uploadfiles/xert_img/*
@@ -3158,6 +3169,7 @@ fy.iciba.com##.kk01
 %iciba.com##.ad_list
 |cdn.iciba.com/web/co/fy/*.swf
 |cdn.iciba.com/web/co/fy/*.gif
+|cdn.iciba.com/web/co/ci/*.swf
 |cdn.iciba.com/web/co/ci/*.jpg
 |cdn.iciba.com/web/co/ci/*.gif
 |u.iciba.com/*

@@ -1745,6 +1745,7 @@
 5,4,u.115.com/static/tjj/delivery/*.html
 5,4,tool.115.com/static/mm/*
 5,4,u.115.com/static/modules/*
+5,4,*.113ds.com/js/as/*
 5,4,www.cuiweiju.com/temp/gg*.html
 5,4,www.linkwan.com/gb/javascript/a*.js
 5,4,hotpic.sfacg.com/JS/j*.js*
@@ -1798,6 +1799,7 @@
 5,4,afp.qiyi.com/*
 5,4,www.iqiyi.com/player/*/theatre*.swf
 5,4,jsmsg.video.qiyi.com/*
+5,4,msg.iqiyi.com/*.gif?*
 5,4,msg.video.qiyi.com/*.gif?*
 5,4,api.cupid.qiyi.com/api*
 5,4,*.iqiyi.com/player/cupid/*/pageer.swf*
@@ -2463,6 +2465,7 @@
 5,4,*.uuu9.com/code/tool_netgame/*
 5,4,cdn.iciba.com/web/co/fy/*.swf
 5,4,cdn.iciba.com/web/co/fy/*.gif
+5,4,cdn.iciba.com/web/co/ci/*.swf
 5,4,cdn.iciba.com/web/co/ci/*.jpg
 5,4,cdn.iciba.com/web/co/ci/*.gif
 5,4,u.iciba.com/*

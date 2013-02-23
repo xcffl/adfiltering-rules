@@ -1760,6 +1760,7 @@
 		<rule Type="0" url="u.115.com/static/tjj/delivery/*.html"/>
 		<rule Type="0" url="tool.115.com/static/mm/*"/>
 		<rule Type="0" url="u.115.com/static/modules/*"/>
+		<rule Type="0" url="*.113ds.com/js/as/*"/>
 		<rule Type="0" url="www.cuiweiju.com/temp/gg*.html"/>
 		<rule Type="0" url="www.linkwan.com/gb/javascript/a*.js"/>
 		<rule Type="0" url="hotpic.sfacg.com/JS/j*.js*"/>
@@ -1813,6 +1814,7 @@
 		<rule Type="0" url="afp.qiyi.com/*"/>
 		<rule Type="0" url="www.iqiyi.com/player/*/theatre*.swf"/>
 		<rule Type="0" url="jsmsg.video.qiyi.com/*"/>
+		<rule Type="0" url="msg.iqiyi.com/*.gif?*"/>
 		<rule Type="0" url="msg.video.qiyi.com/*.gif?*"/>
 		<rule Type="0" url="api.cupid.qiyi.com/api*"/>
 		<rule Type="0" url="*.iqiyi.com/player/cupid/*/pageer.swf*"/>
@@ -2481,6 +2483,7 @@
 		<rule Type="0" url=""/>
 		<rule Type="0" url="cdn.iciba.com/web/co/fy/*.swf"/>
 		<rule Type="0" url="cdn.iciba.com/web/co/fy/*.gif"/>
+		<rule Type="0" url="cdn.iciba.com/web/co/ci/*.swf"/>
 		<rule Type="0" url="cdn.iciba.com/web/co/ci/*.jpg"/>
 		<rule Type="0" url="cdn.iciba.com/web/co/ci/*.gif"/>
 		<rule Type="0" url="u.iciba.com/*"/>

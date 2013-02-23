@@ -8782,6 +8782,11 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>*.113ds.com/js/as/*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path>www.cuiweiju.com/temp/gg*.html</path>
 <object>*</object>
 </analyzer>
@@ -9043,6 +9048,11 @@
 <analyzer>
 <type>Http</type>
 <path>jsmsg.video.qiyi.com/*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
+<path>msg.iqiyi.com/*.gif?*</path>
 <object>*</object>
 </analyzer>
 <analyzer>
@@ -12383,6 +12393,11 @@
 <analyzer>
 <type>Http</type>
 <path>cdn.iciba.com/web/co/fy/*.gif</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
+<path>cdn.iciba.com/web/co/ci/*.swf</path>
 <object>*</object>
 </analyzer>
 <analyzer>

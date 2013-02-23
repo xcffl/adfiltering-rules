@@ -1,7 +1,7 @@
-﻿msFilterList
+msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-02-22 14:31:01
+#Updated:2013-02-23 16:51:01
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -1845,6 +1845,8 @@
 -d u.115.com /static/tjj/delivery/*.html
 -d tool.115.com /static/mm/
 -d u.115.com /static/modules/
+#----113电视----
+- *.113ds.com/js/as/
 #----歪歪网盘----
 #----耽美中文网----
 #----纤手美发网----
@@ -1915,6 +1917,7 @@
 -d afp.qiyi.com
 -d www.iqiyi.com /player/*/theatre*.swf
 -d jsmsg.video.qiyi.com
+-d msg.iqiyi.com .gif?
 -d msg.video.qiyi.com .gif?
 #||msg.video.qiyi.com/v*pb.gif?*
 -d api.cupid.qiyi.com /api
@@ -2296,6 +2299,7 @@
 -d cdn.laishu.com /images/puguo.gif
 - *.laishu.com/lsgg/
 - *.laishuwu.com/files/friend/
+#----XTube----
 #----中国反诈骗联盟----
 -d www.ocucn.com /images/*.gif
 #----新云网络----
@@ -2485,6 +2489,9 @@
 -d hxjs.tool.hexun.com /homeway/pagemediacontrol*.js
 -d blog.hexun.com /inc/popbox.aspx
 #----MyException.cn----
+#----厦门房地产联合网----
++d ads.xmhouse.com /AdJs/Ad_1.js
++d ads.xmhouse.com /JS/AdManage.js
 #----必上网盘----
 #----皇马球迷俱乐部论坛----
 -d img.rmfans.cn /g/
@@ -2865,6 +2872,7 @@
 #----金山词霸----
 -d cdn.iciba.com /web/co/fy/*.swf
 -d cdn.iciba.com /web/co/fy/*.gif
+-d cdn.iciba.com /web/co/ci/*.swf
 -d cdn.iciba.com /web/co/ci/*.jpg
 -d cdn.iciba.com /web/co/ci/*.gif
 -d u.iciba.com
@@ -4705,12 +4713,3 @@
 +d douban.com packed_fm_bgad*.js
 +d douban.com packed_fm_bannerad*.js
 +d douban.com packed_fm_rotate_ad*.js
-# google
-+d google.com plusone.js
-+d google.com hover
-+d google.com fastbutton
-+d google.com apps-static
-# facebook
-+d facebook.com likebox.php
-+d facebook.com like.php
-+d akamaihd.net rsrc.php

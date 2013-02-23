@@ -1754,6 +1754,7 @@ u.115.com/static/material/*
 u.115.com/static/tjj/delivery/*.html
 tool.115.com/static/mm/*
 u.115.com/static/modules/*
+*.113ds.com/js/as/*
 www.cuiweiju.com/temp/gg*.html
 www.linkwan.com/gb/javascript/a*.js
 hotpic.sfacg.com/JS/j*.js*
@@ -1807,6 +1808,7 @@ track.cupid.qiyi.com/*
 afp.qiyi.com/*
 www.iqiyi.com/player/*/theatre*.swf
 jsmsg.video.qiyi.com/*
+msg.iqiyi.com/*.gif?*
 msg.video.qiyi.com/*.gif?*
 api.cupid.qiyi.com/api*
 *.iqiyi.com/player/cupid/*/pageer.swf*
@@ -1995,6 +1997,4 @@ rritw.com/my/fload_ads/*
 *.narutom.com/js/myl.js
 *.narutom.com/stat.js
 *.narutom.com/v2/js/198game_Lt.js
-bbs.kaspersky.com.cn/images/bbs/*
-img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 

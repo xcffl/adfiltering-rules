@@ -1722,6 +1722,7 @@
 5,4,image.tianjimedia.com/uploadImages/2011/007/D9KY6F6BT701.gif
 5,4,bbs.hxland.com/static/image/A*.gif
 5,4,*.111cn.net/pic/*.gif
+5,4,*.17732.com/zhonghua/*.js
 5,4,dvs.china.com/*
 5,4,military.china.com/zh_cn/etc/gghead950.html
 5,4,dvsend.china.com/*

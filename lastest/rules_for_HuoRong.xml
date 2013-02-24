@@ -8667,6 +8667,11 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>*.17732.com/zhonghua/*.js</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path>dvs.china.com/*</path>
 <object>*</object>
 </analyzer>

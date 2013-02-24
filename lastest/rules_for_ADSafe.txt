@@ -1,8 +1,8 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-02-23 16:51:01
-!*itemcount=4356
+!*lastmodify=2013-02-24 15:24:00
+!*itemcount=4359
 !*headend
 !Expires: 7 days
 !版本_5.1.5
@@ -1901,6 +1901,8 @@ cn.yahoo.com##.p_sider
 !----壹聚教程----
 %111cn.net@@[id^="c_ads"]
 *.111cn.net/pic/*.gif
+!----中华网赚论坛----
+*.17732.com/zhonghua/*.js
 !----中华网----
 |dvs.china.com/*
 |military.china.com/zh_cn/etc/gghead950.html
@@ -2164,6 +2166,8 @@ people.com.cn##.top_ad_list
 %lingdiankanshu.com@@TD[width="301"]
 !----挖当软件站----
 |www.wdown.cn/falala/*
+!----安卓网----
+bbs.hiapk.com###tag_1_7
 !----华军软件园&牛华网----
 %onlinedown.net##.gameunion
 %onlinedown.net@@OL:first-child:last-child
@@ -2736,6 +2740,8 @@ i.firefoxchina.cn###taobaoFocus
 |i.firefoxchina.cn/images/upload/*_*.gif
 |www.firefoxchina.cn/cooperation/header_image_huanqiu.html
 |i.firefoxchina.cn/iframes/*
+!----TortoiseSVN----
+%tortoisesvn.net##.adgroup
 !----财讯----
 international.caixun.com##.spic
 !----新新漫画----

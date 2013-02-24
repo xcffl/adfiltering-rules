@@ -1611,6 +1611,7 @@
 		<rule Type="0" url="*dodbook.com/js/4.js"/>
 		<rule Type="0" url="www.51kdy.com/js/yzz/banner_*.js"/>
 		<rule Type="0" url="www.51kdy.com/js/yzz/top_*.html"/>
+		<rule Type="0" url="gg.kugou.com/*"/>
 		<rule Type="0" url="*links.kugoo.com/*"/>
 		<rule Type="0" url="sdn.kugoo.com/*"/>
 		<rule Type="0" url="download.kugou.com/service/*"/>
@@ -1681,6 +1682,7 @@
 		<rule Type="0" url="*.tudou.com/framepage/*"/>
 		<rule Type="0" url="*.tudou.com/tdap/*"/>
 		<rule Type="0" url="*.tudou.com/tdcm/*"/>
+		<rule Type="0" url="cps.youku.com/redirect.html?id=*&url=http://www.youku.com/"/>
 		<rule Type="0" url="l.ykimg.com/*"/>
 		<rule Type="0" url="p.l.ykimg.com/ykvisitts?*"/>
 		<rule Type="0" url="p-log.ykimg.com/*"/>
@@ -2025,6 +2027,8 @@
 		<rule Type="0" url="*yanqiao.com/duote.js"/>
 		<rule Type="0" url="*yanqiao.com/yanqiao/*"/>
 		<rule Type="0" url="*xue5.com/itedu/js/DIVit_QQ.js"/>
+		<rule Type="0" url="*.qisuu.com/js/bottem_new.js"/>
+		<rule Type="0" url="*.qisuu.com/js/top*.js"/>
 		<rule Type="0" url="*/templates/xmnn/sqgg/middle/*.gif"/>
 		<rule Type="0" url="*.xmnn.cn/*/scb/*"/>
 		<rule Type="0" url="*.xmnn.cn/xwzx/xwyc/*"/>

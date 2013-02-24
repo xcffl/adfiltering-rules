@@ -1,3 +1,5 @@
+*.narutom.com/stat.js
+*.narutom.com/v2/js/198game_Lt.js
 bbs.kaspersky.com.cn/images/bbs/*
 img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 *normteam.com/usepic/*
@@ -19,6 +21,8 @@ www.bj100.com/zhuanti/video/*
 *yanqiao.com/duote.js
 *yanqiao.com/yanqiao/*
 *xue5.com/itedu/js/DIVit_QQ.js
+*.qisuu.com/js/bottem_new.js
+*.qisuu.com/js/top*.js
 */templates/xmnn/sqgg/middle/*.gif
 *.xmnn.cn/*/scb/*
 *.xmnn.cn/xwzx/xwyc/*

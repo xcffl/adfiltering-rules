@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-02-24 15:24:00
+#Updated:2013-02-24 20:12:21
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -1667,6 +1667,7 @@ msFilterList
 -d www.51kdy.com /js/yzz/banner_*.js
 -d www.51kdy.com /js/yzz/top_*.html
 #----酷狗音乐-----
+-d gg.kugou.com
 - *links.kugoo.com/
 -d sdn.kugoo.com
 -d download.kugou.com /service/
@@ -1745,6 +1746,7 @@ msFilterList
 - *.tudou.com/tdap/
 - *.tudou.com/tdcm/
 #----优酷网----
+-d cps.youku.com /redirect.html?id=*&url=http://www.youku.com/
 -d l.ykimg.com
 -d p.l.ykimg.com /ykvisitts?
 -d p-log.ykimg.com
@@ -1896,6 +1898,7 @@ msFilterList
 #----新东方在线----
 -d images.koolearn.com /casupload/upload*/advs/
 #----驱动之家----
++d so.mydrivers.com /DriversClick.aspx?
 -d images.mydrivers.com /*x*.swf
 -d 11.mydrivers.com .htm
 -d 11.mydrivers.com /www/*_*.js
@@ -2213,6 +2216,9 @@ msFilterList
 - *yanqiao.com/yanqiao/
 #----学网----
 - *xue5.com/itedu/js/DIVit_QQ.js
+#----奇书网----
+- *.qisuu.com/js/bottem_new.js
+- *.qisuu.com/js/top*.js
 #----厦门网----
 - */templates/xmnn/sqgg/middle/*.gif
 - *.xmnn.cn/*/scb/

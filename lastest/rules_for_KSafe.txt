@@ -1597,6 +1597,7 @@
 5,4,*dodbook.com/js/4.js
 5,4,www.51kdy.com/js/yzz/banner_*.js
 5,4,www.51kdy.com/js/yzz/top_*.html
+5,4,gg.kugou.com/*
 5,4,*links.kugoo.com/*
 5,4,sdn.kugoo.com/*
 5,4,download.kugou.com/service/*
@@ -1666,6 +1667,7 @@
 5,4,*.tudou.com/framepage/*
 5,4,*.tudou.com/tdap/*
 5,4,*.tudou.com/tdcm/*
+5,4,cps.youku.com/redirect.html?id=*&url=http://www.youku.com/
 5,4,l.ykimg.com/*
 5,4,p.l.ykimg.com/ykvisitts?*
 5,4,p-log.ykimg.com/*
@@ -2010,6 +2012,8 @@
 5,4,*yanqiao.com/duote.js
 5,4,*yanqiao.com/yanqiao/*
 5,4,*xue5.com/itedu/js/DIVit_QQ.js
+5,4,*.qisuu.com/js/bottem_new.js
+5,4,*.qisuu.com/js/top*.js
 5,4,*/templates/xmnn/sqgg/middle/*.gif
 5,4,*.xmnn.cn/*/scb/*
 5,4,*.xmnn.cn/xwzx/xwyc/*

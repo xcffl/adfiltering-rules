@@ -1737,6 +1737,7 @@
 		<rule Type="0" url="image.tianjimedia.com/uploadImages/2011/007/D9KY6F6BT701.gif"/>
 		<rule Type="0" url="bbs.hxland.com/static/image/A*.gif"/>
 		<rule Type="0" url="*.111cn.net/pic/*.gif"/>
+		<rule Type="0" url="*.17732.com/zhonghua/*.js"/>
 		<rule Type="0" url="dvs.china.com/*"/>
 		<rule Type="0" url="military.china.com/zh_cn/etc/gghead950.html"/>
 		<rule Type="0" url="dvsend.china.com/*"/>

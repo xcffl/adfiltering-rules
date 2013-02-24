@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-02-23 16:51:01
+!Updated:2013-02-24 15:24:00
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -2030,6 +2030,8 @@ bannerad
 !----壹聚教程----
 ##[id^="c_ads"]	$d=111cn.net
 /\.111cn\.net\/pic\/\*\.gif/
+!----中华网赚论坛----
+/\.17732\.com\/zhonghua\/\*\.js/
 !----中华网----
 /:\/\/([^\/]+\.)?dvs\.china\.com\//
 /:\/\/([^\/]+\.)?military\.china\.com\/zh_cn\/etc\/gghead950\.html/
@@ -2293,6 +2295,8 @@ bannerad
 ##TD[width="301"]	$d=lingdiankanshu.com
 !----挖当软件站----
 /:\/\/([^\/]+\.)?www\.wdown\.cn\/falala\//
+!----安卓网----
+##tag_1_7	$d=bbs.hiapk.com
 !----华军软件园&牛华网----
 ##.gameunion	$d=onlinedown.net
 ##OL:first-child:last-child	$d=onlinedown.net
@@ -2870,6 +2874,8 @@ bannerad
 /:\/\/([^\/]+\.)?i\.firefoxchina\.cn\/images\/upload\/\*_\*\.gif/
 /:\/\/([^\/]+\.)?www\.firefoxchina\.cn\/cooperation\/header_image_huanqiu\.html/
 /:\/\/([^\/]+\.)?i\.firefoxchina\.cn\/iframes\//
+!----TortoiseSVN----
+##.adgroup	$d=tortoisesvn.net
 !----财讯----
 ##.spic	$d=international.caixun.com
 !----新新漫画----

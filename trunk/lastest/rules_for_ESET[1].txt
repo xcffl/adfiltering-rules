@@ -1731,6 +1731,7 @@ media.yesky.com/*
 image.tianjimedia.com/uploadImages/2011/007/D9KY6F6BT701.gif
 bbs.hxland.com/static/image/A*.gif
 *.111cn.net/pic/*.gif
+*.17732.com/zhonghua/*.js
 dvs.china.com/*
 military.china.com/zh_cn/etc/gghead950.html
 dvsend.china.com/*
@@ -1996,5 +1997,4 @@ rritw.com/my/fload_ads/*
 *.narutom.com/js/comicjs.js
 *.narutom.com/js/myl.js
 *.narutom.com/stat.js
-*.narutom.com/v2/js/198game_Lt.js
 

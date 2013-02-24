@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-02-23 16:51:01
+#Updated:2013-02-24 15:24:00
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -1817,6 +1817,8 @@ msFilterList
 -d bbs.hxland.com /static/image/A*.gif
 #----壹聚教程----
 - *.111cn.net/pic/*.gif
+#----中华网赚论坛----
+- *.17732.com/zhonghua/*.js
 #----中华网----
 -d dvs.china.com
 -d military.china.com /zh_cn/etc/gghead950.html
@@ -2043,6 +2045,7 @@ msFilterList
 +d www.lingdiankanshu.com /Skin/
 #----挖当软件站----
 -d www.wdown.cn /falala/
+#----安卓网----
 #----华军软件园&牛华网----
 - */newhuagg/content_recommend_*.js
 - *.newhua.com/Files/newhuagg/
@@ -2513,6 +2516,7 @@ msFilterList
 -d i.firefoxchina.cn /images/upload/*_*.gif
 -d www.firefoxchina.cn /cooperation/header_image_huanqiu.html
 -d i.firefoxchina.cn /iframes/
+#----TortoiseSVN----
 #----财讯----
 #----新新漫画----
 - */img_v1/utf8_global_v*.js

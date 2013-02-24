@@ -1605,6 +1605,7 @@ tv.sohu.com/upload/csad/*
 *dodbook.com/js/4.js
 www.51kdy.com/js/yzz/banner_*.js
 www.51kdy.com/js/yzz/top_*.html
+gg.kugou.com/*
 *links.kugoo.com/*
 sdn.kugoo.com/*
 download.kugou.com/service/*
@@ -1675,6 +1676,7 @@ v2.tudou.com/td*/*
 *.tudou.com/framepage/*
 *.tudou.com/tdap/*
 *.tudou.com/tdcm/*
+cps.youku.com/redirect.html?id=*&url=http://www.youku.com/
 l.ykimg.com/*
 p.l.ykimg.com/ykvisitts?*
 p-log.ykimg.com/*
@@ -2019,6 +2021,8 @@ www.bj100.com/zhuanti/video/*
 *yanqiao.com/duote.js
 *yanqiao.com/yanqiao/*
 *xue5.com/itedu/js/DIVit_QQ.js
+*.qisuu.com/js/bottem_new.js
+*.qisuu.com/js/top*.js
 */templates/xmnn/sqgg/middle/*.gif
 *.xmnn.cn/*/scb/*
 *.xmnn.cn/xwzx/xwyc/*

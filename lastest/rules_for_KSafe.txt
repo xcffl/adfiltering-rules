@@ -1667,7 +1667,6 @@
 5,4,*.tudou.com/framepage/*
 5,4,*.tudou.com/tdap/*
 5,4,*.tudou.com/tdcm/*
-5,4,cps.youku.com/redirect.html?id=*&url=http://www.youku.com/
 5,4,l.ykimg.com/*
 5,4,p.l.ykimg.com/ykvisitts?*
 5,4,p-log.ykimg.com/*
@@ -2323,6 +2322,8 @@
 5,4,*.haxiu.com/new_themes/flash/neiye2.swf
 5,4,*.haxiu.com/new_themes/flash/index_zml_*.swf
 5,4,*.haha.mx/Public/images/banner-*.png
+5,4,www.ht88.com/plus/frame/right*_*.html
+5,4,*.ht88.com/plus/frame/top*_*.html
 5,4,www.micboy.com/dl2.js
 5,4,www.fx120.net/disease0/ptt/images/banner.jpg
 5,4,www.bzlba.com/wp-content/uploads/*.jpg

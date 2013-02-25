@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-02-24 20:12:21
+!Updated:2013-02-25 10:58:36
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -1952,7 +1952,7 @@ bannerad
 ##ab_26	$d=youku.com
 ##.AB240	$d=youku.com
 ##.sideCol > div[class^="AB"]
-/:\/\/([^\/]+\.)?cps\.youku\.com\/redirect\.html\?id=\*&url=http:\/\/www\.youku\.com\//
+/:\/\/([^\/]+\.)?cps\.youku\.com\/redirect\.html\?id=\*&url=http:\/\/www\.youku\.com\//$w
 /:\/\/([^\/]+\.)?l\.ykimg\.com\//
 /:\/\/([^\/]+\.)?p\.l\.ykimg\.com\/ykvisitts\?/
 /:\/\/([^\/]+\.)?p-log\.ykimg\.com\//
@@ -3047,6 +3047,9 @@ bannerad
 ##leaderboard	$d=nature.com
 !----哈哈.MX----
 /\.haha\.mx\/Public\/images\/banner-\*\.png/
+!----育星教育网----
+/:\/\/([^\/]+\.)?www\.ht88\.com\/plus\/frame\/right\*_\*\.html/
+/\.ht88\.com\/plus\/frame\/top\*_\*\.html/
 !----热门杂烩----
 /:\/\/([^\/]+\.)?www\.micboy\.com\/dl2\.js/
 !----放心医苑网----

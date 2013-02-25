@@ -1,4 +1,3 @@
-*.narutom.com/stat.js
 *.narutom.com/v2/js/198game_Lt.js
 bbs.kaspersky.com.cn/images/bbs/*
 img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
@@ -333,6 +332,8 @@ www.haxiu.com/data/cache/zmyadn-*.htm
 *.haxiu.com/new_themes/flash/neiye2.swf
 *.haxiu.com/new_themes/flash/index_zml_*.swf
 *.haha.mx/Public/images/banner-*.png
+www.ht88.com/plus/frame/right*_*.html
+*.ht88.com/plus/frame/top*_*.html
 www.micboy.com/dl2.js
 www.fx120.net/disease0/ptt/images/banner.jpg
 www.bzlba.com/wp-content/uploads/*.jpg

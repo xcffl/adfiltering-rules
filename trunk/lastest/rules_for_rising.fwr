@@ -1682,7 +1682,6 @@
 		<rule Type="0" url="*.tudou.com/framepage/*"/>
 		<rule Type="0" url="*.tudou.com/tdap/*"/>
 		<rule Type="0" url="*.tudou.com/tdcm/*"/>
-		<rule Type="0" url="cps.youku.com/redirect.html?id=*&url=http://www.youku.com/"/>
 		<rule Type="0" url="l.ykimg.com/*"/>
 		<rule Type="0" url="p.l.ykimg.com/ykvisitts?*"/>
 		<rule Type="0" url="p-log.ykimg.com/*"/>
@@ -2339,6 +2338,8 @@
 		<rule Type="0" url="*.haxiu.com/new_themes/flash/neiye2.swf"/>
 		<rule Type="0" url="*.haxiu.com/new_themes/flash/index_zml_*.swf"/>
 		<rule Type="0" url="*.haha.mx/Public/images/banner-*.png"/>
+		<rule Type="0" url="www.ht88.com/plus/frame/right*_*.html"/>
+		<rule Type="0" url="*.ht88.com/plus/frame/top*_*.html"/>
 		<rule Type="0" url="www.micboy.com/dl2.js"/>
 		<rule Type="0" url="www.fx120.net/disease0/ptt/images/banner.jpg"/>
 		<rule Type="0" url="www.bzlba.com/wp-content/uploads/*.jpg"/>

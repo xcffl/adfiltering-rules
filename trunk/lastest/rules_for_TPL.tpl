@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-02-24 20:12:21
+#Updated:2013-02-25 10:58:36
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -1746,7 +1746,7 @@ msFilterList
 - *.tudou.com/tdap/
 - *.tudou.com/tdcm/
 #----优酷网----
--d cps.youku.com /redirect.html?id=*&url=http://www.youku.com/
++d cps.youku.com /redirect.html?id=*&url=http://www.youku.com/
 -d l.ykimg.com
 -d p.l.ykimg.com /ykvisitts?
 -d p-log.ykimg.com
@@ -2659,6 +2659,9 @@ msFilterList
 #----nature.com----
 #----哈哈.MX----
 - *.haha.mx/Public/images/banner-*.png
+#----育星教育网----
+-d www.ht88.com /plus/frame/right*_*.html
+- *.ht88.com/plus/frame/top*_*.html
 #----热门杂烩----
 -d www.micboy.com /dl2.js
 #----放心医苑网----

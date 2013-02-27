@@ -756,6 +756,7 @@ ox-d.*/jstag
 */float_ad_replay.gif
 */headnx.js
 */ad_api/*
+*/aamsz=*
 */AImageDs/*
 */jsocket.advanced.swf*
 */images/Bdvertisement/*
@@ -941,7 +942,6 @@ s3.buysellads.com/*
 *.hot200.cn/*
 static.mediav.com/*
 material.mediav.com/*
-*.discuz.net/data/attachment/album/*/*/*.gif
 *.1lo0.net/code/*
 *.ads001.com/*
 d.yoyi.tv/*
@@ -1107,7 +1107,7 @@ union.netease.com/*
 *linkpage.cn/*
 i.84232.com/*
 mmm.mm5208.com*
-monitor.yigao.com*
+monitor.yigao.com/*
 *myad.cn/*
 online4.lianmeng.com*
 p.wanliuliang.com/*
@@ -1393,6 +1393,7 @@ s1.fanxian.com/images/event/*_fanxian.gif
 www.i99770.com/g/h/*.html
 *46.com/taobao/images/*
 mat1.gtimg.com/news/ldj*x*_*.swf
+*.qq.com/livemsg?
 btrace.qq.com/*
 mat1.gtimg.com/lady/health*/999*.swf
 act.shop.qq.com/promote/*/index_*.shtml
@@ -1996,5 +1997,4 @@ www.rin9.com/js/t1.js?*
 rritw.com/my/fload_ads/*
 *.narutom.com/js/jsg2.js
 *.narutom.com/js/comicjs.js
-*.narutom.com/js/myl.js
 

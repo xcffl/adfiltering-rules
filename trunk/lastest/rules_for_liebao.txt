@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-02-25 10:58:36
+!Updated:2013-02-27 21:58:31
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -918,6 +918,7 @@ bannerad
 /\/float_ad_replay\.gif/
 /\/headnx\.js/
 /\/ad_api\//
+/\/aamsz=/
 /\/AImageDs\//
 /\/jsocket\.advanced\.swf/
 /\/images\/Bdvertisement\//
@@ -1106,7 +1107,6 @@ bannerad
 /\.hot200\.cn\//
 /:\/\/([^\/]+\.)?static\.mediav\.com\//
 /:\/\/([^\/]+\.)?material\.mediav\.com\//
-/\.discuz\.net\/data\/attachment\/album\/\*\/\*\/\*\.gif/
 /\.1lo0\.net\/code\//
 /\.ads001\.com\//
 /:\/\/([^\/]+\.)?d\.yoyi\.tv\//
@@ -1273,7 +1273,7 @@ bannerad
 /^http:\/\/\*linkpage\.cn\//
 /:\/\/([^\/]+\.)?i\.84232\.com\//
 /:\/\/([^\/]+\.)?mmm\.mm5208\.com/
-/:\/\/([^\/]+\.)?monitor\.yigao\.com/
+/:\/\/([^\/]+\.)?monitor\.yigao\.com\//
 /^http:\/\/\*myad\.cn\//
 /:\/\/([^\/]+\.)?online4\.lianmeng\.com/
 /:\/\/([^\/]+\.)?p\.wanliuliang\.com\//
@@ -1578,6 +1578,7 @@ bannerad
 ##nav	$d=news.qq.com
 ##[id^="AdZone"]	$d=news.qq.com
 /:\/\/([^\/]+\.)?mat1\.gtimg\.com\/news\/ldj\*x\*_\*\.swf/
+/\.qq\.com\/livemsg\?/
 /:\/\/([^\/]+\.)?btrace\.qq\.com\//
 /:\/\/([^\/]+\.)?mat1\.gtimg\.com\/lady\/health\*\/999\*\.swf/
 /:\/\/([^\/]+\.)?act\.shop\.qq\.com\/promote\/\*\/index_\*\.shtml/
@@ -2265,6 +2266,9 @@ bannerad
 /:\/\/([^\/]+\.)?www\.123du\.net\/SiteFiles\/GG\*\.html\?/
 /:\/\/([^\/]+\.)?www\.123du\.net\/SiteFiles\/InPage\*\.html\?/
 /:\/\/([^\/]+\.)?www\.123du\.net\/SiteFiles\/js\/Exp\*\.js/
+!----同花顺----
+##.subbanner	$d=10jqka.com.cn
+##.wbanner	$d=10jqka.com.cn
 !----PPS网络电视----
 /:\/\/([^\/]+\.)?stat\.ppstream\.com\//
 /:\/\/([^\/]+\.)?ugcad\.pps\.tv\//
@@ -2744,6 +2748,9 @@ bannerad
 /:\/\/([^\/]+\.)?img01\.5173cdn\.com\/fed\/build\/1\.00\/js\/fed-min\.js\?/
 !----57DJ----
 /:\/\/([^\/]+\.)?www\.57dj\.com\/js\/bd\.shtml\?id=/
+!----四川新闻网----
+/:\/\/([^\/]+\.)?www\.newssc\.org\/guanggao\//
+/:\/\/([^\/]+\.)?health\.newssc\.org\/2011jkgj\.html/
 !----思缘论坛----
 /\.missyuan\.com\/sy\//
 !----FACE妆点网----
@@ -3331,6 +3338,7 @@ bannerad
 !----金山快快----
 /:\/\/([^\/]+\.)?cw002\.kuaikuai\.cn\/website\/subject\/editor_recommend2\//
 !----金山快盘----
+/:\/\/([^\/]+\.)?web\.kuaipan\.cn\/static\/images\/anods\/outlink\//
 /:\/\/([^\/]+\.)?web\.kuaipan\.cn\/static\/images\/ads\/index\//$w
 !----金山网络----
 /:\/\/([^\/]+\.)?img1\.ijinshan\.com\/static\/js\/dh\.js/
@@ -3730,7 +3738,8 @@ bannerad
 /:\/\/([^\/]+\.)?by\.dm5\.com\//
 /:\/\/([^\/]+\.)?tongji\.dm5\.com\//
 !----Discuz----
-/\.discuz\.net\/data\/attachment\/forum\//
+/\.discuz\.net\/data\/attachment\/album\/\*\/\*\/\*\.gif/
+!*.discuz.net/data/attachment/forum/*.gif
 !----留园网----
 /:\/\/([^\/]+\.)?am\.6park\.com\/img\//
 /:\/\/([^\/]+\.)?image\.6park\.com/

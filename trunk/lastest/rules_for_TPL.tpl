@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-02-25 10:58:36
+#Updated:2013-02-27 21:58:31
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -792,6 +792,7 @@ msFilterList
 - */float_ad_replay.gif
 - */headnx.js
 - */ad_api/
+- */aamsz=
 - */AImageDs/
 - */jsocket.advanced.swf
 - */images/Bdvertisement/
@@ -980,7 +981,6 @@ msFilterList
 - *.hot200.cn/
 -d static.mediav.com
 -d material.mediav.com
-- *.discuz.net/data/attachment/album/*/*/*.gif
 - *.1lo0.net/code/
 - *.ads001.com/
 -d d.yoyi.tv
@@ -1147,7 +1147,7 @@ msFilterList
 - http://*linkpage.cn/
 -d i.84232.com
 - http://mmm.mm5208.com
-- http://monitor.yigao.com
+-d monitor.yigao.com
 - http://*myad.cn/
 - http://online4.lianmeng.com
 -d p.wanliuliang.com
@@ -1440,6 +1440,7 @@ msFilterList
 - *46.com/taobao/images/
 #----腾讯&财付通----
 -d mat1.gtimg.com /news/ldj*x*_*.swf
+- *.qq.com/livemsg?
 -d btrace.qq.com
 -d mat1.gtimg.com /lady/health*/999*.swf
 -d act.shop.qq.com /promote/*/index_*.shtml
@@ -2019,6 +2020,7 @@ msFilterList
 -d www.123du.net /SiteFiles/GG*.html?
 -d www.123du.net /SiteFiles/InPage*.html?
 -d www.123du.net /SiteFiles/js/Exp*.js
+#----同花顺----
 #----PPS网络电视----
 -d stat.ppstream.com
 -d ugcad.pps.tv
@@ -2401,6 +2403,9 @@ msFilterList
 -d img01.5173cdn.com /fed/build/1.00/js/fed-min.js?
 #----57DJ----
 -d www.57dj.com /js/bd.shtml?id=
+#----四川新闻网----
+-d www.newssc.org /guanggao/
+-d health.newssc.org /2011jkgj.html
 #----思缘论坛----
 - *.missyuan.com/sy/
 #----FACE妆点网----
@@ -2896,6 +2901,7 @@ msFilterList
 #----金山快快----
 -d cw002.kuaikuai.cn /website/subject/editor_recommend2/
 #----金山快盘----
+-d web.kuaipan.cn /static/images/anods/outlink/
 +d web.kuaipan.cn /static/images/ads/index/
 #----金山网络----
 -d img1.ijinshan.com /static/js/dh.js
@@ -3238,7 +3244,8 @@ msFilterList
 -d by.dm5.com
 -d tongji.dm5.com
 #----Discuz----
-- *.discuz.net/data/attachment/forum/
+- *.discuz.net/data/attachment/album/*/*/*.gif
+#*.discuz.net/data/attachment/forum/*.gif
 #----留园网----
 -d am.6park.com /img/
 - http://image.6park.com

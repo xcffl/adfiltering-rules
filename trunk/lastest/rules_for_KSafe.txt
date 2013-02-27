@@ -756,6 +756,7 @@
 5,4,*/float_ad_replay.gif
 5,4,*/headnx.js
 5,4,*/ad_api/*
+5,4,*/aamsz=*
 5,4,*/AImageDs/*
 5,4,*/jsocket.advanced.swf*
 5,4,*/images/Bdvertisement/*
@@ -941,7 +942,6 @@
 5,4,*.hot200.cn/*
 5,4,static.mediav.com/*
 5,4,material.mediav.com/*
-5,4,*.discuz.net/data/attachment/album/*/*/*.gif
 5,4,*.1lo0.net/code/*
 5,4,*.ads001.com/*
 5,4,d.yoyi.tv/*
@@ -1107,7 +1107,7 @@
 5,4,*linkpage.cn/*
 5,4,i.84232.com/*
 5,4,mmm.mm5208.com*
-5,4,monitor.yigao.com*
+5,4,monitor.yigao.com/*
 5,4,*myad.cn/*
 5,4,online4.lianmeng.com*
 5,4,p.wanliuliang.com/*
@@ -1388,6 +1388,7 @@
 5,4,www.i99770.com/g/h/*.html
 5,4,*46.com/taobao/images/*
 5,4,mat1.gtimg.com/news/ldj*x*_*.swf
+5,4,*.qq.com/livemsg?
 5,4,btrace.qq.com/*
 5,4,mat1.gtimg.com/lady/health*/999*.swf
 5,4,act.shop.qq.com/promote/*/index_*.shtml
@@ -2150,6 +2151,8 @@
 5,4,www.263car.net/ad.*
 5,4,img01.5173cdn.com/fed/build/1.00/js/fed-min.js?*
 5,4,www.57dj.com/js/bd.shtml?id=*
+5,4,www.newssc.org/guanggao/*
+5,4,health.newssc.org/2011jkgj.html
 5,4,*.missyuan.com/sy/*
 5,4,mat.zdface.com/Controls/ChannelHot/ChannelHotTypeID*ClassID*.aspx
 5,4,pic.duowan.com/news/*/*/*.jpg
@@ -2480,6 +2483,7 @@
 5,4,web.iciba.com/ef/*
 5,4,goto.www.iciba.com/*
 5,4,cw002.kuaikuai.cn/website/subject/editor_recommend2/*
+5,4,web.kuaipan.cn/static/images/anods/outlink/*
 5,4,img1.ijinshan.com/static/js/dh.js
 5,4,*.union.ijinshan.com/*
 5,4,123.duba.net/static/images/pop/*
@@ -2712,7 +2716,7 @@
 5,4,*ibook8.com/2/*
 5,4,by.dm5.com/*
 5,4,tongji.dm5.com/*
-5,4,*.discuz.net/data/attachment/forum/*
+5,4,*.discuz.net/data/attachment/album/*/*/*.gif
 5,4,am.6park.com/img/*
 5,4,image.6park.com*
 5,4,www.6park.com/wap/close.gif*

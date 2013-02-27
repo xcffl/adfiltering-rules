@@ -762,6 +762,7 @@
 		<rule Type="0" url="*/float_ad_replay.gif"/>
 		<rule Type="0" url="*/headnx.js"/>
 		<rule Type="0" url="*/ad_api/*"/>
+		<rule Type="0" url="*/aamsz=*"/>
 		<rule Type="0" url="*/AImageDs/*"/>
 		<rule Type="0" url="*/jsocket.advanced.swf*"/>
 		<rule Type="0" url="*/images/Bdvertisement/*"/>
@@ -947,7 +948,6 @@
 		<rule Type="0" url="*.hot200.cn/*"/>
 		<rule Type="0" url="static.mediav.com/*"/>
 		<rule Type="0" url="material.mediav.com/*"/>
-		<rule Type="0" url="*.discuz.net/data/attachment/album/*/*/*.gif"/>
 		<rule Type="0" url="*.1lo0.net/code/*"/>
 		<rule Type="0" url="*.ads001.com/*"/>
 		<rule Type="0" url="d.yoyi.tv/*"/>
@@ -1113,7 +1113,7 @@
 		<rule Type="0" url="*linkpage.cn/*"/>
 		<rule Type="0" url="i.84232.com/*"/>
 		<rule Type="0" url="mmm.mm5208.com*"/>
-		<rule Type="0" url="monitor.yigao.com*"/>
+		<rule Type="0" url="monitor.yigao.com/*"/>
 		<rule Type="0" url="*myad.cn/*"/>
 		<rule Type="0" url="online4.lianmeng.com*"/>
 		<rule Type="0" url="p.wanliuliang.com/*"/>
@@ -1399,6 +1399,7 @@
 		<rule Type="0" url="www.i99770.com/g/h/*.html"/>
 		<rule Type="0" url="*46.com/taobao/images/*"/>
 		<rule Type="0" url="mat1.gtimg.com/news/ldj*x*_*.swf"/>
+		<rule Type="0" url="*.qq.com/livemsg?"/>
 		<rule Type="0" url="btrace.qq.com/*"/>
 		<rule Type="0" url="mat1.gtimg.com/lady/health*/999*.swf"/>
 		<rule Type="0" url="act.shop.qq.com/promote/*/index_*.shtml"/>
@@ -2165,6 +2166,8 @@
 		<rule Type="0" url="www.263car.net/ad.*"/>
 		<rule Type="0" url="img01.5173cdn.com/fed/build/1.00/js/fed-min.js?*"/>
 		<rule Type="0" url="www.57dj.com/js/bd.shtml?id=*"/>
+		<rule Type="0" url="www.newssc.org/guanggao/*"/>
+		<rule Type="0" url="health.newssc.org/2011jkgj.html"/>
 		<rule Type="0" url="*.missyuan.com/sy/*"/>
 		<rule Type="0" url="mat.zdface.com/Controls/ChannelHot/ChannelHotTypeID*ClassID*.aspx"/>
 		<rule Type="0" url="pic.duowan.com/news/*/*/*.jpg"/>
@@ -2498,6 +2501,7 @@
 		<rule Type="0" url="web.iciba.com/ef/*"/>
 		<rule Type="0" url="goto.www.iciba.com/*"/>
 		<rule Type="0" url="cw002.kuaikuai.cn/website/subject/editor_recommend2/*"/>
+		<rule Type="0" url="web.kuaipan.cn/static/images/anods/outlink/*"/>
 		<rule Type="0" url="img1.ijinshan.com/static/js/dh.js"/>
 		<rule Type="0" url="*.union.ijinshan.com/*"/>
 		<rule Type="0" url="123.duba.net/static/images/pop/*"/>
@@ -2732,7 +2736,7 @@
 		<rule Type="0" url="*ibook8.com/2/*"/>
 		<rule Type="0" url="by.dm5.com/*"/>
 		<rule Type="0" url="tongji.dm5.com/*"/>
-		<rule Type="0" url="*.discuz.net/data/attachment/forum/*"/>
+		<rule Type="0" url="*.discuz.net/data/attachment/album/*/*/*.gif"/>
 		<rule Type="0" url="am.6park.com/img/*"/>
 		<rule Type="0" url="image.6park.com*"/>
 		<rule Type="0" url="www.6park.com/wap/close.gif*"/>

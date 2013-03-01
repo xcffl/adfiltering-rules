@@ -1,4 +1,4 @@
-msFilterList
+﻿msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
 #Updated:2013-02-27 21:58:31
@@ -4733,3 +4733,5 @@ msFilterList
 +d douban.com packed_fm_bgad*.js
 +d douban.com packed_fm_bannerad*.js
 +d douban.com packed_fm_rotate_ad*.js
+# imgChili
+-d feeds.videosz.com index.php

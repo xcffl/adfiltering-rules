@@ -8,6 +8,10 @@
     可访问 https://code.google.com/p/adfiltering-rules/ 。
 /* Copyright 2011-2013 Adfiltering-Rules Project, Apache License 2.0 */
 /* ======================== 版权自由 欢迎传播 ======================== */
+/* imgchili */
+iframe[src*="afr.php"]
+{display:none !important}
+
 /* candy-sky */
 iframe[src^="http://ads.doublemax.net"],
 #headerad

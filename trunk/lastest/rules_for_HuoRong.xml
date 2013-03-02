@@ -13562,6 +13562,11 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>*.gooooal.com/js/gooooal.ad.js</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path>*quick8.cn/softimg/*AD.gif</path>
 <object>*</object>
 </analyzer>

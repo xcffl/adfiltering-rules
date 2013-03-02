@@ -2716,6 +2716,7 @@
 		<rule Type="0" url="bbs.cfanclub.net/attachment/Mon_*/*"/>
 		<rule Type="0" url="attachments.cngba.com/attachments/month_*/*"/>
 		<rule Type="0" url="img.cngba.com/da/*"/>
+		<rule Type="0" url="*.gooooal.com/js/gooooal.ad.js"/>
 		<rule Type="0" url="*quick8.cn/softimg/*AD.gif"/>
 		<rule Type="0" url="free.xue5.com/templates/green/images/5946860.gif"/>
 		<rule Type="0" url="free.xue5.com/templates/green/images/59300160.gif"/>

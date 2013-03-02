@@ -2697,6 +2697,7 @@
 5,4,bbs.cfanclub.net/attachment/Mon_*/*
 5,4,attachments.cngba.com/attachments/month_*/*
 5,4,img.cngba.com/da/*
+5,4,*.gooooal.com/js/gooooal.ad.js
 5,4,*quick8.cn/softimg/*AD.gif
 5,4,free.xue5.com/templates/green/images/5946860.gif
 5,4,free.xue5.com/templates/green/images/59300160.gif

@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-02-27 21:58:31
+!Updated:2013-03-02 17:36:27
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -3066,6 +3066,7 @@ bannerad
 !----CC网址名录----
 /\.cicih\.cn\/images\/kuaiji\.gif/
 !----TechWeb----
+##.xxbox_news	$d=techweb.com.cn
 /:\/\/([^\/]+\.)?forum\.techweb\.com\.cn\/advtcnt\.php\?/
 !----至顶网----
 /:\/\/([^\/]+\.)?am\.zdnet\.com\.cn\/www\/images\/\*\/\*_\*\.swf/
@@ -3697,6 +3698,9 @@ bannerad
 !----玩家网----
 /:\/\/([^\/]+\.)?attachments\.cngba\.com\/attachments\/month_\*\//
 /:\/\/([^\/]+\.)?img\.cngba\.com\/da\//
+!----雪缘园----
+/:\/\/([^\/]+\.)?pic\.gooooal\.com\/ad\/images\/cj\*_\*\.jpg/$w
+/\.gooooal\.com\/js\/gooooal\.ad\.js/
 !----快吧下载----
 /quick8\.cn\/softimg\/\*AD\.gif/
 /:\/\/([^\/]+\.)?free\.xue5\.com\/templates\/green\/images\/5946860\.gif/

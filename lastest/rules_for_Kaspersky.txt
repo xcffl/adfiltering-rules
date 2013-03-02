@@ -2710,6 +2710,7 @@ bbs.cfanclub.net/lmimages/*-*.gif
 bbs.cfanclub.net/attachment/Mon_*/*
 attachments.cngba.com/attachments/month_*/*
 img.cngba.com/da/*
+*.gooooal.com/js/gooooal.ad.js
 *quick8.cn/softimg/*AD.gif
 free.xue5.com/templates/green/images/5946860.gif
 free.xue5.com/templates/green/images/59300160.gif

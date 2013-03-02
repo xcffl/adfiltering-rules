@@ -1,7 +1,7 @@
 ﻿msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-02-27 21:58:31
+#Updated:2013-03-02 17:36:27
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -3212,6 +3212,9 @@
 #----玩家网----
 -d attachments.cngba.com /attachments/month_*/
 -d img.cngba.com /da/
+#----雪缘园----
++d pic.gooooal.com /ad/images/cj*_*.jpg
+- *.gooooal.com/js/gooooal.ad.js
 #----快吧下载----
 - *quick8.cn/softimg/*AD.gif
 -d free.xue5.com /templates/green/images/5946860.gif

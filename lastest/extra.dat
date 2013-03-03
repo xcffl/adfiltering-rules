@@ -34,5 +34,3 @@
 -d feeds.videosz.com index.php
 [urlfilter.ini]
 write extra rules for opera here
-[filename.ext]
-write extra rules for filename.ext here

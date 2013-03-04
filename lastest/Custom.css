@@ -8,6 +8,11 @@
     可访问 https://code.google.com/p/adfiltering-rules/ 。
 /* Copyright 2011-2013 Adfiltering-Rules Project, Apache License 2.0 */
 /* ======================== 版权自由 欢迎传播 ======================== */
+/* ipc */
+li[class="widget widget_ad_slot_wrapper"],
+div[class="post-top-gg"]
+{display:none !important}
+
 /* imgchili */
 iframe[src*="afr.php"]
 {display:none !important}

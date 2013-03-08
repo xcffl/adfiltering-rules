@@ -1,8 +1,8 @@
 ﻿![Adblock Plus 1.1]
-! Checksum: GklTWsZrY+tdT4nQJn6Iig
+! Checksum: nCF0DsUdxPFdR26CUKih/g
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-03-04 22:04:59
+!Updated:2013-03-08 13:26:30
 !Description:一个通用、全面的广告过滤规则
 !Expires: 7 days
 !版本_5.1.5

@@ -8,7 +8,7 @@
 		<rule Type="0" url="*/37ss.js*"/>
 		<rule Type="0" url="*/configs/article/*.htm"/>
 		<rule Type="0" url="*/advertise.*"/>
-		<rule Type="0" url="*/track.*"/>
+		<rule Type="0" url="*/track.*.js*"/>
 		<rule Type="0" url="*/ads3.*"/>
 		<rule Type="0" url="*.com*/configs/article/*.js"/>
 		<rule Type="0" url="*.net*/configs/article/*.js"/>
@@ -956,6 +956,8 @@
 		<rule Type="0" url="*.insenz.com/*"/>
 		<rule Type="0" url="*.arpg2.com/*"/>
 		<rule Type="0" url="*.tenoad.com/show/*"/>
+		<rule Type="0" url="code.336.com/*"/>
+		<rule Type="0" url="c.336.com/*"/>
 		<rule Type="0" url="*.gs307.com/*"/>
 		<rule Type="0" url="*.400or800.com/*"/>
 		<rule Type="0" url="*.itsun.com/*"/>
@@ -1792,6 +1794,7 @@
 		<rule Type="0" url="www.pcgames.com.cn/*/hzh/index.html"/>
 		<rule Type="0" url="www.pcgames.com.cn/*/fz/*"/>
 		<rule Type="0" url="*3conline.com/ivy/*"/>
+		<rule Type="0" url="static.teesoft.info/images/uniblue.png"/>
 		<rule Type="0" url="gg.yxdown.com/*"/>
 		<rule Type="0" url="new.thea.cn/tan/*"/>
 		<rule Type="0" url="images.koolearn.com/casupload/upload*/advs/*"/>
@@ -2220,6 +2223,7 @@
 		<rule Type="0" url="*.cnchu.com/*/aps/*"/>
 		<rule Type="0" url="*7edown.com/db/*"/>
 		<rule Type="0" url="*7edown.com/newbd/*"/>
+		<rule Type="0" url="*xverycd.com/js/topad.js"/>
 		<rule Type="0" url="ranking.ynet.com:*/*"/>
 		<rule Type="0" url="ranking.ynet.com/*"/>
 		<rule Type="0" url="ads158.ynet.com/*"/>
@@ -3267,6 +3271,7 @@
 		<rule Type="0" url="*gamersky.com/img/bg_*.jpg"/>
 		<rule Type="0" url="imgf.gamersky.com/**bg_ol*.jpg"/>
 		<rule Type="0" url="imgf.gamersky.com/*/*"/>
+		<rule Type="0" url="image.gamersky.com/*"/>
 		<rule Type="0" url="*.gamersky.com/frame/*"/>
 		<rule Type="0" url="*.gamersky.com/img/*"/>
 		<rule Type="0" url="www.gy778tv.cn/UBB/uploadfile/News/20090411/20090411103618800.gif"/>

@@ -1,8 +1,8 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-03-02 21:59:03
-!*itemcount=4375
+!*lastmodify=2013-03-09 14:25:44
+!*itemcount=4385
 !*headend
 !Expires: 7 days
 !版本_5.1.5
@@ -19,7 +19,7 @@
 */37ss.js
 */configs/article/*.htm
 */advertise.
-*/track.
+*/track.*.js
 */ads3.
 *.com*/configs/article/*.js
 *.net*/configs/article/*.js
@@ -990,6 +990,8 @@
 *.insenz.com/
 *.arpg2.com/
 *.tenoad.com/show/
+|code.336.com/
+|c.336.com/
 *.gs307.com/
 *.400or800.com/
 *.itsun.com/
@@ -1501,7 +1503,7 @@ kuai.xunlei.com##.adv_area
 kuai.xunlei.com##.lahuan
 ~|res.stat.xunlei.com/pv.js
 ~|web.stat.xunlei.com/pv?
-~|hm.baidu.com/h.js$$js?*::dynamic.cloud.vip.xunlei.com
+~|hm.baidu.com/h.js?*::dynamic.cloud.vip.xunlei.com
 |record.kuai.xunlei.com/
 |img.kuai.xunlei.com/img/v2/fen/
 |misc.web.xunlei.com/*/kankan_click*.js
@@ -1985,6 +1987,8 @@ i.qianshou.com@@DIV[style="width:728px; height:90px; float:left; padding-top:4px
 |www.pcgames.com.cn/*/hzh/index.html
 |www.pcgames.com.cn/*/fz/
 *3conline.com/ivy/
+!----teesoft----
+|static.teesoft.info/images/uniblue.png
 !----爱微课网----
 %iiwnet.com@@[id^="ads"]
 !----游讯网----
@@ -2120,6 +2124,7 @@ people.com.cn##.top_ad_list
 !----推一把----
 |bbs.tui18.com/js/bbstop.htm
 !----快播&快玩&hahabei----
+~|searchstat.kuaibo.com/
 *op*.web.kuaiwan.com/
 |web.kuaiwan.com/js/
 |is.kuaibo.com/uploadfile/
@@ -2211,6 +2216,9 @@ newhua.com,onlinedown.net##.r1
 */js_newhua_right_picshow*.js
 */js_newhua_txtshow*.js
 */newhuagg/*.swf
+!----ipc51.com----
+%ipc51.com##.widget widget_ad_slot_wrapper
+%ipc51.com##.post-top-gg
 !----动漫吧----
 *.dm8.cc/s/
 *.dm8.cc/javascript/xshow.js
@@ -2286,6 +2294,9 @@ www.gfan.com##.banner
 |img1.guokr.com/gkimage/gl/nq/el/glnqel.png
 !----软件盒子----
 %itopdog.cn@@[class^="ad"]
+!----大哥电影网----
+%dage.cc##.gg
+%dage.cc@@[class^="ad"]
 !----cnBeta----
 %cnbeta.com@@EM
 %cnbeta.com###fm_r
@@ -2702,6 +2713,8 @@ news.e23.cn@@[id$="advb1"]
 !----创e下载园----
 *7edown.com/db/
 *7edown.com/newbd/
+!----电驴备份网----
+*xverycd.com/js/topad.js
 !----北青网----
 |ranking.ynet.com:*/
 |ranking.ynet.com/
@@ -4470,6 +4483,7 @@ down.cnzz.cn###msg_win
 *gamersky.com/img/bg_*.jpg
 |imgf.gamersky.com/**bg_ol*.jpg
 |imgf.gamersky.com/*/
+|image.gamersky.com/
 *.gamersky.com/frame/
 *.gamersky.com/img/
 !----广友影视----
@@ -5167,7 +5181,7 @@ www.qidian.com##.DH17
 ~|cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js
 ~|cpro.baidu.com/cpro/ui/y.js
 !9es.cn
-~|cpro.baidu.com/cpro/ui/f.js$$js::up.9es.cn
+~|cpro.baidu.com/cpro/ui/f.js::up.9es.cn
 ~|pos.baidu.com/ecom?*::up.9es.cn
-~|cpro.baidu.com/cpro/ui/c.js$$js::up.9es.cn
+~|cpro.baidu.com/cpro/ui/c.js::up.9es.cn
 !-------------待分类-------------

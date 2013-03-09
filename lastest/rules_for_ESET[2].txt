@@ -1,3 +1,6 @@
+*.narutom.com/js/jsg2.js
+*.narutom.com/js/comicjs.js
+*.narutom.com/js/myl.js
 *.narutom.com/stat.js
 *.narutom.com/v2/js/198game_Lt.js
 bbs.kaspersky.com.cn/images/bbs/*
@@ -214,6 +217,7 @@ corp.56.com/*
 *.cnchu.com/*/aps/*
 *7edown.com/db/*
 *7edown.com/newbd/*
+*xverycd.com/js/topad.js
 ranking.ynet.com:*/*
 ranking.ynet.com/*
 ads158.ynet.com/*
@@ -1261,6 +1265,7 @@ img.jcard.cn/ADNews/*
 *gamersky.com/img/bg_*.jpg
 imgf.gamersky.com/**bg_ol*.jpg
 imgf.gamersky.com/*/*
+image.gamersky.com/*
 *.gamersky.com/frame/*
 *.gamersky.com/img/*
 www.gy778tv.cn/UBB/uploadfile/News/20090411/20090411103618800.gif

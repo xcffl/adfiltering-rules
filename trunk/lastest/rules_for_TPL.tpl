@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-03-02 21:59:03
+#Updated:2013-03-09 14:25:44
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -18,7 +18,7 @@ msFilterList
 - */37ss.js
 - */configs/article/*.htm
 - */advertise.
-- */track.
+- */track.*.js
 - */ads3.
 - *.com*/configs/article/*.js
 - *.net*/configs/article/*.js
@@ -989,6 +989,8 @@ msFilterList
 - *.insenz.com/
 - *.arpg2.com/
 - *.tenoad.com/show/
+-d code.336.com
+-d c.336.com
 - *.gs307.com/
 - *.400or800.com/
 - *.itsun.com/
@@ -1891,6 +1893,8 @@ msFilterList
 -d www.pcgames.com.cn /hzh/index.html
 -d www.pcgames.com.cn /fz/
 - *3conline.com/ivy/
+#----teesoft----
+-d static.teesoft.info /images/uniblue.png
 #----爱微课网----
 #----游讯网----
 -d gg.yxdown.com
@@ -2006,6 +2010,7 @@ msFilterList
 #----推一把----
 -d bbs.tui18.com /js/bbstop.htm
 #----快播&快玩&hahabei----
++d searchstat.kuaibo.com
 - *op*.web.kuaiwan.com/
 -d web.kuaiwan.com /js/
 -d is.kuaibo.com /uploadfile/
@@ -2076,6 +2081,7 @@ msFilterList
 - */js_newhua_right_picshow*.js
 - */js_newhua_txtshow*.js
 - */newhuagg/*.swf
+#----ipc51.com----
 #----动漫吧----
 - *.dm8.cc/s/
 - *.dm8.cc/javascript/xshow.js
@@ -2134,6 +2140,7 @@ msFilterList
 #----果壳----
 -d img1.guokr.com /gkimage/gl/nq/el/glnqel.png
 #----软件盒子----
+#----大哥电影网----
 #----cnBeta----
 -d img.cnbeta.com 300.gif
 -d img.cnbeta.com /wy.gif
@@ -2485,6 +2492,8 @@ msFilterList
 #----创e下载园----
 - *7edown.com/db/
 - *7edown.com/newbd/
+#----电驴备份网----
+- *xverycd.com/js/topad.js
 #----北青网----
 - http://ranking.ynet.com:*/
 -d ranking.ynet.com
@@ -4055,6 +4064,7 @@ msFilterList
 - *gamersky.com/img/bg_*.jpg
 -d imgf.gamersky.com *bg_ol*.jpg
 -d imgf.gamersky.com
+-d image.gamersky.com
 - *.gamersky.com/frame/
 - *.gamersky.com/img/
 #----广友影视----

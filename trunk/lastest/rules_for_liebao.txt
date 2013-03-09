@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-03-08 14:06:59
+!Updated:2013-03-09 14:25:44
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -144,7 +144,7 @@ bannerad
 /\/37ss\.js/
 /\/configs\/article\/\*\.htm/
 /\/advertise\./
-/\/track\./
+/\/track\.\*\.js/
 /\/ads3\./
 /\.com\*\/configs\/article\/\*\.js/
 /\.net\*\/configs\/article\/\*\.js/
@@ -1115,6 +1115,8 @@ bannerad
 /\.insenz\.com\//
 /\.arpg2\.com\//
 /\.tenoad\.com\/show\//
+/:\/\/([^\/]+\.)?code\.336\.com\//
+/:\/\/([^\/]+\.)?c\.336\.com\//
 /\.gs307\.com\//
 /\.400or800\.com\//
 /\.itsun\.com\//
@@ -2114,6 +2116,8 @@ bannerad
 /:\/\/([^\/]+\.)?www\.pcgames\.com\.cn\/\*\/hzh\/index\.html/
 /:\/\/([^\/]+\.)?www\.pcgames\.com\.cn\/\*\/fz\//
 /3conline\.com\/ivy\//
+!----teesoft----
+/:\/\/([^\/]+\.)?static\.teesoft\.info\/images\/uniblue\.png/
 !----爱微课网----
 ##[id^="ads"]	$d=iiwnet.com
 !----游讯网----
@@ -2249,6 +2253,7 @@ bannerad
 !----推一把----
 /:\/\/([^\/]+\.)?bbs\.tui18\.com\/js\/bbstop\.htm/
 !----快播&快玩&hahabei----
+/:\/\/([^\/]+\.)?searchstat\.kuaibo\.com\//$w
 /op\*\.web\.kuaiwan\.com\//
 /:\/\/([^\/]+\.)?web\.kuaiwan\.com\/js\//
 /:\/\/([^\/]+\.)?is\.kuaibo\.com\/uploadfile\//
@@ -2343,6 +2348,9 @@ bannerad
 /\/js_newhua_right_picshow\*\.js/
 /\/js_newhua_txtshow\*\.js/
 /\/newhuagg\/\*\.swf/
+!----ipc51.com----
+##.widget widget_ad_slot_wrapper	$d=ipc51.com
+##.post-top-gg	$d=ipc51.com
 !----动漫吧----
 /\.dm8\.cc\/s\//
 /\.dm8\.cc\/javascript\/xshow\.js/
@@ -2418,6 +2426,9 @@ bannerad
 /:\/\/([^\/]+\.)?img1\.guokr\.com\/gkimage\/gl\/nq\/el\/glnqel\.png/
 !----软件盒子----
 ##[class^="ad"]	$d=itopdog.cn
+!----大哥电影网----
+##.gg	$d=dage.cc
+##[class^="ad"]	$d=dage.cc
 !----cnBeta----
 ##EM	$d=cnbeta.com
 ##fm_r	$d=cnbeta.com
@@ -2836,6 +2847,8 @@ bannerad
 !----创e下载园----
 /7edown\.com\/db\//
 /7edown\.com\/newbd\//
+!----电驴备份网----
+/xverycd\.com\/js\/topad\.js/
 !----北青网----
 /:\/\/([^\/]+\.)?ranking\.ynet\.com:\*\//
 /:\/\/([^\/]+\.)?ranking\.ynet\.com\//
@@ -4610,6 +4623,7 @@ bannerad
 /gamersky\.com\/img\/bg_\*\.jpg/
 /:\/\/([^\/]+\.)?imgf\.gamersky\.com\/\*\*bg_ol\*\.jpg/
 /:\/\/([^\/]+\.)?imgf\.gamersky\.com\/\*\//
+/:\/\/([^\/]+\.)?image\.gamersky\.com\//
 /\.gamersky\.com\/frame\//
 /\.gamersky\.com\/img\//
 !----广友影视----
@@ -5311,9 +5325,6 @@ bannerad
 /\.drevil\.to\//
 /:\/\/([^\/]+\.)?www\.fclub\.cn\/affiche\.php\?act=img&ad_id=/
 /:\/\/([^\/]+\.)?www\.54new\.com\/da\//
-!----ipc51.com----
-##.widget widget_ad_slot_wrapper
-##.post-top-gg
 !-------------特殊规则-------------
 !-------------临时规则-------------
 !----百度推广验证码下载----

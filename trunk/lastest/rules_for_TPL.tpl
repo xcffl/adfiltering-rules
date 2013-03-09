@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-03-09 14:25:44
+#Updated:2013-03-09 21:33:49
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -1445,6 +1445,8 @@ msFilterList
 - *.qq.com/livemsg?
 -d btrace.qq.com
 -d mat1.gtimg.com /lady/health*/999*.swf
+-d mat1.gtimg.com /news/2013/lianghui/index/ad_
+-d mat1.gtimg.com /news/2013/lianghui/xijiu.swf
 -d act.shop.qq.com /promote/*/index_*.shtml
 #||discuz.gtimg.cn/cloud/scripts/discuz_tips.js?*
 -d mat1.gtimg.com /2012/images/ay12/*AD*.png
@@ -1474,6 +1476,9 @@ msFilterList
 -d mat1.gtimg.com /news/fbgg/
 -d mat1.gtimg.com /hb/avd/*x*_*.swf
 -d f.qstatic.com
+#两会
+-d mat1.gtimg.com /news/2013/lianghui/index/zqgm_logo100-25.jpg
+-d img1.gtimg.com /news/pics/hv1/83/202/1274/82893443.jpg
 #----瑞星知道----
 -d zhidao.ikaka.com /images/game_*.gif
 #----搜搜----

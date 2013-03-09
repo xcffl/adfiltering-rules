@@ -1404,6 +1404,8 @@
 		<rule Type="0" url="*.qq.com/livemsg?"/>
 		<rule Type="0" url="btrace.qq.com/*"/>
 		<rule Type="0" url="mat1.gtimg.com/lady/health*/999*.swf"/>
+		<rule Type="0" url="mat1.gtimg.com/news/2013/lianghui/index/ad_*"/>
+		<rule Type="0" url="mat1.gtimg.com/news/2013/lianghui/xijiu.swf"/>
 		<rule Type="0" url="act.shop.qq.com/promote/*/index_*.shtml"/>
 		<rule Type="0" url="mat1.gtimg.com/2012/images/ay12/*AD*.png"/>
 		<rule Type="0" url="mat1.gtimg.com/2012/images/ay12/*ad*.jpg"/>
@@ -1432,6 +1434,8 @@
 		<rule Type="0" url="mat1.gtimg.com/news/fbgg/*"/>
 		<rule Type="0" url="mat1.gtimg.com/hb/avd/*x*_*.swf"/>
 		<rule Type="0" url="f.qstatic.com/*"/>
+		<rule Type="0" url="mat1.gtimg.com/news/2013/lianghui/index/zqgm_logo100-25.jpg"/>
+		<rule Type="0" url="img1.gtimg.com/news/pics/hv1/83/202/1274/82893443.jpg"/>
 		<rule Type="0" url="zhidao.ikaka.com/images/game_*.gif"/>
 		<rule Type="0" url="dr.soso.com/*"/>
 		<rule Type="0" url="*soso*.*/UploadFiles/2008*.gif"/>

@@ -1,3 +1,7 @@
+www.dnsgua.com/image/dnspod.png
+www.rin9.com/js/t1.js?*
+*.hupu.com/d/file/*.swf
+rritw.com/my/fload_ads/*
 *.narutom.com/js/jsg2.js
 *.narutom.com/js/comicjs.js
 *.narutom.com/js/myl.js

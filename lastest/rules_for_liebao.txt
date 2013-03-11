@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-03-09 21:33:49
+!Updated:2013-03-11 21:55:40
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -405,7 +405,7 @@ bannerad
 /\/common\/cf\/\*\.gif/
 /\/common\/cf\/\*\.png/
 /\/common\/cf\/\*\.swf/
-/^http:\/\/\*cpc_/
+!|http://*cpc_*
 /^http:\/\/\*adunion/
 /^http:\/\/\*aliunion/
 /^http:\/\/\*unionads/
@@ -1251,6 +1251,7 @@ bannerad
 /:\/\/([^\/]+\.)?yingoad\.com\/page\//
 /:\/\/([^\/]+\.)?cpm\.union\.52xiyou\.com\//
 /\.s2d6\.com\/x\/\?/
+/:\/\/([^\/]+\.)?u\*\.021025\.com\//
 /\.game3737\.com\//
 /\.adkongjian\.com/
 /:\/\/([^\/]+\.)?cpp\.ggyad\.com\*\//
@@ -2491,6 +2492,8 @@ bannerad
 /\.narutom\.com\/js\/myl\.js/
 /\.narutom\.com\/stat\.js/
 /\.narutom\.com\/v2\/js\/198game_Lt\.js/
+!----路透----
+##.ad	$d=reuters.com
 !----精睿----
 ##.a_pt	$d=bbs.vc52.cn
 !||bbs.vc52.cn/data/attachment/forum/2*/*.gif
@@ -3173,6 +3176,8 @@ bannerad
 /\.win7china\.com\/HitCount\.aspx\?/
 /\.ithome\.com\/block\/\*_google/
 /\.ithome\.com\/block\/headerline\.htm/
+!----韶关家园----
+/\.sg169\.com\/tp\/news\//
 !----站长助手----
 /\.baidu456\.com\/ggimages\//
 /baidu456\.com\/tcjs\//

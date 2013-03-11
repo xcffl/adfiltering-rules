@@ -251,7 +251,6 @@
 5,4,*/common/cf/*.gif
 5,4,*/common/cf/*.png
 5,4,*/common/cf/*.swf
-5,4,*cpc_*
 5,4,*adunion*
 5,4,*aliunion*
 5,4,*unionads*
@@ -1086,6 +1085,7 @@
 5,4,yingoad.com/page/*
 5,4,cpm.union.52xiyou.com/*
 5,4,*.s2d6.com/x/?*
+5,4,u*.021025.com/*
 5,4,*.game3737.com/*
 5,4,*.adkongjian.com*
 5,4,cpp.ggyad.com*/*
@@ -2396,6 +2396,7 @@
 5,4,*.win7china.com/HitCount.aspx?*
 5,4,*.ithome.com/block/*_google*
 5,4,*.ithome.com/block/headerline.htm
+5,4,*.sg169.com/tp/news/*
 5,4,*.baidu456.com/ggimages/*
 5,4,*baidu456.com/tcjs/*
 5,4,www.ej38.com/css/images/bbs.gif

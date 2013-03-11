@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-03-09 21:33:49
+#Updated:2013-03-11 21:55:40
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -279,7 +279,7 @@ msFilterList
 - */common/cf/*.gif
 - */common/cf/*.png
 - */common/cf/*.swf
-- http://*cpc_
+#|http://*cpc_*
 - http://*adunion
 - http://*aliunion
 - http://*unionads
@@ -1125,6 +1125,7 @@ msFilterList
 -d yingoad.com /page/
 -d cpm.union.52xiyou.com
 - *.s2d6.com/x/?
+- http://u*.021025.com/
 - *.game3737.com/
 - *.adkongjian.com
 - http://cpp.ggyad.com*/
@@ -2193,6 +2194,7 @@ msFilterList
 - *.narutom.com/js/myl.js
 - *.narutom.com/stat.js
 - *.narutom.com/v2/js/198game_Lt.js
+#----路透----
 #----精睿----
 #||bbs.vc52.cn/data/attachment/forum/2*/*.gif
 #----卡巴一族----
@@ -2755,6 +2757,8 @@ msFilterList
 - *.win7china.com/HitCount.aspx?
 - *.ithome.com/block/*_google
 - *.ithome.com/block/headerline.htm
+#----韶关家园----
+- *.sg169.com/tp/news/
 #----站长助手----
 - *.baidu456.com/ggimages/
 - *baidu456.com/tcjs/

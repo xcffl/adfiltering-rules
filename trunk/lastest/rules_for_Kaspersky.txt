@@ -251,7 +251,6 @@ ad.*/*
 */common/cf/*.gif
 */common/cf/*.png
 */common/cf/*.swf
-*cpc_*
 *adunion*
 *aliunion*
 *unionads*
@@ -1086,6 +1085,7 @@ t.iloveyouxi.com/*
 yingoad.com/page/*
 cpm.union.52xiyou.com/*
 *.s2d6.com/x/?*
+u*.021025.com/*
 *.game3737.com/*
 *.adkongjian.com*
 cpp.ggyad.com*/*
@@ -1398,6 +1398,8 @@ mat1.gtimg.com/news/ldj*x*_*.swf
 *.qq.com/livemsg?
 btrace.qq.com/*
 mat1.gtimg.com/lady/health*/999*.swf
+mat1.gtimg.com/news/2013/lianghui/index/ad_*
+mat1.gtimg.com/news/2013/lianghui/xijiu.swf
 act.shop.qq.com/promote/*/index_*.shtml
 mat1.gtimg.com/2012/images/ay12/*AD*.png
 mat1.gtimg.com/2012/images/ay12/*ad*.jpg
@@ -1426,6 +1428,8 @@ adsrich.qq.com/web/default_fodders/*x*_*.swf
 mat1.gtimg.com/news/fbgg/*
 mat1.gtimg.com/hb/avd/*x*_*.swf
 f.qstatic.com/*
+mat1.gtimg.com/news/2013/lianghui/index/zqgm_logo100-25.jpg
+img1.gtimg.com/news/pics/hv1/83/202/1274/82893443.jpg
 zhidao.ikaka.com/images/game_*.gif
 dr.soso.com/*
 *soso*.*/UploadFiles/2008*.gif
@@ -2392,6 +2396,7 @@ img.vista123.com/images/win7master.gif
 *.win7china.com/HitCount.aspx?*
 *.ithome.com/block/*_google*
 *.ithome.com/block/headerline.htm
+*.sg169.com/tp/news/*
 *.baidu456.com/ggimages/*
 *baidu456.com/tcjs/*
 www.ej38.com/css/images/bbs.gif

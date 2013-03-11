@@ -257,7 +257,6 @@
 		<rule Type="0" url="*/common/cf/*.gif"/>
 		<rule Type="0" url="*/common/cf/*.png"/>
 		<rule Type="0" url="*/common/cf/*.swf"/>
-		<rule Type="0" url="*cpc_*"/>
 		<rule Type="0" url="*adunion*"/>
 		<rule Type="0" url="*aliunion*"/>
 		<rule Type="0" url="*unionads*"/>
@@ -1092,6 +1091,7 @@
 		<rule Type="0" url="yingoad.com/page/*"/>
 		<rule Type="0" url="cpm.union.52xiyou.com/*"/>
 		<rule Type="0" url="*.s2d6.com/x/?*"/>
+		<rule Type="0" url="u*.021025.com/*"/>
 		<rule Type="0" url="*.game3737.com/*"/>
 		<rule Type="0" url="*.adkongjian.com*"/>
 		<rule Type="0" url="cpp.ggyad.com*/*"/>
@@ -2402,6 +2402,7 @@
 		<rule Type="0" url="*.win7china.com/HitCount.aspx?*"/>
 		<rule Type="0" url="*.ithome.com/block/*_google*"/>
 		<rule Type="0" url="*.ithome.com/block/headerline.htm"/>
+		<rule Type="0" url="*.sg169.com/tp/news/*"/>
 		<rule Type="0" url="*.baidu456.com/ggimages/*"/>
 		<rule Type="0" url="*baidu456.com/tcjs/*"/>
 		<rule Type="0" url="www.ej38.com/css/images/bbs.gif"/>

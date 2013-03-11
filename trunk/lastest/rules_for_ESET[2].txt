@@ -396,6 +396,7 @@ img.vista123.com/images/win7master.gif
 *.win7china.com/HitCount.aspx?*
 *.ithome.com/block/*_google*
 *.ithome.com/block/headerline.htm
+*.sg169.com/tp/news/*
 *.baidu456.com/ggimages/*
 *baidu456.com/tcjs/*
 www.ej38.com/css/images/bbs.gif

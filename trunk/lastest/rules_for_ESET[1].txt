@@ -251,7 +251,6 @@ ad.*/*
 */common/cf/*.gif
 */common/cf/*.png
 */common/cf/*.swf
-*cpc_*
 *adunion*
 *aliunion*
 *unionads*
@@ -1086,6 +1085,7 @@ t.iloveyouxi.com/*
 yingoad.com/page/*
 cpm.union.52xiyou.com/*
 *.s2d6.com/x/?*
+u*.021025.com/*
 *.game3737.com/*
 *.adkongjian.com*
 cpp.ggyad.com*/*

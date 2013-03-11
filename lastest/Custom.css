@@ -9,7 +9,9 @@
 /* Copyright 2011-2013 Adfiltering-Rules Project, Apache License 2.0 */
 /* ======================== 版权自由 欢迎传播 ======================== */
 /* 1024 */
-div[class="t t2"] tr[class="tr3 tr1"] div[class="tips"] {display:none !important}
+div[class="t t2"] tr[class="tr3 tr1"] div[class="tips"],
+body>center>.sptable
+{display:none !important}
 
 /* 游民星空 */
 #ShowDIV,

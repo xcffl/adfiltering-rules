@@ -408,7 +408,6 @@ js.*/code.js
 */rmb/*.js
 */click.php?=*
 *.me*/header.js
-*.cn/*/header.js
 *.co/*/header.js
 *.org*/header.js
 *get_ad.php?ad_id=*

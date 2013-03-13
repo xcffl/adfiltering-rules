@@ -2052,11 +2052,6 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
-<path>*.cn/*/header.js</path>
-<object>*</object>
-</analyzer>
-<analyzer>
-<type>Http</type>
 <path>*.co/*/header.js</path>
 <object>*</object>
 </analyzer>

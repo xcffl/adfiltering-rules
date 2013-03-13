@@ -408,7 +408,6 @@
 5,4,*/rmb/*.js
 5,4,*/click.php?=*
 5,4,*.me*/header.js
-5,4,*.cn/*/header.js
 5,4,*.co/*/header.js
 5,4,*.org*/header.js
 5,4,*get_ad.php?ad_id=*

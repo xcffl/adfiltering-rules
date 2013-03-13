@@ -414,7 +414,6 @@
 		<rule Type="0" url="*/rmb/*.js"/>
 		<rule Type="0" url="*/click.php?=*"/>
 		<rule Type="0" url="*.me*/header.js"/>
-		<rule Type="0" url="*.cn/*/header.js"/>
 		<rule Type="0" url="*.co/*/header.js"/>
 		<rule Type="0" url="*.org*/header.js"/>
 		<rule Type="0" url="*get_ad.php?ad_id=*"/>

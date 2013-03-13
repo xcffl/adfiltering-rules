@@ -408,7 +408,6 @@ js.*/code.js
 */rmb/*.js
 */click.php?=*
 *.me*/header.js
-*.cn/*/header.js
 *.co/*/header.js
 *.org*/header.js
 *get_ad.php?ad_id=*
@@ -1997,4 +1996,5 @@ img.cnbeta.com/*336.gif
 img.cnbeta.com/app*.gif
 affiliate.godaddy.com/ads/*
 tracking.hostgator.com/img/Penny_Discounts/*-banners-*x*.gif
+www.dnsgua.com/image/namecheap.png
 

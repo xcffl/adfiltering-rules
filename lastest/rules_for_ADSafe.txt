@@ -1,8 +1,8 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-03-11 21:55:40
-!*itemcount=4392
+!*lastmodify=2013-03-13 21:53:11
+!*itemcount=4391
 !*headend
 !Expires: 7 days
 !版本_5.1.5
@@ -441,7 +441,7 @@
 */rmb/*.js
 */click.php?=
 *.me*/header.js
-*.cn/*/header.js
+!*.cn/*/header.js
 *.co/*/header.js
 *.org*/header.js
 *get_ad.php?ad_id=

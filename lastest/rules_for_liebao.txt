@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-03-13 21:53:11
+!Updated:2013-03-15 20:35:30
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -1982,7 +1982,9 @@ bannerad
 /lstat\.youku\.com\//
 /:\/\/([^\/]+\.)?valp\.atm\.youku\.com\//
 /:\/\/([^\/]+\.)?cps\.youku\.com\//
-/\.atm\.youku\.com\/val\*ct=\*&cs=/
+!*.atm.youku.com/val*ct=*&cs=*
+/:\/\/([^\/]+\.)?f\.youku\.com\/player\/getFlvPath\/fileid\/\*ymovie=1/$w
+/:\/\/([^\/]+\.)?f\.youku\.com\/player\/getFlvPath\/fileid\//
 !||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
 !||f.youku.com/player/getFlvPath/fileid/0*?K=*
 !||valf.atm.youku.com/valf?*
@@ -1991,6 +1993,8 @@ bannerad
 /:\/\/([^\/]+\.)?static\.youku\.com\/\*\/index\/js\/cps\.js/
 /:\/\/([^\/]+\.)?static\.youku\.com\/\*\/index\/js\/hzClick\.js/
 /:\/\/([^\/]+\.)?static\.youku\.com\/\*\/index\/js\/iresearch\.js/
+/:\/\/([^\/]+\.)?stat\.youku\.com\/player\/addPlayerDurationReport\?/
+/:\/\/([^\/]+\.)?notice\.youku\.com\/notice\/js_notify\.json/
 !----雅虎----
 /:\/\/([^\/]+\.)?l\.yimg\.com\/zz\/combo\?\*\.js/$w
 /:\/\/([^\/]+\.)?l\.yimg\.com\/d\/lib\/bc\/bcr_2\.0\.5\.js/
@@ -3054,6 +3058,8 @@ bannerad
 /admin5\.com\/extras\/zz\/index\.scroll\.flash\.js/
 /admin5\.com\/images\/zz\/\*\.gif/
 /admin5\.com\/images\/zz\/\*\.jpg/
+!----VeryDemo----
+##ad	$d=verydemo.com
 !----就爱外挂网----
 /:\/\/([^\/]+\.)?www\.92wg\.com\/Style_litcn\/css\/ad\.css/
 /:\/\/([^\/]+\.)?www\.92wg\.com\/new\/js\/A_\*\.js/

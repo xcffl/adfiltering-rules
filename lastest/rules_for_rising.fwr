@@ -1704,10 +1704,12 @@
 		<rule Type="0" url="*lstat.youku.com/*"/>
 		<rule Type="0" url="valp.atm.youku.com/*"/>
 		<rule Type="0" url="cps.youku.com/*"/>
-		<rule Type="0" url="*.atm.youku.com/val*ct=*&cs=*"/>
+		<rule Type="0" url="f.youku.com/player/getFlvPath/fileid/*"/>
 		<rule Type="0" url="static.youku.com/*/index/js/cps.js"/>
 		<rule Type="0" url="static.youku.com/*/index/js/hzClick.js"/>
 		<rule Type="0" url="static.youku.com/*/index/js/iresearch.js"/>
+		<rule Type="0" url="stat.youku.com/player/addPlayerDurationReport?*"/>
+		<rule Type="0" url="notice.youku.com/notice/js_notify.json*"/>
 		<rule Type="0" url="l.yimg.com/d/lib/bc/bcr_2.0.5.js"/>
 		<rule Type="0" url="l.yimg.com/f/a/tw/gif_backup/ad_*.gif"/>
 		<rule Type="0" url="*.yahoo.com/yi?bv=*"/>

@@ -8502,7 +8502,7 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
-<path>*.atm.youku.com/val*ct=*&cs=*</path>
+<path>f.youku.com/player/getFlvPath/fileid/*</path>
 <object>*</object>
 </analyzer>
 <analyzer>
@@ -8518,6 +8518,16 @@
 <analyzer>
 <type>Http</type>
 <path>static.youku.com/*/index/js/iresearch.js</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
+<path>stat.youku.com/player/addPlayerDurationReport?*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
+<path>notice.youku.com/notice/js_notify.json*</path>
 <object>*</object>
 </analyzer>
 <analyzer>

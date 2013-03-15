@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-03-13 21:53:11
+#Updated:2013-03-15 20:35:30
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -1775,7 +1775,9 @@ msFilterList
 - *lstat.youku.com/
 -d valp.atm.youku.com
 -d cps.youku.com
-- *.atm.youku.com/val*ct=*&cs=
+#*.atm.youku.com/val*ct=*&cs=*
++d f.youku.com /player/getFlvPath/fileid/*ymovie=1
+-d f.youku.com /player/getFlvPath/fileid/
 #||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
 #||f.youku.com/player/getFlvPath/fileid/0*?K=*
 #||valf.atm.youku.com/valf?*
@@ -1784,6 +1786,8 @@ msFilterList
 -d static.youku.com /index/js/cps.js
 -d static.youku.com /index/js/hzClick.js
 -d static.youku.com /index/js/iresearch.js
+-d stat.youku.com /player/addPlayerDurationReport?
+-d notice.youku.com /notice/js_notify.json
 #----雅虎----
 +d l.yimg.com /zz/combo?*.js
 -d l.yimg.com /d/lib/bc/bcr_2.0.5.js
@@ -2666,6 +2670,7 @@ msFilterList
 - *admin5.com/extras/zz/index.scroll.flash.js
 - *admin5.com/images/zz/*.gif
 - *admin5.com/images/zz/*.jpg
+#----VeryDemo----
 #----就爱外挂网----
 -d www.92wg.com /Style_litcn/css/ad.css
 -d www.92wg.com /new/js/A_*.js

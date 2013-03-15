@@ -1698,10 +1698,12 @@
 5,4,*lstat.youku.com/*
 5,4,valp.atm.youku.com/*
 5,4,cps.youku.com/*
-5,4,*.atm.youku.com/val*ct=*&cs=*
+5,4,f.youku.com/player/getFlvPath/fileid/*
 5,4,static.youku.com/*/index/js/cps.js
 5,4,static.youku.com/*/index/js/hz*lick.js
 5,4,static.youku.com/*/index/js/iresearch.js
+5,4,stat.youku.com/player/addPlayerDurationReport?*
+5,4,notice.youku.com/notice/js_notify.json*
 5,4,l.yimg.com/d/lib/bc/bcr_2.0.5.js
 5,4,l.yimg.com/f/a/tw/gif_backup/ad_*.gif
 5,4,*.yahoo.com/yi?bv=*

@@ -1,4 +1,4 @@
-msFilterList
+﻿msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
 #Updated:2013-03-16 18:00:51
@@ -4765,3 +4765,8 @@ msFilterList
 +d douban.com packed_fm_rotate_ad*.js
 # imgChili
 -d feeds.videosz.com index.php
+# mo.weibo
+- ww3.sinaimg.cn/large/60af4b57jw1dv3f5pvodxj.jpg
+- ww2.sinaimg.cn/large/50e326f1jw1doj6vmtnppj.jpg
+# weibo
+-d biz.weibo.com /adfront/

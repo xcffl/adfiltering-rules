@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-03-15 20:35:30
+#Updated:2013-03-16 17:37:00
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -1776,8 +1776,8 @@ msFilterList
 -d valp.atm.youku.com
 -d cps.youku.com
 #*.atm.youku.com/val*ct=*&cs=*
+-d f.youku.com /player/getFlvPath/fileid/*ymovie=
 +d f.youku.com /player/getFlvPath/fileid/*ymovie=1
--d f.youku.com /player/getFlvPath/fileid/
 #||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
 #||f.youku.com/player/getFlvPath/fileid/0*?K=*
 #||valf.atm.youku.com/valf?*

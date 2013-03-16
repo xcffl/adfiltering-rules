@@ -1698,7 +1698,7 @@ vid.atm.youku.com/*
 *lstat.youku.com/*
 valp.atm.youku.com/*
 cps.youku.com/*
-f.youku.com/player/getFlvPath/fileid/*
+f.youku.com/player/getFlvPath/fileid/*ymovie=*
 static.youku.com/*/index/js/cps.js
 static.youku.com/*/index/js/hzClick.js
 static.youku.com/*/index/js/iresearch.js

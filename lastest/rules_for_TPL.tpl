@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-03-16 17:37:00
+#Updated:2013-03-16 18:00:51
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -4076,9 +4076,12 @@ msFilterList
 - *my9u.com/content/templates/demo/images/
 #----游民星空----
 - *gamersky.com/img/bg_*.jpg
+- *.gamersky.com/frame/
+- *.gamersky.com/img/
+-d bbs1.gamersky.com /count.htm
+-d imgf.gamersky.com /300/
 -d imgf.gamersky.com *bg_ol*.jpg
 -d imgf.gamersky.com
--d image.gamersky.com
 - *.gamersky.com/frame/
 - *.gamersky.com/img/
 #----广友影视----

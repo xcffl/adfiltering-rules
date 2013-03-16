@@ -1,8 +1,8 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-03-16 17:37:00
-!*itemcount=4395
+!*lastmodify=2013-03-16 18:00:51
+!*itemcount=4398
 !*headend
 !Expires: 7 days
 !版本_5.1.5
@@ -4498,9 +4498,12 @@ down.cnzz.cn###msg_win
 %gamersky.com@@div[style="position:absolute;z-index:1"]
 %gamersky.com##.topadbod
 *gamersky.com/img/bg_*.jpg
+*.gamersky.com/frame/
+*.gamersky.com/img/
+|bbs1.gamersky.com/count.htm
+|imgf.gamersky.com/300/
 |imgf.gamersky.com/**bg_ol*.jpg
 |imgf.gamersky.com/*/
-|image.gamersky.com/
 *.gamersky.com/frame/
 *.gamersky.com/img/
 !----广友影视----

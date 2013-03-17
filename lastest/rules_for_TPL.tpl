@@ -1,7 +1,7 @@
-﻿msFilterList
+msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-03-16 18:00:51
+#Updated:2013-03-17 13:05:39
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -170,6 +170,7 @@
 - http://*/a-d-s/
 - http://*/a_d/
 - */aadd/
+- */artemis/
 - http://*/ad.php
 #****慢速标识****
 - */ad2/
@@ -1618,6 +1619,10 @@
 -d sh.sina.com.cn /iframe/391/
 -d sh.sina.com.cn /iframe/408/
 -d news.sina.com.cn /pfpnews/js/libweb.js
+#微博
+- http://biz.weibo.com*/adfront/
+-d ww2.sinaimg.cn /large/50e326f1jw1doj6vmtnppj.jpg
+-d ww3.sinaimg.cn /large/60af4b57jw1dv3f5pvodxj.jpg
 #----搜狗&搜狐&搜狐畅游----
 -d tv.sohu.com /upload/static/global/hdpv.js
 - http://a*.itc.cn/pv/js/pvclick.
@@ -1755,7 +1760,6 @@
 - *.tudou.com/tdap/
 - *.tudou.com/tdcm/
 #----优酷网----
-+d cps.youku.com /redirect.html?id=*&url=http://www.youku.com/
 -d l.ykimg.com
 -d p.l.ykimg.com /ykvisitts?
 -d p-log.ykimg.com
@@ -1774,7 +1778,6 @@
 -d vid.atm.youku.com
 - *lstat.youku.com/
 -d valp.atm.youku.com
--d cps.youku.com
 #*.atm.youku.com/val*ct=*&cs=*
 -d f.youku.com /player/getFlvPath/fileid/*ymovie=
 +d f.youku.com /player/getFlvPath/fileid/*ymovie=1
@@ -2016,6 +2019,7 @@
 -d www.tv650.com /sq3.gif
 -d www.tv650.com /itv/index.htm
 #----人民网----
++d cpc.people.com.cn
 - *.people.com.cn/mediafile/*.swf
 #----推一把----
 -d bbs.tui18.com /js/bbstop.htm
@@ -2055,6 +2059,8 @@
 -d player.pplive.cn /*ive*lugin.swf
 - *.synacast.com/
 - *pp2.pptv.com/
+#----晋中公安交警网----
+# @@*.sxjzjj.com/AD/*
 #----当当网----
 -d union.dangdang.com
 -d a.dangdang.com /smart.js
@@ -2218,6 +2224,8 @@
 -d ads.skykiwi.com
 -d www.gcemedia.co.nz /www/images/*.swf
 #----问吧----
+#----拼吾爱程序人生----
+- *.pin5i.com/javascript/zbj.js
 #----厦门小鱼网----
 -d bbs.xmfish.com /images/atm/
 -d client.xmfish.com /attachments/bar/
@@ -2475,6 +2483,7 @@
 -d cximg.gome.com.cn /ADImge/
 #----铁泰参考----
 -d www.tietai.com /file/upload/*/*/*-*-*-*-*.jpg
+#----皇朝软件论坛----
 #----未来软件园----
 - http://*.orsoon.com/orsoon/img/zz*.gif
 - */orsoon/img/ad*.gif
@@ -3253,7 +3262,8 @@
 - *autohome.com.cn/33
 - http://33.autohome.com.cn
 #----AcFun.tv----
-+d w5cdn.ranktv.cn
+#@@||w5cdn.ranktv.cn/*
+- http://w5cdn.ranktv.cn*/artemis/
 - *.acfun.tv/api/count.aspx
 - *.acfun.tv/json/newad.xml
 #----大纪元----
@@ -4080,7 +4090,7 @@
 - *.gamersky.com/img/
 -d bbs1.gamersky.com /count.htm
 -d imgf.gamersky.com /300/
--d imgf.gamersky.com *bg_ol*.jpg
+-d imgf.gamersky.com bg_ol*.jpg
 -d imgf.gamersky.com
 - *.gamersky.com/frame/
 - *.gamersky.com/img/
@@ -4737,13 +4747,6 @@
 +d sinajs.cn weiboshare.html
 +d weibo.com shorten.json
 +d weibo.com counts.json
-
-# acfun
--d w5cdn.ranktv.cn /artemis/
--d w5cdn.ranktv.cn */artemis/*
-- /artemis/
-- */artemis/*
-
 # baidu
 +d baidu.com bds_s_v2.js
 +d baidu.com logger.js
@@ -4767,8 +4770,3 @@
 +d douban.com packed_fm_rotate_ad*.js
 # imgChili
 -d feeds.videosz.com index.php
-# mo.weibo
-- ww3.sinaimg.cn/large/60af4b57jw1dv3f5pvodxj.jpg
-- ww2.sinaimg.cn/large/50e326f1jw1doj6vmtnppj.jpg
-# weibo
--d biz.weibo.com /adfront/

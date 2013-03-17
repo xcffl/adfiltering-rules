@@ -1,8 +1,8 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-03-16 18:00:51
-!*itemcount=4398
+!*lastmodify=2013-03-17 13:05:39
+!*itemcount=4404
 !*headend
 !Expires: 7 days
 !版本_5.1.5
@@ -171,6 +171,7 @@
 */a-d-s/
 */a_d/
 */aadd/
+*/artemis/
 */ad.php
 !****慢速标识****
 */ad2/
@@ -1664,6 +1665,10 @@ sina.com.cn##.article-video
 |sh.sina.com.cn/iframe/391/
 |sh.sina.com.cn/iframe/408/
 |news.sina.com.cn/pfpnews/js/libweb.js
+!微博
+|biz.weibo.com*/adfront/
+|ww2.sinaimg.cn/large/50e326f1jw1doj6vmtnppj.jpg
+|ww3.sinaimg.cn/large/60af4b57jw1dv3f5pvodxj.jpg
 !----搜狗&搜狐&搜狐畅游----
 news.sohu.com@@TD[valign="top"]
 news.sohu.com##.banner
@@ -1833,7 +1838,6 @@ news.163.com###adB
 %soku.com###ab_282
 %youku.com###ab_26
 %youku.com##.AB240
-~|cps.youku.com/redirect.html?id=*&url=http://www.youku.com/
 |l.ykimg.com/
 |p.l.ykimg.com/ykvisitts?
 |p-log.ykimg.com/
@@ -1852,7 +1856,6 @@ news.163.com###adB
 |vid.atm.youku.com/
 *lstat.youku.com/
 |valp.atm.youku.com/
-|cps.youku.com/
 !*.atm.youku.com/val*ct=*&cs=*
 |f.youku.com/player/getFlvPath/fileid/*ymovie=
 ~|f.youku.com/player/getFlvPath/fileid/*ymovie=1
@@ -2131,6 +2134,7 @@ bbs.dengfeng.cn###diy1
 |www.tv650.com/itv/index.htm
 !----人民网----
 people.com.cn##.top_ad_list
+~|cpc.people.com.cn/
 *.people.com.cn/mediafile/*.swf
 !----推一把----
 |bbs.tui18.com/js/bbstop.htm
@@ -2176,6 +2180,8 @@ people.com.cn##.top_ad_list
 |player.pplive.cn/*/*ive*lugin.swf
 *.synacast.com/
 *pp2.pptv.com/
+!----晋中公安交警网----
+~*.sxjzjj.com/AD/
 !----当当网----
 |union.dangdang.com/
 |a.dangdang.com/smart.js
@@ -2388,6 +2394,8 @@ bbs.vc52.cn##.a_pt
 !----问吧----
 %tesoon.com##.header_3
 %tesoon.com@@TD[valign="top"]
+!----拼吾爱程序人生----
+*.pin5i.com/javascript/zbj.js
 !----厦门小鱼网----
 |bbs.xmfish.com/images/atm/
 |client.xmfish.com/attachments/bar/
@@ -2697,6 +2705,8 @@ news.e23.cn@@[id$="advb1"]
 |cximg.gome.com.cn/ADImge/
 !----铁泰参考----
 |www.tietai.com/file/upload/*/*/*-*-*-*-*.jpg
+!----皇朝软件论坛----
+bbs.yhcgo.com##.cc.mt10
 !----未来软件园----
 |*.orsoon.com/orsoon/img/zz*.gif
 */orsoon/img/ad*.gif
@@ -3615,7 +3625,8 @@ autohome.com.cn##.subadv2
 %acfun.tv###position_rad
 %acfun.tv##.ad.ad-top
 %acfun.tv###ad-comment
-~|w5cdn.ranktv.cn/
+!@@||w5cdn.ranktv.cn/*
+|w5cdn.ranktv.cn*/artemis/
 *.acfun.tv/api/count.aspx
 *.acfun.tv/json/newad.xml
 !----大纪元----
@@ -4502,7 +4513,7 @@ down.cnzz.cn###msg_win
 *.gamersky.com/img/
 |bbs1.gamersky.com/count.htm
 |imgf.gamersky.com/300/
-|imgf.gamersky.com/**bg_ol*.jpg
+|imgf.gamersky.com/*bg_ol*.jpg
 |imgf.gamersky.com/*/
 *.gamersky.com/frame/
 *.gamersky.com/img/

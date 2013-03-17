@@ -147,6 +147,7 @@
 5,4,*/a-d-s/*
 5,4,*/a_d/*
 5,4,*/aadd/*
+5,4,*/artemis/*
 5,4,*/ad.php*
 5,4,*/ad2/*
 5,4,*/adbot.*
@@ -1558,6 +1559,9 @@
 5,4,sh.sina.com.cn/iframe/391/*
 5,4,sh.sina.com.cn/iframe/408/*
 5,4,news.sina.com.cn/pfpnews/js/libweb.js
+5,4,biz.weibo.com*/adfront/*
+5,4,ww2.sinaimg.cn/large/50e326f1jw1doj6vmtnppj.jpg
+5,4,ww3.sinaimg.cn/large/60af4b57jw1dv3f5pvodxj.jpg
 5,4,tv.sohu.com/upload/static/global/hdpv.js
 5,4,a*.itc.cn/pv/js/pvclick.*
 5,4,xls.go.sohu.com/*
@@ -1697,7 +1701,6 @@
 5,4,vid.atm.youku.com/*
 5,4,*lstat.youku.com/*
 5,4,valp.atm.youku.com/*
-5,4,cps.youku.com/*
 5,4,f.youku.com/player/getFlvPath/fileid/*ymovie=*
 5,4,static.youku.com/*/index/js/cps.js
 5,4,static.youku.com/*/index/js/hz*lick.js
@@ -2017,6 +2020,7 @@
 5,4,*.kenwen.com/scripts/ctc.js
 5,4,ads.skykiwi.com/*
 5,4,www.gcemedia.co.nz/www/images/*.swf
+5,4,*.pin5i.com/javascript/zbj.js
 5,4,bbs.xmfish.com/images/atm/*
 5,4,client.xmfish.com/attachments/bar/*
 5,4,hot.xmfish.com/pages/images/*
@@ -2732,6 +2736,7 @@
 5,4,33.autohome.cn/file/*
 5,4,*autohome.com.cn/33*
 5,4,33.autohome.com.cn*
+5,4,w5cdn.ranktv.cn*/artemis/*
 5,4,*.acfun.tv/api/count.aspx
 5,4,*.acfun.tv/json/newad.xml
 5,4,ads3.epochtimes.com/*
@@ -3273,7 +3278,7 @@
 5,4,*.gamersky.com/img/*
 5,4,bbs1.gamersky.com/count.htm
 5,4,imgf.gamersky.com/300/*
-5,4,imgf.gamersky.com/**bg_ol*.jpg
+5,4,imgf.gamersky.com/*bg_ol*.jpg
 5,4,imgf.gamersky.com/*/*
 5,4,*.gamersky.com/frame/*
 5,4,*.gamersky.com/img/*

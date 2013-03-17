@@ -1,3 +1,6 @@
+img.cnbeta.com/app*.gif
+affiliate.godaddy.com/ads/*
+tracking.hostgator.com/img/Penny_Discounts/*-banners-*x*.gif
 www.dnsgua.com/image/namecheap.png
 www.dnsgua.com/image/dnspod.png
 www.rin9.com/js/t1.js?*
@@ -17,6 +20,7 @@ www.asp300.com/*adjs/*
 *.kenwen.com/scripts/ctc.js
 ads.skykiwi.com/*
 www.gcemedia.co.nz/www/images/*.swf
+*.pin5i.com/javascript/zbj.js
 bbs.xmfish.com/images/atm/*
 client.xmfish.com/attachments/bar/*
 hot.xmfish.com/pages/images/*
@@ -732,6 +736,7 @@ res.files.131.com/script/notif.js
 33.autohome.cn/file/*
 *autohome.com.cn/33*
 33.autohome.com.cn*
+w5cdn.ranktv.cn*/artemis/*
 *.acfun.tv/api/count.aspx
 *.acfun.tv/json/newad.xml
 ads3.epochtimes.com/*
@@ -1273,7 +1278,7 @@ img.jcard.cn/ADNews/*
 *.gamersky.com/img/*
 bbs1.gamersky.com/count.htm
 imgf.gamersky.com/300/*
-imgf.gamersky.com/**bg_ol*.jpg
+imgf.gamersky.com/*bg_ol*.jpg
 imgf.gamersky.com/*/*
 *.gamersky.com/frame/*
 *.gamersky.com/img/*

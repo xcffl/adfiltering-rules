@@ -153,6 +153,7 @@
 		<rule Type="0" url="*/a-d-s/*"/>
 		<rule Type="0" url="*/a_d/*"/>
 		<rule Type="0" url="*/aadd/*"/>
+		<rule Type="0" url="*/artemis/*"/>
 		<rule Type="0" url="*/ad.php*"/>
 		<rule Type="0" url="*/ad2/*"/>
 		<rule Type="0" url="*/adbot.*"/>
@@ -1564,6 +1565,9 @@
 		<rule Type="0" url="sh.sina.com.cn/iframe/391/*"/>
 		<rule Type="0" url="sh.sina.com.cn/iframe/408/*"/>
 		<rule Type="0" url="news.sina.com.cn/pfpnews/js/libweb.js"/>
+		<rule Type="0" url="biz.weibo.com*/adfront/*"/>
+		<rule Type="0" url="ww2.sinaimg.cn/large/50e326f1jw1doj6vmtnppj.jpg"/>
+		<rule Type="0" url="ww3.sinaimg.cn/large/60af4b57jw1dv3f5pvodxj.jpg"/>
 		<rule Type="0" url="tv.sohu.com/upload/static/global/hdpv.js"/>
 		<rule Type="0" url="a*.itc.cn/pv/js/pvclick.*"/>
 		<rule Type="0" url="xls.go.sohu.com/*"/>
@@ -1703,7 +1707,6 @@
 		<rule Type="0" url="vid.atm.youku.com/*"/>
 		<rule Type="0" url="*lstat.youku.com/*"/>
 		<rule Type="0" url="valp.atm.youku.com/*"/>
-		<rule Type="0" url="cps.youku.com/*"/>
 		<rule Type="0" url="f.youku.com/player/getFlvPath/fileid/*ymovie=*"/>
 		<rule Type="0" url="static.youku.com/*/index/js/cps.js"/>
 		<rule Type="0" url="static.youku.com/*/index/js/hzClick.js"/>
@@ -2023,6 +2026,7 @@
 		<rule Type="0" url="*.kenwen.com/scripts/ctc.js"/>
 		<rule Type="0" url="ads.skykiwi.com/*"/>
 		<rule Type="0" url="www.gcemedia.co.nz/www/images/*.swf"/>
+		<rule Type="0" url="*.pin5i.com/javascript/zbj.js"/>
 		<rule Type="0" url="bbs.xmfish.com/images/atm/*"/>
 		<rule Type="0" url="client.xmfish.com/attachments/bar/*"/>
 		<rule Type="0" url="hot.xmfish.com/pages/images/*"/>
@@ -2738,6 +2742,7 @@
 		<rule Type="0" url="33.autohome.cn/file/*"/>
 		<rule Type="0" url="*autohome.com.cn/33*"/>
 		<rule Type="0" url="33.autohome.com.cn*"/>
+		<rule Type="0" url="w5cdn.ranktv.cn*/artemis/*"/>
 		<rule Type="0" url="*.acfun.tv/api/count.aspx"/>
 		<rule Type="0" url="*.acfun.tv/json/newad.xml"/>
 		<rule Type="0" url="ads3.epochtimes.com/*"/>
@@ -3279,7 +3284,7 @@
 		<rule Type="0" url="*.gamersky.com/img/*"/>
 		<rule Type="0" url="bbs1.gamersky.com/count.htm"/>
 		<rule Type="0" url="imgf.gamersky.com/300/*"/>
-		<rule Type="0" url="imgf.gamersky.com/**bg_ol*.jpg"/>
+		<rule Type="0" url="imgf.gamersky.com/*bg_ol*.jpg"/>
 		<rule Type="0" url="imgf.gamersky.com/*/*"/>
 		<rule Type="0" url="*.gamersky.com/frame/*"/>
 		<rule Type="0" url="*.gamersky.com/img/*"/>

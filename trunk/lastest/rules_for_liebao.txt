@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-03-16 18:00:51
+!Updated:2013-03-17 13:05:39
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -296,6 +296,7 @@ bannerad
 /^http:\/\/\*\/a-d-s\//
 /^http:\/\/\*\/a_d\//
 /\/aadd\//
+/\/artemis\//
 /^http:\/\/\*\/ad\.php/
 !****慢速标识****
 /\/ad2\//
@@ -1789,6 +1790,10 @@ bannerad
 /:\/\/([^\/]+\.)?sh\.sina\.com\.cn\/iframe\/391\//
 /:\/\/([^\/]+\.)?sh\.sina\.com\.cn\/iframe\/408\//
 /:\/\/([^\/]+\.)?news\.sina\.com\.cn\/pfpnews\/js\/libweb\.js/
+!微博
+/:\/\/([^\/]+\.)?biz\.weibo\.com\*\/adfront\//
+/:\/\/([^\/]+\.)?ww2\.sinaimg\.cn\/large\/50e326f1jw1doj6vmtnppj\.jpg/
+/:\/\/([^\/]+\.)?ww3\.sinaimg\.cn\/large\/60af4b57jw1dv3f5pvodxj\.jpg/
 !----搜狗&搜狐&搜狐畅游----
 ##TD[valign="top"]	$d=news.sohu.com
 ##.banner	$d=news.sohu.com
@@ -1962,7 +1967,6 @@ bannerad
 ##ab_26	$d=youku.com
 ##.AB240	$d=youku.com
 ##.sideCol > div[class^="AB"]
-/:\/\/([^\/]+\.)?cps\.youku\.com\/redirect\.html\?id=\*&url=http:\/\/www\.youku\.com\//$w
 /:\/\/([^\/]+\.)?l\.ykimg\.com\//
 /:\/\/([^\/]+\.)?p\.l\.ykimg\.com\/ykvisitts\?/
 /:\/\/([^\/]+\.)?p-log\.ykimg\.com\//
@@ -1981,7 +1985,6 @@ bannerad
 /:\/\/([^\/]+\.)?vid\.atm\.youku\.com\//
 /lstat\.youku\.com\//
 /:\/\/([^\/]+\.)?valp\.atm\.youku\.com\//
-/:\/\/([^\/]+\.)?cps\.youku\.com\//
 !*.atm.youku.com/val*ct=*&cs=*
 /:\/\/([^\/]+\.)?f\.youku\.com\/player\/getFlvPath\/fileid\/\*ymovie=/
 /:\/\/([^\/]+\.)?f\.youku\.com\/player\/getFlvPath\/fileid\/\*ymovie=1/$w
@@ -2260,6 +2263,7 @@ bannerad
 /:\/\/([^\/]+\.)?www\.tv650\.com\/itv\/index\.htm/
 !----人民网----
 ##.top_ad_list	$d=people.com.cn
+/:\/\/([^\/]+\.)?cpc\.people\.com\.cn\//$w
 /\.people\.com\.cn\/mediafile\/\*\.swf/
 !----推一把----
 /:\/\/([^\/]+\.)?bbs\.tui18\.com\/js\/bbstop\.htm/
@@ -2305,6 +2309,8 @@ bannerad
 /:\/\/([^\/]+\.)?player\.pplive\.cn\/\*\/\*ive\*lugin\.swf/
 /\.synacast\.com\//
 /pp2\.pptv\.com\//
+!----晋中公安交警网----
+/\.sxjzjj\.com\/AD\//$w
 !----当当网----
 /:\/\/([^\/]+\.)?union\.dangdang\.com\//
 /:\/\/([^\/]+\.)?a\.dangdang\.com\/smart\.js/
@@ -2520,6 +2526,8 @@ bannerad
 !----问吧----
 ##.header_3	$d=tesoon.com
 ##TD[valign="top"]	$d=tesoon.com
+!----拼吾爱程序人生----
+/\.pin5i\.com\/javascript\/zbj\.js/
 !----厦门小鱼网----
 /:\/\/([^\/]+\.)?bbs\.xmfish\.com\/images\/atm\//
 /:\/\/([^\/]+\.)?client\.xmfish\.com\/attachments\/bar\//
@@ -2831,6 +2839,8 @@ bannerad
 /:\/\/([^\/]+\.)?cximg\.gome\.com\.cn\/ADImge\//
 !----铁泰参考----
 /:\/\/([^\/]+\.)?www\.tietai\.com\/file\/upload\/\*\/\*\/\*-\*-\*-\*-\*\.jpg/
+!----皇朝软件论坛----
+##.cc.mt10	$d=bbs.yhcgo.com
 !----未来软件园----
 /:\/\/([^\/]+\.)?\*\.orsoon\.com\/orsoon\/img\/zz\*\.gif/
 /\/orsoon\/img\/ad\*\.gif/
@@ -3754,7 +3764,8 @@ bannerad
 ##position_rad	$d=acfun.tv
 ##.ad.ad-top	$d=acfun.tv
 ##ad-comment	$d=acfun.tv
-/:\/\/([^\/]+\.)?w5cdn\.ranktv\.cn\//$w
+!@@||w5cdn.ranktv.cn/*
+/:\/\/([^\/]+\.)?w5cdn\.ranktv\.cn\*\/artemis\//
 /\.acfun\.tv\/api\/count\.aspx/
 /\.acfun\.tv\/json\/newad\.xml/
 !----大纪元----
@@ -4642,7 +4653,7 @@ bannerad
 /\.gamersky\.com\/img\//
 /:\/\/([^\/]+\.)?bbs1\.gamersky\.com\/count\.htm/
 /:\/\/([^\/]+\.)?imgf\.gamersky\.com\/300\//
-/:\/\/([^\/]+\.)?imgf\.gamersky\.com\/\*\*bg_ol\*\.jpg/
+/:\/\/([^\/]+\.)?imgf\.gamersky\.com\/\*bg_ol\*\.jpg/
 /:\/\/([^\/]+\.)?imgf\.gamersky\.com\/\*\//
 /\.gamersky\.com\/frame\//
 /\.gamersky\.com\/img\//

@@ -4,11 +4,6 @@
 +d sinajs.cn weiboshare.html
 +d weibo.com shorten.json
 +d weibo.com counts.json
-# acfun
-- w5cdn.ranktv.cn/dotnet/artemis/u/cms/www/201302/01151155n7np.jpg
-- w5cdn.ranktv.cn/dotnet/artemis/u/cms/www/201301/1818042953rp.png
-- w5cdn.ranktv.cn/dotnet/artemis/u/cms/www/201302/03105320e8eq.jpg
-- w5cdn.ranktv.cn/dotnet/artemis/u/cms/www/201302/01151155n7np.jpg
 # baidu
 +d baidu.com bds_s_v2.js
 +d baidu.com logger.js

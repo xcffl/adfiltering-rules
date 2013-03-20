@@ -1702,6 +1702,7 @@
 5,4,*lstat.youku.com/*
 5,4,valp.atm.youku.com/*
 5,4,f.youku.com/player/getFlvPath/fileid/*ymovie=*
+5,4,valf.atm.youku.com/valf?*
 5,4,static.youku.com/*/index/js/cps.js
 5,4,static.youku.com/*/index/js/hz*lick.js
 5,4,static.youku.com/*/index/js/iresearch.js

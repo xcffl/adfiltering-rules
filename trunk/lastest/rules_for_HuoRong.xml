@@ -8522,6 +8522,11 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>valf.atm.youku.com/valf?*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path>static.youku.com/*/index/js/cps.js</path>
 <object>*</object>
 </analyzer>

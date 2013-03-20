@@ -1708,6 +1708,7 @@
 		<rule Type="0" url="*lstat.youku.com/*"/>
 		<rule Type="0" url="valp.atm.youku.com/*"/>
 		<rule Type="0" url="f.youku.com/player/getFlvPath/fileid/*ymovie=*"/>
+		<rule Type="0" url="valf.atm.youku.com/valf?*"/>
 		<rule Type="0" url="static.youku.com/*/index/js/cps.js"/>
 		<rule Type="0" url="static.youku.com/*/index/js/hzClick.js"/>
 		<rule Type="0" url="static.youku.com/*/index/js/iresearch.js"/>

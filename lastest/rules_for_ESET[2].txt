@@ -1,3 +1,5 @@
+img.cnbeta.com/sundns*.*
+img.cnbeta.com/tongbu*.*
 img.cnbeta.com/*336.gif
 img.cnbeta.com/app*.gif
 affiliate.godaddy.com/ads/*
@@ -12,6 +14,8 @@ rritw.com/my/fload_ads/*
 *.narutom.com/js/myl.js
 *.narutom.com/stat.js
 *.narutom.com/v2/js/198game_Lt.js
+pic.959.cn/media/js/960-100.js
+oldimg.brandcn.com/index_pho/*
 bbs.kaspersky.com.cn/images/bbs/*
 img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 *normteam.com/usepic/*
@@ -214,6 +218,7 @@ www.tietai.com/file/upload/*/*/*-*-*-*-*.jpg
 */orsoon/img/gg.gif
 */orsoon/img/donwpf.gif
 *.orsoon.com/orsoon/img/*x*.jpg
+*.2500sz.com/*site/*
 *.d9soft.com/images/ad*.gif
 *.39.net/gy/arthot/hz/*
 i.6.cn/cvbnm/99/18/a3/4478ff78d6c6565d9fc6a635ad173121.jpg
@@ -234,6 +239,7 @@ ads158.ynet.com/*
 fun.ynet.com/*
 *.yangtse.com/images/*.swf
 *.it168.com/cad/*
+*.it168.com/ggimg/*
 168.it168.com/*.js*
 download.it168.com/jscript/bubbl*.js
 download.it168.com/txt/*
@@ -294,6 +300,10 @@ www.ys168.com/images/*_*.*
 www.ys168.com/images/*.gif
 
 oa.hinews.cn/work/img/*_oxadcesl.swf
+*.22mt.com/js/bd*.js
+*.22mt.com/js/top.js
+*.22mt.com/js/zj_*.js
+*.22mt.com/images/002.gif
 *adimage.bokee.com*
 *price.cheshi.com.cn*
 *5ccc.net/scripts/*
@@ -342,6 +352,8 @@ down.admin5.com/z/*
 *admin5.com/images/zz/*.jpg
 www.92wg.com/Style_litcn/css/ad.css
 www.92wg.com/new/js/A_*.js
+*.admaimai.com/inc/adv*Detail/*
+image*.admaimai.com/UpLoadFiles/OurAD/*
 *.haxiu.com/new_themes/js/floatn.js
 *.haxiu.com/new_themes/index/banner_*
 www.haxiu.com/data/cache/zmyadn-*.htm
@@ -1199,13 +1211,12 @@ www.yindaoxian.com/*up-pic/*
 my.wmvpn.com/images/*
 *fenbei.com/ssad5.gif
 down.cnzz.cn/300-300.jpg
+gs.cnzz.cn/*
 down.cnzz.cn/js/YlFloat.js
 *.cnzz.cn/*zanzhu*
 *.cnzz.com/api/*.js
 online*.cnzz.com/img/*
 *s.vipcnzz.com/api/s.php?*
-*cnzz.cn/upload/*.gif
-*cnzz.cn/upload/*/*.jpg
 *cnzz.cc/cn888/*
 *cnzz.cc/soft/js/a_*
 *.pctowap.com/img/bs*.jpg
@@ -1402,7 +1413,6 @@ static.doyouhike.net/partner/*
 union.51.com/*
 v3.apic.51.com/vda09.js
 *360doc.com/js/albb3.js
-*2500sz.com/site/*
 *1m1m.cn/bar/*
 *youmaker.com/logoad2.jpg
 *youmaker.com/edoors200708180-150.swf

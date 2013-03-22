@@ -1441,6 +1441,7 @@
 		<rule Type="0" url="*soso*.*/UploadFiles/2008*.gif"/>
 		<rule Type="0" url=""/>
 		<rule Type="0" url="record.kuai.xunlei.com/*"/>
+		<rule Type="0" url="analytics-union.xunlei.com/*"/>
 		<rule Type="0" url="img.kuai.xunlei.com/img/v2/fen/*"/>
 		<rule Type="0" url="misc.web.xunlei.com/*/kankan_click*.js*"/>
 		<rule Type="0" url="*mtips.xunlei.com/*"/>
@@ -1814,6 +1815,7 @@
 		<rule Type="0" url="11.mydrivers.com/myfiles/04.js"/>
 		<rule Type="0" url="11.mydrivers.com/myfiles/myfiles100*.js"/>
 		<rule Type="0" url="*images.mydrivers.com/*/*x*.gif"/>
+		<rule Type="0" url="*.iqiyi.com/player/3*.swf"/>
 		<rule Type="0" url="*.iqiyi.com/player/1*.swf"/>
 		<rule Type="0" url="202.108.14.72/ts.swf"/>
 		<rule Type="0" url="220.181.109.181/tracker?*"/>
@@ -2018,6 +2020,8 @@
 		<rule Type="0" url="*.narutom.com/js/myl.js"/>
 		<rule Type="0" url="*.narutom.com/stat.js"/>
 		<rule Type="0" url="*.narutom.com/v2/js/198game_Lt.js"/>
+		<rule Type="0" url="pic.959.cn/media/js/960-100.js"/>
+		<rule Type="0" url="oldimg.brandcn.com/index_pho/*"/>
 		<rule Type="0" url="bbs.kaspersky.com.cn/images/bbs/*"/>
 		<rule Type="0" url="img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif"/>
 		<rule Type="0" url="*normteam.com/usepic/*"/>
@@ -2220,6 +2224,7 @@
 		<rule Type="0" url="*/orsoon/img/gg.gif"/>
 		<rule Type="0" url="*/orsoon/img/donwpf.gif"/>
 		<rule Type="0" url="*.orsoon.com/orsoon/img/*x*.jpg"/>
+		<rule Type="0" url="*.2500sz.com/*site/*"/>
 		<rule Type="0" url="*.d9soft.com/images/ad*.gif"/>
 		<rule Type="0" url="*.39.net/gy/arthot/hz/*"/>
 		<rule Type="0" url="i.6.cn/cvbnm/99/18/a3/4478ff78d6c6565d9fc6a635ad173121.jpg"/>
@@ -2240,6 +2245,7 @@
 		<rule Type="0" url="fun.ynet.com/*"/>
 		<rule Type="0" url="*.yangtse.com/images/*.swf"/>
 		<rule Type="0" url="*.it168.com/cad/*"/>
+		<rule Type="0" url="*.it168.com/ggimg/*"/>
 		<rule Type="0" url="168.it168.com/*.js*"/>
 		<rule Type="0" url="download.it168.com/jscript/bubbl*.js"/>
 		<rule Type="0" url="download.it168.com/txt/*"/>
@@ -2300,6 +2306,10 @@
 		<rule Type="0" url="www.ys168.com/images/*.gif"/>
 		<rule Type="0" url=""/>
 		<rule Type="0" url="oa.hinews.cn/work/img/*_oxadcesl.swf"/>
+		<rule Type="0" url="*.22mt.com/js/bd*.js"/>
+		<rule Type="0" url="*.22mt.com/js/top.js"/>
+		<rule Type="0" url="*.22mt.com/js/zj_*.js"/>
+		<rule Type="0" url="*.22mt.com/images/002.gif"/>
 		<rule Type="0" url="*adimage.bokee.com*"/>
 		<rule Type="0" url="*price.cheshi.com.cn*"/>
 		<rule Type="0" url="*5ccc.net/scripts/*"/>
@@ -2348,6 +2358,8 @@
 		<rule Type="0" url="*admin5.com/images/zz/*.jpg"/>
 		<rule Type="0" url="www.92wg.com/Style_litcn/css/ad.css"/>
 		<rule Type="0" url="www.92wg.com/new/js/A_*.js"/>
+		<rule Type="0" url="*.admaimai.com/inc/adv*Detail/*"/>
+		<rule Type="0" url="image*.admaimai.com/UpLoadFiles/OurAD/*"/>
 		<rule Type="0" url="*.haxiu.com/new_themes/js/floatn.js"/>
 		<rule Type="0" url="*.haxiu.com/new_themes/index/banner_*"/>
 		<rule Type="0" url="www.haxiu.com/data/cache/zmyadn-*.htm"/>
@@ -3205,13 +3217,12 @@
 		<rule Type="0" url="my.wmvpn.com/images/*"/>
 		<rule Type="0" url="*fenbei.com/ssad5.gif"/>
 		<rule Type="0" url="down.cnzz.cn/300-300.jpg"/>
+		<rule Type="0" url="gs.cnzz.cn/*"/>
 		<rule Type="0" url="down.cnzz.cn/js/YlFloat.js"/>
 		<rule Type="0" url="*.cnzz.cn/*zanzhu*"/>
 		<rule Type="0" url="*.cnzz.com/api/*.js"/>
 		<rule Type="0" url="online*.cnzz.com/img/*"/>
 		<rule Type="0" url="*s.vipcnzz.com/api/s.php?*"/>
-		<rule Type="0" url="*cnzz.cn/upload/*.gif"/>
-		<rule Type="0" url="*cnzz.cn/upload/*/*.jpg"/>
 		<rule Type="0" url="*cnzz.cc/cn888/*"/>
 		<rule Type="0" url="*cnzz.cc/soft/js/a_*"/>
 		<rule Type="0" url="*.pctowap.com/img/bs*.jpg"/>
@@ -3408,7 +3419,6 @@
 		<rule Type="0" url="union.51.com/*"/>
 		<rule Type="0" url="v3.apic.51.com/vda09.js"/>
 		<rule Type="0" url="*360doc.com/js/albb3.js"/>
-		<rule Type="0" url="*2500sz.com/site/*"/>
 		<rule Type="0" url="*1m1m.cn/bar/*"/>
 		<rule Type="0" url="*youmaker.com/logoad2.jpg"/>
 		<rule Type="0" url="*youmaker.com/edoors200708180-150.swf"/>

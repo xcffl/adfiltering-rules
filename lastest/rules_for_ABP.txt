@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-03-20 21:16:46
+!Updated:2013-03-22 22:37:18
 !Description:一个通用、全面的广告过滤规则
 !Expires: 7 days
 !版本_5.1.5
@@ -16,6 +16,9 @@
 ###ad_box
 ~sun.mv,~trailvoy.com##.top_ads
 ##.ad_link
+###RightAd
+###LeftAd
+###textad
 ###adxMiddle5
 ###adxSponLink
 ###adxSponLinkA
@@ -1635,6 +1638,7 @@ kuai.xunlei.com##.lahuan
 @@||web.stat.xunlei.com/pv?*
 @@||hm.baidu.com/h.js?*$domain=dynamic.cloud.vip.xunlei.com
 ||record.kuai.xunlei.com/*
+||analytics-union.xunlei.com/*
 ||img.kuai.xunlei.com/img/v2/fen/*
 ||misc.web.xunlei.com/*/kankan_click*.js*
 *mtips.xunlei.com/*
@@ -2153,6 +2157,7 @@ mydrivers.com##[id^="ad_"]
 iqiyi.com###adflash
 iqiyi.com##.first_adv
 iqiyi.com##[id^="div_theatre"]
+*.iqiyi.com/player/3*.swf
 *.iqiyi.com/player/1*.swf
 ||202.108.14.72/ts.swf
 ||220.181.109.181:8080/tracker?*
@@ -2501,6 +2506,13 @@ reuters.com##.ad
 !----精睿----
 bbs.vc52.cn##.a_pt
 !||bbs.vc52.cn/data/attachment/forum/2*/*.gif
+!----品牌中国网----
+ad.brandcn.com##TD[width="736"]
+ad.brandcn.com##TD[width="960"]
+brandcn.com##[class^="ad"]
+@@||img.brandcn.com/Ads/*
+||pic.959.cn/media/js/960-100.js
+||oldimg.brandcn.com/index_pho/*
 !----卡巴一族----
 ||bbs.kaspersky.com.cn/images/bbs/*
 !----Norm Team----
@@ -2839,6 +2851,12 @@ bbs.yhcgo.com##.cc.mt10
 */orsoon/img/gg.gif
 */orsoon/img/donwpf.gif
 *.orsoon.com/orsoon/img/*x*.jpg
+!----名城苏州----
+2500sz.com##.tl
+2500sz.com##[class^="ad-"]
+2500sz.com##[class^="aline-"]
+2500sz.com##[class^="banner-"]
+*.2500sz.com/*site/*
 !----第九软件网----
 *.d9soft.com/images/ad*.gif
 !----39健康网----
@@ -2862,6 +2880,8 @@ tusuu.com##.downad
 !----创e下载园----
 *7edown.com/db/*
 *7edown.com/newbd/*
+!----长沙摄影网----
+@@||photo.qilibali.com/attachment/pushpic/*
 !----电驴备份网----
 *xverycd.com/js/topad.js
 !----北青网----
@@ -2875,6 +2895,7 @@ tusuu.com##.downad
 it168.com##.gg
 it168.com##[id^="ADV"]
 *.it168.com/cad/*
+*.it168.com/ggimg/*
 ||168.it168.com/*.js*
 ||download.it168.com/jscript/bubbl*.js
 ||download.it168.com/txt/*
@@ -2983,6 +3004,11 @@ hinews.cn##[id^="hi_gg_"]
 ||oa.hinews.cn/work/img/*_oxadcesl.swf
 !----JayXon----
 @@*.jayxon.com/wp-content/plugins/*
+!----墨坛文学网----
+*.22mt.com/js/bd*.js
+*.22mt.com/js/top.js
+*.22mt.com/js/zj_*.js
+*.22mt.com/images/002.gif
 !----博客网----
 *adimage.bokee.com*
 !----网上车市----
@@ -3067,6 +3093,9 @@ verydemo.com###ad
 ||www.92wg.com/new/js/A_*.js
 !----云迹----
 yunjii.com##IMG[class][width="660"][height="60"][style="display: inline;"]
+!----广告买卖网----
+*.admaimai.com/inc/adv*Detail/*
+||image*.admaimai.com/UpLoadFiles/OurAD/*
 !----哈秀时尚网----
 haxiu.com##[class^="adv_"]
 ent.haxiu.com##.right_a
@@ -4499,19 +4528,19 @@ free789.com###t5wfxgg
 !----分贝网----
 *fenbei.com/ssad5.gif
 !----站长.中国----
+down.cnzz.cn##.show_520_80.mb15
 down.cnzz.cn##.txt_show
 down.cnzz.cn##.show_right2.fr.ml20.mt20
 down.cnzz.cn##.txt_show_right.mb20
 down.cnzz.cn##B
 down.cnzz.cn###msg_win
 ||down.cnzz.cn/300-300.jpg
+||gs.cnzz.cn/*
 ||down.cnzz.cn/js/YlFloat.js
 *.cnzz.cn/*zanzhu*
 *.cnzz.com/api/*.js
 ||online*.cnzz.com/img/*
 *s.vipcnzz.com/api/s.php?*
-*cnzz.cn/upload/*.gif
-*cnzz.cn/upload/*/*.jpg
 !----站长之家cnzz.cc----
 *cnzz.cc/cn888/*
 *cnzz.cc/soft/js/a_*
@@ -4852,8 +4881,6 @@ wper.com##[class^="wea_d_"]
 !----360doc个人图书馆----
 360doc.com###ADAboveArtContent
 *360doc.com/js/albb3.js
-!----名城苏州----
-*2500sz.com/site/*
 !----依米网----
 *1m1m.cn/bar/*
 !----YOUMAKER----

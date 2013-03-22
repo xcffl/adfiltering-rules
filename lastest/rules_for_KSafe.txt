@@ -1435,6 +1435,7 @@
 5,4,*soso*.*/UploadFiles/2008*.gif
 5,4,
 5,4,record.kuai.xunlei.com/*
+5,4,analytics-union.xunlei.com/*
 5,4,img.kuai.xunlei.com/img/v2/fen/*
 5,4,misc.web.xunlei.com/*/kankan_click*.js*
 5,4,*mtips.xunlei.com/*
@@ -1808,6 +1809,7 @@
 5,4,11.mydrivers.com/myfiles/04.js
 5,4,11.mydrivers.com/myfiles/myfiles100*.js
 5,4,*images.mydrivers.com/*/*x*.gif
+5,4,*.iqiyi.com/player/3*.swf
 5,4,*.iqiyi.com/player/1*.swf
 5,4,202.108.14.72/ts.swf
 5,4,220.181.109.181/tracker?*
@@ -2012,6 +2014,8 @@
 5,4,*.narutom.com/js/myl.js
 5,4,*.narutom.com/stat.js
 5,4,*.narutom.com/v2/js/198game_Lt.js
+5,4,pic.959.cn/media/js/960-100.js
+5,4,oldimg.brandcn.com/index_pho/*
 5,4,bbs.kaspersky.com.cn/images/bbs/*
 5,4,img03.taobaocdn.com/imgextra/i3/16214655/T2fKBHXotaXXXXXXXX_!!16214655.gif
 5,4,*normteam.com/usepic/*
@@ -2214,6 +2218,7 @@
 5,4,*/orsoon/img/gg.gif
 5,4,*/orsoon/img/donwpf.gif
 5,4,*.orsoon.com/orsoon/img/*x*.jpg
+5,4,*.2500sz.com/*site/*
 5,4,*.d9soft.com/images/ad*.gif
 5,4,*.39.net/gy/arthot/hz/*
 5,4,i.6.cn/cvbnm/99/18/a3/4478ff78d6c6565d9fc6a635ad173121.jpg
@@ -2234,6 +2239,7 @@
 5,4,fun.ynet.com/*
 5,4,*.yangtse.com/images/*.swf
 5,4,*.it168.com/cad/*
+5,4,*.it168.com/ggimg/*
 5,4,168.it168.com/*.js*
 5,4,download.it168.com/jscript/bubbl*.js
 5,4,download.it168.com/txt/*
@@ -2294,6 +2300,10 @@
 5,4,www.ys168.com/images/*.gif
 5,4,
 5,4,oa.hinews.cn/work/img/*_oxadcesl.swf
+5,4,*.22mt.com/js/bd*.js
+5,4,*.22mt.com/js/top.js
+5,4,*.22mt.com/js/zj_*.js
+5,4,*.22mt.com/images/002.gif
 5,4,*adimage.bokee.com*
 5,4,*price.cheshi.com.cn*
 5,4,*5ccc.net/scripts/*
@@ -2342,6 +2352,8 @@
 5,4,*admin5.com/images/zz/*.jpg
 5,4,www.92wg.com/Style_litcn/css/ad.css
 5,4,www.92wg.com/new/js/A_*.js
+5,4,*.admaimai.com/inc/adv*Detail/*
+5,4,image*.admaimai.com/UpLoadFiles/OurAD/*
 5,4,*.haxiu.com/new_themes/js/floatn.js
 5,4,*.haxiu.com/new_themes/index/banner_*
 5,4,www.haxiu.com/data/cache/zmyadn-*.htm
@@ -3199,13 +3211,12 @@
 5,4,my.wmvpn.com/images/*
 5,4,*fenbei.com/ssad5.gif
 5,4,down.cnzz.cn/300-300.jpg
+5,4,gs.cnzz.cn/*
 5,4,down.cnzz.cn/js/YlFloat.js
 5,4,*.cnzz.cn/*zanzhu*
 5,4,*.cnzz.com/api/*.js
 5,4,online*.cnzz.com/img/*
 5,4,*s.vipcnzz.com/api/s.php?*
-5,4,*cnzz.cn/upload/*.gif
-5,4,*cnzz.cn/upload/*/*.jpg
 5,4,*cnzz.cc/cn888/*
 5,4,*cnzz.cc/soft/js/a_*
 5,4,*.pctowap.com/img/bs*.jpg
@@ -3402,7 +3413,6 @@
 5,4,union.51.com/*
 5,4,v3.apic.51.com/vda09.js
 5,4,*360doc.com/js/albb3.js
-5,4,*2500sz.com/site/*
 5,4,*1m1m.cn/bar/*
 5,4,*youmaker.com/logoad2.jpg
 5,4,*youmaker.com/edoors200708180-150.swf

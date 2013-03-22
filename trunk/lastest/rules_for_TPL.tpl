@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-03-20 21:16:46
+#Updated:2013-03-22 22:37:18
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -1491,6 +1491,7 @@ msFilterList
 +d web.stat.xunlei.com /pv?
 +d hm.baidu.com /h.js?
 -d record.kuai.xunlei.com
+-d analytics-union.xunlei.com
 -d img.kuai.xunlei.com /img/v2/fen/
 -d misc.web.xunlei.com /kankan_click*.js
 - *mtips.xunlei.com/
@@ -1925,6 +1926,7 @@ msFilterList
 -d 11.mydrivers.com /myfiles/myfiles100*.js
 - *images.mydrivers.com/*/*x*.gif
 #----爱奇艺----
+- *.iqiyi.com/player/3*.swf
 - *.iqiyi.com/player/1*.swf
 -d 202.108.14.72 /ts.swf
 -d 220.181.109.181 /tracker?
@@ -2207,6 +2209,10 @@ msFilterList
 #----路透----
 #----精睿----
 #||bbs.vc52.cn/data/attachment/forum/2*/*.gif
+#----品牌中国网----
++d img.brandcn.com /Ads/
+-d pic.959.cn /media/js/960-100.js
+-d oldimg.brandcn.com /index_pho/
 #----卡巴一族----
 -d bbs.kaspersky.com.cn /images/bbs/
 #----Norm Team----
@@ -2490,6 +2496,8 @@ msFilterList
 - */orsoon/img/gg.gif
 - */orsoon/img/donwpf.gif
 - *.orsoon.com/orsoon/img/*x*.jpg
+#----名城苏州----
+- *.2500sz.com/*site/
 #----第九软件网----
 - *.d9soft.com/images/ad*.gif
 #----39健康网----
@@ -2512,6 +2520,8 @@ msFilterList
 #----创e下载园----
 - *7edown.com/db/
 - *7edown.com/newbd/
+#----长沙摄影网----
++d photo.qilibali.com /attachment/pushpic/
 #----电驴备份网----
 - *xverycd.com/js/topad.js
 #----北青网----
@@ -2523,6 +2533,7 @@ msFilterList
 - *.yangtse.com/images/*.swf
 #----IT168.com----
 - *.it168.com/cad/
+- *.it168.com/ggimg/
 -d 168.it168.com .js
 -d download.it168.com /jscript/bubbl*.js
 -d download.it168.com /txt/
@@ -2613,6 +2624,11 @@ msFilterList
 -d oa.hinews.cn /work/img/*_oxadcesl.swf
 #----JayXon----
 # @@*.jayxon.com/wp-content/plugins/*
+#----墨坛文学网----
+- *.22mt.com/js/bd*.js
+- *.22mt.com/js/top.js
+- *.22mt.com/js/zj_*.js
+- *.22mt.com/images/002.gif
 #----博客网----
 - *adimage.bokee.com
 #----网上车市----
@@ -2684,6 +2700,9 @@ msFilterList
 -d www.92wg.com /Style_litcn/css/ad.css
 -d www.92wg.com /new/js/A_*.js
 #----云迹----
+#----广告买卖网----
+- *.admaimai.com/inc/adv*Detail/
+- http://image*.admaimai.com/UpLoadFiles/OurAD/
 #----哈秀时尚网----
 - *.haxiu.com/new_themes/js/floatn.js
 - *.haxiu.com/new_themes/index/banner_
@@ -3964,13 +3983,12 @@ msFilterList
 - *fenbei.com/ssad5.gif
 #----站长.中国----
 -d down.cnzz.cn /300-300.jpg
+-d gs.cnzz.cn
 -d down.cnzz.cn /js/YlFloat.js
 - *.cnzz.cn/*zanzhu
 - *.cnzz.com/api/*.js
 - http://online*.cnzz.com/img/
 - *s.vipcnzz.com/api/s.php?
-- *cnzz.cn/upload/*.gif
-- *cnzz.cn/upload/*/*.jpg
 #----站长之家cnzz.cc----
 - *cnzz.cc/cn888/
 - *cnzz.cc/soft/js/a_
@@ -4295,8 +4313,6 @@ msFilterList
 -d v3.apic.51.com /vda09.js
 #----360doc个人图书馆----
 - *360doc.com/js/albb3.js
-#----名城苏州----
-- *2500sz.com/site/
 #----依米网----
 - *1m1m.cn/bar/
 #----YOUMAKER----

@@ -1435,6 +1435,7 @@ dr.soso.com/*
 *soso*.*/UploadFiles/2008*.gif
 
 record.kuai.xunlei.com/*
+analytics-union.xunlei.com/*
 img.kuai.xunlei.com/img/v2/fen/*
 misc.web.xunlei.com/*/kankan_click*.js*
 *mtips.xunlei.com/*
@@ -1808,6 +1809,7 @@ images.mydrivers.com/*/*x*.swf
 11.mydrivers.com/myfiles/04.js
 11.mydrivers.com/myfiles/myfiles100*.js
 *images.mydrivers.com/*/*x*.gif
+*.iqiyi.com/player/3*.swf
 *.iqiyi.com/player/1*.swf
 202.108.14.72/ts.swf
 220.181.109.181/tracker?*
@@ -1995,6 +1997,4 @@ img.cnbeta.com/youdao*.gif
 img.cnbeta.com/*.swf
 img.cnbeta.com/ks*.gif
 img.cnbeta.com/oray*.jpg
-img.cnbeta.com/ks*.jpg
-img.cnbeta.com/sundns*.*
 

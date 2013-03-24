@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-03-24 15:45:40
+!Updated:2013-03-24 20:47:18
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -1936,11 +1936,18 @@ bannerad
 /\*\/pos\?act=dur&dk=\*/
 /\*\/cv\/pl\?\*&file=\*f4v\*/
 /\*\/pos\?f=f4v\*/
+/:\/\/([^\/]+\.)?td\.atm\.youku\.com\/tdap\/adclose/
+/:\/\/([^\/]+\.)?f\.youku\.com\/player\/getFlvPath\/fileid\/0\*\?K=/$domain=tudou.com
 !*/youku/*.flv
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/Tudou201\*\.swf/
+/:\/\/([^\/]+\.)?td\.atm\.youku\.com\/tdcm\/adcontrol/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/\*udou201\*\/\*\.jpg/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/\*udou201\*\/\*\.swf\*/
 /^http:\/\/\*\/adplay\*/
 !|http://*/adcontrol*
 /:\/\/([^\/]+\.)?114\.80\.180\.15\/\*/
 /:\/\/([^\/]+\.)?logs\.live\.tudou\.com\/\*/
+/:\/\/([^\/]+\.)?td\.atm\.youku\.com\/tdap\/adcommon\?\*/
 /:\/\/([^\/]+\.)?istat\.tudou\.com\/play\.srv\?\*/
 /:\/\/([^\/]+\.)?player\.pb\.ops\.tudou\.com\/info\.php\?\*/
 /:\/\/([^\/]+\.)?stat\*\.tudou\.com\/\*/
@@ -1967,15 +1974,35 @@ bannerad
 /:\/\/([^\/]+\.)?l\.ykimg\.com\/\*/
 /:\/\/([^\/]+\.)?p\.l\.ykimg\.com\/ykvisitts\?\*/
 /:\/\/([^\/]+\.)?p-log\.ykimg\.com\/\*/
+/:\/\/([^\/]+\.)?l\.youku\.com\/\*log\?\*/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/\*taobao\*\.html\*/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/\*taobao\*\.jpg\*/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/\*taobao\*\.swf\*/
 !||static.atm.youku.com/*ouku201*/*.jpg*
 !||static.atm.youku.com/*ouku201*/*.swf*
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/\*ouku201\*\/\*\.gif\*/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/\*ouku201\*\/\*\.jpg\*/
+/:\/\/([^\/]+\.)?static\.atm\.youku\.com\/crossdomain\.xml/
+/:\/\/([^\/]+\.)?html\.atm\.youku\.com\/\*/
 !||vhtml.atm.youku.com/*
+/:\/\/([^\/]+\.)?valc\.atm\.youku\.com\/\*/
+/:\/\/([^\/]+\.)?vid\.atm\.youku\.com\/\*/
+/\*lstat\.youku\.com\/\*/
+/:\/\/([^\/]+\.)?valp\.atm\.youku\.com\/\*/
 !*.atm.youku.com/val*ct=*&cs=*
+/:\/\/([^\/]+\.)?f\.youku\.com\/crossdomain\.xml/
+/:\/\/([^\/]+\.)?f\.youku\.com\/player\/getFlvPath\/fileid\/\*ymovie=\*/
 /:\/\/([^\/]+\.)?f\.youku\.com\/player\/getFlvPath\/fileid\/\*ymovie=1/$w
 !||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
 !||f.youku.com/player/getFlvPath/fileid/0*?K=*
+/:\/\/([^\/]+\.)?valf\.atm\.youku\.com\/valf\?\*/
 !||val*.atm.youku.com/*
 !||h.irs01.com/*
+/:\/\/([^\/]+\.)?static\.youku\.com\/\*\/index\/js\/cps\.js/
+/:\/\/([^\/]+\.)?static\.youku\.com\/\*\/index\/js\/hzClick\.js/
+/:\/\/([^\/]+\.)?static\.youku\.com\/\*\/index\/js\/iresearch\.js/
+/:\/\/([^\/]+\.)?stat\.youku\.com\/player\/addPlayerDurationReport\?\*/
+/:\/\/([^\/]+\.)?notice\.youku\.com\/notice\/js_notify\.json\*/
 !----雅虎----
 /:\/\/([^\/]+\.)?l\.yimg\.com\/zz\/combo\?\*\.js/$w
 /:\/\/([^\/]+\.)?l\.yimg\.com\/d\/lib\/bc\/bcr_2\.0\.5\.js/

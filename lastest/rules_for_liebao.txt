@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-03-23 18:42:46
+!Updated:2013-03-24 15:45:40
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -2727,6 +2727,10 @@ bannerad
 ##smExtObjFlash	$d=news.ifeng.com
 ##smExtObjBgIfm	$d=news.ifeng.com
 ##smExtObjBg	$d=news.ifeng.com
+##light-off-handle	$d=v.ifeng.com
+/\*\.ifengimg\.com\/ifeng\/ad\/\*/
+/:\/\/([^\/]+\.)?m\*\.ifengimg\.com\/\*\/aplayer\.xml/
+/:\/\/([^\/]+\.)?h2\.ifengimg\.com\/\*\/\*x\*\.jpg/
 /\*\.ifengimg\.com\/\*\/game_right_side_v3\.js/
 /\*\.ifeng\.com\/ssi-incs\/\*\.html/
 /\*\.ifeng\.com\/\*\/ssi-incs\/\*\.html/
@@ -2737,6 +2741,7 @@ bannerad
 /:\/\/([^\/]+\.)?stadig\.ifeng\.com\/\*/
 /\*\.ifengimg\.com\/\*\.swf/
 /\*\/tres\/ifeng\/game\/astd\/\*/
+/:\/\/([^\/]+\.)?bc\.ifeng\.com\/main\/s\?\*/
 /:\/\/([^\/]+\.)?bc\.ifeng\.com\/\*\.js\*/
 /\*\.ifengimg\.com\/ifeng\/sources\/\*/
 /\*\.ifengimg\.com\/tres\/recommend\/\*/
@@ -4888,6 +4893,9 @@ bannerad
 /:\/\/([^\/]+\.)?js\.letvcdn\.com\/js\/\*\/stats\/\*/
 /:\/\/([^\/]+\.)?player\.hz\.letv\.com\/hzplayer\.swf\?\*/
 /:\/\/([^\/]+\.)?i3\.letvimg\.com\/gugwl\/\*\.jpg/
+/:\/\/([^\/]+\.)?cmletv\.allyes\.com\/\*/
+/:\/\/([^\/]+\.)?player\.letvcdn\.com\/p\/\*\/pb\/pbTip\.swf\*/
+/:\/\/([^\/]+\.)?i0\.letvimg\.com\/gugwl\/\*/
 /:\/\/([^\/]+\.)?pro\.hoye\.letv\.com\/\*/
 !|*pro.letv.com/*
 !----FriendFinder&AsiaFriendFinder----

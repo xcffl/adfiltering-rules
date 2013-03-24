@@ -1708,6 +1708,7 @@
 		<rule Type="0" url="vid.atm.youku.com/*"/>
 		<rule Type="0" url="*lstat.youku.com/*"/>
 		<rule Type="0" url="valp.atm.youku.com/*"/>
+		<rule Type="0" url="f.youku.com/crossdomain.xml"/>
 		<rule Type="0" url="f.youku.com/player/getFlvPath/fileid/*ymovie=*"/>
 		<rule Type="0" url="valf.atm.youku.com/valf?*"/>
 		<rule Type="0" url="static.youku.com/*/index/js/cps.js"/>
@@ -2149,6 +2150,9 @@
 		<rule Type="0" url="gg.whbear.com/*"/>
 		<rule Type="0" url="www.9ifly.cn/source/plugin/dabandeng/dabandeng-gbk.html"/>
 		<rule Type="0" url="*.fzdm.com/ggup/*"/>
+		<rule Type="0" url="*.ifengimg.com/ifeng/ad/*"/>
+		<rule Type="0" url="m*.ifengimg.com/*/aplayer.xml"/>
+		<rule Type="0" url="h2.ifengimg.com/*/*x*.jpg"/>
 		<rule Type="0" url="*.ifengimg.com/*/game_right_side_v3.js"/>
 		<rule Type="0" url="*.ifeng.com/ssi-incs/*.html"/>
 		<rule Type="0" url="*.ifeng.com/*/ssi-incs/*.html"/>
@@ -2159,6 +2163,7 @@
 		<rule Type="0" url="stadig.ifeng.com/*"/>
 		<rule Type="0" url="*.ifengimg.com/*.swf"/>
 		<rule Type="0" url="*/tres/ifeng/game/astd/*"/>
+		<rule Type="0" url="bc.ifeng.com/main/s?*"/>
 		<rule Type="0" url="bc.ifeng.com/*.js*"/>
 		<rule Type="0" url="*.ifengimg.com/ifeng/sources/*"/>
 		<rule Type="0" url="*.ifengimg.com/tres/recommend/*"/>
@@ -3431,6 +3436,9 @@
 		<rule Type="0" url="js.letvcdn.com/js/*/stats/*"/>
 		<rule Type="0" url="player.hz.letv.com/hzplayer.swf?*"/>
 		<rule Type="0" url="i3.letvimg.com/gugwl/*.jpg"/>
+		<rule Type="0" url="cmletv.allyes.com/*"/>
+		<rule Type="0" url="player.letvcdn.com/p/*/pb/pbTip.swf*"/>
+		<rule Type="0" url="i0.letvimg.com/gugwl/*"/>
 		<rule Type="0" url="pro.hoye.letv.com/*"/>
 		<rule Type="0" url="geobanner.asiafriendfinder.com/go/page/iframe_geobanner_custom?*"/>
 		<rule Type="0" url="*.pop6.com/banners/*"/>

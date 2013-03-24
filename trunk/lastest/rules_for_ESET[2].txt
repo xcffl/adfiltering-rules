@@ -1,3 +1,4 @@
+img.cnbeta.com/ks*.jpg
 img.cnbeta.com/sundns*.*
 img.cnbeta.com/tongbu*.*
 img.cnbeta.com/*336.gif
@@ -143,6 +144,9 @@ img.scol.com.cn/afp/*.swf
 gg.whbear.com/*
 www.9ifly.cn/source/plugin/dabandeng/dabandeng-gbk.html
 *.fzdm.com/ggup/*
+*.ifengimg.com/ifeng/ad/*
+m*.ifengimg.com/*/aplayer.xml
+h2.ifengimg.com/*/*x*.jpg
 *.ifengimg.com/*/game_right_side_v3.js
 *.ifeng.com/ssi-incs/*.html
 *.ifeng.com/*/ssi-incs/*.html
@@ -153,6 +157,7 @@ y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 stadig.ifeng.com/*
 *.ifengimg.com/*.swf
 */tres/ifeng/game/astd/*
+bc.ifeng.com/main/s?*
 bc.ifeng.com/*.js*
 *.ifengimg.com/ifeng/sources/*
 *.ifengimg.com/tres/recommend/*
@@ -1425,6 +1430,9 @@ dc.letv.com/*
 js.letvcdn.com/js/*/stats/*
 player.hz.letv.com/hzplayer.swf?*
 i3.letvimg.com/gugwl/*.jpg
+cmletv.allyes.com/*
+player.letvcdn.com/p/*/pb/pbTip.swf*
+i0.letvimg.com/gugwl/*
 pro.hoye.letv.com/*
 geobanner.asiafriendfinder.com/go/page/iframe_geobanner_custom?*
 *.pop6.com/banners/*

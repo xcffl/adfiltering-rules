@@ -1702,6 +1702,7 @@ valc.atm.youku.com/*
 vid.atm.youku.com/*
 *lstat.youku.com/*
 valp.atm.youku.com/*
+f.youku.com/crossdomain.xml
 f.youku.com/player/getFlvPath/fileid/*ymovie=*
 valf.atm.youku.com/valf?*
 static.youku.com/*/index/js/cps.js
@@ -1996,5 +1997,4 @@ img.cnbeta.com/mole*.jpg
 img.cnbeta.com/youdao*.gif
 img.cnbeta.com/*.swf
 img.cnbeta.com/ks*.gif
-img.cnbeta.com/oray*.jpg
 

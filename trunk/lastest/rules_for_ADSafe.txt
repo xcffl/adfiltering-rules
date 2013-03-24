@@ -1,8 +1,8 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-03-23 18:42:46
-!*itemcount=4428
+!*lastmodify=2013-03-24 15:45:40
+!*itemcount=4437
 !*headend
 !Expires: 7 days
 !版本_5.1.5
@@ -1858,6 +1858,7 @@ news.163.com###adB
 *lstat.youku.com/
 |valp.atm.youku.com/
 !*.atm.youku.com/val*ct=*&cs=*
+|f.youku.com/crossdomain.xml
 |f.youku.com/player/getFlvPath/fileid/*ymovie=
 ~|f.youku.com/player/getFlvPath/fileid/*ymovie=1
 !||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
@@ -2616,6 +2617,10 @@ v.ifeng.com##.tit_ad
 news.ifeng.com###smExtObjFlash
 news.ifeng.com###smExtObjBgIfm
 news.ifeng.com###smExtObjBg
+v.ifeng.com###light-off-handle
+*.ifengimg.com/ifeng/ad/
+|m*.ifengimg.com/*/aplayer.xml
+|h2.ifengimg.com/*/*x*.jpg
 *.ifengimg.com/*/game_right_side_v3.js
 *.ifeng.com/ssi-incs/*.html
 *.ifeng.com/*/ssi-incs/*.html
@@ -2626,6 +2631,7 @@ news.ifeng.com###smExtObjBg
 |stadig.ifeng.com/
 *.ifengimg.com/*.swf
 */tres/ifeng/game/astd/
+|bc.ifeng.com/main/s?
 |bc.ifeng.com/*.js
 *.ifengimg.com/ifeng/sources/
 *.ifengimg.com/tres/recommend/
@@ -4771,6 +4777,9 @@ down.cnzz.cn###msg_win
 |js.letvcdn.com/js/*/stats/
 |player.hz.letv.com/hzplayer.swf?
 |i3.letvimg.com/gugwl/*.jpg
+|cmletv.allyes.com/
+|player.letvcdn.com/p/*/pb/pbTip.swf
+|i0.letvimg.com/gugwl/
 |pro.hoye.letv.com/
 !|*pro.letv.com/*
 !----FriendFinder&AsiaFriendFinder----

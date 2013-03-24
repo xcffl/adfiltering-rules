@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-03-23 18:42:46
+#Updated:2013-03-24 15:45:40
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -1780,6 +1780,7 @@ msFilterList
 - *lstat.youku.com/
 -d valp.atm.youku.com
 #*.atm.youku.com/val*ct=*&cs=*
+-d f.youku.com /crossdomain.xml
 -d f.youku.com /player/getFlvPath/fileid/*ymovie=
 +d f.youku.com /player/getFlvPath/fileid/*ymovie=1
 #||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
@@ -2398,6 +2399,9 @@ msFilterList
 #----风之动漫----
 - *.fzdm.com/ggup/
 #----凤凰网----
+- *.ifengimg.com/ifeng/ad/
+- http://m*.ifengimg.com/*/aplayer.xml
+-d h2.ifengimg.com /*x*.jpg
 - *.ifengimg.com/*/game_right_side_v3.js
 - *.ifeng.com/ssi-incs/*.html
 - *.ifeng.com/*/ssi-incs/*.html
@@ -2408,6 +2412,7 @@ msFilterList
 -d stadig.ifeng.com
 - *.ifengimg.com/*.swf
 - */tres/ifeng/game/astd/
+-d bc.ifeng.com /main/s?
 -d bc.ifeng.com .js
 - *.ifengimg.com/ifeng/sources/
 - *.ifengimg.com/tres/recommend/
@@ -4332,6 +4337,9 @@ msFilterList
 -d js.letvcdn.com /js/*/stats/
 -d player.hz.letv.com /hzplayer.swf?
 -d i3.letvimg.com /gugwl/*.jpg
+-d cmletv.allyes.com
+-d player.letvcdn.com /p/*/pb/pbTip.swf
+-d i0.letvimg.com /gugwl/
 -d pro.hoye.letv.com
 #|*pro.letv.com/*
 #----FriendFinder&AsiaFriendFinder----

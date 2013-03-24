@@ -1702,6 +1702,7 @@
 5,4,vid.atm.youku.com/*
 5,4,*lstat.youku.com/*
 5,4,valp.atm.youku.com/*
+5,4,f.youku.com/crossdomain.xml
 5,4,f.youku.com/player/getFlvPath/fileid/*ymovie=*
 5,4,valf.atm.youku.com/valf?*
 5,4,static.youku.com/*/index/js/cps.js
@@ -2143,6 +2144,9 @@
 5,4,gg.whbear.com/*
 5,4,www.9ifly.cn/source/plugin/dabandeng/dabandeng-gbk.html
 5,4,*.fzdm.com/ggup/*
+5,4,*.ifengimg.com/ifeng/ad/*
+5,4,m*.ifengimg.com/*/aplayer.xml
+5,4,h2.ifengimg.com/*/*x*.jpg
 5,4,*.ifengimg.com/*/game_right_side_v3.js
 5,4,*.ifeng.com/ssi-incs/*.html
 5,4,*.ifeng.com/*/ssi-incs/*.html
@@ -2153,6 +2157,7 @@
 5,4,stadig.ifeng.com/*
 5,4,*.ifengimg.com/*.swf
 5,4,*/tres/ifeng/game/astd/*
+5,4,bc.ifeng.com/main/s?*
 5,4,bc.ifeng.com/*.js*
 5,4,*.ifengimg.com/ifeng/sources/*
 5,4,*.ifengimg.com/tres/recommend/*
@@ -3425,6 +3430,9 @@
 5,4,js.letvcdn.com/js/*/stats/*
 5,4,player.hz.letv.com/hzplayer.swf?*
 5,4,i3.letvimg.com/gugwl/*.jpg
+5,4,cmletv.allyes.com/*
+5,4,player.letvcdn.com/p/*/pb/pbTip.swf*
+5,4,i0.letvimg.com/gugwl/*
 5,4,pro.hoye.letv.com/*
 5,4,geobanner.asiafriendfinder.com/go/page/iframe_geobanner_custom?*
 5,4,*.pop6.com/banners/*

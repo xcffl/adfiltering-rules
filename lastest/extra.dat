@@ -27,5 +27,9 @@
 +d douban.com packed_fm_rotate_ad*.js
 # imgChili
 -d feeds.videosz.com index.php
+# baidushare
++d baidu.com pi.gif
+# ifeng
+-d *.ifengimg.com swf
 [urlfilter.ini]
 write extra rules for opera here

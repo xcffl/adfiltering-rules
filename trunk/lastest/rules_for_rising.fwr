@@ -3770,6 +3770,7 @@
 		<rule Type="0" url="*.drevil.to/*"/>
 		<rule Type="0" url="www.fclub.cn/affiche.php?act=img&ad_id=*"/>
 		<rule Type="0" url="www.54new.com/da/*"/>
+		<rule Type="0" url="info-database.csdn.net/Upload/*/*.jpg"/>
 		<rule Type="0" url=""/>
 		<rule Type="0" url=""/>
 		<rule Type="0" url=""/>

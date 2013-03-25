@@ -18832,6 +18832,11 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>info-database.csdn.net/Upload/*/*.jpg</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path></path>
 <object>*</object>
 </analyzer>

@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-03-24 15:45:40
+#Updated:2013-03-25 11:00:13
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -4750,6 +4750,7 @@ msFilterList
 - *.drevil.to/
 -d www.fclub.cn /affiche.php?act=img&ad_id=
 -d www.54new.com /da/
+-d info-database.csdn.net /Upload/*/*.jpg
 #-------------特殊规则-------------
 #-------------临时规则-------------
 #----百度推广验证码下载----

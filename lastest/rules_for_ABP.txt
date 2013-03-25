@@ -5363,6 +5363,7 @@ www.qidian.com##.DH17
 *.drevil.to/*
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
+||info-database.csdn.net/Upload/*/*.jpg
 !-------------特殊规则-------------
 !-------------临时规则-------------
 !----百度推广验证码下载----

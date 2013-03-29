@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-03-29 20:01:50
+!Updated:2013-03-29 20:27:56
 !Description:一个通用、全面的广告过滤规则
 !Expires: 7 days
 !版本_5.1.5
@@ -296,7 +296,7 @@
 |http://*/a-d-s/*
 |http://*/a_d/*
 */aadd/*
-*/artemis/*
+!*/artemis/*
 |http://*/ad.php*
 !****慢速标识****
 */ad2/*
@@ -917,6 +917,7 @@
 |http://*/ad/*_ad.jpg
 */banner_ad.*
 */float_ad_replay.gif
+*/csi?v=*&action=*
 */headnx.js
 */ad_api/*
 */aamsz=*
@@ -1807,6 +1808,8 @@ sohu.com##.adB
 sohu.com,~cbachina.sports.sohu.com##sohuadcode
 tv.sohu.com###miaozhenad
 sogou.com###bdfs0
+tv.sohu.com##.skyAD
+||vstat.v.blog.sohu.com/dostat.do?*
 ||tv.sohu.com/upload/static/global/hdpv.js
 ||a*.itc.cn/pv/js/pvclick.*
 ||xls.go.sohu.com/*
@@ -2759,7 +2762,7 @@ v.ifeng.com###light-off-handle
 ||amch.questionmarket.com/*
 ||y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 ||stadig.ifeng.com/*
-*.ifengimg.com/*.swf
+*.ifengimg.com/*/*/*/*.swf
 */tres/ifeng/game/astd/*
 ||bc.ifeng.com/main/s?*
 ||bc.ifeng.com/*.js*
@@ -3071,6 +3074,10 @@ youtube.com##.promoted-videos
 youtube.com###search-pva
 ||s.ytimg.com/yts/jsbin/www-feather-ads-*.js
 *youtube.com/img/youchoose/*
+||s.youtube.com/*
+||s2.youtube.com/*
+*.youtube.com/ptracking?*
+*.youtube-nocookie.com/gen_204?*
 !----比克尔（必杀客）----
 *.bkill.com/css/js/bkill.js
 *.bkill.com/css/ajs/*
@@ -3794,7 +3801,6 @@ acfun.tv###position_rad
 acfun.tv##.ad.ad-top
 acfun.tv###ad-comment
 !@@||w5cdn.ranktv.cn/*
-||w5cdn.ranktv.cn*/artemis/*
 *.acfun.tv/api/count.aspx
 *.acfun.tv/json/newad.xml
 !----大纪元----
@@ -5045,6 +5051,7 @@ chinanews.com###adhzh
 !-------------联盟&本站-------------
 !----Google----
 google.com##.gsn_b
+||clients1.google.*/generate_204*
 ||www.googletagservices.com/*
 *114la.com/public/widget/google/*
 *kztechs.com/fromgoogle2.html

@@ -147,7 +147,6 @@ c.*cn*/*.js*
 */a-d-s/*
 */a_d/*
 */aadd/*
-*/artemis/*
 */ad.php*
 */ad2/*
 */adbot.*
@@ -752,6 +751,7 @@ ox-d.*/jstag
 */ad/*_ad.jpg
 */banner_ad.*
 */float_ad_replay.gif
+*/csi?v=*&action=*
 */headnx.js
 */ad_api/*
 */aamsz=*
@@ -1562,6 +1562,7 @@ news.sina.com.cn/pfpnews/js/libweb.js
 biz.weibo.com*/adfront/*
 ww2.sinaimg.cn/large/50e326f1jw1doj6vmtnppj.jpg
 ww3.sinaimg.cn/large/60af4b57jw1dv3f5pvodxj.jpg
+vstat.v.blog.sohu.com/dostat.do?*
 tv.sohu.com/upload/static/global/hdpv.js
 a*.itc.cn/pv/js/pvclick.*
 xls.go.sohu.com/*
@@ -1996,5 +1997,4 @@ img.cnbeta.com/rk3*.gif
 img.cnbeta.com/mole*.jpg
 img.cnbeta.com/youdao*.gif
 img.cnbeta.com/*.swf
-img.cnbeta.com/ks*.gif
 

@@ -1,8 +1,8 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-03-29 20:01:50
-!*itemcount=4441
+!*lastmodify=2013-03-29 20:27:56
+!*itemcount=4447
 !*headend
 !Expires: 7 days
 !版本_5.1.5
@@ -171,7 +171,7 @@
 */a-d-s/
 */a_d/
 */aadd/
-*/artemis/
+!*/artemis/*
 */ad.php
 !****慢速标识****
 */ad2/
@@ -792,6 +792,7 @@
 */ad/*_ad.jpg
 */banner_ad.
 */float_ad_replay.gif
+*/csi?v=*&action=
 */headnx.js
 */ad_api/
 */aamsz=
@@ -1680,6 +1681,8 @@ www.sohu.com###ad_TOP
 %sohu.com##.adB
 tv.sohu.com###miaozhenad
 %sogou.com###bdfs0
+tv.sohu.com##.skyAD
+|vstat.v.blog.sohu.com/dostat.do?
 |tv.sohu.com/upload/static/global/hdpv.js
 |a*.itc.cn/pv/js/pvclick.
 |xls.go.sohu.com/
@@ -2630,7 +2633,7 @@ v.ifeng.com###light-off-handle
 |amch.questionmarket.com/
 |y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 |stadig.ifeng.com/
-*.ifengimg.com/*.swf
+*.ifengimg.com/*/*/*/*.swf
 */tres/ifeng/game/astd/
 |bc.ifeng.com/main/s?
 |bc.ifeng.com/*.js
@@ -2942,6 +2945,10 @@ bbs.cnhubei.com##.ad
 %youtube.com###search-pva
 |s.ytimg.com/yts/jsbin/www-feather-ads-*.js
 *youtube.com/img/youchoose/
+|s.youtube.com/
+|s2.youtube.com/
+*.youtube.com/ptracking?
+*.youtube-nocookie.com/gen_204?
 !----比克尔（必杀客）----
 *.bkill.com/css/js/bkill.js
 *.bkill.com/css/ajs/
@@ -3664,7 +3671,6 @@ autohome.com.cn##.subadv2
 %acfun.tv##.ad.ad-top
 %acfun.tv###ad-comment
 !@@||w5cdn.ranktv.cn/*
-|w5cdn.ranktv.cn*/artemis/
 *.acfun.tv/api/count.aspx
 *.acfun.tv/json/newad.xml
 !----大纪元----
@@ -4915,6 +4921,7 @@ down.cnzz.cn###msg_win
 !-------------联盟&本站-------------
 !----Google----
 %google.com##.gsn_b
+|clients1.google.*/generate_204
 |www.googletagservices.com/
 *114la.com/public/widget/google/
 *kztechs.com/fromgoogle2.html

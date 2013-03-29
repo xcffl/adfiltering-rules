@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-03-29 20:01:50
+#Updated:2013-03-29 20:27:56
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -170,7 +170,7 @@ msFilterList
 - http://*/a-d-s/
 - http://*/a_d/
 - */aadd/
-- */artemis/
+#*/artemis/*
 - http://*/ad.php
 #****慢速标识****
 - */ad2/
@@ -791,6 +791,7 @@ msFilterList
 - http://*/ad/*_ad.jpg
 - */banner_ad.
 - */float_ad_replay.gif
+- */csi?v=*&action=
 - */headnx.js
 - */ad_api/
 - */aamsz=
@@ -1625,6 +1626,7 @@ msFilterList
 -d ww2.sinaimg.cn /large/50e326f1jw1doj6vmtnppj.jpg
 -d ww3.sinaimg.cn /large/60af4b57jw1dv3f5pvodxj.jpg
 #----搜狗&搜狐&搜狐畅游----
+-d vstat.v.blog.sohu.com /dostat.do?
 -d tv.sohu.com /upload/static/global/hdpv.js
 - http://a*.itc.cn/pv/js/pvclick.
 -d xls.go.sohu.com
@@ -2411,7 +2413,7 @@ msFilterList
 -d amch.questionmarket.com
 -d y3.ifengimg.com /06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 -d stadig.ifeng.com
-- *.ifengimg.com/*.swf
+- *.ifengimg.com/*/*/*/*.swf
 - */tres/ifeng/game/astd/
 -d bc.ifeng.com /main/s?
 -d bc.ifeng.com .js
@@ -2681,6 +2683,10 @@ msFilterList
 #----YouTube----
 -d s.ytimg.com /yts/jsbin/www-feather-ads-*.js
 - *youtube.com/img/youchoose/
+-d s.youtube.com
+-d s2.youtube.com
+- *.youtube.com/ptracking?
+- *.youtube-nocookie.com/gen_204?
 #----比克尔（必杀客）----
 - *.bkill.com/css/js/bkill.js
 - *.bkill.com/css/ajs/
@@ -3291,7 +3297,6 @@ msFilterList
 - http://33.autohome.com.cn
 #----AcFun.tv----
 #@@||w5cdn.ranktv.cn/*
-- http://w5cdn.ranktv.cn*/artemis/
 - *.acfun.tv/api/count.aspx
 - *.acfun.tv/json/newad.xml
 #----大纪元----
@@ -4463,6 +4468,7 @@ msFilterList
 - *linkwan.com/gb/images/uploadimages/
 #-------------联盟&本站-------------
 #----Google----
+- http://clients1.google.*/generate_204
 -d www.googletagservices.com
 - *114la.com/public/widget/google/
 - *kztechs.com/fromgoogle2.html

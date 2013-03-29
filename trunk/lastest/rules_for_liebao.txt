@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-03-29 20:01:50
+!Updated:2013-03-29 20:27:56
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -299,7 +299,7 @@ bannerad
 /^http:\/\/\*\/a-d-s\/\*/
 /^http:\/\/\*\/a_d\/\*/
 /\*\/aadd\/\*/
-/\*\/artemis\/\*/
+!*/artemis/*
 /^http:\/\/\*\/ad\.php\*/
 !****慢速标识****
 /\*\/ad2\/\*/
@@ -920,6 +920,7 @@ bannerad
 /^http:\/\/\*\/ad\/\*_ad\.jpg/
 /\*\/banner_ad\.\*/
 /\*\/float_ad_replay\.gif/
+/\*\/csi\?v=\*&action=\*/
 /\*\/headnx\.js/
 /\*\/ad_api\/\*/
 /\*\/aamsz=\*/
@@ -1810,6 +1811,8 @@ bannerad
 ##sohuadcode	$d=sohu.com
 ##miaozhenad	$d=tv.sohu.com
 ##bdfs0	$d=sogou.com
+##.skyAD	$d=tv.sohu.com
+/:\/\/([^\/]+\.)?vstat\.v\.blog\.sohu\.com\/dostat\.do\?\*/
 /:\/\/([^\/]+\.)?tv\.sohu\.com\/upload\/static\/global\/hdpv\.js/
 /:\/\/([^\/]+\.)?a\*\.itc\.cn\/pv\/js\/pvclick\.\*/
 /:\/\/([^\/]+\.)?xls\.go\.sohu\.com\/\*/
@@ -2767,7 +2770,7 @@ bannerad
 /:\/\/([^\/]+\.)?amch\.questionmarket\.com\/\*/
 /:\/\/([^\/]+\.)?y3\.ifengimg\.com\/06ea309ef0b1d56f\/2012\/0502\/2e121bc8fb30ff9eb16f29c6de541622\.gif/
 /:\/\/([^\/]+\.)?stadig\.ifeng\.com\/\*/
-/\*\.ifengimg\.com\/\*\.swf/
+/\*\.ifengimg\.com\/\*\/\*\/\*\/\*\.swf/
 /\*\/tres\/ifeng\/game\/astd\/\*/
 /:\/\/([^\/]+\.)?bc\.ifeng\.com\/main\/s\?\*/
 /:\/\/([^\/]+\.)?bc\.ifeng\.com\/\*\.js\*/
@@ -3079,6 +3082,10 @@ bannerad
 ##search-pva	$d=youtube.com
 /:\/\/([^\/]+\.)?s\.ytimg\.com\/yts\/jsbin\/www-feather-ads-\*\.js/
 /\*youtube\.com\/img\/youchoose\/\*/
+/:\/\/([^\/]+\.)?s\.youtube\.com\/\*/
+/:\/\/([^\/]+\.)?s2\.youtube\.com\/\*/
+/\*\.youtube\.com\/ptracking\?\*/
+/\*\.youtube-nocookie\.com\/gen_204\?\*/
 !----比克尔（必杀客）----
 /\*\.bkill\.com\/css\/js\/bkill\.js/
 /\*\.bkill\.com\/css\/ajs\/\*/
@@ -3806,7 +3813,6 @@ bannerad
 ##.ad.ad-top	$d=acfun.tv
 ##ad-comment	$d=acfun.tv
 !@@||w5cdn.ranktv.cn/*
-/:\/\/([^\/]+\.)?w5cdn\.ranktv\.cn\*\/artemis\/\*/
 /\*\.acfun\.tv\/api\/count\.aspx/
 /\*\.acfun\.tv\/json\/newad\.xml/
 !----大纪元----
@@ -5058,6 +5064,7 @@ bannerad
 !-------------联盟&本站-------------
 !----Google----
 ##.gsn_b	$d=google.com
+/:\/\/([^\/]+\.)?clients1\.google\.\*\/generate_204\*/
 /:\/\/([^\/]+\.)?www\.googletagservices\.com\/\*/
 /\*114la\.com\/public\/widget\/google\/\*/
 /\*kztechs\.com\/fromgoogle2\.html/

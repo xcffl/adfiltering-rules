@@ -147,7 +147,6 @@ c.*cn*/*.js*
 */a-d-s/*
 */a_d/*
 */aadd/*
-*/artemis/*
 */ad.php*
 */ad2/*
 */adbot.*
@@ -752,6 +751,7 @@ ox-d.*/jstag
 */ad/*_ad.jpg
 */banner_ad.*
 */float_ad_replay.gif
+*/csi?v=*&action=*
 */headnx.js
 */ad_api/*
 */aamsz=*
@@ -1562,6 +1562,7 @@ news.sina.com.cn/pfpnews/js/libweb.js
 biz.weibo.com*/adfront/*
 ww2.sinaimg.cn/large/50e326f1jw1doj6vmtnppj.jpg
 ww3.sinaimg.cn/large/60af4b57jw1dv3f5pvodxj.jpg
+vstat.v.blog.sohu.com/dostat.do?*
 tv.sohu.com/upload/static/global/hdpv.js
 a*.itc.cn/pv/js/pvclick.*
 xls.go.sohu.com/*
@@ -2155,7 +2156,7 @@ y1.ifengimg.com/*/rdn_*.js*
 amch.questionmarket.com/*
 y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 stadig.ifeng.com/*
-*.ifengimg.com/*.swf
+*.ifengimg.com/*/*/*/*.swf
 */tres/ifeng/game/astd/*
 bc.ifeng.com/main/s?*
 bc.ifeng.com/*.js*
@@ -2339,6 +2340,10 @@ afp.csbew.com/*
 *.wumii.com/images/pixel.png
 s.ytimg.com/yts/jsbin/www-feather-ads-*.js
 *youtube.com/img/youchoose/*
+s.youtube.com/*
+s2.youtube.com/*
+*.youtube.com/ptracking?*
+*.youtube-nocookie.com/gen_204?*
 *.bkill.com/css/js/bkill.js
 *.bkill.com/css/ajs/*
 *.bkill.com/images/di.js
@@ -2756,7 +2761,6 @@ res.files.131.com/script/notif.js
 33.autohome.cn/file/*
 *autohome.com.cn/33*
 33.autohome.com.cn*
-w5cdn.ranktv.cn*/artemis/*
 *.acfun.tv/api/count.aspx
 *.acfun.tv/json/newad.xml
 ads3.epochtimes.com/*
@@ -3503,6 +3507,7 @@ static.baixing.net/images/newLv/*
 *jisuxz.com/hzy/*
 *pc286.com/other/7148948.gif
 *linkwan.com/gb/images/uploadimages/*
+clients1.google.*/generate_204*
 www.googletagservices.com/*
 *114la.com/public/widget/google/*
 *kztechs.com/fromgoogle2.html

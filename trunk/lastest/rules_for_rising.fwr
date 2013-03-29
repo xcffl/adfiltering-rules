@@ -153,7 +153,6 @@
 		<rule Type="0" url="*/a-d-s/*"/>
 		<rule Type="0" url="*/a_d/*"/>
 		<rule Type="0" url="*/aadd/*"/>
-		<rule Type="0" url="*/artemis/*"/>
 		<rule Type="0" url="*/ad.php*"/>
 		<rule Type="0" url="*/ad2/*"/>
 		<rule Type="0" url="*/adbot.*"/>
@@ -758,6 +757,7 @@
 		<rule Type="0" url="*/ad/*_ad.jpg"/>
 		<rule Type="0" url="*/banner_ad.*"/>
 		<rule Type="0" url="*/float_ad_replay.gif"/>
+		<rule Type="0" url="*/csi?v=*&action=*"/>
 		<rule Type="0" url="*/headnx.js"/>
 		<rule Type="0" url="*/ad_api/*"/>
 		<rule Type="0" url="*/aamsz=*"/>
@@ -1568,6 +1568,7 @@
 		<rule Type="0" url="biz.weibo.com*/adfront/*"/>
 		<rule Type="0" url="ww2.sinaimg.cn/large/50e326f1jw1doj6vmtnppj.jpg"/>
 		<rule Type="0" url="ww3.sinaimg.cn/large/60af4b57jw1dv3f5pvodxj.jpg"/>
+		<rule Type="0" url="vstat.v.blog.sohu.com/dostat.do?*"/>
 		<rule Type="0" url="tv.sohu.com/upload/static/global/hdpv.js"/>
 		<rule Type="0" url="a*.itc.cn/pv/js/pvclick.*"/>
 		<rule Type="0" url="xls.go.sohu.com/*"/>
@@ -2161,7 +2162,7 @@
 		<rule Type="0" url="amch.questionmarket.com/*"/>
 		<rule Type="0" url="y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif"/>
 		<rule Type="0" url="stadig.ifeng.com/*"/>
-		<rule Type="0" url="*.ifengimg.com/*.swf"/>
+		<rule Type="0" url="*.ifengimg.com/*/*/*/*.swf"/>
 		<rule Type="0" url="*/tres/ifeng/game/astd/*"/>
 		<rule Type="0" url="bc.ifeng.com/main/s?*"/>
 		<rule Type="0" url="bc.ifeng.com/*.js*"/>
@@ -2345,6 +2346,10 @@
 		<rule Type="0" url="*.wumii.com/images/pixel.png"/>
 		<rule Type="0" url="s.ytimg.com/yts/jsbin/www-feather-ads-*.js"/>
 		<rule Type="0" url="*youtube.com/img/youchoose/*"/>
+		<rule Type="0" url="s.youtube.com/*"/>
+		<rule Type="0" url="s2.youtube.com/*"/>
+		<rule Type="0" url="*.youtube.com/ptracking?*"/>
+		<rule Type="0" url="*.youtube-nocookie.com/gen_204?*"/>
 		<rule Type="0" url="*.bkill.com/css/js/bkill.js"/>
 		<rule Type="0" url="*.bkill.com/css/ajs/*"/>
 		<rule Type="0" url="*.bkill.com/images/di.js"/>
@@ -2762,7 +2767,6 @@
 		<rule Type="0" url="33.autohome.cn/file/*"/>
 		<rule Type="0" url="*autohome.com.cn/33*"/>
 		<rule Type="0" url="33.autohome.com.cn*"/>
-		<rule Type="0" url="w5cdn.ranktv.cn*/artemis/*"/>
 		<rule Type="0" url="*.acfun.tv/api/count.aspx"/>
 		<rule Type="0" url="*.acfun.tv/json/newad.xml"/>
 		<rule Type="0" url="ads3.epochtimes.com/*"/>
@@ -3509,6 +3513,7 @@
 		<rule Type="0" url="*jisuxz.com/hzy/*"/>
 		<rule Type="0" url="*pc286.com/other/7148948.gif"/>
 		<rule Type="0" url="*linkwan.com/gb/images/uploadimages/*"/>
+		<rule Type="0" url="clients1.google.*/generate_204*"/>
 		<rule Type="0" url="www.googletagservices.com/*"/>
 		<rule Type="0" url="*114la.com/public/widget/google/*"/>
 		<rule Type="0" url="*kztechs.com/fromgoogle2.html"/>

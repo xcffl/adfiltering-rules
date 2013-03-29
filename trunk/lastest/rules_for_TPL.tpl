@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-03-29 20:27:56
+#Updated:2013-03-29 20:48:29
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -1653,8 +1653,9 @@ msFilterList
 -d hd.sohu.com.cn .swf
 -d data.vrs.sohu.com /player.gif?
 - *.sohu.com.cn/*.gif?*&uid=
+-d p.aty.sohu.com
+-d vm.aty.sohu.com
 - http://*sogouad*js
-- http://aty*.sohu.com/
 - http://*sogouad*php
 -d inte.sogou.com
 -d images.sohu.com /cs/htmlfile/brand/
@@ -1787,7 +1788,7 @@ msFilterList
 +d f.youku.com /player/getFlvPath/fileid/*ymovie=1
 #||f.youku.com/player/get*lv*ath/fileid/*&yad=1*
 #||f.youku.com/player/getFlvPath/fileid/0*?K=*
--d valf.atm.youku.com /valf?
+#||valf.atm.youku.com/valf?*
 #||val*.atm.youku.com/*
 #||h.irs01.com/*
 -d static.youku.com /index/js/cps.js

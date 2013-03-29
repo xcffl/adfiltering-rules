@@ -1595,8 +1595,9 @@
 		<rule Type="0" url="hd.sohu.com.cn/*.swf*"/>
 		<rule Type="0" url="data.vrs.sohu.com/player.gif?*"/>
 		<rule Type="0" url="*.sohu.com.cn/*.gif?*&uid=*"/>
+		<rule Type="0" url="p.aty.sohu.com/*"/>
+		<rule Type="0" url="vm.aty.sohu.com/*"/>
 		<rule Type="0" url="*sogouad*js*"/>
-		<rule Type="0" url="aty*.sohu.com/*"/>
 		<rule Type="0" url="*sogouad*php*"/>
 		<rule Type="0" url="inte.sogou.com/*"/>
 		<rule Type="0" url="images.sohu.com/cs/htmlfile/brand/*"/>
@@ -1710,7 +1711,6 @@
 		<rule Type="0" url="valp.atm.youku.com/*"/>
 		<rule Type="0" url="f.youku.com/crossdomain.xml"/>
 		<rule Type="0" url="f.youku.com/player/getFlvPath/fileid/*ymovie=*"/>
-		<rule Type="0" url="valf.atm.youku.com/valf?*"/>
 		<rule Type="0" url="static.youku.com/*/index/js/cps.js"/>
 		<rule Type="0" url="static.youku.com/*/index/js/hzClick.js"/>
 		<rule Type="0" url="static.youku.com/*/index/js/iresearch.js"/>

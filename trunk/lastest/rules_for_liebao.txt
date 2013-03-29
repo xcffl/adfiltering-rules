@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-03-25 12:25:22
+!Updated:2013-03-29 20:01:50
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -366,7 +366,7 @@ bannerad
 /\*\/jsgg\/\*/
 /^http:\/\/\*\/keyrun\*/
 /\*\.keyrun\.\*/
-/\*\/links\/\*/
+!*/links/*
 /^http:\/\/\*\/mopgg\*\?\*/
 /^http:\/\/\*\/mopgg\*js\*/
 /^http:\/\/\*\/mopgg\*php\*/
@@ -2174,6 +2174,7 @@ bannerad
 /:\/\/([^\/]+\.)?show\.cupid\.qiyi\.com\/\*/
 /:\/\/([^\/]+\.)?api\.cupid\.qiyi\.com\/\*/
 /:\/\/([^\/]+\.)?track\.cupid\.qiyi\.com\/\*/
+/:\/\/([^\/]+\.)?msg\.iqiyi\.com\/\*/
 /:\/\/([^\/]+\.)?afp\.qiyi\.com\/\*/
 /:\/\/([^\/]+\.)?www\.iqiyi\.com\/player\/\*\/theatre\*\.swf/
 /:\/\/([^\/]+\.)?jsmsg\.video\.qiyi\.com\/\*/
@@ -2843,6 +2844,11 @@ bannerad
 /\*\.s1979\.com\/html\/ad_js\/\*/
 !----若人网&若人论坛----
 /:\/\/([^\/]+\.)?mu\.ruoren\.com\/\*/
+!----人看人----
+##.flt.item1.bglink	$d=rkanr.com
+##.flt.item2.bglink	$d=rkanr.com
+/:\/\/([^\/]+\.)?att\.rkanr\.com\/\*/
+/:\/\/([^\/]+\.)?m\.rkanr\.com\/stat\/\*/
 !----央广广播电视网络台----
 ##DIV[style="POSITION:fixed;TOP:30px;right:13px;"]	$d=cnr.cn
 !----迈视网----
@@ -5392,7 +5398,6 @@ bannerad
 /\*\.drevil\.to\/\*/
 /:\/\/([^\/]+\.)?www\.fclub\.cn\/affiche\.php\?act=img&ad_id=\*/
 /:\/\/([^\/]+\.)?www\.54new\.com\/da\/\*/
-/:\/\/([^\/]+\.)?info-database\.csdn\.net\/Upload\/\*\/\*\.jpg/
 !-------------特殊规则-------------
 !-------------临时规则-------------
 !----百度推广验证码下载----

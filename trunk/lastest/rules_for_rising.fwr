@@ -217,7 +217,6 @@
 		<rule Type="0" url="*/jsgg/*"/>
 		<rule Type="0" url="*/keyrun*"/>
 		<rule Type="0" url="*.keyrun.*"/>
-		<rule Type="0" url="*/links/*"/>
 		<rule Type="0" url="*/mopgg*?*"/>
 		<rule Type="0" url="*/mopgg*js*"/>
 		<rule Type="0" url="*/mopgg*php*"/>
@@ -1829,6 +1828,7 @@
 		<rule Type="0" url="show.cupid.qiyi.com/*"/>
 		<rule Type="0" url="api.cupid.qiyi.com/*"/>
 		<rule Type="0" url="track.cupid.qiyi.com/*"/>
+		<rule Type="0" url="msg.iqiyi.com/*"/>
 		<rule Type="0" url="afp.qiyi.com/*"/>
 		<rule Type="0" url="www.iqiyi.com/player/*/theatre*.swf"/>
 		<rule Type="0" url="jsmsg.video.qiyi.com/*"/>
@@ -2216,6 +2216,8 @@
 		<rule Type="0" url="www.33lc.com/js/*_*.js"/>
 		<rule Type="0" url="*.s1979.com/html/ad_js/*"/>
 		<rule Type="0" url="mu.ruoren.com/*"/>
+		<rule Type="0" url="att.rkanr.com/*"/>
+		<rule Type="0" url="m.rkanr.com/stat/*"/>
 		<rule Type="0" url="aclick.maxtv.cn/*"/>
 		<rule Type="0" url="log.zongheng.com/*"/>
 		<rule Type="0" url="static.zongheng.com/v2012/cooperate/index_r_b.js"/>
@@ -3770,7 +3772,6 @@
 		<rule Type="0" url="*.drevil.to/*"/>
 		<rule Type="0" url="www.fclub.cn/affiche.php?act=img&ad_id=*"/>
 		<rule Type="0" url="www.54new.com/da/*"/>
-		<rule Type="0" url="info-database.csdn.net/Upload/*/*.jpg"/>
 		<rule Type="0" url=""/>
 		<rule Type="0" url=""/>
 		<rule Type="0" url=""/>

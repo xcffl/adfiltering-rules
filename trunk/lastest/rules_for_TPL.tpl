@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-03-25 12:25:22
+#Updated:2013-03-29 20:01:50
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -237,7 +237,7 @@ msFilterList
 - */jsgg/
 - http://*/keyrun
 - *.keyrun.
-- */links/
+#*/links/*
 - http://*/mopgg*?
 - http://*/mopgg*js
 - http://*/mopgg*php
@@ -1940,6 +1940,7 @@ msFilterList
 -d show.cupid.qiyi.com
 -d api.cupid.qiyi.com
 -d track.cupid.qiyi.com
+-d msg.iqiyi.com
 -d afp.qiyi.com
 -d www.iqiyi.com /player/*/theatre*.swf
 -d jsmsg.video.qiyi.com
@@ -2481,6 +2482,9 @@ msFilterList
 - *.s1979.com/html/ad_js/
 #----若人网&若人论坛----
 -d mu.ruoren.com
+#----人看人----
+-d att.rkanr.com
+-d m.rkanr.com /stat/
 #----央广广播电视网络台----
 #----迈视网----
 -d aclick.maxtv.cn
@@ -4750,7 +4754,6 @@ msFilterList
 - *.drevil.to/
 -d www.fclub.cn /affiche.php?act=img&ad_id=
 -d www.54new.com /da/
--d info-database.csdn.net /Upload/*/*.jpg
 #-------------特殊规则-------------
 #-------------临时规则-------------
 #----百度推广验证码下载----

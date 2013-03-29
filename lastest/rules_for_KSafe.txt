@@ -211,7 +211,6 @@
 5,4,*/jsgg/*
 5,4,*/keyrun*
 5,4,*.keyrun.*
-5,4,*/links/*
 5,4,*/mopgg*?*
 5,4,*/mopgg*js*
 5,4,*/mopgg*php*
@@ -1823,6 +1822,7 @@
 5,4,show.cupid.qiyi.com/*
 5,4,api.cupid.qiyi.com/*
 5,4,track.cupid.qiyi.com/*
+5,4,msg.iqiyi.com/*
 5,4,afp.qiyi.com/*
 5,4,www.iqiyi.com/player/*/theatre*.swf
 5,4,jsmsg.video.qiyi.com/*
@@ -2210,6 +2210,8 @@
 5,4,www.33lc.com/js/*_*.js
 5,4,*.s1979.com/html/ad_js/*
 5,4,mu.ruoren.com/*
+5,4,att.rkanr.com/*
+5,4,m.rkanr.com/stat/*
 5,4,aclick.maxtv.cn/*
 5,4,log.zongheng.com/*
 5,4,static.zongheng.com/v2012/cooperate/index_r_b.js
@@ -3764,7 +3766,6 @@
 5,4,*.drevil.to/*
 5,4,www.fclub.cn/affiche.php?act=img&ad_id=*
 5,4,www.54new.com/da/*
-5,4,info-database.csdn.net/Upload/*/*.jpg
 5,4,
 5,4,
 5,4,

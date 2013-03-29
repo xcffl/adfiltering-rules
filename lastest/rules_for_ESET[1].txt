@@ -211,7 +211,6 @@ ad.*/*
 */jsgg/*
 */keyrun*
 *.keyrun.*
-*/links/*
 */mopgg*?*
 */mopgg*js*
 */mopgg*php*
@@ -1823,6 +1822,7 @@ focusbaiduafp.allyes.com/*
 show.cupid.qiyi.com/*
 api.cupid.qiyi.com/*
 track.cupid.qiyi.com/*
+msg.iqiyi.com/*
 afp.qiyi.com/*
 www.iqiyi.com/player/*/theatre*.swf
 jsmsg.video.qiyi.com/*

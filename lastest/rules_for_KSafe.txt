@@ -147,7 +147,6 @@
 5,4,*/a-d-s/*
 5,4,*/a_d/*
 5,4,*/aadd/*
-5,4,*/artemis/*
 5,4,*/ad.php*
 5,4,*/ad2/*
 5,4,*/adbot.*
@@ -752,6 +751,7 @@
 5,4,*/ad/*_ad.jpg
 5,4,*/banner_ad.*
 5,4,*/float_ad_replay.gif
+5,4,*/csi?v=*&action=*
 5,4,*/headnx.js
 5,4,*/ad_api/*
 5,4,*/aamsz=*
@@ -1562,6 +1562,7 @@
 5,4,biz.weibo.com*/adfront/*
 5,4,ww2.sinaimg.cn/large/50e326f1jw1doj6vmtnppj.jpg
 5,4,ww3.sinaimg.cn/large/60af4b57jw1dv3f5pvodxj.jpg
+5,4,vstat.v.blog.sohu.com/dostat.do?*
 5,4,tv.sohu.com/upload/static/global/hdpv.js
 5,4,a*.itc.cn/pv/js/pvclick.*
 5,4,xls.go.sohu.com/*
@@ -2155,7 +2156,7 @@
 5,4,amch.questionmarket.com/*
 5,4,y3.ifengimg.com/06ea309ef0b1d56f/2012/0502/2e121bc8fb30ff9eb16f29c6de541622.gif
 5,4,stadig.ifeng.com/*
-5,4,*.ifengimg.com/*.swf
+5,4,*.ifengimg.com/*/*/*/*.swf
 5,4,*/tres/ifeng/game/astd/*
 5,4,bc.ifeng.com/main/s?*
 5,4,bc.ifeng.com/*.js*
@@ -2339,6 +2340,10 @@
 5,4,*.wumii.com/images/pixel.png
 5,4,s.ytimg.com/yts/jsbin/www-feather-ads-*.js
 5,4,*youtube.com/img/youchoose/*
+5,4,s.youtube.com/*
+5,4,s2.youtube.com/*
+5,4,*.youtube.com/ptracking?*
+5,4,*.youtube-nocookie.com/gen_204?*
 5,4,*.bkill.com/css/js/bkill.js
 5,4,*.bkill.com/css/ajs/*
 5,4,*.bkill.com/images/di.js
@@ -2756,7 +2761,6 @@
 5,4,33.autohome.cn/file/*
 5,4,*autohome.com.cn/33*
 5,4,33.autohome.com.cn*
-5,4,w5cdn.ranktv.cn*/artemis/*
 5,4,*.acfun.tv/api/count.aspx
 5,4,*.acfun.tv/json/newad.xml
 5,4,ads3.epochtimes.com/*
@@ -3503,6 +3507,7 @@
 5,4,*jisuxz.com/hzy/*
 5,4,*pc286.com/other/7148948.gif
 5,4,*linkwan.com/gb/images/uploadimages/*
+5,4,clients1.google.*/generate_204*
 5,4,www.googletagservices.com/*
 5,4,*114la.com/public/widget/google/*
 5,4,*kztechs.com/fromgoogle2.html

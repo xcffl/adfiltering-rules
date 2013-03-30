@@ -1625,7 +1625,6 @@
 		<rule Type="0" url="www.51kdy.com/js/yzz/top_*.html"/>
 		<rule Type="0" url="gg.kugou.com/*"/>
 		<rule Type="0" url="*links.kugoo.com/*"/>
-		<rule Type="0" url="sdn.kugoo.com/*"/>
 		<rule Type="0" url="download.kugou.com/service/*"/>
 		<rule Type="0" url="games.kugou.com/mini/*"/>
 		<rule Type="0" url="*kugou.com/minihome*"/>

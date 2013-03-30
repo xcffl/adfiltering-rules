@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-03-29 20:48:29
+#Updated:2013-03-30 13:05:49
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -1687,7 +1687,7 @@ msFilterList
 #----酷狗音乐-----
 -d gg.kugou.com
 - *links.kugoo.com/
--d sdn.kugoo.com
+#||sdn.kugoo.com/*
 -d download.kugou.com /service/
 -d games.kugou.com /mini/
 - *kugou.com/minihome

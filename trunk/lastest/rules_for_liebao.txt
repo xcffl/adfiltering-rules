@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-03-29 20:48:29
+!Updated:2013-03-30 13:05:49
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -1876,7 +1876,7 @@ bannerad
 !----酷狗音乐-----
 /:\/\/([^\/]+\.)?gg\.kugou\.com\/\*/
 /\*links\.kugoo\.com\/\*/
-/:\/\/([^\/]+\.)?sdn\.kugoo\.com\/\*/
+!||sdn.kugoo.com/*
 /:\/\/([^\/]+\.)?download\.kugou\.com\/service\/\*/
 /:\/\/([^\/]+\.)?games\.kugou\.com\/mini\/\*/
 /\*kugou\.com\/minihome\*/

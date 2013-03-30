@@ -1619,7 +1619,6 @@
 5,4,www.51kdy.com/js/yzz/top_*.html
 5,4,gg.kugou.com/*
 5,4,*links.kugoo.com/*
-5,4,sdn.kugoo.com/*
 5,4,download.kugou.com/service/*
 5,4,games.kugou.com/mini/*
 5,4,*kugou.com/minihome*

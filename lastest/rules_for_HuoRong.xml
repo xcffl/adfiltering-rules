@@ -8107,11 +8107,6 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
-<path>sdn.kugoo.com/*</path>
-<object>*</object>
-</analyzer>
-<analyzer>
-<type>Http</type>
 <path>download.kugou.com/service/*</path>
 <object>*</object>
 </analyzer>

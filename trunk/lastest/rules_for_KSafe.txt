@@ -1691,6 +1691,7 @@
 5,4,p.l.ykimg.com/ykvisitts?*
 5,4,p-log.ykimg.com/*
 5,4,l.youku.com/*log?*
+5,4,vhtml.atm.youku.com/*
 5,4,static.atm.youku.com/*taobao*.html*
 5,4,static.atm.youku.com/*taobao*.jpg*
 5,4,static.atm.youku.com/*taobao*.swf*
@@ -2145,6 +2146,7 @@
 5,4,www.9ifly.cn/source/plugin/dabandeng/dabandeng-gbk.html
 5,4,*.fzdm.com/ggup/*
 5,4,*.ifengimg.com/ifeng/ad/*
+5,4,*.ifengimg.com/sta_collection.*.js
 5,4,m*.ifengimg.com/*/aplayer.xml
 5,4,h2.ifengimg.com/*/*x*.jpg
 5,4,*.ifengimg.com/*/game_right_side_v3.js

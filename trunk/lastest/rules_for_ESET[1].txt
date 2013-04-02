@@ -1691,6 +1691,7 @@ l.ykimg.com/*
 p.l.ykimg.com/ykvisitts?*
 p-log.ykimg.com/*
 l.youku.com/*log?*
+vhtml.atm.youku.com/*
 static.atm.youku.com/*taobao*.html*
 static.atm.youku.com/*taobao*.jpg*
 static.atm.youku.com/*taobao*.swf*
@@ -1996,5 +1997,4 @@ img.cnbeta.com/rk3*.gif
 img.cnbeta.com/mole*.jpg
 img.cnbeta.com/youdao*.gif
 img.cnbeta.com/*.swf
-img.cnbeta.com/ks*.gif
 

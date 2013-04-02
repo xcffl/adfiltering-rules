@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-03-30 13:05:49
+!Updated:2013-04-02 21:34:36
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -1979,6 +1979,7 @@ bannerad
 /:\/\/([^\/]+\.)?p\.l\.ykimg\.com\/ykvisitts\?\*/
 /:\/\/([^\/]+\.)?p-log\.ykimg\.com\/\*/
 /:\/\/([^\/]+\.)?l\.youku\.com\/\*log\?\*/
+/:\/\/([^\/]+\.)?vhtml\.atm\.youku\.com\/\*/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/\*taobao\*\.html\*/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/\*taobao\*\.jpg\*/
 /:\/\/([^\/]+\.)?static\.atm\.youku\.com\/\*taobao\*\.swf\*/
@@ -2761,6 +2762,7 @@ bannerad
 ##smExtObjBg	$d=news.ifeng.com
 ##light-off-handle	$d=v.ifeng.com
 /\*\.ifengimg\.com\/ifeng\/ad\/\*/
+/\*\.ifengimg\.com\/sta_collection\.\*\.js/
 /:\/\/([^\/]+\.)?m\*\.ifengimg\.com\/\*\/aplayer\.xml/
 /:\/\/([^\/]+\.)?h2\.ifengimg\.com\/\*\/\*x\*\.jpg/
 /\*\.ifengimg\.com\/\*\/game_right_side_v3\.js/

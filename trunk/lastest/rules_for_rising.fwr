@@ -1697,6 +1697,7 @@
 		<rule Type="0" url="p.l.ykimg.com/ykvisitts?*"/>
 		<rule Type="0" url="p-log.ykimg.com/*"/>
 		<rule Type="0" url="l.youku.com/*log?*"/>
+		<rule Type="0" url="vhtml.atm.youku.com/*"/>
 		<rule Type="0" url="static.atm.youku.com/*taobao*.html*"/>
 		<rule Type="0" url="static.atm.youku.com/*taobao*.jpg*"/>
 		<rule Type="0" url="static.atm.youku.com/*taobao*.swf*"/>
@@ -2151,6 +2152,7 @@
 		<rule Type="0" url="www.9ifly.cn/source/plugin/dabandeng/dabandeng-gbk.html"/>
 		<rule Type="0" url="*.fzdm.com/ggup/*"/>
 		<rule Type="0" url="*.ifengimg.com/ifeng/ad/*"/>
+		<rule Type="0" url="*.ifengimg.com/sta_collection.*.js"/>
 		<rule Type="0" url="m*.ifengimg.com/*/aplayer.xml"/>
 		<rule Type="0" url="h2.ifengimg.com/*/*x*.jpg"/>
 		<rule Type="0" url="*.ifengimg.com/*/game_right_side_v3.js"/>

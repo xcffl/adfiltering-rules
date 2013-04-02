@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-03-30 13:05:49
+#Updated:2013-04-02 21:34:36
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -1768,6 +1768,7 @@ msFilterList
 -d p.l.ykimg.com /ykvisitts?
 -d p-log.ykimg.com
 -d l.youku.com log?
+-d vhtml.atm.youku.com
 -d static.atm.youku.com taobao*.html
 -d static.atm.youku.com taobao*.jpg
 -d static.atm.youku.com taobao*.swf
@@ -2404,6 +2405,7 @@ msFilterList
 - *.fzdm.com/ggup/
 #----凤凰网----
 - *.ifengimg.com/ifeng/ad/
+- *.ifengimg.com/sta_collection.*.js
 - http://m*.ifengimg.com/*/aplayer.xml
 -d h2.ifengimg.com /*x*.jpg
 - *.ifengimg.com/*/game_right_side_v3.js

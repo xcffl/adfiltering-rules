@@ -8467,6 +8467,11 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>vhtml.atm.youku.com/*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path>static.atm.youku.com/*taobao*.html*</path>
 <object>*</object>
 </analyzer>
@@ -10733,6 +10738,11 @@
 <analyzer>
 <type>Http</type>
 <path>*.ifengimg.com/ifeng/ad/*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
+<path>*.ifengimg.com/sta_collection.*.js</path>
 <object>*</object>
 </analyzer>
 <analyzer>

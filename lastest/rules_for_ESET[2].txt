@@ -1,3 +1,4 @@
+img.cnbeta.com/oray*.jpg
 img.cnbeta.com/ks*.jpg
 img.cnbeta.com/sundns*.*
 img.cnbeta.com/tongbu*.*
@@ -145,6 +146,7 @@ gg.whbear.com/*
 www.9ifly.cn/source/plugin/dabandeng/dabandeng-gbk.html
 *.fzdm.com/ggup/*
 *.ifengimg.com/ifeng/ad/*
+*.ifengimg.com/sta_collection.*.js
 m*.ifengimg.com/*/aplayer.xml
 h2.ifengimg.com/*/*x*.jpg
 *.ifengimg.com/*/game_right_side_v3.js

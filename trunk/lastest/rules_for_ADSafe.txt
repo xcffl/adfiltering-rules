@@ -1,8 +1,8 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-04-02 21:34:36
-!*itemcount=4448
+!*lastmodify=2013-04-03 22:58:51
+!*itemcount=4452
 !*headend
 !Expires: 7 days
 !版本_5.1.5
@@ -1582,6 +1582,8 @@ sina.com.cn##.topAD
 sina.com.cn@@[id^="ad_arti_"]
 sina.com.cn##.article-video
 ~|api.t.sina.com.cn/statuses/counts.
+www.sina.com.cn##.mod-01
+|d1.leju.com/
 |d5.sina.com.cn/20*/*/*.jpg::www.sina.com.cn
 |tjs.sjs.sinajs.cn/open/analytics/
 |log.interest.mix.sina.com.cn/
@@ -3431,6 +3433,8 @@ weather.com.cn@@[class^="adpos"]
 *.xdowns.com/new/ggdown.html
 |cc.153.xdowns.com/
 |bbs.xdowns.com/jump.js
+!----智汇云----
+~|dev.hicloud.com/
 !----七喜下载站----
 *7xdown.com/ggaotp/
 !----亿忆网----
@@ -5009,7 +5013,7 @@ youxi.baidu.com@@DIV[style="position: relative; width: 958px; height: 70px; clea
 ~|img.baidu.com/img/iknow/ks/15/ad/270-170.jpg
 !----阿里妈妈&阿里软件&淘宝网&淘宝商城----
 ~|a.tbcdn.cn/*/header.js
-~|www.taobao.com/go/rgn/trip/*::taobao.com
+~|www.taobao.com/go/rgn/*::taobao.com
 ~|p.tanx.com/*::taobao.com
 |tns.simba.taobao.com/
 |log.mmstat.com/

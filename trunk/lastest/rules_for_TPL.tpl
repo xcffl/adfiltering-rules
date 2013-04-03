@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-04-02 21:34:36
+#Updated:2013-04-03 22:58:51
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -1536,6 +1536,7 @@ msFilterList
 -d www.zhujima.com /tu/*vps.gif
 #----新浪网&看点----
 +d api.t.sina.com.cn /statuses/counts.
+-d d1.leju.com
 -d d5.sina.com.cn /20*/*/*.jpg
 -d tjs.sjs.sinajs.cn /open/analytics/
 -d log.interest.mix.sina.com.cn
@@ -3094,6 +3095,8 @@ msFilterList
 - *.xdowns.com/new/ggdown.html
 -d cc.153.xdowns.com
 -d bbs.xdowns.com /jump.js
+#----智汇云----
++d dev.hicloud.com
 #----七喜下载站----
 - *7xdown.com/ggaotp/
 #----亿忆网----
@@ -4528,7 +4531,7 @@ msFilterList
 +d img.baidu.com /img/iknow/ks/15/ad/270-170.jpg
 #----阿里妈妈&阿里软件&淘宝网&淘宝商城----
 +d a.tbcdn.cn /header.js
-+d www.taobao.com /go/rgn/trip/
++d www.taobao.com /go/rgn/
 +d p.tanx.com
 -d tns.simba.taobao.com
 -d log.mmstat.com

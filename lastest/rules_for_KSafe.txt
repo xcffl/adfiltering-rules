@@ -1475,6 +1475,7 @@
 5,4,www.zhujima.com/tu/*u*.jpg
 5,4,www.zhujima.com/tu/*g*.png
 5,4,www.zhujima.com/tu/*vps.gif
+5,4,d1.leju.com/*
 5,4,
 5,4,tjs.sjs.sinajs.cn/open/analytics/*
 5,4,log.interest.mix.sina.com.cn/*

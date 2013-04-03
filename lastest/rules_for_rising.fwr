@@ -1481,6 +1481,7 @@
 		<rule Type="0" url="www.zhujima.com/tu/*u*.jpg"/>
 		<rule Type="0" url="www.zhujima.com/tu/*g*.png"/>
 		<rule Type="0" url="www.zhujima.com/tu/*vps.gif"/>
+		<rule Type="0" url="d1.leju.com/*"/>
 		<rule Type="0" url=""/>
 		<rule Type="0" url="tjs.sjs.sinajs.cn/open/analytics/*"/>
 		<rule Type="0" url="log.interest.mix.sina.com.cn/*"/>

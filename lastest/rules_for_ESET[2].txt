@@ -1,3 +1,4 @@
+img.cnbeta.com/ks*.gif
 img.cnbeta.com/oray*.jpg
 img.cnbeta.com/ks*.jpg
 img.cnbeta.com/sundns*.*

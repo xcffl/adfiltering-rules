@@ -1475,6 +1475,7 @@ www.zhujima.com/tupian*/*
 www.zhujima.com/tu/*u*.jpg
 www.zhujima.com/tu/*g*.png
 www.zhujima.com/tu/*vps.gif
+d1.leju.com/*
 
 tjs.sjs.sinajs.cn/open/analytics/*
 log.interest.mix.sina.com.cn/*
@@ -1996,5 +1997,4 @@ img.cnbeta.com/qy950.gif
 img.cnbeta.com/rk3*.gif
 img.cnbeta.com/mole*.jpg
 img.cnbeta.com/youdao*.gif
-img.cnbeta.com/*.swf
 

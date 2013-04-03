@@ -7387,6 +7387,11 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>d1.leju.com/*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path></path>
 <object>*</object>
 </analyzer>

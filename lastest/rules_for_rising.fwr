@@ -3438,6 +3438,7 @@
 		<rule Type="0" url="luckstatic.v1.cn/st/10000/*"/>
 		<rule Type="0" url="*pipi.cn/player/*"/>
 		<rule Type="0" url="*0595jx.com/images/41.gif"/>
+		<rule Type="0" url="player.letvcdn.com/p/*/newplayer/plugins/game2/*.swf*"/>
 		<rule Type="0" url="*webp2p.letv.com/*"/>
 		<rule Type="0" url="letv.allyes.com/*"/>
 		<rule Type="0" url="dc.letv.com/*"/>

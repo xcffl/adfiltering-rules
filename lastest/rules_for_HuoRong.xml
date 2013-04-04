@@ -17172,6 +17172,11 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>player.letvcdn.com/p/*/newplayer/plugins/game2/*.swf*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path>*webp2p.letv.com/*</path>
 <object>*</object>
 </analyzer>

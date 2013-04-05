@@ -1665,7 +1665,7 @@
 		<rule Type="0" url="oimagea2.ydstatic.com/image?*&product=adpublish"/>
 		<rule Type="0" url="impservice*.youdao.com/*"/>
 		<rule Type="0" url="*/pos?act=dur&dk=*"/>
-		<rule Type="0" url="*/cv/pl?*&file=*f4v*"/>
+		<rule Type="0" url="/cv/*&uuid=*f4v*"/>
 		<rule Type="0" url="*/pos?f=f4v*"/>
 		<rule Type="0" url="td.atm.youku.com/tdap/adclose"/>
 		<rule Type="0" url=""/>
@@ -3446,9 +3446,12 @@
 		<rule Type="0" url="player.hz.letv.com/hzplayer.swf?*"/>
 		<rule Type="0" url="i3.letvimg.com/gugwl/*.jpg"/>
 		<rule Type="0" url="cmletv.allyes.com/*"/>
+		<rule Type="0" url="player.letvcdn.com/p/*/newplayer/plugins/Recommend.swf"/>
+		<rule Type="0" url="player.letvcdn.com/p/*/LeAir.swf"/>
 		<rule Type="0" url="player.letvcdn.com/p/*/pb/pbTip.swf*"/>
 		<rule Type="0" url="i0.letvimg.com/gugwl/*"/>
 		<rule Type="0" url="pro.hoye.letv.com/*"/>
+		<rule Type="0" url="*/letv-web/*/*/*.letv?*&np=1"/>
 		<rule Type="0" url="geobanner.asiafriendfinder.com/go/page/iframe_geobanner_custom?*"/>
 		<rule Type="0" url="*.pop6.com/banners/*"/>
 		<rule Type="0" url="img.1ting.com/v5/js/*text.js"/>

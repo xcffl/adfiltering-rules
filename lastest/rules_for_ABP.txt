@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-04-04 15:41:35
+!Updated:2013-04-05 14:54:10
 !Description:一个通用、全面的广告过滤规则
 !Expires: 7 days
 !版本_5.1.5
@@ -1938,7 +1938,7 @@ tudou.com##.seed
 tudou.com##.b.seed
 tudou.com###adex_board
 */pos?act=dur&dk=*
-*/cv/pl?*&file=*f4v*
+/cv/*&uuid=*f4v*
 */pos?f=f4v*
 ||td.atm.youku.com/tdap/adclose
 ||f.youku.com/player/getFlvPath/fileid/0*?K=*$domain=tudou.com
@@ -4929,9 +4929,12 @@ letv.com##.theatre[style]
 ||player.hz.letv.com/hzplayer.swf?*
 ||i3.letvimg.com/gugwl/*.jpg
 ||cmletv.allyes.com/*
+||player.letvcdn.com/p/*/newplayer/plugins/Recommend.swf
+||player.letvcdn.com/p/*/LeAir.swf
 ||player.letvcdn.com/p/*/pb/pbTip.swf*
 ||i0.letvimg.com/gugwl/*
 ||pro.hoye.letv.com/*
+*/letv-web/*/*/*.letv?*&np=1
 !|*pro.letv.com/*
 !----FriendFinder&AsiaFriendFinder----
 ||geobanner.asiafriendfinder.com/go/page/iframe_geobanner_custom?*

@@ -1,8 +1,8 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-04-04 15:41:35
-!*itemcount=4453
+!*lastmodify=2013-04-05 14:54:10
+!*itemcount=4456
 !*headend
 !Expires: 7 days
 !版本_5.1.5
@@ -1810,7 +1810,7 @@ news.163.com###adB
 %tudou.com##.b.seed
 %tudou.com###adex_board
 */pos?act=dur&dk=
-*/cv/pl?*&file=*f4v
+/cv/*&uuid=*f4v*
 */pos?f=f4v
 |td.atm.youku.com/tdap/adclose
 |f.youku.com/player/getFlvPath/fileid/0*?K=*::tudou.com
@@ -4798,9 +4798,12 @@ down.cnzz.cn###msg_win
 |player.hz.letv.com/hzplayer.swf?
 |i3.letvimg.com/gugwl/*.jpg
 |cmletv.allyes.com/
+|player.letvcdn.com/p/*/newplayer/plugins/Recommend.swf
+|player.letvcdn.com/p/*/LeAir.swf
 |player.letvcdn.com/p/*/pb/pbTip.swf
 |i0.letvimg.com/gugwl/
 |pro.hoye.letv.com/
+*/letv-web/*/*/*.letv?*&np=1
 !|*pro.letv.com/*
 !----FriendFinder&AsiaFriendFinder----
 |geobanner.asiafriendfinder.com/go/page/iframe_geobanner_custom?

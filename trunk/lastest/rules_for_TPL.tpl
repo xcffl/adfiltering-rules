@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-04-04 15:41:35
+#Updated:2013-04-05 14:54:10
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -1733,7 +1733,7 @@ msFilterList
 - http://impservice*.youdao.com/
 #----土豆网----
 - */pos?act=dur&dk=
-- */cv/pl?*&file=*f4v
+- /cv/*&uuid=*f4v
 - */pos?f=f4v
 -d td.atm.youku.com /tdap/adclose
 -d f.youku.com /player/getFlvPath/fileid/0*?K=
@@ -4354,9 +4354,12 @@ msFilterList
 -d player.hz.letv.com /hzplayer.swf?
 -d i3.letvimg.com /gugwl/*.jpg
 -d cmletv.allyes.com
+-d player.letvcdn.com /p/*/newplayer/plugins/Recommend.swf
+-d player.letvcdn.com /p/*/LeAir.swf
 -d player.letvcdn.com /p/*/pb/pbTip.swf
 -d i0.letvimg.com /gugwl/
 -d pro.hoye.letv.com
+- */letv-web/*/*/*.letv?*&np=1
 #|*pro.letv.com/*
 #----FriendFinder&AsiaFriendFinder----
 -d geobanner.asiafriendfinder.com /go/page/iframe_geobanner_custom?

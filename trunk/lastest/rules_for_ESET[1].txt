@@ -1659,7 +1659,7 @@ st1.yxp.126.net/img/photo/*
 oimagea2.ydstatic.com/image?*&product=adpublish
 impservice*.youdao.com/*
 */pos?act=dur&dk=*
-*/cv/pl?*&file=*f4v*
+/cv/*&uuid=*f4v*
 */pos?f=f4v*
 td.atm.youku.com/tdap/adclose
 

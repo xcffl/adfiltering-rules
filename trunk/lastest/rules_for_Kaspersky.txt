@@ -1659,7 +1659,7 @@ st1.yxp.126.net/img/photo/*
 oimagea2.ydstatic.com/image?*&product=adpublish
 impservice*.youdao.com/*
 */pos?act=dur&dk=*
-*/cv/pl?*&file=*f4v*
+/cv/*&uuid=*f4v*
 */pos?f=f4v*
 td.atm.youku.com/tdap/adclose
 
@@ -3440,9 +3440,12 @@ js.letvcdn.com/js/*/stats/*
 player.hz.letv.com/hzplayer.swf?*
 i3.letvimg.com/gugwl/*.jpg
 cmletv.allyes.com/*
+player.letvcdn.com/p/*/newplayer/plugins/Recommend.swf
+player.letvcdn.com/p/*/LeAir.swf
 player.letvcdn.com/p/*/pb/pbTip.swf*
 i0.letvimg.com/gugwl/*
 pro.hoye.letv.com/*
+*/letv-web/*/*/*.letv?*&np=1
 geobanner.asiafriendfinder.com/go/page/iframe_geobanner_custom?*
 *.pop6.com/banners/*
 img.1ting.com/v5/js/*text.js

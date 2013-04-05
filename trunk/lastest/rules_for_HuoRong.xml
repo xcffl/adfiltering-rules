@@ -8307,7 +8307,7 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
-<path>*/cv/pl?*&file=*f4v*</path>
+<path>/cv/*&uuid=*f4v*</path>
 <object>*</object>
 </analyzer>
 <analyzer>
@@ -17212,6 +17212,16 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>player.letvcdn.com/p/*/newplayer/plugins/Recommend.swf</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
+<path>player.letvcdn.com/p/*/LeAir.swf</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path>player.letvcdn.com/p/*/pb/pbTip.swf*</path>
 <object>*</object>
 </analyzer>
@@ -17223,6 +17233,11 @@
 <analyzer>
 <type>Http</type>
 <path>pro.hoye.letv.com/*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
+<path>*/letv-web/*/*/*.letv?*&np=1</path>
 <object>*</object>
 </analyzer>
 <analyzer>

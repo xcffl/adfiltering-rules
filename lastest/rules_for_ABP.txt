@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-04-05 14:54:10
+!Updated:2013-04-06 15:46:17
 !Description:一个通用、全面的广告过滤规则
 !Expires: 7 days
 !版本_5.1.5
@@ -1570,6 +1570,7 @@
 !----46网址导航----
 *46.com/taobao/images/*
 !----腾讯&财付通----
+tech.qq.com##.kjad2
 luxury.qq.com###luxury_ad
 ent.qq.com##.sideAd
 news.qq.com##[class^="ad_"]
@@ -1583,6 +1584,10 @@ stock.qq.com##DIV[style="margin:0 auto;width:960px;text-align:center"]
 qq.com##.l_qq_com
 news.qq.com###nav
 news.qq.com##[id^="AdZone"]
+*.gtimg.com*/qqnews/*
+*.gtimg.com*/flash/*
+*.gtimg.com*/allskin/*
+*.gtimg.com*/cq/cody/*
 ||mat1.gtimg.com/news/ldj*x*_*.swf
 *.qq.com/livemsg?
 ||btrace.qq.com/*
@@ -1593,7 +1598,7 @@ news.qq.com##[id^="AdZone"]
 !||discuz.gtimg.cn/cloud/scripts/discuz_tips.js?*
 ||mat1.gtimg.com/2012/images/ay12/*AD*.png
 ||mat1.gtimg.com/2012/images/ay12/*ad*.jpg
-||mat1.gtimg.com/cq/*
+||mat1.gtimg.com/cq/a*
 ||mat1.gtimg.com/sports/*.swf
 ||tajs.qq.com/*
 ||adsrich.qq.com/*/crystal-min.js
@@ -1901,6 +1906,9 @@ www.163.com###g5n1
 163.com##[class^="gg"]
 news.163.com###adB
 ||96.so.163.com:8080/*
+||oimageb5.ydstatic.com/*image*
+*.netease.com*/xiaohei/*
+*.netease.com*/help/*
 ||img*.cache.netease.com/*/ieupdate/*
 ||top.baidu.com/none/163.html
 ||stat.ws.126.net/*
@@ -2265,6 +2273,8 @@ fdc.com.cn##.banner
 *.fdc.com.cn/cms/js/home_js/Bg_NewAdv.js
 ||img3.fdc.com.cn/shows/*
 ||img3.fdc.com.cn/cms/js/home_js/banner*.js
+!----gravater----
+@@*.gravatar.com*/avatar/*
 !----登封网&登封论坛----
 bbs.dengfeng.cn###diy1
 !----爱尚文学网----
@@ -2758,6 +2768,7 @@ news.ifeng.com###smExtObjBg
 v.ifeng.com###light-off-handle
 *.ifengimg.com/ifeng/ad/*
 *.ifengimg.com/sta_collection.*.js
+*.ifeng.com*/taobao/*
 ||m*.ifengimg.com/*/aplayer.xml
 ||h2.ifengimg.com/*/*x*.jpg
 *.ifengimg.com/*/game_right_side_v3.js
@@ -3236,6 +3247,8 @@ win7china.com,win8china.com##.site_ad
 *.win7china.com/HitCount.aspx?*
 *.ithome.com/block/*_google*
 *.ithome.com/block/headerline.htm
+!----步步高影院----
+bbgyy.net##.nav_ads
 !----韶关家园----
 *.sg169.com/tp/news/*
 !----站长助手----
@@ -5107,6 +5120,9 @@ ipv6.baidu.com##.EC_ppim
 ipv6.baidu.com##.EC_ppim2
 youxi.baidu.com###banner
 youxi.baidu.com##DIV[style="position: relative; width: 958px; height: 70px; clear: both; margin:0 auto;"]
+||img.iknow.bdimg.com/*270x170.jpg*
+||img.iknow.bdimg.com/*270_170.jpg*
+||img.iknow.bdimg.com/*270x90.png*
 ||youxi.baidu.com/brands/yxtg/source/juhe-v2.js
 ||f.youxi.bdimg.com/brands/yxtg/source/middle.swf
 ||cb.baidu.com/*
@@ -5150,6 +5166,7 @@ youxi.baidu.com##DIV[style="position: relative; width: 958px; height: 70px; clea
 @@||a.tbcdn.cn/*/header.js
 @@||www.taobao.com/go/rgn/*$domain=taobao.com
 @@||p.tanx.com/*$domain=taobao.com
+||i.mmcdn.cn*/simba/img/*
 ||tns.simba.taobao.com/*
 ||log.mmstat.com/*
 ||log.mm.vip.cnz.alimama.com/*

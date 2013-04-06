@@ -1393,6 +1393,10 @@ s1.fanxian.com/images/event/*_fanxian.gif
 *.i99770.com/haodm/dmjsc/*.js
 www.i99770.com/g/h/*.html
 *46.com/taobao/images/*
+*.gtimg.com*/qqnews/*
+*.gtimg.com*/flash/*
+*.gtimg.com*/allskin/*
+*.gtimg.com*/cq/cody/*
 mat1.gtimg.com/news/ldj*x*_*.swf
 *.qq.com/livemsg?
 btrace.qq.com/*
@@ -1402,7 +1406,7 @@ mat1.gtimg.com/news/2013/lianghui/xijiu.swf
 act.shop.qq.com/promote/*/index_*.shtml
 mat1.gtimg.com/2012/images/ay12/*AD*.png
 mat1.gtimg.com/2012/images/ay12/*ad*.jpg
-mat1.gtimg.com/cq/*
+mat1.gtimg.com/cq/a*
 mat1.gtimg.com/sports/*.swf
 tajs.qq.com/*
 adsrich.qq.com/*/crystal-min.js
@@ -1628,6 +1632,9 @@ links.kugou.com/*
 sdn.kugou.com/*
 www.xinray.com/page/?s=*
 96.so.163.com/*
+oimageb5.ydstatic.com/*image*
+*.netease.com*/xiaohei/*
+*.netease.com*/help/*
 img*.cache.netease.com/*/ieupdate/*
 top.baidu.com/none/163.html
 stat.ws.126.net/*
@@ -1990,11 +1997,4 @@ img.cnbeta.com/*3362.gif
 img.cnbeta.com/*300.jpg
 img.cnbeta.com/tx*.gif
 img.cnbeta.com/yodao*.gif
-img.cnbeta.com/oray*.png
-img.cnbeta.com/*-1.gif
-img.cnbeta.com/*336.png
-img.cnbeta.com/qy950.gif
-img.cnbeta.com/rk3*.gif
-img.cnbeta.com/mole*.jpg
-img.cnbeta.com/youdao*.gif
 

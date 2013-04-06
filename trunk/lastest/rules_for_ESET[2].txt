@@ -1,3 +1,10 @@
+img.cnbeta.com/*-1.gif
+img.cnbeta.com/*336.png
+img.cnbeta.com/qy950.gif
+img.cnbeta.com/rk3*.gif
+img.cnbeta.com/mole*.jpg
+img.cnbeta.com/youdao*.gif
+img.cnbeta.com/*.swf
 img.cnbeta.com/ks*.gif
 img.cnbeta.com/oray*.jpg
 img.cnbeta.com/ks*.jpg
@@ -148,6 +155,7 @@ www.9ifly.cn/source/plugin/dabandeng/dabandeng-gbk.html
 *.fzdm.com/ggup/*
 *.ifengimg.com/ifeng/ad/*
 *.ifengimg.com/sta_collection.*.js
+*.ifeng.com*/taobao/*
 m*.ifengimg.com/*/aplayer.xml
 h2.ifengimg.com/*/*x*.jpg
 *.ifengimg.com/*/game_right_side_v3.js
@@ -1525,6 +1533,9 @@ https://*/google*ad*js*
 partner.googleadservices.com*
 
 www.google.cn/aclk?*
+img.iknow.bdimg.com/*270x170.jpg*
+img.iknow.bdimg.com/*270_170.jpg*
+img.iknow.bdimg.com/*270x90.png*
 youxi.baidu.com/brands/yxtg/source/juhe-v2.js
 f.youxi.bdimg.com/brands/yxtg/source/middle.swf
 cb.baidu.com/*
@@ -1561,6 +1572,7 @@ pan.baidu.com/api/analytics?*
 cdn.baidupcs.com/monitor.jpg?*
 
 
+i.mmcdn.cn*/simba/img/*
 tns.simba.taobao.com/*
 log.mmstat.com/*
 log.mm.vip.cnz.alimama.com/*

@@ -1393,6 +1393,10 @@
 5,4,*.i99770.com/haodm/dmjsc/*.js
 5,4,www.i99770.com/g/h/*.html
 5,4,*46.com/taobao/images/*
+5,4,*.gtimg.com*/qqnews/*
+5,4,*.gtimg.com*/flash/*
+5,4,*.gtimg.com*/allskin/*
+5,4,*.gtimg.com*/cq/cody/*
 5,4,mat1.gtimg.com/news/ldj*x*_*.swf
 5,4,*.qq.com/livemsg?
 5,4,btrace.qq.com/*
@@ -1402,7 +1406,7 @@
 5,4,act.shop.qq.com/promote/*/index_*.shtml
 5,4,mat1.gtimg.com/2012/images/ay12/*AD*.png
 5,4,mat1.gtimg.com/2012/images/ay12/*ad*.jpg
-5,4,mat1.gtimg.com/cq/*
+5,4,mat1.gtimg.com/cq/a*
 5,4,mat1.gtimg.com/sports/*.swf
 5,4,tajs.qq.com/*
 5,4,adsrich.qq.com/*/crystal-min.js
@@ -1628,6 +1632,9 @@
 5,4,sdn.kugou.com/*
 5,4,www.xinray.com/page/?s=*
 5,4,96.so.163.com/*
+5,4,oimageb5.ydstatic.com/*image*
+5,4,*.netease.com*/xiaohei/*
+5,4,*.netease.com*/help/*
 5,4,img*.cache.netease.com/*/ieupdate/*
 5,4,top.baidu.com/none/163.html
 5,4,stat.ws.126.net/*
@@ -2148,6 +2155,7 @@
 5,4,*.fzdm.com/ggup/*
 5,4,*.ifengimg.com/ifeng/ad/*
 5,4,*.ifengimg.com/sta_collection.*.js
+5,4,*.ifeng.com*/taobao/*
 5,4,m*.ifengimg.com/*/aplayer.xml
 5,4,h2.ifengimg.com/*/*x*.jpg
 5,4,*.ifengimg.com/*/game_right_side_v3.js
@@ -3525,6 +3533,9 @@
 5,4,partner.googleadservices.com*
 5,4,
 5,4,www.google.cn/aclk?*
+5,4,img.iknow.bdimg.com/*270x170.jpg*
+5,4,img.iknow.bdimg.com/*270_170.jpg*
+5,4,img.iknow.bdimg.com/*270x90.png*
 5,4,youxi.baidu.com/brands/yxtg/source/juhe-v2.js
 5,4,f.youxi.bdimg.com/brands/yxtg/source/middle.swf
 5,4,cb.baidu.com/*
@@ -3561,6 +3572,7 @@
 5,4,cdn.baidupcs.com/monitor.jpg?*
 5,4,
 5,4,
+5,4,i.mmcdn.cn*/simba/img/*
 5,4,tns.simba.taobao.com/*
 5,4,log.mmstat.com/*
 5,4,log.mm.vip.cnz.alimama.com/*

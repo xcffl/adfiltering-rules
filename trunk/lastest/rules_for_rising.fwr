@@ -1399,6 +1399,10 @@
 		<rule Type="0" url="*.i99770.com/haodm/dmjsc/*.js"/>
 		<rule Type="0" url="www.i99770.com/g/h/*.html"/>
 		<rule Type="0" url="*46.com/taobao/images/*"/>
+		<rule Type="0" url="*.gtimg.com*/qqnews/*"/>
+		<rule Type="0" url="*.gtimg.com*/flash/*"/>
+		<rule Type="0" url="*.gtimg.com*/allskin/*"/>
+		<rule Type="0" url="*.gtimg.com*/cq/cody/*"/>
 		<rule Type="0" url="mat1.gtimg.com/news/ldj*x*_*.swf"/>
 		<rule Type="0" url="*.qq.com/livemsg?"/>
 		<rule Type="0" url="btrace.qq.com/*"/>
@@ -1408,7 +1412,7 @@
 		<rule Type="0" url="act.shop.qq.com/promote/*/index_*.shtml"/>
 		<rule Type="0" url="mat1.gtimg.com/2012/images/ay12/*AD*.png"/>
 		<rule Type="0" url="mat1.gtimg.com/2012/images/ay12/*ad*.jpg"/>
-		<rule Type="0" url="mat1.gtimg.com/cq/*"/>
+		<rule Type="0" url="mat1.gtimg.com/cq/a*"/>
 		<rule Type="0" url="mat1.gtimg.com/sports/*.swf"/>
 		<rule Type="0" url="tajs.qq.com/*"/>
 		<rule Type="0" url="adsrich.qq.com/*/crystal-min.js"/>
@@ -1634,6 +1638,9 @@
 		<rule Type="0" url="sdn.kugou.com/*"/>
 		<rule Type="0" url="www.xinray.com/page/?s=*"/>
 		<rule Type="0" url="96.so.163.com/*"/>
+		<rule Type="0" url="oimageb5.ydstatic.com/*image*"/>
+		<rule Type="0" url="*.netease.com*/xiaohei/*"/>
+		<rule Type="0" url="*.netease.com*/help/*"/>
 		<rule Type="0" url="img*.cache.netease.com/*/ieupdate/*"/>
 		<rule Type="0" url="top.baidu.com/none/163.html"/>
 		<rule Type="0" url="stat.ws.126.net/*"/>
@@ -2154,6 +2161,7 @@
 		<rule Type="0" url="*.fzdm.com/ggup/*"/>
 		<rule Type="0" url="*.ifengimg.com/ifeng/ad/*"/>
 		<rule Type="0" url="*.ifengimg.com/sta_collection.*.js"/>
+		<rule Type="0" url="*.ifeng.com*/taobao/*"/>
 		<rule Type="0" url="m*.ifengimg.com/*/aplayer.xml"/>
 		<rule Type="0" url="h2.ifengimg.com/*/*x*.jpg"/>
 		<rule Type="0" url="*.ifengimg.com/*/game_right_side_v3.js"/>
@@ -3531,6 +3539,9 @@
 		<rule Type="0" url="partner.googleadservices.com*"/>
 		<rule Type="0" url=""/>
 		<rule Type="0" url="www.google.cn/aclk?*"/>
+		<rule Type="0" url="img.iknow.bdimg.com/*270x170.jpg*"/>
+		<rule Type="0" url="img.iknow.bdimg.com/*270_170.jpg*"/>
+		<rule Type="0" url="img.iknow.bdimg.com/*270x90.png*"/>
 		<rule Type="0" url="youxi.baidu.com/brands/yxtg/source/juhe-v2.js"/>
 		<rule Type="0" url="f.youxi.bdimg.com/brands/yxtg/source/middle.swf"/>
 		<rule Type="0" url="cb.baidu.com/*"/>
@@ -3567,6 +3578,7 @@
 		<rule Type="0" url="cdn.baidupcs.com/monitor.jpg?*"/>
 		<rule Type="0" url=""/>
 		<rule Type="0" url=""/>
+		<rule Type="0" url="i.mmcdn.cn*/simba/img/*"/>
 		<rule Type="0" url="tns.simba.taobao.com/*"/>
 		<rule Type="0" url="log.mmstat.com/*"/>
 		<rule Type="0" url="log.mm.vip.cnz.alimama.com/*"/>

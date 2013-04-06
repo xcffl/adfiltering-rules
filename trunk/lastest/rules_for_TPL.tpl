@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-04-05 14:54:10
+#Updated:2013-04-06 15:46:17
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -1444,6 +1444,10 @@ msFilterList
 #----46网址导航----
 - *46.com/taobao/images/
 #----腾讯&财付通----
+- *.gtimg.com*/qqnews/
+- *.gtimg.com*/flash/
+- *.gtimg.com*/allskin/
+- *.gtimg.com*/cq/cody/
 -d mat1.gtimg.com /news/ldj*x*_*.swf
 - *.qq.com/livemsg?
 -d btrace.qq.com
@@ -1454,7 +1458,7 @@ msFilterList
 #||discuz.gtimg.cn/cloud/scripts/discuz_tips.js?*
 -d mat1.gtimg.com /2012/images/ay12/*AD*.png
 -d mat1.gtimg.com /2012/images/ay12/*ad*.jpg
--d mat1.gtimg.com /cq/
+-d mat1.gtimg.com /cq/a
 -d mat1.gtimg.com /sports/*.swf
 -d tajs.qq.com
 -d adsrich.qq.com /crystal-min.js
@@ -1699,6 +1703,9 @@ msFilterList
 -d www.xinray.com /page/?s=
 #----网易&有道----
 -d 96.so.163.com
+-d oimageb5.ydstatic.com image
+- *.netease.com*/xiaohei/
+- *.netease.com*/help/
 - http://img*.cache.netease.com/*/ieupdate/
 -d top.baidu.com /none/163.html
 -d stat.ws.126.net
@@ -2020,6 +2027,8 @@ msFilterList
 - *.fdc.com.cn/cms/js/home_js/Bg_NewAdv.js
 -d img3.fdc.com.cn /shows/
 -d img3.fdc.com.cn /cms/js/home_js/banner*.js
+#----gravater----
+# @@*.gravatar.com*/avatar/*
 #----登封网&登封论坛----
 #----爱尚文学网----
 -d www.23hh.com /scripts/91hui*.js
@@ -2407,6 +2416,7 @@ msFilterList
 #----凤凰网----
 - *.ifengimg.com/ifeng/ad/
 - *.ifengimg.com/sta_collection.*.js
+- *.ifeng.com*/taobao/
 - http://m*.ifengimg.com/*/aplayer.xml
 -d h2.ifengimg.com /*x*.jpg
 - *.ifengimg.com/*/game_right_side_v3.js
@@ -2809,6 +2819,7 @@ msFilterList
 - *.win7china.com/HitCount.aspx?
 - *.ithome.com/block/*_google
 - *.ithome.com/block/headerline.htm
+#----步步高影院----
 #----韶关家园----
 - *.sg169.com/tp/news/
 #----站长助手----
@@ -4494,6 +4505,9 @@ msFilterList
 - *.google.com/jsapi?autoload=*%22ads%22*function
 -d www.google.cn /aclk?
 #----百度&乐居&hao123----
+-d img.iknow.bdimg.com 270x170.jpg
+-d img.iknow.bdimg.com 270_170.jpg
+-d img.iknow.bdimg.com 270x90.png
 -d youxi.baidu.com /brands/yxtg/source/juhe-v2.js
 -d f.youxi.bdimg.com /brands/yxtg/source/middle.swf
 -d cb.baidu.com
@@ -4537,6 +4551,7 @@ msFilterList
 +d a.tbcdn.cn /header.js
 +d www.taobao.com /go/rgn/
 +d p.tanx.com
+- http://i.mmcdn.cn*/simba/img/
 -d tns.simba.taobao.com
 -d log.mmstat.com
 -d log.mm.vip.cnz.alimama.com

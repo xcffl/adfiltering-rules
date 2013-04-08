@@ -18957,6 +18957,11 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>upaiyun.com/*.gif</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path></path>
 <object>*</object>
 </analyzer>

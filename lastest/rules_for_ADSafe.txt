@@ -1,8 +1,8 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-04-06 15:46:17
-!*itemcount=4471
+!*lastmodify=2013-04-08 10:55:39
+!*itemcount=4472
 !*headend
 !Expires: 7 days
 !版本_5.1.5
@@ -5276,6 +5276,7 @@ www.qidian.com##.DH17
 |www.54new.com/da/
 !-------------特殊规则-------------
 !-------------临时规则-------------
+|upaiyun.com/*.gif
 !----百度推广验证码下载----
 !vdisk.cn
 ~|cpro.baidu.com/cpro/ui/uijs.php?::vdisk.cn,vmall.com

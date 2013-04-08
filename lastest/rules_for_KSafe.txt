@@ -3789,6 +3789,7 @@
 5,4,*.drevil.to/*
 5,4,www.fclub.cn/affiche.php?act=img&ad_id=*
 5,4,www.54new.com/da/*
+5,4,upaiyun.com/*.gif
 5,4,
 5,4,
 5,4,

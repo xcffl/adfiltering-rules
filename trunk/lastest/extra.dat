@@ -15,6 +15,8 @@
 -d taobaocdn.com *.gif
 # niconico
 -d ads.nicovideo.jp jpeg
+-d nimg.jp */img/watch/ichiba_2/chokaigi2_ticket.png
+-d nimg.jp */img/watch/tag_sync/20130402_tag.png
 # cnbeta
 +d qq.com like_this.css
 +d qq.com like

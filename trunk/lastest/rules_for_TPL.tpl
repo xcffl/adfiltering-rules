@@ -1,7 +1,7 @@
-﻿msFilterList
+msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-04-08 10:55:39
+#Updated:2013-04-08 20:07:05
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -4787,7 +4787,7 @@
 -d www.54new.com /da/
 #-------------特殊规则-------------
 #-------------临时规则-------------
--d upaiyun.com gif
+-d upaiyun.com .gif
 #----百度推广验证码下载----
 #vdisk.cn
 +d cpro.baidu.com /cpro/ui/uijs.php?
@@ -4818,6 +4818,8 @@
 -d taobaocdn.com *.gif
 # niconico
 -d ads.nicovideo.jp jpeg
+-d nimg.jp */img/watch/ichiba_2/chokaigi2_ticket.png
+-d nimg.jp */img/watch/tag_sync/20130402_tag.png
 # cnbeta
 +d qq.com like_this.css
 +d qq.com like

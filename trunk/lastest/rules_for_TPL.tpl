@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-04-08 20:07:05
+#Updated:2013-04-09 13:40:52
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -4836,3 +4836,6 @@ msFilterList
 +d baidu.com pi.gif
 # ifeng
 -d *.ifengimg.com swf
+# rmdown
+-d 52lover.info gif
+-d aifei.info gif

@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-04-12 19:25:11
+!Updated:2013-04-12 19:48:09
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -1591,6 +1591,8 @@ bannerad
 /\*\.gtimg\.com\*\/flash\/\*/
 /\*\.gtimg\.com\*\/allskin\/\*/
 /\*\.gtimg\.com\*\/cq\/cody\/\*/
+/:\/\/([^\/]+\.)?stockweb\.mail\.qq\.com\/\*\?pdomain=adsfile\.qq\.com/
+/:\/\/([^\/]+\.)?stockweb\.mail\.qq\.com\/lview\?\*=AD_callback&\*/
 /:\/\/([^\/]+\.)?mat1\.gtimg\.com\/news\/ldj\*x\*_\*\.swf/
 /\*\.qq\.com\/livemsg\?/
 /:\/\/([^\/]+\.)?btrace\.qq\.com\/\*/

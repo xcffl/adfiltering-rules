@@ -1,8 +1,8 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-04-12 19:25:11
-!*itemcount=4472
+!*lastmodify=2013-04-12 19:48:09
+!*itemcount=4474
 !*headend
 !Expires: 7 days
 !版本_5.1.5
@@ -1463,6 +1463,8 @@ news.qq.com@@[id^="AdZone"]
 *.gtimg.com*/flash/
 *.gtimg.com*/allskin/
 *.gtimg.com*/cq/cody/
+|stockweb.mail.qq.com/*?pdomain=adsfile.qq.com
+|stockweb.mail.qq.com/lview?*=AD_callback&
 |mat1.gtimg.com/news/ldj*x*_*.swf
 *.qq.com/livemsg?
 |btrace.qq.com/

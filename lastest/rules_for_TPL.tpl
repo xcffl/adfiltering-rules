@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-04-12 19:25:11
+#Updated:2013-04-12 19:48:09
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -1448,6 +1448,8 @@ msFilterList
 - *.gtimg.com*/flash/
 - *.gtimg.com*/allskin/
 - *.gtimg.com*/cq/cody/
+-d stockweb.mail.qq.com ?pdomain=adsfile.qq.com
+-d stockweb.mail.qq.com /lview?*=AD_callback&
 -d mat1.gtimg.com /news/ldj*x*_*.swf
 - *.qq.com/livemsg?
 -d btrace.qq.com

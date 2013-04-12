@@ -1402,6 +1402,8 @@
 		<rule Type="0" url="*.gtimg.com*/flash/*"/>
 		<rule Type="0" url="*.gtimg.com*/allskin/*"/>
 		<rule Type="0" url="*.gtimg.com*/cq/cody/*"/>
+		<rule Type="0" url="stockweb.mail.qq.com/*?pdomain=adsfile.qq.com"/>
+		<rule Type="0" url="stockweb.mail.qq.com/lview?*=AD_callback&*"/>
 		<rule Type="0" url="mat1.gtimg.com/news/ldj*x*_*.swf"/>
 		<rule Type="0" url="*.qq.com/livemsg?"/>
 		<rule Type="0" url="btrace.qq.com/*"/>

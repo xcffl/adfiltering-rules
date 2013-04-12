@@ -6992,6 +6992,16 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>stockweb.mail.qq.com/*?pdomain=adsfile.qq.com</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
+<path>stockweb.mail.qq.com/lview?*=AD_callback&*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path>mat1.gtimg.com/news/ldj*x*_*.swf</path>
 <object>*</object>
 </analyzer>

@@ -665,7 +665,6 @@
 		<rule Type="0" url="*.com/gg/*"/>
 		<rule Type="0" url="*.com.cn/gg/*"/>
 		<rule Type="0" url="*.net/gg/*"/>
-		<rule Type="0" url="*/counts.*"/>
 		<rule Type="0" url="*m/count.*"/>
 		<rule Type="0" url="*/pv?peerid=*"/>
 		<rule Type="0" url="*pv.*.cc*"/>
@@ -1826,6 +1825,8 @@
 		<rule Type="0" url="*images.mydrivers.com/*/*x*.gif"/>
 		<rule Type="0" url="*.iqiyi.com/player/3*.swf"/>
 		<rule Type="0" url="*.iqiyi.com/player/1*.swf"/>
+		<rule Type="0" url="*.qiyipic.com/common/fix/index_images/erkeNew.png"/>
+		<rule Type="0" url="*.qiyipic.com/zongyi/fix/hxek*"/>
 		<rule Type="0" url="202.108.14.72/ts.swf"/>
 		<rule Type="0" url="220.181.109.181/tracker?*"/>
 		<rule Type="0" url="123.125.118.75/*"/>
@@ -3795,7 +3796,6 @@
 		<rule Type="0" url="*.drevil.to/*"/>
 		<rule Type="0" url="www.fclub.cn/affiche.php?act=img&ad_id=*"/>
 		<rule Type="0" url="www.54new.com/da/*"/>
-		<rule Type="0" url="upaiyun.com/*.gif"/>
 		<rule Type="0" url=""/>
 		<rule Type="0" url=""/>
 		<rule Type="0" url=""/>

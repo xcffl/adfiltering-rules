@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-04-09 13:55:16
+!Updated:2013-04-12 19:25:11
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -825,7 +825,7 @@ bannerad
 /\*\.com\/gg\/\*/
 /\*\.com\.cn\/gg\/\*/
 /\*\.net\/gg\/\*/
-/\*\/counts\.\*/
+!*/counts.*
 /\*m\/count\.\*/
 /\*\/pv\?peerid=\*/
 /^http:\/\/\*pv\.\*\.cc\*/
@@ -2179,6 +2179,8 @@ bannerad
 ##[id^="div_theatre"]	$d=iqiyi.com
 /\*\.iqiyi\.com\/player\/3\*\.swf/
 /\*\.iqiyi\.com\/player\/1\*\.swf/
+/\*\.qiyipic\.com\/common\/fix\/index_images\/erkeNew\.png/
+/\*\.qiyipic\.com\/zongyi\/fix\/hxek\*/
 /:\/\/([^\/]+\.)?202\.108\.14\.72\/ts\.swf/
 /:\/\/([^\/]+\.)?220\.181\.109\.181:8080\/tracker\?\*/
 /:\/\/([^\/]+\.)?123\.125\.118\.75\/\*/
@@ -5436,7 +5438,6 @@ bannerad
 /:\/\/([^\/]+\.)?www\.54new\.com\/da\/\*/
 !-------------特殊规则-------------
 !-------------临时规则-------------
-/:\/\/([^\/]+\.)?upaiyun\.com\/\*\.gif/
 !----百度推广验证码下载----
 !vdisk.cn
 /:\/\/([^\/]+\.)?cpro\.baidu\.com\/cpro\/ui\/uijs\.php\?/	$d=vdisk.cn|vmall.com,$w

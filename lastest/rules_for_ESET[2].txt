@@ -1,3 +1,4 @@
+img.cnbeta.com/oray*.png
 img.cnbeta.com/*-1.gif
 img.cnbeta.com/*336.png
 img.cnbeta.com/qy950.gif
@@ -1789,7 +1790,6 @@ img.kuyundong.com/images/cuxiao/lkt/lkt*/*X*_r*_c*.jpg
 *.drevil.to/*
 www.fclub.cn/affiche.php?act=img&ad_id=*
 www.54new.com/da/*
-upaiyun.com/*.gif
 
 
 

@@ -659,7 +659,6 @@
 5,4,*.com/gg/*
 5,4,*.com.cn/gg/*
 5,4,*.net/gg/*
-5,4,*/counts.*
 5,4,*m/count.*
 5,4,*/pv?peerid=*
 5,4,*pv.*.cc*
@@ -1820,6 +1819,8 @@
 5,4,*images.mydrivers.com/*/*x*.gif
 5,4,*.iqiyi.com/player/3*.swf
 5,4,*.iqiyi.com/player/1*.swf
+5,4,*.qiyipic.com/common/fix/index_images/erkeNew.png
+5,4,*.qiyipic.com/zongyi/fix/hxek*
 5,4,202.108.14.72/ts.swf
 5,4,220.181.109.181/tracker?*
 5,4,123.125.118.75/*
@@ -3789,7 +3790,6 @@
 5,4,*.drevil.to/*
 5,4,www.fclub.cn/affiche.php?act=img&ad_id=*
 5,4,www.54new.com/da/*
-5,4,upaiyun.com/*.gif
 5,4,
 5,4,
 5,4,

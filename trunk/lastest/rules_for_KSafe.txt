@@ -1396,6 +1396,8 @@
 5,4,*.gtimg.com*/flash/*
 5,4,*.gtimg.com*/allskin/*
 5,4,*.gtimg.com*/cq/cody/*
+5,4,stockweb.mail.qq.com/*?pdomain=adsfile.qq.com
+5,4,stockweb.mail.qq.com/lview?*=AD_callback&*
 5,4,mat1.gtimg.com/news/ldj*x*_*.swf
 5,4,*.qq.com/livemsg?
 5,4,btrace.qq.com/*

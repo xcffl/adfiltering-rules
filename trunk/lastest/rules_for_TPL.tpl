@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-04-09 13:55:16
+#Updated:2013-04-12 19:25:11
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -696,7 +696,7 @@ msFilterList
 - *.com/gg/
 - *.com.cn/gg/
 - *.net/gg/
-- */counts.
+#*/counts.*
 - *m/count.
 - */pv?peerid=
 - http://*pv.*.cc
@@ -1941,6 +1941,8 @@ msFilterList
 #----爱奇艺----
 - *.iqiyi.com/player/3*.swf
 - *.iqiyi.com/player/1*.swf
+- *.qiyipic.com/common/fix/index_images/erkeNew.png
+- *.qiyipic.com/zongyi/fix/hxek
 -d 202.108.14.72 /ts.swf
 -d 220.181.109.181 /tracker?
 -d 123.125.118.75
@@ -4787,7 +4789,6 @@ msFilterList
 -d www.54new.com /da/
 #-------------特殊规则-------------
 #-------------临时规则-------------
--d upaiyun.com .gif
 #----百度推广验证码下载----
 #vdisk.cn
 +d cpro.baidu.com /cpro/ui/uijs.php?

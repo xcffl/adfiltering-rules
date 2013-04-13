@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-04-14 00:13:44
+#Updated:2013-04-14 00:40:08
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -4806,8 +4806,7 @@ msFilterList
 +d cpro.baidu.com /cpro/ui/c.js
 #-------------待分类-------------
 # avno1
--d xuite.net */blog_*/txt/*/*.gif
--d xuite.net */blog_*/txt/*/*.png
+-d xuite.net */blog_*/txt/*
 -d av9.cc */Content/Images/banner/*.gif
 -d v515.com */adi/*.gif
 # weibo

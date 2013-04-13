@@ -1,4 +1,9 @@
 [rules_for_TPL.tpl]
+# avno1
+-d xuite.net */blog_*/txt/*/*.gif
+-d xuite.net */blog_*/txt/*/*.png
+-d av9.cc */Content/Images/banner/*.gif
+-d v515.com */adi/*.gif
 # weibo
 # bilibili
 +d sinajs.cn weiboshare.html

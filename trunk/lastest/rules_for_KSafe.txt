@@ -965,6 +965,7 @@
 5,4,*.miaozhen.com/*
 5,4,*.mr66.com/*
 5,4,*.myiee.com/*
+5,4,*.91339.com/js/swf.js
 5,4,*.na7.cc/*
 5,4,swt.zoosnet.net/*
 5,4,*.no3.com.cn/*

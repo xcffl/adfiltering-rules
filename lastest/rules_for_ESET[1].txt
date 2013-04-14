@@ -965,6 +965,7 @@ b.scorecardresearch.com/*
 *.miaozhen.com/*
 *.mr66.com/*
 *.myiee.com/*
+*.91339.com/js/swf.js
 *.na7.cc/*
 swt.zoosnet.net/*
 *.no3.com.cn/*
@@ -1996,5 +1997,4 @@ img.cnbeta.com/*336.jpg
 *cnbeta.com/images/tw*.jpg
 img.cnbeta.com/*576.*
 img.cnbeta.com/wps*.gif
-img.cnbeta.com/*3362.gif
 

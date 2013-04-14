@@ -971,6 +971,7 @@
 		<rule Type="0" url="*.miaozhen.com/*"/>
 		<rule Type="0" url="*.mr66.com/*"/>
 		<rule Type="0" url="*.myiee.com/*"/>
+		<rule Type="0" url="*.91339.com/js/swf.js"/>
 		<rule Type="0" url="*.na7.cc/*"/>
 		<rule Type="0" url="swt.zoosnet.net/*"/>
 		<rule Type="0" url="*.no3.com.cn/*"/>

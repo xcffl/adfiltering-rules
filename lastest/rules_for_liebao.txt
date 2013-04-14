@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-04-14 12:43:53
+!Updated:2013-04-14 15:09:12
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -1138,6 +1138,7 @@ bannerad
 /\*\.miaozhen\.com\/\*/
 /\*\.mr66\.com\/\*/
 /\*\.myiee\.com\/\*/
+/\*\.91339\.com\/js\/swf\.js/
 /\*\.na7\.cc\/\*/
 /:\/\/([^\/]+\.)?swt\.zoosnet\.net\/\*/
 /\*\.no3\.com\.cn\/\*/

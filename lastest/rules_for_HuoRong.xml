@@ -4837,6 +4837,11 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>*.91339.com/js/swf.js</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path>*.na7.cc/*</path>
 <object>*</object>
 </analyzer>

@@ -1,3 +1,4 @@
+img.cnbeta.com/*300.jpg
 img.cnbeta.com/tx*.gif
 img.cnbeta.com/yodao*.gif
 img.cnbeta.com/oray*.png

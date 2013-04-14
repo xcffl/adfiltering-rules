@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-04-14 00:40:08
+#Updated:2013-04-14 12:43:53
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -4814,6 +4814,7 @@ msFilterList
 +d sinajs.cn weiboshare.html
 +d weibo.com shorten.json
 +d weibo.com counts.json
+-d hdslb.com */u_user/*
 # baidu
 +d baidu.com bds_s_v2.js
 +d baidu.com logger.js

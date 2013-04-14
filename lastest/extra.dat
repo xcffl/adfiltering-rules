@@ -8,6 +8,7 @@
 +d sinajs.cn weiboshare.html
 +d weibo.com shorten.json
 +d weibo.com counts.json
+-d hdslb.com */u_user/*
 # baidu
 +d baidu.com bds_s_v2.js
 +d baidu.com logger.js

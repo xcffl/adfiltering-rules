@@ -35,8 +35,13 @@ iframe[src^="http://ads.doublemax.net"],
 {display:none !important}
 
 /* pcbeta */
-[class^="ftbg"]
+html.ie_all div#sitefocus,
+body#nv_forum>div#wp>div[class="wp"],
+body#nv_forum>div#wp>div:nth-child(2)>div,
+body#nv_forum>div#wp>div:nth-child(7)>div:nth-child(2)
 {display:none !important}
+body#nv_forum>div#wp>div:nth-child(2)
+{height:auto!important}
 
 /* niconico */
 [id="nicoads"]，

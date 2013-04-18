@@ -38,7 +38,8 @@ iframe[src^="http://ads.doublemax.net"],
 html.ie_all div#sitefocus,
 body#nv_forum>div#wp>div[class="wp"],
 body#nv_forum>div#wp>div:nth-child(2)>div,
-body#nv_forum>div#wp>div:nth-child(7)>div:nth-child(2)
+body#nv_forum>div#wp>div:nth-child(7)>div:nth-child(2),
+body#nv_forum>div#wp>div:nth-child(13)
 {display:none !important}
 body#nv_forum>div#wp>div:nth-child(2)
 {height:auto!important}

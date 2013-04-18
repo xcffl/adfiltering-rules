@@ -39,7 +39,7 @@ html.ie_all div#sitefocus,
 body#nv_forum>div#wp>div[class="wp"],
 body#nv_forum>div#wp>div:nth-child(2)>div,
 body#nv_forum>div#wp>div:nth-child(7)>div:nth-child(2),
-body#nv_forum>div#wp>div:nth-child(13)
+body#nv_forum>div#wp>div:last-child
 {display:none !important}
 body#nv_forum>div#wp>div:nth-child(2)
 {height:auto!important}

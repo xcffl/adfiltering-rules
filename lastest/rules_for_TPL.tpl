@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-04-14 15:09:12
+#Updated:2013-04-20 18:43:48
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -4823,8 +4823,6 @@ msFilterList
 +d baidu.com getnum
 +d baidu.com bdsstyle.css
 +d baidu.com png
-# horou
--d taobaocdn.com *.gif
 # niconico
 -d ads.nicovideo.jp jpeg
 -d nimg.jp */img/watch/ichiba_2/chokaigi2_ticket.png

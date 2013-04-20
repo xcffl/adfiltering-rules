@@ -16,8 +16,6 @@
 +d baidu.com getnum
 +d baidu.com bdsstyle.css
 +d baidu.com png
-# horou
--d taobaocdn.com *.gif
 # niconico
 -d ads.nicovideo.jp jpeg
 -d nimg.jp */img/watch/ichiba_2/chokaigi2_ticket.png

@@ -48,3 +48,4 @@
 [urlfilter.ini]
 write extra rules for opera here
 http://apas.aipai.com/*.swf*
+*.hdslb.com/u_user/*

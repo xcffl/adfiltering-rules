@@ -1,4 +1,6 @@
 [rules_for_TPL.tpl]
+# xda
++d googleapis.com */ajax/libs/*
 # cntv
 -d g.ggxt.net */ga*
 +d cctv.com cntv_Advertise.js

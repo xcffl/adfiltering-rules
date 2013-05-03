@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-04-29 10:49:27
+!Updated:2013-05-03 22:31:02
 !Description:一个通用、全面的广告过滤规则
 !Expires: 7 days
 !版本_5.1.5
@@ -5410,6 +5410,7 @@ www.qidian.com##.DH17
 *.drevil.to/*
 ||www.fclub.cn/affiche.php?act=img&ad_id=*
 ||www.54new.com/da/*
+||www.dm5.com##a[id$="t_NewBgt_a"]
 !-------------特殊规则-------------
 !-------------临时规则-------------
 !----百度推广验证码下载----
@@ -5426,6 +5427,7 @@ www.qidian.com##.DH17
 @@||pos.baidu.com/ecom?*$domain=up.9es.cn
 @@||cpro.baidu.com/cpro/ui/c.js$domain=up.9es.cn
 !-------------待分类-------------
+
 
 
 

@@ -3,6 +3,10 @@
 =======
 # Î¢Âþ»­
 -d static.vmanhua.com */v3/image/front/comic/*
+-d manhua.weibo.com */noif/fcgh*
++d vmanhua.com btn_group_new.png
++d vmanhua.com btn_vip.gif
++d vmanhua.com icon_work.png
 # xda
 +d googleapis.com */ajax/libs/*
 # cntv

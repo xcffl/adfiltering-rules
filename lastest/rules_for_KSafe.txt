@@ -2661,6 +2661,7 @@
 5,4,www.3156.cn/images/fdgg.css
 5,4,mr*.douban.com/*/rda/*.mp3
 5,4,vt*.douban.com/*/rda/*.flv
+5,4,img3.douban.com/js/fm/packed_ad*
 5,4,img3.douban.com/js/fm/packed_fm_rotate_ad*.js
 5,4,img3.douban.com/js/fm/packed_fm_bgad*.js
 5,4,img3.douban.com/js/fm/packed_fm_bannerad*.js

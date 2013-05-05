@@ -13317,6 +13317,11 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>img3.douban.com/js/fm/packed_ad*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path>img3.douban.com/js/fm/packed_fm_rotate_ad*.js</path>
 <object>*</object>
 </analyzer>

@@ -2661,6 +2661,7 @@ www.3156.cn/js/float_ads.*.js
 www.3156.cn/images/fdgg.css
 mr*.douban.com/*/rda/*.mp3
 vt*.douban.com/*/rda/*.flv
+img3.douban.com/js/fm/packed_ad*
 img3.douban.com/js/fm/packed_fm_rotate_ad*.js
 img3.douban.com/js/fm/packed_fm_bgad*.js
 img3.douban.com/js/fm/packed_fm_bannerad*.js

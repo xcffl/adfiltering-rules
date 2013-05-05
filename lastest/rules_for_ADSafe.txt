@@ -1,7 +1,7 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-05-03 22:31:02
+!*lastmodify=2013-05-05 16:19:30
 !*itemcount=4476
 !*headend
 !Expires: 7 days
@@ -3518,6 +3518,7 @@ dl.4thzone.com@@DIV[style="margin-top:15px;overflow:hidden"]
 %douban.fm##.clickable_ad
 |mr*.douban.com/*/rda/*.mp3
 |vt*.douban.com/*/rda/*.flv
+|img3.douban.com/js/fm/packed_ad
 |img3.douban.com/js/fm/packed_fm_rotate_ad*.js
 |img3.douban.com/js/fm/packed_fm_bgad*.js
 |img3.douban.com/js/fm/packed_fm_bannerad*.js
@@ -5279,7 +5280,6 @@ www.qidian.com##.DH17
 *.drevil.to/
 |www.fclub.cn/affiche.php?act=img&ad_id=
 |www.54new.com/da/
-||www.dm5.com@@a[id$="t_NewBgt_a"]
 !-------------特殊规则-------------
 !-------------临时规则-------------
 !----百度推广验证码下载----

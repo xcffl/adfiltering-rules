@@ -1,4 +1,6 @@
 [rules_for_TPL.tpl]
+<<<<<<< .mine
+=======
 # xda
 +d googleapis.com */ajax/libs/*
 # cntv
@@ -8,12 +10,17 @@
 -d xuite.net */blog_*/txt/*
 -d av9.cc */Content/Images/banner/*.gif
 -d v515.com */adi/*.gif
+>>>>>>> .r1010
 # weibo
 # bilibili
 +d sinajs.cn weiboshare.html
 +d weibo.com shorten.json
 +d weibo.com counts.json
--d hdslb.com */u_user/*
+# acfun
+- w5cdn.ranktv.cn/dotnet/artemis/u/cms/www/201302/01151155n7np.jpg
+- w5cdn.ranktv.cn/dotnet/artemis/u/cms/www/201301/1818042953rp.png
+- w5cdn.ranktv.cn/dotnet/artemis/u/cms/www/201302/03105320e8eq.jpg
+- w5cdn.ranktv.cn/dotnet/artemis/u/cms/www/201302/01151155n7np.jpg
 # baidu
 +d baidu.com bds_s_v2.js
 +d baidu.com logger.js
@@ -23,8 +30,6 @@
 +d baidu.com png
 # niconico
 -d ads.nicovideo.jp jpeg
--d nimg.jp */img/watch/ichiba_2/chokaigi2_ticket.png
--d nimg.jp */img/watch/tag_sync/20130402_tag.png
 # cnbeta
 +d qq.com like_this.css
 +d qq.com like
@@ -35,19 +40,19 @@
 +d douban.com packed_fm_bgad*.js
 +d douban.com packed_fm_bannerad*.js
 +d douban.com packed_fm_rotate_ad*.js
-# imgChili
--d feeds.videosz.com index.php
-# baidushare
-+d baidu.com pi.gif
-# ifeng
--d *.ifengimg.com swf
-# rmdown
--d 52lover.info gif
--d aifei.info gif
-# xunfs
--d meiclub.info gif
--d showgirl001.info gif
+# google
++d google.com plusone.js
++d google.com hover
++d google.com fastbutton
++d google.com apps-static
+# facebook
++d facebook.com likebox.php
++d facebook.com like.php
++d akamaihd.net rsrc.php
 [urlfilter.ini]
 write extra rules for opera here
+<<<<<<< .mine
+[filename.ext]
+write extra rules for filename.ext here=======
 http://apas.aipai.com/*.swf*
-*.hdslb.com/u_user/*
+*.hdslb.com/u_user/*>>>>>>> .r1010

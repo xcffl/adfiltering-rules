@@ -1,6 +1,8 @@
 [rules_for_TPL.tpl]
 <<<<<<< .mine
 =======
+# Î¢Âþ»­
+-d static.vmanhua.com */v3/image/front/comic/*
 # xda
 +d googleapis.com */ajax/libs/*
 # cntv

@@ -2667,6 +2667,7 @@
 		<rule Type="0" url="www.3156.cn/images/fdgg.css"/>
 		<rule Type="0" url="mr*.douban.com/*/rda/*.mp3"/>
 		<rule Type="0" url="vt*.douban.com/*/rda/*.flv"/>
+		<rule Type="0" url="img3.douban.com/js/fm/packed_ad*"/>
 		<rule Type="0" url="img3.douban.com/js/fm/packed_fm_rotate_ad*.js"/>
 		<rule Type="0" url="img3.douban.com/js/fm/packed_fm_bgad*.js"/>
 		<rule Type="0" url="img3.douban.com/js/fm/packed_fm_bannerad*.js"/>

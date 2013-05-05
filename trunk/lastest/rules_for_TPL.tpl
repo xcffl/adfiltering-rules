@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-05-03 22:31:02
+#Updated:2013-05-05 16:19:30
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -3160,6 +3160,7 @@ msFilterList
 #----豆瓣----
 - http://mr*.douban.com/*/rda/*.mp3
 - http://vt*.douban.com/*/rda/*.flv
+-d img3.douban.com /js/fm/packed_ad
 -d img3.douban.com /js/fm/packed_fm_rotate_ad*.js
 -d img3.douban.com /js/fm/packed_fm_bgad*.js
 -d img3.douban.com /js/fm/packed_fm_bannerad*.js
@@ -4806,6 +4807,8 @@ msFilterList
 +d pos.baidu.com /ecom?
 +d cpro.baidu.com /cpro/ui/c.js
 #-------------待分类-------------
+<<<<<<< .mine
+=======
 # xda
 +d googleapis.com */ajax/libs/*
 # cntv
@@ -4815,12 +4818,17 @@ msFilterList
 -d xuite.net */blog_*/txt/*
 -d av9.cc */Content/Images/banner/*.gif
 -d v515.com */adi/*.gif
+>>>>>>> .r1010
 # weibo
 # bilibili
 +d sinajs.cn weiboshare.html
 +d weibo.com shorten.json
 +d weibo.com counts.json
--d hdslb.com */u_user/*
+# acfun
+- w5cdn.ranktv.cn/dotnet/artemis/u/cms/www/201302/01151155n7np.jpg
+- w5cdn.ranktv.cn/dotnet/artemis/u/cms/www/201301/1818042953rp.png
+- w5cdn.ranktv.cn/dotnet/artemis/u/cms/www/201302/03105320e8eq.jpg
+- w5cdn.ranktv.cn/dotnet/artemis/u/cms/www/201302/01151155n7np.jpg
 # baidu
 +d baidu.com bds_s_v2.js
 +d baidu.com logger.js
@@ -4830,8 +4838,6 @@ msFilterList
 +d baidu.com png
 # niconico
 -d ads.nicovideo.jp jpeg
--d nimg.jp */img/watch/ichiba_2/chokaigi2_ticket.png
--d nimg.jp */img/watch/tag_sync/20130402_tag.png
 # cnbeta
 +d qq.com like_this.css
 +d qq.com like
@@ -4842,15 +4848,12 @@ msFilterList
 +d douban.com packed_fm_bgad*.js
 +d douban.com packed_fm_bannerad*.js
 +d douban.com packed_fm_rotate_ad*.js
-# imgChili
--d feeds.videosz.com index.php
-# baidushare
-+d baidu.com pi.gif
-# ifeng
--d *.ifengimg.com swf
-# rmdown
--d 52lover.info gif
--d aifei.info gif
-# xunfs
--d meiclub.info gif
--d showgirl001.info gif
+# google
++d google.com plusone.js
++d google.com hover
++d google.com fastbutton
++d google.com apps-static
+# facebook
++d facebook.com likebox.php
++d facebook.com like.php
++d akamaihd.net rsrc.php

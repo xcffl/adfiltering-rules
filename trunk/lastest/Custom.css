@@ -8,6 +8,8 @@
     可访问 https://code.google.com/p/adfiltering-rules/ 。
 /* Copyright 2011-2013 Adfiltering-Rules Project, Apache License 2.0 */
 /* ======================== 版权自由 欢迎传播 ======================== */
+<<<<<<< .mine
+=======
 /* 动漫屋 */
 div#beitou>div.clDiv>a[id$="t_NewBgt_a"]
 {display:none!important}
@@ -33,6 +35,7 @@ div[class="post-top-gg"]
 iframe[src*="afr.php"]
 {display:none !important}
 
+>>>>>>> .r1010
 /* candy-sky */
 iframe[src^="http://ads.doublemax.net"],
 #headerad
@@ -79,6 +82,21 @@ body#nv_forum>div#wp>div:nth-child(2)
 [class^="l_banner banner_theme_2"],
 [class^="dir_rank"],
 [class^="wgt-ads qbbanner"]
+{display:none !important}
+
+/* weibo */
+[feedtype^="ad"],
+[class^="templete_enter"],
+[class^="gn_title"],
+[class^="W_main_2r"],
+[class^="gn_title current"],
+[class^="gn_tab gn_write"],
+[class^="nameBox"],
+[class^="W_tips"],
+[class^="key S_textb"],
+[class^="WB_right_tips S_line2"],
+[class^="global_footer S_bg4"],
+[class^="global_footer"]
 {display:none !important}
 
 /* mo weibo */

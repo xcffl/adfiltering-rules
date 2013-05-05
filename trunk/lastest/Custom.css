@@ -10,6 +10,11 @@
 /* ======================== 版权自由 欢迎传播 ======================== */
 <<<<<<< .mine
 =======
+/* 微漫画 */
+div.V_main.ad_comic,
+body>div.V_con_lr>div.V_con_fr>div.mb10.mt10
+{display:none!important}
+
 /* 动漫屋 */
 div#beitou>div.clDiv>a[id$="t_NewBgt_a"]
 {display:none!important}

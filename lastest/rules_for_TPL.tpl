@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-05-05 16:19:30
+#Updated:2013-05-11 13:12:35
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -3281,8 +3281,7 @@ msFilterList
 -d tv-static.tom.com /6c6266/20101026/hd16953.flv
 #----bilibili.tv----
 -d static.hdslb.com /ad-images/*.swf
-- *bilibili.*/html/ads-
-- *bilibili.*/html/*.html
+- *bilibili.*/html/
 +d f.youku.com /player/getFlvPath/fileid/0*?K=
 #----浦北部落----
 - *pb86.net/sb/images/
@@ -4807,8 +4806,12 @@ msFilterList
 +d pos.baidu.com /ecom?
 +d cpro.baidu.com /cpro/ui/c.js
 #-------------待分类-------------
-<<<<<<< .mine
-=======
+# vmanhua
+-d static.vmanhua.com */v3/image/front/comic/*
+-d manhua.weibo.com */noif/fcgh*
++d vmanhua.com btn_group_new.png
++d vmanhua.com btn_vip.gif
++d vmanhua.com icon_work.png
 # xda
 +d googleapis.com */ajax/libs/*
 # cntv
@@ -4818,7 +4821,6 @@ msFilterList
 -d xuite.net */blog_*/txt/*
 -d av9.cc */Content/Images/banner/*.gif
 -d v515.com */adi/*.gif
->>>>>>> .r1010
 # weibo
 # bilibili
 +d sinajs.cn weiboshare.html

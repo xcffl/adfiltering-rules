@@ -1,7 +1,7 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-05-05 16:19:30
+!*lastmodify=2013-05-11 13:12:35
 !*itemcount=4476
 !*headend
 !Expires: 7 days
@@ -3650,8 +3650,7 @@ bbs.360.cn##.aXd
 !----bilibili.tv----
 bilibili.tv,bilibili.kankanews.com##.ad-f
 |static.hdslb.com/ad-images/*.swf
-*bilibili.*/html/ads-
-*bilibili.*/html/*.html
+*bilibili.*/html/
 ~|f.youku.com/player/getFlvPath/fileid/0*?K=*::bilibili.tv
 !----浦北部落----
 *pb86.net/sb/images/
@@ -3711,6 +3710,7 @@ autohome.com.cn##.subadv2
 !----清风阁----
 *ibook8.com/2/
 !----动漫屋----
+%dm5.com@@a[id$="t_NewBgt_a"]
 |by.dm5.com/
 |tongji.dm5.com/
 !----Discuz----

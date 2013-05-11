@@ -2755,8 +2755,7 @@
 		<rule Type="0" url="post.weiqi.tom.com/pfprt.php*"/>
 		<rule Type="0" url="tv-static.tom.com/6c6266/20101026/hd16953.flv"/>
 		<rule Type="0" url="static.hdslb.com/ad-images/*.swf"/>
-		<rule Type="0" url="*bilibili.*/html/ads-*"/>
-		<rule Type="0" url="*bilibili.*/html/*.html"/>
+		<rule Type="0" url="*bilibili.*/html/*"/>
 		<rule Type="0" url=""/>
 		<rule Type="0" url="*pb86.net/sb/images/*"/>
 		<rule Type="0" url="*pb86.net/d/*"/>

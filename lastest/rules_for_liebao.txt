@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-05-05 17:27:45
+!Updated:2013-05-11 13:12:35
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -3793,8 +3793,7 @@ bannerad
 ##.ad-f	$d=bilibili.tv
 ##.ad-f	$d=bilibili.kankanews.com
 /:\/\/([^\/]+\.)?static\.hdslb\.com\/ad-images\/\*\.swf/
-/\*bilibili\.\*\/html\/ads-\*/
-/\*bilibili\.\*\/html\/\*\.html/
+/\*bilibili\.\*\/html\/\*/
 /:\/\/([^\/]+\.)?f\.youku\.com\/player\/getFlvPath\/fileid\/0\*\?K=/	$d=bilibili.tv,$w
 !----浦北部落----
 /\*pb86\.net\/sb\/images\/\*/
@@ -3854,6 +3853,7 @@ bannerad
 !----清风阁----
 /\*ibook8\.com\/2\/\*/
 !----动漫屋----
+##a[id$="t_NewBgt_a"]	$d=dm5.com
 /:\/\/([^\/]+\.)?by\.dm5\.com\/\*/
 /:\/\/([^\/]+\.)?tongji\.dm5\.com\/\*/
 !----Discuz----

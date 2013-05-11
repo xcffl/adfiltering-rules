@@ -1,7 +1,5 @@
-[rules_for_TPL.tpl]
-<<<<<<< .mine
-=======
-# Î¢Âþ»­
+ï»¿[rules_for_TPL.tpl]
+# vmanhua
 -d static.vmanhua.com */v3/image/front/comic/*
 -d manhua.weibo.com */noif/fcgh*
 +d vmanhua.com btn_group_new.png
@@ -16,7 +14,6 @@
 -d xuite.net */blog_*/txt/*
 -d av9.cc */Content/Images/banner/*.gif
 -d v515.com */adi/*.gif
->>>>>>> .r1010
 # weibo
 # bilibili
 +d sinajs.cn weiboshare.html
@@ -57,8 +54,7 @@
 +d akamaihd.net rsrc.php
 [urlfilter.ini]
 write extra rules for opera here
-<<<<<<< .mine
-[filename.ext]
-write extra rules for filename.ext here=======
 http://apas.aipai.com/*.swf*
-*.hdslb.com/u_user/*>>>>>>> .r1010
+*.hdslb.com/u_user/*
+[filename.ext]
+write extra rules for filename.ext here

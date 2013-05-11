@@ -13757,12 +13757,7 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
-<path>*bilibili.*/html/ads-*</path>
-<object>*</object>
-</analyzer>
-<analyzer>
-<type>Http</type>
-<path>*bilibili.*/html/*.html</path>
+<path>*bilibili.*/html/*</path>
 <object>*</object>
 </analyzer>
 <analyzer>

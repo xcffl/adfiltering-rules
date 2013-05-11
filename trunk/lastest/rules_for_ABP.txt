@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-05-05 17:27:45
+!Updated:2013-05-11 13:12:35
 !Description:一个通用、全面的广告过滤规则
 !Expires: 7 days
 !版本_5.1.5
@@ -126,7 +126,7 @@
 ##.wp.a_f
 ~kafan.cn##.wp.a_t
 ##.side_ad
-##.a_mu
+~kafan.cn##.a_mu
 ##.ad-div
 ###footer-ads
 ~pogo.com##.adRight
@@ -3781,8 +3781,7 @@ tom.com##.conttopad
 !----bilibili.tv----
 bilibili.tv,bilibili.kankanews.com##.ad-f
 ||static.hdslb.com/ad-images/*.swf
-*bilibili.*/html/ads-*
-*bilibili.*/html/*.html
+*bilibili.*/html/*
 @@||f.youku.com/player/getFlvPath/fileid/0*?K=*$domain=bilibili.tv
 !----浦北部落----
 *pb86.net/sb/images/*
@@ -3842,6 +3841,7 @@ epochtimes.com###insidearticleBodyAd
 !----清风阁----
 *ibook8.com/2/*
 !----动漫屋----
+dm5.com##a[id$="t_NewBgt_a"]
 ||by.dm5.com/*
 ||tongji.dm5.com/*
 !----Discuz----
@@ -5427,9 +5427,3 @@ www.qidian.com##.DH17
 @@||pos.baidu.com/ecom?*$domain=up.9es.cn
 @@||cpro.baidu.com/cpro/ui/c.js$domain=up.9es.cn
 !-------------待分类-------------
-
-
-
-
-
-

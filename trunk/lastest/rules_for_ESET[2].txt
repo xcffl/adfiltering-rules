@@ -749,8 +749,7 @@ sc.tom.com/*
 post.weiqi.tom.com/pfprt.php*
 tv-static.tom.com/6c6266/20101026/hd16953.flv
 static.hdslb.com/ad-images/*.swf
-*bilibili.*/html/ads-*
-*bilibili.*/html/*.html
+*bilibili.*/html/*
 
 *pb86.net/sb/images/*
 *pb86.net/d/*

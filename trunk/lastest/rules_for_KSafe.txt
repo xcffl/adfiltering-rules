@@ -2749,8 +2749,7 @@
 5,4,post.weiqi.tom.com/pfprt.php*
 5,4,tv-static.tom.com/6c6266/20101026/hd16953.flv
 5,4,static.hdslb.com/ad-images/*.swf
-5,4,*bilibili.*/html/ads-*
-5,4,*bilibili.*/html/*.html
+5,4,*bilibili.*/html/*
 5,4,
 5,4,*pb86.net/sb/images/*
 5,4,*pb86.net/d/*

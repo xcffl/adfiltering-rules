@@ -1,7 +1,7 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-05-11 13:12:35
+!*lastmodify=2013-05-12 13:11:07
 !*itemcount=4476
 !*headend
 !Expires: 7 days

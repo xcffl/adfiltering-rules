@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-05-11 13:12:35
+#Updated:2013-05-12 13:11:07
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5

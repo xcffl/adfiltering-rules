@@ -56,5 +56,6 @@
 write extra rules for opera here
 http://apas.aipai.com/*.swf*
 *.hdslb.com/u_user/*
+http://wan.duba.net/vDubaSideAdRoll_v1/script/default/default.js
 [filename.ext]
 write extra rules for filename.ext here

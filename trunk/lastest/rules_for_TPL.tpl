@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-05-12 13:11:07
+#Updated:2013-05-24 17:58:38
 #Description:一个通用、全面的广告过滤规则
 : Expires=7
 #版本_5.1.5
@@ -4679,7 +4679,6 @@ msFilterList
 -d register.haohaowan.com /adu/cpm?channelId=
 #-------------IP型广告-------------
 - *119.167.222.*mp4
-- *60.217.245.*mp4
 -d 61.147.113.170
 -d 173.208.166.162
 -d 63.141.248.130

@@ -3685,7 +3685,6 @@
 5,4,*groupgo.com.au/static/css/i/dealoz.gif
 5,4,register.haohaowan.com/adu/cpm?channelId=*
 5,4,*119.167.222.*mp4*
-5,4,*60.217.245.*mp4*
 5,4,61.147.113.170/*
 5,4,173.208.166.162/*
 5,4,63.141.248.130/*

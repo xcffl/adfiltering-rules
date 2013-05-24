@@ -18437,11 +18437,6 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
-<path>*60.217.245.*mp4*</path>
-<object>*</object>
-</analyzer>
-<analyzer>
-<type>Http</type>
 <path>61.147.113.170/*</path>
 <object>*</object>
 </analyzer>

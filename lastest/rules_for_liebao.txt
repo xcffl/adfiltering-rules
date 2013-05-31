@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-05-24 17:58:38
+!Updated:2013-05-31 19:45:24
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -2017,11 +2017,10 @@ bannerad
 !||valf.atm.youku.com/valf?*
 !||val*.atm.youku.com/*
 !||h.irs01.com/*
-/:\/\/([^\/]+\.)?static\.youku\.com\/\*\/index\/js\/cps\.js/
+/:\/\/([^\/]+\.)?static\.youku\.com\/\*\/js\/cps\.js/
 /:\/\/([^\/]+\.)?static\.youku\.com\/\*\/index\/js\/hzClick\.js/
 /:\/\/([^\/]+\.)?static\.youku\.com\/\*\/index\/js\/iresearch\.js/
 /:\/\/([^\/]+\.)?stat\.youku\.com\/player\/addPlayerDurationReport\?\*/
-/:\/\/([^\/]+\.)?notice\.youku\.com\/notice\/js_notify\.json\*/
 !----雅虎----
 /:\/\/([^\/]+\.)?l\.yimg\.com\/zz\/combo\?\*\.js/$w
 /:\/\/([^\/]+\.)?l\.yimg\.com\/d\/lib\/bc\/bcr_2\.0\.5\.js/
@@ -4954,15 +4953,11 @@ bannerad
 ##.theatre[style]	$d=letv.com
 /:\/\/([^\/]+\.)?www\.letv\.com\/zt\/tuiguang\/playerapi\/pccs\*\.xml/$w
 /:\/\/([^\/]+\.)?player\.letvcdn\.com\/p\/\*\/newplayer\/plugins\/game2\/\*\.swf\*/
-/\*webp2p\.letv\.com\/\*/
 /:\/\/([^\/]+\.)?letv\.allyes\.com\/\*/
 /:\/\/([^\/]+\.)?dc\.letv\.com\/\*/
 /:\/\/([^\/]+\.)?js\.letvcdn\.com\/js\/\*\/stats\/\*/
-/:\/\/([^\/]+\.)?player\.hz\.letv\.com\/hzplayer\.swf\?\*/
 /:\/\/([^\/]+\.)?i3\.letvimg\.com\/gugwl\/\*\.jpg/
 /:\/\/([^\/]+\.)?cmletv\.allyes\.com\/\*/
-/:\/\/([^\/]+\.)?player\.letvcdn\.com\/p\/\*\/newplayer\/plugins\/Recommend\.swf/
-/:\/\/([^\/]+\.)?player\.letvcdn\.com\/p\/\*\/LeAir\.swf/
 /:\/\/([^\/]+\.)?player\.letvcdn\.com\/p\/\*\/pb\/pbTip\.swf\*/
 /:\/\/([^\/]+\.)?i0\.letvimg\.com\/gugwl\/\*/
 /:\/\/([^\/]+\.)?pro\.hoye\.letv\.com\/\*/

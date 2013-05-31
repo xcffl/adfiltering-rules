@@ -1721,11 +1721,10 @@
 		<rule Type="0" url="valp.atm.youku.com/*"/>
 		<rule Type="0" url="f.youku.com/crossdomain.xml"/>
 		<rule Type="0" url="f.youku.com/player/getFlvPath/fileid/*ymovie=*"/>
-		<rule Type="0" url="static.youku.com/*/index/js/cps.js"/>
+		<rule Type="0" url="static.youku.com/*/js/cps.js"/>
 		<rule Type="0" url="static.youku.com/*/index/js/hzClick.js"/>
 		<rule Type="0" url="static.youku.com/*/index/js/iresearch.js"/>
 		<rule Type="0" url="stat.youku.com/player/addPlayerDurationReport?*"/>
-		<rule Type="0" url="notice.youku.com/notice/js_notify.json*"/>
 		<rule Type="0" url="l.yimg.com/d/lib/bc/bcr_2.0.5.js"/>
 		<rule Type="0" url="l.yimg.com/f/a/tw/gif_backup/ad_*.gif"/>
 		<rule Type="0" url="*.yahoo.com/yi?bv=*"/>
@@ -3451,15 +3450,11 @@
 		<rule Type="0" url="*pipi.cn/player/*"/>
 		<rule Type="0" url="*0595jx.com/images/41.gif"/>
 		<rule Type="0" url="player.letvcdn.com/p/*/newplayer/plugins/game2/*.swf*"/>
-		<rule Type="0" url="*webp2p.letv.com/*"/>
 		<rule Type="0" url="letv.allyes.com/*"/>
 		<rule Type="0" url="dc.letv.com/*"/>
 		<rule Type="0" url="js.letvcdn.com/js/*/stats/*"/>
-		<rule Type="0" url="player.hz.letv.com/hzplayer.swf?*"/>
 		<rule Type="0" url="i3.letvimg.com/gugwl/*.jpg"/>
 		<rule Type="0" url="cmletv.allyes.com/*"/>
-		<rule Type="0" url="player.letvcdn.com/p/*/newplayer/plugins/Recommend.swf"/>
-		<rule Type="0" url="player.letvcdn.com/p/*/LeAir.swf"/>
 		<rule Type="0" url="player.letvcdn.com/p/*/pb/pbTip.swf*"/>
 		<rule Type="0" url="i0.letvimg.com/gugwl/*"/>
 		<rule Type="0" url="pro.hoye.letv.com/*"/>

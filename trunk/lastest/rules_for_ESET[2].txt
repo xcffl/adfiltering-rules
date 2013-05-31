@@ -1,4 +1,3 @@
-img.cnbeta.com/*300.jpg
 img.cnbeta.com/tx*.gif
 img.cnbeta.com/yodao*.gif
 img.cnbeta.com/oray*.png
@@ -1445,15 +1444,11 @@ luckstatic.v1.cn/st/10000/*
 *pipi.cn/player/*
 *0595jx.com/images/41.gif
 player.letvcdn.com/p/*/newplayer/plugins/game2/*.swf*
-*webp2p.letv.com/*
 letv.allyes.com/*
 dc.letv.com/*
 js.letvcdn.com/js/*/stats/*
-player.hz.letv.com/hzplayer.swf?*
 i3.letvimg.com/gugwl/*.jpg
 cmletv.allyes.com/*
-player.letvcdn.com/p/*/newplayer/plugins/Recommend.swf
-player.letvcdn.com/p/*/LeAir.swf
 player.letvcdn.com/p/*/pb/pbTip.swf*
 i0.letvimg.com/gugwl/*
 pro.hoye.letv.com/*

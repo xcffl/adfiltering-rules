@@ -1,9 +1,9 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-05-24 17:58:38
+#Updated:2013-05-31 19:45:24
 #Description:一个通用、全面的广告过滤规则
-: Expires=7
+: Expires=3
 #版本_5.1.5
 #规则主页：http://www.adfiltering-rules.tk/
 #
@@ -1803,11 +1803,10 @@ msFilterList
 #||valf.atm.youku.com/valf?*
 #||val*.atm.youku.com/*
 #||h.irs01.com/*
--d static.youku.com /index/js/cps.js
+-d static.youku.com /js/cps.js
 -d static.youku.com /index/js/hzClick.js
 -d static.youku.com /index/js/iresearch.js
 -d stat.youku.com /player/addPlayerDurationReport?
--d notice.youku.com /notice/js_notify.json
 #----雅虎----
 +d l.yimg.com /zz/combo?*.js
 -d l.yimg.com /d/lib/bc/bcr_2.0.5.js
@@ -4363,15 +4362,11 @@ msFilterList
 #----乐视网----
 +d www.letv.com /zt/tuiguang/playerapi/pccs*.xml
 -d player.letvcdn.com /p/*/newplayer/plugins/game2/*.swf
-- *webp2p.letv.com/
 -d letv.allyes.com
 -d dc.letv.com
 -d js.letvcdn.com /js/*/stats/
--d player.hz.letv.com /hzplayer.swf?
 -d i3.letvimg.com /gugwl/*.jpg
 -d cmletv.allyes.com
--d player.letvcdn.com /p/*/newplayer/plugins/Recommend.swf
--d player.letvcdn.com /p/*/LeAir.swf
 -d player.letvcdn.com /p/*/pb/pbTip.swf
 -d i0.letvimg.com /gugwl/
 -d pro.hoye.letv.com

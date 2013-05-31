@@ -1715,11 +1715,10 @@ vid.atm.youku.com/*
 valp.atm.youku.com/*
 f.youku.com/crossdomain.xml
 f.youku.com/player/getFlvPath/fileid/*ymovie=*
-static.youku.com/*/index/js/cps.js
+static.youku.com/*/js/cps.js
 static.youku.com/*/index/js/hzClick.js
 static.youku.com/*/index/js/iresearch.js
 stat.youku.com/player/addPlayerDurationReport?*
-notice.youku.com/notice/js_notify.json*
 l.yimg.com/d/lib/bc/bcr_2.0.5.js
 l.yimg.com/f/a/tw/gif_backup/ad_*.gif
 *.yahoo.com/yi?bv=*
@@ -1997,4 +1996,5 @@ img.cnbeta.com/*336.jpg
 *cnbeta.com/images/tw*.jpg
 img.cnbeta.com/*576.*
 img.cnbeta.com/wps*.gif
+img.cnbeta.com/*3362.gif
 

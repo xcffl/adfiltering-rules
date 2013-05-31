@@ -1,10 +1,10 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-05-24 17:58:38
-!*itemcount=4475
+!*lastmodify=2013-05-31 19:45:24
+!*itemcount=4470
 !*headend
-!Expires: 7 days
+!Expires: 3 days
 !版本_5.1.5
 !规则主页：http://www.adfiltering-rules.tk/
 !
@@ -1884,11 +1884,10 @@ news.163.com###adB
 !||valf.atm.youku.com/valf?*
 !||val*.atm.youku.com/*
 !||h.irs01.com/*
-|static.youku.com/*/index/js/cps.js
+|static.youku.com/*/js/cps.js
 |static.youku.com/*/index/js/hzClick.js
 |static.youku.com/*/index/js/iresearch.js
 |stat.youku.com/player/addPlayerDurationReport?
-|notice.youku.com/notice/js_notify.json
 !----雅虎----
 ~|l.yimg.com/zz/combo?*.js
 |l.yimg.com/d/lib/bc/bcr_2.0.5.js
@@ -4810,15 +4809,11 @@ down.cnzz.cn###msg_win
 %letv.com##.theatre[style]
 ~|www.letv.com/zt/tuiguang/playerapi/pccs*.xml
 |player.letvcdn.com/p/*/newplayer/plugins/game2/*.swf
-*webp2p.letv.com/
 |letv.allyes.com/
 |dc.letv.com/
 |js.letvcdn.com/js/*/stats/
-|player.hz.letv.com/hzplayer.swf?
 |i3.letvimg.com/gugwl/*.jpg
 |cmletv.allyes.com/
-|player.letvcdn.com/p/*/newplayer/plugins/Recommend.swf
-|player.letvcdn.com/p/*/LeAir.swf
 |player.letvcdn.com/p/*/pb/pbTip.swf
 |i0.letvimg.com/gugwl/
 |pro.hoye.letv.com/

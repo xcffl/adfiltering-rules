@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-05-31 19:45:24
+#Updated:2013-06-02 13:24:28
 #Description:一个通用、全面的广告过滤规则
 : Expires=3
 #版本_5.1.5
@@ -4799,6 +4799,9 @@ msFilterList
 +d cpro.baidu.com /cpro/ui/f.js
 +d pos.baidu.com /ecom?
 +d cpro.baidu.com /cpro/ui/c.js
+#9ku
++d cbjs.baidu.com /js/m.js
++d cb.baidu.com 
 #-------------待分类-------------
 # vmanhua
 -d static.vmanhua.com */v3/image/front/comic/*

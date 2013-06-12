@@ -2414,9 +2414,6 @@
 5,4,gg.blueidea.com*
 5,4,gg.un.myspace.cn*
 5,4,xfiles.myspace.cn/*mstg/image/yunying/*/*_*.gif
-5,4,images.infzm.com/medias/*.swf
-5,4,images.infzm.com/medias/*.jpeg
-5,4,images.infzm.com/medias/*.gif
 5,4,www.southcn.com/*/ad/*
 5,4,*hkwxc.com/t/g/*
 5,4,abc.wm23.com/uploadfile/2012101415623_97e9ed60-b91e-42ed-bbb9-6de751c02890.gif
@@ -2669,8 +2666,8 @@
 5,4,erebor.douban.com/count/?ad=*
 5,4,erebor.douban.com/redirect/?ad=*
 5,4,*.douban.com/view/dale-online/dale_ad/*.jpg
-5,4,douban.fm/rotate_ad?cid=*
-5,4,*.douban.fm/rotate_ad?cid=*
+5,4,douban.fm/rotate_ad?*
+5,4,*.douban.fm/rotate_ad?*
 5,4,img.daqi.com/common/art_img/0204/aili/js/xixi.js
 5,4,gg.daqi.com/*
 5,4,*daqi.com/clicklog.js

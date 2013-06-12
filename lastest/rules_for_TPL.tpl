@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-06-02 13:24:28
+#Updated:2013-06-12 13:29:57
 #Description:一个通用、全面的广告过滤规则
 : Expires=3
 #版本_5.1.5
@@ -2793,9 +2793,6 @@ msFilterList
 -d xfiles.myspace.cn mstg/image/yunying/*/*_*.gif
 #----南都网----
 #----南方周末----
--d images.infzm.com /medias/*.swf
--d images.infzm.com /medias/*.jpeg
--d images.infzm.com /medias/*.gif
 #----南方网----
 -d www.southcn.com /ad/
 #----好看的小说网址----
@@ -3168,8 +3165,8 @@ msFilterList
 -d erebor.douban.com /count/?ad=
 -d erebor.douban.com /redirect/?ad=
 - *.douban.com/view/dale-online/dale_ad/*.jpg
--d douban.fm /rotate_ad?cid=
-- *.douban.fm/rotate_ad?cid=
+-d douban.fm /rotate_ad?
+- *.douban.fm/rotate_ad?
 #----大旗网----
 -d img.daqi.com /common/art_img/0204/aili/js/xixi.js
 -d gg.daqi.com

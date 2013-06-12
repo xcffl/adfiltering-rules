@@ -1,7 +1,7 @@
 ﻿![Adblock Plus 1.1]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-06-02 13:24:28
+!Updated:2013-06-12 13:29:57
 !Description:一个通用、全面的广告过滤规则
 !Expires: 3 days
 !版本_5.1.5
@@ -3211,9 +3211,6 @@ infzm.com##DIV[style="height:210px;width:312px;display:block"]
 infzm.com##[id^="home_ad_"]
 infzm.com##.cover
 infzm.com##[id$="adv"]
-||images.infzm.com/medias/*.swf|
-||images.infzm.com/medias/*.jpeg|
-||images.infzm.com/medias/*.gif|
 !----南方网----
 ||www.southcn.com/*/ad/*
 !----好看的小说网址----
@@ -3656,8 +3653,8 @@ douban.fm##.clickable_ad
 ||erebor.douban.com/count/?ad=*
 ||erebor.douban.com/redirect/?ad=*
 *.douban.com/view/dale-online/dale_ad/*.jpg
-||douban.fm/rotate_ad?cid=*
-*.douban.fm/rotate_ad?cid=*
+||douban.fm/rotate_ad?*
+*.douban.fm/rotate_ad?*
 !----大旗网----
 ||img.daqi.com/common/art_img/0204/aili/js/xixi.js
 ||gg.daqi.com/*
@@ -5424,3 +5421,4 @@ www.qidian.com##.DH17
 @@||cbjs.baidu.com/js/m.js
 @@||cb.baidu.com/**
 !-------------待分类-------------
+

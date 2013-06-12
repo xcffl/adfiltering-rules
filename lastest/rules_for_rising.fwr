@@ -2420,9 +2420,6 @@
 		<rule Type="0" url="gg.blueidea.com*"/>
 		<rule Type="0" url="gg.un.myspace.cn*"/>
 		<rule Type="0" url="xfiles.myspace.cn/*mstg/image/yunying/*/*_*.gif"/>
-		<rule Type="0" url="images.infzm.com/medias/*.swf"/>
-		<rule Type="0" url="images.infzm.com/medias/*.jpeg"/>
-		<rule Type="0" url="images.infzm.com/medias/*.gif"/>
 		<rule Type="0" url="www.southcn.com/*/ad/*"/>
 		<rule Type="0" url="*hkwxc.com/t/g/*"/>
 		<rule Type="0" url="abc.wm23.com/uploadfile/2012101415623_97e9ed60-b91e-42ed-bbb9-6de751c02890.gif"/>
@@ -2675,8 +2672,8 @@
 		<rule Type="0" url="erebor.douban.com/count/?ad=*"/>
 		<rule Type="0" url="erebor.douban.com/redirect/?ad=*"/>
 		<rule Type="0" url="*.douban.com/view/dale-online/dale_ad/*.jpg"/>
-		<rule Type="0" url="douban.fm/rotate_ad?cid=*"/>
-		<rule Type="0" url="*.douban.fm/rotate_ad?cid=*"/>
+		<rule Type="0" url="douban.fm/rotate_ad?*"/>
+		<rule Type="0" url="*.douban.fm/rotate_ad?*"/>
 		<rule Type="0" url="img.daqi.com/common/art_img/0204/aili/js/xixi.js"/>
 		<rule Type="0" url="gg.daqi.com/*"/>
 		<rule Type="0" url="*daqi.com/clicklog.js"/>

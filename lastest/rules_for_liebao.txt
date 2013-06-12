@@ -1,7 +1,7 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-06-02 13:24:28
+!Updated:2013-06-12 13:29:57
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
 !Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
@@ -3219,9 +3219,6 @@ bannerad
 ##[id^="home_ad_"]	$d=infzm.com
 ##.cover	$d=infzm.com
 ##[id$="adv"]	$d=infzm.com
-/:\/\/([^\/]+\.)?images\.infzm\.com\/medias\/\*\.swf$/
-/:\/\/([^\/]+\.)?images\.infzm\.com\/medias\/\*\.jpeg$/
-/:\/\/([^\/]+\.)?images\.infzm\.com\/medias\/\*\.gif$/
 !----南方网----
 /:\/\/([^\/]+\.)?www\.southcn\.com\/\*\/ad\/\*/
 !----好看的小说网址----
@@ -3666,8 +3663,8 @@ bannerad
 /:\/\/([^\/]+\.)?erebor\.douban\.com\/count\/\?ad=\*/
 /:\/\/([^\/]+\.)?erebor\.douban\.com\/redirect\/\?ad=\*/
 /\*\.douban\.com\/view\/dale-online\/dale_ad\/\*\.jpg/
-/:\/\/([^\/]+\.)?douban\.fm\/rotate_ad\?cid=\*/
-/\*\.douban\.fm\/rotate_ad\?cid=\*/
+/:\/\/([^\/]+\.)?douban\.fm\/rotate_ad\?\*/
+/\*\.douban\.fm\/rotate_ad\?\*/
 !----大旗网----
 /:\/\/([^\/]+\.)?img\.daqi\.com\/common\/art_img\/0204\/aili\/js\/xixi\.js/
 /:\/\/([^\/]+\.)?gg\.daqi\.com\/\*/

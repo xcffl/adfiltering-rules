@@ -2414,9 +2414,6 @@ forum.51nb.com/images/forumbottom.gif
 gg.blueidea.com*
 gg.un.myspace.cn*
 xfiles.myspace.cn/*mstg/image/yunying/*/*_*.gif
-images.infzm.com/medias/*.swf
-images.infzm.com/medias/*.jpeg
-images.infzm.com/medias/*.gif
 www.southcn.com/*/ad/*
 *hkwxc.com/t/g/*
 abc.wm23.com/uploadfile/2012101415623_97e9ed60-b91e-42ed-bbb9-6de751c02890.gif
@@ -2669,8 +2666,8 @@ erebor.douban.com/?unit=*
 erebor.douban.com/count/?ad=*
 erebor.douban.com/redirect/?ad=*
 *.douban.com/view/dale-online/dale_ad/*.jpg
-douban.fm/rotate_ad?cid=*
-*.douban.fm/rotate_ad?cid=*
+douban.fm/rotate_ad?*
+*.douban.fm/rotate_ad?*
 img.daqi.com/common/art_img/0204/aili/js/xixi.js
 gg.daqi.com/*
 *daqi.com/clicklog.js

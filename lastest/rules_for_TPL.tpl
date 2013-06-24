@@ -1,4 +1,4 @@
-msFilterList
+﻿msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
 #Updated:2013-06-12 13:29:57
@@ -4853,3 +4853,7 @@ msFilterList
 +d facebook.com likebox.php
 +d facebook.com like.php
 +d akamaihd.net rsrc.php
+# 36氪
+-d a.36krcnd.com */photo/
++d 36krcnd.com */photo/*!feature
++d 36krcnd.com */photo/*.png

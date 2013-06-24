@@ -1,4 +1,8 @@
 ﻿[rules_for_TPL.tpl]
+# 36氪
+-d a.36krcnd.com */photo/
++d 36krcnd.com */photo/*!feature
++d 36krcnd.com */photo/*.png
 # vmanhua
 -d static.vmanhua.com */v3/image/front/comic/*
 -d manhua.weibo.com */noif/fcgh*

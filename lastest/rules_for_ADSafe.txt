@@ -1,12 +1,12 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-06-26 13:27:47
+!*lastmodify=2013-07-02 12:33:19
 !*itemcount=4469
 !*headend
 !Expires: 3 days
 !版本_5.1.5
-!规则主页：http://www.adfiltering-rules.tk/
+!规则主页：http://www.afrules.tk/
 !
 !隶属于Adfiltering-Rules项目，如需帮助或了解详情
 !请访问 https://code.google.com/p/adfiltering-rules/

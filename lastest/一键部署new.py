@@ -226,7 +226,7 @@ def writeRule(filePath, lines):
       line = re.sub(r'--!$', '--!', line)
       line = re.sub(u'!Description:一个通用、全面的广告过滤规则', u'''!Version:1.0
 !Description:一个通用、全面的广告过滤规则
-!Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt''', line)
+!Url:http://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt''', line)
       result.append(line)
     elif line.find('#') >= 0:
       # 如果是元素隐藏规则
@@ -1952,7 +1952,7 @@ def writeRule(filePath, lines):
   top = u'[General]'
   
   #规则头
-  head = u'''name=Adfiltering-Rules for AB Pro\r\nupdateUrl=http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_AB_PRO.ini\r\nupdateTime=1\r\n[Whitelist]\r\n规则主页：http://www.adfiltering-rules.tk/\r\n隶属于Adfiltering-Rules项目，如需帮助或了解详情\r\n请访问 https://code.google.com/p/adfiltering-rules/\r\nCopyright 2011-2013 Adfiltering-Rules Project, Apache License 2.0\r\n[Block Address]\r\n'''
+  head = u'''name=Adfiltering-Rules for AB Pro\r\nupdateUrl=http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_AB_PRO.ini\r\nupdateTime=1\r\n[Whitelist]\r\n规则主页：http://www.afrules.tk/\r\n隶属于Adfiltering-Rules项目，如需帮助或了解详情\r\n请访问 https://code.google.com/p/adfiltering-rules/\r\nCopyright 2011-2013 Adfiltering-Rules Project, Apache License 2.0\r\n[Block Address]\r\n'''
   #规则尾
   bottom = '[Block Object]'
   #输出到文件  

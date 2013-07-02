@@ -1,11 +1,11 @@
 ﻿msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-06-12 13:29:57
+#Updated:2013-07-02 12:33:19
 #Description:一个通用、全面的广告过滤规则
 : Expires=3
 #版本_5.1.5
-#规则主页：http://www.adfiltering-rules.tk/
+#规则主页：http://www.afrules.tk/
 #
 #隶属于Adfiltering-Rules项目，如需帮助或了解详情
 #请访问 https://code.google.com/p/adfiltering-rules/

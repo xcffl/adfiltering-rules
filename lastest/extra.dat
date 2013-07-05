@@ -1,4 +1,13 @@
 ﻿[rules_for_TPL.tpl]
+# 第一放映室
+-d rrr.youle55.com */rich/*
+# 乐游
+-d www.5577.com */cmstop/*
+# viidii
+-d i48.tinypic.com */4vhkd1.gif
+# 不着调软件
+-d t1.qpic.cn */mblogpic/*
+-d pic.yupoo.com */heidongke_v/*.gif
 # 36氪
 -d a.36krcnd.com */photo/
 +d 36krcnd.com */photo/*!feature
@@ -58,6 +67,7 @@
 +d akamaihd.net rsrc.php
 [urlfilter.ini]
 write extra rules for opera here
+http://rrr.youle55.com/rich/*
 http://apas.aipai.com/*.swf*
 *.hdslb.com/u_user/*
 http://wan.duba.net/vDubaSideAdRoll_v1/script/default/default.js

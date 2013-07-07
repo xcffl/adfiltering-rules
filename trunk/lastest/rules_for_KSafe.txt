@@ -3046,6 +3046,12 @@
 5,4,dnf.766.com/zhuanti/ny/*
 5,4,s2.img.766.com/*
 5,4,images.5d6d.net/cooperation/paipai/*
+5,4,www.5d6d.net/giftbox/giftbox.css
+5,4,hm.baidu.com/h.js
+5,4,www.5d6d.net/forumdata/cache/winGiftBoxData.js
+5,4,potplayer.5d6d.net/include/js/googleAfs.js
+5,4,tcss.qq.com/ping.js
+5,4,www.5d6d.net/giftbox/checkenable.js
 5,4,*.yubaibai.com.cn/uploadfile/*
 5,4,mb2.yubaibai.com.cn/*/*/*.jpg
 5,4,mb2.yubaibai.com.cn/*/*/*.gif

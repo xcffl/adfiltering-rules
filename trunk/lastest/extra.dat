@@ -1,14 +1,16 @@
-﻿[rules_for_TPL.tpl]
-# 第一放映室
+[rules_for_TPL.tpl]
+English Only Please.
+# 2kk.cc
 -d rrr.youle55.com */rich/*
-# 乐游
+# 54jj.com
 -d www.5577.com */cmstop/*
 # viidii
 -d i48.tinypic.com */4vhkd1.gif
-# 不着调软件
+# bzdiao.com
 -d t1.qpic.cn */mblogpic/*
 -d pic.yupoo.com */heidongke_v/*.gif
-# 36氪
+# 36kr
+>>>>>>> .r1026
 -d a.36krcnd.com */photo/
 +d 36krcnd.com */photo/*!feature
 +d 36krcnd.com */photo/*.png
@@ -66,10 +68,10 @@
 +d facebook.com like.php
 +d akamaihd.net rsrc.php
 [urlfilter.ini]
-write extra rules for opera here
+Write extra rules for opera in English here.
 http://rrr.youle55.com/rich/*
 http://apas.aipai.com/*.swf*
 *.hdslb.com/u_user/*
 http://wan.duba.net/vDubaSideAdRoll_v1/script/default/default.js
-[filename.ext]
-write extra rules for filename.ext here
+[filename.txt]
+write extra rules for filename.txt here

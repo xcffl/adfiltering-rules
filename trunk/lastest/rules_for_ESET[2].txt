@@ -1046,6 +1046,12 @@ get.766.com/*.js
 dnf.766.com/zhuanti/ny/*
 s2.img.766.com/*
 images.5d6d.net/cooperation/paipai/*
+www.5d6d.net/giftbox/giftbox.css
+hm.baidu.com/h.js
+www.5d6d.net/forumdata/cache/winGiftBoxData.js
+potplayer.5d6d.net/include/js/googleAfs.js
+tcss.qq.com/ping.js
+www.5d6d.net/giftbox/checkenable.js
 *.yubaibai.com.cn/uploadfile/*
 mb2.yubaibai.com.cn/*/*/*.jpg
 mb2.yubaibai.com.cn/*/*/*.gif

@@ -1,10 +1,10 @@
 ![Liebao Adblock Rule]
 !Title:广告强效过滤规则
 !Author:AdFiltering-Rules Project
-!Updated:2013-07-06 00:33:27
+!Updated:2013-07-07 21:17:00
 !Version:1.0
 !Description:一个通用、全面的广告过滤规则
-!Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt
+!Url:http://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt
 !版本_5.1.5
 !规则主页：http://www.afrules.tk/
 !
@@ -2476,7 +2476,6 @@ bannerad
 ##.gg	$d=dage.cc
 ##[class^="ad"]	$d=dage.cc
 !----cnBeta----
-##EM	$d=cnbeta.com
 ##fm_r	$d=cnbeta.com
 ##votes	$d=cnbeta.com
 /:\/\/([^\/]+\.)?img\.cnbeta\.com\/\*300\.gif/
@@ -4278,6 +4277,12 @@ bannerad
 /:\/\/([^\/]+\.)?s2\.img\.766\.com\/\*/
 !----我的领地----
 /:\/\/([^\/]+\.)?images\.5d6d\.net\/cooperation\/paipai\/\*/
+/:\/\/([^\/]+\.)?www\.5d6d\.net\/giftbox\/giftbox\.css/
+/:\/\/([^\/]+\.)?hm\.baidu\.com\/h\.js/
+/:\/\/([^\/]+\.)?www\.5d6d\.net\/forumdata\/cache\/winGiftBoxData\.js/
+/:\/\/([^\/]+\.)?potplayer\.5d6d\.net\/include\/js\/googleAfs\.js/
+/:\/\/([^\/]+\.)?tcss\.qq\.com\/ping\.js/
+/:\/\/([^\/]+\.)?www\.5d6d\.net\/giftbox\/checkenable\.js/
 !----鱼摆摆网店装修网----
 /\*\.yubaibai\.com\.cn\/uploadfile\/\*/
 /:\/\/([^\/]+\.)?mb2\.yubaibai\.com\.cn\/\*\/\*\/\*\.jpg/

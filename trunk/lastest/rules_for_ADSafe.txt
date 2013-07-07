@@ -1,8 +1,8 @@
 !*headbegin
 !*title=广告强效过滤规则
 !*author=AdFiltering-Rules Project
-!*lastmodify=2013-07-02 12:33:19
-!*itemcount=4469
+!*lastmodify=2013-07-07 21:17:00
+!*itemcount=4474
 !*headend
 !Expires: 3 days
 !版本_5.1.5
@@ -2340,7 +2340,6 @@ www.gfan.com##.banner
 %dage.cc##.gg
 %dage.cc@@[class^="ad"]
 !----cnBeta----
-%cnbeta.com@@EM
 %cnbeta.com###fm_r
 %cnbeta.com###votes
 |img.cnbeta.com/*300.gif$$auto
@@ -4134,6 +4133,12 @@ font.68psd.com@@TABLE[width="100%"]
 |s2.img.766.com/$$auto
 !----我的领地----
 |images.5d6d.net/cooperation/paipai/$$auto
+|www.5d6d.net/giftbox/giftbox.css$$auto
+|hm.baidu.com/h.js$$js
+|www.5d6d.net/forumdata/cache/winGiftBoxData.js$$js
+|potplayer.5d6d.net/include/js/googleAfs.js$$js
+|tcss.qq.com/ping.js$$js
+|www.5d6d.net/giftbox/checkenable.js$$js
 !----鱼摆摆网店装修网----
 *.yubaibai.com.cn/uploadfile/$$auto
 |mb2.yubaibai.com.cn/*/*/*.jpg$$auto

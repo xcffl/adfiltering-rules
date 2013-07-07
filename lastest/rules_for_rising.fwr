@@ -3052,6 +3052,12 @@
 		<rule Type="0" url="dnf.766.com/zhuanti/ny/*"/>
 		<rule Type="0" url="s2.img.766.com/*"/>
 		<rule Type="0" url="images.5d6d.net/cooperation/paipai/*"/>
+		<rule Type="0" url="www.5d6d.net/giftbox/giftbox.css"/>
+		<rule Type="0" url="hm.baidu.com/h.js"/>
+		<rule Type="0" url="www.5d6d.net/forumdata/cache/winGiftBoxData.js"/>
+		<rule Type="0" url="potplayer.5d6d.net/include/js/googleAfs.js"/>
+		<rule Type="0" url="tcss.qq.com/ping.js"/>
+		<rule Type="0" url="www.5d6d.net/giftbox/checkenable.js"/>
 		<rule Type="0" url="*.yubaibai.com.cn/uploadfile/*"/>
 		<rule Type="0" url="mb2.yubaibai.com.cn/*/*/*.jpg"/>
 		<rule Type="0" url="mb2.yubaibai.com.cn/*/*/*.gif"/>

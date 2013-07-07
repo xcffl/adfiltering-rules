@@ -1,7 +1,7 @@
-﻿msFilterList
+msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-07-02 12:33:19
+#Updated:2013-07-07 21:17:00
 #Description:一个通用、全面的广告过滤规则
 : Expires=3
 #版本_5.1.5
@@ -3730,6 +3730,12 @@
 -d s2.img.766.com
 #----我的领地----
 -d images.5d6d.net /cooperation/paipai/
+-d www.5d6d.net /giftbox/giftbox.css
+-d hm.baidu.com /h.js
+-d www.5d6d.net /forumdata/cache/winGiftBoxData.js
+-d potplayer.5d6d.net /include/js/googleAfs.js
+-d tcss.qq.com /ping.js
+-d www.5d6d.net /giftbox/checkenable.js
 #----鱼摆摆网店装修网----
 - *.yubaibai.com.cn/uploadfile/
 -d mb2.yubaibai.com.cn /*/*.jpg
@@ -4800,6 +4806,21 @@
 +d cbjs.baidu.com /js/m.js
 +d cb.baidu.com 
 #-------------待分类-------------
+English Only Please.
+# 2kk.cc
+-d rrr.youle55.com */rich/*
+# 54jj.com
+-d www.5577.com */cmstop/*
+# viidii
+-d i48.tinypic.com */4vhkd1.gif
+# bzdiao.com
+-d t1.qpic.cn */mblogpic/*
+-d pic.yupoo.com */heidongke_v/*.gif
+# 36kr
+>>>>>>> .r1026
+-d a.36krcnd.com */photo/
++d 36krcnd.com */photo/*!feature
++d 36krcnd.com */photo/*.png
 # vmanhua
 -d static.vmanhua.com */v3/image/front/comic/*
 -d manhua.weibo.com */noif/fcgh*
@@ -4853,7 +4874,3 @@
 +d facebook.com likebox.php
 +d facebook.com like.php
 +d akamaihd.net rsrc.php
-# 36氪
--d a.36krcnd.com */photo/
-+d 36krcnd.com */photo/*!feature
-+d 36krcnd.com */photo/*.png

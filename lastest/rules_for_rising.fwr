@@ -2924,6 +2924,7 @@
 		<rule Type="0" url="www.haoting.com/adad/*"/>
 		<rule Type="0" url="*.imanhua.com/*/nmoneys/*"/>
 		<rule Type="0" url="*.imanhua.com/*/money/*"/>
+		<rule Type="0" url="*.imanhua.com/*/moneys/*"/>
 		<rule Type="0" url="static.valu.cn/*x*_*.swf"/>
 		<rule Type="0" url="www.myrice.com/d/js/*"/>
 		<rule Type="0" url="www.pashu.org/js/xiaza*.js"/>
@@ -3551,6 +3552,7 @@
 		<rule Type="0" url="*.baidu.com/ecom*&*_*"/>
 		<rule Type="0" url="top.baidu.com/js/nsclick.js"/>
 		<rule Type="0" url="c.baidu.com/*"/>
+		<rule Type="0" url="static.tieba.baidu.com/tb/cms/img/tieba_index_banner960x90.png"/>
 		<rule Type="0" url="sclick.baidu.com/*"/>
 		<rule Type="0" url="*.hao123.com/images/ua2.gif"/>
 		<rule Type="0" url="gimg.baidu.com/img/*pic/*"/>

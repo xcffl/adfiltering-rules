@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-07-07 21:17:00
+#Updated:2013-07-08 11:20:24
 #Description:一个通用、全面的广告过滤规则
 : Expires=3
 #版本_5.1.5
@@ -3548,6 +3548,7 @@ msFilterList
 #----爱漫画----
 - *.imanhua.com/*/nmoneys/
 - *.imanhua.com/*/money/
+- *.imanhua.com/*/moneys/
 #----ICP备案查询网----
 -d static.valu.cn x*_*.swf
 #----多米网----
@@ -4518,6 +4519,7 @@ msFilterList
 - *.baidu.com/ecom*&*_
 -d top.baidu.com /js/nsclick.js
 -d c.baidu.com
+-d static.tieba.baidu.com /tb/cms/img/tieba_index_banner960x90.png
 -d sclick.baidu.com
 - *.hao123.com/images/ua2.gif
 -d gimg.baidu.com /img/*pic/

@@ -2918,6 +2918,7 @@
 5,4,www.haoting.com/adad/*
 5,4,*.imanhua.com/*/nmoneys/*
 5,4,*.imanhua.com/*/money/*
+5,4,*.imanhua.com/*/moneys/*
 5,4,static.valu.cn/*x*_*.swf
 5,4,www.myrice.com/d/js/*
 5,4,www.pashu.org/js/xiaza*.js
@@ -3545,6 +3546,7 @@
 5,4,*.baidu.com/ecom*&*_*
 5,4,top.baidu.com/js/nsclick.js
 5,4,c.baidu.com/*
+5,4,static.tieba.baidu.com/tb/cms/img/tieba_index_banner960x90.png
 5,4,sclick.baidu.com/*
 5,4,*.hao123.com/images/ua2.gif
 5,4,gimg.baidu.com/img/*pic/*

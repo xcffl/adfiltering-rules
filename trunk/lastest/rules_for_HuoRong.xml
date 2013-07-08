@@ -14602,6 +14602,11 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>*.imanhua.com/*/moneys/*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path>static.valu.cn/*x*_*.swf</path>
 <object>*</object>
 </analyzer>
@@ -17733,6 +17738,11 @@
 <analyzer>
 <type>Http</type>
 <path>c.baidu.com/*</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
+<path>static.tieba.baidu.com/tb/cms/img/tieba_index_banner960x90.png</path>
 <object>*</object>
 </analyzer>
 <analyzer>

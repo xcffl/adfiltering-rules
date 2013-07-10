@@ -226,7 +226,7 @@ def writeRule(filePath, lines):
       line = re.sub(r'--!$', '--!', line)
       line = re.sub(u'!Description:一个通用、全面的广告过滤规则', u'''!Version:1.0
 !Description:一个通用、全面的广告过滤规则
-!Url:http://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_liebao.txt''', line)
+!Url:http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_liebao.txt''', line)
       result.append(line)
     elif line.find('#') >= 0:
       # 如果是元素隐藏规则

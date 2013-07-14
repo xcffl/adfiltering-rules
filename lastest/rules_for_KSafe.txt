@@ -3333,6 +3333,7 @@
 5,4,*.jpunion.com/*
 5,4,img.kaixin001.com.cn/js/cpm*.js
 5,4,*.ktxp.com/javascripts/nmjui/*
+5,4,bt.ktxp.com/iframe/statistics.js
 5,4,pic.fengniao.com/*
 5,4,bbs.fengniao.com/pic/baidu.html
 5,4,bbs.fengniao.com/forum/clientscript/vbb_scroll.js

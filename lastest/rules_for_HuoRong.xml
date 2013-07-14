@@ -16677,6 +16677,11 @@
 </analyzer>
 <analyzer>
 <type>Http</type>
+<path>bt.ktxp.com/iframe/statistics.js</path>
+<object>*</object>
+</analyzer>
+<analyzer>
+<type>Http</type>
 <path>pic.fengniao.com/*</path>
 <object>*</object>
 </analyzer>

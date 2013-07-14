@@ -1,5 +1,9 @@
 [rules_for_TPL.tpl]
 English Only Please.
+# meishitianxia
++d cnzz.net */cs.php*
++d cnzz.net */api.php*
++d cnzz.net png
 # 2kk.cc
 -d rrr.youle55.com */rich/*
 # 54jj.com

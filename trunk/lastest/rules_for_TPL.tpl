@@ -1,7 +1,7 @@
 msFilterList
 #Title:广告强效过滤规则
 #Author:AdFiltering-Rules Project
-#Updated:2013-07-08 11:20:24
+#Updated:2013-07-14 10:54:51
 #Description:一个通用、全面的广告过滤规则
 : Expires=3
 #版本_5.1.5
@@ -4166,6 +4166,7 @@ msFilterList
 -d img.kaixin001.com.cn /js/cpm*.js
 #----极影动漫----
 - *.ktxp.com/javascripts/nmjui/
+-d bt.ktxp.com /iframe/statistics.js
 #----蜂鸟网----
 -d pic.fengniao.com
 -d bbs.fengniao.com /pic/baidu.html

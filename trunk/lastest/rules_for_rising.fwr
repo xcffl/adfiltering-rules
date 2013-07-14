@@ -3339,6 +3339,7 @@
 		<rule Type="0" url="*.jpunion.com/*"/>
 		<rule Type="0" url="img.kaixin001.com.cn/js/cpm*.js"/>
 		<rule Type="0" url="*.ktxp.com/javascripts/nmjui/*"/>
+		<rule Type="0" url="bt.ktxp.com/iframe/statistics.js"/>
 		<rule Type="0" url="pic.fengniao.com/*"/>
 		<rule Type="0" url="bbs.fengniao.com/pic/baidu.html"/>
 		<rule Type="0" url="bbs.fengniao.com/forum/clientscript/vbb_scroll.js"/>

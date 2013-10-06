@@ -4,8 +4,64 @@
   </ModulePrefs>
   <Content type="html"> 
   <![CDATA[ 
-<a href="abp:subscribe?location=http%3A%2F%2Frules.adfiltering-rules.asia%2Fsvn%2Ftrunk%2Flastest%2Frules_for_ABP.txt&title=%E5%B9%BF%E5%91%8A%E5%BC%BA%E6%95%88%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99">点击订阅</a>
-
+<div id="tabs" class="st_horizontal">
+<div class="st_tabs_container"><a href="#prev" class="st_prev"></a>
+<div style="overflow: auto" class="st_slide_container">
+<ul class="st_tabs">
+<li><a href="#download" rel="tab_1" class="st_tab st_first_tab st_tab_active">下载</a></li>
+<li><a href="#abp" rel="tab_2" class="st_tab">Adblock Plus</a></li>
+<li><a href="#adblock" rel="tab_3" class="st_tab">Adblock</a></li>
+<li><a href="#coolnovo" rel="tab_4" class="st_tab">枫树浏览器(CoolNovo)</a></li>
+<li><a href="#sogou" rel="tab_5" class="st_tab">搜狗浏览器</a></li>
+<li><a href="#ie" rel="tab_5" class="st_tab">TPL(IE9+)</a></li>
+<li><a href="#adsafe" rel="tab_5" class="st_tab">ADSafe广告管家</a></li>
+</ul></div><a href="#next" class="st_next"></a></div>
+<div class="st_view_container">
+<div class="st_view">
+<div style="position: absolute; font-family: '微软雅黑'" id="download" class="st_tab_view st_first_tab_view st_active_view">
+<ol>
+<p>金山：<a title="" href="http://down.adfiltering-rules.asia/KSafe.php">下载</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;猎豹浏览器：<a href="http://bbs.liebao.cn/thread-34399-1-1.html">获取</a></p>
+<p>卡巴斯基：<a title="" href="http://down.adfiltering-rules.asia/Kaspersky.php">下载</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ESET Nod32：<a href="http://down.adfiltering-rules.asia/ESET_Nod32%5B1%5D.php" target="_blank" onclick="window.open('http://down.adfiltering-rules.asia/ESET_Nod32%5B2%5D.php','_parent')">下载</a>&nbsp;ESET版由于功能限制而分成两个包，将弹出2个下载窗口，务必都下载导入</p>
+<p>urlfilter.ini（Opera过滤规则）：<a title="" href="http://down.adfiltering-rules.asia/Opera.ini.php">下载</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; urlfilter.css（Opera/IE元素隐藏）：<a title="" href="http://down.adfiltering-rules.asia/Opera.css.php">下载</a></p>
+<p>360网盾：<a href="http://down.adfiltering-rules.asia/360.php">下载</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Adblock Pro（不是ABP）：<a title="" href="http://down.adfiltering-rules.asia/Adblock_Pro.php">下载</a></p>
+<p>火绒：<a title="" href="http://down.adfiltering-rules.asia/HuoRong.php">下载</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Avast!（不推荐）：<a title="" href="http://down.adfiltering-rules.asia/Avast.php">下载</a>
+</ol></div>
+<div style="position: absolute; display: none" id="abp" class="st_tab_view">
+<p class="Tips"><em>本方法支持Firefox/Chrome/Andriod，ABP for Opera 类同其他浏览器的 Adblock 的订阅方法（需安装Adblock Plus扩展/应用）。</em></p>
+<p><strong><a href="abp:subscribe?location=http%3A%2F%2Frules.adfiltering-rules.asia%2Fsvn%2Ftrunk%2Flastest%2Frules_for_ABP.txt&title=%E5%B9%BF%E5%91%8A%E5%BC%BA%E6%95%88%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99">点击订阅</a></strong></p>
+<p><strong>火狐浏览器(Mozilla Firefox)</strong></p>
+<p><img alt="" src="index_files/dingyue_firefox.png" /></p>
+<p><strong>谷歌浏览器(Google Chrome)/Opera</strong></p>
+<p><img alt="" src="index_files/dingyue_chrome.png" /></p>  </div>
+<div style="position: absolute; display: none" id="adblock" class="st_tab_view">
+<p class="Tips"><em>本方法支持Safari，Adblock for Opera/Chrome 类同其他浏览器的 ABP 的订阅方法（需安装Adblock扩展）。</em></p>
+<p><strong>Adblock的订阅需要手动进行。</p></strong>
+<p>1.如果是Chrome，首先，向右拖动<a href="chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/options/index.html">这里</a>。其他浏览器请打开Adblock扩展首选项/设置。</p>
+<p>2.然后，切换到“过滤清单”标签，复制广告强效过滤规则的订阅地址<textarea style="width: 319px; height: 40px" name="rules" cols="" rows="">http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_ABP.txt</textarea>
+，并粘贴到“或输入过滤清单网址：”右边的文本框中即可。</p>
+<p><img alt="" src="index_files/adblock.png" /></p>  </div>
+<div style="position: absolute; display: none" id="coolnovo" class="st_tab_view">
+<p>枫树浏览器（CoolNovo）自带了广告过滤功能。按照以下步骤即可订阅：</p>
+<p>1.向右拖动<a href="chrome://settings/addAddblockListPage">这里</a>，
+打开广告过滤规则订阅窗口。</p>
+<p>2.选择最下方的”自定义“，复制广告强效过滤规则的订阅地址<textarea style="width: 319px; height: 40px" name="rules" cols="" rows="">http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_ABP.txt</textarea>
+，并粘贴到“自定义”右边的文本框中。</p>
+<p>3.点击”下载订阅“即可</p>
+<p><img src="index_files/dingyue_chromeplus.png" alt="" height="" width="800" /></p></div>
+<div style="position: absolute; display: none" id="sogou" class="st_tab_view">
+<p>1.点击搜狗浏览器工具栏中的”工具箱“，选择”广告过滤“，再选择”订阅过滤规则库“。</p>
+<p>2.在弹出的标签页中的“ 订阅Firefox Adblock Plus的过滤清单:
+”中复制粘贴入广告强效过滤规则的订阅地址<textarea style="width: 324px; height: 40px" name="rules" cols="" rows="">http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_ABP.txt</textarea>。</p>
+<p>3.点击“添加URL”即可。</p><img src="index_files/dingyue_sogouie.png" alt="" height="" width="800" /></div>
+<div style="position: absolute; display: none" id="ie" class="st_tab_view">
+<p class="Tips"><em>注意：这个版本只能过滤第三方广告。</em></p>
+<p>如果你使用的是Internet Explorer 9以上的Internet Explorer浏览器则可<input value="点击这里" onclick="window.external.msAddTrackingProtectionList('http://rules.adfiltering-rules.asia/svn/trunk/lastest/rules_for_TPL.tpl','广告强效过滤规则 for TPL');" type="button" />添加订阅到TPL（跟踪保护）中。</p>
+<p><img src="index_files/dingyue_TPL.png" alt="" height="250" width="354" /></p></div>
+<div style="position: absolute; display: none" id="adsafe" class="st_tab_view">
+<p>本规则已被ADSafe广告管家收录。只需在管家订阅规则页面，勾选本规则，点击“应用”即可。</p>
+<p><img src="index_files/ADSafe.PNG" alt="" height="250" width="354" /></p>
+</div></div>
+</div></div></div>
   ]]> 
   </Content> 
   

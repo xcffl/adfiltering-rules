@@ -10,31 +10,31 @@
 <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/18376132045800511552/css/d_ie.css" >
 <![endif]-->
 <h2 style="margin-top: 20px;">订阅</h2>
-<h3 style="margin-top: 10px;">Adblock Plus<a>
+<h3 style="margin-top: 10px;">Adblock Plus<a></h3>
 <p class="Tips"><em>本方法支持Firefox/Chrome/Andriod，ABP for Opera 类同其他浏览器的 Adblock 的订阅方法（需安装Adblock Plus扩展/应用）。</em></p>
 <p><strong><a href="abp:subscribe?location=https%3A%2F%2Fadfiltering-rules.googlecode.com%2Fsvn%2Ftrunk%2Flastest%2Frules_for_ABP.txt&amp;title=%E5%B9%BF%E5%91%8A%E5%BC%BA%E6%95%88%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99">点击订阅</a></strong></p>
-<h3 style="margin-top: 10px;">Adblock<a>
+<h3 style="margin-top: 10px;">Adblock<a></h3>
 <p class="Tips"><em>本方法支持Safari，Adblock for Opera/Chrome 类同其他浏览器的 ABP 的订阅方法（需安装Adblock扩展）。</em></p>
 <p><strong>Adblock的订阅需要手动进行。</p></strong>
 <p>1.如果是Chrome，首先，向右拖动<a href="chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/options/index.html">这里</a>。其他浏览器请打开Adblock扩展首选项/设置。</p>
 <p>2.然后，切换到“过滤清单”标签，复制广告强效过滤规则的订阅地址<textarea style="width: 319px; height: 40px" name="rules" cols="" rows="">https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_ABP.txt</textarea>
 ，并粘贴到“或输入过滤清单网址：”右边的文本框中即可。</p>
-<h3 style="margin-top: 10px;">枫树浏览器<a>
+<h3 style="margin-top: 10px;">枫树浏览器<a></h3>
 <p>枫树浏览器（CoolNovo）自带了广告过滤功能。按照以下步骤即可订阅：</p>
 <p>1.向右拖动<a href="chrome://settings/addAddblockListPage">这里</a>，
 打开广告过滤规则订阅窗口。</p>
 <p>2.选择最下方的”自定义“，复制广告强效过滤规则的订阅地址<textarea style="width: 319px; height: 40px" name="rules" cols="" rows="">https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_ABP.txt</textarea>
 ，并粘贴到“自定义”右边的文本框中。</p>
 <p>3.点击”下载订阅“即可</p>
-<h3 style="margin-top: 10px;">搜狗浏览器<a>
+<h3 style="margin-top: 10px;">搜狗浏览器<a></h3>
 <p>1.点击搜狗浏览器工具栏中的”工具箱“，选择”广告过滤“，再选择”订阅过滤规则库“。</p>
 <p>2.在弹出的标签页中的“ 订阅Firefox Adblock Plus的过滤清单:
 ”中复制粘贴入广告强效过滤规则的订阅地址<textarea style="width: 324px; height: 40px" name="rules" cols="" rows="">https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_ABP.txt</textarea>。</p>
 <p>3.点击“添加URL”即可。</p><img src="index_files/dingyue_sogouie.png" alt="" height="" width="800" /></div>
-<h3 style="margin-top: 10px;">TPL for IE9+|跟踪保护<a>
+<h3 style="margin-top: 10px;">TPL for IE9+|跟踪保护<a></h3>
 <p class="Tips"><em>注意：这个版本只能过滤第三方广告。</em></p>
 <p>如果你使用的是Internet Explorer 9以上的Internet Explorer浏览器则可<input value="点击这里" onclick="window.external.msAddTrackingProtectionList('https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_TPL.tpl','广告强效过滤规则 for TPL');" type="button" />添加订阅到TPL（跟踪保护）中。</p>
-<h3 style="margin-top: 10px;">下载<a>
+<h3 style="margin-top: 10px;">下载<a></h3>
 <p>金山：<a title="" href="https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_KSafe.txt">下载</a></p>
 <p>猎豹浏览器：<a href="http://bbs.liebao.cn/thread-34399-1-1.html">获取</a></p>
 <p>卡巴斯基：<a title="" href="https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_Kaspersky.txt">下载</a></p>

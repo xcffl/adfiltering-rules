@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+  <ModulePrefs title="SlideShare" title_url="http://www.slideshare.net" author="LaiYonghao" author_email="mail@laiyonghao.com" author_affiliation="SlideShare" author_location="Guangzhou, China" description="Share SlideShare on your google code wiki page." author_link="http://laiyonghao.com" height="320"> 
+  </ModulePrefs>
+  <Content type="html"> 
+  <![CDATA[ 
+<a href="abp:subscribe?location=http%3A%2F%2Frules.adfiltering-rules.asia%2Fsvn%2Ftrunk%2Flastest%2Frules_for_ABP.txt&title=%E5%B9%BF%E5%91%8A%E5%BC%BA%E6%95%88%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99">点击订阅</a>
+
+  ]]> 
+  </Content> 
+  
+</Module>

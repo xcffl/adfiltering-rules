@@ -1,0 +1,390 @@
+﻿﻿﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh_cn" dir="ltr" lang="zh_cn"><head>
+	<title>获取广告强效过滤规则</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+			
+			
+			
+			
+			
+			
+	<link rel="StyleSheet" href="index_files/styles.css" type="text/css">		
+			
+	<script type="text/javascript" src="index_files/jquery.js"></script>
+<script type="text/javascript">  
+  jQuery.noConflict();
+  jQuery(document).ready(function()
+  {
+    jQuery('#tabs').slideTabs({
+      // Options
+      contentAnim: 'slideH',
+      contentAnimTime: 600,
+      contentEasing: 'easeInOutExpo',
+      tabsAnimTime: 300
+    });
+  });
+</script>
+
+<style type="text/css">
+h2
+{
+  margin-top: 0px !important;
+}
+
+#intro
+{
+  font-size: 150%;
+  color: #a9a9a9;
+  line-height: normal;
+  margin: 20px 0px;
+}
+
+#intro em
+{
+  color: #000000;
+}
+
+.st_horizontal { /* The main container */
+	clear:both;
+	color:#616161;
+}
+
+/* Control buttons
+------------------------------------------------------------------------------------- */
+.st_horizontal .st_prev,
+.st_horizontal .st_next { /* Directional buttons (previous/next) */
+	position:absolute;
+	top:0px;
+	z-index:110;
+	display:none;
+	height:38px;
+	width:39px;
+	border:1px solid #d4d4d4;
+	outline:none;
+  text-decoration: none;
+  text-align: center;
+  font-size: 38px;
+  color: #808080;
+  font-weight: bold;
+}
+.st_horizontal .st_prev:before
+{
+  content: "\3C";
+}
+.st_horizontal .st_next:before
+{
+  content: "\3E";
+}
+
+
+.st_horizontal .st_prev { /* Previous button */
+	left:0px;
+	border-top-left-radius:4px;
+	-moz-border-radius-topleft:4px;
+	-webkit-border-top-left-radius:4px;
+}
+
+.st_horizontal .st_prev:hover { /* Previous button hover */
+	background-position:-50px 13px;
+	background-color:#f5f5f5;
+}
+
+.st_horizontal .st_next { /* Next button */
+	right:0px;
+	border-top-right-radius:4px;
+	-moz-border-radius-topright:4px;
+	-webkit-border-top-right-radius:4px;
+}
+
+.st_horizontal .st_next:hover { /* Next button hover */
+	background-position:-49px -14px;
+	background-color:#f5f5f5;
+}
+
+.st_horizontal .st_prev.st_btn_disabled,
+.st_horizontal .st_next.st_btn_disabled { /* Previous and next buttons disabled state */
+	cursor:default;
+	background-color:#f7f7f7;
+}
+
+.st_horizontal .st_prev.st_btn_disabled { /* Previous button disabled state */
+	background-position:-113px 13px;
+}
+
+.st_horizontal .st_next.st_btn_disabled { /* Next button disabled state */
+	background-position:-112px -14px;
+}
+
+/* Tabs
+------------------------------------------------------------------------------------- */
+.st_horizontal .st_tabs_container { /* Tabs main container */
+	position:relative;
+	z-index:100;
+	width:100% !important;
+	height:40px;
+	margin-bottom:-1px;
+	overflow:auto;
+}
+
+.st_horizontal .st_slide_container { /* Tabs slide-container */
+	position:relative !important; /* The tabs position will be calculated from ul.tabs first parent element with position:relative */
+}
+
+.st_horizontal .st_sliding_active .st_slide_container { /* The .st_sliding_active class is added to the .st_tabs_container element when tab sliding is activated */
+	margin:0px 40px; /* Adds side margins to make space for the arrow buttons */
+}
+
+.st_horizontal ul.st_tabs { /* Tabs unordered list */
+	width:10000px; /* Set to an arbitrary high value */
+	height:40px;
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+.st_horizontal ul.st_tabs li { /* Tab list elements */
+	float:left;
+}
+
+.st_horizontal ul.st_tabs li a { /* Tab links */
+	display:block;
+	margin:0px;
+	padding:10px 20px;
+	line-height:18px; /* Aligns the tabs to the bottom of the content container */
+	color:#6a6a6a;
+	font-size: 70%;
+	font-weight:bold;
+	text-decoration:none;
+	outline:none;
+	border-top:1px solid #d4d4d4;
+	border-right:1px solid #d4d4d4;
+	border-bottom:1px solid #d4d4d4;
+	background:#fff url(../img/h_tab_bg.jpg) repeat-x 0px bottom;
+}
+.st_horizontal ul.st_tabs li a:lang(ko),
+.st_horizontal ul.st_tabs li a:lang(zh_TW),
+.st_horizontal ul.st_tabs li a:lang(zh_CN) {
+  font-size: 90%;
+}
+
+.st_horizontal ul.st_tabs a:hover { /* Tabs hover state */
+	color:#333;
+}
+
+.st_horizontal ul.st_tabs li .st_first_tab {
+	border-left:1px solid #d4d4d4;
+}
+
+.st_horizontal ul.st_tabs .st_tab_active { /* Tab active/highlighted state */
+	color:#1ca5ec;
+	border-bottom-color:#fff;
+	background:#fff;
+}
+
+/* Content
+------------------------------------------------------------------------------------- */
+.st_horizontal .st_view_container { /* Main content container */
+	position:relative;
+	z-index:5;
+	height:277px;
+	padding:20px 20px 23px; /* Set the padding for the content here */
+	border:1px solid #d4d4d4;
+	background-color:#fff;
+	overflow:auto; /* To make the content scroll if Javascript is disabled, set to: auto */
+}
+
+.st_horizontal .st_view { /* Slide-container for the content */
+	position:relative;
+	height:100%;
+	overflow:auto;
+}
+
+.st_horizontal .st_tab_view { /* Individual content containers */
+	display:none; /* Hides the content when Javascript is disabled */
+	width:100%;
+}
+
+.st_horizontal .st_first_tab_view {
+	display:block;
+}
+
+/* Bottom aligned tabs
+------------------------------------------------------------------------------------- */
+.st_horizontal.align_bottom .st_prev,
+.st_horizontal.align_bottom .st_next { /* Directional buttons (previous/next) */
+	border-bottom:1px solid #d4d4d4;
+}
+
+.st_horizontal.align_bottom .st_prev { /* Previous button */
+	/* Reset top borders */
+	border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	/* Set bottom borders */
+	border-bottom-left-radius:4px;
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-bottom-left-radius:4px;
+}
+
+.st_horizontal.align_bottom .st_next { /* Next button */
+	/* Reset top borders */
+	border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	/* Set bottom borders */
+	border-bottom-right-radius:4px;
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;
+}
+
+.st_horizontal.align_bottom .st_tabs_container { /* Tabs main container */
+	position:absolute; /* Absolute position the tabs container at the bottom of the main container */
+	bottom:-39px;
+	left:0px;
+	margin-bottom:0px;
+}
+
+.st_horizontal.align_bottom ul.st_tabs .st_tab_active { /* Tab active/highlighted state */
+	border-top-color:#fff;
+	border-bottom-color:#d4d4d4;
+}
+</style>
+	
+	
+	
+			
+	<script type="text/javascript">
+var g_anwcfg = new Array();
+g_anwcfg["lock_renewrate"] = "20";
+g_anwcfg["lock_expirealert"] = "180";
+g_anwcfg["lock_countdowninterval"] = "5";
+
+var g_pagename="zh_CN/index";
+var g_actionpageurl="/zh_CN/index";
+var g_actionurl="/";</script>
+</head>
+
+<body dir="ltr">
+	
+
+
+<span class="menu-close1"></span>
+<span class="menu-close2"></span>
+</div><!-- end menu-container -->
+    </div><!-- topmenu -->
+
+  </div><!-- end header -->
+
+
+<blockquote>
+  <h1>   获取广告强效过滤规则</h1>
+</blockquote>
+<div id="intro"> 
+  <blockquote>
+    <p> 在本页可订阅广告强效过滤规则。这是一个通用、全面的广告过滤规则，适用于大多数广告过滤软件。在每个标签页中都有详尽的订阅教程，请选择您使用的广告过滤软件进行获取。</p>
+    <p>  本次获取后，订阅的规则将持续自动更新到最新版，无需重新订阅；下载的规则在每次更新后需要手动重新下载以更新。</p>
+    <p>  让使用更加方便、简单，网页浏览更加清爽。<em>如果您也喜欢它，就请支持我们并分享这个规则吧。</em>
+<!-- 将此标记放在您希望显示like按钮的位置 -->
+<div class="bdlikebutton"></div>
+
+<!-- 将此代码放在适当的位置，建议在body结束前 -->
+<script id="bdlike_shell"></script>
+<script>
+var bdShare_config = {
+	"type":"large",
+	"color":"blue",
+	"uid":"448586",
+	"share":"yes"
+};
+document.getElementById("bdlike_shell").src="http://bdimg.share.baidu.com/static/js/like_shell.js?t=" + new Date().getHours();
+</script>
+  </blockquote>
+</div>
+
+<div id="tabs" class="st_horizontal">
+  <div class="st_tabs_container">
+    <a href="#prev" class="st_prev"></a>
+    <div style="overflow: auto;" class="st_slide_container">
+      <ul class="st_tabs">
+        <li><a href="#download" rel="tab_1" class="st_tab st_first_tab st_tab_active">下载</a></li>
+        <li><a href="#firefox" rel="tab_2" class="st_tab">Firefox</a></li>                                     
+        <li><a href="#chrome" rel="tab_3" class="st_tab">Chrome</a></li>
+        <li><a href="#coolnovo" rel="tab_4" class="st_tab">枫树浏览器(CoolNovo)</a></li>
+        <li><a href="#sogou" rel="tab_5" class="st_tab">搜狗浏览器</a></li>
+        <li><a href="#ie" rel="tab_5" class="st_tab">TPL(IE9+)</a></li>
+      </ul>
+    </div>
+    <a href="#next" class="st_next"></a>
+  </div>
+
+  <div class="st_view_container">                    
+    <div class="st_view">                 
+<div style="position: absolute; font-family: '微软雅黑';" id="download" class="st_tab_view st_first_tab_view st_active_view">
+        <p class="Tips">请在下面的“下载”按钮上右键→另存为以下载（不同浏览器可能操作略有不同）。
+        </p><ol>
+          <p><a href="http://ref.so/2xw1"><img src="http://xcffl.tk/adfilter/get/index_files/%E7%AE%AD%E5%A4%B4.png" alt="" height="12" width="10"></a>金山：<a href="https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_KSafe.txt">下载</a>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://ref.so/tesp"><img src="http://xcffl.tk/adfilter/get/index_files/%E7%AE%AD%E5%A4%B4.png" alt="" height="12" width="10"></a>卡巴斯基：<a href="https://adfiltering-rules.googlecode.com/svn/trunk/lastest/genera_rules.txt">下载</a></p>
+          <p><a href="http://ref.so/47wv"><img src="http://xcffl.tk/adfilter/get/index_files/%E7%AE%AD%E5%A4%B4.png" alt="" height="12" width="10"></a>ESET Nod32：<a href="https://adfiltering-rules.googlecode.com/svn/trunk/lastest/genera_rules.txt">下载</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://ref.so/hbnb"><img src="http://xcffl.tk/adfilter/get/index_files/%E7%AE%AD%E5%A4%B4.png" alt="" height="12" width="10"></a>Avast!：<a href="https://adfiltering-rules.googlecode.com/svn/trunk/lastest/WebShield.ini">下载</a></p>
+          <p><a href="http://ref.so/b5ml"><img src="http://xcffl.tk/adfilter/get/index_files/%E7%AE%AD%E5%A4%B4.png" alt="" height="12" width="10"></a>Opera：<a href="https://adfiltering-rules.googlecode.com/svn/trunk/lastest/urlfilter.ini">下载</a>&nbsp; &nbsp; &nbsp; &nbsp;  <p><a href="http://ref.so/b5ml"><img src="http://xcffl.tk/adfilter/get/index_files/%E7%AE%AD%E5%A4%B4.png" alt="" height="12" width="10"></a>360网盾：<a href="http://rules.wd.360.cn/tmpdata/rule.php?id=60546">下载</a></p>
+          <p><img src="http://xcffl.tk/adfilter/get/index_files/%E7%AE%AD%E5%A4%B4.png" alt="" height="12" width="10">Adblock Pro：<a href="https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_AB_PRO.txt">下载</a></p>
+          
+        </ol>
+        <p></p>
+      </div>
+            
+      <div style="position: absolute; display: none;" id="firefox" class="st_tab_view">
+        <p>使用火狐浏览器，只需<a href="abp:subscribe?location=https%3A%2F%2Fadfiltering-rules.googlecode.com%2Fsvn%2Ftrunk%2Flastest%2Frules_for_ABP.txt&amp;title=%E5%B9%BF%E5%91%8A%E5%BC%BA%E6%95%88%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99%20for%20ABP">点击这里</a>即可订阅。</p>
+        <p><img src="index_files/dingyue_firefox.png"></p>
+
+  
+      </div>
+
+      <div style="position: absolute; display: none;" id="chrome" class="st_tab_view">
+	    <p><b>使用Adblock Plus</b></p>
+<p>点击订阅：</p>
+        <p><a href="abp:subscribe?location=https%3A%2F%2Fadfiltering-rules.googlecode.com%2Fsvn%2Ftrunk%2Flastest%2Frules_for_ABP.txt&amp;title=%E5%B9%BF%E5%91%8A%E5%BC%BA%E6%95%88%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99%20for%20ABP">广告强效过滤规则 for ABP</a>               
+<p><img src="index_files/dingyue_chrome.png" alt=""/>
+<p><b>使用Adblock </b></p>
+<p>复制广告强效过滤规则的订阅地址<textarea style="width: 319px; height: 40px;" name="rules" cols="" rows="">https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_ABP.txt</textarea>并粘贴到相应位置订阅。</p>
+
+</div>
+
+      <div style="position: absolute; display: none;" id="coolnovo" class="st_tab_view">
+        <p>枫树浏览器（CoolNovo）自带了广告过滤功能。按照以下步骤即可订阅：
+        </p><p>1.向右拖动<a href="chrome://settings/addAddblockListPage">这里</a>，
+打开广告过滤规则订阅窗口。
+</p><p>2.选择最下方的”自定义“，复制广告强效过滤规则的订阅地址<textarea style="width: 319px; height: 40px;" name="rules" cols="" rows="">https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_ABP.txt</textarea>
+，并粘贴到“自定义”右边的文本框中。
+</p><p>3.点击”下载订阅“即可</p>
+<p><img src="index_files/dingyue_chromeplus.png" alt="" width="800" height="" />
+      </div>
+
+      <div style="position: absolute; display: none;" id="sogou" class="st_tab_view">
+        <p>1.点击搜狗浏览器工具栏中的”工具箱“，选择”广告过滤“，再选择”订阅过滤规则库“。
+        </p><p>2.在弹出的标签页中的“ 订阅Firefox Adblock Plus的过滤清单: 
+”中复制粘贴入广告强效过滤规则的订阅地址<textarea style="width: 324px; height: 40px;" name="rules" cols="" rows="">https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_ABP.txt</textarea>。
+</span></p><p>3.点击“添加URL”即可。</p>
+<img src="index_files/dingyue_sogouie.png" alt="" width="800" height="" /></div>
+
+      <div style="position: absolute; display: none;" id="ie" class="st_tab_view">
+        如果你使用的是Internet Explorer 9以上的Internet Explorer浏览器则可
+<input type="button" value="点击这里" onclick="window.external.msAddTrackingProtectionList('https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_TPL.tpl','广告强效过滤规则 for TPL');">添加订阅到TPL（跟踪保护）中。</p>
+<p><img src="index_files/dingyue_TPL.png" alt="" width="354" height="250" />
+</p>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+  </div><!-- end content --> 
+
+</div><!-- end container -->
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" id="UYScript" src="http://v1.uyan.cc/js/iframe.js?UYUserId=0" async=""></script>
+<!-- UY END -->
+
+
+</body></html>

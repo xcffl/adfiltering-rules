@@ -19,7 +19,7 @@
 <p>1.如果是Chrome，首先，向右拖动<a href="chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/options/index.html">这里</a>。其他浏览器请打开Adblock扩展首选项/设置。</p>
 <p>2.然后，切换到“过滤清单”标签，复制广告强效过滤规则的订阅地址<textarea style="width: 319px; height: 40px" name="rules" cols="" rows="">https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_ABP.txt</textarea>
 ，并粘贴到“或输入过滤清单网址：”右边的文本框中即可。</p>
-<h3 style="margin-top: 10px;">下载<a></h3>
+<h3 style="margin-top: 10px;">下载（请右键另存为i）<a></h3>
 <p>金山：<a title="" href="https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_KSafe.txt">下载</a></p>
 <p>猎豹浏览器：<a href="http://bbs.liebao.cn/thread-34399-1-1.html">获取</a></p>
 <p>卡巴斯基：<a title="" href="https://adfiltering-rules.googlecode.com/svn/trunk/lastest/rules_for_Kaspersky.txt">下载</a></p>
